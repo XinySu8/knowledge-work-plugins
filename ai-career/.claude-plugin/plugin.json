@@ -1,0 +1,8 @@
+{
+  "name": "ai-career",
+  "version": "0.1.0",
+  "description": "Decision workflows for AI job prep: JD triage, safe resume rewrite, and GitHub repo mining.",
+  "author": "XinyiSu8",
+  "tags": ["career", "jd", "resume", "github", "ai"],
+  "license": "MIT"
+}
