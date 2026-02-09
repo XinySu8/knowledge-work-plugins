@@ -15,21 +15,13 @@
   ],
     "domain_any": [
       "machine learning",
-      "ML",
-      "Machine Learning",
-      "ml",
-      "data",
-      "Data",
-      "Engineering",
-      "engineering",
-      "software engineer",
-      "Software",
-      "software",
-      "swe",
-      "research",
-      "ai",
-      "AI",
-      "LLM"
+    "ml",
+    "data",
+    "software engineer",
+    "swe",
+    "research",
+    "ai",
+    "llm"
     ],
     "include_all": [],
     "exclude_any": [
