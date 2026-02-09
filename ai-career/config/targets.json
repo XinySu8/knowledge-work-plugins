@@ -1,0 +1,24 @@
+{
+  "targets": [
+    {
+      "source": "greenhouse",
+      "company": "openai",
+      "board_token": "openai"
+    },
+    {
+      "source": "greenhouse",
+      "company": "anthropic",
+      "board_token": "anthropic"
+    },
+    {
+      "source": "lever",
+      "company": "spacex",
+      "lever_slug": "spacex"
+    },
+    {
+      "source": "lever",
+      "company": "databricks",
+      "lever_slug": "databricks"
+    }
+  ]
+}
