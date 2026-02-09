@@ -1,4 +1,54 @@
 {
+  "filters": {
+    "intership_any": [
+      "intern",
+    "internship",
+    "summer intern",
+    "co-op",
+    "coop",
+    "new grad",
+    "new graduate",
+    "university",
+    "student",
+    "early career",
+    "campus"
+  ],
+    "domain_any": [
+      "machine learning",
+      "ML",
+      "Machine Learning",
+      "ml",
+      "data",
+      "Data",
+      "Engineering",
+      "engineering",
+      "software engineer",
+      "Software",
+      "software",
+      "swe",
+      "research",
+      "ai",
+      "AI",
+      "LLM"
+    ],
+    "include_all": [],
+    "exclude_any": [
+      "principal",
+      "staff",
+      "sr.",
+      "senior",
+      "director",
+      "vp"
+    ],
+    "locations_any": [
+      "Remote",
+      "United States",
+      "In person",
+      "USA",
+      "US"
+    ],
+    "max_jobs_per_company": 200
+  },
   "targets": [
     {
       "source": "greenhouse",
