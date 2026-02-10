@@ -43,7 +43,7 @@
   },
   "targets": [
     {
-      "source": "greenhouse",
+      "source": "ashby",
       "company": "openai",
       "board_token": "openai"
     },
