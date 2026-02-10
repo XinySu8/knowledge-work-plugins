@@ -1,16 +1,16 @@
 {
-  "generated_at_utc": "2026-02-10T20:04:07.618444+00:00",
-  "fetched_count": 1629,
+  "generated_at_utc": "2026-02-10T22:04:06.645204+00:00",
+  "fetched_count": 1633,
   "filtered_count": 19,
   "count": 19,
   "per_company_fetched": {
-    "openai": 532,
-    "anthropic": 409,
+    "openai": 534,
+    "anthropic": 411,
     "databricks": 688
   },
   "per_source_fetched": {
-    "ashby": 532,
-    "greenhouse": 1097
+    "ashby": 534,
+    "greenhouse": 1099
   },
   "errors": [],
   "dropped_sample": [
@@ -309,9 +309,9 @@
       "company": "openai"
     },
     {
-      "id": "732f7af59d85fcb4",
+      "id": "511d4b8d7654db99",
       "reason": "excluded_keyword",
-      "title": "Senior Support Engineer - Dublin",
+      "title": "Enterprise Sales Manager ",
       "company": "openai"
     }
   ],
