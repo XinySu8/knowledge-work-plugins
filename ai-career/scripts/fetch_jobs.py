@@ -39,8 +39,25 @@ def _norm(s: str) -> str:
 def contains_any(text: str, keywords) -> bool:
     if not keywords:
         return True
-    t = _norm(text)
-    return any((_norm(k) in t) for k in keywords if isinstance(k, str) and k.strip())
+    t = (text or "")
+    for k in keywords:
+        if not (isinstance(k, str) and k.strip()):
+            continue
+        kk = k.strip()
+
+        # If it's a phrase (has space or hyphen), substring match is fine
+        if (" " in kk) or ("-" in kk):
+            if kk.lower() in t.lower():
+                return True
+            continue
+
+        # Single token: use word-boundary regex to avoid matching internal/international/paid/html etc.
+        pattern = r"\b" + re.escape(kk) + r"\b"
+        if re.search(pattern, t, flags=re.IGNORECASE):
+            return True
+
+    return False
+
 
 def apply_filters(jobs, filters):
     internship_any = filters.get("internship_any") or []
