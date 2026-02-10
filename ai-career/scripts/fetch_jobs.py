@@ -67,19 +67,28 @@ def apply_filters(jobs, filters):
 
 
         # 1) Must be internship-ish
-        # Prefer structured field when available (Ashby), fallback to keyword matching
-        # If source provides a structured employment type, use it
-        if (j.get("source") == "ashby") and (j.get("employment_type")):
-            if str(j.get("employment_type")).lower() != "intern":
-                dropped.append({"id": j.get("id"), "reason": "not_internship", "title": title, "company": j.get("company")})
-                continue
-        else:
-            # fallback: keyword-based internship check
-            if internship_any:
-                if not contains_any(title, internship_any):
-                    if not contains_any(haystack, internship_any):
-                        dropped.append({"id": j.get("id"), "reason": "not_internship", "title": title, "company": j.get("company")})
-                        continue
+        # Use Ashby structured field as a strong POSITIVE signal (not a veto),
+        # and always allow keyword-based fallback.
+        ashby_types = filters.get("ashby_internship_types") or []
+        ashby_types = {(_norm(x)) for x in ashby_types if isinstance(x, str) and x.strip()}
+
+        is_internship = False
+
+        # Strong positive signal from Ashby
+        if j.get("source") == "ashby" and j.get("employment_type") and ashby_types:
+            et = _norm(str(j.get("employment_type")).strip())
+            if et in ashby_types:
+                is_internship = True
+
+        # Keyword-based fallback (for non-Ashby sources OR when employment_type isn't helpful)
+        if not is_internship and internship_any:
+            if contains_any(title, internship_any) or contains_any(haystack, internship_any):
+                is_internship = True
+
+        if not is_internship:
+            dropped.append({"id": j.get("id"), "reason": "not_internship", "title": title, "company": j.get("company")})
+            continue
+
 
         # 2) Must match domain direction (ML/Data/SWE/AI...) in title or content
         if domain_any and not contains_any(haystack, domain_any):
