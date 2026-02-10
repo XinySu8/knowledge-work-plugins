@@ -37,5 +37,19 @@
     "rag",
     "transformer",
     "diffusion"
+  ],
+  "preferred_locations_any": [
+    "Seattle",
+    "Bellevue",
+    "Redmond",
+    "Kirkland",
+    "Denver",
+    "Boulder",
+    "Lafayette",
+    "Louisville",
+    "Broomfield",
+    "Westminster",
+    "Superior",
+    "Longmont"
   ]
 }
