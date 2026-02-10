@@ -11,14 +11,24 @@
       "university",
       "student",
       "early career",
-      "campus",
-      "summer"
+      "campus"
   ],
+    "ashby_internship_types": [
+      "intern", 
+      "internship"
+    ],
     "domain_any": [
+      "engineer",
+      "engineering",
       "machine learning",
       "ml",
       "data",
       "software engineer",
+      "software",
+      "cloud",
+      "distributed system",
+      "computer system",
+      "system engineer",
       "swe",
       "research",
       "ai",
