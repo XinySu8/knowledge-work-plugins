@@ -1,5 +1,395 @@
 # Scored job feed (auto)
-Generated at (UTC): 2026-02-10T17:15:14.493852+00:00
-Total jobs scored: 0
+Generated at (UTC): 2026-02-10T19:44:06.085025+00:00
+Total jobs scored: 222
 
 ## Top internships
+- [34] [databricks] Sr Data & AI Technical Solutions Engineer  (Sao Paulo, Brazil) — https://databricks.com/company/careers/open-positions/job?gh_jid=7330831002
+  - matched_titles: data, ai
+  - matched_skills_have: python, sql, spark, hadoop, aws
+  - matched_skills_want: gcp, azure, databricks
+- [31] [databricks] Solutions Architect : Data & AI (Pune, India) — https://databricks.com/company/careers/open-positions/job?gh_jid=7978098002
+  - matched_titles: data, ai
+  - matched_skills_have: python, spark, hadoop, aws
+  - matched_skills_want: gcp, azure, databricks
+- [31] [databricks] Solutions Architect : Data & AI (Bengaluru, India) — https://databricks.com/company/careers/open-positions/job?gh_jid=8349410002
+  - matched_titles: data, ai
+  - matched_skills_have: python, spark, hadoop, aws
+  - matched_skills_want: gcp, azure, databricks
+- [30] [databricks] AI Engineer - FDE (Forward Deployed Engineer) (United States) — https://databricks.com/company/careers/open-positions/job?gh_jid=8024010002
+  - matched_titles: ai
+  - matched_skills_have: sql, pytorch, scikit-learn, spark, aws
+  - matched_skills_want: gcp, azure, databricks
+  - matched_bonus: rag
+- [30] [databricks] Data Science Architect - Professional Services (Paris, France) — https://databricks.com/company/careers/open-positions/job?gh_jid=8383101002
+  - matched_titles: data
+  - matched_skills_have: python, pytorch, tensorflow, scikit-learn, spark, aws
+  - matched_skills_want: mlops, gcp, azure, databricks
+- [30] [databricks] AI Engineer - FDE (Forward Deployed Engineer) (Melbourne, Australia) — https://databricks.com/company/careers/open-positions/job?gh_jid=8330188002
+  - matched_titles: ai
+  - matched_skills_have: sql, pytorch, scikit-learn, spark, aws
+  - matched_skills_want: gcp, azure, databricks
+  - matched_bonus: rag
+- [30] [databricks] AI Engineer - FDE (Forward Deployed Engineer) (Sydney, Australia) — https://databricks.com/company/careers/open-positions/job?gh_jid=8298792002
+  - matched_titles: ai
+  - matched_skills_have: sql, pytorch, scikit-learn, spark, aws
+  - matched_skills_want: gcp, azure, databricks
+  - matched_bonus: rag
+- [30] [databricks] AI Engineer - FDE (Forward Deployed Engineer) (Paris, France) — https://databricks.com/company/careers/open-positions/job?gh_jid=8395601002
+  - matched_titles: ai
+  - matched_skills_have: sql, pytorch, scikit-learn, spark, aws
+  - matched_skills_want: gcp, azure, databricks
+  - matched_bonus: rag
+- [30] [databricks] AI Engineer - FDE (Forward Deployed Engineer) (Amsterdam, Netherlands) — https://databricks.com/company/careers/open-positions/job?gh_jid=8189900002
+  - matched_titles: ai
+  - matched_skills_have: sql, pytorch, scikit-learn, spark, aws
+  - matched_skills_want: gcp, azure, databricks
+  - matched_bonus: rag
+- [30] [databricks] AI Engineer - FDE (Forward Deployed Engineer) (Munich, Germany) — https://databricks.com/company/careers/open-positions/job?gh_jid=8395599002
+  - matched_titles: ai
+  - matched_skills_have: sql, pytorch, scikit-learn, spark, aws
+  - matched_skills_want: gcp, azure, databricks
+  - matched_bonus: rag
+- [30] [databricks] AI Engineer - FDE (Forward Deployed Engineer) (Remote - India) — https://databricks.com/company/careers/open-positions/job?gh_jid=8099751002
+  - matched_titles: ai
+  - matched_skills_have: sql, pytorch, scikit-learn, spark, aws
+  - matched_skills_want: gcp, azure, databricks
+  - matched_bonus: rag
+- [29] [openai] Software Engineer, Research - Human Data (San Francisco) — https://jobs.ashbyhq.com/openai/4d6a5951-9838-434c-830a-22cb938ea228/application
+  - matched_titles: data, software engineer, research
+  - matched_skills_have: aws
+- [28] [databricks] AI Engineer - FDE (Forward Deployed Engineer) (London, United Kingdom) — https://databricks.com/company/careers/open-positions/job?gh_jid=8024004002
+  - matched_titles: ai
+  - matched_skills_have: sql, pytorch, scikit-learn, spark, aws
+  - matched_skills_want: gcp, azure, databricks
+  - matched_bonus: rag
+- [28] [openai] Software Engineer, Database Systems (San Francisco) — https://jobs.ashbyhq.com/openai/2b5e8e15-7952-4170-a927-2ad68e318ed6/application
+  - matched_titles: data, software engineer
+  - matched_skills_have: linux, aws
+  - matched_skills_want: kubernetes, terraform, gcp, azure
+  - matched_bonus: rag
+- [26] [openai] Software Engineer, Internal Applications - Enterprise (San Francisco) — https://jobs.ashbyhq.com/openai/0b24e041-9848-4df3-8289-90efe454d9f5/application
+  - matched_titles: software engineer
+  - matched_skills_have: python, docker, git, aws
+  - matched_skills_want: kubernetes, terraform, gcp, azure
+  - matched_bonus: rag
+- [24] [openai] Training: ML Framework Engineer (San Francisco) — https://jobs.ashbyhq.com/openai/d8794980-1d3f-4d82-8b48-811449b6c492/application
+  - matched_titles: ml, ai
+  - matched_skills_have: python, aws
+- [24] [openai] Software Engineer, Infrastructure - Analytics (San Francisco) — https://jobs.ashbyhq.com/openai/d169ecba-8366-485b-bc53-11a01d408b2d/application
+  - matched_titles: software engineer
+  - matched_skills_have: python, spark, aws
+  - matched_skills_want: kubernetes, terraform, kafka
+  - matched_bonus: rag
+- [23] [databricks] Specialist Solutions Architect - HCLS - Data Warehousing  (Northeast - United States) — https://databricks.com/company/careers/open-positions/job?gh_jid=8337429002
+  - matched_titles: data
+  - matched_skills_have: python, sql, spark, aws
+  - matched_skills_want: gcp, azure, databricks
+- [23] [databricks] Big Data Solutions Architect (Professional Services) (Remote - France) — https://databricks.com/company/careers/open-positions/job?gh_jid=8336976002
+  - matched_titles: data
+  - matched_skills_have: python, spark, aws
+  - matched_skills_want: mlops, gcp, azure, databricks
+- [23] [databricks] PhD GenAI Research Scientist Intern (San Francisco, California) — https://databricks.com/company/careers/open-positions/job?gh_jid=7011263002
+  - matched_titles: research, ai
+  - matched_skills_have: pytorch, spark
+  - matched_skills_want: databricks
+- [23] [openai] Full-Stack SWE, Data Acquisition (Foundations) (San Francisco) — https://jobs.ashbyhq.com/openai/a886ff48-b8a1-4e28-b468-296713a5ad78/application
+  - matched_titles: data
+  - matched_skills_have: python, sql, docker, aws
+  - matched_skills_want: kubernetes, gcp, azure
+- [22] [databricks] Software Engineer - Database Engine Internals (Belgrade, Serbia) — https://databricks.com/company/careers/open-positions/job?gh_jid=8012658002
+  - matched_titles: data, software engineer
+  - matched_skills_have: spark
+  - matched_skills_want: databricks
+  - matched_bonus: rag
+- [21] [openai] AI Success Engineer - US Remote (Remote - US) — https://jobs.ashbyhq.com/openai/ea339283-7650-4b50-9d24-08d143af260a/application
+  - matched_titles: ai
+  - matched_skills_have: python, git, aws
+  - matched_bonus: rag
+- [21] [openai] Data Scientist, Financial Engineering  (San Francisco) — https://jobs.ashbyhq.com/openai/898a87fb-4cb8-450e-9840-ee5dc710a57d/application
+  - matched_titles: data
+  - matched_skills_have: python, sql, aws
+  - matched_bonus: rag
+- [21] [openai] Software Engineer, Frontier Clusters Infrastructure (San Francisco) — https://jobs.ashbyhq.com/openai/770d5c3f-4e72-4b49-aec4-d444e8ad7a64/application
+  - matched_titles: software engineer
+  - matched_skills_have: python, linux, aws
+  - matched_skills_want: kubernetes, terraform
+  - matched_bonus: rag
+- [20] [openai] Software Engineer, GPU Infrastructure - HPC (San Francisco) — https://jobs.ashbyhq.com/openai/f58cb1eb-9642-4a4d-a14d-d7a57d583a11/application
+  - matched_titles: software engineer
+  - matched_skills_have: python, sql, linux, aws
+- [20] [openai] Software Engineer, Infrastructure Reliability (San Francisco) — https://jobs.ashbyhq.com/openai/779b340d-e645-4da1-a923-b3070a26d936/application
+  - matched_titles: software engineer
+  - matched_skills_have: linux, aws
+  - matched_skills_want: kubernetes, terraform, gcp, azure
+  - matched_bonus: rag
+- [20] [databricks] Software Engineer - GenAI inference  (San Francisco, California) — https://databricks.com/company/careers/open-positions/job?gh_jid=8202670002
+  - matched_titles: software engineer, ai
+  - matched_skills_have: spark
+  - matched_skills_want: databricks
+- [20] [openai] Software Engineer, Fleet Management (San Francisco) — https://jobs.ashbyhq.com/openai/7809102e-e82a-4678-bf7c-221de8acc0d6/application
+  - matched_titles: software engineer
+  - matched_skills_have: linux, aws
+  - matched_skills_want: kubernetes, terraform
+  - matched_bonus: rag
+- [20] [openai] Software Engineer, Fleet Hardware Health (San Francisco) — https://jobs.ashbyhq.com/openai/57551641-208c-48d9-bfb8-9a298d7e7510/application
+  - matched_titles: software engineer
+  - matched_skills_have: python, sql, linux, aws
+- [19] [openai] AI Success Engineer - São Paulo, Brazil (São Paulo) — https://jobs.ashbyhq.com/openai/c7d41e7c-7e84-4af5-85b9-bbc1a3b08e87/application
+  - matched_titles: ai
+  - matched_skills_have: python, git, aws
+  - matched_bonus: rag
+- [19] [openai] AI Success Engineer - NYC (New York City) — https://jobs.ashbyhq.com/openai/d4548828-191b-4cbf-9fd4-058d16416e49/application
+  - matched_titles: ai
+  - matched_skills_have: python, git, aws
+  - matched_bonus: rag
+- [19] [openai] AI Success Engineer - San Francisco (San Francisco) — https://jobs.ashbyhq.com/openai/daa43488-c4a7-4b3d-b93e-283135c65b2e/application
+  - matched_titles: ai
+  - matched_skills_have: python, git, aws
+  - matched_bonus: rag
+- [19] [openai] Data Scientist, Strategic Intelligence & Risk (San Francisco) — https://jobs.ashbyhq.com/openai/6131fc4f-bfc8-49f3-8223-773a55d15583/application
+  - matched_titles: data
+  - matched_skills_have: python, sql, aws
+- [19] [openai] Software Engineer, Enterprise AI Platform (San Francisco) — https://jobs.ashbyhq.com/openai/2f4ded22-dcc4-4e2c-94be-ca824071a7b7/application
+  - matched_titles: software engineer, ai
+  - matched_skills_have: aws
+- [19] [openai] AI Success Engineer - Tokyo (Tokyo, Japan) — https://jobs.ashbyhq.com/openai/ed35af5d-0bb2-457a-bbeb-ca04a1412d0e/application
+  - matched_titles: ai
+  - matched_skills_have: python, git, aws
+  - matched_bonus: rag
+- [19] [openai] Software Engineer, Full Stack (People Innovation) (Remote - US) — https://jobs.ashbyhq.com/openai/d4780eac-03ad-4dae-861f-99af22b4287e/application
+  - matched_titles: software engineer
+  - matched_skills_have: python, sql, aws
+- [18] [openai] Software Engineer, Identity Infrastructure Engineering (San Francisco) — https://jobs.ashbyhq.com/openai/551b0d0d-46c2-42fb-bb05-46e2fba8d4db/application
+  - matched_titles: software engineer
+  - matched_skills_have: python, aws
+  - matched_skills_want: gcp, azure
+- [18] [openai] AI Success Engineer  (Dublin, Ireland) — https://jobs.ashbyhq.com/openai/96c050b2-f428-4dbd-89b5-16d9cd6be678/application
+  - matched_titles: ai
+  - matched_skills_have: git, aws
+  - matched_bonus: rag
+- [18] [openai] AI Success Engineer | DACH (Munich, Germany) — https://jobs.ashbyhq.com/openai/91f29c3e-2e2a-44db-bdcd-de808c30e004/application
+  - matched_titles: ai
+  - matched_skills_have: git, aws
+  - matched_bonus: rag
+- [18] [openai] AI Deployment Engineer- ChatGPT Ecosystem (Remote - US) — https://jobs.ashbyhq.com/openai/387e28ec-a4db-42da-9448-b6dbb7b13901/application
+  - matched_titles: ai
+  - matched_skills_have: python, aws
+  - matched_bonus: rag
+- [18] [openai] AI Support Engineer - Tokyo (Tokyo, Japan) — https://jobs.ashbyhq.com/openai/3306b104-c137-4582-abfe-97de621ab9c4/application
+  - matched_titles: ai
+  - matched_skills_have: python, aws
+  - matched_bonus: rag
+- [18] [openai] AI Support Engineer - Singapore (Singapore) — https://jobs.ashbyhq.com/openai/d1b2eec3-bd8b-49db-aee4-e42fd7e029eb/application
+  - matched_titles: ai
+  - matched_skills_have: python, aws
+  - matched_bonus: rag
+- [18] [openai] AI Support Engineer - San Francisco (San Francisco) — https://jobs.ashbyhq.com/openai/99f823a1-66ec-44bd-ba30-d3645aa49d74/application
+  - matched_titles: ai
+  - matched_skills_have: python, aws
+  - matched_bonus: rag
+- [18] [openai] AI Support Engineer - Dublin (Dublin, Ireland) — https://jobs.ashbyhq.com/openai/d5b65a7c-3294-453f-a674-4cb1c0e2aaa7/application
+  - matched_titles: ai
+  - matched_skills_have: python, aws
+  - matched_bonus: rag
+- [18] [openai] Analytics Engineer, Finance (San Francisco) — https://jobs.ashbyhq.com/openai/7cd50a19-65f2-4a52-89a2-512130e58c5c/application
+  - matched_skills_have: python, sql, git, spark, aws
+  - matched_skills_want: airflow
+- [18] [openai] Forward Deployed Software Engineer - NYC (New York City) — https://jobs.ashbyhq.com/openai/533c0fc9-b773-476d-9f96-a0528efbab0e/application
+  - matched_titles: software engineer
+  - matched_skills_have: sql, aws
+  - matched_bonus: rag
+- [18] [openai] Forward Deployed Software Engineer - Singapore (Singapore) — https://jobs.ashbyhq.com/openai/d952e0d3-44e1-464c-a8c8-4b812023cca6/application
+  - matched_titles: software engineer
+  - matched_skills_have: sql, aws
+  - matched_bonus: rag
+- [18] [openai] Forward Deployed Software Engineer - Munich (Munich, Germany) — https://jobs.ashbyhq.com/openai/07d62dc2-9bbc-4149-ba43-d4ab748a21f4/application
+  - matched_titles: software engineer
+  - matched_skills_have: sql, aws
+  - matched_bonus: rag
+- [18] [openai] Forward Deployed Software Engineer - Dublin (Dublin, Ireland) — https://jobs.ashbyhq.com/openai/63003bd5-05c8-408a-8d5a-8f5deb16113f/application
+  - matched_titles: software engineer
+  - matched_skills_have: sql, aws
+  - matched_bonus: rag
+- [18] [openai] Forward Deployed Software Engineer - Paris (Paris, France) — https://jobs.ashbyhq.com/openai/961f6c58-1572-48a8-bb8b-2bffdf82a5cc/application
+  - matched_titles: software engineer
+  - matched_skills_have: sql, aws
+  - matched_bonus: rag
+- [18] [openai] Forward Deployed Software Engineer - SF (San Francisco) — https://jobs.ashbyhq.com/openai/00207abc-49b7-465c-a219-f7c1140f8047/application
+  - matched_titles: software engineer
+  - matched_skills_have: sql, aws
+  - matched_bonus: rag
+- [18] [openai] Forward Deployed Software Engineer - London (London, UK) — https://jobs.ashbyhq.com/openai/54b2072e-4c1c-40e4-b2dc-ec51d9d0ab60/application
+  - matched_titles: software engineer
+  - matched_skills_have: sql, aws
+  - matched_bonus: rag
+- [18] [openai] Forward Deployed Software Engineer - Tokyo (Tokyo, Japan) — https://jobs.ashbyhq.com/openai/e98851f0-08d7-42ef-a499-dc96d8f96dab/application
+  - matched_titles: software engineer
+  - matched_skills_have: sql, aws
+  - matched_bonus: rag
+- [18] [openai] AI Deployment Engineer- Startups (New York City) — https://jobs.ashbyhq.com/openai/f92d5695-306d-4af2-8d8b-a09259dd626a/application
+  - matched_titles: ai
+  - matched_skills_have: python, aws
+  - matched_bonus: rag
+- [18] [openai] AI Deployment Engineer, Startups (India - Remote) — https://jobs.ashbyhq.com/openai/ac1de598-3891-4d1b-bbb6-4c3997a8bef8/application
+  - matched_titles: ai
+  - matched_skills_have: python, aws
+  - matched_bonus: rag
+- [18] [openai] AI Deployment Engineer, Startups (Seoul, South Korea) — https://jobs.ashbyhq.com/openai/6158a9bc-0bae-4627-896a-06e7ca779c14/application
+  - matched_titles: ai
+  - matched_skills_have: python, aws
+  - matched_bonus: rag
+- [18] [openai] AI Deployment Engineer- ChatGPT Ecosystem (San Francisco) — https://jobs.ashbyhq.com/openai/c9acc73a-b118-4802-bb51-87f3d57df883/application
+  - matched_titles: ai
+  - matched_skills_have: python, aws
+  - matched_bonus: rag
+- [18] [openai] AI Deployment Engineer- Startups (San Francisco) — https://jobs.ashbyhq.com/openai/71e7252f-abb1-4b74-8e69-318413042357/application
+  - matched_titles: ai
+  - matched_skills_have: python, aws
+  - matched_bonus: rag
+- [17] [databricks] Technical Escalation Manager (Tokyo, Japan) — https://databricks.com/company/careers/open-positions/job?gh_jid=8360303002
+  - matched_skills_have: sql, linux, spark, aws
+  - matched_skills_want: gcp, azure, databricks
+  - matched_bonus: rag
+- [17] [openai] Software Engineer Internship / Co-op, Applied Emerging Talent (Fall 2026) (San Francisco) — https://jobs.ashbyhq.com/openai/1f3353ed-78eb-4a01-b783-c44b1c086711/application
+  - matched_titles: software engineer
+  - matched_skills_have: python, sql, aws
+- [17] [openai] Full Stack Software Engineer - Enterprise Agents (San Francisco) — https://jobs.ashbyhq.com/openai/04ef9318-32fc-47df-a163-452569e13b58/application
+  - matched_titles: software engineer
+  - matched_skills_have: python, sql, aws
+- [17] [openai] Full Stack Software Engineer, B2B Applications (San Francisco) — https://jobs.ashbyhq.com/openai/e72077d7-2aca-4752-a0f6-1ff9ffe13fdf/application
+  - matched_titles: software engineer
+  - matched_skills_have: python, sql, aws
+- [16] [openai] Software Engineer - Cross-functional Systems (San Francisco) — https://jobs.ashbyhq.com/openai/f6f35434-7042-41fa-8a48-ba71ce728d5d/application
+  - matched_titles: software engineer
+  - matched_skills_have: python, aws
+  - matched_bonus: rag
+- [16] [openai] Backend Software Engineer - B2B Connectors  (San Francisco) — https://jobs.ashbyhq.com/openai/cbacb6bd-aa41-41af-a5d5-13515a1be72b/application
+  - matched_titles: software engineer
+  - matched_skills_have: python, aws
+  - matched_bonus: rag
+- [16] [openai] Full Stack Software Engineer, GTM Innovation  (San Francisco) — https://jobs.ashbyhq.com/openai/a2c9f105-b41a-41db-afd8-e70a54b3f21c/application
+  - matched_titles: software engineer
+  - matched_skills_have: python, aws
+  - matched_bonus: rag
+- [16] [openai] Backend Software Engineer, GTM Innovation  (San Francisco) — https://jobs.ashbyhq.com/openai/43174eb6-0ffe-4744-9323-c7969e7ea2e1/application
+  - matched_titles: software engineer
+  - matched_skills_have: python, aws
+  - matched_bonus: rag
+- [16] [openai] AI Success Engineer - India (Delhi, India) — https://jobs.ashbyhq.com/openai/346e9855-8de1-4a06-a3f2-816c2164abd3/application
+  - matched_titles: ai
+  - matched_skills_have: git, aws
+  - matched_bonus: rag
+- [16] [openai] AI Success Engineer - Singapore (Singapore) — https://jobs.ashbyhq.com/openai/26b7994e-6d80-45c1-b8c6-a675f2161fd9/application
+  - matched_titles: ai
+  - matched_skills_have: git, aws
+  - matched_bonus: rag
+- [16] [openai] AI Deployment Engineer- Codex (Remote - US) — https://jobs.ashbyhq.com/openai/4f4221ef-f2bc-4dc1-9086-69ba126e4903/application
+  - matched_titles: ai
+  - matched_skills_have: git, aws
+- [16] [openai] Software Engineer, Backend (Knowledge Innovation) (San Francisco) — https://jobs.ashbyhq.com/openai/bd190cad-99ec-4fe7-8f8f-de96b5aa5969/application
+  - matched_titles: software engineer
+  - matched_skills_have: python, aws
+  - matched_bonus: rag
+- [16] [openai] Backend Software Engineer (Evals)  (San Francisco) — https://jobs.ashbyhq.com/openai/3d064454-c0c3-4225-bc2c-6d8c0f8735b2/application
+  - matched_titles: software engineer
+  - matched_skills_have: python, aws
+  - matched_bonus: rag
+- [16] [openai] Software Engineer, Full Stack, Revenue Platform (San Francisco) — https://jobs.ashbyhq.com/openai/8427b270-8440-400c-bc18-ff24c4f0f987/application
+  - matched_titles: software engineer
+  - matched_skills_have: python, aws
+  - matched_bonus: rag
+- [16] [openai] Full-Stack Software Engineer, Frontier Exploration (San Francisco) — https://jobs.ashbyhq.com/openai/c3391b6b-2305-4b03-880f-57bc52217420/application
+  - matched_titles: software engineer
+  - matched_skills_have: spark, aws
+- [16] [openai] Software Engineer, Online Storage (San Francisco) — https://jobs.ashbyhq.com/openai/bd1c8680-acf0-45d7-ad66-f301ea72c10c/application
+  - matched_titles: software engineer
+  - matched_skills_have: python, aws
+  - matched_bonus: rag
+- [16] [openai] Software Engineer, Online Storage (Seattle) — https://jobs.ashbyhq.com/openai/460b4295-3803-4dda-983d-3b0fea0b0fc4/application
+  - matched_titles: software engineer
+  - matched_skills_have: python, aws
+  - matched_bonus: rag
+- [16] [openai] Distributed Training Engineer, Sora (San Francisco) — https://jobs.ashbyhq.com/openai/2f1c59a8-570b-4192-9b5b-422f1a632cb6/application
+  - matched_titles: ai
+  - matched_skills_have: python, aws
+- [15] [openai] Enterprise Systems Architect, AI (San Francisco) — https://jobs.ashbyhq.com/openai/89de6fae-fe3b-49c4-9ceb-fb9a78eee239/application
+  - matched_titles: ai
+  - matched_skills_have: aws
+  - matched_bonus: rag
+- [15] [databricks] Solutions Architect (Taiwan) (Singapore) — https://databricks.com/company/careers/open-positions/job?gh_jid=8099532002
+  - matched_titles: ai
+  - matched_skills_have: python, spark
+  - matched_skills_want: databricks
+- [15] [databricks] Resident Solutions Architect-Public Sector (Remote - Washington D.C.; USCA) — https://databricks.com/company/careers/open-positions/job?gh_jid=8356289002
+  - matched_skills_have: python, spark, aws
+  - matched_skills_want: mlops, gcp, azure, databricks
+- [15] [databricks] Software Engineer - New Grad (2026 Start) - Aarhus (Aarhus, Denmark) — https://databricks.com/company/careers/open-positions/job?gh_jid=8133691002
+  - matched_titles: software engineer
+  - matched_skills_have: python, spark
+  - matched_skills_want: databricks
+- [15] [databricks] Software Engineering Intern (2026) (Belgrade, Serbia) — https://databricks.com/company/careers/open-positions/job?gh_jid=7640764002
+  - matched_titles: software engineer
+  - matched_skills_have: python, spark
+  - matched_skills_want: databricks
+- [15] [databricks] Software Engineering New Grad (2026) (Belgrade, Serbia) — https://databricks.com/company/careers/open-positions/job?gh_jid=7640776002
+  - matched_titles: software engineer
+  - matched_skills_have: python, spark
+  - matched_skills_want: databricks
+- [15] [databricks] Software Engineer - New Grad (2026 Start) (Amsterdam, Netherlands) — https://databricks.com/company/careers/open-positions/job?gh_jid=6866549002
+  - matched_titles: software engineer
+  - matched_skills_have: python, spark
+  - matched_skills_want: databricks
+- [15] [databricks] Software Engineer - New Grad (2026 Start) (Vancouver, Canada) — https://databricks.com/company/careers/open-positions/job?gh_jid=6866542002
+  - matched_titles: software engineer
+  - matched_skills_have: python, spark
+  - matched_skills_want: databricks
+- [15] [databricks] Software Engineer - New Grad (2026 Start) (Berlin, Germany) — https://databricks.com/company/careers/open-positions/job?gh_jid=6886281002
+  - matched_titles: software engineer
+  - matched_skills_have: python, spark
+  - matched_skills_want: databricks
+- [15] [openai] Software Engineer, Payments (San Francisco) — https://jobs.ashbyhq.com/openai/0da75470-7e1e-44c3-90df-6f93cf90b968/application
+  - matched_titles: software engineer
+  - matched_skills_have: aws
+  - matched_bonus: rag
+- [15] [openai] Research Engineer / Research Scientist - Foundations Retrieval Lead (San Francisco) — https://jobs.ashbyhq.com/openai/020b2aae-8be0-408c-ab49-20eefa8541af/application
+  - matched_titles: research
+  - matched_skills_have: aws
+  - matched_bonus: transformer
+- [15] [openai] Software Engineer, Agent Infrastructure (San Francisco) — https://jobs.ashbyhq.com/openai/c1316397-25bb-4add-9e9d-0e3ea8ba929a/application
+  - matched_titles: software engineer
+  - matched_skills_have: aws
+  - matched_skills_want: kubernetes, terraform
+- [14] [openai] AI Success Engineering Manager - EMEA (London, UK) — https://jobs.ashbyhq.com/openai/16143a4b-5a73-4797-995e-b288c9d922f1/application
+  - matched_titles: ai
+  - matched_skills_have: git, aws
+- [14] [databricks] Sr Incident Manager (Bengaluru, India) — https://databricks.com/company/careers/open-positions/job?gh_jid=8291205002
+  - matched_skills_have: python, spark, aws
+  - matched_skills_want: gcp, azure, databricks
+  - matched_bonus: rag
+- [14] [openai] Software Engineer, Codex for Teams (San Francisco) — https://jobs.ashbyhq.com/openai/89f58eb2-519f-4a36-8be0-2e594724e1bc/application
+  - matched_titles: software engineer
+  - matched_skills_have: python, aws
+- [14] [openai] Research Engineer, Privacy (San Francisco) — https://jobs.ashbyhq.com/openai/cc434f5b-dc0b-42fd-97ec-e0171545c6e9/application
+  - matched_titles: research
+  - matched_skills_have: pytorch, aws
+- [14] [openai] Backend Software Engineer - B2B Applications (San Francisco) — https://jobs.ashbyhq.com/openai/73eb1b69-095d-4f27-84ba-54f5df9bc230/application
+  - matched_titles: software engineer
+  - matched_skills_have: python, aws
+- [14] [openai] AI Deployment Engineer- Codex (San Francisco) — https://jobs.ashbyhq.com/openai/ca7e4019-bf93-42fd-8f15-fac59c6e237c/application
+  - matched_titles: ai
+  - matched_skills_have: git, aws
+- [14] [openai] Networking Operating System Firmware Engineer  (San Francisco) — https://jobs.ashbyhq.com/openai/582b878e-61bf-4be2-8b30-623434baf726/application
+  - matched_skills_have: python, docker, linux, aws
+- [14] [openai] Software Engineer, Codex for Teams (London, UK) — https://jobs.ashbyhq.com/openai/c1c8b058-2f0d-4192-8a9e-c21d0f24952c/application
+  - matched_titles: software engineer
+  - matched_skills_have: python, aws
+- [14] [openai] Researcher, Interpretability (San Francisco) — https://jobs.ashbyhq.com/openai/c44268f1-717b-4da3-9943-2557f7d739f0/application
+  - matched_titles: research
+  - matched_skills_have: python, aws
+- [13] [openai] Full Stack Software Engineer, ChatGPT Partnerships (San Francisco) — https://jobs.ashbyhq.com/openai/50626871-6bbf-4d8f-a534-176f929f1f37/application
+  - matched_titles: software engineer
+  - matched_skills_have: aws
+  - matched_bonus: rag
+- [13] [databricks] Resident Solutions Architect-Manufacturing (United States; USCA) — https://databricks.com/company/careers/open-positions/job?gh_jid=8341313002
+  - matched_skills_have: python, spark, aws
+  - matched_skills_want: mlops, gcp, azure, databricks
