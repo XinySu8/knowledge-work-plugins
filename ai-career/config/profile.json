@@ -1,0 +1,41 @@
+{
+  "titles_target": [
+    "machine learning",
+    "ml",
+    "data",
+    "software engineer",
+    "research",
+    "ai",
+    "llm"
+  ],
+  "skills_have": [
+    "python",
+    "sql",
+    "pytorch",
+    "tensorflow",
+    "scikit-learn",
+    "docker",
+    "git",
+    "linux",
+    "spark",
+    "hadoop",
+    "aws"
+  ],
+  "skills_want": [
+    "kubernetes",
+    "terraform",
+    "mlops",
+    "airflow",
+    "gcp",
+    "azure",
+    "kafka",
+    "databricks"
+  ],
+  "bonus_keywords": [
+    "nlp",
+    "computer vision",
+    "rag",
+    "transformer",
+    "diffusion"
+  ]
+}
