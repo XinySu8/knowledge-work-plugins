@@ -65,12 +65,21 @@ def apply_filters(jobs, filters):
             dropped.append({"id": j.get("id"), "reason": "excluded_keyword", "title": title, "company": j.get("company")})
             continue
 
-        # 1) Must be internship-ish (prefer title match, fallback to content)
-        if internship_any:
-            if not contains_any(title, internship_any):
-                if not contains_any(haystack, internship_any):
-                    dropped.append({"id": j.get("id"), "reason": "not_internship", "title": title, "company": j.get("company")})
-                    continue
+
+        # 1) Must be internship-ish
+        # Prefer structured field when available (Ashby), fallback to keyword matching
+        # If source provides a structured employment type, use it
+        if (j.get("source") == "ashby") and (j.get("employment_type")):
+            if str(j.get("employment_type")).lower() != "intern":
+                dropped.append({"id": j.get("id"), "reason": "not_internship", "title": title, "company": j.get("company")})
+                continue
+        else:
+            # fallback: keyword-based internship check
+            if internship_any:
+                if not contains_any(title, internship_any):
+                    if not contains_any(haystack, internship_any):
+                        dropped.append({"id": j.get("id"), "reason": "not_internship", "title": title, "company": j.get("company")})
+                        continue
 
         # 2) Must match domain direction (ML/Data/SWE/AI...) in title or content
         if domain_any and not contains_any(haystack, domain_any):
@@ -200,6 +209,9 @@ def main():
             elif source == "lever":
                 lever_slug = t["lever_slug"]
                 all_jobs.extend(fetch_lever(lever_slug, company))
+            elif source == "ashby":
+                job_board_name = t["job_board_name"]
+                all_jobs.extend(fetch_ashby(job_board_name, company))
             else:
                 errors.append(f"Unknown source: {source} ({company})")
         except (HTTPError, URLError, KeyError, TimeoutError) as e:
