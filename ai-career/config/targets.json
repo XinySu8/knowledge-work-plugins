@@ -1,27 +1,27 @@
 {
   "filters": {
-    "intership_any": [
+    "internship_any": [
       "intern",
-    "internship",
-    "summer intern",
-    "co-op",
-    "coop",
-    "new grad",
-    "new graduate",
-    "university",
-    "student",
-    "early career",
-    "campus"
+      "internship",
+      "summer intern",
+      "co-op",
+      "coop",
+      "new grad",
+      "new graduate",
+      "university",
+      "student",
+      "early career",
+      "campus"
   ],
     "domain_any": [
       "machine learning",
-    "ml",
-    "data",
-    "software engineer",
-    "swe",
-    "research",
-    "ai",
-    "llm"
+      "ml",
+      "data",
+      "software engineer",
+      "swe",
+      "research",
+      "ai",
+      "llm"
     ],
     "include_all": [],
     "exclude_any": [
@@ -53,12 +53,7 @@
       "board_token": "anthropic"
     },
     {
-      "source": "lever",
-      "company": "spacex",
-      "lever_slug": "spacex"
-    },
-    {
-      "source": "lever",
+      "source": "greenhouse",
       "company": "databricks",
       "lever_slug": "databricks"
     }
