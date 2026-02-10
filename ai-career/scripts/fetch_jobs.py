@@ -143,6 +143,43 @@ def fetch_lever(lever_slug: str, company: str):
                 "content_plain": (j.get("descriptionPlain") or "").strip()
             })
     return jobs
+    
+def fetch_ashby(job_board_name: str, company: str):
+    # Ashby public job postings API (no auth)
+    # Docs: https://api.ashbyhq.com/posting-api/job-board/{JOB_BOARD_NAME}
+    url = f"https://api.ashbyhq.com/posting-api/job-board/{job_board_name}?includeCompensation=false"
+    data = http_get_json(url)
+
+    jobs = []
+    for j in data.get("jobs", []) or []:
+        # Use jobUrl/applyUrl as stable unique identifiers when available
+        job_url = j.get("jobUrl") or ""
+        apply_url = j.get("applyUrl") or ""
+        title = j.get("title")
+        location = j.get("location")
+        published_at = j.get("publishedAt")
+        employment_type = j.get("employmentType")  # e.g., "Intern", "FullTime", ...
+        dept = j.get("department")
+        team = j.get("team")
+
+        job_id = stable_id("ashby", job_board_name, title or "", job_url, apply_url)
+
+        jobs.append({
+            "id": job_id,
+            "source": "ashby",
+            "company": company,
+            "title": title,
+            "location": location,
+            "url": apply_url or job_url,
+            "updated_at": published_at,
+            "created_at": published_at,
+            "departments": [x for x in [dept, team] if x],
+            "employment_type": employment_type,
+            "content_text": (j.get("descriptionHtml") or "").strip(),
+            "content_plain": (j.get("descriptionPlain") or "").strip()
+        })
+    return jobs
+
 
 def main():
     os.makedirs(OUT_DIR, exist_ok=True)
