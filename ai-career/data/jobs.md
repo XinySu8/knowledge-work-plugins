@@ -1,7 +1,7 @@
 # Job feed (auto)
-Generated at (UTC): 2026-02-10T00:14:31.693747+00:00
+Generated at (UTC): 2026-02-10T17:15:14.467375+00:00
 Total jobs: 0
-Fetched jobs: 403
+Fetched jobs: 406
 Filtered jobs: 0
 ## Errors
 - openai (greenhouse) failed: <HTTPError 404: 'Not Found'>

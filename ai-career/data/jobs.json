@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-02-10T00:14:31.693747+00:00",
-  "fetched_count": 403,
+  "generated_at_utc": "2026-02-10T17:15:14.467375+00:00",
+  "fetched_count": 406,
   "filtered_count": 0,
   "count": 0,
   "per_company_fetched": {
-    "anthropic": 403
+    "anthropic": 406
   },
   "per_source_fetched": {
-    "greenhouse": 403
+    "greenhouse": 406
   },
   "errors": [
     "openai (greenhouse) failed: <HTTPError 404: 'Not Found'>",
@@ -190,13 +190,13 @@
       "company": "anthropic"
     },
     {
-      "id": "fc6d95367b634096",
+      "id": "7673eb58a5f51d5b",
       "reason": "excluded_keyword",
       "title": "Commercial Counsel, EMEA",
       "company": "anthropic"
     },
     {
-      "id": "7673eb58a5f51d5b",
+      "id": "fc6d95367b634096",
       "reason": "excluded_keyword",
       "title": "Commercial Counsel, EMEA",
       "company": "anthropic"
@@ -280,6 +280,18 @@
       "company": "anthropic"
     },
     {
+      "id": "2974f1d2f38ed88c",
+      "reason": "excluded_keyword",
+      "title": "Customer Marketing Lead, DNB",
+      "company": "anthropic"
+    },
+    {
+      "id": "a3d626c39b6c8de5",
+      "reason": "excluded_keyword",
+      "title": "Customer Marketing Lead, Enterprise",
+      "company": "anthropic"
+    },
+    {
       "id": "5f4ab41ecd4b01f6",
       "reason": "excluded_keyword",
       "title": "Customer Success Manager",
@@ -301,18 +313,6 @@
       "id": "e1dc8d5e9b4ee488",
       "reason": "excluded_keyword",
       "title": "Customer Success Manager, Digital Native Businesses ",
-      "company": "anthropic"
-    },
-    {
-      "id": "e89a9a43b42f8b5e",
-      "reason": "excluded_keyword",
-      "title": "Customer Success Manager, Public Sector",
-      "company": "anthropic"
-    },
-    {
-      "id": "c72077a2020a7642",
-      "reason": "excluded_keyword",
-      "title": "Customer Success Manager- Strategics",
       "company": "anthropic"
     }
   ],
