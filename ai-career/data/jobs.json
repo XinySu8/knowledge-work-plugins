@@ -1,16 +1,16 @@
 {
-  "generated_at_utc": "2026-02-10T22:25:33.325613+00:00",
+  "generated_at_utc": "2026-02-11T17:14:52.203720+00:00",
   "fetched_count": 1634,
   "filtered_count": 8,
   "count": 8,
   "per_company_fetched": {
-    "openai": 535,
-    "anthropic": 411,
-    "databricks": 688
+    "openai": 534,
+    "anthropic": 414,
+    "databricks": 686
   },
   "per_source_fetched": {
-    "ashby": 535,
-    "greenhouse": 1099
+    "ashby": 534,
+    "greenhouse": 1100
   },
   "errors": [],
   "dropped_sample": [
