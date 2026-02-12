@@ -38,7 +38,7 @@
     "transformer",
     "diffusion"
   ],
-  "preferred_locations_any": [
+  "preferred_locations_tier1": [
     "Seattle",
     "Bellevue",
     "Redmond",
@@ -51,5 +51,37 @@
     "Westminster",
     "Superior",
     "Longmont"
+  ],
+  "preferred_locations_tier2": [
+    "San Francisco",
+    "SF",
+    "San Jose",
+    "Sunnyvale",
+    "Mountain View",
+    "Palo Alto",
+    "Redwood City",
+    "Menlo Park",
+    "Santa Clara",
+    "Cupertino",
+    "Austin",
+    "Boston",
+    "Cambridge",
+    "New York",
+    "NYC",
+    "Manhattan",
+    "Brooklyn",
+    "San Diego",
+    "Washington, DC",
+    "Washington DC",
+    "Arlington",
+    "Alexandria",
+    "Raleigh",
+    "Durham",
+    "Cary",
+    "Portland",
+    "Irvine",
+    "Costa Mesa",
+    "Newport Beach",
+    "Chicago"
   ]
 }
