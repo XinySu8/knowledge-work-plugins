@@ -65,6 +65,8 @@ def apply_filters(jobs, filters):
     exclude_any = filters.get("exclude_any") or []
     locations_any = filters.get("locations_any") or []
     max_per_company = filters.get("max_jobs_per_company")
+    major_required_any = filters.get("major_required_any") or []
+    degree_required_any = filters.get("degree_required_any") or []
 
     kept = []
     dropped = []  # dicts with reason
@@ -104,6 +106,14 @@ def apply_filters(jobs, filters):
 
         if not is_internship:
             dropped.append({"id": j.get("id"), "reason": "not_internship", "title": title, "company": j.get("company")})
+            continue
+
+        if degree_required_any and not contains_any(haystack, degree_required_any):
+            dropped.append({"id": j.get("id"), "reason": "degree_mismatch", "title": title, "company": j.get("company")})
+            continue
+
+        if major_required_any and not contains_any(haystack, major_required_any):
+            dropped.append({"id": j.get("id"), "reason": "major_mismatch", "title": title, "company": j.get("company")})
             continue
 
 
