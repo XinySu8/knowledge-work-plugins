@@ -11,6 +11,21 @@
       "intern", 
       "internship"
     ],
+    "degree_required_any": [
+    "undergrad",
+    "undergraduate",
+    "bachelor",
+    "bachelor's",
+    "bachelors",
+    "b.s.",
+    "bs"
+  ],
+    "major_required_any": [
+    "computer science",
+    "cs",
+    "software engineering",
+    "computer engineering"
+  ],
     "domain_any": [
       "engineer",
       "engineering",
