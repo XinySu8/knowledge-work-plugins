@@ -4,6 +4,7 @@ import re
 import sys
 import time
 import hashlib
+import html
 from datetime import datetime, timezone
 from urllib.request import urlopen, Request
 from urllib.error import URLError, HTTPError
@@ -28,8 +29,9 @@ def stable_id(*parts: str) -> str:
 def html_to_text(s: str) -> str:
     if not s:
         return ""
+    # decode HTML entities like &lt;h2&gt; etc.
+    s = html.unescape(s)
     s = re.sub(r"<[^>]+>", " ", s)
-    s = s.replace("&nbsp;", " ").replace("&amp;", "&")
     s = re.sub(r"\s+", " ", s).strip()
     return s
 
@@ -39,19 +41,20 @@ def _norm(s: str) -> str:
 def contains_any(text: str, keywords) -> bool:
     if not keywords:
         return True
-    t = (text or "")
+    t = text or ""
+
     for k in keywords:
         if not (isinstance(k, str) and k.strip()):
             continue
         kk = k.strip()
 
-        # If it's a phrase (has space or hyphen), substring match is fine
-        if (" " in kk) or ("-" in kk):
+        # Phrase (contains spaces) -> substring match
+        if " " in kk:
             if kk.lower() in t.lower():
                 return True
             continue
 
-        # Single token: use word-boundary regex to avoid matching internal/international/paid/html etc.
+        # Otherwise (single token, including hyphenated like "co-op") -> word-boundary regex
         pattern = r"\b" + re.escape(kk) + r"\b"
         if re.search(pattern, t, flags=re.IGNORECASE):
             return True
