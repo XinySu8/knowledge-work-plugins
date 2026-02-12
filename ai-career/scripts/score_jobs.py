@@ -123,7 +123,9 @@ def score_job(job, profile):
     skills_want = profile.get("skills_want") or []
     bonus_keywords = profile.get("bonus_keywords") or []
 
-    preferred_locations_any = profile.get("preferred_locations_any") or []
+    # NEW: tiered location preferences
+    preferred_locations_tier1 = profile.get("preferred_locations_tier1") or []
+    preferred_locations_tier2 = profile.get("preferred_locations_tier2") or []
 
     matched_titles = hit_list(title, titles_target)  # title only
     matched_have = hit_list(haystack, skills_have)
@@ -164,7 +166,6 @@ def score_job(job, profile):
     hard_flags = []
     soft_flags = []
 
-    # clearance (include common misspelling clearence)
     clearance_ctx = find_contexts(text, "clearance", window=90)
     clearance_ctx += find_contexts(text, "clearence", window=90)
     if clearance_ctx:
@@ -173,7 +174,6 @@ def score_job(job, profile):
         else:
             soft_flags.append("clearance_mentioned")
 
-    # citizen (also consider 'citizenship' occurrences implicitly via patterns; term search is for context windows)
     citizen_ctx = find_contexts(text, "citizen", window=90)
     if citizen_ctx:
         if term_is_hard_required(citizen_ctx, req_citizen, neg_citizen):
@@ -194,7 +194,7 @@ def score_job(job, profile):
 
     title_score = round(TITLE_MAX * min(len(matched_titles), TITLE_CAP) / TITLE_CAP) if TITLE_CAP > 0 else 0
 
-    # Location score: mode (0..10) + preferred city (0..15)
+    # Location score: mode (0..10) + city tier (0..15)
     loc_low = norm(loc)
 
     mode_weights = {
@@ -214,8 +214,13 @@ def score_job(job, profile):
     mode_score = mode_weights.get(detected_mode, 0)
 
     city_score = 0
-    if preferred_locations_any and contains_any(loc, preferred_locations_any):
+    city_tier = "none"
+    if preferred_locations_tier1 and contains_any(loc, preferred_locations_tier1):
         city_score = 15
+        city_tier = "tier1"
+    elif preferred_locations_tier2 and contains_any(loc, preferred_locations_tier2):
+        city_score = 8
+        city_tier = "tier2"
 
     loc_score = min(LOC_MAX, mode_score + city_score)
 
@@ -225,117 +230,4 @@ def score_job(job, profile):
     bonus_part = round(3 * min(len(matched_bonus), BONUS_CAP) / BONUS_CAP) if BONUS_CAP > 0 else 0
     want_bonus_score = min(WANT_BONUS_MAX, want_part + bonus_part)
 
-    pre_penalty_score = title_score + loc_score + have_score + want_bonus_score  # <= 100
-
-    # Eligibility penalty strategy:
-    # - hard flags => 0 out (but we used negation handling to reduce false positives)
-    # - soft flags => small penalty (still visible so you don't miss it)
-    not_eligible = bool(hard_flags)
-    if hard_flags:
-        eligibility_penalty = 999
-    else:
-        eligibility_penalty = 5 * len(soft_flags)
-
-    final_score = max(0, pre_penalty_score - eligibility_penalty)
-
-    analysis = {
-        "score": final_score,
-        "breakdown": {
-            "title_score": title_score,
-            "location_score": loc_score,
-            "skills_have_score": have_score,
-            "want_bonus_score": want_bonus_score,
-            "eligibility_penalty": eligibility_penalty,
-            "pre_penalty_score": pre_penalty_score,
-            "final_score": final_score
-        },
-        "matched_titles": matched_titles,
-        "matched_skills_have": matched_have,
-        "matched_skills_want": matched_want,
-        "matched_bonus": matched_bonus,
-        "eligibility": {
-            "not_eligible": not_eligible,
-            "hard_flags": hard_flags,
-            "soft_flags": soft_flags,
-            "penalty": eligibility_penalty
-        }
-    }
-
-    return final_score, analysis
-
-
-def main():
-    with open(IN_JSON, "r", encoding="utf-8") as f:
-        payload = json.load(f)
-    jobs = payload.get("jobs") or []
-
-    with open(PROFILE_PATH, "r", encoding="utf-8") as f:
-        profile = json.load(f)
-
-    enriched = []
-    for j in jobs:
-        score, analysis = score_job(j, profile)
-        jj = dict(j)
-        jj["analysis"] = analysis
-        enriched.append(jj)
-
-    enriched.sort(key=lambda x: x.get("analysis", {}).get("score", 0), reverse=True)
-
-    out_payload = {
-        "generated_at_utc": datetime.now(timezone.utc).isoformat(),
-        "input_generated_at_utc": payload.get("generated_at_utc"),
-        "count": len(enriched),
-        "jobs": enriched
-    }
-
-    with open(OUT_JSON, "w", encoding="utf-8") as f:
-        json.dump(out_payload, f, ensure_ascii=False, indent=2)
-
-    # Markdown report
-    lines = []
-    lines.append("# Scored job feed (auto)\n")
-    lines.append(f"Generated at (UTC): {out_payload['generated_at_utc']}\n")
-    lines.append(f"Total jobs scored: {out_payload['count']}\n\n")
-    lines.append("## Top internships\n")
-
-    for j in enriched[:100]:
-        title = j.get("title") or "Untitled"
-        company = j.get("company") or "unknown"
-        loc = j.get("location") or "Unknown location"
-        url = j.get("url") or ""
-        a = j.get("analysis") or {}
-        score = a.get("score", 0)
-        b = a.get("breakdown") or {}
-        elig = a.get("eligibility") or {}
-
-        lines.append(f"- [{score}/100] [{company}] {title} ({loc}) — {url}\n")
-        lines.append(
-            f"  - breakdown: title {b.get('title_score',0)}, "
-            f"location {b.get('location_score',0)}, "
-            f"have {b.get('skills_have_score',0)}, "
-            f"want+bonus {b.get('want_bonus_score',0)}, "
-            f"penalty {b.get('eligibility_penalty',0)}\n"
-        )
-
-        if elig.get("not_eligible"):
-            lines.append("  - ELIGIBILITY: NOT ELIGIBLE (hard requirement detected)\n")
-        if elig.get("hard_flags"):
-            lines.append(f"  - hard_flags: {', '.join(elig['hard_flags'])}\n")
-        if elig.get("soft_flags"):
-            lines.append(f"  - soft_flags: {', '.join(elig['soft_flags'])}\n")
-
-        if a.get("matched_titles"):
-            lines.append(f"  - matched_titles: {', '.join(a['matched_titles'])}\n")
-        if a.get("matched_skills_have"):
-            lines.append(f"  - matched_skills_have: {', '.join(a['matched_skills_have'])}\n")
-        if a.get("matched_skills_want"):
-            lines.append(f"  - matched_skills_want: {', '.join(a['matched_skills_want'])}\n")
-        if a.get("matched_bonus"):
-            lines.append(f"  - matched_bonus: {', '.join(a['matched_bonus'])}\n")
-
-    with open(OUT_MD, "w", encoding="utf-8") as f:
-        f.writelines(lines)
-
-
-if __name__ == "__main__":
-    main()
+    pre_penalty_score = title_score + lo_
