@@ -6,9 +6,9 @@
       "summer intern",
       "co-op",
       "coop"
-  ],
+    ],
     "ashby_internship_types": [
-      "intern", 
+      "intern",
       "internship"
     ],
     "degree_required_any": [
@@ -19,13 +19,13 @@
       "bachelors",
       "b.s.",
       "bs"
-  ],
+    ],
     "major_required_any": [
       "computer science",
       "cs",
       "software engineering",
       "computer engineering"
-  ],
+    ],
     "domain_any": [
       "engineer",
       "engineering",
@@ -43,7 +43,6 @@
       "ai",
       "llm"
     ],
-    "include_all": [],
     "exclude_any": [
       "principal",
       "staff",
@@ -56,35 +55,23 @@
     "max_jobs_per_company": 200
   },
   "targets": [
-    {
-      "source": "ashby",
-      "company": "openai",
-      "job_board_name": "openai"
-    },
-    {
-      "source": "greenhouse",
-      "company": "anthropic",
-      "board_token": "anthropic"
-    },
-    {
-      "source": "greenhouse",
-      "company": "databricks",
-      "board_token": "databricks"
-    },
+    { "source": "ashby", "company": "openai", "job_board_name": "openai" },
+
+    { "source": "greenhouse", "company": "anthropic", "board_token": "anthropic" },
+    { "source": "greenhouse", "company": "databricks", "board_token": "databricks" },
+
     { "source": "ashby", "company": "cohere", "job_board_name": "cohere" },
     { "source": "ashby", "company": "perplexity", "job_board_name": "perplexity" },
     { "source": "ashby", "company": "langchain", "job_board_name": "langchain" },
     { "source": "ashby", "company": "cognition", "job_board_name": "cognition" },
     { "source": "ashby", "company": "vellum", "job_board_name": "vellum" },
     { "source": "ashby", "company": "replit", "job_board_name": "replit" },
-    { "source": "lever", "company": "mistral", "lever_slug": "mistral" },
-    { "source": "ashby", "company": "openai", "job_board_name": "openai" },
-    { "source": "greenhouse", "company": "anthropic", "board_token": "anthropic" },
-    { "source": "greenhouse", "company": "databricks", "board_token": "databricks" },
     { "source": "ashby", "company": "ramp", "job_board_name": "ramp" },
     { "source": "ashby", "company": "zapier", "job_board_name": "zapier" },
-    { "source": "ashby", "company": "perplexity", "job_board_name": "perplexity" },
     { "source": "ashby", "company": "sierra", "job_board_name": "Sierra" },
+
+    { "source": "lever", "company": "mistral", "lever_slug": "mistral" },
+
     { "source": "greenhouse", "company": "stripe", "board_token": "stripe" },
     { "source": "greenhouse", "company": "scaleai", "board_token": "scaleai" },
     { "source": "greenhouse", "company": "figma", "board_token": "figma" }
