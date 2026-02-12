@@ -1,7 +1,7 @@
 # Job feed (auto)
-Generated at (UTC): 2026-02-11T17:14:52.203720+00:00
+Generated at (UTC): 2026-02-12T17:12:05.454130+00:00
 Total jobs: 8
-Fetched jobs: 1634
+Fetched jobs: 1651
 Filtered jobs: 8
 ## Jobs
 - [databricks] MBA Intern - Product Operations (San Francisco, California) — greenhouse — https://databricks.com/company/careers/open-positions/job?gh_jid=8399535002
