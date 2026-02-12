@@ -1,13 +1,9 @@
-name: Fetch job feeds
+name: Fetch jobs
 
 on:
   workflow_dispatch:
   schedule:
-    # Runs daily at 16:10 UTC (~09:10 Denver during standard time; adjust later if desired)
-    - cron: "10 16 * * *"
-
-permissions:
-  contents: write
+    - cron: "0 14 * * *"  # 14:00 UTC daily (adjust as you like)
 
 jobs:
   fetch:
@@ -21,19 +17,30 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Fetch jobs + score jobs
+      - name: Run fetch
         run: |
           python ai-career/scripts/fetch_jobs.py
-          python ai-career/scripts/score_jobs.py
 
-      - name: Commit changes
+      - name: Commit outputs
         run: |
-          git config user.name "ai-career-bot"
-          git config user.email "ai-career-bot@users.noreply.github.com"
-          git add ai-career/data/jobs.json ai-career/data/jobs.md ai-career/data/scored_jobs.json ai-career/data/scored_jobs.md || true
-          if git diff --staged --quiet; then
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add \
+            ai-career/data/jobs.json \
+            ai-career/data/jobs.md \
+            ai-career/data/jobs_today.json \
+            ai-career/data/jobs_today.md \
+            ai-career/data/jobs_backlog.json \
+            ai-career/data/jobs_backlog.md \
+            ai-career/data/state.json \
+            ai-career/data/archive || true
+
+          # Only commit if there are changes
+          if git diff --cached --quiet; then
             echo "No changes to commit."
-          else
-            git commit -m "chore: update job feed"
-            git push
+            exit 0
           fi
+
+          git commit -m "Update job feeds"
+          git push
