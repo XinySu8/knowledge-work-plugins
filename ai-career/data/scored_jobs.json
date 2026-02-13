@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-02-13T01:14:41.439785+00:00",
-  "source_generated_at_utc": "2026-02-13T01:14:41.385508+00:00",
+  "generated_at_utc": "2026-02-13T02:26:42.350903+00:00",
+  "source_generated_at_utc": "2026-02-13T02:26:42.235352+00:00",
   "count": 13,
   "jobs": [
     {
@@ -10,11 +10,11 @@
       "location": "San Francisco, Seattle, New York City",
       "url": "https://stripe.com/jobs/search?gh_jid=7210115",
       "source": "greenhouse",
-      "score": 30,
+      "score": 32,
       "breakdown": {
         "title": 15,
         "location": 15,
-        "have": 0,
+        "have": 2,
         "want+bonus": 0,
         "penalty": 0,
         "detected_mode": "none",
@@ -25,7 +25,128 @@
       "matched_titles": [
         "software engineer"
       ],
-      "matched_skills_have": [],
+      "matched_skills_have": [
+        "Java"
+      ],
+      "matched_skills_want": [],
+      "matched_bonus": []
+    },
+    {
+      "id": "b230852d1c35c17a",
+      "company": "ramp",
+      "title": "Software Engineer Internship, Android ",
+      "location": "New York, NY (HQ)",
+      "url": "https://jobs.ashbyhq.com/ramp/67fadb77-43d8-4449-954b-d4cf2c6d3b8b/application",
+      "source": "ashby",
+      "score": 29,
+      "breakdown": {
+        "title": 15,
+        "location": 8,
+        "have": 6,
+        "want+bonus": 0,
+        "penalty": 0,
+        "detected_mode": "none",
+        "city_tier": "tier2"
+      },
+      "hard_flags": [],
+      "soft_flags": [],
+      "matched_titles": [
+        "software engineer"
+      ],
+      "matched_skills_have": [
+        "python",
+        "sql",
+        "react"
+      ],
+      "matched_skills_want": [],
+      "matched_bonus": []
+    },
+    {
+      "id": "4ff882d7bab5bdb0",
+      "company": "ramp",
+      "title": "Software Engineer Internship, iOS",
+      "location": "New York, NY (HQ)",
+      "url": "https://jobs.ashbyhq.com/ramp/8c155b55-3e7e-48a8-ac98-f988a2b6f4da/application",
+      "source": "ashby",
+      "score": 29,
+      "breakdown": {
+        "title": 15,
+        "location": 8,
+        "have": 6,
+        "want+bonus": 0,
+        "penalty": 0,
+        "detected_mode": "none",
+        "city_tier": "tier2"
+      },
+      "hard_flags": [],
+      "soft_flags": [],
+      "matched_titles": [
+        "software engineer"
+      ],
+      "matched_skills_have": [
+        "python",
+        "sql",
+        "react"
+      ],
+      "matched_skills_want": [],
+      "matched_bonus": []
+    },
+    {
+      "id": "8c305391a2786222",
+      "company": "ramp",
+      "title": "Software Engineer Internship, Frontend",
+      "location": "New York, NY (HQ)",
+      "url": "https://jobs.ashbyhq.com/ramp/31f7e045-9a51-4a75-9ffc-d815d6db6daa/application",
+      "source": "ashby",
+      "score": 29,
+      "breakdown": {
+        "title": 15,
+        "location": 8,
+        "have": 6,
+        "want+bonus": 0,
+        "penalty": 0,
+        "detected_mode": "none",
+        "city_tier": "tier2"
+      },
+      "hard_flags": [],
+      "soft_flags": [],
+      "matched_titles": [
+        "software engineer"
+      ],
+      "matched_skills_have": [
+        "python",
+        "aws",
+        "react"
+      ],
+      "matched_skills_want": [],
+      "matched_bonus": []
+    },
+    {
+      "id": "cdefeb135c230613",
+      "company": "openai",
+      "title": "Software Engineer Internship / Co-op, Applied Emerging Talent (Fall 2026)",
+      "location": "San Francisco",
+      "url": "https://jobs.ashbyhq.com/openai/1f3353ed-78eb-4a01-b783-c44b1c086711/application",
+      "source": "ashby",
+      "score": 27,
+      "breakdown": {
+        "title": 15,
+        "location": 8,
+        "have": 4,
+        "want+bonus": 0,
+        "penalty": 0,
+        "detected_mode": "none",
+        "city_tier": "tier2"
+      },
+      "hard_flags": [],
+      "soft_flags": [],
+      "matched_titles": [
+        "software engineer"
+      ],
+      "matched_skills_have": [
+        "python",
+        "react"
+      ],
       "matched_skills_want": [],
       "matched_bonus": []
     },
@@ -59,116 +180,32 @@
       "matched_bonus": []
     },
     {
-      "id": "b230852d1c35c17a",
-      "company": "ramp",
-      "title": "Software Engineer Internship, Android ",
-      "location": "New York, NY (HQ)",
-      "url": "https://jobs.ashbyhq.com/ramp/67fadb77-43d8-4449-954b-d4cf2c6d3b8b/application",
-      "source": "ashby",
-      "score": 27,
+      "id": "f0c5eae2a7de8573",
+      "company": "scaleai",
+      "title": "Software Engineering Intern (Summer 2026) ",
+      "location": "San Francisco, CA",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4606014005",
+      "source": "greenhouse",
+      "score": 22,
       "breakdown": {
         "title": 15,
         "location": 8,
         "have": 4,
         "want+bonus": 0,
-        "penalty": 0,
+        "penalty": 5,
         "detected_mode": "none",
         "city_tier": "tier2"
       },
       "hard_flags": [],
-      "soft_flags": [],
+      "soft_flags": [
+        "citizen_mentioned"
+      ],
       "matched_titles": [
         "software engineer"
       ],
       "matched_skills_have": [
         "python",
-        "sql"
-      ],
-      "matched_skills_want": [],
-      "matched_bonus": []
-    },
-    {
-      "id": "4ff882d7bab5bdb0",
-      "company": "ramp",
-      "title": "Software Engineer Internship, iOS",
-      "location": "New York, NY (HQ)",
-      "url": "https://jobs.ashbyhq.com/ramp/8c155b55-3e7e-48a8-ac98-f988a2b6f4da/application",
-      "source": "ashby",
-      "score": 27,
-      "breakdown": {
-        "title": 15,
-        "location": 8,
-        "have": 4,
-        "want+bonus": 0,
-        "penalty": 0,
-        "detected_mode": "none",
-        "city_tier": "tier2"
-      },
-      "hard_flags": [],
-      "soft_flags": [],
-      "matched_titles": [
-        "software engineer"
-      ],
-      "matched_skills_have": [
-        "python",
-        "sql"
-      ],
-      "matched_skills_want": [],
-      "matched_bonus": []
-    },
-    {
-      "id": "8c305391a2786222",
-      "company": "ramp",
-      "title": "Software Engineer Internship, Frontend",
-      "location": "New York, NY (HQ)",
-      "url": "https://jobs.ashbyhq.com/ramp/31f7e045-9a51-4a75-9ffc-d815d6db6daa/application",
-      "source": "ashby",
-      "score": 27,
-      "breakdown": {
-        "title": 15,
-        "location": 8,
-        "have": 4,
-        "want+bonus": 0,
-        "penalty": 0,
-        "detected_mode": "none",
-        "city_tier": "tier2"
-      },
-      "hard_flags": [],
-      "soft_flags": [],
-      "matched_titles": [
-        "software engineer"
-      ],
-      "matched_skills_have": [
-        "python",
-        "aws"
-      ],
-      "matched_skills_want": [],
-      "matched_bonus": []
-    },
-    {
-      "id": "cdefeb135c230613",
-      "company": "openai",
-      "title": "Software Engineer Internship / Co-op, Applied Emerging Talent (Fall 2026)",
-      "location": "San Francisco",
-      "url": "https://jobs.ashbyhq.com/openai/1f3353ed-78eb-4a01-b783-c44b1c086711/application",
-      "source": "ashby",
-      "score": 25,
-      "breakdown": {
-        "title": 15,
-        "location": 8,
-        "have": 2,
-        "want+bonus": 0,
-        "penalty": 0,
-        "detected_mode": "none",
-        "city_tier": "tier2"
-      },
-      "hard_flags": [],
-      "soft_flags": [],
-      "matched_titles": [
-        "software engineer"
-      ],
-      "matched_skills_have": [
-        "python"
+        "react"
       ],
       "matched_skills_want": [],
       "matched_bonus": []
@@ -200,47 +237,17 @@
       "matched_bonus": []
     },
     {
-      "id": "f0c5eae2a7de8573",
-      "company": "scaleai",
-      "title": "Software Engineering Intern (Summer 2026) ",
-      "location": "San Francisco, CA",
-      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4606014005",
-      "source": "greenhouse",
-      "score": 20,
-      "breakdown": {
-        "title": 15,
-        "location": 8,
-        "have": 2,
-        "want+bonus": 0,
-        "penalty": 5,
-        "detected_mode": "none",
-        "city_tier": "tier2"
-      },
-      "hard_flags": [],
-      "soft_flags": [
-        "citizen_mentioned"
-      ],
-      "matched_titles": [
-        "software engineer"
-      ],
-      "matched_skills_have": [
-        "python"
-      ],
-      "matched_skills_want": [],
-      "matched_bonus": []
-    },
-    {
       "id": "867837af4b70f7ea",
       "company": "stripe",
       "title": "Software Engineer, Intern",
       "location": "Dublin",
       "url": "https://stripe.com/jobs/search?gh_jid=7206494",
       "source": "greenhouse",
-      "score": 15,
+      "score": 17,
       "breakdown": {
         "title": 15,
         "location": 0,
-        "have": 0,
+        "have": 2,
         "want+bonus": 0,
         "penalty": 0,
         "detected_mode": "none",
@@ -251,7 +258,9 @@
       "matched_titles": [
         "software engineer"
       ],
-      "matched_skills_have": [],
+      "matched_skills_have": [
+        "Java"
+      ],
       "matched_skills_want": [],
       "matched_bonus": []
     },
@@ -262,11 +271,11 @@
       "location": "London",
       "url": "https://stripe.com/jobs/search?gh_jid=7360840",
       "source": "greenhouse",
-      "score": 15,
+      "score": 17,
       "breakdown": {
         "title": 15,
         "location": 0,
-        "have": 0,
+        "have": 2,
         "want+bonus": 0,
         "penalty": 0,
         "detected_mode": "none",
@@ -277,7 +286,9 @@
       "matched_titles": [
         "software engineer"
       ],
-      "matched_skills_have": [],
+      "matched_skills_have": [
+        "Java"
+      ],
       "matched_skills_want": [],
       "matched_bonus": []
     },
@@ -288,11 +299,11 @@
       "location": "Singapore",
       "url": "https://stripe.com/jobs/search?gh_jid=7206401",
       "source": "greenhouse",
-      "score": 15,
+      "score": 17,
       "breakdown": {
         "title": 15,
         "location": 0,
-        "have": 0,
+        "have": 2,
         "want+bonus": 0,
         "penalty": 0,
         "detected_mode": "none",
@@ -303,7 +314,9 @@
       "matched_titles": [
         "software engineer"
       ],
-      "matched_skills_have": [],
+      "matched_skills_have": [
+        "Java"
+      ],
       "matched_skills_want": [],
       "matched_bonus": []
     },
@@ -314,11 +327,11 @@
       "location": "Toronto",
       "url": "https://stripe.com/jobs/search?gh_jid=7206389",
       "source": "greenhouse",
-      "score": 15,
+      "score": 17,
       "breakdown": {
         "title": 15,
         "location": 0,
-        "have": 0,
+        "have": 2,
         "want+bonus": 0,
         "penalty": 0,
         "detected_mode": "none",
@@ -329,7 +342,9 @@
       "matched_titles": [
         "software engineer"
       ],
-      "matched_skills_have": [],
+      "matched_skills_have": [
+        "Java"
+      ],
       "matched_skills_want": [],
       "matched_bonus": []
     },
@@ -340,11 +355,11 @@
       "location": "San Francisco, CA",
       "url": "https://jobs.ashbyhq.com/Sierra/8bb2509d-9215-4cb5-8cf1-2bf0dbade6d8/application",
       "source": "ashby",
-      "score": 4,
+      "score": 6,
       "breakdown": {
         "title": 0,
         "location": 8,
-        "have": 0,
+        "have": 2,
         "want+bonus": 1,
         "penalty": 5,
         "detected_mode": "none",
@@ -355,7 +370,9 @@
         "citizen_mentioned"
       ],
       "matched_titles": [],
-      "matched_skills_have": [],
+      "matched_skills_have": [
+        "react"
+      ],
       "matched_skills_want": [],
       "matched_bonus": [
         "rag"
