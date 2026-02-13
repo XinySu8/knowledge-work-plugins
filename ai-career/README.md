@@ -101,3 +101,14 @@ Cron note:
 python ai-career/scripts/fetch_jobs.py
 python ai-career/scripts/score_jobs.py
 python ai-career/scripts/triage_jobs.py
+
+Attribution
+
+This repository is a fork of anthropics/knowledge-work-plugins.
+It includes an additional "ai-career" workflow plugin and job pipeline contributed by the fork owner.
+
+Upstream project:
+- https://github.com/anthropics/knowledge-work-plugins
+
+License:
+- This fork remains licensed under the Apache License 2.0 (see the root LICENSE file).
