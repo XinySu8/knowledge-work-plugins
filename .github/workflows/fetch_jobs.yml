@@ -3,7 +3,7 @@ name: Fetch jobs
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 14 * * *"  # 14:00 UTC daily (adjust as you like)
+    - cron: "0 14 * * *"  # 14:00 UTC daily
 
 jobs:
   fetch:
@@ -21,6 +21,10 @@ jobs:
         run: |
           python ai-career/scripts/fetch_jobs.py
 
+      - name: Run scoring
+        run: |
+          python ai-career/scripts/score_jobs.py
+
       - name: Commit outputs
         run: |
           git config user.name "github-actions[bot]"
@@ -34,9 +38,10 @@ jobs:
             ai-career/data/jobs_backlog.json \
             ai-career/data/jobs_backlog.md \
             ai-career/data/state.json \
-            ai-career/data/archive || true
+            ai-career/data/archive \
+            ai-career/data/scored_jobs.json \
+            ai-career/data/scored_jobs.md || true
 
-          # Only commit if there are changes
           if git diff --cached --quiet; then
             echo "No changes to commit."
             exit 0
