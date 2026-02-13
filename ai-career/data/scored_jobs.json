@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-02-13T02:26:42.350903+00:00",
-  "source_generated_at_utc": "2026-02-13T02:26:42.235352+00:00",
+  "generated_at_utc": "2026-02-13T03:28:01.075749+00:00",
+  "source_generated_at_utc": "2026-02-13T03:28:00.953362+00:00",
   "count": 13,
   "jobs": [
     {
@@ -265,34 +265,6 @@
       "matched_bonus": []
     },
     {
-      "id": "acdb4e432b539db6",
-      "company": "stripe",
-      "title": "Software Engineer, Intern",
-      "location": "London",
-      "url": "https://stripe.com/jobs/search?gh_jid=7360840",
-      "source": "greenhouse",
-      "score": 17,
-      "breakdown": {
-        "title": 15,
-        "location": 0,
-        "have": 2,
-        "want+bonus": 0,
-        "penalty": 0,
-        "detected_mode": "none",
-        "city_tier": "none"
-      },
-      "hard_flags": [],
-      "soft_flags": [],
-      "matched_titles": [
-        "software engineer"
-      ],
-      "matched_skills_have": [
-        "Java"
-      ],
-      "matched_skills_want": [],
-      "matched_bonus": []
-    },
-    {
       "id": "1254231df3fa18cd",
       "company": "stripe",
       "title": "Software Engineer, Intern",
@@ -326,6 +298,34 @@
       "title": "Software Engineer, Intern",
       "location": "Toronto",
       "url": "https://stripe.com/jobs/search?gh_jid=7206389",
+      "source": "greenhouse",
+      "score": 17,
+      "breakdown": {
+        "title": 15,
+        "location": 0,
+        "have": 2,
+        "want+bonus": 0,
+        "penalty": 0,
+        "detected_mode": "none",
+        "city_tier": "none"
+      },
+      "hard_flags": [],
+      "soft_flags": [],
+      "matched_titles": [
+        "software engineer"
+      ],
+      "matched_skills_have": [
+        "Java"
+      ],
+      "matched_skills_want": [],
+      "matched_bonus": []
+    },
+    {
+      "id": "acdb4e432b539db6",
+      "company": "stripe",
+      "title": "Software Engineer, Intern",
+      "location": "London",
+      "url": "https://stripe.com/jobs/search?gh_jid=7360840",
       "source": "greenhouse",
       "score": 17,
       "breakdown": {
