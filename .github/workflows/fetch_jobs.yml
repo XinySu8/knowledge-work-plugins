@@ -3,7 +3,10 @@ name: Fetch jobs
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 14 * * *"  # 14:00 UTC daily
+    # 7:00 AM MDT (UTC-6) — roughly Mar–Nov
+    - cron: "0 13 * * *"
+    # 7:00 AM MST (UTC-7) — roughly Nov–Mar
+    - cron: "0 14 * * *"
 
 jobs:
   fetch:
