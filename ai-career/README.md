@@ -1,110 +1,150 @@
-# ai-career (Job Feed + Scoring + Triage)
+# ai-career: daily internship job pipeline (GitHub Actions)
 
-A lightweight, GitHub Actions–friendly job workflow:
-- Fetch public job postings (Greenhouse / Lever / Ashby)
-- Filter to internships + your target domain
-- Score jobs against your profile keywords
-- Triage into Apply / Maybe / Skip
-- Persist state across days (so “today’s new jobs” vs “backlog” is stable)
-- Generate per-job Markdown “cards” for quick review
+This folder adds an "ai-career" workflow plugin and a daily job pipeline on top of the upstream fork.
 
-## Quick Start (GitHub Actions)
+What it does (daily):
+1) Fetch job postings from multiple public ATS sources (Greenhouse / Lever / Ashby)
+2) Filter for internship-like roles + your target domain keywords
+3) Score jobs against your profile keywords (optional but recommended)
+4) Triage today's jobs into Apply / Maybe / Skip and generate one markdown "job card" per job
+5) Maintain a small persistent state file so you can separate:
+   - today's newly-seen jobs
+   - older backlog jobs you still haven't applied/ignored/closed
 
-1) Fork / clone this repo
+---
 
-2) Edit targets and filters:
-- `ai-career/config/targets.json`
+## Quick start (local)
 
-3) Edit your profile for scoring / triage:
-- `ai-career/config/profile.json`
+From repo root:
 
-4) Run the workflow:
-- Go to **Actions** → **Fetch jobs** → **Run workflow**
+    python ai-career/scripts/fetch_jobs.py
+    python ai-career/scripts/score_jobs.py
+    python ai-career/scripts/triage_jobs.py
 
-Outputs will be committed back to the repo under:
-- `ai-career/data/`
-
-## Outputs (What you should read daily)
-
-### Job feeds
-- `ai-career/data/jobs_today.md`  
-  Jobs first seen **today (UTC)**.
-- `ai-career/data/jobs_backlog.md`  
-  Older jobs you haven’t marked as applied/ignored/closed.
-- `ai-career/data/jobs.md`  
-  Current filtered snapshot (all).
-
-### Scoring
-- `ai-career/data/scored_jobs.md`  
-  Ranked list with score breakdown and keyword hits.
-- `ai-career/data/scored_jobs.json`  
-  Same data in JSON.
-
-### Triage (actionable buckets)
-- `ai-career/data/triage_today.md`  
-  Apply / Maybe / Skip for today’s jobs.
-- `ai-career/data/by_day/YYYY-MM-DD/<job_id>.md`  
-  Per-job review cards generated for today.
-
-### State / history
-- `ai-career/data/state.json`  
-  Persistent state:
-  - `first_seen_date_utc` (stable within a day)
-  - `last_seen_at_utc`
-  - `status` (new/applied/ignored/closed)
-- `ai-career/data/archive/jobs.YYYY-MM-DD.*`  
-  Daily archive. Same-day reruns overwrite the same daily file (last run wins).
+---
 
 ## Configuration
 
-### `targets.json` (sources + filters)
+### 1) Targets (where to fetch jobs)
 
-**Targets** support:
-- Greenhouse: `{ "source": "greenhouse", "company": "...", "board_token": "..." }`
-- Lever: `{ "source": "lever", "company": "...", "lever_slug": "..." }`
-- Ashby: `{ "source": "ashby", "company": "...", "job_board_name": "..." }`
+Edit:
 
-**Filters** (high level):
-- `internship_any`: internship keywords (title/content)
-- `domain_any`: SWE/ML/Data direction keywords
-- `exclude_any`: seniority/leadership terms to drop
-- `degree_required_any`, `major_required_any`: optional gating
-- `max_jobs_per_company`: cap noise per company
+- `ai-career/config/targets.json`
 
-Important note:
-- Hyphenated tokens like `co-op` are matched with safe boundaries to avoid false positives (e.g. `co-opetition`).
+This controls which companies/sources you fetch from and the filtering rules.
 
-### `profile.json` (scoring + location prefs)
-You can tune:
-- `titles_target`: title keywords (high weight)
-- `skills_have`, `skills_want`, `bonus_keywords`
-- `preferred_locations_tier1`, `preferred_locations_tier2`
+### 2) Profile (how to score/triage)
 
-## How “Today vs Backlog” Works (State logic)
+Edit:
 
-- On each run, every job gets a stable `id`.
-- The first time an `id` is seen, we record `first_seen_date_utc` in `state.json`.
-- Same-day reruns do **not** change `first_seen_date_utc`, so “today” stays consistent even if you run multiple times.
-- “Backlog” is jobs with `first_seen_date_utc < today` and `status` not in `{applied, ignored, closed}`.
+- `ai-career/config/profile.json`
 
-## Workflow
+This controls keyword lists used by scoring/triage, plus location preferences.
 
-The default GitHub Actions workflow runs daily and on-demand:
-- Fetch → Score → Triage → Commit outputs
+Tip: keep keywords simple and stable first, then iterate.
 
-Cron note:
-- GitHub schedules use **UTC**. If you want Boulder time (America/Denver), convert MT → UTC in the cron.
+---
 
-## Development / Local Run (optional)
+## Outputs (generated files)
 
-```bash
-python ai-career/scripts/fetch_jobs.py
-python ai-career/scripts/score_jobs.py
-python ai-career/scripts/triage_jobs.py
-```
-# Attribution
+Main outputs are under:
 
-This repository is a fork of anthropics/knowledge-work-plugins.
+- `ai-career/data/`
+
+### Current snapshot (overwritten every run)
+- `jobs.json`
+- `jobs.md`
+
+### Today vs backlog
+- `jobs_today.json`
+- `jobs_today.md`
+- `jobs_backlog.json`
+- `jobs_backlog.md`
+
+Meaning:
+- **Today** = jobs first seen on today’s UTC date (same-day reruns do NOT change “first seen”)
+- **Backlog** = jobs first seen on previous days and not marked applied/ignored/closed
+
+### Persistent state (do not delete)
+- `state.json`
+
+This stores per-job metadata such as:
+- `first_seen_date_utc`
+- `last_seen_at_utc`
+- `status` (new/applied/ignored/closed)
+
+### Daily archive (last run of the day wins)
+- `ai-career/data/archive/jobs.YYYY-MM-DD.json`
+- `ai-career/data/archive/jobs.YYYY-MM-DD.md`
+
+Same-day reruns overwrite the SAME archive file, so you always keep the last snapshot for that date.
+
+### Scoring output
+- `scored_jobs.json`
+- `scored_jobs.md`
+
+### Triage output + per-job markdown cards
+- `triage_today.md` (summary)
+- `cards/by_day/YYYY-MM-DD/<job_id>.md` (one job card per job)
+
+Job cards are stable per job id; within the same day, re-running updates the same card file.
+
+---
+
+## GitHub Actions (daily automation)
+
+The repo includes a scheduled workflow (plus manual run) that runs:
+
+- fetch → score → triage → commit generated outputs back to the repo
+
+Run it now:
+1) Go to GitHub → **Actions**
+2) Select the workflow (e.g., “Fetch jobs” / “Job pipeline”)
+3) Click **Run workflow**
+
+---
+
+## Marking job status (applied / ignored / closed)
+
+The pipeline can’t know if you applied automatically, so you mark status yourself.
+
+Recommended workflow:
+- Use a dedicated GitHub Actions workflow that updates `ai-career/data/state.json`
+- You provide the job id and status via manual “Run workflow” inputs
+
+Status meanings:
+- `new`: default; still in your queue
+- `applied`: hide from backlog
+- `ignored`: hide from backlog
+- `closed`: hide from backlog (useful if posting disappears)
+
+After you mark a job as `applied/ignored/closed`, it will stop showing in backlog outputs.
+
+---
+
+## Notes / FAQ
+
+### Why “today vs backlog” is based on *first seen* (not posted date)?
+
+Different ATS sources expose timestamps inconsistently. “first seen” is robust:
+- You always get a clean “today” list for review
+- Backlog stays stable across days until you mark items as applied/ignored/closed
+
+### Will running multiple times per day overwrite files?
+
+Yes for the “current snapshot” and “today/backlog” outputs — they reflect the latest run.
+Archive uses one file per day (YYYY-MM-DD), also overwritten within the same day.
+
+### I see a weird non-intern role in scored/triage but not in jobs.md
+
+That usually means scoring/triage ran on an older `jobs.json` (or the workflow didn’t run the steps you expect).
+Fix: ensure the workflow runs fetch → score → triage in the same job, and commits all outputs.
+
+---
+
+## Attribution
+
+This repository is a fork of `anthropics/knowledge-work-plugins`.
 It includes an additional "ai-career" workflow plugin and job pipeline contributed by the fork owner.
 
 Upstream project:
