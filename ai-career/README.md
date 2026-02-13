@@ -101,8 +101,8 @@ Cron note:
 python ai-career/scripts/fetch_jobs.py
 python ai-career/scripts/score_jobs.py
 python ai-career/scripts/triage_jobs.py
-
-Attribution
+```
+# Attribution
 
 This repository is a fork of anthropics/knowledge-work-plugins.
 It includes an additional "ai-career" workflow plugin and job pipeline contributed by the fork owner.
