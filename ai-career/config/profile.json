@@ -19,7 +19,13 @@
     "linux",
     "spark",
     "hadoop",
-    "aws"
+    "aws",
+    "Java",
+    "C",
+    "C++",
+    "vue.js",
+    "react",
+    "noed.js",
   ],
   "skills_want": [
     "kubernetes",
