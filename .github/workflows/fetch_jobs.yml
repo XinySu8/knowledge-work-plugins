@@ -24,10 +24,6 @@ jobs:
         run: |
           python ai-career/scripts/fetch_jobs.py
 
-      - name: Run triage
-        run: |
-          python ai-career/scripts/triage_jobs.py
-
       - name: Run scoring
         run: |
           python ai-career/scripts/score_jobs.py
