@@ -43,7 +43,6 @@ def stable_id(*parts: str) -> str:
 def html_to_text(s: str) -> str:
     if not s:
         return ""
-    # decode HTML entities like &lt;h2&gt; etc.
     s = html.unescape(s)
     s = re.sub(r"<[^>]+>", " ", s)
     s = re.sub(r"\s+", " ", s).strip()
@@ -55,22 +54,28 @@ def _norm(s: str) -> str:
 
 
 def contains_any(text: str, keywords) -> bool:
+    """
+    Match any keyword in text.
+    - Phrases (contain spaces) => substring match.
+    - Single tokens (including hyphenated like 'co-op') => word-boundary regex match.
+      This prevents 'co-op' from matching 'co-opetition', and 'intern' from matching 'internal'.
+    """
     if not keywords:
         return True
-    t = text or ""
 
+    t = text or ""
     for k in keywords:
         if not (isinstance(k, str) and k.strip()):
             continue
         kk = k.strip()
 
-        # If it's a phrase (has space or hyphen), substring match is fine
-        if (" " in kk) or ("-" in kk):
+        # Phrase: substring match
+        if " " in kk:
             if kk.lower() in t.lower():
                 return True
             continue
 
-        # Single token: use word-boundary regex to avoid matching internal/international/paid/html etc.
+        # Single token (including hyphenated): word-boundary regex
         pattern = r"\b" + re.escape(kk) + r"\b"
         if re.search(pattern, t, flags=re.IGNORECASE):
             return True
@@ -100,7 +105,12 @@ def apply_filters(jobs, filters):
 
         # Exclude first
         if exclude_any and contains_any(haystack, exclude_any):
-            dropped.append({"id": j.get("id"), "reason": "excluded_keyword", "title": title, "company": j.get("company")})
+            dropped.append({
+                "id": j.get("id"),
+                "reason": "excluded_keyword",
+                "title": title,
+                "company": j.get("company")
+            })
             continue
 
         # 1) Must be internship-ish
@@ -121,26 +131,51 @@ def apply_filters(jobs, filters):
                 is_internship = True
 
         if not is_internship:
-            dropped.append({"id": j.get("id"), "reason": "not_internship", "title": title, "company": j.get("company")})
+            dropped.append({
+                "id": j.get("id"),
+                "reason": "not_internship",
+                "title": title,
+                "company": j.get("company")
+            })
             continue
 
         # Optional: require degree/major keywords (if provided)
         if degree_required_any and not contains_any(haystack, degree_required_any):
-            dropped.append({"id": j.get("id"), "reason": "degree_mismatch", "title": title, "company": j.get("company")})
+            dropped.append({
+                "id": j.get("id"),
+                "reason": "degree_mismatch",
+                "title": title,
+                "company": j.get("company")
+            })
             continue
 
         if major_required_any and not contains_any(haystack, major_required_any):
-            dropped.append({"id": j.get("id"), "reason": "major_mismatch", "title": title, "company": j.get("company")})
+            dropped.append({
+                "id": j.get("id"),
+                "reason": "major_mismatch",
+                "title": title,
+                "company": j.get("company")
+            })
             continue
 
         # 2) Must match domain direction
         if domain_any and not contains_any(haystack, domain_any):
-            dropped.append({"id": j.get("id"), "reason": "domain_mismatch", "title": title, "company": j.get("company")})
+            dropped.append({
+                "id": j.get("id"),
+                "reason": "domain_mismatch",
+                "title": title,
+                "company": j.get("company")
+            })
             continue
 
         # Optional location filter
         if locations_any and not contains_any(loc, locations_any):
-            dropped.append({"id": j.get("id"), "reason": "location_mismatch", "title": title, "company": j.get("company")})
+            dropped.append({
+                "id": j.get("id"),
+                "reason": "location_mismatch",
+                "title": title,
+                "company": j.get("company")
+            })
             continue
 
         # Cap per company
@@ -148,7 +183,12 @@ def apply_filters(jobs, filters):
             c = j.get("company") or "unknown"
             per_company.setdefault(c, 0)
             if per_company[c] >= int(max_per_company):
-                dropped.append({"id": j.get("id"), "reason": "company_cap", "title": title, "company": j.get("company")})
+                dropped.append({
+                    "id": j.get("id"),
+                    "reason": "company_cap",
+                    "title": title,
+                    "company": j.get("company")
+                })
                 continue
             per_company[c] += 1
 
@@ -216,7 +256,7 @@ def fetch_lever(lever_slug: str, company: str):
                 "source": "lever",
                 "company": company,
                 "title": j.get("text"),
-                "location": j.get("categories", {}).get("location"),
+                "location": (j.get("categories") or {}).get("location"),
                 "url": j.get("hostedUrl"),
                 "updated_at": j.get("createdAt"),
                 "created_at": j.get("createdAt"),
@@ -333,6 +373,7 @@ def main():
     all_jobs, dropped = apply_filters(all_jobs, filters)
     filtered_count = len(all_jobs)
 
+    # Sort newest-ish first (best effort; timestamps differ)
     def sort_key(j):
         v = j.get("updated_at") or j.get("created_at") or ""
         return str(v)
@@ -342,7 +383,7 @@ def main():
     now_utc = datetime.now(timezone.utc)
     today_str = utc_date_str(now_utc)
 
-    # Update state: first_seen_date_utc should NOT change during same day reruns
+    # Update state: first_seen_date_utc should NOT change during same-day reruns
     for j in all_jobs:
         jid = j.get("id")
         if not jid:
@@ -406,15 +447,29 @@ def main():
     # Today snapshot (overwritten every run; always "same-day latest")
     with open(OUT_TODAY_JSON, "w", encoding="utf-8") as f:
         json.dump(
-            {"generated_at_utc": now_utc.isoformat(), "today_utc": today_str, "count": len(today_jobs), "jobs": today_jobs},
-            f, ensure_ascii=False, indent=2
+            {
+                "generated_at_utc": now_utc.isoformat(),
+                "today_utc": today_str,
+                "count": len(today_jobs),
+                "jobs": today_jobs
+            },
+            f,
+            ensure_ascii=False,
+            indent=2
         )
 
     # Backlog snapshot
     with open(OUT_BACKLOG_JSON, "w", encoding="utf-8") as f:
         json.dump(
-            {"generated_at_utc": now_utc.isoformat(), "today_utc": today_str, "count": len(backlog_jobs), "jobs": backlog_jobs},
-            f, ensure_ascii=False, indent=2
+            {
+                "generated_at_utc": now_utc.isoformat(),
+                "today_utc": today_str,
+                "count": len(backlog_jobs),
+                "jobs": backlog_jobs
+            },
+            f,
+            ensure_ascii=False,
+            indent=2
         )
 
     # Markdown outputs
@@ -429,7 +484,14 @@ def main():
     with open(archive_json, "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=2)
 
-    write_md(archive_md, f"Job feed (archive {today_str})", all_jobs, now_utc, today_str, errors=errors if errors else None)
+    write_md(
+        archive_md,
+        f"Job feed (archive {today_str})",
+        all_jobs,
+        now_utc,
+        today_str,
+        errors=errors if errors else None
+    )
 
 
 if __name__ == "__main__":
