@@ -1,7 +1,7 @@
 # ramp — Software Engineer Internship, iOS
 
 Date (UTC): 2026-02-13
-Generated at (UTC): 2026-02-13T03:33:46.253081+00:00
+Generated at (UTC): 2026-02-13T14:05:37.008171+00:00
 Location: New York, NY (HQ)
 Source: ashby
 Link: https://jobs.ashbyhq.com/ramp/8c155b55-3e7e-48a8-ac98-f988a2b6f4da/application
