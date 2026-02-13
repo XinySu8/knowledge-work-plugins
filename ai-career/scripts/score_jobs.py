@@ -15,11 +15,29 @@ def norm(s: str) -> str:
     return (s or "").lower()
 
 
+def _token_pattern(token: str) -> str:
+    """
+    Make a boundary-safe regex for tokens.
+    - For hyphenated tokens like 'co-op', avoid matching inside longer words like 'co-opetition'.
+      Use alnum boundaries instead of \\b (because \\b treats '-' specially).
+    - For normal tokens, use \\b.
+    """
+    tok = (token or "").strip()
+    if not tok:
+        return r"$^"
+
+    if "-" in tok:
+        # Not preceded/followed by letter/digit
+        return r"(?<![A-Za-z0-9])" + re.escape(tok) + r"(?![A-Za-z0-9])"
+    else:
+        return r"\b" + re.escape(tok) + r"\b"
+
+
 def hit_list(text: str, keywords):
     """
     Return a de-duplicated list of matched keywords (preserve order).
-    - Phrases (contain space or hyphen): substring match
-    - Single tokens: word-boundary regex match (avoids intern->internal, ai->paid, ml->html, etc.)
+    - Phrases (contain space): substring match
+    - Tokens (incl hyphenated like co-op): boundary-safe regex match
     """
     t_raw = text or ""
     t = t_raw.lower()
@@ -31,14 +49,14 @@ def hit_list(text: str, keywords):
         kk = k.strip()
         k_low = kk.lower()
 
-        # phrase: allow substring
-        if (" " in kk) or ("-" in kk):
+        # phrase (space) -> substring
+        if " " in kk:
             if k_low in t:
                 hits.append(kk)
             continue
 
-        # single token: word-boundary regex
-        pattern = r"\b" + re.escape(k_low) + r"\b"
+        # token (including hyphenated) -> boundary-safe regex
+        pattern = _token_pattern(k_low)
         if re.search(pattern, t, flags=re.IGNORECASE):
             hits.append(kk)
 
@@ -55,8 +73,9 @@ def hit_list(text: str, keywords):
 
 def contains_any(text: str, keywords) -> bool:
     """
-    Boolean version of hit_list: True if any keyword matches.
-    Uses the same matching rules (phrase substring, token word-boundary).
+    Boolean version of hit_list.
+    - Phrases (space): substring match
+    - Tokens (incl hyphenated): boundary-safe regex match
     """
     if not keywords:
         return True
@@ -70,14 +89,12 @@ def contains_any(text: str, keywords) -> bool:
         kk = k.strip()
         k_low = kk.lower()
 
-        # phrase: substring
-        if (" " in kk) or ("-" in kk):
+        if " " in kk:
             if k_low in t:
                 return True
             continue
 
-        # token: word boundary
-        pattern = r"\b" + re.escape(k_low) + r"\b"
+        pattern = _token_pattern(k_low)
         if re.search(pattern, t, flags=re.IGNORECASE):
             return True
 
