@@ -86,10 +86,6 @@ def term_is_hard_required(contexts, required_patterns, negation_patterns):
     return False
 
 def _split_sentences(text: str):
-    """
-    Lightweight sentence splitter for evidence extraction.
-    We prefer stable behavior over perfect NLP.
-    """
     if not text:
         return []
     t = re.sub(r"\s+", " ", text.strip())
@@ -97,9 +93,6 @@ def _split_sentences(text: str):
     return [p.strip() for p in parts if len(p.strip()) >= 20]
 
 def _highlight_phrases(text: str, phrases):
-    """
-    Highlight phrases in plain text using <<...>> so it pops even without Markdown.
-    """
     out = text
     uniq = []
     seen = set()
@@ -115,9 +108,6 @@ def _highlight_phrases(text: str, phrases):
     return out
 
 def _pick_evidence_sentences(text: str, phrases, max_sentences: int = 2):
-    """
-    Pick up to N sentences containing any of phrases; fall back to snippet if needed.
-    """
     sents = _split_sentences(text)
     hits = []
     phrases_low = [p.lower() for p in (phrases or []) if p]
@@ -138,20 +128,14 @@ def _pick_evidence_sentences(text: str, phrases, max_sentences: int = 2):
 
 def classify_clearance(text: str):
     """
-    Clearance tri-state classifier:
-      - CLEAR: explicit "not required" statements
-      - BLOCK: strong positive signals (very low false positives)
-      - REVIEW: mentions clearance but ambiguous; do NOT block automatically
-      - NONE: no signal
-
-    Returns dict: {"status": "CLEAR"|"BLOCK"|"REVIEW"|"NONE", "evidence": [str, ...]}
+    CLEAR / BLOCK / REVIEW / NONE + evidence (plain-text highlighted)
+    Conservative BLOCK; prioritize CLEAR to avoid false blocks.
     """
     if not text:
         return {"status": "NONE", "evidence": []}
 
     lower = text.lower()
 
-    # Strong negations (CLEAR) — prioritize these to avoid false blocks.
     neg_phrases = [
         "no clearance required",
         "no security clearance required",
@@ -162,7 +146,6 @@ def classify_clearance(text: str):
         "does not require a security clearance",
     ]
 
-    # Strong positive (BLOCK) — keep conservative to minimize false positives.
     pos_phrases = [
         "ts/sci",
         "ts-sci",
@@ -178,7 +161,6 @@ def classify_clearance(text: str):
         "eligible for security clearance",
     ]
 
-    # Weak triggers (REVIEW) — mention only.
     weak_triggers = [
         "security clearance",
         "clearance",
@@ -186,27 +168,23 @@ def classify_clearance(text: str):
         "top secret",
     ]
 
-    # Handle common misspelling "clearence" too
+    # Handle misspelling clearence
     if "clearence" in lower and "clearance" not in lower:
         lower = lower.replace("clearence", "clearance")
         text = re.sub(r"clearence", "clearance", text, flags=re.IGNORECASE)
 
     if any(p in lower for p in neg_phrases):
         return {"status": "CLEAR", "evidence": _pick_evidence_sentences(text, neg_phrases)}
-
     if any(p in lower for p in pos_phrases):
         return {"status": "BLOCK", "evidence": _pick_evidence_sentences(text, pos_phrases)}
-
     if any(p in lower for p in weak_triggers):
         return {"status": "REVIEW", "evidence": _pick_evidence_sentences(text, weak_triggers)}
-
     return {"status": "NONE", "evidence": []}
 
 def extract_sections(text: str):
     """
     Very simple JD section extractor:
     tries to find chunks under headings like Responsibilities/Requirements/Qualifications/Preferred/Benefits.
-    Works on plain text and many HTML-stripped JDs.
     """
     t = (text or "")
     lines = [ln.strip() for ln in t.splitlines()]
@@ -220,7 +198,6 @@ def extract_sections(text: str):
         "benefits": ["benefits", "perks", "compensation", "salary"]
     }
 
-    # Build a map of line index -> heading key
     idx_to_key = {}
     for i, ln in enumerate(lines):
         low = ln.lower().strip(":")
@@ -229,11 +206,9 @@ def extract_sections(text: str):
                 if low == k or low.startswith(k + ":"):
                     idx_to_key[i] = key
 
-    # If no headings detected, return first N lines as "summary"
     if not idx_to_key:
         return {"summary": "\n".join(lines[:25])}
 
-    # Slice sections by heading boundaries
     section_keys = []
     for i in sorted(idx_to_key.keys()):
         section_keys.append((i, idx_to_key[i]))
@@ -245,12 +220,64 @@ def extract_sections(text: str):
         end_i, _ = section_keys[n + 1]
         chunk = lines[start_i+1:end_i]
         if chunk:
-            out[key] = "\n".join(chunk[:40])  # cap
+            out[key] = "\n".join(chunk[:60])  # keep a bit more, we'll trim later in rendering
     return out
 
-def _extract_pay_lines(benefits_text: str, max_lines: int = 4):
+def _to_bullets(text: str, max_items: int):
     """
-    Keep only pay/comp-related lines from benefits to reduce noise.
+    Convert multi-line section text into bullet lines, capped.
+    """
+    if not text:
+        return []
+    raw_lines = [ln.strip(" •\t-").strip() for ln in text.splitlines()]
+    raw_lines = [ln for ln in raw_lines if ln]
+    return raw_lines[:max_items]
+
+def _split_embedded_headings(lines):
+    """
+    Some sections contain embedded headings like 'WHAT YOU'LL NEED' or 'NICE TO HAVES'.
+    Split them out so Responsibilities doesn't swallow Requirements.
+    """
+    if not lines:
+        return {"main": []}
+
+    markers_req = [
+        "what you'll need",
+        "what you’ll need",
+        "requirements",
+        "minimum qualifications",
+        "qualifications",
+    ]
+    markers_pref = [
+        "nice to have",
+        "nice-to-have",
+        "nice to haves",
+        "nice-to-haves",
+        "preferred",
+        "preferred qualifications",
+        "bonus",
+    ]
+
+    buckets = {"main": [], "requirements": [], "preferred": []}
+    mode = "main"
+
+    for ln in lines:
+        low = ln.lower().strip(":").strip()
+
+        if any(m == low or low.startswith(m) for m in markers_req):
+            mode = "requirements"
+            continue
+        if any(m == low or low.startswith(m) for m in markers_pref):
+            mode = "preferred"
+            continue
+
+        buckets[mode].append(ln)
+
+    return buckets
+
+def _extract_pay_lines(benefits_text: str, max_lines: int = 2):
+    """
+    Keep only the strongest comp signals to reduce noise.
     """
     if not benefits_text:
         return ""
@@ -258,7 +285,8 @@ def _extract_pay_lines(benefits_text: str, max_lines: int = 4):
     keep = []
     for ln in lines:
         low = ln.lower()
-        if ("$" in ln) or ("salary" in low) or ("rate" in low) or ("stipend" in low) or ("compensation" in low) or ("housing" in low) or ("hour" in low) or ("monthly" in low):
+        # keep only strong pay/comp signals
+        if ("$" in ln) or ("housing" in low) or ("hourly" in low) or ("monthly rate" in low) or ("salary" in low) or ("compensation" in low):
             keep.append(ln)
         if len(keep) >= max_lines:
             break
@@ -285,7 +313,6 @@ def triage_one(job: dict, profile: dict):
     matched_want = hit_list(haystack, skills_want)
     matched_bonus = hit_list(haystack, bonus_keywords)
 
-    # Citizenship/clearance flags
     text_low = haystack.lower()
 
     neg_citizen = [
@@ -302,7 +329,6 @@ def triage_one(job: dict, profile: dict):
     hard_flags = []
     soft_flags = []
 
-    # --- Clearance tri-state (BLOCK/REVIEW/CLEAR) with evidence for readability ---
     clr = classify_clearance(haystack)
     clearance_status = clr.get("status") or "NONE"
     clearance_evidence = clr.get("evidence") or []
@@ -323,19 +349,14 @@ def triage_one(job: dict, profile: dict):
 
     sections = extract_sections(content)
 
-    # Clean up benefits section to reduce noise (keep only pay/stipend/housing lines)
+    # Tighten benefits to only strong comp signals
     if isinstance(sections, dict) and sections.get("benefits"):
-        pay = _extract_pay_lines(sections.get("benefits") or "", max_lines=4)
+        pay = _extract_pay_lines(sections.get("benefits") or "", max_lines=2)
         if pay:
             sections["benefits"] = pay
         else:
-            # If no pay-like lines, drop benefits to avoid long generic perks
             sections.pop("benefits", None)
 
-    # Simple suggestion rule:
-    # - If any hard flag => Skip
-    # - Else if matched_titles exists and (have or want) has >= 2 => Apply
-    # - Else => Maybe
     suggestion = "Maybe"
     if hard_flags:
         suggestion = "Skip"
@@ -365,6 +386,8 @@ def triage_one(job: dict, profile: dict):
 def write_job_md(path: str, tri: dict, today_str: str, generated_at: str):
     lines = []
     lines.append(f"# {tri['company']} — {tri['title']}\n\n")
+
+    # Top metadata (one per line for scanability)
     lines.append(f"Date (UTC): {today_str}\n")
     lines.append(f"Generated at (UTC): {generated_at}\n")
     lines.append(f"Location: {tri.get('location') or 'N/A'}\n")
@@ -372,50 +395,106 @@ def write_job_md(path: str, tri: dict, today_str: str, generated_at: str):
     lines.append(f"Link: {tri.get('url') or ''}\n")
     lines.append(f"Suggestion: {tri.get('suggestion')}\n\n")
 
-    # --- Key signals (make important items visible quickly) ---
-    lines.append("KEY SIGNALS\n")
-    # Clearance block
+    # QUICK READ
+    lines.append("## QUICK READ\n")
     cs = tri.get("clearance_status") or "NONE"
     evs = tri.get("clearance_evidence") or []
-    if cs != "NONE":
-        if cs == "BLOCK":
-            lines.append("SECURITY CHECK: [BLOCK] Requires clearance (do not apply)\n")
-        elif cs == "REVIEW":
-            lines.append("SECURITY CHECK: [REVIEW] Clearance mentioned — verify context\n")
-        elif cs == "CLEAR":
-            lines.append("SECURITY CHECK: [CLEAR] No clearance required (per posting)\n")
-        for ev in evs[:2]:
-            lines.append(f"Evidence: {ev}\n")
+    if cs == "BLOCK":
+        lines.append("- SECURITY: [BLOCK] Requires clearance (do not apply)\n")
+    elif cs == "REVIEW":
+        lines.append("- SECURITY: [REVIEW] Clearance mentioned — verify context\n")
+    elif cs == "CLEAR":
+        lines.append("- SECURITY: [CLEAR] No clearance required (per posting)\n")
     else:
-        lines.append("SECURITY CHECK: [NONE]\n")
+        lines.append("- SECURITY: [NONE]\n")
 
-    if tri.get("hard_flags") or tri.get("soft_flags"):
-        if tri.get("hard_flags"):
-            lines.append(f"Hard flags: {', '.join(tri['hard_flags'])}\n")
-        if tri.get("soft_flags"):
-            lines.append(f"Soft flags: {', '.join(tri['soft_flags'])}\n")
+    if evs:
+        lines.append(f"- Evidence: {evs[0]}\n")
+
+    if tri.get("hard_flags"):
+        lines.append(f"- Hard flags: {', '.join(tri['hard_flags'])}\n")
+    if tri.get("soft_flags"):
+        lines.append(f"- Soft flags: {', '.join(tri['soft_flags'])}\n")
     lines.append("\n")
 
-    lines.append("KEYWORD MATCHES\n")
-    lines.append(f"Matched titles: {', '.join(tri.get('matched_titles') or [])}\n")
-    lines.append(f"Skills have: {', '.join(tri.get('matched_skills_have') or [])}\n")
-    lines.append(f"Skills want: {', '.join(tri.get('matched_skills_want') or [])}\n")
-    lines.append(f"Bonus: {', '.join(tri.get('matched_bonus') or [])}\n\n")
+    # Keyword matches (one per line)
+    lines.append("## KEYWORD MATCHES\n")
+    lines.append(f"- Matched titles: {', '.join(tri.get('matched_titles') or [])}\n")
+    lines.append(f"- Skills have: {', '.join(tri.get('matched_skills_have') or [])}\n")
+    lines.append(f"- Skills want: {', '.join(tri.get('matched_skills_want') or [])}\n")
+    lines.append(f"- Bonus: {', '.join(tri.get('matched_bonus') or [])}\n\n")
 
-    # --- JD extracted sections (keep, but already capped; benefits trimmed above) ---
-    lines.append("JD EXTRACTED SECTIONS (trimmed)\n")
+    # JD sections (bulleted + capped + split embedded headings)
+    lines.append("## JD (TRIMMED)\n")
+
     sections = tri.get("sections") or {}
-    for key in ["summary", "responsibilities", "requirements", "qualifications", "preferred", "benefits"]:
-        if key in sections and sections[key]:
-            lines.append(f"\n[{key.upper()}]\n")
-            lines.append(sections[key] + "\n")
+
+    # Summary
+    if sections.get("summary"):
+        sum_lines = _to_bullets(sections.get("summary"), max_items=6)
+        if sum_lines:
+            lines.append("\n### SUMMARY\n")
+            for ln in sum_lines:
+                lines.append(f"- {ln}\n")
+
+    # Responsibilities
+    if sections.get("responsibilities"):
+        base = _to_bullets(sections.get("responsibilities"), max_items=18)
+        buckets = _split_embedded_headings(base)
+        resp = buckets.get("main") or []
+        req_embedded = buckets.get("requirements") or []
+        pref_embedded = buckets.get("preferred") or []
+
+        if resp:
+            lines.append("\n### RESPONSIBILITIES (top)\n")
+            for ln in resp[:6]:
+                lines.append(f"- {ln}\n")
+
+        # If responsibilities section swallowed requirements, put them where they belong
+        if req_embedded:
+            # merge into requirements later
+            sections["_embedded_requirements"] = "\n".join(req_embedded)
+        if pref_embedded:
+            sections["_embedded_preferred"] = "\n".join(pref_embedded)
+
+    # Requirements
+    req_text = sections.get("requirements") or sections.get("qualifications") or ""
+    if sections.get("_embedded_requirements"):
+        req_text = (req_text + "\n" + sections.get("_embedded_requirements")).strip()
+
+    if req_text:
+        req_lines = _to_bullets(req_text, max_items=10)
+        if req_lines:
+            lines.append("\n### REQUIREMENTS (top)\n")
+            for ln in req_lines[:8]:
+                lines.append(f"- {ln}\n")
+
+    # Preferred / Nice-to-have
+    pref_text = sections.get("preferred") or ""
+    if sections.get("_embedded_preferred"):
+        pref_text = (pref_text + "\n" + sections.get("_embedded_preferred")).strip()
+
+    if pref_text:
+        pref_lines = _to_bullets(pref_text, max_items=8)
+        if pref_lines:
+            lines.append("\n### PREFERRED / NICE-TO-HAVE (top)\n")
+            for ln in pref_lines[:5]:
+                lines.append(f"- {ln}\n")
+
+    # Benefits (pay only)
+    if sections.get("benefits"):
+        ben_lines = _to_bullets(sections.get("benefits"), max_items=3)
+        if ben_lines:
+            lines.append("\n### COMPENSATION (pay only)\n")
+            for ln in ben_lines[:2]:
+                lines.append(f"- {ln}\n")
 
     with open(path, "w", encoding="utf-8") as f:
         f.writelines(lines)
 
 def write_index_md(path: str, items: list, today_str: str, generated_at: str):
     lines = []
-    lines.append("Triage (today)\n")
+    lines.append("# Triage (today)\n")
     lines.append(f"Date (UTC): {today_str}\n")
     lines.append(f"Generated at (UTC): {generated_at}\n")
     lines.append(f"Total: {len(items)}\n\n")
@@ -423,30 +502,28 @@ def write_index_md(path: str, items: list, today_str: str, generated_at: str):
     blocked = [x for x in items if "clearance_required" in (x.get("hard_flags") or [])]
     review = [x for x in items if "clearance_needs_review" in (x.get("soft_flags") or [])]
 
-    # Show clearance-related groups first (so you don't miss red lines, but also avoid mis-blocking)
     if blocked:
-        lines.append(f"BLOCKED (Clearance) ({len(blocked)})\n")
+        lines.append(f"## BLOCKED (Clearance) ({len(blocked)})\n")
         for x in blocked:
             rel = x.get("md_relpath") or ""
             ev = (x.get("clearance_evidence") or [""])[0]
             if ev:
-                lines.append(f"- [{x['company']}] {x['title']} ({x.get('location') or 'N/A'}) — {ev} — {rel}\n")
+                lines.append(f"- [{x['company']}] {x['title']} — {ev} — {rel}\n")
             else:
-                lines.append(f"- [{x['company']}] {x['title']} ({x.get('location') or 'N/A'}) — {rel}\n")
+                lines.append(f"- [{x['company']}] {x['title']} — {rel}\n")
         lines.append("\n")
 
     if review:
-        lines.append(f"NEEDS REVIEW (Clearance mentioned) ({len(review)})\n")
+        lines.append(f"## NEEDS REVIEW (Clearance mentioned) ({len(review)})\n")
         for x in review:
             rel = x.get("md_relpath") or ""
             ev = (x.get("clearance_evidence") or [""])[0]
             if ev:
-                lines.append(f"- [{x['company']}] {x['title']} ({x.get('location') or 'N/A'}) — {ev} — {rel}\n")
+                lines.append(f"- [{x['company']}] {x['title']} — {ev} — {rel}\n")
             else:
-                lines.append(f"- [{x['company']}] {x['title']} ({x.get('location') or 'N/A'}) — {rel}\n")
+                lines.append(f"- [{x['company']}] {x['title']} — {rel}\n")
         lines.append("\n")
 
-    # Group by suggestion, excluding clearance-block/review to keep main lists clean
     excluded_ids = set()
     for x in blocked + review:
         if x.get("id"):
@@ -461,7 +538,7 @@ def write_index_md(path: str, items: list, today_str: str, generated_at: str):
                 continue
             group_items.append(x)
 
-        lines.append(f"{group} ({len(group_items)})\n")
+        lines.append(f"## {group} ({len(group_items)})\n")
         for x in group_items:
             rel = x.get("md_relpath") or ""
             lines.append(f"- [{x['company']}] {x['title']} ({x.get('location') or 'N/A'}) — {rel}\n")
@@ -478,7 +555,6 @@ def main():
     today_str = utc_date_str(now_utc)
     generated_at = now_utc.isoformat()
 
-    # Load inputs
     if not os.path.exists(IN_TODAY_JSON):
         raise FileNotFoundError(f"Missing {IN_TODAY_JSON}. Run fetch_jobs.py first.")
 
@@ -504,7 +580,6 @@ def main():
 
         out_items.append(tri)
 
-    # Write machine json + index md
     out_json = os.path.join(day_dir, "triage.json")
     with open(out_json, "w", encoding="utf-8") as f:
         json.dump(
