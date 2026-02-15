@@ -1,5 +1,5 @@
 # Scored job feed (auto)
-Generated at (UTC): 2026-02-14T14:24:21.185517+00:00
+Generated at (UTC): 2026-02-15T13:50:51.419943+00:00
 Total jobs scored: 13
 
 ## Top internships
@@ -43,12 +43,7 @@ matched_skills_have: python, react
 breakdown: title 15, location 7, have 0, want+bonus 0, penalty 0
 matched_titles: software engineer
 
-[17/100] [stripe] Software Engineer, Intern (London) — https://stripe.com/jobs/search?gh_jid=7360840
-breakdown: title 15, location 0, have 2, want+bonus 0, penalty 0
-matched_titles: software engineer
-matched_skills_have: Java
-
-[17/100] [stripe] Software Engineer, Intern (Dublin) — https://stripe.com/jobs/search?gh_jid=7206494
+[17/100] [stripe] Software Engineer, Intern (Toronto) — https://stripe.com/jobs/search?gh_jid=7206389
 breakdown: title 15, location 0, have 2, want+bonus 0, penalty 0
 matched_titles: software engineer
 matched_skills_have: Java
@@ -58,7 +53,12 @@ breakdown: title 15, location 0, have 2, want+bonus 0, penalty 0
 matched_titles: software engineer
 matched_skills_have: Java
 
-[17/100] [stripe] Software Engineer, Intern (Toronto) — https://stripe.com/jobs/search?gh_jid=7206389
+[17/100] [stripe] Software Engineer, Intern (London) — https://stripe.com/jobs/search?gh_jid=7360840
+breakdown: title 15, location 0, have 2, want+bonus 0, penalty 0
+matched_titles: software engineer
+matched_skills_have: Java
+
+[17/100] [stripe] Software Engineer, Intern (Dublin) — https://stripe.com/jobs/search?gh_jid=7206494
 breakdown: title 15, location 0, have 2, want+bonus 0, penalty 0
 matched_titles: software engineer
 matched_skills_have: Java
