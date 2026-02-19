@@ -1,5 +1,5 @@
 # Scored job feed (auto)
-Generated at (UTC): 2026-02-18T14:42:11.655200+00:00
+Generated at (UTC): 2026-02-19T14:12:46.795587+00:00
 Total jobs scored: 13
 
 ## Top internships
