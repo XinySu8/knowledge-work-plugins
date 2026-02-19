@@ -1,15 +1,15 @@
 {
-  "generated_at_utc": "2026-02-19T14:12:46.691146+00:00",
+  "generated_at_utc": "2026-02-19T14:44:10.898958+00:00",
   "today_utc": "2026-02-19",
-  "fetched_count": 3525,
+  "fetched_count": 3523,
   "filtered_count": 13,
   "count": 13,
   "today_count": 0,
   "backlog_count": 13,
   "per_company_fetched": {
-    "openai": 565,
+    "openai": 564,
     "anthropic": 449,
-    "databricks": 732,
+    "databricks": 731,
     "cohere": 122,
     "perplexity": 78,
     "langchain": 67,
@@ -25,8 +25,8 @@
     "figma": 168
   },
   "per_source_fetched": {
-    "ashby": 1249,
-    "greenhouse": 2133,
+    "ashby": 1248,
+    "greenhouse": 2132,
     "lever": 143
   },
   "errors": [],
@@ -326,9 +326,9 @@
       "company": "openai"
     },
     {
-      "id": "f4be6f9b559dc101",
+      "id": "732f7af59d85fcb4",
       "reason": "excluded_keyword",
-      "title": "Sales Manager, East ",
+      "title": "Senior Support Engineer - Dublin",
       "company": "openai"
     }
   ],
