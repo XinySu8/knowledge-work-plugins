@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-02-24T14:14:22.339593+00:00",
+  "generated_at_utc": "2026-02-24T14:46:41.643396+00:00",
   "today_utc": "2026-02-24",
   "fetched_count": 3559,
   "filtered_count": 12,
@@ -8,8 +8,8 @@
   "backlog_count": 12,
   "per_company_fetched": {
     "openai": 582,
-    "anthropic": 450,
-    "databricks": 735,
+    "anthropic": 449,
+    "databricks": 736,
     "cohere": 123,
     "perplexity": 83,
     "langchain": 64,
