@@ -12,8 +12,11 @@ jobs:
       contents: write
 
     steps:
-      - name: Checkout
+      - name: Checkout feature branch
         uses: actions/checkout@v4
+        with:
+          ref: feature/autojob-agent-feeder-v2
+          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -37,7 +40,7 @@ jobs:
         run: |
           python ai-career/v2/scripts/triage_v2.py --config ai-career/v2/config/scoring.yaml
 
-      - name: Commit V2 outputs only
+      - name: Commit V2 outputs only (push to feature branch)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -51,4 +54,4 @@ jobs:
           fi
 
           git commit -m "chore(agent-feeder): daily scoring+triage outputs"
-          git push
+          git push origin HEAD:refs/heads/feature/autojob-agent-feeder-v2
