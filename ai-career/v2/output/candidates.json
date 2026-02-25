@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "version": 2,
+    "count": 1,
+    "thresholds": {
+      "apply": 0.72,
+      "maybe": 0.55
+    }
+  },
+  "candidates": [
+    {
+      "job_uid": "cdefeb135c230613",
+      "company": "openai",
+      "title": "Software Engineer Internship / Co-op, Applied Emerging Talent (Fall 2026)",
+      "location": "San Francisco",
+      "url": "https://jobs.ashbyhq.com/openai/1f3353ed-78eb-4a01-b783-c44b1c086711/application",
+      "scores": {
+        "hard_raw": 5.0,
+        "hard_norm": 0.4,
+        "semantic_raw": 0.4765621111723254,
+        "semantic_norm": 1.0,
+        "final": 0.7300000000000001
+      },
+      "signals": {
+        "must_hits": [
+          "python",
+          "sql"
+        ],
+        "nice_hits": [],
+        "neg_hits": []
+      },
+      "jd_excerpt": "About the Team The Applied team works across research, engineering, product, and design to bring OpenAI’s technology to the world. We seek to learn from deployment and broadly distribute the benefits of AI, while ensuring that this powerful tool is used responsibly and safely. We aim to make our innovative tools globally accessible, transcending geographic, economic, or platform barriers. Our commitment is to facilitate the use of AI to enhance lives, fostered by rigorous insights into how people use our products. About the Role We are seeking Software Engineering Interns (Emerging Talent) to "
+    }
+  ]
+}

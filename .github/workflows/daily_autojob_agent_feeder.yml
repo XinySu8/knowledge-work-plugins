@@ -1,0 +1,54 @@
+name: autojob_agent_feeder_daily
+
+on:
+  schedule:
+    - cron: "30 15 * * *"
+  workflow_dispatch: {}
+
+jobs:
+  run_v2_pipeline:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps (V2)
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r ai-career/v2/requirements.txt
+
+      - name: Run V1 Producer (update jobs.json)
+        run: |
+          python ai-career/scripts/fetch_jobs.py
+
+      - name: Run V2 Scoring
+        run: |
+          python ai-career/v2/scripts/score_jobs_v2.py --config ai-career/v2/config/scoring.yaml
+
+      - name: Run V2 Triage
+        run: |
+          python ai-career/v2/scripts/triage_v2.py --config ai-career/v2/config/scoring.yaml
+
+      - name: Commit V2 outputs only
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add ai-career/v2/data/*
+          git add ai-career/v2/output/*
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "chore(agent-feeder): daily scoring+triage outputs"
+          git push

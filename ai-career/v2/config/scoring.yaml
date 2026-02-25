@@ -1,0 +1,69 @@
+version: 2
+
+io:
+  jobs_json: "ai-career/data/jobs.json"
+  scored_jobs_json: "ai-career/v2/data/scored_jobs.json"
+  emb_cache_json: "ai-career/v2/data/emb_cache.json"
+  candidates_json: "ai-career/v2/output/candidates.json"
+  apply_md: "ai-career/v2/output/apply.md"
+  maybe_md: "ai-career/v2/output/maybe.md"
+  skip_md: "ai-career/v2/output/skip.md"
+
+hard_gate:
+  exclude_phrases:
+    - "security clearance"
+    - "must be a us citizen"
+    - "u.s. citizen"
+    - "citizenship required"
+    - "ts/sci"
+    - "doe q clearance"
+    - "polygraph"
+  exclude_regex:
+    - "(?i)citizen(ship)?\\s+required"
+    - "(?i)security\\s+clearance\\s+(required|must)"
+    - "(?i)ts\\/?sci"
+
+hard_scoring:
+  must_have_keywords:
+    python: 3
+    "data pipeline": 3
+    "machine learning": 2
+    "llm": 2
+    "sql": 2
+    "git": 1
+    "docker": 1
+    "cloud": 1
+
+  nice_to_have_keywords:
+    "langchain": 2
+    "rag": 2
+    "vector database": 1
+    "mlflow": 1
+    "kedro": 1
+
+  negative_keywords:
+    "5+ years": -2
+    "principal": -3
+    "staff engineer": -3
+
+semantic_scoring:
+  model_name: "sentence-transformers/all-MiniLM-L6-v2"
+  content_max_chars: 8000
+  jd_excerpt_chars: 600
+  normalize: "minmax"
+  cache:
+    enabled: true
+
+fusion:
+  w_hard: 0.45
+  w_semantic: 0.55
+
+triage:
+  thresholds:
+    apply: 0.72
+    maybe: 0.55
+  topN:
+    apply: 25
+    maybe: 40
+  candidates:
+    topN_total: 60

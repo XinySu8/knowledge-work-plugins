@@ -1,0 +1,455 @@
+{
+  "meta": {
+    "version": 2,
+    "model_name": "sentence-transformers/all-MiniLM-L6-v2",
+    "jobs_total": 12,
+    "jobs_scored": 12,
+    "non_gated_count": 12
+  },
+  "scored_jobs": [
+    {
+      "job_uid": "acdb4e432b539db6",
+      "source": "greenhouse",
+      "company": "stripe",
+      "title": "Software Engineer, Intern",
+      "location": "London",
+      "url": "https://stripe.com/jobs/search?gh_jid=7360840",
+      "updated_at": "2026-02-23T17:58:19-05:00",
+      "created_at": null,
+      "departments": [
+        "5112 General University"
+      ],
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "hard": {
+        "raw": 3.0,
+        "must_hits": [
+          "git"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.3318421840664406,
+        "cache_reused": false,
+        "norm": 0.5343981561068655
+      },
+      "text_hash": "0504ebea54da571d1dcdb616371e118fe6fb2ee6",
+      "final_score": 0.293918985858776,
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
+    },
+    {
+      "job_uid": "1254231df3fa18cd",
+      "source": "greenhouse",
+      "company": "stripe",
+      "title": "Software Engineer, Intern",
+      "location": "Singapore",
+      "url": "https://stripe.com/jobs/search?gh_jid=7206401",
+      "updated_at": "2026-02-23T17:58:19-05:00",
+      "created_at": null,
+      "departments": [
+        "5112 General University"
+      ],
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "hard": {
+        "raw": 3.0,
+        "must_hits": [
+          "git"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.3318421840664406,
+        "cache_reused": false,
+        "norm": 0.5343981561068655
+      },
+      "text_hash": "2b1d064990c9520a7e0f962a687e84161edd81d2",
+      "final_score": 0.293918985858776,
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
+    },
+    {
+      "job_uid": "867837af4b70f7ea",
+      "source": "greenhouse",
+      "company": "stripe",
+      "title": "Software Engineer, Intern",
+      "location": "Dublin",
+      "url": "https://stripe.com/jobs/search?gh_jid=7206494",
+      "updated_at": "2026-02-23T17:58:19-05:00",
+      "created_at": null,
+      "departments": [
+        "5112 General University"
+      ],
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "hard": {
+        "raw": 3.0,
+        "must_hits": [
+          "git"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.3318421840664406,
+        "cache_reused": false,
+        "norm": 0.5343981561068655
+      },
+      "text_hash": "58f557f2e44b0d957b3009d34907e155a227c552",
+      "final_score": 0.293918985858776,
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
+    },
+    {
+      "job_uid": "b35597b79d3ae32f",
+      "source": "greenhouse",
+      "company": "stripe",
+      "title": "Software Engineer, Intern (Summer)",
+      "location": "San Francisco, Seattle, New York City",
+      "url": "https://stripe.com/jobs/search?gh_jid=7210115",
+      "updated_at": "2026-02-23T17:58:19-05:00",
+      "created_at": null,
+      "departments": [
+        "5112 General University"
+      ],
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "hard": {
+        "raw": 3.0,
+        "must_hits": [
+          "git"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.3318421840664406,
+        "cache_reused": false,
+        "norm": 0.5343981561068655
+      },
+      "text_hash": "23045855f57a04cda6dd2a02b162d64170aae71b",
+      "final_score": 0.293918985858776,
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
+    },
+    {
+      "job_uid": "f0c5eae2a7de8573",
+      "source": "greenhouse",
+      "company": "scaleai",
+      "title": "Software Engineering Intern (Summer 2026) ",
+      "location": "San Francisco, CA",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4606014005",
+      "updated_at": "2026-02-12T18:47:24-05:00",
+      "created_at": null,
+      "departments": [
+        "University"
+      ],
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "hard": {
+        "raw": 3.0,
+        "must_hits": [
+          "python"
+        ],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.2895817756649936,
+        "cache_reused": false,
+        "norm": 0.3984353728959932
+      },
+      "text_hash": "c941bcda98b78e85218933c65c67d5a15f44d95f",
+      "final_score": 0.21913945509279625,
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0"
+    },
+    {
+      "job_uid": "cdefeb135c230613",
+      "source": "ashby",
+      "company": "openai",
+      "title": "Software Engineer Internship / Co-op, Applied Emerging Talent (Fall 2026)",
+      "location": "San Francisco",
+      "url": "https://jobs.ashbyhq.com/openai/1f3353ed-78eb-4a01-b783-c44b1c086711/application",
+      "updated_at": "2026-01-15T18:24:30.724+00:00",
+      "created_at": "2026-01-15T18:24:30.724+00:00",
+      "departments": [
+        "Applied AI",
+        "Emerging Talent"
+      ],
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "hard": {
+        "raw": 5.0,
+        "must_hits": [
+          "python",
+          "sql"
+        ],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.4
+      },
+      "semantic": {
+        "raw": 0.4765621111723254,
+        "cache_reused": false,
+        "norm": 1.0
+      },
+      "text_hash": "bab2bcb046c3e0e46ce5a776b89057c70fa9ab3b",
+      "final_score": 0.7300000000000001,
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0"
+    },
+    {
+      "job_uid": "ebbec7374ccd8600",
+      "source": "ashby",
+      "company": "ramp",
+      "title": "Software Engineer Internship, Backend",
+      "location": "New York, NY (HQ)",
+      "url": "https://jobs.ashbyhq.com/ramp/c50962b5-c641-4d44-bbe5-7f1d6e7ce51f/application",
+      "updated_at": "2025-12-19T20:06:01.281+00:00",
+      "created_at": "2025-12-19T20:06:01.281+00:00",
+      "departments": [
+        "Engineering",
+        "Emerging Talent - SWE"
+      ],
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "hard": {
+        "raw": 8.0,
+        "must_hits": [
+          "python",
+          "sql",
+          "cloud"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": [],
+        "norm": 1.0
+      },
+      "semantic": {
+        "raw": 0.16573875640249108,
+        "cache_reused": false,
+        "norm": 0.0
+      },
+      "text_hash": "94ff9831d42eca3e996777105dd2d28000394b7e",
+      "final_score": 0.45,
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1"
+    },
+    {
+      "job_uid": "f5cb714e4fbfdfe1",
+      "source": "ashby",
+      "company": "sierra",
+      "title": "Intern, Agent Development (Summer 2026)",
+      "location": "San Francisco, CA",
+      "url": "https://jobs.ashbyhq.com/Sierra/8bb2509d-9215-4cb5-8cf1-2bf0dbade6d8/application",
+      "updated_at": "2025-12-17T16:45:31.262+00:00",
+      "created_at": "2025-12-17T16:45:31.262+00:00",
+      "departments": [
+        "Early Career",
+        "Agent Engineering"
+      ],
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "hard": {
+        "raw": 4.0,
+        "must_hits": [
+          "llm"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": [],
+        "norm": 0.2
+      },
+      "semantic": {
+        "raw": 0.2618721127507452,
+        "cache_reused": false,
+        "norm": 0.30928614234744733
+      },
+      "text_hash": "f3730490929376b926023c07da32a71849d79459",
+      "final_score": 0.26010737829109604,
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
+    },
+    {
+      "job_uid": "ea6377e034514778",
+      "source": "ashby",
+      "company": "replit",
+      "title": "Software Engineering Intern (Summer 2026)",
+      "location": "Foster City, CA (Hybrid) In office M,W,F",
+      "url": "https://jobs.ashbyhq.com/replit/12737078-74c7-4e63-98a7-5e8da1e9deb1/application",
+      "updated_at": "2025-10-01T16:02:40.431+00:00",
+      "created_at": "2025-10-01T16:02:40.431+00:00",
+      "departments": [
+        "Early Career",
+        "Early Career"
+      ],
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "hard": {
+        "raw": 3.0,
+        "must_hits": [
+          "cloud"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.3723532557483764,
+        "cache_reused": false,
+        "norm": 0.664732865710442
+      },
+      "text_hash": "46d301a18234dee24e9e3c85c2e86c8ed30e3166",
+      "final_score": 0.3656030761407431,
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
+    },
+    {
+      "job_uid": "b230852d1c35c17a",
+      "source": "ashby",
+      "company": "ramp",
+      "title": "Software Engineer Internship, Android ",
+      "location": "New York, NY (HQ)",
+      "url": "https://jobs.ashbyhq.com/ramp/67fadb77-43d8-4449-954b-d4cf2c6d3b8b/application",
+      "updated_at": "2025-08-07T20:49:38.961+00:00",
+      "created_at": "2025-08-07T20:49:38.961+00:00",
+      "departments": [
+        "Engineering",
+        "Emerging Talent - SWE"
+      ],
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "hard": {
+        "raw": 8.0,
+        "must_hits": [
+          "python",
+          "sql",
+          "cloud"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": [],
+        "norm": 1.0
+      },
+      "semantic": {
+        "raw": 0.16573875640249108,
+        "cache_reused": false,
+        "norm": 0.0
+      },
+      "text_hash": "249a3adc7ffbe08e9f95394eb7d30669ad8d5f40",
+      "final_score": 0.45,
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1"
+    },
+    {
+      "job_uid": "4ff882d7bab5bdb0",
+      "source": "ashby",
+      "company": "ramp",
+      "title": "Software Engineer Internship, iOS",
+      "location": "New York, NY (HQ)",
+      "url": "https://jobs.ashbyhq.com/ramp/8c155b55-3e7e-48a8-ac98-f988a2b6f4da/application",
+      "updated_at": "2025-08-07T16:04:29.101+00:00",
+      "created_at": "2025-08-07T16:04:29.101+00:00",
+      "departments": [
+        "Engineering",
+        "Emerging Talent - SWE"
+      ],
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "hard": {
+        "raw": 8.0,
+        "must_hits": [
+          "python",
+          "sql",
+          "cloud"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": [],
+        "norm": 1.0
+      },
+      "semantic": {
+        "raw": 0.16573875640249108,
+        "cache_reused": false,
+        "norm": 0.0
+      },
+      "text_hash": "6c929bb0d3d7b9f4398dc93c9fa5ae854792ecc8",
+      "final_score": 0.45,
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1"
+    },
+    {
+      "job_uid": "8c305391a2786222",
+      "source": "ashby",
+      "company": "ramp",
+      "title": "Software Engineer Internship, Frontend",
+      "location": "New York, NY (HQ)",
+      "url": "https://jobs.ashbyhq.com/ramp/31f7e045-9a51-4a75-9ffc-d815d6db6daa/application",
+      "updated_at": "2025-08-01T19:55:18.933+00:00",
+      "created_at": "2025-08-01T19:55:18.933+00:00",
+      "departments": [
+        "Engineering",
+        "Emerging Talent - SWE"
+      ],
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "hard": {
+        "raw": 8.0,
+        "must_hits": [
+          "python",
+          "sql",
+          "cloud"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": [],
+        "norm": 1.0
+      },
+      "semantic": {
+        "raw": 0.16573875640249108,
+        "cache_reused": false,
+        "norm": 0.0
+      },
+      "text_hash": "6514aad5d2e05e105e9e51bb5fce4aed76589986",
+      "final_score": 0.45,
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1"
+    }
+  ]
+}
