@@ -6,14 +6,17 @@ on:
   workflow_dispatch: {}
 
 jobs:
-  run_v2_pipeline:
+  run_pipeline:
     runs-on: ubuntu-latest
     permissions:
       contents: write
 
     steps:
-      - name: Checkout
+      - name: Checkout feature branch
         uses: actions/checkout@v4
+        with:
+          ref: feature/autojob-agent-feeder-v2
+          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -29,19 +32,22 @@ jobs:
         run: |
           python ai-career/scripts/fetch_jobs.py
 
-      - name: Run V2 Scoring
+      - name: Run V2 Scoring + Triage
         run: |
           python ai-career/v2/scripts/score_jobs_v2.py --config ai-career/v2/config/scoring.yaml
-
-      - name: Run V2 Triage
-        run: |
           python ai-career/v2/scripts/triage_v2.py --config ai-career/v2/config/scoring.yaml
 
-      - name: Commit V2 outputs only
+      - name: Commit outputs (V1 + V2) to feature branch
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
+          # V1 outputs (single source of truth)
+          git add ai-career/data/state.json || true
+          git add ai-career/data/jobs.json ai-career/data/jobs_today.json ai-career/data/jobs_backlog.json || true
+          git add ai-career/data/jobs.md ai-career/data/jobs_today.md ai-career/data/jobs_backlog.md || true
+
+          # V2 outputs
           git add ai-career/v2/data/*
           git add ai-career/v2/output/*
 
@@ -50,5 +56,5 @@ jobs:
             exit 0
           fi
 
-          git commit -m "chore(agent-feeder): daily scoring+triage outputs"
-          git push
+          git commit -m "chore: daily V1 feed + V2 candidates"
+          git push origin HEAD:refs/heads/feature/autojob-agent-feeder-v2
