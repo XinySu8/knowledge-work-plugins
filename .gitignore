@@ -1,3 +1,5 @@
-Add-Content .gitignore "__pycache__/"
-Add-Content .gitignore "*.pyc"
-Add-Content .gitignore "*.pyo"
+
+# Python
+.venv/
+__pycache__/
+*.pyc

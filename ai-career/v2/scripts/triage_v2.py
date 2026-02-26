@@ -2,15 +2,29 @@ import os
 import argparse
 from typing import Dict, Any, List
 import yaml
+import hashlib
+from datetime import datetime, timezone
 
 from utils_v2 import read_json, write_json, clean_text, job_uid
+
 
 def load_yaml(path: str) -> Dict[str, Any]:
     with open(path, "r", encoding="utf-8") as f:
         return yaml.safe_load(f)
 
+
 def ensure_parent(path: str) -> None:
     os.makedirs(os.path.dirname(path), exist_ok=True)
+
+
+def sha1_file(path: str) -> str:
+    with open(path, "rb") as f:
+        return hashlib.sha1(f.read()).hexdigest()
+
+
+def now_utc_iso() -> str:
+    return datetime.now(timezone.utc).isoformat()
+
 
 def format_md_item(r: Dict[str, Any]) -> str:
     title = r.get("title") or ""
@@ -36,13 +50,17 @@ def format_md_item(r: Dict[str, Any]) -> str:
         f"  - reason: {reason}\n"
     )
 
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--config", default="ai-career/v2/config/scoring.yaml")
     args = ap.parse_args()
 
-    cfg = load_yaml(args.config)
+    cfg_path = args.config
+    cfg = load_yaml(cfg_path)
     io = cfg["io"]
+    engine_name = cfg.get("engine_name", "AutoJob-Agent Feeder")
+    config_digest = sha1_file(cfg_path)
 
     scored_doc = read_json(io["scored_jobs_json"])
     scored = scored_doc.get("scored_jobs", [])
@@ -97,15 +115,26 @@ def main():
     for r in combined:
         uid = r.get("job_uid")
         j = by_uid.get(str(uid), {})
+
         excerpt_src = clean_text(j.get("content_plain", "") or "")
         excerpt = excerpt_src[:jd_excerpt_chars]
 
         candidates.append({
+            # identifiers / provenance
             "job_uid": uid,
+            "source": (j.get("source") or r.get("source")),
+            "job_id": j.get("id"),
             "company": r.get("company"),
             "title": r.get("title"),
             "location": r.get("location"),
             "url": r.get("url"),
+            "departments": (j.get("departments") or r.get("departments")),
+
+            # time fields for incremental agent updates
+            "created_at": (j.get("created_at") or r.get("created_at")),
+            "updated_at": (j.get("updated_at") or r.get("updated_at")),
+
+            # scores + signals
             "scores": {
                 "hard_raw": r.get("hard", {}).get("raw"),
                 "hard_norm": r.get("hard", {}).get("norm"),
@@ -118,18 +147,31 @@ def main():
                 "nice_hits": r.get("hard", {}).get("nice_hits"),
                 "neg_hits": r.get("hard", {}).get("neg_hits"),
             },
+
+            # debug / traceability
+            "text_hash": r.get("text_hash"),
+            "final_reason": r.get("final_reason"),
+            "hard_gate": r.get("hard_gate"),
+
+            # text payload for agent
             "jd_excerpt": excerpt
         })
 
     ensure_parent(io["candidates_json"])
     write_json(io["candidates_json"], {
         "meta": {
+            "engine_name": engine_name,
             "version": 2,
-            "count": len(candidates),
-            "thresholds": {"apply": th_apply, "maybe": th_maybe}
+            "generated_at": now_utc_iso(),
+            "source_jobs_count": len(jobs),
+            "candidates_count": len(candidates),
+            "candidates_topN_total": top_total,
+            "thresholds": {"apply": th_apply, "maybe": th_maybe},
+            "config_digest": config_digest
         },
         "candidates": candidates
     })
+
 
 if __name__ == "__main__":
     main()

@@ -8,7 +8,7 @@ on:
         required: true
         default: "applied"
       url:
-        description: "Job URL (exactly as in jobs.md)"
+        description: "Job URL (as in jobs.md / candidates.json)"
         required: true
       note:
         description: "Optional note"
@@ -18,37 +18,47 @@ on:
 jobs:
   mark:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
     steps:
-      - name: Checkout
+      - name: Checkout feature branch
         uses: actions/checkout@v4
+        with:
+          ref: feature/autojob-agent-feeder-v2
+          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: Mark status
+      - name: Mark status in state.json
         run: |
           python ai-career/scripts/mark_job.py "${{ inputs.status }}" "${{ inputs.url }}" "${{ inputs.note }}"
 
-      - name: Re-score
+      - name: Refresh V1 feed (apply-status takes effect)
         run: |
-          python ai-career/scripts/score_jobs.py
+          python ai-career/scripts/fetch_jobs.py
 
-      - name: Commit outputs
+      - name: Refresh V2 candidates (score + triage)
+        run: |
+          python ai-career/v2/scripts/score_jobs_v2.py --config ai-career/v2/config/scoring.yaml
+          python ai-career/v2/scripts/triage_v2.py --config ai-career/v2/config/scoring.yaml
+
+      - name: Commit updates (state + feeds + v2 outputs)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add \
-            ai-career/data/state.json \
-            ai-career/data/scored_jobs.json \
-            ai-career/data/scored_jobs.md || true
+          git add ai-career/data/state.json
+          git add ai-career/data/jobs.json ai-career/data/jobs_today.json ai-career/data/jobs_backlog.json ai-career/data/jobs.md ai-career/data/jobs_today.md ai-career/data/jobs_backlog.md || true
+          git add ai-career/v2/data/* ai-career/v2/output/*
 
           if git diff --cached --quiet; then
             echo "No changes to commit."
             exit 0
           fi
 
-          git commit -m "Update job status"
-          git push
+          git commit -m "chore(state): mark ${{ inputs.status }} + refresh feeds"
+          git push origin HEAD:refs/heads/feature/autojob-agent-feeder-v2

@@ -1,58 +1,44 @@
 {
-  "filters": {
+  "filters":{
     "internship_any": [
       "intern",
       "internship",
-      "summer intern",
       "co-op",
-      "coop"
+      "coop",
+      "co op",
+      "cooperative education",
+      "student",
+      "emerging talent",
+      "early career",
+      "university"
     ],
     "ashby_internship_types": [
       "intern",
-      "internship"
-    ],
-    "degree_required_any": [
-      "undergrad",
-      "undergraduate",
-      "bachelor",
-      "bachelor's",
-      "bachelors",
-      "b.s.",
-      "bs"
-    ],
-    "major_required_any": [
-      "computer science",
-      "cs",
-      "software engineering",
-      "computer engineering"
+      "internship",
+      "co-op",
+      "coop"
     ],
     "domain_any": [
+      "software",
+      "software engineer",
+      "swe",
       "engineer",
       "engineering",
+      "data",
+      "data engineer",
       "machine learning",
       "ml",
-      "data",
-      "software engineer",
-      "software",
-      "cloud",
-      "distributed system",
-      "computer system",
-      "system engineer",
-      "swe",
-      "research",
       "ai",
-      "llm"
+      "llm",
+      "research"
     ],
     "exclude_any": [
       "principal",
-      "staff",
-      "sr.",
-      "senior",
       "director",
       "vp"
     ],
     "locations_any": [],
-    "max_jobs_per_company": 200
+    "max_jobs_per_company": 500
   },
   "targets": [
     { "source": "ashby", "company": "openai", "job_board_name": "openai" },
@@ -68,12 +54,48 @@
     { "source": "ashby", "company": "replit", "job_board_name": "replit" },
     { "source": "ashby", "company": "ramp", "job_board_name": "ramp" },
     { "source": "ashby", "company": "zapier", "job_board_name": "zapier" },
-    { "source": "ashby", "company": "sierra", "job_board_name": "Sierra" },
+    { "source": "ashby", "company": "sierra", "job_board_name": "sierra" },
+    {"source": "ashby", "company": "elevenlabs", "job_board_name": "elevenlabs"},
+    {"source": "ashby", "company": "ashby", "job_board_name": "ashby"},
+    {"source": "ashby", "company": "notion", "job_board_name": "notion"},
+    {"source": "ashby", "company": "essentialai", "job_board_name": "essentialai"},
+    {"source": "ashby", "company": "modal", "job_board_name": "modal"},
+    {"source": "ashby", "company": "pinecone", "job_board_name": "pinecone"},
+    {"source": "ashby", "company": "runway", "job_board_name": "runway"},
+    {"source": "ashby", "company": "stabilityai", "job_board_name": "stabilityai"},
+    {"source": "ashby", "company": "linear", "job_board_name": "linear"},
+    {"source": "ashby", "company": "plain", "job_board_name": "plain"},
+    {"source": "ashby", "company": "serval", "job_board_name": "Serval"},
+
 
     { "source": "lever", "company": "mistral", "lever_slug": "mistral" },
+    {"source": "lever", "company": "waabi", "lever_slug": "waabi"},
+    {"source": "lever", "company": "magnetforensics", "lever_slug": "magnetforensics"},
+    {"source": "lever", "company": "shieldai", "lever_slug": "shieldai"},
+    {"source": "lever", "company": "cfsenergy", "lever_slug": "cfsenergy"},
+    {"source": "lever", "company": "sublimesystems", "lever_slug": "SublimeSystems"},
+    {"source": "lever", "company": "zoox", "lever_slug": "zoox"},
 
     { "source": "greenhouse", "company": "stripe", "board_token": "stripe" },
     { "source": "greenhouse", "company": "scaleai", "board_token": "scaleai" },
-    { "source": "greenhouse", "company": "figma", "board_token": "figma" }
+    { "source": "greenhouse", "company": "figma", "board_token": "figma" },
+    {"source": "greenhouse", "company": "redis", "board_token": "redis"},
+    {"source": "greenhouse", "company": "togetherai", "board_token": "togetherai"},
+    {"source": "greenhouse", "company": "datadog", "board_token": "datadog"},
+    {"source": "greenhouse", "company": "cloudflare", "board_token": "cloudflare"},
+    {"source": "greenhouse", "company": "coinbase", "board_token": "coinbase"},
+    {"source": "greenhouse", "company": "asana", "board_token": "asana"},
+    {"source": "greenhouse", "company": "brex", "board_token": "brex"},
+    {"source": "greenhouse", "company": "okta", "board_token": "okta"},
+    {"source": "greenhouse", "company": "github", "board_token": "github"},
+    {"source": "greenhouse", "company": "hashicorp", "board_token": "hashicorp"},
+    {"source": "greenhouse", "company": "notion", "board_token": "notion"},
+    {"source": "greenhouse", "company": "slack", "board_token": "slack"},
+    {"source": "greenhouse", "company": "splunk", "board_token": "splunk"},
+    {"source": "greenhouse", "company": "square", "board_token": "square"},
+    {"source": "greenhouse", "company": "workday", "board_token": "workday"},
+    {"source": "greenhouse", "company": "yelp", "board_token": "yelp"},
+    {"source": "greenhouse", "company": "vercel", "board_token": "vercel"}
+
   ]
 }

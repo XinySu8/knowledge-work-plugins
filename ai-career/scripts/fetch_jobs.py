@@ -376,13 +376,22 @@ def main():
 
     save_state(STATE_PATH, state)
 
+    # Visible jobs: exclude applied/ignored/closed globally (so V2 never sees them)
+    visible_jobs = []
+    for j in all_jobs:
+        jid = j.get("id")
+        status = (jobs_state.get(jid, {}).get("status") or "new").lower()
+        if status in ("applied", "ignored", "closed"):
+            continue
+        visible_jobs.append(j)
+
     # Split outputs:
-    # - TODAY: first_seen_date_utc == today
+    # - TODAY: first_seen_date_utc == today, and not applied/ignored/closed
     # - BACKLOG: older first_seen_date_utc, and not applied/ignored/closed
     today_jobs = []
     backlog_jobs = []
 
-    for j in all_jobs:
+    for j in visible_jobs:
         jid = j.get("id")
         rec = jobs_state.get(jid, {})
         first_date = rec.get("first_seen_date_utc") or today_str
@@ -390,23 +399,21 @@ def main():
         if first_date == today_str:
             today_jobs.append(j)
         else:
-            status = (rec.get("status") or "new").lower()
-            if status not in ("applied", "ignored", "closed"):
-                backlog_jobs.append(j)
+            backlog_jobs.append(j)
 
     payload = {
         "generated_at_utc": now_utc.isoformat(),
         "today_utc": today_str,
         "fetched_count": fetched_count,
         "filtered_count": filtered_count,
-        "count": len(all_jobs),
+        "count": len(visible_jobs),
         "today_count": len(today_jobs),
         "backlog_count": len(backlog_jobs),
         "per_company_fetched": per_company_fetched,
         "per_source_fetched": per_source_fetched,
         "errors": errors,
         "dropped_sample": dropped[:50],
-        "jobs": all_jobs
+        "jobs": visible_jobs
     }
 
     # Current snapshot (overwritten every run)
@@ -428,7 +435,7 @@ def main():
         )
 
     # Markdown outputs
-    write_md(OUT_MD, "Job feed (current)", all_jobs, now_utc, today_str, errors=errors if errors else None)
+    write_md(OUT_MD, "Job feed (current)", visible_jobs, now_utc, today_str, errors=errors if errors else None)
     write_md(OUT_TODAY_MD, "Job feed (today)", today_jobs, now_utc, today_str)
     write_md(OUT_BACKLOG_MD, "Job feed (backlog)", backlog_jobs, now_utc, today_str)
 
