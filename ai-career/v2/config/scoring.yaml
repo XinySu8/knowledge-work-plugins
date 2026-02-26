@@ -11,7 +11,46 @@ io:
   skip_md: "ai-career/v2/output/skip.md"
 
 hard_gate:
+  # NEW: allowlist gate (strict). If a job doesn't match these regions, it is skipped.
+  # We try matching location first; if location is empty, fall back to full text.
+  allowlist:
+    enabled: true
+    match_order: "location_then_text"   # location_then_text | text_only
+    allow_regex:
+      # US
+      - '(?i)\bUnited States\b'
+      - '(?i)\bUnited States of America\b'
+      - '(?i)\bUSA\b'
+      - '(?i)\bU\.S\.A\.?\b'
+      - '(?i)\bU\.S\.?\b'
+      - '(?i)\bCalifornia\b'
+      - '(?i)\bSan Francisco\b'
+      - '(?i)\bMountain View\b'
+      - '(?i)\bNew York\b'
+      - '(?i)\bSeattle\b'
+      - '(?i)\bAustin\b'
+      - '(?i)\bChicago\b'
+      # China
+      - '(?i)\bChina\b'
+      - '中国'
+      - '北京'
+      - '(?i)\bBeijing\b'
+      - '上海'
+      - '(?i)\bShanghai\b'
+      - '深圳'
+      - '(?i)\bShenzhen\b'
+      - '杭州'
+      - '(?i)\bHangzhou\b'
+      - '广州'
+      - '(?i)\bGuangzhou\b'
+      - '香港'
+      - '(?i)\bHong\s*Kong\b'
+      # Singapore
+      - '(?i)\bSingapore\b'
+      - '新加坡'
+
   exclude_phrases:
+    # clearance / citizenship hard blocks
     - "security clearance"
     - "must be a us citizen"
     - "u.s. citizen"
@@ -19,10 +58,31 @@ hard_gate:
     - "ts/sci"
     - "doe q clearance"
     - "polygraph"
+
+    # degree hard blocks (avoid PhD/Master-only roles)
+    - "phd required"
+    - "phd only"
+    - "doctoral degree required"
+    - "doctorate required"
+    - "must be pursuing a phd"
+    - "masters required"
+    - "master's required"
+    - "must be pursuing a master's"
+    - "ms required"
+    - "m.s. required"
+
   exclude_regex:
-    - "(?i)citizen(ship)?\\s+required"
-    - "(?i)security\\s+clearance\\s+(required|must)"
-    - "(?i)ts\\/?sci"
+    # clearance / citizenship
+    - '(?i)citizen(ship)?\s+required'
+    - '(?i)security\s+clearance\s+(required|must)'
+    - '(?i)ts\/?sci'
+
+    # degree hard blocks (regex variants)
+    - '(?i)ph\.?d\.?\s+(required|only)'
+    - '(?i)doctorate\s+(required|only)'
+    - '(?i)master''?s\s+(required|only)'
+    - '(?i)ms\s+(required|only)'
+    - '(?i)m\.?s\.?\s+(required|only)'
 
 hard_scoring:
   must_have_keywords:
@@ -62,7 +122,7 @@ fusion:
 triage:
   thresholds:
     apply: 0.72
-    maybe: 0.40
+    maybe: 0.30
   topN:
     apply: 50
     maybe: 120

@@ -2,6 +2,7 @@ import os
 import argparse
 from typing import Dict, Any, List
 import yaml
+import re
 
 from sentence_transformers import SentenceTransformer
 import numpy as np
@@ -12,6 +13,21 @@ from utils_v2 import (
     keyword_score, minmax_norm
 )
 
+def _compile_regex_list(patterns):
+    compiled = []
+    for p in (patterns or []):
+        if not isinstance(p, str) or not p.strip():
+            continue
+        compiled.append(re.compile(p, flags=re.IGNORECASE))
+    return compiled
+
+def _regex_any(text: str, compiled_list) -> bool:
+    if not text:
+        return False
+    for rx in compiled_list:
+        if rx.search(text):
+            return True
+    return False
 def cosine(a: np.ndarray, b: np.ndarray) -> float:
     denom = (np.linalg.norm(a) * np.linalg.norm(b)) + 1e-12
     return float(np.dot(a, b) / denom)
@@ -45,9 +61,14 @@ def main():
     if os.path.exists(cache_path):
         cache = read_json(cache_path) or {}
 
-    gate = cfg["hard_gate"]
+    gate = cfg.get("hard_gate", {}) or {}
     excl_phrases = gate.get("exclude_phrases", [])
     excl_regex = compile_regex_list(gate.get("exclude_regex", []))
+
+    # Prepare allowlist gate (compile once)
+    allow_cfg = (gate.get("allowlist", {}) or {})
+    allow_enabled = bool(allow_cfg.get("enabled", False))
+    allow_regex = _compile_regex_list(allow_cfg.get("allow_regex", [])) if allow_enabled else []
 
     hard_cfg = cfg["hard_scoring"]
     must = hard_cfg.get("must_have_keywords", {})
@@ -71,6 +92,64 @@ def main():
         text_hash = sha1_text(text)
 
         text_lower = text.lower()
+
+        # --- Allowlist location gate (US/China/Singapore only; LOCATION ONLY) ---
+        if allow_enabled:
+            loc = (job.get("location") or "").strip()
+            loc_lower = loc.lower()
+
+            # These are "pure labels" often used without any geographic info.
+            # If location is only one of these labels, we treat it as unknown and reject.
+            PURE_LABELS = {
+                "in-office", "in office",
+                "onsite", "on-site",
+                "hybrid",
+                "remote",
+            }
+
+            if not loc:
+                allow_ok = False
+            elif loc_lower in PURE_LABELS:
+                # Location has no city/country; too ambiguous -> reject under strict allowlist.
+                allow_ok = False
+            else:
+                # Location contains some details; require US/China/Singapore signals in LOCATION TEXT.
+                allow_ok = _regex_any(loc, allow_regex)
+
+            if not allow_ok:
+                record = {
+                    "job_uid": uid,
+                    "source": job.get("source"),
+                    "company": job.get("company"),
+                    "title": job.get("title"),
+                    "location": job.get("location"),
+                    "url": job.get("url"),
+                    "updated_at": job.get("updated_at"),
+                    "created_at": job.get("created_at"),
+                    "departments": job.get("departments"),
+                    "hard_gate": {
+                        "hit": True,
+                        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
+                    },
+                    "hard": {
+                        "raw": 0.0,
+                        "must_hits": [],
+                        "nice_hits": [],
+                        "neg_hits": [],
+                        "norm": 0.0
+                    },
+                    "semantic": {
+                        "raw": 0.0,
+                        "cache_reused": False,
+                        "norm": 0.0
+                    },
+                    "text_hash": text_hash,
+                    "final_score": 0.0,
+                    "final_reason": "Hard gate hit: location_not_allowed (allowlist)"
+                }
+                scored.append(record)
+                continue
+        # --- end allowlist gate ---
 
         ph_hit, ph = contains_any_phrase(text_lower, excl_phrases)
         rx_hit, rx = matches_any_regex(text, excl_regex)
