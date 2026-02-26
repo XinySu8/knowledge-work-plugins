@@ -4,7 +4,7 @@
     "model_name": "sentence-transformers/all-MiniLM-L6-v2",
     "jobs_total": 169,
     "jobs_scored": 169,
-    "non_gated_count": 169
+    "non_gated_count": 61
   },
   "scored_jobs": [
     {
@@ -20,26 +20,24 @@
         "Internship"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 2.0,
+        "raw": 0.0,
         "must_hits": [],
-        "nice_hits": [
-          "rag"
-        ],
+        "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.15384615384615385
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.4091035723682127,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.45928073355649673
+        "norm": 0.0
       },
       "text_hash": "ab6ebfeaeb7f7caf1500097f6d59c6641b8b5484",
-      "final_score": 0.3218351726868425,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "b9687758003a7afe",
@@ -70,12 +68,12 @@
         "norm": 0.3076923076923077
       },
       "semantic": {
-        "raw": 0.3933022256669776,
-        "cache_reused": false,
-        "norm": 0.427533782592561
+        "raw": 0.3933022789119458,
+        "cache_reused": true,
+        "norm": 0.5170203176719723
       },
       "text_hash": "5af9236c90e407f4febaf64290d186a425bf9280",
-      "final_score": 0.373605118887447,
+      "final_score": 0.42282271318112324,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1"
     },
     {
@@ -106,12 +104,12 @@
         "norm": 0.23076923076923078
       },
       "semantic": {
-        "raw": 0.4516908497621579,
-        "cache_reused": false,
-        "norm": 0.5448440866476244
+        "raw": 0.45169093628968565,
+        "cache_reused": true,
+        "norm": 0.6588847599587005
       },
       "text_hash": "dce2229e6a0c1ef86916a181836e53f794bf3238",
-      "final_score": 0.4035104015023473,
+      "final_score": 0.4662327718234392,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
     },
     {
@@ -142,12 +140,12 @@
         "norm": 0.23076923076923078
       },
       "semantic": {
-        "raw": 0.3882523179050377,
-        "cache_reused": false,
-        "norm": 0.41738786420206253
+        "raw": 0.38825234104668066,
+        "cache_reused": true,
+        "norm": 0.504750698005883
       },
       "text_hash": "0697e7259779553c54de04dcb4a9f6d1bcdbf150",
-      "final_score": 0.33340947915728825,
+      "final_score": 0.38145903774938955,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
     },
     {
@@ -179,12 +177,12 @@
         "norm": 0.38461538461538464
       },
       "semantic": {
-        "raw": 0.43260559439615853,
-        "cache_reused": false,
-        "norm": 0.5064993380831737
+        "raw": 0.4326056201814629,
+        "cache_reused": true,
+        "norm": 0.6125139775643934
       },
       "text_hash": "37ce97d51c105a2bbf4c2d597195110db5ce961d",
-      "final_score": 0.4516515590226686,
+      "final_score": 0.5099596107373395,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=2"
     },
     {
@@ -217,12 +215,12 @@
         "norm": 0.6153846153846154
       },
       "semantic": {
-        "raw": 0.35671383142435636,
-        "cache_reused": false,
-        "norm": 0.3540229622914755
+        "raw": 0.3567138526861589,
+        "cache_reused": true,
+        "norm": 0.42812297161569485
       },
       "text_hash": "9f644998fa2ce6b582c49feaa719daab5ac96ab7",
-      "final_score": 0.47163570618338846,
+      "final_score": 0.5123907113117091,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=2"
     },
     {
@@ -254,12 +252,12 @@
         "norm": 0.38461538461538464
       },
       "semantic": {
-        "raw": 0.27387025952311783,
-        "cache_reused": false,
-        "norm": 0.18757950246786909
+        "raw": 0.27387027584705836,
+        "cache_reused": true,
+        "norm": 0.22684144960218688
       },
       "text_hash": "47e1b25152112859588c5a4b5bef56054b938100",
-      "final_score": 0.2762456494342511,
+      "final_score": 0.2978397203581259,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=2"
     },
     {
@@ -291,12 +289,12 @@
         "norm": 0.3076923076923077
       },
       "semantic": {
-        "raw": 0.4998748302380111,
-        "cache_reused": false,
-        "norm": 0.6416519407082267
+        "raw": 0.4998748898352023,
+        "cache_reused": true,
+        "norm": 0.7759552665244218
       },
       "text_hash": "cceb9c47fac719f161a36511ad7aee76c9dd4b03",
-      "final_score": 0.4913701058510632,
+      "final_score": 0.5652369350499705,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=2"
     },
     {
@@ -312,30 +310,24 @@
         "Accounting and Finance"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 8.0,
-        "must_hits": [
-          "python",
-          "sql",
-          "cloud"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.6153846153846154
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.37868762016258517,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.3981711483134875
+        "norm": 0.0
       },
       "text_hash": "2c894c3a8530b1a7fdeceaa7e9e161952818ccf6",
-      "final_score": 0.4959172084954951,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "20154ebf9b416ee5",
@@ -363,12 +355,12 @@
         "norm": 0.15384615384615385
       },
       "semantic": {
-        "raw": 0.4204093217845527,
-        "cache_reused": false,
-        "norm": 0.4819954476322935
+        "raw": 0.42040934684290254,
+        "cache_reused": true,
+        "norm": 0.5828812099541043
       },
       "text_hash": "41cb3695a432dcb07eab1d31dc5a9813ff77fba6",
-      "final_score": 0.33432826542853067,
+      "final_score": 0.3898154347055266,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1"
     },
     {
@@ -397,12 +389,12 @@
         "norm": 0.15384615384615385
       },
       "semantic": {
-        "raw": 0.4271014034743806,
-        "cache_reused": false,
-        "norm": 0.4954407060188468
+        "raw": 0.4271014587339338,
+        "cache_reused": true,
+        "norm": 0.5991407501418441
       },
       "text_hash": "4085c4b7198e58d55fa17e8fec5d2a53c89a58c1",
-      "final_score": 0.341723157541135,
+      "final_score": 0.39875818180878353,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1"
     },
     {
@@ -418,26 +410,24 @@
         "Internship"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 2.0,
+        "raw": 0.0,
         "must_hits": [],
-        "nice_hits": [
-          "rag"
-        ],
+        "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.15384615384615385
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.5009669065470453,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.6438460633793707
+        "norm": 0.0
       },
       "text_hash": "9634866656e3b846bc4a6c6a66ff070fb0fa625b",
-      "final_score": 0.4233461040894231,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "4d39332fe9456ee6",
@@ -452,26 +442,24 @@
         "Internship"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 2.0,
+        "raw": 0.0,
         "must_hits": [],
-        "nice_hits": [
-          "rag"
-        ],
+        "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.15384615384615385
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.46821624419448704,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.5780457432293284
+        "norm": 0.0
       },
       "text_hash": "51ea3fd9860bc4b9749190f6625d344b3efd3bfc",
-      "final_score": 0.3871559280068999,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "6b91127006efba1a",
@@ -486,26 +474,24 @@
         "Internship"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 2.0,
+        "raw": 0.0,
         "must_hits": [],
-        "nice_hits": [
-          "rag"
-        ],
+        "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.15384615384615385
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.4294773298186138,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.5002142496015846
+        "norm": 0.0
       },
       "text_hash": "aa35cbf0bbdb8ff43fd68e9e67fcea4fdc36620c",
-      "final_score": 0.3443486065116408,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "64e8cd9ce5039875",
@@ -537,12 +523,12 @@
         "norm": 0.6153846153846154
       },
       "semantic": {
-        "raw": 0.49547576904247326,
-        "cache_reused": false,
-        "norm": 0.6328136573199395
+        "raw": 0.4954758283774564,
+        "cache_reused": true,
+        "norm": 0.7652670536365865
       },
       "text_hash": "37b5ee7f17d6e71af97e7e1526bb79a6f30c0e8f",
-      "final_score": 0.6249705884490437,
+      "final_score": 0.6978199564231995,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1"
     },
     {
@@ -558,28 +544,24 @@
         "BDR"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 3.0,
-        "must_hits": [
-          "cloud"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.23076923076923078
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.37169768641540113,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.3841274665875707
+        "norm": 0.0
       },
       "text_hash": "b3c2f0d63519ed50577d6e0a249d7a706ee582b8",
-      "final_score": 0.31511626046931773,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "7c73f3968a0fe853",
@@ -594,28 +576,24 @@
         "BDR"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 3.0,
-        "must_hits": [
-          "cloud"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.23076923076923078
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.37169768641540113,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.3841274665875707
+        "norm": 0.0
       },
       "text_hash": "b3c2f0d63519ed50577d6e0a249d7a706ee582b8",
-      "final_score": 0.31511626046931773,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "f9b27fef6c304efa",
@@ -645,12 +623,12 @@
         "norm": 0.46153846153846156
       },
       "semantic": {
-        "raw": 0.3532538413997932,
-        "cache_reused": false,
-        "norm": 0.34707139444587365
+        "raw": 0.3532538028507159,
+        "cache_reused": true,
+        "norm": 0.4197162354064025
       },
       "text_hash": "c7b02c2e4953f8dbfb909799d3ec4e29e75f90c2",
-      "final_score": 0.39858157463753824,
+      "final_score": 0.4385362371658291,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=0"
     },
     {
@@ -666,30 +644,24 @@
         "Engineering"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 8.0,
-        "must_hits": [
-          "python",
-          "sql",
-          "cloud"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.6153846153846154
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.4507832795843909,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.5430206606780109
+        "norm": 0.0
       },
       "text_hash": "c1ea63b9e7b440f042c4d0bbaf79882398c93399",
-      "final_score": 0.575584440295983,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "0df98beef0fc10f8",
@@ -704,29 +676,24 @@
         "5112 General University"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 10.0,
-        "must_hits": [
-          "python",
-          "data pipeline",
-          "machine learning",
-          "sql"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
         "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.7692307692307693
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.3883047997947624,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.41749330711215665
+        "norm": 0.0
       },
       "text_hash": "a7ca264d946a84d653e696e840ff1c6150b7698d",
-      "final_score": 0.5757751650655324,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=4, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "40436a0e8ed94e54",
@@ -741,29 +708,24 @@
         "5112 General University"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 10.0,
-        "must_hits": [
-          "python",
-          "data pipeline",
-          "machine learning",
-          "sql"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
         "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.7692307692307693
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.2789721953253457,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.1978299519261937
+        "norm": 0.0
       },
       "text_hash": "84e6015f50a7fddcf8a2a8097788a3ede0c2320e",
-      "final_score": 0.45496031971325274,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=4, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "5936ffed28038e5d",
@@ -795,12 +757,12 @@
         "norm": 0.6153846153846154
       },
       "semantic": {
-        "raw": 0.4216968072467883,
-        "cache_reused": false,
-        "norm": 0.4845821725874
+        "raw": 0.42169686218420566,
+        "cache_reused": true,
+        "norm": 0.5860094313250449
       },
       "text_hash": "a03354be29cb2c91a80e9131f92d4251e6d276b3",
-      "final_score": 0.5434432718461469,
+      "final_score": 0.5992282641518516,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1"
     },
     {
@@ -816,28 +778,24 @@
         "5112 General University"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 3.0,
-        "must_hits": [
-          "git"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.23076923076923078
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.3415982425209444,
-        "cache_reused": true,
-        "norm": 0.32365378751283963
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
       },
       "text_hash": "58f557f2e44b0d957b3009d34907e155a227c552",
-      "final_score": 0.28185573697821564,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "1254231df3fa18cd",
@@ -867,12 +825,12 @@
         "norm": 0.23076923076923078
       },
       "semantic": {
-        "raw": 0.3415982425209444,
+        "raw": 0.34159835228876,
         "cache_reused": true,
-        "norm": 0.32365378751283963
+        "norm": 0.3913974819390076
       },
       "text_hash": "2b1d064990c9520a7e0f962a687e84161edd81d2",
-      "final_score": 0.28185573697821564,
+      "final_score": 0.31911476891260804,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
     },
     {
@@ -888,28 +846,24 @@
         "5112 General University"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 3.0,
-        "must_hits": [
-          "git"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.23076923076923078
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.3415982425209444,
-        "cache_reused": true,
-        "norm": 0.32365378751283963
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
       },
       "text_hash": "0504ebea54da571d1dcdb616371e118fe6fb2ee6",
-      "final_score": 0.28185573697821564,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "b35597b79d3ae32f",
@@ -939,12 +893,12 @@
         "norm": 0.23076923076923078
       },
       "semantic": {
-        "raw": 0.3415982425209444,
+        "raw": 0.34159835228876,
         "cache_reused": true,
-        "norm": 0.32365378751283963
+        "norm": 0.3913974819390076
       },
       "text_hash": "23045855f57a04cda6dd2a02b162d64170aae71b",
-      "final_score": 0.28185573697821564,
+      "final_score": 0.31911476891260804,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
     },
     {
@@ -960,8 +914,8 @@
         "6526 University Recruiting"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
         "raw": 0.0,
@@ -971,13 +925,13 @@
         "norm": 0.0
       },
       "semantic": {
-        "raw": 0.3915284872051138,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.4239701124170794
+        "norm": 0.0
       },
       "text_hash": "ea6d8bbb626d6ef4a9de08937e447f24c958c626",
-      "final_score": 0.23318356182939368,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "db53ab408d50d1f5",
@@ -992,26 +946,24 @@
         "6526 University Recruiting"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 2.0,
+        "raw": 0.0,
         "must_hits": [],
-        "nice_hits": [
-          "rag"
-        ],
+        "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.15384615384615385
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.3929047584529762,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.42673521950858734
+        "norm": 0.0
       },
       "text_hash": "5874c0f042a5f30e5c85d288bd5a5b032b23ea49",
-      "final_score": 0.30393513996049226,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "9cde9753e65a0790",
@@ -1041,12 +993,12 @@
         "norm": 0.3076923076923077
       },
       "semantic": {
-        "raw": 0.4201331734653086,
-        "cache_reused": false,
-        "norm": 0.48144062991228675
+        "raw": 0.4201331985071987,
+        "cache_reused": true,
+        "norm": 0.5822102640650836
       },
       "text_hash": "569146ede7b685e8de4ae342466963c1d34c8a34",
-      "final_score": 0.4032538849132962,
+      "final_score": 0.45867718369733446,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
     },
     {
@@ -1062,26 +1014,24 @@
         "Company Operations-200"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 2.0,
-        "must_hits": [
-          "machine learning"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
         "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.15384615384615385
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.45202761602521135,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.5455206936635714
+        "norm": 0.0
       },
       "text_hash": "b1c2a6a68c49cb17e4b0181e9c4e4ea91a468b3f",
-      "final_score": 0.36926715074573346,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "44cb289470d1febd",
@@ -1109,12 +1059,12 @@
         "norm": 0.15384615384615385
       },
       "semantic": {
-        "raw": 0.34577941894496667,
-        "cache_reused": false,
-        "norm": 0.3320543121905637
+        "raw": 0.3457794395550274,
+        "cache_reused": true,
+        "norm": 0.4015560921866084
       },
       "text_hash": "fe29f58b960003b8bad45ac881d50142a4603239",
-      "final_score": 0.25186064093557925,
+      "final_score": 0.2900866199334039,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0"
     },
     {
@@ -1130,27 +1080,24 @@
         "Customer Success Management-750"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 3.0,
-        "must_hits": [
-          "machine learning",
-          "cloud"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
         "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.23076923076923078
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.34153968095745263,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.3235361297511503
+        "norm": 0.0
       },
       "text_hash": "ad9862156610bccea5c9886aed73ad54c7bf8f9d",
-      "final_score": 0.28179102520928656,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "80edd7620280a1ef",
@@ -1180,12 +1127,12 @@
         "norm": 0.3076923076923077
       },
       "semantic": {
-        "raw": 0.35850694775545505,
-        "cache_reused": false,
-        "norm": 0.35762556511466226
+        "raw": 0.3585069393218115,
+        "cache_reused": true,
+        "norm": 0.4324795580994871
       },
       "text_hash": "4ffd130e8b8753a9ccb9562019c9b28cd2bd3733",
-      "final_score": 0.3351555992746027,
+      "final_score": 0.37632529541625637,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=0"
     },
     {
@@ -1214,12 +1161,12 @@
         "norm": 0.15384615384615385
       },
       "semantic": {
-        "raw": 0.4287441457810709,
-        "cache_reused": false,
-        "norm": 0.4987411879614906
+        "raw": 0.4287442266936783,
+        "cache_reused": true,
+        "norm": 0.6031321137196699
       },
       "text_hash": "5c055aecefd2cdc390657c2b109a7da4bd8854a6",
-      "final_score": 0.3435384226095891,
+      "final_score": 0.4009534317765877,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0"
     },
     {
@@ -1249,12 +1196,12 @@
         "norm": 0.3076923076923077
       },
       "semantic": {
-        "raw": 0.42768380045848037,
-        "cache_reused": false,
-        "norm": 0.4966108169496015
+        "raw": 0.42768379614809876,
+        "cache_reused": true,
+        "norm": 0.6005556306373615
       },
       "text_hash": "dc3cdf1d4d9c079af5a456aa92f0c62531e1fd7a",
-      "final_score": 0.4115974877838193,
+      "final_score": 0.4687671353120873,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0"
     },
     {
@@ -1284,12 +1231,12 @@
         "norm": 0.23076923076923078
       },
       "semantic": {
-        "raw": 0.43167903612087927,
-        "cache_reused": false,
-        "norm": 0.5046377625677007
+        "raw": 0.4316790916532839,
+        "cache_reused": true,
+        "norm": 0.6102628305297475
       },
       "text_hash": "fd5b128381089c6770ddf1d0e71cee9e2cb8d715",
-      "final_score": 0.38139692325838925,
+      "final_score": 0.439490710637515,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0"
     },
     {
@@ -1322,12 +1269,12 @@
         "norm": 0.46153846153846156
       },
       "semantic": {
-        "raw": 0.5657059550279682,
-        "cache_reused": false,
-        "norm": 0.7739151920704754
+        "raw": 0.5657059887466728,
+        "cache_reused": true,
+        "norm": 0.9359022930809642
       },
       "text_hash": "34ce74f43771a46df4cd749e94e26d6c8d9653d1",
-      "final_score": 0.6333456633310692,
+      "final_score": 0.7224385688868381,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1"
     },
     {
@@ -1357,12 +1304,12 @@
         "norm": 0.23076923076923078
       },
       "semantic": {
-        "raw": 0.4558860957617969,
-        "cache_reused": false,
-        "norm": 0.5532728789240307
+        "raw": 0.45588612293472736,
+        "cache_reused": true,
+        "norm": 0.6690776268684039
       },
       "text_hash": "76514bfbbc2236e1505765d321a496271b4efc8a",
-      "final_score": 0.40814623725437077,
+      "final_score": 0.471838848623776,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0"
     },
     {
@@ -1393,12 +1340,12 @@
         "norm": 0.3076923076923077
       },
       "semantic": {
-        "raw": 0.4193667173381426,
-        "cache_reused": false,
-        "norm": 0.4799007203371589
+        "raw": 0.41936680193899667,
+        "cache_reused": true,
+        "norm": 0.5803481828561415
       },
       "text_hash": "186fcd3a286c74789ffff4376740d5d53cf0a49a",
-      "final_score": 0.4024069346469759,
+      "final_score": 0.45765303903241633,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
     },
     {
@@ -1429,12 +1376,12 @@
         "norm": 0.3076923076923077
       },
       "semantic": {
-        "raw": 0.45247599482491063,
-        "cache_reused": false,
-        "norm": 0.5464215447135777
+        "raw": 0.45247602179458324,
+        "cache_reused": true,
+        "norm": 0.660792248883804
       },
       "text_hash": "42b97094ce41b685cec987e9da69ade96c0ed19b",
-      "final_score": 0.43899338805400623,
+      "final_score": 0.5018972753476307,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
     },
     {
@@ -1464,12 +1411,12 @@
         "norm": 0.23076923076923078
       },
       "semantic": {
-        "raw": 0.3655992964263655,
-        "cache_reused": false,
-        "norm": 0.3718750116796775
+        "raw": 0.3655993480201103,
+        "cache_reused": true,
+        "norm": 0.44971168244761933
       },
       "text_hash": "3de2578726ff91500df36e5bb3ab6c6f83e0acd6",
-      "final_score": 0.3083774102699765,
+      "final_score": 0.3511875791923445,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0"
     },
     {
@@ -1501,12 +1448,12 @@
         "norm": 0.6923076923076923
       },
       "semantic": {
-        "raw": 0.5920873880380431,
-        "cache_reused": false,
-        "norm": 0.8269189059921336
+        "raw": 0.5920873637245554,
+        "cache_reused": true,
+        "norm": 1.0
       },
       "text_hash": "d17be0a3944ee85ec0562f656b67913eb772cfa1",
-      "final_score": 0.766343859834135,
+      "final_score": 0.8615384615384616,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=4, nice_hits=0"
     },
     {
@@ -1539,12 +1486,12 @@
         "norm": 0.07692307692307693
       },
       "semantic": {
-        "raw": 0.575842985610742,
-        "cache_reused": false,
-        "norm": 0.7942817987221783
+        "raw": 0.5758429603290093,
+        "cache_reused": true,
+        "norm": 0.9605316626295922
       },
       "text_hash": "778c734fec934fbcff84f61beeae203acfe3abbe",
-      "final_score": 0.47147037391258273,
+      "final_score": 0.5629077990616603,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
     },
     {
@@ -1560,27 +1507,24 @@
         "Strategy"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 4.0,
-        "must_hits": [
-          "data pipeline",
-          "cloud"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
         "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.3076923076923077
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.37859190957604816,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.39797885335566074
+        "norm": 0.0
       },
       "text_hash": "346d67ad4ecf6e1faee0e1de7017cb9dbb29e072",
-      "final_score": 0.3573499078071519,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "7e0ba771e2f17f8c",
@@ -1595,30 +1539,24 @@
         "Internships & Emerging Talent Positions"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 9.0,
-        "must_hits": [
-          "python",
-          "machine learning",
-          "sql"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.6923076923076923
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.31691129904425036,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.27405452241078365
+        "norm": 0.0
       },
       "text_hash": "2e0acfe0d537ada40a7d1267b700cf404e306f0d",
-      "final_score": 0.46226844886439256,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "31781f9d666f1306",
@@ -1633,30 +1571,24 @@
         "Internships & Emerging Talent Positions"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 9.0,
-        "must_hits": [
-          "python",
-          "machine learning",
-          "sql"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.6923076923076923
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.31691129904425036,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.27405452241078365
+        "norm": 0.0
       },
       "text_hash": "174333f1d7f21716c95e45d4cc43b7884b5a7b39",
-      "final_score": 0.46226844886439256,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "030d9552fd5fe95e",
@@ -1671,26 +1603,24 @@
         "Security"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 1.0,
-        "must_hits": [
-          "cloud"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
         "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.07692307692307693
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.33149263262715567,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.3033503090926302
+        "norm": 0.0
       },
       "text_hash": "7fad1befd682fdae59832fbfbcdb5093a60400d2",
-      "final_score": 0.20145805461633126,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "c1a7d2357d3e9e7d",
@@ -1721,12 +1651,12 @@
         "norm": 0.38461538461538464
       },
       "semantic": {
-        "raw": 0.31691129904425036,
-        "cache_reused": false,
-        "norm": 0.27405452241078365
+        "raw": 0.31691125832898615,
+        "cache_reused": true,
+        "norm": 0.331416297689024
       },
       "text_hash": "474938fc6556ea01108747f7a3fdda08337920c0",
-      "final_score": 0.32380691040285414,
+      "final_score": 0.3553558868058863,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1"
     },
     {
@@ -1757,12 +1687,12 @@
         "norm": 0.23076923076923078
       },
       "semantic": {
-        "raw": 0.45793756842567424,
-        "cache_reused": false,
-        "norm": 0.557394553063291
+        "raw": 0.45793762552320616,
+        "cache_reused": true,
+        "norm": 0.6740620756232624
       },
       "text_hash": "d202ff7ef7a148f8c16e4444d2b72b6e5379b51a",
-      "final_score": 0.41041315803096395,
+      "final_score": 0.4745802954389482,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
     },
     {
@@ -1793,12 +1723,12 @@
         "norm": 0.23076923076923078
       },
       "semantic": {
-        "raw": 0.39172532509081087,
-        "cache_reused": false,
-        "norm": 0.42436558520957124
+        "raw": 0.3917253484394625,
+        "cache_reused": true,
+        "norm": 0.5131889166422052
       },
       "text_hash": "9c743cdd01fff062a6c9a9a55dbbaf3be92d8890",
-      "final_score": 0.3372472257114181,
+      "final_score": 0.38610005799936675,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
     },
     {
@@ -1814,30 +1744,24 @@
         "Product"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 8.0,
-        "must_hits": [
-          "python",
-          "machine learning",
-          "sql"
-        ],
-        "nice_hits": [
-          "mlflow"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.6153846153846154
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.5800718414820498,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.8027781175814732
+        "norm": 0.0
       },
       "text_hash": "6bd36b96e742cbefb9682c8c19e70dae4c362728",
-      "final_score": 0.7184510415928873,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "38b3a29b6dbc55e0",
@@ -1852,30 +1776,24 @@
         "Product"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 8.0,
-        "must_hits": [
-          "python",
-          "machine learning",
-          "sql"
-        ],
-        "nice_hits": [
-          "mlflow"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.6153846153846154
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.5800718414820498,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.8027781175814732
+        "norm": 0.0
       },
       "text_hash": "6bd36b96e742cbefb9682c8c19e70dae4c362728",
-      "final_score": 0.7184510415928873,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "a0f7d3885e4db7ec",
@@ -1890,29 +1808,24 @@
         "University Recruiting"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 5.0,
-        "must_hits": [
-          "python",
-          "cloud"
-        ],
-        "nice_hits": [
-          "mlflow"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.38461538461538464
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.5514842867845742,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.7453420196134025
+        "norm": 0.0
       },
       "text_hash": "afea5fd0e957549156b3346fbe88a58fc2876306",
-      "final_score": 0.5830150338642945,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "c2fd6a054509e91a",
@@ -1943,8 +1856,8 @@
         "norm": 0.23076923076923078
       },
       "semantic": {
-        "raw": 0.18050668719432705,
-        "cache_reused": false,
+        "raw": 0.18050672775569124,
+        "cache_reused": true,
         "norm": 0.0
       },
       "text_hash": "79bb1d4b3f5a6b827a0bcba9762a2a77ddb392cc",
@@ -1965,30 +1878,24 @@
         "Internships"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 9.0,
-        "must_hits": [
-          "python",
-          "machine learning",
-          "llm"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.6923076923076923
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.43811225891069466,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.5175629399155517
+        "norm": 0.0
       },
       "text_hash": "6552e4cb662b9f7fca49b68fe98f954d94001d2c",
-      "final_score": 0.596198078492015,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "2d63f4cc8b3a3dd7",
@@ -2019,12 +1926,12 @@
         "norm": 0.38461538461538464
       },
       "semantic": {
-        "raw": 0.31691129904425036,
-        "cache_reused": false,
-        "norm": 0.27405452241078365
+        "raw": 0.31691125832898615,
+        "cache_reused": true,
+        "norm": 0.331416297689024
       },
       "text_hash": "384f524e31ff589b14eb58fd59c6cf8485e68f1b",
-      "final_score": 0.32380691040285414,
+      "final_score": 0.3553558868058863,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1"
     },
     {
@@ -2057,12 +1964,12 @@
         "norm": 0.5384615384615384
       },
       "semantic": {
-        "raw": 0.31691129904425036,
-        "cache_reused": false,
-        "norm": 0.27405452241078365
+        "raw": 0.31691125832898615,
+        "cache_reused": true,
+        "norm": 0.331416297689024
       },
       "text_hash": "7e312fa50e73f73c63afe486f05a3b098651c06a",
-      "final_score": 0.39303767963362335,
+      "final_score": 0.4245866560366555,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1"
     },
     {
@@ -2093,12 +2000,12 @@
         "norm": 0.3076923076923077
       },
       "semantic": {
-        "raw": 0.31691129904425036,
-        "cache_reused": false,
-        "norm": 0.27405452241078365
+        "raw": 0.31691125832898615,
+        "cache_reused": true,
+        "norm": 0.331416297689024
       },
       "text_hash": "fefdec8fb4f916129bd71559795c469d8bea30bb",
-      "final_score": 0.2891915257874695,
+      "final_score": 0.32074050219050165,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
     },
     {
@@ -2129,12 +2036,12 @@
         "norm": 0.3076923076923077
       },
       "semantic": {
-        "raw": 0.31691129904425036,
-        "cache_reused": false,
-        "norm": 0.27405452241078365
+        "raw": 0.31691125832898615,
+        "cache_reused": true,
+        "norm": 0.331416297689024
       },
       "text_hash": "4994a877e831e3f8380644da2909e44611fc87ed",
-      "final_score": 0.2891915257874695,
+      "final_score": 0.32074050219050165,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
     },
     {
@@ -2168,12 +2075,12 @@
         "norm": 0.5384615384615384
       },
       "semantic": {
-        "raw": 0.31691129904425036,
-        "cache_reused": false,
-        "norm": 0.27405452241078365
+        "raw": 0.31691125832898615,
+        "cache_reused": true,
+        "norm": 0.331416297689024
       },
       "text_hash": "57adac3e23fa089f61359e174ddfc78ee5a5baad",
-      "final_score": 0.39303767963362335,
+      "final_score": 0.4245866560366555,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=4, nice_hits=1"
     },
     {
@@ -2206,12 +2113,12 @@
         "norm": 0.5384615384615384
       },
       "semantic": {
-        "raw": 0.31691129904425036,
-        "cache_reused": false,
-        "norm": 0.27405452241078365
+        "raw": 0.31691125832898615,
+        "cache_reused": true,
+        "norm": 0.331416297689024
       },
       "text_hash": "068302da8982e3c36c51b4763ab17c55e02e14ed",
-      "final_score": 0.39303767963362335,
+      "final_score": 0.4245866560366555,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1"
     },
     {
@@ -2243,12 +2150,12 @@
         "norm": 0.38461538461538464
       },
       "semantic": {
-        "raw": 0.31691129904425036,
-        "cache_reused": false,
-        "norm": 0.27405452241078365
+        "raw": 0.31691125832898615,
+        "cache_reused": true,
+        "norm": 0.331416297689024
       },
       "text_hash": "17cc3526a2760819aab2929a93a7fe5c31acf3da",
-      "final_score": 0.32380691040285414,
+      "final_score": 0.3553558868058863,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1"
     },
     {
@@ -2282,12 +2189,12 @@
         "norm": 0.6153846153846154
       },
       "semantic": {
-        "raw": 0.3924525082107434,
-        "cache_reused": false,
-        "norm": 0.4258265902293836
+        "raw": 0.39245250180041297,
+        "cache_reused": true,
+        "norm": 0.5149556502963256
       },
       "text_hash": "6ff013da1c7ae516fa08f120d568c72c83305ee2",
-      "final_score": 0.5111277015492379,
+      "final_score": 0.560148684586056,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=2"
     },
     {
@@ -2318,12 +2225,12 @@
         "norm": 0.3076923076923077
       },
       "semantic": {
-        "raw": 0.3924525082107434,
-        "cache_reused": false,
-        "norm": 0.4258265902293836
+        "raw": 0.39245250180041297,
+        "cache_reused": true,
+        "norm": 0.5149556502963256
       },
       "text_hash": "4d1f4459b404f1a82249cd18c93c6ae02aa07ab3",
-      "final_score": 0.37266616308769945,
+      "final_score": 0.4216871461245176,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=2"
     },
     {
@@ -2340,8 +2247,8 @@
         "AI"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
         "raw": 0.0,
@@ -2351,13 +2258,13 @@
         "norm": 0.0
       },
       "semantic": {
-        "raw": 0.46959018525971813,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.5808061686822944
+        "norm": 0.0
       },
       "text_hash": "5fed5bad556f902cec6a5ec937d6669b53ff03f2",
-      "final_score": 0.31944339277526196,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "7ae9985ca2b8ff24",
@@ -2388,12 +2295,12 @@
         "norm": 0.7692307692307693
       },
       "semantic": {
-        "raw": 0.3915490508075613,
-        "cache_reused": false,
-        "norm": 0.42401142735629854
+        "raw": 0.3915490145410565,
+        "cache_reused": true,
+        "norm": 0.5127604856544575
       },
       "text_hash": "5cd14b0d4fb263c1fe8d40d387b38271075c5811",
-      "final_score": 0.5793601311998104,
+      "final_score": 0.6281721132637978,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=4, nice_hits=0"
     },
     {
@@ -2422,12 +2329,12 @@
         "norm": 0.23076923076923078
       },
       "semantic": {
-        "raw": 0.2908277809616995,
+        "raw": 0.290827768494063,
         "cache_reused": true,
-        "norm": 0.22164935814279457
+        "norm": 0.2680423496568908
       },
       "text_hash": "c941bcda98b78e85218933c65c67d5a15f44d95f",
-      "final_score": 0.22575330082469086,
+      "final_score": 0.2512694461574438,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0"
     },
     {
@@ -2456,12 +2363,12 @@
         "norm": 0.15384615384615385
       },
       "semantic": {
-        "raw": 0.5330088138574992,
-        "cache_reused": false,
-        "norm": 0.7082224029034215
+        "raw": 0.5330088456273021,
+        "cache_reused": true,
+        "norm": 0.856459432407013
       },
       "text_hash": "0a76d15cc71163014f54a01580d4568eec4bd7d5",
-      "final_score": 0.45875309082765114,
+      "final_score": 0.5402834570546264,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1"
     },
     {
@@ -2477,29 +2384,24 @@
         "People & Places"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 5.0,
-        "must_hits": [
-          "llm",
-          "cloud"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.38461538461538464
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.3677550554271835,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.37620621056943304
+        "norm": 0.0
       },
       "text_hash": "65de758b85f90322e3b993389544805a015249e0",
-      "final_score": 0.3799903388901113,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "665bd45f4c418939",
@@ -2514,29 +2416,24 @@
         "Strategy"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 5.0,
-        "must_hits": [
-          "llm",
-          "cloud"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.38461538461538464
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.3942450519942306,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.42942804273030416
+        "norm": 0.0
       },
       "text_hash": "46eda9a66b523d87a6d5e7d71b9878ce0638c63a",
-      "final_score": 0.4092623465785904,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "2de2a0b635275787",
@@ -2551,27 +2448,24 @@
         "Strategy"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 4.0,
-        "must_hits": [
-          "data pipeline",
-          "cloud"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
         "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.3076923076923077
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.3809849250899871,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.4027867312924836
+        "norm": 0.0
       },
       "text_hash": "dff664113de1ac0c352e33b6b18d2f647e3b71f0",
-      "final_score": 0.3599942406724045,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "c932f778d17d33c8",
@@ -2586,28 +2480,24 @@
         "Strategy"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 6.0,
-        "must_hits": [
-          "python",
-          "sql",
-          "cloud"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
         "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.46153846153846156
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.3550091385837819,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.35059801370693117
+        "norm": 0.0
       },
       "text_hash": "7be08706ec2d663563c71368e8760499c691bf51",
-      "final_score": 0.40052121523111983,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "b79485bd47657c06",
@@ -2622,28 +2512,24 @@
         "Emerging Technology and Incubation"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 5.0,
-        "must_hits": [
-          "python",
-          "git",
-          "cloud"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
         "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.38461538461538464
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.40316098351205704,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.44734130329259025
+        "norm": 0.0
       },
       "text_hash": "e36957bf788bbbee3c9fd4d5f5db67559392bc88",
-      "final_score": 0.41911463988784775,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "9064d80e3175e513",
@@ -2658,28 +2544,24 @@
         "Product Content"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 5.0,
-        "must_hits": [
-          "python",
-          "git",
-          "cloud"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
         "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.38461538461538464
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.3874014317985475,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.41567832386924225
+        "norm": 0.0
       },
       "text_hash": "2abc175a14de0912c9a10332566d8757c8ceb9c0",
-      "final_score": 0.4017000012050064,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "6adb06b7ff8ad09d",
@@ -2694,26 +2576,24 @@
         "Security"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 1.0,
-        "must_hits": [
-          "cloud"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
         "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.07692307692307693
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.3603332853512311,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.3612949137589878
+        "norm": 0.0
       },
       "text_hash": "d779157a41ef10cbef139e32691ab04f6fb2cb51",
-      "final_score": 0.23332758718282792,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "5917dcfcdfb6ef21",
@@ -2728,30 +2608,24 @@
         "Business Intelligence"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 10.0,
-        "must_hits": [
-          "python",
-          "data pipeline",
-          "sql",
-          "docker",
-          "cloud"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
         "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.7692307692307693
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.37494560330744464,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.39065295205765305
+        "norm": 0.0
       },
       "text_hash": "bb48fbdfb6ed231bf8c54489cc999e153d985193",
-      "final_score": 0.5610129697855554,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=5, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "626b54075efb3131",
@@ -2766,27 +2640,24 @@
         "Security"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 3.0,
-        "must_hits": [
-          "sql",
-          "cloud"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
         "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.23076923076923078
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.37079509322576953,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.3823140400313787
+        "norm": 0.0
       },
       "text_hash": "af6da06c58ac00a8f800aacce9000f674037caa9",
-      "final_score": 0.31411887586341214,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "e8b0d073b1a44f2d",
@@ -2801,29 +2672,24 @@
         "Security"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 6.0,
-        "must_hits": [
-          "python",
-          "cloud"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.46153846153846156
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.3368930220600574,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.3142003905289857
+        "norm": 0.0
       },
       "text_hash": "214872f04c7ee8012d98598cbece936f28f74f1a",
-      "final_score": 0.38050252248324984,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "70317cf07362416d",
@@ -2838,29 +2704,24 @@
         "Security"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 6.0,
-        "must_hits": [
-          "python",
-          "cloud"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.46153846153846156
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.36500533610577657,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.37068166850907375
+        "norm": 0.0
       },
       "text_hash": "be61b3c2e804e0e19d24c8ddb69ccb0788ac04b7",
-      "final_score": 0.4115672253722983,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "2ce1bcb235f342ff",
@@ -2875,29 +2736,24 @@
         "Security"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 6.0,
-        "must_hits": [
-          "python",
-          "cloud"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.46153846153846156
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.3399980866904487,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.3204388673135738
+        "norm": 0.0
       },
       "text_hash": "3e5b8199904e902d1cc4d58ba80264d279c1dcae",
-      "final_score": 0.3839336847147733,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "bd3233683f49cc92",
@@ -2912,26 +2768,24 @@
         "Security"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 1.0,
-        "must_hits": [
-          "cloud"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
         "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.07692307692307693
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.37079509322576953,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.3823140400313787
+        "norm": 0.0
       },
       "text_hash": "81f455cadafe7a086fae5bfd23e4bd3b7ecea5e6",
-      "final_score": 0.24488810663264293,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "3ff25be02c38e007",
@@ -2946,26 +2800,24 @@
         "Product Experience"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 1.0,
-        "must_hits": [
-          "cloud"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
         "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.07692307692307693
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.33317735791173037,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.3067351402724255
+        "norm": 0.0
       },
       "text_hash": "2f4beee45f5e54a6520ecdd3b2e4059befc7d9a6",
-      "final_score": 0.20331971176521862,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "89c8482e1295c12a",
@@ -2980,26 +2832,24 @@
         "Product Experience"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 1.0,
-        "must_hits": [
-          "cloud"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
         "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.07692307692307693
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.3906918996980992,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.42228929982152014
+        "norm": 0.0
       },
       "text_hash": "561b8fe136f251c3ca0d0296398bc05fa075f705",
-      "final_score": 0.2668744995172207,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "52944bd6c5b93c5f",
@@ -3014,26 +2864,24 @@
         "Product Experience"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 1.0,
-        "must_hits": [
-          "cloud"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
         "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.07692307692307693
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.34090914374014286,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.32226929886025507
+        "norm": 0.0
       },
       "text_hash": "3d91e8130c58e8fa80bc7137dda972ce1e84a716",
-      "final_score": 0.2118634989885249,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "85ef8672aa48270e",
@@ -3048,28 +2896,24 @@
         "Emerging Technology and Incubation"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 5.0,
-        "must_hits": [
-          "python",
-          "git",
-          "cloud"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
         "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.38461538461538464
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.37859190957604816,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.39797885335566074
+        "norm": 0.0
       },
       "text_hash": "e2085244fd27447fbeb36cdddbe2b34183d674ff",
-      "final_score": 0.3919652924225365,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "cf57cfc958e49ca7",
@@ -3084,28 +2928,24 @@
         "Emerging Technology and Incubation"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 5.0,
-        "must_hits": [
-          "python",
-          "git",
-          "cloud"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
         "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.38461538461538464
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.35853433608972934,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.3576805918235644
+        "norm": 0.0
       },
       "text_hash": "4869f1fd59c64fb0310610b1a2a4eec51b4b98e1",
-      "final_score": 0.3698012485798835,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "f8130720f1e526c2",
@@ -3120,31 +2960,24 @@
         "Technology Research"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 9.0,
-        "must_hits": [
-          "python",
-          "machine learning",
-          "git",
-          "cloud"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.6923076923076923
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.39011642336806385,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.42113309338064064
+        "norm": 0.0
       },
       "text_hash": "52470f2772959cc435ec575546a0c7d91a387e32",
-      "final_score": 0.543161662897814,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=4, nice_hits=1"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "84bc1484e1b4497d",
@@ -3159,31 +2992,24 @@
         "Technology Research"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 9.0,
-        "must_hits": [
-          "python",
-          "machine learning",
-          "git",
-          "cloud"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.6923076923076923
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.3650697687306192,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.3708111219930098
+        "norm": 0.0
       },
       "text_hash": "39c0ea94ebd055a6b201cbefde606594e0853f2a",
-      "final_score": 0.5154845786346169,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=4, nice_hits=1"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "204693732bd8fb17",
@@ -3198,31 +3024,24 @@
         "Technology Research"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 9.0,
-        "must_hits": [
-          "python",
-          "machine learning",
-          "git",
-          "cloud"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.6923076923076923
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.3621343076225474,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.3649134006394741
+        "norm": 0.0
       },
       "text_hash": "1a5bc38f34475b8073af28e5e74e3d4274b75abd",
-      "final_score": 0.5122408318901723,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=4, nice_hits=1"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "a69b027a9f170de6",
@@ -3237,28 +3056,24 @@
         "University"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 6.0,
-        "must_hits": [
-          "python",
-          "sql",
-          "cloud"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
         "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.46153846153846156
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.37494560330744464,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.39065295205765305
+        "norm": 0.0
       },
       "text_hash": "803601e9589cc1c74f00e50dfae2e2c2c64683e3",
-      "final_score": 0.4225514313240169,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "27fa7db8097260ad",
@@ -3273,28 +3088,24 @@
         "University"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 6.0,
-        "must_hits": [
-          "python",
-          "sql",
-          "cloud"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
         "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.46153846153846156
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.3440365903417712,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.32855274392234346
+        "norm": 0.0
       },
       "text_hash": "6a9548f5a98e5460b4f4d63a8181da7613ff706a",
-      "final_score": 0.38839631684959663,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "119fb7f9439c736c",
@@ -3309,28 +3120,24 @@
         "University"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 6.0,
-        "must_hits": [
-          "python",
-          "sql",
-          "cloud"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
         "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.46153846153846156
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.34793696974921834,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.33638911104536157
+        "norm": 0.0
       },
       "text_hash": "ed448ea67721b7dd0aef8e9d325e4e393918d168",
-      "final_score": 0.3927063187672566,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "7ff08fc55f14924a",
@@ -3345,27 +3152,24 @@
         "University"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 4.0,
-        "must_hits": [
-          "python",
-          "cloud"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
         "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.3076923076923077
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.3390360070420681,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.31850592476139555
+        "norm": 0.0
       },
       "text_hash": "bd96f1ba2c7ed5ce63e4d9090875f11149bcd816",
-      "final_score": 0.31363979708030604,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "d3ae49c0279183ff",
@@ -3380,27 +3184,24 @@
         "University"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 4.0,
-        "must_hits": [
-          "python",
-          "cloud"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
         "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.3076923076923077
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.3368930220600574,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.3142003905289857
+        "norm": 0.0
       },
       "text_hash": "9ae09340e2426194d1783a20f8c811c82f846415",
-      "final_score": 0.3112717532524806,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "8a83deff873f0036",
@@ -3415,27 +3216,24 @@
         "University"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 4.0,
-        "must_hits": [
-          "python",
-          "cloud"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
         "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.3076923076923077
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.37494560330744464,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.39065295205765305
+        "norm": 0.0
       },
       "text_hash": "c48b439a19512a58335b472ccbc2a55479f946d3",
-      "final_score": 0.35332066209324764,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "89f7a1eccd23357b",
@@ -3450,29 +3248,24 @@
         "Product Content"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 4.0,
-        "must_hits": [
-          "git",
-          "cloud"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.3076923076923077
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.3874014317985475,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.41567832386924225
+        "norm": 0.0
       },
       "text_hash": "4f6fbe72d2877d11a0e437ecd136e0caa90cb98d",
-      "final_score": 0.3670846165896217,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "e620bfed3e9efb7c",
@@ -3487,28 +3280,24 @@
         "Product Content"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 5.0,
-        "must_hits": [
-          "python",
-          "git",
-          "cloud"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
         "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.38461538461538464
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.37859190957604816,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.39797885335566074
+        "norm": 0.0
       },
       "text_hash": "0bee7a3136fc388bdf332247b44982e5a65248d6",
-      "final_score": 0.3919652924225365,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "9512fc6c152f2bec",
@@ -3523,26 +3312,24 @@
         "Security"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 1.0,
-        "must_hits": [
-          "cloud"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
         "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.07692307692307693
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.3403981530900265,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.32124265249782796
+        "norm": 0.0
       },
       "text_hash": "5e89dc0c1f33b3f755661545fe40b49eec5da715",
-      "final_score": 0.21129884348919004,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "bfd0141092a4e750",
@@ -3557,26 +3344,24 @@
         "Security"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 1.0,
-        "must_hits": [
-          "cloud"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
         "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.07692307692307693
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.37079509322576953,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.3823140400313787
+        "norm": 0.0
       },
       "text_hash": "7956d6b805e8c533ed32cbb511ab964f88989c9e",
-      "final_score": 0.24488810663264293,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "fb4d8889ae2acd05",
@@ -3591,26 +3376,24 @@
         "Product Content"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 1.0,
-        "must_hits": [
-          "cloud"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
         "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.07692307692307693
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.3874014317985475,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.41567832386924225
+        "norm": 0.0
       },
       "text_hash": "e09244cec3db64ca1b99bb5f5accd2ab4bb67983",
-      "final_score": 0.26323846274346785,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "0e5c904defe5f22e",
@@ -3641,8 +3424,8 @@
         "norm": 0.23076923076923078
       },
       "semantic": {
-        "raw": 0.18050668719432705,
-        "cache_reused": false,
+        "raw": 0.18050672775569124,
+        "cache_reused": true,
         "norm": 0.0
       },
       "text_hash": "fd283530729f971bb8b0099ebdd2c2af214ff44f",
@@ -3663,29 +3446,24 @@
         "Engineering"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 6.0,
-        "must_hits": [
-          "data pipeline",
-          "git"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.46153846153846156
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.4571323394770819,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.5557767438708818
+        "norm": 0.0
       },
       "text_hash": "e7aa9a235c6d31584cfbb164c8dc423ed4da2a5b",
-      "final_score": 0.5133695168212927,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "cdefeb135c230613",
@@ -3715,12 +3493,12 @@
         "norm": 0.38461538461538464
       },
       "semantic": {
-        "raw": 0.5446384277718836,
+        "raw": 0.5446385198395194,
         "cache_reused": true,
-        "norm": 0.7315878026791639
+        "norm": 0.8847155581716301
       },
       "text_hash": "bab2bcb046c3e0e46ce5a776b89057c70fa9ab3b",
-      "final_score": 0.5754502145504633,
+      "final_score": 0.6596704800713197,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0"
     },
     {
@@ -3737,29 +3515,24 @@
         "Internships"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 7.0,
-        "must_hits": [
-          "python",
-          "machine learning"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.5384615384615384
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.4719555675978709,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.5855585279919236
+        "norm": 0.0
       },
       "text_hash": "8bf7afaaa3a9b626a12b278656c24bbb8545c562",
-      "final_score": 0.5643648827032504,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "ad6dbc9bfb107297",
@@ -3775,26 +3548,24 @@
         "Search"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 1.0,
-        "must_hits": [
-          "cloud"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
         "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.07692307692307693
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.6782346963875663,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 1.0
+        "norm": 0.0
       },
       "text_hash": "f04e3e8e3627070ed1a7d158dbabef852414942b",
-      "final_score": 0.5846153846153846,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "26282e51023d9a7d",
@@ -3810,30 +3581,24 @@
         "Search"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 9.0,
-        "must_hits": [
-          "python",
-          "machine learning",
-          "llm"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.6923076923076923
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.5752385258668868,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.7930673608511111
+        "norm": 0.0
       },
       "text_hash": "1b8e77dfc802dbd5b57eae07b2a22c6d9ea77587",
-      "final_score": 0.7477255100065727,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "b9b9d05bfd50552a",
@@ -3849,29 +3614,24 @@
         "Internships"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 7.0,
-        "must_hits": [
-          "data pipeline",
-          "machine learning"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.5384615384615384
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.47743511199903427,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.5965676420059112
+        "norm": 0.0
       },
       "text_hash": "ad6541fd65c397c13354a92c342bed8733c737b1",
-      "final_score": 0.5704198954109435,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "f19a3619088e388f",
@@ -3887,29 +3647,24 @@
         "Internships"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 7.0,
-        "must_hits": [
-          "python",
-          "machine learning"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.5384615384615384
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.4901180857485451,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.622049378044975
+        "norm": 0.0
       },
       "text_hash": "ef6f1512808739b78fd0a2937cf22d379ae138ab",
-      "final_score": 0.5844348502324286,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "6b28cb367e951024",
@@ -3925,26 +3680,24 @@
         "Search"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 2.0,
+        "raw": 0.0,
         "must_hits": [],
-        "nice_hits": [
-          "rag"
-        ],
+        "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.15384615384615385
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.3991607427593054,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.4393043018000772
+        "norm": 0.0
       },
       "text_hash": "e27449bf0937b90cc69713bee9b066315b9c927b",
-      "final_score": 0.31084813522081167,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "493409ccbbc1b402",
@@ -3975,8 +3728,8 @@
         "norm": 0.23076923076923078
       },
       "semantic": {
-        "raw": 0.18050668719432705,
-        "cache_reused": false,
+        "raw": 0.18050672775569124,
+        "cache_reused": true,
         "norm": 0.0
       },
       "text_hash": "16f44016413e1289c442caefcf7bfd6f969b6030",
@@ -4014,8 +3767,8 @@
         "norm": 0.6153846153846154
       },
       "semantic": {
-        "raw": 0.18050668719432705,
-        "cache_reused": false,
+        "raw": 0.18050672775569124,
+        "cache_reused": true,
         "norm": 0.0
       },
       "text_hash": "fe61ef09439105a910f6a4a50409b7779af862ba",
@@ -4051,12 +3804,12 @@
         "norm": 0.3076923076923077
       },
       "semantic": {
-        "raw": 0.28741970658273563,
-        "cache_reused": false,
-        "norm": 0.21480209554954016
+        "raw": 0.28741969391196204,
+        "cache_reused": true,
+        "norm": 0.25976189551434264
       },
       "text_hash": "848f2481831ff9af5d376c4cba61fe4f0ec3214f",
-      "final_score": 0.2566026910137856,
+      "final_score": 0.2813305809944269,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
     },
     {
@@ -4088,12 +3841,12 @@
         "norm": 0.0
       },
       "semantic": {
-        "raw": 0.28741970658273563,
-        "cache_reused": false,
-        "norm": 0.21480209554954016
+        "raw": 0.28741969391196204,
+        "cache_reused": true,
+        "norm": 0.25976189551434264
       },
       "text_hash": "fbd209f73f7cf0be47bfb4681eac2b31ee69151f",
-      "final_score": 0.1181411525522471,
+      "final_score": 0.14286904253288846,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1"
     },
     {
@@ -4125,12 +3878,12 @@
         "norm": 0.0
       },
       "semantic": {
-        "raw": 0.28741970658273563,
-        "cache_reused": false,
-        "norm": 0.21480209554954016
+        "raw": 0.28741969391196204,
+        "cache_reused": true,
+        "norm": 0.25976189551434264
       },
       "text_hash": "fbd209f73f7cf0be47bfb4681eac2b31ee69151f",
-      "final_score": 0.1181411525522471,
+      "final_score": 0.14286904253288846,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1"
     },
     {
@@ -4160,12 +3913,12 @@
         "norm": 0.15384615384615385
       },
       "semantic": {
-        "raw": 0.28804975748033324,
-        "cache_reused": false,
-        "norm": 0.21606794936118087
+        "raw": 0.2880497150447895,
+        "cache_reused": true,
+        "norm": 0.26129263111696494
       },
       "text_hash": "df525610cc7a6c0b6e34a479e5a222e7ba88ff49",
-      "final_score": 0.18806814137941874,
+      "final_score": 0.21294171634509995,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1"
     },
     {
@@ -4194,12 +3947,12 @@
         "norm": 0.15384615384615385
       },
       "semantic": {
-        "raw": 0.29984821676273266,
-        "cache_reused": false,
-        "norm": 0.23977258133783694
+        "raw": 0.29984820483275526,
+        "cache_reused": true,
+        "norm": 0.28995892091991454
       },
       "text_hash": "7004afb9b89a67d4506f18a948de32351d19f256",
-      "final_score": 0.20110568896657957,
+      "final_score": 0.22870817573672225,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1"
     },
     {
@@ -4215,28 +3968,24 @@
         "Early Career"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 5.0,
-        "must_hits": [
-          "python"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.38461538461538464
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.3586277281416483,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.35786822854521544
+        "norm": 0.0
       },
       "text_hash": "a421333186fe09fc0e62b52ed4efd76dd77a08bc",
-      "final_score": 0.36990444877679163,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "ea6377e034514778",
@@ -4252,28 +4001,24 @@
         "Early Career"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 3.0,
-        "must_hits": [
-          "cloud"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.23076923076923078
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.396254092454514,
-        "cache_reused": true,
-        "norm": 0.43346446507981146
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
       },
       "text_hash": "46d301a18234dee24e9e3c85c2e86c8ed30e3166",
-      "final_score": 0.3422516096400502,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "3ef71de346635a8a",
@@ -4309,8 +4054,8 @@
         "norm": 1.0
       },
       "semantic": {
-        "raw": 0.18050668719432705,
-        "cache_reused": false,
+        "raw": 0.18050672775569124,
+        "cache_reused": true,
         "norm": 0.0
       },
       "text_hash": "925438c36a34bbdce42080b675dfbca1977fdc05",
@@ -4344,12 +4089,12 @@
         "norm": 0.15384615384615385
       },
       "semantic": {
-        "raw": 0.3893846273418347,
-        "cache_reused": false,
-        "norm": 0.41966282043495035
+        "raw": 0.38938465055096855,
+        "cache_reused": true,
+        "norm": 0.5075018223429705
       },
       "text_hash": "0b2d894e967e8ac0a7003467f02511714d3ae95a",
-      "final_score": 0.30004532046999194,
+      "final_score": 0.34835677151940303,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1"
     },
     {
@@ -4382,12 +4127,12 @@
         "norm": 0.5384615384615384
       },
       "semantic": {
-        "raw": 0.36981070041619507,
-        "cache_reused": false,
-        "norm": 0.38033626744998417
+        "raw": 0.3698107224586319,
+        "cache_reused": true,
+        "norm": 0.45994388015198406
       },
       "text_hash": "36fd9bb8f14d29ac9601b47b27cdbf30e46da792",
-      "final_score": 0.4514926394051836,
+      "final_score": 0.49527682639128356,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1"
     },
     {
@@ -4421,8 +4166,8 @@
         "norm": 0.6153846153846154
       },
       "semantic": {
-        "raw": 0.18050668719432705,
-        "cache_reused": false,
+        "raw": 0.18050672775569124,
+        "cache_reused": true,
         "norm": 0.0
       },
       "text_hash": "25b6eff5a2410a67183ea94b4c1681cc680b4c98",
@@ -4460,8 +4205,8 @@
         "norm": 0.6153846153846154
       },
       "semantic": {
-        "raw": 0.18050668719432705,
-        "cache_reused": false,
+        "raw": 0.18050672775569124,
+        "cache_reused": true,
         "norm": 0.0
       },
       "text_hash": "8a198775642ad897557aa0c5291522de5cbefe88",
@@ -4499,8 +4244,8 @@
         "norm": 0.6153846153846154
       },
       "semantic": {
-        "raw": 0.18050668719432705,
-        "cache_reused": false,
+        "raw": 0.18050672775569124,
+        "cache_reused": true,
         "norm": 0.0
       },
       "text_hash": "5dee09dcfeeea095aefde07cdcf73fbe77ab2c6a",
@@ -4538,8 +4283,8 @@
         "norm": 0.6153846153846154
       },
       "semantic": {
-        "raw": 0.18050668719432705,
-        "cache_reused": false,
+        "raw": 0.18050672775569124,
+        "cache_reused": true,
         "norm": 0.0
       },
       "text_hash": "b6d33e0345e7274c69f275320bb5b85b8d883a72",
@@ -4559,8 +4304,8 @@
         "Advanced Hardware Engineering"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
         "raw": 0.0,
@@ -4570,13 +4315,13 @@
         "norm": 0.0
       },
       "semantic": {
-        "raw": 0.4684774242011898,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.5785704876718325
+        "norm": 0.0
       },
       "text_hash": "5eeb56463f713882d104e27d0418c78fd7de61df",
-      "final_score": 0.3182137682195079,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "0cb8f2a20fd9c801",
@@ -4591,8 +4336,8 @@
         "Program Management Office"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
         "raw": 0.0,
@@ -4602,13 +4347,13 @@
         "norm": 0.0
       },
       "semantic": {
-        "raw": 0.26340396782157116,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.16655136760659947
+        "norm": 0.0
       },
       "text_hash": "bc9e1d68523e5b25f60362c652a3b7cebebef6e8",
-      "final_score": 0.09160325218362972,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "cfcc379cf57b43dc",
@@ -4623,26 +4368,24 @@
         "Information Technology"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 2.0,
+        "raw": 0.0,
         "must_hits": [],
-        "nice_hits": [
-          "rag"
-        ],
+        "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.15384615384615385
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.5224412679667017,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.6869908352688687
+        "norm": 0.0
       },
       "text_hash": "8d34a12d2d3d8f2b09d0aa0de8f3fdad35399e00",
-      "final_score": 0.4470757286286471,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "c43b8e2e157b980c",
@@ -4657,29 +4400,24 @@
         "Engineering & Infra"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 7.0,
-        "must_hits": [
-          "python",
-          "sql"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.5384615384615384
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.4522069962143546,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.5458810916838356
+        "norm": 0.0
       },
       "text_hash": "8f7f3a60d06c7ab6150a4d507226f2af603a2ff3",
-      "final_score": 0.542542292733802,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "d1c138f2a692872a",
@@ -4694,8 +4432,8 @@
         "Electrical"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
         "raw": 0.0,
@@ -4705,13 +4443,13 @@
         "norm": 0.0
       },
       "semantic": {
-        "raw": 0.4982870221133017,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.6384618286482624
+        "norm": 0.0
       },
       "text_hash": "fbc8ebd19e9d182fa1e0f4026bce926cf2f685e8",
-      "final_score": 0.3511540057565444,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "1131d23396550156",
@@ -4726,8 +4464,8 @@
         "Product Development"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
         "raw": 0.0,
@@ -4737,13 +4475,13 @@
         "norm": 0.0
       },
       "semantic": {
-        "raw": 0.18986436724643793,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.018800790550804282
+        "norm": 0.0
       },
       "text_hash": "135359bba985ec03fffbe53c82b617c55a5def39",
-      "final_score": 0.010340434802942356,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "5fd80a15e7156429",
@@ -4758,8 +4496,8 @@
         "Solids Handling"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
         "raw": 0.0,
@@ -4769,13 +4507,13 @@
         "norm": 0.0
       },
       "semantic": {
-        "raw": 0.2748776242061265,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.18960342851663914
+        "norm": 0.0
       },
       "text_hash": "606b6a12421a18ab29499a2083c98680fcbb6d8f",
-      "final_score": 0.10428188568415153,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "0c1bc6631e17750e",
@@ -4790,8 +4528,8 @@
         "Scale- up Engineering"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
         "raw": 0.0,
@@ -4801,13 +4539,13 @@
         "norm": 0.0
       },
       "semantic": {
-        "raw": 0.21997588872887547,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.07929873506319952
+        "norm": 0.0
       },
       "text_hash": "cada98c1480b6c3030ab9b68d054e0b97bf050b7",
-      "final_score": 0.04361430428475974,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "43c33b9ba4297a16",
@@ -4822,8 +4560,8 @@
         "Pilot"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
         "raw": 0.0,
@@ -4833,13 +4571,13 @@
         "norm": 0.0
       },
       "semantic": {
-        "raw": 0.2021952391977219,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.04357510849861459
+        "norm": 0.0
       },
       "text_hash": "b675704e80bd549750bcd1339041c66fc65aa91a",
-      "final_score": 0.023966309674238025,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "e7d21b5e77bed081",
@@ -4854,8 +4592,8 @@
         "Product"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
         "raw": 0.0,
@@ -4865,13 +4603,13 @@
         "norm": 0.0
       },
       "semantic": {
-        "raw": 0.18986436724643793,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.018800790550804282
+        "norm": 0.0
       },
       "text_hash": "8c928f9c89a093226439cb551e1c5b2d04639095",
-      "final_score": 0.010340434802942356,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "45a761adc059f09b",
@@ -4886,8 +4624,8 @@
         "Chemical Process Development"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
         "raw": 0.0,
@@ -4897,13 +4635,13 @@
         "norm": 0.0
       },
       "semantic": {
-        "raw": 0.22441732883430926,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.08822216316730173
+        "norm": 0.0
       },
       "text_hash": "ef61693129bb0d401241af15ed8e62f8fe025b86",
-      "final_score": 0.048522189742015956,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "b1cea042f5013e5f",
@@ -4918,8 +4656,8 @@
         "Internships"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
         "raw": 0.0,
@@ -4929,13 +4667,13 @@
         "norm": 0.0
       },
       "semantic": {
-        "raw": 0.3617841601368147,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.3642099090150018
+        "norm": 0.0
       },
       "text_hash": "ef6a7b4ea4cda41dfde5aefae328a177b2b4edb5",
-      "final_score": 0.20031544995825099,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "e8f07d2bdf1c8afe",
@@ -4963,12 +4701,12 @@
         "norm": 0.07692307692307693
       },
       "semantic": {
-        "raw": 0.4256120920177018,
-        "cache_reused": false,
-        "norm": 0.4924484865150805
+        "raw": 0.42561208758383673,
+        "cache_reused": true,
+        "norm": 0.5955220882808674
       },
       "text_hash": "8919fac1b0e832c524f54a1c94eeb4eba50e1660",
-      "final_score": 0.3054620521986789,
+      "final_score": 0.3621525331698617,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0"
     },
     {
@@ -4984,8 +4722,8 @@
         "Internships"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
         "raw": 0.0,
@@ -4995,13 +4733,13 @@
         "norm": 0.0
       },
       "semantic": {
-        "raw": 0.3671889305111074,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.37506879232971263
+        "norm": 0.0
       },
       "text_hash": "b7cea9aca433d1ab265ba251972b1fcd9607559d",
-      "final_score": 0.20628783578134197,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "7c8fbf61763cad7a",
@@ -5027,12 +4765,12 @@
         "norm": 0.0
       },
       "semantic": {
-        "raw": 0.4585116778912536,
-        "cache_reused": false,
-        "norm": 0.5585480132965415
+        "raw": 0.4585117052206825,
+        "cache_reused": true,
+        "norm": 0.6754568926950738
       },
       "text_hash": "abf624f8d65cf1cc7c90265336d88a7b857a081b",
-      "final_score": 0.3072014073130978,
+      "final_score": 0.3715012909822906,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=0"
     },
     {
@@ -5048,27 +4786,24 @@
         "Engineering"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 2.0,
-        "must_hits": [
-          "git",
-          "cloud"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
         "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.15384615384615385
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.4670390467066295,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.5756806010912244
+        "norm": 0.0
       },
       "text_hash": "0876c85199509733a14b4ff833bf53ce4e15768e",
-      "final_score": 0.3858550998309427,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "378315d42d014269",
@@ -5083,26 +4818,24 @@
         "Engineering"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 1.0,
-        "must_hits": [
-          "git"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
         "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.07692307692307693
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.39912226194832123,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.4392269888695741
+        "norm": 0.0
       },
       "text_hash": "fe57b0f2a30e104ea2ac2d50b2c9f3230de83674",
-      "final_score": 0.2761902284936504,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "1f5dad0524ffe0ee",
@@ -5117,8 +4850,8 @@
         "Product"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
         "raw": 0.0,
@@ -5128,13 +4861,13 @@
         "norm": 0.0
       },
       "semantic": {
-        "raw": 0.35028952360118165,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.34111569626562377
+        "norm": 0.0
       },
       "text_hash": "9c0b72d90c3697ee9bda7a70b3b6e09e768e11a6",
-      "final_score": 0.1876136329460931,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "5e8c47ef59e71207",
@@ -5149,27 +4882,24 @@
         "Safety, Systems Engineering, & Security"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 5.0,
-        "must_hits": [
-          "python",
-          "llm"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
         "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.38461538461538464
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.46728277011364283,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.5761702729652433
+        "norm": 0.0
       },
       "text_hash": "0d3f984f821ff872b4dd9068a338f60837695d09",
-      "final_score": 0.4899705732078069,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "68eb4c2788ede144",
@@ -5184,28 +4914,24 @@
         "Safety, Systems Engineering, & Security"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 8.0,
-        "must_hits": [
-          "python",
-          "data pipeline",
-          "sql"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
         "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.6153846153846154
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.3704999906118974,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.3817211406798826
+        "norm": 0.0
       },
       "text_hash": "172f2546d3cca2de0ec474c1363211b8dff67ce4",
-      "final_score": 0.4868697042970124,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "0fbf39d6069886cd",
@@ -5220,8 +4946,8 @@
         "Manufacturing Operations"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
         "raw": 0.0,
@@ -5231,13 +4957,13 @@
         "norm": 0.0
       },
       "semantic": {
-        "raw": 0.4033587872977991,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.4477387167033057
+        "norm": 0.0
       },
       "text_hash": "1500252b3ab6dcde304a0429e41ac0916923c3e3",
-      "final_score": 0.24625629418681813,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "d781b15095f8fbed",
@@ -5252,26 +4978,24 @@
         "Manufacturing Operations"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 2.0,
-        "must_hits": [
-          "llm"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
         "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.15384615384615385
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.48007166385602623,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.6018648159810417
+        "norm": 0.0
       },
       "text_hash": "ef930db7f6e821c10bb344662423ae1fa722abbb",
-      "final_score": 0.4002564180203422,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "cfcd09b164bc6f5a",
@@ -5286,8 +5010,8 @@
         "Fleet Operations"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
         "raw": 0.0,
@@ -5297,13 +5021,13 @@
         "norm": 0.0
       },
       "semantic": {
-        "raw": 0.4040489196773303,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.4491252819895346
+        "norm": 0.0
       },
       "text_hash": "fc09ad8dc0f2661ce91212225bda573390160ced",
-      "final_score": 0.24701890509424407,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "552b18d2de003bc7",
@@ -5318,8 +5042,8 @@
         "Manufacturing Operations"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
         "raw": 0.0,
@@ -5329,13 +5053,13 @@
         "norm": 0.0
       },
       "semantic": {
-        "raw": 0.4391952084531217,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.5197387257311468
+        "norm": 0.0
       },
       "text_hash": "496f8677ae28890f20e67759d6b63f5f01a2eb87",
-      "final_score": 0.28585629915213073,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "889dc769515698a3",
@@ -5350,8 +5074,8 @@
         "Vehicle Development"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
         "raw": 0.0,
@@ -5361,13 +5085,13 @@
         "norm": 0.0
       },
       "semantic": {
-        "raw": 0.4153406023975033,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.4718117342518366
+        "norm": 0.0
       },
       "text_hash": "d35c66d40e807842c2cff4050f0d8262727b952d",
-      "final_score": 0.25949645383851017,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "c526321575a9cbe9",
@@ -5382,29 +5106,24 @@
         "Research"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 7.0,
-        "must_hits": [
-          "python",
-          "machine learning"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.5384615384615384
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.2986505805638772,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.23736637518360287
+        "norm": 0.0
       },
       "text_hash": "b7e698b8787b0654d5058ffcecbf0fb09975f825",
-      "final_score": 0.3728591986586739,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "4812ff9cfbf5dfc5",
@@ -5419,29 +5138,24 @@
         "Research"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 7.0,
-        "must_hits": [
-          "python",
-          "machine learning"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.5384615384615384
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.32604852318731126,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.2924123885028915
+        "norm": 0.0
       },
       "text_hash": "d872dc08bdbb80e7156c8c7805db62fdea645a05",
-      "final_score": 0.40313450598428263,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "a55e23904cd4e7de",
@@ -5456,28 +5170,24 @@
         "Advanced Hardware Engineering"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 5.0,
-        "must_hits": [
-          "python"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.38461538461538464
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.41755032539325915,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.47625135379291395
+        "norm": 0.0
       },
       "text_hash": "24c259f5984513c215ef6cace4ccaec244cd99b3",
-      "final_score": 0.43501516766302584,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "730ce20ec39e2392",
@@ -5492,8 +5202,8 @@
         "Supply Chain"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
         "raw": 0.0,
@@ -5503,13 +5213,13 @@
         "norm": 0.0
       },
       "semantic": {
-        "raw": 0.37721201777420466,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.39520647210253385
+        "norm": 0.0
       },
       "text_hash": "8c4b4e8b2f7fdf21360e4fb2a119b925721a1555",
-      "final_score": 0.21736355965639365,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "9bd183a196990184",
@@ -5524,8 +5234,8 @@
         "Vehicle Development"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
         "raw": 0.0,
@@ -5535,13 +5245,13 @@
         "norm": 0.0
       },
       "semantic": {
-        "raw": 0.4557988047595234,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.5530975000008814
+        "norm": 0.0
       },
       "text_hash": "7c9ee86b6df621930778eb88a8be9e3a77b2a49c",
-      "final_score": 0.3042036250004848,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "35ea453989baec7b",
@@ -5556,26 +5266,24 @@
         "Advanced Hardware Engineering"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 2.0,
-        "must_hits": [
-          "machine learning"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
         "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.15384615384615385
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.511310965496444,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.6646286168188791
+        "norm": 0.0
       },
       "text_hash": "655f8ba43b9dd21ca948cf8061131ce52295a399",
-      "final_score": 0.4347765084811528,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "2a72fe5356bac145",
@@ -5590,26 +5298,24 @@
         "Software"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 2.0,
-        "must_hits": [
-          "llm"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
         "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.15384615384615385
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.44704586267426605,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.5355117063071633
+        "norm": 0.0
       },
       "text_hash": "2b959f07039a6efd1ee6be32e2d0b408e2984444",
-      "final_score": 0.363762207699709,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "fda9b2f87cdc6373",
@@ -5624,29 +5330,24 @@
         "Software"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 6.0,
-        "must_hits": [
-          "machine learning",
-          "llm"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.46153846153846156
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.45683866739227386,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.5551867186374535
+        "norm": 0.0
       },
       "text_hash": "26445d4c35cc351f3d8087bbbc2dcc65275b89f6",
-      "final_score": 0.5130450029429071,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "061f14f965f276c7",
@@ -5661,29 +5362,24 @@
         "Software"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 6.0,
-        "must_hits": [
-          "machine learning",
-          "llm"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.46153846153846156
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.4478282928462318,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.5370837098060903
+        "norm": 0.0
       },
       "text_hash": "d9633f1381b1897070da4cced0ef84c8b3983edd",
-      "final_score": 0.5030883480856574,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "588f50cf58695ca9",
@@ -5698,8 +5394,8 @@
         "Safety"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
         "raw": 0.0,
@@ -5709,13 +5405,13 @@
         "norm": 0.0
       },
       "semantic": {
-        "raw": 0.4448781907553992,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.5311565728229529
+        "norm": 0.0
       },
       "text_hash": "9d8d9892cfa230964cb5f5bceb7a15d7d8027255",
-      "final_score": 0.29213611505262416,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "6c1b8f6a59630fd7",
@@ -5730,8 +5426,8 @@
         "Software"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
         "raw": 0.0,
@@ -5741,13 +5437,13 @@
         "norm": 0.0
       },
       "semantic": {
-        "raw": 0.3824935187391699,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.4058176912170176
+        "norm": 0.0
       },
       "text_hash": "06b0f26c3df171997c8e9052ba63c90399fc1607",
-      "final_score": 0.2231997301693597,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "a6dda5ba4f8f3123",
@@ -5762,26 +5458,24 @@
         "Software"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 3.0,
-        "must_hits": [
-          "data pipeline"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
         "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.23076923076923078
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.538620471953807,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.719496950432711
+        "norm": 0.0
       },
       "text_hash": "a8121c073c2ac69113734122abca51e7451728c3",
-      "final_score": 0.49956947658414497,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "a717bb8ade613d40",
@@ -5796,26 +5490,24 @@
         "Software"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 3.0,
-        "must_hits": [
-          "python"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
         "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.23076923076923078
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.48848563432644626,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.6187695718216024
+        "norm": 0.0
       },
       "text_hash": "4a9877e68c41ee155699e36d5af28eba825c80c8",
-      "final_score": 0.4441694183480352,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "d571aad0cd6a2d79",
@@ -5830,8 +5522,8 @@
         "Data Science"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
         "raw": 0.0,
@@ -5841,13 +5533,13 @@
         "norm": 0.0
       },
       "semantic": {
-        "raw": 0.4414198398585673,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.5242082981971438
+        "norm": 0.0
       },
       "text_hash": "0b5a0c027dfb780c98dd88adc4337647d508806c",
-      "final_score": 0.2883145640084291,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "f8205e738b575ce4",
@@ -5862,8 +5554,8 @@
         "Software"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
         "raw": 0.0,
@@ -5873,13 +5565,13 @@
         "norm": 0.0
       },
       "semantic": {
-        "raw": 0.4750392124075438,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.5917539695839514
+        "norm": 0.0
       },
       "text_hash": "043005f99320125beaca573449d77813f4c09448",
-      "final_score": 0.32546468327117334,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "9d9966df40f9b563",
@@ -5894,29 +5586,24 @@
         "Software"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 6.0,
-        "must_hits": [
-          "machine learning",
-          "llm"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.46153846153846156
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.5171116590494707,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.6762829610508401
+        "norm": 0.0
       },
       "text_hash": "2d7507cbbdb3f52e91c3cf8b401642afe4a5c771",
-      "final_score": 0.5796479362702698,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "42329157c67213cf",
@@ -5931,26 +5618,24 @@
         "Software"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 2.0,
-        "must_hits": [
-          "machine learning"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
         "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.15384615384615385
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.33174151182141504,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.30385033961062896
+        "norm": 0.0
       },
       "text_hash": "8a15ffa60e35efb889cbc956626eabdf1f5d2af9",
-      "final_score": 0.23634845601661517,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "e95b3329cf9386c8",
@@ -5965,8 +5650,8 @@
         "Electrical"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
         "raw": 0.0,
@@ -5976,13 +5661,13 @@
         "norm": 0.0
       },
       "semantic": {
-        "raw": 0.39044111967047745,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.4217854502832387
+        "norm": 0.0
       },
       "text_hash": "f777cb252ef269d12810970cbbb992e8f034cc0a",
-      "final_score": 0.2319819976557813,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=0"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "ce130098c0283e20",
@@ -5997,30 +5682,24 @@
         "Solutions"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 8.0,
-        "must_hits": [
-          "python",
-          "machine learning",
-          "cloud"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.6153846153846154
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.5016744136805286,
+        "raw": 0.0,
         "cache_reused": false,
-        "norm": 0.6452675367954037
+        "norm": 0.0
       },
       "text_hash": "9de09ff109382baa397fc0c2e55cb897a16d2ff5",
-      "final_score": 0.631820222160549,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1"
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     }
   ]
 }
