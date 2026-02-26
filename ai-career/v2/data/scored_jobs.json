@@ -35,12 +35,12 @@
         "norm": 0.0
       },
       "semantic": {
-        "raw": 0.331842213868763,
+        "raw": 0.3318421840664406,
         "cache_reused": true,
-        "norm": 0.5343981718319245
+        "norm": 0.5343981561068655
       },
       "text_hash": "0504ebea54da571d1dcdb616371e118fe6fb2ee6",
-      "final_score": 0.2939189945075585,
+      "final_score": 0.293918985858776,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
     },
     {
@@ -71,12 +71,12 @@
         "norm": 0.0
       },
       "semantic": {
-        "raw": 0.331842213868763,
+        "raw": 0.3318421840664406,
         "cache_reused": true,
-        "norm": 0.5343981718319245
+        "norm": 0.5343981561068655
       },
       "text_hash": "2b1d064990c9520a7e0f962a687e84161edd81d2",
-      "final_score": 0.2939189945075585,
+      "final_score": 0.293918985858776,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
     },
     {
@@ -107,12 +107,12 @@
         "norm": 0.0
       },
       "semantic": {
-        "raw": 0.331842213868763,
+        "raw": 0.3318421840664406,
         "cache_reused": true,
-        "norm": 0.5343981718319245
+        "norm": 0.5343981561068655
       },
       "text_hash": "58f557f2e44b0d957b3009d34907e155a227c552",
-      "final_score": 0.2939189945075585,
+      "final_score": 0.293918985858776,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
     },
     {
@@ -143,12 +143,12 @@
         "norm": 0.0
       },
       "semantic": {
-        "raw": 0.331842213868763,
+        "raw": 0.3318421840664406,
         "cache_reused": true,
-        "norm": 0.5343981718319245
+        "norm": 0.5343981561068655
       },
       "text_hash": "23045855f57a04cda6dd2a02b162d64170aae71b",
-      "final_score": 0.2939189945075585,
+      "final_score": 0.293918985858776,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
     },
     {
@@ -179,10 +179,10 @@
       "semantic": {
         "raw": 0.2895817756649936,
         "cache_reused": true,
-        "norm": 0.39843532533011855
+        "norm": 0.3984353728959932
       },
       "text_hash": "c941bcda98b78e85218933c65c67d5a15f44d95f",
-      "final_score": 0.2191394289315652,
+      "final_score": 0.21913945509279625,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0"
     },
     {
@@ -213,7 +213,7 @@
         "norm": 0.4
       },
       "semantic": {
-        "raw": 0.4765621707769737,
+        "raw": 0.4765621111723254,
         "cache_reused": true,
         "norm": 1.0
       },
@@ -252,7 +252,7 @@
         "norm": 1.0
       },
       "semantic": {
-        "raw": 0.165738741501329,
+        "raw": 0.16573875640249108,
         "cache_reused": true,
         "norm": 0.0
       },
@@ -289,12 +289,12 @@
         "norm": 0.2
       },
       "semantic": {
-        "raw": 0.26187217235538995,
+        "raw": 0.2618721127507452,
         "cache_reused": false,
-        "norm": 0.30928630791473516
+        "norm": 0.30928614234744733
       },
-      "text_hash": "848f2481831ff9af5d376c4cba61fe4f0ec3214f",
-      "final_score": 0.26010746935310436,
+      "text_hash": "f3730490929376b926023c07da32a71849d79459",
+      "final_score": 0.26010737829109604,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
     },
     {
@@ -326,12 +326,12 @@
         "norm": 0.0
       },
       "semantic": {
-        "raw": 0.3723533153530212,
+        "raw": 0.3723532557483764,
         "cache_reused": true,
-        "norm": 0.6647329460755098
+        "norm": 0.664732865710442
       },
       "text_hash": "46d301a18234dee24e9e3c85c2e86c8ed30e3166",
-      "final_score": 0.3656031203415304,
+      "final_score": 0.3656030761407431,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
     },
     {
@@ -365,7 +365,7 @@
         "norm": 1.0
       },
       "semantic": {
-        "raw": 0.165738741501329,
+        "raw": 0.16573875640249108,
         "cache_reused": true,
         "norm": 0.0
       },
@@ -404,7 +404,7 @@
         "norm": 1.0
       },
       "semantic": {
-        "raw": 0.165738741501329,
+        "raw": 0.16573875640249108,
         "cache_reused": true,
         "norm": 0.0
       },
@@ -443,7 +443,7 @@
         "norm": 1.0
       },
       "semantic": {
-        "raw": 0.165738741501329,
+        "raw": 0.16573875640249108,
         "cache_reused": true,
         "norm": 0.0
       },

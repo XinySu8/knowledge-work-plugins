@@ -1,23 +1,36 @@
 {
   "meta": {
+    "engine_name": "AutoJob-Agent Feeder",
     "version": 2,
-    "count": 1,
+    "generated_at": "2026-02-25T19:57:37.224128+00:00",
+    "source_jobs_count": 12,
+    "candidates_count": 5,
+    "candidates_topN_total": 150,
     "thresholds": {
       "apply": 0.72,
-      "maybe": 0.55
-    }
+      "maybe": 0.4
+    },
+    "config_digest": "b7f98d1983e2c5268eba828dba21da19f030006e"
   },
   "candidates": [
     {
       "job_uid": "cdefeb135c230613",
+      "source": "ashby",
+      "job_id": "cdefeb135c230613",
       "company": "openai",
       "title": "Software Engineer Internship / Co-op, Applied Emerging Talent (Fall 2026)",
       "location": "San Francisco",
       "url": "https://jobs.ashbyhq.com/openai/1f3353ed-78eb-4a01-b783-c44b1c086711/application",
+      "departments": [
+        "Applied AI",
+        "Emerging Talent"
+      ],
+      "created_at": "2026-01-15T18:24:30.724+00:00",
+      "updated_at": "2026-01-15T18:24:30.724+00:00",
       "scores": {
         "hard_raw": 5.0,
         "hard_norm": 0.4,
-        "semantic_raw": 0.4765621707769737,
+        "semantic_raw": 0.4765621111723254,
         "semantic_norm": 1.0,
         "final": 0.7300000000000001
       },
@@ -29,7 +42,173 @@
         "nice_hits": [],
         "neg_hits": []
       },
+      "text_hash": "bab2bcb046c3e0e46ce5a776b89057c70fa9ab3b",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
       "jd_excerpt": "About the Team The Applied team works across research, engineering, product, and design to bring OpenAI’s technology to the world. We seek to learn from deployment and broadly distribute the benefits of AI, while ensuring that this powerful tool is used responsibly and safely. We aim to make our innovative tools globally accessible, transcending geographic, economic, or platform barriers. Our commitment is to facilitate the use of AI to enhance lives, fostered by rigorous insights into how people use our products. About the Role We are seeking Software Engineering Interns (Emerging Talent) to "
+    },
+    {
+      "job_uid": "ebbec7374ccd8600",
+      "source": "ashby",
+      "job_id": "ebbec7374ccd8600",
+      "company": "ramp",
+      "title": "Software Engineer Internship, Backend",
+      "location": "New York, NY (HQ)",
+      "url": "https://jobs.ashbyhq.com/ramp/c50962b5-c641-4d44-bbe5-7f1d6e7ce51f/application",
+      "departments": [
+        "Engineering",
+        "Emerging Talent - SWE"
+      ],
+      "created_at": "2025-12-19T20:06:01.281+00:00",
+      "updated_at": "2025-12-19T20:06:01.281+00:00",
+      "scores": {
+        "hard_raw": 8.0,
+        "hard_norm": 1.0,
+        "semantic_raw": 0.16573875640249108,
+        "semantic_norm": 0.0,
+        "final": 0.45
+      },
+      "signals": {
+        "must_hits": [
+          "python",
+          "sql",
+          "cloud"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "94ff9831d42eca3e996777105dd2d28000394b7e",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "ABOUT RAMP At Ramp, we’re rethinking how modern finance teams function in the age of AI. We believe AI isn’t just the next big wave. It’s the new foundation for how business gets done. We’re investing in that future — and in the people bold enough to build it. Ramp is a financial operations platform designed to save companies time and money. Our all-in-one solution combines payments, corporate cards, vendor management, procurement, travel booking, and automated bookkeeping with built-in intelligence to maximize the impact of every dollar and hour spent. More than 50,000 businesses, from family"
+    },
+    {
+      "job_uid": "b230852d1c35c17a",
+      "source": "ashby",
+      "job_id": "b230852d1c35c17a",
+      "company": "ramp",
+      "title": "Software Engineer Internship, Android ",
+      "location": "New York, NY (HQ)",
+      "url": "https://jobs.ashbyhq.com/ramp/67fadb77-43d8-4449-954b-d4cf2c6d3b8b/application",
+      "departments": [
+        "Engineering",
+        "Emerging Talent - SWE"
+      ],
+      "created_at": "2025-08-07T20:49:38.961+00:00",
+      "updated_at": "2025-08-07T20:49:38.961+00:00",
+      "scores": {
+        "hard_raw": 8.0,
+        "hard_norm": 1.0,
+        "semantic_raw": 0.16573875640249108,
+        "semantic_norm": 0.0,
+        "final": 0.45
+      },
+      "signals": {
+        "must_hits": [
+          "python",
+          "sql",
+          "cloud"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "249a3adc7ffbe08e9f95394eb7d30669ad8d5f40",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "ABOUT RAMP At Ramp, we’re rethinking how modern finance teams function in the age of AI. We believe AI isn’t just the next big wave. It’s the new foundation for how business gets done. We’re investing in that future — and in the people bold enough to build it. Ramp is a financial operations platform designed to save companies time and money. Our all-in-one solution combines payments, corporate cards, vendor management, procurement, travel booking, and automated bookkeeping with built-in intelligence to maximize the impact of every dollar and hour spent. More than 50,000 businesses, from family"
+    },
+    {
+      "job_uid": "4ff882d7bab5bdb0",
+      "source": "ashby",
+      "job_id": "4ff882d7bab5bdb0",
+      "company": "ramp",
+      "title": "Software Engineer Internship, iOS",
+      "location": "New York, NY (HQ)",
+      "url": "https://jobs.ashbyhq.com/ramp/8c155b55-3e7e-48a8-ac98-f988a2b6f4da/application",
+      "departments": [
+        "Engineering",
+        "Emerging Talent - SWE"
+      ],
+      "created_at": "2025-08-07T16:04:29.101+00:00",
+      "updated_at": "2025-08-07T16:04:29.101+00:00",
+      "scores": {
+        "hard_raw": 8.0,
+        "hard_norm": 1.0,
+        "semantic_raw": 0.16573875640249108,
+        "semantic_norm": 0.0,
+        "final": 0.45
+      },
+      "signals": {
+        "must_hits": [
+          "python",
+          "sql",
+          "cloud"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "6c929bb0d3d7b9f4398dc93c9fa5ae854792ecc8",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "ABOUT RAMP At Ramp, we’re rethinking how modern finance teams function in the age of AI. We believe AI isn’t just the next big wave. It’s the new foundation for how business gets done. We’re investing in that future — and in the people bold enough to build it. Ramp is a financial operations platform designed to save companies time and money. Our all-in-one solution combines payments, corporate cards, vendor management, procurement, travel booking, and automated bookkeeping with built-in intelligence to maximize the impact of every dollar and hour spent. More than 50,000 businesses, from family"
+    },
+    {
+      "job_uid": "8c305391a2786222",
+      "source": "ashby",
+      "job_id": "8c305391a2786222",
+      "company": "ramp",
+      "title": "Software Engineer Internship, Frontend",
+      "location": "New York, NY (HQ)",
+      "url": "https://jobs.ashbyhq.com/ramp/31f7e045-9a51-4a75-9ffc-d815d6db6daa/application",
+      "departments": [
+        "Engineering",
+        "Emerging Talent - SWE"
+      ],
+      "created_at": "2025-08-01T19:55:18.933+00:00",
+      "updated_at": "2025-08-01T19:55:18.933+00:00",
+      "scores": {
+        "hard_raw": 8.0,
+        "hard_norm": 1.0,
+        "semantic_raw": 0.16573875640249108,
+        "semantic_norm": 0.0,
+        "final": 0.45
+      },
+      "signals": {
+        "must_hits": [
+          "python",
+          "sql",
+          "cloud"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "6514aad5d2e05e105e9e51bb5fce4aed76589986",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "ABOUT RAMP At Ramp, we’re rethinking how modern finance teams function in the age of AI. We believe AI isn’t just the next big wave. It’s the new foundation for how business gets done. We’re investing in that future — and in the people bold enough to build it. Ramp is a financial operations platform designed to save companies time and money. Our all-in-one solution combines payments, corporate cards, vendor management, procurement, travel booking, and automated bookkeeping with built-in intelligence to maximize the impact of every dollar and hour spent. More than 50,000 businesses, from family"
     }
   ]
 }

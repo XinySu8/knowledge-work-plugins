@@ -3,7 +3,7 @@
   "jobs": {
     "f0c5eae2a7de8573": {
       "first_seen_date_utc": "2026-02-12",
-      "last_seen_at_utc": "2026-02-24T14:46:41.643396+00:00",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
       "company": "scaleai",
       "title": "Software Engineering Intern (Summer 2026) ",
       "url": "https://job-boards.greenhouse.io/scaleai/jobs/4606014005",
@@ -11,7 +11,7 @@
     },
     "867837af4b70f7ea": {
       "first_seen_date_utc": "2026-02-12",
-      "last_seen_at_utc": "2026-02-24T14:46:41.643396+00:00",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
       "company": "stripe",
       "title": "Software Engineer, Intern",
       "url": "https://stripe.com/jobs/search?gh_jid=7206494",
@@ -27,7 +27,7 @@
     },
     "acdb4e432b539db6": {
       "first_seen_date_utc": "2026-02-12",
-      "last_seen_at_utc": "2026-02-24T14:46:41.643396+00:00",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
       "company": "stripe",
       "title": "Software Engineer, Intern",
       "url": "https://stripe.com/jobs/search?gh_jid=7360840",
@@ -35,7 +35,7 @@
     },
     "1254231df3fa18cd": {
       "first_seen_date_utc": "2026-02-12",
-      "last_seen_at_utc": "2026-02-24T14:46:41.643396+00:00",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
       "company": "stripe",
       "title": "Software Engineer, Intern",
       "url": "https://stripe.com/jobs/search?gh_jid=7206401",
@@ -43,7 +43,7 @@
     },
     "b35597b79d3ae32f": {
       "first_seen_date_utc": "2026-02-12",
-      "last_seen_at_utc": "2026-02-24T14:46:41.643396+00:00",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
       "company": "stripe",
       "title": "Software Engineer, Intern (Summer)",
       "url": "https://stripe.com/jobs/search?gh_jid=7210115",
@@ -59,7 +59,7 @@
     },
     "cdefeb135c230613": {
       "first_seen_date_utc": "2026-02-12",
-      "last_seen_at_utc": "2026-02-24T14:46:41.643396+00:00",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
       "company": "openai",
       "title": "Software Engineer Internship / Co-op, Applied Emerging Talent (Fall 2026)",
       "url": "https://jobs.ashbyhq.com/openai/1f3353ed-78eb-4a01-b783-c44b1c086711/application",
@@ -67,7 +67,7 @@
     },
     "f5cb714e4fbfdfe1": {
       "first_seen_date_utc": "2026-02-12",
-      "last_seen_at_utc": "2026-02-24T14:46:41.643396+00:00",
+      "last_seen_at_utc": "2026-02-25T23:23:14.452651+00:00",
       "company": "sierra",
       "title": "Intern, Agent Development (Summer 2026)",
       "url": "https://jobs.ashbyhq.com/Sierra/8bb2509d-9215-4cb5-8cf1-2bf0dbade6d8/application",
@@ -75,7 +75,7 @@
     },
     "ea6377e034514778": {
       "first_seen_date_utc": "2026-02-12",
-      "last_seen_at_utc": "2026-02-24T14:46:41.643396+00:00",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
       "company": "replit",
       "title": "Software Engineering Intern (Summer 2026)",
       "url": "https://jobs.ashbyhq.com/replit/12737078-74c7-4e63-98a7-5e8da1e9deb1/application",
@@ -83,7 +83,7 @@
     },
     "ebbec7374ccd8600": {
       "first_seen_date_utc": "2026-02-13",
-      "last_seen_at_utc": "2026-02-24T14:46:41.643396+00:00",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
       "company": "ramp",
       "title": "Software Engineer Internship, Backend",
       "url": "https://jobs.ashbyhq.com/ramp/c50962b5-c641-4d44-bbe5-7f1d6e7ce51f/application",
@@ -91,7 +91,7 @@
     },
     "b230852d1c35c17a": {
       "first_seen_date_utc": "2026-02-13",
-      "last_seen_at_utc": "2026-02-24T14:46:41.643396+00:00",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
       "company": "ramp",
       "title": "Software Engineer Internship, Android ",
       "url": "https://jobs.ashbyhq.com/ramp/67fadb77-43d8-4449-954b-d4cf2c6d3b8b/application",
@@ -99,7 +99,7 @@
     },
     "4ff882d7bab5bdb0": {
       "first_seen_date_utc": "2026-02-13",
-      "last_seen_at_utc": "2026-02-24T14:46:41.643396+00:00",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
       "company": "ramp",
       "title": "Software Engineer Internship, iOS",
       "url": "https://jobs.ashbyhq.com/ramp/8c155b55-3e7e-48a8-ac98-f988a2b6f4da/application",
@@ -107,10 +107,1306 @@
     },
     "8c305391a2786222": {
       "first_seen_date_utc": "2026-02-13",
-      "last_seen_at_utc": "2026-02-24T14:46:41.643396+00:00",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
       "company": "ramp",
       "title": "Software Engineer Internship, Frontend",
       "url": "https://jobs.ashbyhq.com/ramp/31f7e045-9a51-4a75-9ffc-d815d6db6daa/application",
+      "status": "new"
+    },
+    "b9687758003a7afe": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "databricks",
+      "title": "MBA Intern - Product Pricing & Commercialization",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8402615002",
+      "status": "new"
+    },
+    "c6ca9b140cb6e757": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "databricks",
+      "title": "MBA Intern - People Analytics",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8402613002",
+      "status": "new"
+    },
+    "e67c1d48efe6ea8e": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "databricks",
+      "title": "MBA Intern - Strategic Finance",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8402610002",
+      "status": "new"
+    },
+    "459f04adfbd53983": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "databricks",
+      "title": "MBA Intern - Corporate Operations (Corp Ops)",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8402603002",
+      "status": "new"
+    },
+    "9de287370f90d99a": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "databricks",
+      "title": "MBA Intern - Technical Program Management (TPM)",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8399537002",
+      "status": "new"
+    },
+    "ce0bbfe1c5e510d0": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "databricks",
+      "title": "MBA Intern - Product Operations",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8399535002",
+      "status": "new"
+    },
+    "350a88175f7fa454": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "databricks",
+      "title": "Legal Intern",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8377581002",
+      "status": "new"
+    },
+    "0df98beef0fc10f8": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "stripe",
+      "title": "Data Analyst, Intern (Master's degree)",
+      "url": "https://stripe.com/jobs/search?gh_jid=7285986",
+      "status": "new"
+    },
+    "40436a0e8ed94e54": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "stripe",
+      "title": "PhD Data Scientist, Intern",
+      "url": "https://stripe.com/jobs/search?gh_jid=7285974",
+      "status": "new"
+    },
+    "5936ffed28038e5d": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "stripe",
+      "title": "PhD Machine Learning Engineer, Intern",
+      "url": "https://stripe.com/jobs/search?gh_jid=7216664",
+      "status": "new"
+    },
+    "2a437f95c93de61c": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "stripe",
+      "title": "University Recruiter",
+      "url": "https://stripe.com/jobs/search?gh_jid=7476012",
+      "status": "new"
+    },
+    "db53ab408d50d1f5": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "stripe",
+      "title": "University Recruiter (Fixed Term Contract)",
+      "url": "https://stripe.com/jobs/search?gh_jid=7419549",
+      "status": "new"
+    },
+    "3a22be8e7f95b798": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "anthropic",
+      "title": "Regional Head of Early Career Associates, Applied AI",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4947472008",
+      "status": "new"
+    },
+    "6930a806414652cd": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "databricks",
+      "title": "MBA Intern - Strategy & Execution",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7295056002",
+      "status": "new"
+    },
+    "119fc6123c9f2f04": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "databricks",
+      "title": "PhD GenAI Research Scientist Intern",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7011263002",
+      "status": "new"
+    },
+    "3435c13d39b1ac53": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "databricks",
+      "title": "Product Management Intern (2026) - Amsterdam",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8133715002",
+      "status": "new"
+    },
+    "38b3a29b6dbc55e0": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "databricks",
+      "title": "Product Management Intern (2026) - Berlin",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8145776002",
+      "status": "new"
+    },
+    "a0f7d3885e4db7ec": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "databricks",
+      "title": "Software Engineering Intern (2026)",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7640764002",
+      "status": "new"
+    },
+    "c2fd6a054509e91a": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "ramp",
+      "title": "University Grad | Customer Experience Agent",
+      "url": "https://jobs.ashbyhq.com/ramp/fc971889-db1d-4a20-a25e-f282f9296936/application",
+      "status": "new"
+    },
+    "eb8b621d4f36ad1b": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "cohere",
+      "title": "Research Internship (Spring 2026)",
+      "url": "https://jobs.ashbyhq.com/cohere/6e850172-a79d-4128-abd2-677731312857/application",
+      "status": "new"
+    },
+    "9fb22b8d2adad937": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "perplexity",
+      "title": "UK Internship Program",
+      "url": "https://jobs.ashbyhq.com/perplexity/79a07e2d-6150-4929-80fe-bbe13a641763/application",
+      "status": "new"
+    },
+    "7ae9985ca2b8ff24": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "scaleai",
+      "title": "Machine Learning Research Intern (Summer 2026)",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4606060005",
+      "status": "new"
+    },
+    "e7c78b9db66d7e52": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "scaleai",
+      "title": "Technical Advisor Intern - GenAI (Winter/Spring 2026)",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4611533005",
+      "status": "new"
+    },
+    "0e5c904defe5f22e": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "ramp",
+      "title": "University Grad | Sales Development Representative",
+      "url": "https://jobs.ashbyhq.com/ramp/59d37975-3e84-4d55-adb7-11dccf97ad88/application",
+      "status": "new"
+    },
+    "76d4eab833c7d415": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "cohere",
+      "title": "Intern of Technical Staff - Sovereign AI",
+      "url": "https://jobs.ashbyhq.com/cohere/79e088a4-f232-4290-8d56-9c2432b8e661/application",
+      "status": "new"
+    },
+    "ad6dbc9bfb107297": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "perplexity",
+      "title": "Internship - Search Backend Infra Engineer",
+      "url": "https://jobs.ashbyhq.com/perplexity/be94e89b-89d5-4f2a-a58b-7929c8d97f92/application",
+      "status": "new"
+    },
+    "26282e51023d9a7d": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "perplexity",
+      "title": "Internship - Search Machine Learning Engineer",
+      "url": "https://jobs.ashbyhq.com/perplexity/9246cf02-26fd-4ae8-90c5-639c6e85e9e2/application",
+      "status": "new"
+    },
+    "b9b9d05bfd50552a": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "cohere",
+      "title": "Software Engineer Intern (Spring 2026)",
+      "url": "https://jobs.ashbyhq.com/cohere/66c98ca3-334b-4a6a-a27c-5807b3686121/application",
+      "status": "new"
+    },
+    "f19a3619088e388f": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "cohere",
+      "title": "Machine Learning Intern/Co-op  (Spring 2026)",
+      "url": "https://jobs.ashbyhq.com/cohere/2c669d85-e3d7-43f1-aa43-be33e12ff8a5/application",
+      "status": "new"
+    },
+    "6b28cb367e951024": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "perplexity",
+      "title": "Internship - Machine Learning Research Engineer",
+      "url": "https://jobs.ashbyhq.com/perplexity/b9e1ff15-d52a-46d5-abf0-26460f2a116c/application",
+      "status": "new"
+    },
+    "493409ccbbc1b402": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "ramp",
+      "title": "Technical Recruiter | Engineering | Industry or University",
+      "url": "https://jobs.ashbyhq.com/ramp/21aabcbe-948c-47ab-bcf8-3ac3f13174a9/application",
+      "status": "new"
+    },
+    "4b42de730c43d807": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-25T23:23:14.452651+00:00",
+      "company": "sierra",
+      "title": "University Recruiter",
+      "url": "https://jobs.ashbyhq.com/Sierra/257dca7b-39a2-4f43-9310-f1d83bf7670f/application",
+      "status": "new"
+    },
+    "8044cfbff61b0916": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-25T23:23:14.452651+00:00",
+      "company": "sierra",
+      "title": "University Recruiter",
+      "url": "https://jobs.ashbyhq.com/Sierra/f1d6b8d6-570a-4d19-8cf5-8145fc93c1ae/application",
+      "status": "new"
+    },
+    "028083040b21b9f7": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "figma",
+      "title": "Inside Sales Representative - Early Career (2026)",
+      "url": "https://boards.greenhouse.io/figma/jobs/5726175004?gh_jid=5726175004",
+      "status": "new"
+    },
+    "461b1a24a46165a5": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "figma",
+      "title": "Software Engineer Intern, Developer Tools (2026) (London, United Kingdom)",
+      "url": "https://boards.greenhouse.io/figma/jobs/5621177004?gh_jid=5621177004",
+      "status": "new"
+    },
+    "3ef71de346635a8a": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "ramp",
+      "title": "Applied Scientist Intern",
+      "url": "https://jobs.ashbyhq.com/ramp/43ac03c8-65f5-4522-ab3d-6d496ae7d925/application",
+      "status": "new"
+    },
+    "2d97101576e1b003": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "ramp",
+      "title": "University Grad | Software Engineer | Frontend",
+      "url": "https://jobs.ashbyhq.com/ramp/a1229aec-1105-4c47-8533-b912e732ed89/application",
+      "status": "new"
+    },
+    "c43b8e2e157b980c": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "mistral",
+      "title": "Finance Operations & Systems (Internship)",
+      "url": "https://jobs.lever.co/mistral/d1e53ff6-6df7-4645-9524-32dca5d72153",
+      "status": "new"
+    },
+    "ce130098c0283e20": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "mistral",
+      "title": "Applied Scientist / Research Engineer (Internship)",
+      "url": "https://jobs.lever.co/mistral/426ef8c0-eb26-4004-a690-f33c62b445a7",
+      "status": "new"
+    },
+    "c00d91b28cf9c131": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "cloudflare",
+      "title": "Internal Audit Intern (Summer 2026)",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7652742?gh_jid=7652742",
+      "status": "new"
+    },
+    "20154ebf9b416ee5": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "asana",
+      "title": "Product Design Intern - Summer 2026 (New York)",
+      "url": "https://www.asana.com/jobs/apply/7490328?gh_jid=7490328",
+      "status": "new"
+    },
+    "1f97d174e9d7ccca": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "asana",
+      "title": "Product Design Intern - Summer 2026 (San Francisco)",
+      "url": "https://www.asana.com/jobs/apply/7490322?gh_jid=7490322",
+      "status": "new"
+    },
+    "bc183bb0685ead5e": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "asana",
+      "title": "Product Design Intern - Summer 2026 (Warsaw)",
+      "url": "https://www.asana.com/jobs/apply/7490332?gh_jid=7490332",
+      "status": "new"
+    },
+    "a5861061367b4e31": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "asana",
+      "title": "Software Engineering Intern - Summer 2026 (Reykjavik)",
+      "url": "https://www.asana.com/jobs/apply/7490314?gh_jid=7490314",
+      "status": "new"
+    },
+    "4d39332fe9456ee6": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "asana",
+      "title": "Software Engineering Intern - Summer 2026 (Warsaw)",
+      "url": "https://www.asana.com/jobs/apply/7490274?gh_jid=7490274",
+      "status": "new"
+    },
+    "6b91127006efba1a": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "asana",
+      "title": "Product Design Intern - Summer 2026 (Vancouver, BC)",
+      "url": "https://www.asana.com/jobs/apply/7078126?gh_jid=7078126",
+      "status": "new"
+    },
+    "64e8cd9ce5039875": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "brex",
+      "title": "Software Engineer, Intern",
+      "url": "https://www.brex.com/careers/8434389002?gh_jid=8434389002",
+      "status": "new"
+    },
+    "e55fdef52d3b643e": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "cloudflare",
+      "title": "Sales Intern (Summer 2026)",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7597497?gh_jid=7597497",
+      "status": "new"
+    },
+    "7c73f3968a0fe853": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "cloudflare",
+      "title": "Business Development Representative (BDR) Intern (Summer 2026)",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7652528?gh_jid=7652528",
+      "status": "new"
+    },
+    "f9b27fef6c304efa": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "togetherai",
+      "title": "Research Intern, Model Shaping (Summer 2026)",
+      "url": "https://job-boards.greenhouse.io/togetherai/jobs/5015074007",
+      "status": "new"
+    },
+    "c742d96a7ece3898": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "brex",
+      "title": "Software Engineer, Internship - 2026",
+      "url": "https://www.brex.com/careers/8434385002?gh_jid=8434385002",
+      "status": "new"
+    },
+    "313fae8afb03c369": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "cloudflare",
+      "title": "Technical Operations & Strategy Intern (Summer 2026)",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7603589?gh_jid=7603589",
+      "status": "new"
+    },
+    "31781f9d666f1306": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "coinbase",
+      "title": "Internal Audit Intern",
+      "url": "https://www.coinbase.com/careers/positions/7322939?gh_jid=7322939",
+      "status": "new"
+    },
+    "7e0ba771e2f17f8c": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "coinbase",
+      "title": "Internal Audit Intern",
+      "url": "https://www.coinbase.com/careers/positions/7322937?gh_jid=7322937",
+      "status": "new"
+    },
+    "030d9552fd5fe95e": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "cloudflare",
+      "title": "Threat Detection and Incident Response Intern (Summer 2026)",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7578913?gh_jid=7578913",
+      "status": "new"
+    },
+    "c1a7d2357d3e9e7d": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "coinbase",
+      "title": "Strategic Sourcing Intern",
+      "url": "https://www.coinbase.com/careers/positions/7315887?gh_jid=7315887",
+      "status": "new"
+    },
+    "2d63f4cc8b3a3dd7": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "coinbase",
+      "title": "Associate Product Manager Intern",
+      "url": "https://www.coinbase.com/careers/positions/7269743?gh_jid=7269743",
+      "status": "new"
+    },
+    "e74e57654663fbbb": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "coinbase",
+      "title": "Business Controller Intern",
+      "url": "https://www.coinbase.com/careers/positions/7434684?gh_jid=7434684",
+      "status": "new"
+    },
+    "e21df956cafcf642": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "coinbase",
+      "title": "Machine Learning Engineer Intern",
+      "url": "https://www.coinbase.com/careers/positions/7294075?gh_jid=7294075",
+      "status": "new"
+    },
+    "d8785ee97b4ba483": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "coinbase",
+      "title": "Product Design Intern",
+      "url": "https://www.coinbase.com/careers/positions/7325051?gh_jid=7325051",
+      "status": "new"
+    },
+    "8d6b5d6dce617436": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "coinbase",
+      "title": "Software Engineer Intern",
+      "url": "https://www.coinbase.com/careers/positions/7268895?gh_jid=7268895",
+      "status": "new"
+    },
+    "1a26aafbcac1af2d": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "coinbase",
+      "title": "Tax Information Reporting Intern",
+      "url": "https://www.coinbase.com/careers/positions/7317551?gh_jid=7317551",
+      "status": "new"
+    },
+    "57fb6fa8c62f591c": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "coinbase",
+      "title": "User Researcher Intern",
+      "url": "https://www.coinbase.com/careers/positions/7269775?gh_jid=7269775",
+      "status": "new"
+    },
+    "cb7f114660800f8e": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "cloudflare",
+      "title": "People Team Intern - HR Operations & AI Innovation (Summer 2026)",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7606240?gh_jid=7606240",
+      "status": "new"
+    },
+    "665bd45f4c418939": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "cloudflare",
+      "title": "AI Automation Intern (M&A Integration Ops) (Summer 2026)",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7589903?gh_jid=7589903",
+      "status": "new"
+    },
+    "2de2a0b635275787": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "cloudflare",
+      "title": "Technical Operations & Strategy Intern (Summer 2026)",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7603409?gh_jid=7603409",
+      "status": "new"
+    },
+    "c932f778d17d33c8": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "cloudflare",
+      "title": "Network Strategy Commercial Intern (Summer 2026)",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7589934?gh_jid=7589934",
+      "status": "new"
+    },
+    "b79485bd47657c06": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "cloudflare",
+      "title": "Product Manager Intern (Summer 2026)",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7362113?gh_jid=7362113",
+      "status": "new"
+    },
+    "9064d80e3175e513": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "cloudflare",
+      "title": "Technical Writer Intern",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7412237?gh_jid=7412237",
+      "status": "new"
+    },
+    "6adb06b7ff8ad09d": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "cloudflare",
+      "title": " Red Team Security Intern (Summer 2026) ",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7578802?gh_jid=7578802",
+      "status": "new"
+    },
+    "5917dcfcdfb6ef21": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "cloudflare",
+      "title": "Data Engineer Intern (Summer 2026)",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7374706?gh_jid=7374706",
+      "status": "new"
+    },
+    "626b54075efb3131": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "cloudflare",
+      "title": "EIAM Business Enablement & Operations Intern (Summer 2026) ",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7575040?gh_jid=7575040",
+      "status": "new"
+    },
+    "e8b0d073b1a44f2d": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "cloudflare",
+      "title": "GRC Team Intern (Summer 2026) ",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7578549?gh_jid=7578549",
+      "status": "new"
+    },
+    "70317cf07362416d": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "cloudflare",
+      "title": "GRC Team Intern (Summer 2026) ",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7574862?gh_jid=7574862",
+      "status": "new"
+    },
+    "2ce1bcb235f342ff": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "cloudflare",
+      "title": "GRC Team Intern (Summer 2026) ",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7577564?gh_jid=7577564",
+      "status": "new"
+    },
+    "bd3233683f49cc92": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "cloudflare",
+      "title": "Physical Security Intern (Summer 2026)",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7577080?gh_jid=7577080",
+      "status": "new"
+    },
+    "3ff25be02c38e007": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "cloudflare",
+      "title": "Product Design Intern (Summer 2026)",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7494477?gh_jid=7494477",
+      "status": "new"
+    },
+    "89c8482e1295c12a": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "cloudflare",
+      "title": "Product Design Intern (Summer 2026)",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7488659?gh_jid=7488659",
+      "status": "new"
+    },
+    "52944bd6c5b93c5f": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "cloudflare",
+      "title": "Product Design Intern (Summer 2026)",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7492740?gh_jid=7492740",
+      "status": "new"
+    },
+    "85ef8672aa48270e": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "cloudflare",
+      "title": "Product Manager Intern (Summer 2026)",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7362080?gh_jid=7362080",
+      "status": "new"
+    },
+    "cf57cfc958e49ca7": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "cloudflare",
+      "title": "Product Manager Intern (Summer 2026)",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7362103?gh_jid=7362103",
+      "status": "new"
+    },
+    "f8130720f1e526c2": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "cloudflare",
+      "title": "Research Engineer Intern (Summer 2026)",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7358525?gh_jid=7358525",
+      "status": "new"
+    },
+    "84bc1484e1b4497d": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "cloudflare",
+      "title": "Research Engineer Intern (Summer 2026)",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7359147?gh_jid=7359147",
+      "status": "new"
+    },
+    "204693732bd8fb17": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "cloudflare",
+      "title": "Research Engineer Intern (Summer 2026)",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7359136?gh_jid=7359136",
+      "status": "new"
+    },
+    "a69b027a9f170de6": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "cloudflare",
+      "title": "Security Engineer Intern (Summer 2026)",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7582150?gh_jid=7582150",
+      "status": "new"
+    },
+    "27fa7db8097260ad": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "cloudflare",
+      "title": "Security Engineer Intern (Summer 2026)",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7582169?gh_jid=7582169",
+      "status": "new"
+    },
+    "119fb7f9439c736c": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "cloudflare",
+      "title": "Security Engineer Intern (Summer 2026)",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7582157?gh_jid=7582157",
+      "status": "new"
+    },
+    "7ff08fc55f14924a": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "cloudflare",
+      "title": "Software Engineer Intern (Summer 2026)",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7296923?gh_jid=7296923",
+      "status": "new"
+    },
+    "d3ae49c0279183ff": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "cloudflare",
+      "title": "Software Engineer Intern (Summer 2026)",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7296929?gh_jid=7296929",
+      "status": "new"
+    },
+    "8a83deff873f0036": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "cloudflare",
+      "title": "Software Engineer Intern (Summer 2026) - Austin, TX",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7206269?gh_jid=7206269",
+      "status": "new"
+    },
+    "89f7a1eccd23357b": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "cloudflare",
+      "title": "Technical UX Content Strategist Intern",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7412338?gh_jid=7412338",
+      "status": "new"
+    },
+    "e620bfed3e9efb7c": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "cloudflare",
+      "title": "Technical Writer Intern",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7472892?gh_jid=7472892",
+      "status": "new"
+    },
+    "9512fc6c152f2bec": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "cloudflare",
+      "title": "Threat Detection and Incident Response Intern (Summer 2026)",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7578761?gh_jid=7578761",
+      "status": "new"
+    },
+    "bfd0141092a4e750": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "cloudflare",
+      "title": "Threat Detection and Incident Response Intern (Summer 2026)",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7577205?gh_jid=7577205",
+      "status": "new"
+    },
+    "fb4d8889ae2acd05": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "cloudflare",
+      "title": "UX Content Strategist Intern",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7412289?gh_jid=7412289",
+      "status": "new"
+    },
+    "99ded1db1070bd16": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "sierra",
+      "title": "Intern, Agent Development (Summer 2026)",
+      "url": "https://jobs.ashbyhq.com/sierra/8bb2509d-9215-4cb5-8cf1-2bf0dbade6d8/application",
+      "status": "new"
+    },
+    "1d51513acad81fc9": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "sierra",
+      "title": "University Recruiter",
+      "url": "https://jobs.ashbyhq.com/sierra/257dca7b-39a2-4f43-9310-f1d83bf7670f/application",
+      "status": "new"
+    },
+    "543ec825d07bb1a8": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "sierra",
+      "title": "University Recruiter",
+      "url": "https://jobs.ashbyhq.com/sierra/f1d6b8d6-570a-4d19-8cf5-8145fc93c1ae/application",
+      "status": "new"
+    },
+    "f6b7e713d98514d0": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "notion",
+      "title": "Software Engineer, AI Agentic Search, Early Career",
+      "url": "https://jobs.ashbyhq.com/notion/c7b208a6-d848-4e71-8e2f-33b3e44939dd/application",
+      "status": "new"
+    },
+    "4632462a35f0d643": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "notion",
+      "title": "Early Career People Projects",
+      "url": "https://jobs.ashbyhq.com/notion/83c8907b-e05e-401a-a5de-9ebe0b1a800f/application",
+      "status": "new"
+    },
+    "609c9f7aff473916": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "notion",
+      "title": "Software Engineer, Fullstack, Early Career",
+      "url": "https://jobs.ashbyhq.com/notion/f7399542-9122-481a-bf64-43bf8093748b/application",
+      "status": "new"
+    },
+    "eb13b93308235f49": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "notion",
+      "title": "Software Engineer Intern (Summer 2026)",
+      "url": "https://jobs.ashbyhq.com/notion/23ac2477-0008-4bed-b1c1-81f90a32e9e6/application",
+      "status": "new"
+    },
+    "9cde9753e65a0790": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "okta",
+      "title": "Business Analyst Intern (Summer 2026)",
+      "url": "https://www.okta.com/company/careers/opportunity/7617090?gh_jid=7617090",
+      "status": "new"
+    },
+    "cff73858b9b35f8b": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "okta",
+      "title": "Company Planning & Operations Intern (Summer 2026)",
+      "url": "https://www.okta.com/company/careers/opportunity/7630315?gh_jid=7630315",
+      "status": "new"
+    },
+    "44cb289470d1febd": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "okta",
+      "title": "Customer First Strategy and Operations Intern (Summer 2026)",
+      "url": "https://www.okta.com/company/careers/opportunity/7561036?gh_jid=7561036",
+      "status": "new"
+    },
+    "f8679b42e5e29ec0": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "okta",
+      "title": "Customer Success Intern (Summer 2026)",
+      "url": "https://www.okta.com/company/careers/opportunity/7646155?gh_jid=7646155",
+      "status": "new"
+    },
+    "80edd7620280a1ef": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "okta",
+      "title": "Customer Success Intern (Summer 2026)",
+      "url": "https://www.okta.com/company/careers/opportunity/7565237?gh_jid=7565237",
+      "status": "new"
+    },
+    "f3754782a3cf48aa": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "okta",
+      "title": "Data Analyst Intern (Summer 2026)",
+      "url": "https://www.okta.com/company/careers/opportunity/7561055?gh_jid=7561055",
+      "status": "new"
+    },
+    "95a4d1ed07282a38": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "okta",
+      "title": "Events Marketing Intern (Summer 2026)",
+      "url": "https://www.okta.com/company/careers/opportunity/7611453?gh_jid=7611453",
+      "status": "new"
+    },
+    "ed2e35a4886b9aa3": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "okta",
+      "title": "Global Partner Marketing Intern (Summer 2026)",
+      "url": "https://www.okta.com/company/careers/opportunity/7560998?gh_jid=7560998",
+      "status": "new"
+    },
+    "8b8f2da94e9ac418": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "okta",
+      "title": "Marketing Technology Intern (Summer 2026)",
+      "url": "https://www.okta.com/company/careers/opportunity/7561018?gh_jid=7561018",
+      "status": "new"
+    },
+    "84d7880e266f9c57": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "okta",
+      "title": "Paid Media Intern (Summer 2026)",
+      "url": "https://www.okta.com/company/careers/opportunity/7607650?gh_jid=7607650",
+      "status": "new"
+    },
+    "9c43d10d17796a1b": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "okta",
+      "title": "Product Marketing Intern (Summer 2026)",
+      "url": "https://www.okta.com/company/careers/opportunity/7594992?gh_jid=7594992",
+      "status": "new"
+    },
+    "85a318f88b761cdc": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "okta",
+      "title": "Talent Management Intern (Summer 2026)",
+      "url": "https://www.okta.com/company/careers/opportunity/7551355?gh_jid=7551355",
+      "status": "new"
+    },
+    "5c98c9a4fc5ce4d5": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "okta",
+      "title": "Technical Account Management Intern (Summer 2026)",
+      "url": "https://www.okta.com/company/careers/opportunity/7549331?gh_jid=7549331",
+      "status": "new"
+    },
+    "1539e4387be08afa": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "vercel",
+      "title": "Data Platform & Engineering Intern",
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/5810803004",
+      "status": "new"
+    },
+    "613a9e51b62aa884": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "serval",
+      "title": "Software Engineer Intern",
+      "url": "https://jobs.ashbyhq.com/Serval/d7fb089c-db8a-4877-a5f3-73a09e67f54b/application",
+      "status": "new"
+    },
+    "005f1153ba75e414": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "serval",
+      "title": "Emerging Talent Recruiter",
+      "url": "https://jobs.ashbyhq.com/Serval/9784591b-28ba-415d-838a-0d167d0dd62f/application",
+      "status": "new"
+    },
+    "73453dc3cdace5c5": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "zoox",
+      "title": "Lidar Engineer Intern",
+      "url": "https://jobs.lever.co/zoox/b28f4bc1-226d-471d-a868-1062bbe85614",
+      "status": "new"
+    },
+    "0cb8f2a20fd9c801": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "zoox",
+      "title": "Technical Program Management Intern, Autonomy & Product Software",
+      "url": "https://jobs.lever.co/zoox/6e8beebf-6251-4ea9-af88-6cdc9b2a7bcc",
+      "status": "new"
+    },
+    "cfcc379cf57b43dc": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "zoox",
+      "title": "AI Applications Development Intern",
+      "url": "https://jobs.lever.co/zoox/9935eecc-fca9-4f72-9ea8-85ebea928967",
+      "status": "new"
+    },
+    "d1c138f2a692872a": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "shieldai",
+      "title": "2026 Summer Intern - Electrical Engineering (R4626)",
+      "url": "https://jobs.lever.co/shieldai/de0ca518-e06f-403a-a8a0-0854e3944f5a",
+      "status": "new"
+    },
+    "1131d23396550156": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "sublimesystems",
+      "title": "Concrete Materials Co-op",
+      "url": "https://jobs.lever.co/SublimeSystems/3840c2fe-cbe5-4c30-b545-f677be7bc560",
+      "status": "new"
+    },
+    "5fd80a15e7156429": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "sublimesystems",
+      "title": "Engineering, Solids Co-op",
+      "url": "https://jobs.lever.co/SublimeSystems/e691e0e5-f92b-4d70-b8d2-90092df6156c",
+      "status": "new"
+    },
+    "0c1bc6631e17750e": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "sublimesystems",
+      "title": "Process R&D, Scale- up Co-op",
+      "url": "https://jobs.lever.co/SublimeSystems/30fb2501-edd6-43ce-b328-5460c7f8c717",
+      "status": "new"
+    },
+    "43c33b9ba4297a16": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "sublimesystems",
+      "title": "Pilot Plant Engineering Co-op",
+      "url": "https://jobs.lever.co/SublimeSystems/38ed7af3-aa28-4449-ad6a-fd4a407a4fe9",
+      "status": "new"
+    },
+    "e7d21b5e77bed081": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "sublimesystems",
+      "title": "Product R&D Co-op",
+      "url": "https://jobs.lever.co/SublimeSystems/6e99cfd4-627b-4eab-a65f-d8038bd9d8e9",
+      "status": "new"
+    },
+    "45a761adc059f09b": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "sublimesystems",
+      "title": "Process R&D Co-op",
+      "url": "https://jobs.lever.co/SublimeSystems/de4563eb-9e0f-41c1-bb1f-ecb6eb3549ce",
+      "status": "new"
+    },
+    "b1cea042f5013e5f": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "cfsenergy",
+      "title": "Intern - Materials Test Engineer - Fall Co-op 2026",
+      "url": "https://jobs.lever.co/cfsenergy/c734aa9b-4bc8-45a9-9ca2-27c7049648be",
+      "status": "new"
+    },
+    "e8f07d2bdf1c8afe": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "magnetforensics",
+      "title": "Vulnerability Research Internship",
+      "url": "https://jobs.lever.co/magnetforensics/a8d3d3a6-fbaf-4ab7-809e-e8c8f2476626",
+      "status": "new"
+    },
+    "7d08b59526a26bc8": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "cfsenergy",
+      "title": "Intern - Cryogenics Engineer - Fall Co-op 2026",
+      "url": "https://jobs.lever.co/cfsenergy/76c6af39-5990-454b-b4e8-913e18c69e03",
+      "status": "new"
+    },
+    "7c8fbf61763cad7a": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "waabi",
+      "title": "Product Management Internship/Co-op, Summer 2026",
+      "url": "https://jobs.lever.co/waabi/fbac4b25-492e-4076-a2f6-7346ed3ca48c",
+      "status": "new"
+    },
+    "45608b5a746140a6": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "magnetforensics",
+      "title": "Cloud FinOps Co-op (Summer 2026)",
+      "url": "https://jobs.lever.co/magnetforensics/17b0e272-6e67-40bb-9373-1d30e4c2ebf5",
+      "status": "new"
+    },
+    "378315d42d014269": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "magnetforensics",
+      "title": "Software Developer Co-op (Summer 2026)",
+      "url": "https://jobs.lever.co/magnetforensics/c1b6a556-e988-4d43-bd57-7441a0a3654e",
+      "status": "new"
+    },
+    "1f5dad0524ffe0ee": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "zoox",
+      "title": "Creative Technologist Intern",
+      "url": "https://jobs.lever.co/zoox/2d2ef1ce-6583-4b4b-bcfa-fb8549fd718f",
+      "status": "new"
+    },
+    "5e8c47ef59e71207": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "waabi",
+      "title": "Systems Engineer Internship/Co-op, Summer 2026",
+      "url": "https://jobs.lever.co/waabi/9873fd9d-285f-4bf5-ac74-f69547615bc9",
+      "status": "new"
+    },
+    "68eb4c2788ede144": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "waabi",
+      "title": "Safety Methodologies Internship/Co-op, Summer 2026",
+      "url": "https://jobs.lever.co/waabi/871bdec0-6347-4878-9e12-36d5d8d0615e",
+      "status": "new"
+    },
+    "0fbf39d6069886cd": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "zoox",
+      "title": "Technical Program Management Intern, Manufacturing Operational Excellence",
+      "url": "https://jobs.lever.co/zoox/8903e652-08f3-45ef-9b81-aae94f5eb57f",
+      "status": "new"
+    },
+    "d781b15095f8fbed": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "zoox",
+      "title": "Technical Program Management Intern, AI Tools Development",
+      "url": "https://jobs.lever.co/zoox/4770d734-9d08-4eae-abb5-6002495ca147",
+      "status": "new"
+    },
+    "889723d93c0505e7": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-25T23:44:09.694197+00:00",
+      "company": "zoox",
+      "title": "Reliability Data Intern",
+      "url": "https://jobs.lever.co/zoox/447c8d5f-7610-4c94-b2f3-16deac16a5a2",
+      "status": "new"
+    },
+    "cfcd09b164bc6f5a": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "zoox",
+      "title": "Operations Program Management Intern",
+      "url": "https://jobs.lever.co/zoox/69d9a257-6a66-4503-81c9-c38fe869e98e",
+      "status": "new"
+    },
+    "b64bf644ffbdbe89": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-25T23:44:09.694197+00:00",
+      "company": "zoox",
+      "title": "Embedded Software Development Intern",
+      "url": "https://jobs.lever.co/zoox/1fcd743b-6bba-4e6e-b926-a164fff73654",
+      "status": "new"
+    },
+    "552b18d2de003bc7": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "zoox",
+      "title": "Data Governance Intern",
+      "url": "https://jobs.lever.co/zoox/e63f6b8f-bd1a-4822-9b61-22576c01f64f",
+      "status": "new"
+    },
+    "889dc769515698a3": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "zoox",
+      "title": "System Engineering Intern",
+      "url": "https://jobs.lever.co/zoox/eb2f10b7-300a-46f1-bd35-41167c9f7c63",
+      "status": "new"
+    },
+    "c526321575a9cbe9": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "waabi",
+      "title": "Research Internship/Co-op",
+      "url": "https://jobs.lever.co/waabi/0fd4e30b-9bd1-4b53-9043-6088457363cb",
+      "status": "new"
+    },
+    "4812ff9cfbf5dfc5": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "waabi",
+      "title": "2026 Intern, PhD Research Scientist",
+      "url": "https://jobs.lever.co/waabi/62700386-b9db-4c78-aec3-5ef59cbe841e",
+      "status": "new"
+    },
+    "a55e23904cd4e7de": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "zoox",
+      "title": "Hardware Integration and Test Intern",
+      "url": "https://jobs.lever.co/zoox/98429957-337e-459f-94b6-fa6acfce82b9",
+      "status": "new"
+    },
+    "730ce20ec39e2392": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "zoox",
+      "title": "Quality Engineering Intern",
+      "url": "https://jobs.lever.co/zoox/499ef1a2-6383-4dd6-b94f-63ce8de6c483",
+      "status": "new"
+    },
+    "9bd183a196990184": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "zoox",
+      "title": "Mechanical Engineering Intern",
+      "url": "https://jobs.lever.co/zoox/9563a5de-8361-4fd1-946a-be872332ae26",
+      "status": "new"
+    },
+    "35ea453989baec7b": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "zoox",
+      "title": "Signal Processing Intern",
+      "url": "https://jobs.lever.co/zoox/96857e0b-d39c-4505-b0b4-9a14c7d9db58",
+      "status": "new"
+    },
+    "2a72fe5356bac145": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "zoox",
+      "title": "Machine Learning Engineer Intern, Autonomy Behavior",
+      "url": "https://jobs.lever.co/zoox/74ef6bb8-ec8a-4c6c-8618-544717f40e2d",
+      "status": "new"
+    },
+    "fda9b2f87cdc6373": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "zoox",
+      "title": "Machine Learning Engineer Intern, Perception",
+      "url": "https://jobs.lever.co/zoox/9b3ab3ee-b130-49b6-8413-7d8fd9c33ed3",
+      "status": "new"
+    },
+    "061f14f965f276c7": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "zoox",
+      "title": "Machine Learning Engineer Intern, Simulation",
+      "url": "https://jobs.lever.co/zoox/f24a2d0c-bda7-48ff-9c83-9a96900128b7",
+      "status": "new"
+    },
+    "588f50cf58695ca9": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "zoox",
+      "title": "System Safety Intern",
+      "url": "https://jobs.lever.co/zoox/06bbad7f-7e48-4cf6-bf87-2c9a9899fd04",
+      "status": "new"
+    },
+    "6c1b8f6a59630fd7": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "zoox",
+      "title": "Motion Planning Intern",
+      "url": "https://jobs.lever.co/zoox/d355532c-5e18-4eaf-9da1-0571c2cbbc96",
+      "status": "new"
+    },
+    "a6dda5ba4f8f3123": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "zoox",
+      "title": "Data Engineer Intern",
+      "url": "https://jobs.lever.co/zoox/b9fb6f1d-31db-4a79-b70b-9396bf01b117",
+      "status": "new"
+    },
+    "a717bb8ade613d40": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "zoox",
+      "title": "HIL & System Validation Intern",
+      "url": "https://jobs.lever.co/zoox/07ac26ee-0594-41d8-928e-7cf1e373e2dd",
+      "status": "new"
+    },
+    "d571aad0cd6a2d79": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "zoox",
+      "title": "Data Scientist Intern",
+      "url": "https://jobs.lever.co/zoox/ab805ec5-1d08-420c-9606-f91825e6a1f9",
+      "status": "new"
+    },
+    "f8205e738b575ce4": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "zoox",
+      "title": "Automation & DevOps Tooling Intern",
+      "url": "https://jobs.lever.co/zoox/fd2be6ec-162d-4955-802f-fb8d2de8b3c0",
+      "status": "new"
+    },
+    "9d9966df40f9b563": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "zoox",
+      "title": "Test Automation & QA Systems Intern",
+      "url": "https://jobs.lever.co/zoox/3a7c0c4b-4f23-4136-99a9-df64b341a0fd",
+      "status": "new"
+    },
+    "42329157c67213cf": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "zoox",
+      "title": "Mapping Software Intern",
+      "url": "https://jobs.lever.co/zoox/f318f39e-c089-4240-b341-ebb021d86b4f",
+      "status": "new"
+    },
+    "e95b3329cf9386c8": {
+      "first_seen_date_utc": "2026-02-25",
+      "last_seen_at_utc": "2026-02-26T00:55:56.280058+00:00",
+      "company": "shieldai",
+      "title": "Electrical Engineering Fall Co-op (June 2026) (R4473)",
+      "url": "https://jobs.lever.co/shieldai/7b4e2234-fa9a-4945-8a20-0c16d176c702",
       "status": "new"
     }
   }
