@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-02-25T14:45:46.600524+00:00",
-  "source_generated_at_utc": "2026-02-25T14:45:46.506081+00:00",
+  "generated_at_utc": "2026-02-26T14:13:20.052644+00:00",
+  "source_generated_at_utc": "2026-02-26T14:13:19.948293+00:00",
   "count": 12,
   "jobs": [
     {
@@ -237,34 +237,6 @@
       "matched_bonus": []
     },
     {
-      "id": "1254231df3fa18cd",
-      "company": "stripe",
-      "title": "Software Engineer, Intern",
-      "location": "Singapore",
-      "url": "https://stripe.com/jobs/search?gh_jid=7206401",
-      "source": "greenhouse",
-      "score": 17,
-      "breakdown": {
-        "title": 15,
-        "location": 0,
-        "have": 2,
-        "want+bonus": 0,
-        "penalty": 0,
-        "detected_mode": "none",
-        "city_tier": "none"
-      },
-      "hard_flags": [],
-      "soft_flags": [],
-      "matched_titles": [
-        "software engineer"
-      ],
-      "matched_skills_have": [
-        "Java"
-      ],
-      "matched_skills_want": [],
-      "matched_bonus": []
-    },
-    {
       "id": "867837af4b70f7ea",
       "company": "stripe",
       "title": "Software Engineer, Intern",
@@ -298,6 +270,34 @@
       "title": "Software Engineer, Intern",
       "location": "London",
       "url": "https://stripe.com/jobs/search?gh_jid=7360840",
+      "source": "greenhouse",
+      "score": 17,
+      "breakdown": {
+        "title": 15,
+        "location": 0,
+        "have": 2,
+        "want+bonus": 0,
+        "penalty": 0,
+        "detected_mode": "none",
+        "city_tier": "none"
+      },
+      "hard_flags": [],
+      "soft_flags": [],
+      "matched_titles": [
+        "software engineer"
+      ],
+      "matched_skills_have": [
+        "Java"
+      ],
+      "matched_skills_want": [],
+      "matched_bonus": []
+    },
+    {
+      "id": "1254231df3fa18cd",
+      "company": "stripe",
+      "title": "Software Engineer, Intern",
+      "location": "Singapore",
+      "url": "https://stripe.com/jobs/search?gh_jid=7206401",
       "source": "greenhouse",
       "score": 17,
       "breakdown": {

@@ -1,4 +1,4 @@
-# Job feed (current)
+# Job feed (archive 2026-02-26)
 Generated at (UTC): 2026-02-26T14:13:19.948293+00:00
 Today (UTC): 2026-02-26
 Total jobs: 12
