@@ -2,17 +2,596 @@
   "meta": {
     "engine_name": "AutoJob-Agent Feeder",
     "version": 2,
-    "generated_at": "2026-02-25T19:57:37.224128+00:00",
-    "source_jobs_count": 12,
-    "candidates_count": 5,
+    "generated_at": "2026-02-26T01:19:22.362539+00:00",
+    "source_jobs_count": 169,
+    "candidates_count": 62,
     "candidates_topN_total": 150,
     "thresholds": {
       "apply": 0.72,
       "maybe": 0.4
     },
-    "config_digest": "b7f98d1983e2c5268eba828dba21da19f030006e"
+    "config_digest": "2055a9a80e45870e8e5d9aaec1f0905ca5073f16"
   },
   "candidates": [
+    {
+      "job_uid": "1539e4387be08afa",
+      "source": "greenhouse",
+      "job_id": "1539e4387be08afa",
+      "company": "vercel",
+      "title": "Data Platform & Engineering Intern",
+      "location": "Hybrid - San Francisco",
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/5810803004",
+      "departments": [
+        "Data"
+      ],
+      "created_at": null,
+      "updated_at": "2026-02-23T14:43:09-05:00",
+      "scores": {
+        "hard_raw": 9.0,
+        "hard_norm": 0.6923076923076923,
+        "semantic_raw": 0.5920873880380431,
+        "semantic_norm": 0.8269189059921336,
+        "final": 0.766343859834135
+      },
+      "signals": {
+        "must_hits": [
+          "python",
+          "data pipeline",
+          "sql",
+          "cloud"
+        ],
+        "nice_hits": [],
+        "neg_hits": []
+      },
+      "text_hash": "d17be0a3944ee85ec0562f656b67913eb772cfa1",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=4, nice_hits=0",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "About Vercel: Vercel gives developers the tools and cloud infrastructure to build, scale, and secure a faster, more personalized web. As the team behind v0, Next.js, and AI SDK, Vercel helps customers like Ramp, Supreme, PayPal, and Under Armour build for the AI-native web. Our mission is to enable the world to ship the best products. That starts with creating a place where everyone can do their best work. Whether you're building on our platform, supporting our customers, or shaping our story: You can just ship things. About the Team The Data Platform &amp; Engineering team builds and operates"
+    },
+    {
+      "job_uid": "26282e51023d9a7d",
+      "source": "ashby",
+      "job_id": "26282e51023d9a7d",
+      "company": "perplexity",
+      "title": "Internship - Search Machine Learning Engineer",
+      "location": "Belgrade",
+      "url": "https://jobs.ashbyhq.com/perplexity/9246cf02-26fd-4ae8-90c5-639c6e85e9e2/application",
+      "departments": [
+        "Search",
+        "Search"
+      ],
+      "created_at": "2026-01-13T21:20:02.894+00:00",
+      "updated_at": "2026-01-13T21:20:02.894+00:00",
+      "scores": {
+        "hard_raw": 9.0,
+        "hard_norm": 0.6923076923076923,
+        "semantic_raw": 0.5752385258668868,
+        "semantic_norm": 0.7930673608511111,
+        "final": 0.7477255100065727
+      },
+      "signals": {
+        "must_hits": [
+          "python",
+          "machine learning",
+          "llm"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "1b8e77dfc802dbd5b57eae07b2a22c6d9ea77587",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Perplexity is looking for a Search Machine Learning Engineer Intern to help build the next generation of advanced search technologies, with a focus on retrieval and ranking. You will work closely with experienced engineers to improve search quality, experiment with new models, and ship features that directly impact how users search and discover information. Internship program: 12 - 24 weeks, full-time, in-person in the Belgrade office. Responsibilities: - Contribute to experiments that improve search quality through better models, data usage, and evaluation tools, under the guidance of senior "
+    },
+    {
+      "job_uid": "3435c13d39b1ac53",
+      "source": "greenhouse",
+      "job_id": "3435c13d39b1ac53",
+      "company": "databricks",
+      "title": "Product Management Intern (2026) - Amsterdam",
+      "location": "Amsterdam, Netherlands",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8133715002",
+      "departments": [
+        "Product"
+      ],
+      "created_at": null,
+      "updated_at": "2026-02-19T14:47:26-05:00",
+      "scores": {
+        "hard_raw": 8.0,
+        "hard_norm": 0.6153846153846154,
+        "semantic_raw": 0.5800718414820498,
+        "semantic_norm": 0.8027781175814732,
+        "final": 0.7184510415928873
+      },
+      "signals": {
+        "must_hits": [
+          "python",
+          "machine learning",
+          "sql"
+        ],
+        "nice_hits": [
+          "mlflow"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "6bd36b96e742cbefb9682c8c19e70dae4c362728",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "P-1452 At Databricks, we are passionate about helping data teams solve the world's toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. As a Product Management Intern, you will join a team that works diligently to understand and solve our customers' most challenging problems . You will learn how to be a successful PM at a high-growth enterprise technology comp"
+    },
+    {
+      "job_uid": "38b3a29b6dbc55e0",
+      "source": "greenhouse",
+      "job_id": "38b3a29b6dbc55e0",
+      "company": "databricks",
+      "title": "Product Management Intern (2026) - Berlin",
+      "location": "Berlin, Germany",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8145776002",
+      "departments": [
+        "Product"
+      ],
+      "created_at": null,
+      "updated_at": "2026-02-19T14:47:26-05:00",
+      "scores": {
+        "hard_raw": 8.0,
+        "hard_norm": 0.6153846153846154,
+        "semantic_raw": 0.5800718414820498,
+        "semantic_norm": 0.8027781175814732,
+        "final": 0.7184510415928873
+      },
+      "signals": {
+        "must_hits": [
+          "python",
+          "machine learning",
+          "sql"
+        ],
+        "nice_hits": [
+          "mlflow"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "6bd36b96e742cbefb9682c8c19e70dae4c362728",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "P-1452 At Databricks, we are passionate about helping data teams solve the world's toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. As a Product Management Intern, you will join a team that works diligently to understand and solve our customers' most challenging problems . You will learn how to be a successful PM at a high-growth enterprise technology comp"
+    },
+    {
+      "job_uid": "8b8f2da94e9ac418",
+      "source": "greenhouse",
+      "job_id": "8b8f2da94e9ac418",
+      "company": "okta",
+      "title": "Marketing Technology Intern (Summer 2026)",
+      "location": "San Francisco, California",
+      "url": "https://www.okta.com/company/careers/opportunity/7561018?gh_jid=7561018",
+      "departments": [
+        "Business Operations-150"
+      ],
+      "created_at": null,
+      "updated_at": "2026-02-23T16:39:45-05:00",
+      "scores": {
+        "hard_raw": 6.0,
+        "hard_norm": 0.46153846153846156,
+        "semantic_raw": 0.5657059550279682,
+        "semantic_norm": 0.7739151920704754,
+        "final": 0.6333456633310692
+      },
+      "signals": {
+        "must_hits": [
+          "machine learning",
+          "git",
+          "cloud"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "34ce74f43771a46df4cd749e94e26d6c8d9653d1",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Get to know Okta Okta is The World’s Identity Company. We free everyone to safely use any technology, anywhere, on any device or app. Our flexible and neutral products, Okta Platform and Auth0 Platform, provide secure access, authentication, and automation, placing identity at the core of business security and growth. At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box - we’re looking for lifelong learners and people who can make us better with their unique experiences.&nbsp; Join our team! We’re building a world where Ide"
+    },
+    {
+      "job_uid": "ce130098c0283e20",
+      "source": "lever",
+      "job_id": "ce130098c0283e20",
+      "company": "mistral",
+      "title": "Applied Scientist / Research Engineer (Internship)",
+      "location": "Paris",
+      "url": "https://jobs.lever.co/mistral/426ef8c0-eb26-4004-a690-f33c62b445a7",
+      "departments": [
+        "Solutions"
+      ],
+      "created_at": 1746803269118,
+      "updated_at": 1746803269118,
+      "scores": {
+        "hard_raw": 8.0,
+        "hard_norm": 0.6153846153846154,
+        "semantic_raw": 0.5016744136805286,
+        "semantic_norm": 0.6452675367954037,
+        "final": 0.631820222160549
+      },
+      "signals": {
+        "must_hits": [
+          "python",
+          "machine learning",
+          "cloud"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "9de09ff109382baa397fc0c2e55cb897a16d2ff5",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "About Mistral At Mistral AI, we believe in the power of AI to simplify tasks, save time, and enhance learning and creativity. Our technology is designed to integrate seamlessly into daily working life. We democratize AI through high-performance, optimized, open-source and cutting-edge models, products and solutions. Our comprehensive AI platform is designed to meet enterprise needs, whether on-premises or in cloud environments. Our offerings include le Chat, the AI assistant for life and work. We are a dynamic, collaborative team passionate about AI and its potential to transform society. Our "
+    },
+    {
+      "job_uid": "64e8cd9ce5039875",
+      "source": "greenhouse",
+      "job_id": "64e8cd9ce5039875",
+      "company": "brex",
+      "title": "Software Engineer, Intern",
+      "location": "United States",
+      "url": "https://www.brex.com/careers/8434389002?gh_jid=8434389002",
+      "departments": [
+        "Engineering"
+      ],
+      "created_at": null,
+      "updated_at": "2026-02-25T08:13:40-05:00",
+      "scores": {
+        "hard_raw": 8.0,
+        "hard_norm": 0.6153846153846154,
+        "semantic_raw": 0.49547576904247326,
+        "semantic_norm": 0.6328136573199395,
+        "final": 0.6249705884490437
+      },
+      "signals": {
+        "must_hits": [
+          "python",
+          "sql",
+          "cloud"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "37b5ee7f17d6e71af97e7e1526bb79a6f30c0e8f",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Why join us Brex is the AI-powered spend platform. We help companies spend with confidence with integrated corporate cards, banking, and global payments, plus intuitive software for travel and expenses. Tens of thousands of companies from startups to enterprises — including DoorDash, Flexport, and Compass — use Brex to proactively control spend, reduce costs, and increase efficiency on a global scale. Working at Brex allows you to push your limits, challenge the status quo, and collaborate with some of the brightest minds in the industry. We’re committed to building a diverse team and inclusiv"
+    },
+    {
+      "job_uid": "eb8b621d4f36ad1b",
+      "source": "ashby",
+      "job_id": "eb8b621d4f36ad1b",
+      "company": "cohere",
+      "title": "Research Internship (Spring 2026)",
+      "location": "Canada",
+      "url": "https://jobs.ashbyhq.com/cohere/6e850172-a79d-4128-abd2-677731312857/application",
+      "departments": [
+        "Internships",
+        "Internships"
+      ],
+      "created_at": "2026-02-17T15:45:37.621+00:00",
+      "updated_at": "2026-02-17T15:45:37.621+00:00",
+      "scores": {
+        "hard_raw": 9.0,
+        "hard_norm": 0.6923076923076923,
+        "semantic_raw": 0.43811225891069466,
+        "semantic_norm": 0.5175629399155517,
+        "final": 0.596198078492015
+      },
+      "signals": {
+        "must_hits": [
+          "python",
+          "machine learning",
+          "llm"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "6552e4cb662b9f7fca49b68fe98f954d94001d2c",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Who are we? Our mission is to scale intelligence to serve humanity. We’re training and deploying frontier models for developers and enterprises who are building AI systems to power magical experiences like content generation, semantic search, RAG, and agents. We believe that our work is instrumental to the widespread adoption of AI. We obsess over what we build. Each one of us is responsible for contributing to increasing the capabilities of our models and the value they drive for our customers. We like to work hard and move fast to do what’s best for our customers. Cohere is a team of researc"
+    },
+    {
+      "job_uid": "ad6dbc9bfb107297",
+      "source": "ashby",
+      "job_id": "ad6dbc9bfb107297",
+      "company": "perplexity",
+      "title": "Internship - Search Backend Infra Engineer",
+      "location": "Belgrade",
+      "url": "https://jobs.ashbyhq.com/perplexity/be94e89b-89d5-4f2a-a58b-7929c8d97f92/application",
+      "departments": [
+        "Search",
+        "Search"
+      ],
+      "created_at": "2026-01-13T22:31:10.457+00:00",
+      "updated_at": "2026-01-13T22:31:10.457+00:00",
+      "scores": {
+        "hard_raw": 1.0,
+        "hard_norm": 0.07692307692307693,
+        "semantic_raw": 0.6782346963875663,
+        "semantic_norm": 1.0,
+        "final": 0.5846153846153846
+      },
+      "signals": {
+        "must_hits": [
+          "cloud"
+        ],
+        "nice_hits": [],
+        "neg_hits": []
+      },
+      "text_hash": "f04e3e8e3627070ed1a7d158dbabef852414942b",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Perplexity is looking for a Backend/Infrastructure Engineer Intern to support our small, high-impact team building the systems that power our search experience. You will work closely with experienced engineers to help design, build, and operate robust infrastructure and backend services that keep Perplexity fast, reliable, and scalable. Internship program: 12 - 24 weeks, full-time, in-person in the Belgrade office. Responsibilities: - Build and maintain infrastructure that supports high-performance search systems, with mentorship from senior engineers. - Design internal tools and automation to"
+    },
+    {
+      "job_uid": "f19a3619088e388f",
+      "source": "ashby",
+      "job_id": "f19a3619088e388f",
+      "company": "cohere",
+      "title": "Machine Learning Intern/Co-op  (Spring 2026)",
+      "location": "Canada",
+      "url": "https://jobs.ashbyhq.com/cohere/2c669d85-e3d7-43f1-aa43-be33e12ff8a5/application",
+      "departments": [
+        "Internships",
+        "Internships"
+      ],
+      "created_at": "2026-01-12T17:51:59.888+00:00",
+      "updated_at": "2026-01-12T17:51:59.888+00:00",
+      "scores": {
+        "hard_raw": 7.0,
+        "hard_norm": 0.5384615384615384,
+        "semantic_raw": 0.4901180857485451,
+        "semantic_norm": 0.622049378044975,
+        "final": 0.5844348502324286
+      },
+      "signals": {
+        "must_hits": [
+          "python",
+          "machine learning"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "ef6f1512808739b78fd0a2937cf22d379ae138ab",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Who are we? Our mission is to scale intelligence to serve humanity. We’re training and deploying frontier models for developers and enterprises who are building AI systems to power magical experiences like content generation, semantic search, RAG, and agents. We believe that our work is instrumental to the widespread adoption of AI. We obsess over what we build. Each one of us is responsible for contributing to increasing the capabilities of our models and the value they drive for our customers. We like to work hard and move fast to do what’s best for our customers. Cohere is a team of researc"
+    },
+    {
+      "job_uid": "a0f7d3885e4db7ec",
+      "source": "greenhouse",
+      "job_id": "a0f7d3885e4db7ec",
+      "company": "databricks",
+      "title": "Software Engineering Intern (2026)",
+      "location": "Belgrade, Serbia",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7640764002",
+      "departments": [
+        "University Recruiting"
+      ],
+      "created_at": null,
+      "updated_at": "2026-02-19T14:47:26-05:00",
+      "scores": {
+        "hard_raw": 5.0,
+        "hard_norm": 0.38461538461538464,
+        "semantic_raw": 0.5514842867845742,
+        "semantic_norm": 0.7453420196134025,
+        "final": 0.5830150338642945
+      },
+      "signals": {
+        "must_hits": [
+          "python",
+          "cloud"
+        ],
+        "nice_hits": [
+          "mlflow"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "afea5fd0e957549156b3346fbe88a58fc2876306",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "P-1340 At Databricks, we are passionate about helping data teams solve the world's toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. As a Software Engineering Intern, you will join a team of engineers to build features that contribute directly to the Databricks platform. We're hiring across all of our teams, including full stack, backend, infrastructure, sy"
+    },
+    {
+      "job_uid": "9d9966df40f9b563",
+      "source": "lever",
+      "job_id": "9d9966df40f9b563",
+      "company": "zoox",
+      "title": "Test Automation & QA Systems Intern",
+      "location": "Foster City, CA",
+      "url": "https://jobs.lever.co/zoox/3a7c0c4b-4f23-4136-99a9-df64b341a0fd",
+      "departments": [
+        "Software"
+      ],
+      "created_at": 1762560588041,
+      "updated_at": 1762560588041,
+      "scores": {
+        "hard_raw": 6.0,
+        "hard_norm": 0.46153846153846156,
+        "semantic_raw": 0.5171116590494707,
+        "semantic_norm": 0.6762829610508401,
+        "final": 0.5796479362702698
+      },
+      "signals": {
+        "must_hits": [
+          "machine learning",
+          "llm"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "2d7507cbbdb3f52e91c3cf8b401642afe4a5c771",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Zoox’s internship program provides hands-on experiences with state of the art technology, mentorship from some of the industry's brightest minds, and the opportunity to play a part in our success. Internships at Zoox are reserved for those who demonstrate outstanding academic performance, activities outside their course work, aptitude, curiosity, and a passion for Zoox's mission. As a Test Automation or QA Systems Intern, you may be assigned to one of the following teams: On the Autonomy Systems Test team, you will oversee the development of extensive test plans, develop standardized simulated"
+    },
+    {
+      "job_uid": "7ae9985ca2b8ff24",
+      "source": "greenhouse",
+      "job_id": "7ae9985ca2b8ff24",
+      "company": "scaleai",
+      "title": "Machine Learning Research Intern (Summer 2026)",
+      "location": "San Francisco, CA",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4606060005",
+      "departments": [
+        "University"
+      ],
+      "created_at": null,
+      "updated_at": "2026-02-12T18:47:24-05:00",
+      "scores": {
+        "hard_raw": 10.0,
+        "hard_norm": 0.7692307692307693,
+        "semantic_raw": 0.3915490508075613,
+        "semantic_norm": 0.42401142735629854,
+        "final": 0.5793601311998104
+      },
+      "signals": {
+        "must_hits": [
+          "python",
+          "data pipeline",
+          "machine learning",
+          "llm"
+        ],
+        "nice_hits": [],
+        "neg_hits": []
+      },
+      "text_hash": "5cd14b0d4fb263c1fe8d40d387b38271075c5811",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=4, nice_hits=0",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "At Scale , our Machine Learning Research team is focused on building the foundation for the next generation of AI systems—pushing the boundaries of what’s possible with frontier models while ensuring safety, reliability, and alignment at every step. Our work spans across generative AI, advanced post-training methods, scalable oversight, synthetic data pipelines, red teaming, and evaluation science. We are developing a large-scale hybrid human-machine system to power machine learning pipelines for dozens of industry-leading customers. These models and systems form the backbone of Scale’s long-t"
+    },
+    {
+      "job_uid": "0df98beef0fc10f8",
+      "source": "greenhouse",
+      "job_id": "0df98beef0fc10f8",
+      "company": "stripe",
+      "title": "Data Analyst, Intern (Master's degree)",
+      "location": "Toronto, Ontario, Canada",
+      "url": "https://stripe.com/jobs/search?gh_jid=7285986",
+      "departments": [
+        "5112 General University"
+      ],
+      "created_at": null,
+      "updated_at": "2026-02-23T17:58:19-05:00",
+      "scores": {
+        "hard_raw": 10.0,
+        "hard_norm": 0.7692307692307693,
+        "semantic_raw": 0.3883047997947624,
+        "semantic_norm": 0.41749330711215665,
+        "final": 0.5757751650655324
+      },
+      "signals": {
+        "must_hits": [
+          "python",
+          "data pipeline",
+          "machine learning",
+          "sql"
+        ],
+        "nice_hits": [],
+        "neg_hits": []
+      },
+      "text_hash": "a7ca264d946a84d653e696e840ff1c6150b7698d",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=4, nice_hits=0",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. About the team Data Science at Stripe is a vibrant community where data analysts"
+    },
+    {
+      "job_uid": "c742d96a7ece3898",
+      "source": "greenhouse",
+      "job_id": "c742d96a7ece3898",
+      "company": "brex",
+      "title": "Software Engineer, Internship - 2026",
+      "location": "São Paulo, São Paulo, Brazil",
+      "url": "https://www.brex.com/careers/8434385002?gh_jid=8434385002",
+      "departments": [
+        "Engineering"
+      ],
+      "created_at": null,
+      "updated_at": "2026-02-24T09:33:37-05:00",
+      "scores": {
+        "hard_raw": 8.0,
+        "hard_norm": 0.6153846153846154,
+        "semantic_raw": 0.4507832795843909,
+        "semantic_norm": 0.5430206606780109,
+        "final": 0.575584440295983
+      },
+      "signals": {
+        "must_hits": [
+          "python",
+          "sql",
+          "cloud"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "c1ea63b9e7b440f042c4d0bbaf79882398c93399",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Why join us Brex is the AI-powered spend platform. We help companies spend with confidence with integrated corporate cards, banking, and global payments, plus intuitive software for travel and expenses. Tens of thousands of companies from startups to enterprises — including DoorDash, Flexport, and Compass — use Brex to proactively control spend, reduce costs, and increase efficiency on a global scale. Working at Brex allows you to push your limits, challenge the status quo, and collaborate with some of the brightest minds in the industry. We’re committed to building a diverse team and inclusiv"
+    },
     {
       "job_uid": "cdefeb135c230613",
       "source": "ashby",
@@ -29,10 +608,10 @@
       "updated_at": "2026-01-15T18:24:30.724+00:00",
       "scores": {
         "hard_raw": 5.0,
-        "hard_norm": 0.4,
-        "semantic_raw": 0.4765621111723254,
-        "semantic_norm": 1.0,
-        "final": 0.7300000000000001
+        "hard_norm": 0.38461538461538464,
+        "semantic_raw": 0.5446384277718836,
+        "semantic_norm": 0.7315878026791639,
+        "final": 0.5754502145504633
       },
       "signals": {
         "must_hits": [
@@ -51,25 +630,528 @@
       "jd_excerpt": "About the Team The Applied team works across research, engineering, product, and design to bring OpenAI’s technology to the world. We seek to learn from deployment and broadly distribute the benefits of AI, while ensuring that this powerful tool is used responsibly and safely. We aim to make our innovative tools globally accessible, transcending geographic, economic, or platform barriers. Our commitment is to facilitate the use of AI to enhance lives, fostered by rigorous insights into how people use our products. About the Role We are seeking Software Engineering Interns (Emerging Talent) to "
     },
     {
-      "job_uid": "ebbec7374ccd8600",
+      "job_uid": "b9b9d05bfd50552a",
       "source": "ashby",
-      "job_id": "ebbec7374ccd8600",
-      "company": "ramp",
-      "title": "Software Engineer Internship, Backend",
-      "location": "New York, NY (HQ)",
-      "url": "https://jobs.ashbyhq.com/ramp/c50962b5-c641-4d44-bbe5-7f1d6e7ce51f/application",
+      "job_id": "b9b9d05bfd50552a",
+      "company": "cohere",
+      "title": "Software Engineer Intern (Spring 2026)",
+      "location": "Canada",
+      "url": "https://jobs.ashbyhq.com/cohere/66c98ca3-334b-4a6a-a27c-5807b3686121/application",
       "departments": [
-        "Engineering",
-        "Emerging Talent - SWE"
+        "Internships",
+        "Internships"
       ],
-      "created_at": "2025-12-19T20:06:01.281+00:00",
-      "updated_at": "2025-12-19T20:06:01.281+00:00",
+      "created_at": "2026-01-12T17:55:55.103+00:00",
+      "updated_at": "2026-01-12T17:55:55.103+00:00",
+      "scores": {
+        "hard_raw": 7.0,
+        "hard_norm": 0.5384615384615384,
+        "semantic_raw": 0.47743511199903427,
+        "semantic_norm": 0.5965676420059112,
+        "final": 0.5704198954109435
+      },
+      "signals": {
+        "must_hits": [
+          "data pipeline",
+          "machine learning"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "ad6541fd65c397c13354a92c342bed8733c737b1",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Who are we? Our mission is to scale intelligence to serve humanity. We’re training and deploying frontier models for developers and enterprises who are building AI systems to power magical experiences like content generation, semantic search, RAG, and agents. We believe that our work is instrumental to the widespread adoption of AI. We obsess over what we build. Each one of us is responsible for contributing to increasing the capabilities of our models and the value they drive for our customers. We like to work hard and move fast to do what’s best for our customers. Cohere is a team of researc"
+    },
+    {
+      "job_uid": "76d4eab833c7d415",
+      "source": "ashby",
+      "job_id": "76d4eab833c7d415",
+      "company": "cohere",
+      "title": "Intern of Technical Staff - Sovereign AI",
+      "location": "Toronto",
+      "url": "https://jobs.ashbyhq.com/cohere/79e088a4-f232-4290-8d56-9c2432b8e661/application",
+      "departments": [
+        "Internships",
+        "Internships"
+      ],
+      "created_at": "2026-01-14T23:47:43.736+00:00",
+      "updated_at": "2026-01-14T23:47:43.736+00:00",
+      "scores": {
+        "hard_raw": 7.0,
+        "hard_norm": 0.5384615384615384,
+        "semantic_raw": 0.4719555675978709,
+        "semantic_norm": 0.5855585279919236,
+        "final": 0.5643648827032504
+      },
+      "signals": {
+        "must_hits": [
+          "python",
+          "machine learning"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "8bf7afaaa3a9b626a12b278656c24bbb8545c562",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Who are we? Our mission is to scale intelligence to serve humanity. We’re training and deploying frontier models for developers and enterprises who are building AI systems to power magical experiences like content generation, semantic search, RAG, and agents. We believe that our work is instrumental to the widespread adoption of AI. We obsess over what we build. Each one of us is responsible for contributing to increasing the capabilities of our models and the value they drive for our customers. We like to work hard and move fast to do what’s best for our customers. Cohere is a team of researc"
+    },
+    {
+      "job_uid": "5917dcfcdfb6ef21",
+      "source": "greenhouse",
+      "job_id": "5917dcfcdfb6ef21",
+      "company": "cloudflare",
+      "title": "Data Engineer Intern (Summer 2026)",
+      "location": "In-Office",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7374706?gh_jid=7374706",
+      "departments": [
+        "Business Intelligence"
+      ],
+      "created_at": null,
+      "updated_at": "2026-02-06T10:04:45-05:00",
+      "scores": {
+        "hard_raw": 10.0,
+        "hard_norm": 0.7692307692307693,
+        "semantic_raw": 0.37494560330744464,
+        "semantic_norm": 0.39065295205765305,
+        "final": 0.5610129697855554
+      },
+      "signals": {
+        "must_hits": [
+          "python",
+          "data pipeline",
+          "sql",
+          "docker",
+          "cloud"
+        ],
+        "nice_hits": [],
+        "neg_hits": []
+      },
+      "text_hash": "bb48fbdfb6ed231bf8c54489cc999e153d985193",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=5, nice_hits=0",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "About Us At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see signifi"
+    },
+    {
+      "job_uid": "5936ffed28038e5d",
+      "source": "greenhouse",
+      "job_id": "5936ffed28038e5d",
+      "company": "stripe",
+      "title": "PhD Machine Learning Engineer, Intern",
+      "location": "San Francisco, New York City, Seattle",
+      "url": "https://stripe.com/jobs/search?gh_jid=7216664",
+      "departments": [
+        "5112 General University"
+      ],
+      "created_at": null,
+      "updated_at": "2026-02-23T17:58:19-05:00",
       "scores": {
         "hard_raw": 8.0,
-        "hard_norm": 1.0,
-        "semantic_raw": 0.16573875640249108,
-        "semantic_norm": 0.0,
-        "final": 0.45
+        "hard_norm": 0.6153846153846154,
+        "semantic_raw": 0.4216968072467883,
+        "semantic_norm": 0.4845821725874,
+        "final": 0.5434432718461469
+      },
+      "signals": {
+        "must_hits": [
+          "python",
+          "machine learning",
+          "git"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "a03354be29cb2c91a80e9131f92d4251e6d276b3",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. What you’ll do About the internship Stripe's Applied ML, Data Science, Risk, and"
+    },
+    {
+      "job_uid": "f8130720f1e526c2",
+      "source": "greenhouse",
+      "job_id": "f8130720f1e526c2",
+      "company": "cloudflare",
+      "title": "Research Engineer Intern (Summer 2026)",
+      "location": "In-Office",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7358525?gh_jid=7358525",
+      "departments": [
+        "Technology Research"
+      ],
+      "created_at": null,
+      "updated_at": "2026-02-06T10:04:45-05:00",
+      "scores": {
+        "hard_raw": 9.0,
+        "hard_norm": 0.6923076923076923,
+        "semantic_raw": 0.39011642336806385,
+        "semantic_norm": 0.42113309338064064,
+        "final": 0.543161662897814
+      },
+      "signals": {
+        "must_hits": [
+          "python",
+          "machine learning",
+          "git",
+          "cloud"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "52470f2772959cc435ec575546a0c7d91a387e32",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=4, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "About Us At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see signifi"
+    },
+    {
+      "job_uid": "c43b8e2e157b980c",
+      "source": "lever",
+      "job_id": "c43b8e2e157b980c",
+      "company": "mistral",
+      "title": "Finance Operations & Systems (Internship)",
+      "location": "Paris",
+      "url": "https://jobs.lever.co/mistral/d1e53ff6-6df7-4645-9524-32dca5d72153",
+      "departments": [
+        "Engineering & Infra"
+      ],
+      "created_at": 1771602615525,
+      "updated_at": 1771602615525,
+      "scores": {
+        "hard_raw": 7.0,
+        "hard_norm": 0.5384615384615384,
+        "semantic_raw": 0.4522069962143546,
+        "semantic_norm": 0.5458810916838356,
+        "final": 0.542542292733802
+      },
+      "signals": {
+        "must_hits": [
+          "python",
+          "sql"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "8f7f3a60d06c7ab6150a4d507226f2af603a2ff3",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "About Mistral At Mistral AI, we believe in the power of AI to simplify tasks, save time, and enhance learning and creativity. Our technology is designed to integrate seamlessly into daily working life. We democratize AI through high-performance, optimized, open-source and cutting-edge models, products and solutions. Our comprehensive AI platform is designed to meet enterprise as well as personal needs. Our offerings include Le Chat, AI Studio, Mistral Code and Mistral Compute — a suite that brings frontier intelligence to end-users. We are a dynamic, collaborative team passionate about AI and "
+    },
+    {
+      "job_uid": "84bc1484e1b4497d",
+      "source": "greenhouse",
+      "job_id": "84bc1484e1b4497d",
+      "company": "cloudflare",
+      "title": "Research Engineer Intern (Summer 2026)",
+      "location": "In-Office",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7359147?gh_jid=7359147",
+      "departments": [
+        "Technology Research"
+      ],
+      "created_at": null,
+      "updated_at": "2026-02-06T10:04:45-05:00",
+      "scores": {
+        "hard_raw": 9.0,
+        "hard_norm": 0.6923076923076923,
+        "semantic_raw": 0.3650697687306192,
+        "semantic_norm": 0.3708111219930098,
+        "final": 0.5154845786346169
+      },
+      "signals": {
+        "must_hits": [
+          "python",
+          "machine learning",
+          "git",
+          "cloud"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "39c0ea94ebd055a6b201cbefde606594e0853f2a",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=4, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "About Us At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see signifi"
+    },
+    {
+      "job_uid": "f6b7e713d98514d0",
+      "source": "ashby",
+      "job_id": "f6b7e713d98514d0",
+      "company": "notion",
+      "title": "Software Engineer, AI Agentic Search, Early Career",
+      "location": "Hyderabad, India",
+      "url": "https://jobs.ashbyhq.com/notion/c7b208a6-d848-4e71-8e2f-33b3e44939dd/application",
+      "departments": [
+        "Engineering",
+        "Engineering"
+      ],
+      "created_at": "2026-01-19T08:17:04.620+00:00",
+      "updated_at": "2026-01-19T08:17:04.620+00:00",
+      "scores": {
+        "hard_raw": 6.0,
+        "hard_norm": 0.46153846153846156,
+        "semantic_raw": 0.4571323394770819,
+        "semantic_norm": 0.5557767438708818,
+        "final": 0.5133695168212927
+      },
+      "signals": {
+        "must_hits": [
+          "data pipeline",
+          "git"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "e7aa9a235c6d31584cfbb164c8dc423ed4da2a5b",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "ABOUT US: Notion helps you build beautiful tools for your life’s work. In today's world of endless apps and tabs, Notion provides one place for teams to get everything done, seamlessly connecting docs, notes, projects, calendar, and email—with AI built in to find answers and automate work. Millions of users, from individuals to large organizations like Toyota, Figma, and OpenAI, love Notion for its flexibility and choose it because it helps them save time and money. In-person collaboration is essential to Notion's culture. We require all team members to work from our offices on Mondays, Tuesda"
+    },
+    {
+      "job_uid": "fda9b2f87cdc6373",
+      "source": "lever",
+      "job_id": "fda9b2f87cdc6373",
+      "company": "zoox",
+      "title": "Machine Learning Engineer Intern, Perception",
+      "location": "Foster City, CA",
+      "url": "https://jobs.lever.co/zoox/9b3ab3ee-b130-49b6-8413-7d8fd9c33ed3",
+      "departments": [
+        "Software"
+      ],
+      "created_at": 1763505146194,
+      "updated_at": 1763505146194,
+      "scores": {
+        "hard_raw": 6.0,
+        "hard_norm": 0.46153846153846156,
+        "semantic_raw": 0.45683866739227386,
+        "semantic_norm": 0.5551867186374535,
+        "final": 0.5130450029429071
+      },
+      "signals": {
+        "must_hits": [
+          "machine learning",
+          "llm"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "26445d4c35cc351f3d8087bbbc2dcc65275b89f6",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Zoox’s internship program provides hands-on experiences with state of the art technology, mentorship from some of the industry's brightest minds, and the opportunity to play a part in our success. Internships at Zoox are reserved for those who demonstrate outstanding academic performance, activities outside their course work, aptitude, curiosity, and a passion for Zoox's mission. Perception at Zoox is the \"Retina of Zoox\" — the system responsible for understanding the world around the autonomous vehicle. As an MLE intern working on Perception, you may be assigned to one of the following teams:"
+    },
+    {
+      "job_uid": "204693732bd8fb17",
+      "source": "greenhouse",
+      "job_id": "204693732bd8fb17",
+      "company": "cloudflare",
+      "title": "Research Engineer Intern (Summer 2026)",
+      "location": "In-Office",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7359136?gh_jid=7359136",
+      "departments": [
+        "Technology Research"
+      ],
+      "created_at": null,
+      "updated_at": "2026-02-06T10:04:45-05:00",
+      "scores": {
+        "hard_raw": 9.0,
+        "hard_norm": 0.6923076923076923,
+        "semantic_raw": 0.3621343076225474,
+        "semantic_norm": 0.3649134006394741,
+        "final": 0.5122408318901723
+      },
+      "signals": {
+        "must_hits": [
+          "python",
+          "machine learning",
+          "git",
+          "cloud"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "1a5bc38f34475b8073af28e5e74e3d4274b75abd",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=4, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "About Us At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see signifi"
+    },
+    {
+      "job_uid": "613a9e51b62aa884",
+      "source": "ashby",
+      "job_id": "613a9e51b62aa884",
+      "company": "serval",
+      "title": "Software Engineer Intern",
+      "location": "San Francisco",
+      "url": "https://jobs.ashbyhq.com/Serval/d7fb089c-db8a-4877-a5f3-73a09e67f54b/application",
+      "departments": [
+        "Engineering",
+        "Engineering"
+      ],
+      "created_at": "2026-02-16T22:21:29.641+00:00",
+      "updated_at": "2026-02-16T22:21:29.641+00:00",
+      "scores": {
+        "hard_raw": 8.0,
+        "hard_norm": 0.6153846153846154,
+        "semantic_raw": 0.3924525082107434,
+        "semantic_norm": 0.4258265902293836,
+        "final": 0.5111277015492379
+      },
+      "signals": {
+        "must_hits": [
+          "python",
+          "cloud"
+        ],
+        "nice_hits": [
+          "langchain",
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "6ff013da1c7ae516fa08f120d568c72c83305ee2",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=2",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "WHO WE ARE Serval http://serval.com is an AI-native automation platform transforming how enterprises operate. We build intelligent agents that understand real-world workflows and execute them end-to-end — replacing manual processes and rigid legacy systems with adaptive, learning software. Founded in early 2024, Serval is already trusted by companies like General Motors, Notion, Perplexity, Vercel, Mercor, LangChain, and Verkada to automate high-volume, high-friction operational work across their organizations. At the core of Serval is an agentic AI platform that turns natural language into pr"
+    },
+    {
+      "job_uid": "061f14f965f276c7",
+      "source": "lever",
+      "job_id": "061f14f965f276c7",
+      "company": "zoox",
+      "title": "Machine Learning Engineer Intern, Simulation",
+      "location": "Foster City, CA",
+      "url": "https://jobs.lever.co/zoox/f24a2d0c-bda7-48ff-9c83-9a96900128b7",
+      "departments": [
+        "Software"
+      ],
+      "created_at": 1763504799414,
+      "updated_at": 1763504799414,
+      "scores": {
+        "hard_raw": 6.0,
+        "hard_norm": 0.46153846153846156,
+        "semantic_raw": 0.4478282928462318,
+        "semantic_norm": 0.5370837098060903,
+        "final": 0.5030883480856574
+      },
+      "signals": {
+        "must_hits": [
+          "machine learning",
+          "llm"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "d9633f1381b1897070da4cced0ef84c8b3983edd",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Zoox’s internship program provides hands-on experiences with state of the art technology, mentorship from some of the industry's brightest minds, and the opportunity to play a part in our success. Internships at Zoox are reserved for those who demonstrate outstanding academic performance, activities outside their course work, aptitude, curiosity, and a passion for Zoox's mission. The Simulation team creates high fidelity synthetic data for training and testing AV AI, as well as real time sensor data for hardware-in-the-loop simulation. Zoox vehicles are deployed in many cities across the US, a"
+    },
+    {
+      "job_uid": "a6dda5ba4f8f3123",
+      "source": "lever",
+      "job_id": "a6dda5ba4f8f3123",
+      "company": "zoox",
+      "title": "Data Engineer Intern",
+      "location": "Foster City, CA",
+      "url": "https://jobs.lever.co/zoox/b9fb6f1d-31db-4a79-b70b-9396bf01b117",
+      "departments": [
+        "Software"
+      ],
+      "created_at": 1762563242097,
+      "updated_at": 1762563242097,
+      "scores": {
+        "hard_raw": 3.0,
+        "hard_norm": 0.23076923076923078,
+        "semantic_raw": 0.538620471953807,
+        "semantic_norm": 0.719496950432711,
+        "final": 0.49956947658414497
+      },
+      "signals": {
+        "must_hits": [
+          "data pipeline"
+        ],
+        "nice_hits": [],
+        "neg_hits": []
+      },
+      "text_hash": "a8121c073c2ac69113734122abca51e7451728c3",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Zoox’s internship program provides hands-on experiences with state of the art technology, mentorship from some of the industry's brightest minds, and the opportunity to play a part in our success. Internships at Zoox are reserved for those who demonstrate outstanding academic performance, activities outside their course work, aptitude, curiosity, and a passion for Zoox's mission. As a Data Engineer Intern, you may be assigned to one of the following teams: On the Autonomy Software V&V team, you will build data pipelines and infrastructure to support autonomy development. Develop ETL pipelines "
+    },
+    {
+      "job_uid": "c00d91b28cf9c131",
+      "source": "greenhouse",
+      "job_id": "c00d91b28cf9c131",
+      "company": "cloudflare",
+      "title": "Internal Audit Intern (Summer 2026)",
+      "location": "In-Office",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7652742?gh_jid=7652742",
+      "departments": [
+        "Accounting and Finance"
+      ],
+      "created_at": null,
+      "updated_at": "2026-02-25T13:50:18-05:00",
+      "scores": {
+        "hard_raw": 8.0,
+        "hard_norm": 0.6153846153846154,
+        "semantic_raw": 0.37868762016258517,
+        "semantic_norm": 0.3981711483134875,
+        "final": 0.4959172084954951
       },
       "signals": {
         "must_hits": [
@@ -82,8 +1164,468 @@
         ],
         "neg_hits": []
       },
-      "text_hash": "94ff9831d42eca3e996777105dd2d28000394b7e",
+      "text_hash": "2c894c3a8530b1a7fdeceaa7e9e161952818ccf6",
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "About Us At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see signifi"
+    },
+    {
+      "job_uid": "350a88175f7fa454",
+      "source": "greenhouse",
+      "job_id": "350a88175f7fa454",
+      "company": "databricks",
+      "title": "Legal Intern",
+      "location": "Mountain View, California; San Francisco, California",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8377581002",
+      "departments": [
+        "Legal"
+      ],
+      "created_at": null,
+      "updated_at": "2026-02-25T14:16:20-05:00",
+      "scores": {
+        "hard_raw": 4.0,
+        "hard_norm": 0.3076923076923077,
+        "semantic_raw": 0.4998748302380111,
+        "semantic_norm": 0.6416519407082267,
+        "final": 0.4913701058510632
+      },
+      "signals": {
+        "must_hits": [
+          "cloud"
+        ],
+        "nice_hits": [
+          "rag",
+          "mlflow"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "cceb9c47fac719f161a36511ad7aee76c9dd4b03",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=2",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "GAQ227R1 Work at the nexus of law and innovation with a recognized global leader in Data and AI.&nbsp; As a Databricks Legal Intern, you won’t just observe, you’ll jump straight into novel legal issues working alongside our high-impact global legal team. You will gain first-hand experience on how an in-house legal department drives business strategy and tackles complex challenges on a daily basis, and navigate cutting-edge legal landscape of generative AI, cloud computing, and big data.&nbsp; Databricks will encourage you to get out of your comfort zone and provide the resources, mentoring, an"
+    },
+    {
+      "job_uid": "5e8c47ef59e71207",
+      "source": "lever",
+      "job_id": "5e8c47ef59e71207",
+      "company": "waabi",
+      "title": "Systems Engineer Internship/Co-op, Summer 2026",
+      "location": "Toronto, ON",
+      "url": "https://jobs.lever.co/waabi/9873fd9d-285f-4bf5-ac74-f69547615bc9",
+      "departments": [
+        "Safety, Systems Engineering, & Security"
+      ],
+      "created_at": 1768516937929,
+      "updated_at": 1768516937929,
+      "scores": {
+        "hard_raw": 5.0,
+        "hard_norm": 0.38461538461538464,
+        "semantic_raw": 0.46728277011364283,
+        "semantic_norm": 0.5761702729652433,
+        "final": 0.4899705732078069
+      },
+      "signals": {
+        "must_hits": [
+          "python",
+          "llm"
+        ],
+        "nice_hits": [],
+        "neg_hits": []
+      },
+      "text_hash": "0d3f984f821ff872b4dd9068a338f60837695d09",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Waabi, founded by AI visionary Raquel Urtasun, is the leader in Physical AI. With a world-class team, we're unlocking the next era of autonomous transportation with technology that's powering commercial autonomous trucks and robotaxis. Waabi is backed by and partners with world leaders in AI, automotive, logistics, and deep tech. With offices in Toronto, San Francisco, Dallas, and Pittsburgh, Waabi is growing quickly and looking for diverse, innovative and collaborative candidates who want to impact the world in a positive way. To learn more visit: www.waabi.ai Application Instructions: - To b"
+    },
+    {
+      "job_uid": "68eb4c2788ede144",
+      "source": "lever",
+      "job_id": "68eb4c2788ede144",
+      "company": "waabi",
+      "title": "Safety Methodologies Internship/Co-op, Summer 2026",
+      "location": "Toronto, ON",
+      "url": "https://jobs.lever.co/waabi/871bdec0-6347-4878-9e12-36d5d8d0615e",
+      "departments": [
+        "Safety, Systems Engineering, & Security"
+      ],
+      "created_at": 1768514185493,
+      "updated_at": 1768514185493,
+      "scores": {
+        "hard_raw": 8.0,
+        "hard_norm": 0.6153846153846154,
+        "semantic_raw": 0.3704999906118974,
+        "semantic_norm": 0.3817211406798826,
+        "final": 0.4868697042970124
+      },
+      "signals": {
+        "must_hits": [
+          "python",
+          "data pipeline",
+          "sql"
+        ],
+        "nice_hits": [],
+        "neg_hits": []
+      },
+      "text_hash": "172f2546d3cca2de0ec474c1363211b8dff67ce4",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=0",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Waabi, founded by AI visionary Raquel Urtasun, is the leader in Physical AI. With a world-class team, we're unlocking the next era of autonomous transportation with technology that's powering commercial autonomous trucks and robotaxis. Waabi is backed by and partners with world leaders in AI, automotive, logistics, and deep tech. With offices in Toronto, San Francisco, Dallas, and Pittsburgh, Waabi is growing quickly and looking for diverse, innovative and collaborative candidates who want to impact the world in a positive way. To learn more visit: www.waabi.ai At the heart of our mission is a"
+    },
+    {
+      "job_uid": "9de287370f90d99a",
+      "source": "greenhouse",
+      "job_id": "9de287370f90d99a",
+      "company": "databricks",
+      "title": "MBA Intern - Technical Program Management (TPM)",
+      "location": "Mountain View, California; San Francisco, California",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8399537002",
+      "departments": [
+        "University Recruiting"
+      ],
+      "created_at": null,
+      "updated_at": "2026-02-25T14:23:25-05:00",
+      "scores": {
+        "hard_raw": 8.0,
+        "hard_norm": 0.6153846153846154,
+        "semantic_raw": 0.35671383142435636,
+        "semantic_norm": 0.3540229622914755,
+        "final": 0.47163570618338846
+      },
+      "signals": {
+        "must_hits": [
+          "python",
+          "sql"
+        ],
+        "nice_hits": [
+          "rag",
+          "mlflow"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "9f644998fa2ce6b582c49feaa719daab5ac96ab7",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=2",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "RDQ227R1171 At Databricks, we are passionate about helping data teams solve the world's toughest problems - from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. As a TPM Intern, you will be the primary driver behind the successful delivery of complex technical initiatives. You will navigate the lifecycle of a program - from initial scoping and requirement gathering to final launc"
+    },
+    {
+      "job_uid": "3a22be8e7f95b798",
+      "source": "greenhouse",
+      "job_id": "3a22be8e7f95b798",
+      "company": "anthropic",
+      "title": "Regional Head of Early Career Associates, Applied AI",
+      "location": "San Francisco, CA",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4947472008",
+      "departments": [
+        "Sales"
+      ],
+      "created_at": null,
+      "updated_at": "2026-02-20T18:33:18-05:00",
+      "scores": {
+        "hard_raw": 1.0,
+        "hard_norm": 0.07692307692307693,
+        "semantic_raw": 0.575842985610742,
+        "semantic_norm": 0.7942817987221783,
+        "final": 0.47147037391258273
+      },
+      "signals": {
+        "must_hits": [
+          "git"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": [
+          "5+ years"
+        ]
+      },
+      "text_hash": "778c734fec934fbcff84f61beeae203acfe3abbe",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "About Anthropic Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems. About the Role You will design and lead a foundational talent pipeline that develops early-career professionals across Solutions Architecture, Pre-Sales AI Engineering, and Forward Deployed Engineering – as part of our Applied AI associate function. You’ll build"
+    },
+    {
+      "job_uid": "7e0ba771e2f17f8c",
+      "source": "greenhouse",
+      "job_id": "7e0ba771e2f17f8c",
+      "company": "coinbase",
+      "title": "Internal Audit Intern",
+      "location": "Hybrid - Luxembourg",
+      "url": "https://www.coinbase.com/careers/positions/7322937?gh_jid=7322937",
+      "departments": [
+        "Internships & Emerging Talent Positions"
+      ],
+      "created_at": null,
+      "updated_at": "2026-02-20T15:03:20-05:00",
+      "scores": {
+        "hard_raw": 9.0,
+        "hard_norm": 0.6923076923076923,
+        "semantic_raw": 0.31691129904425036,
+        "semantic_norm": 0.27405452241078365,
+        "final": 0.46226844886439256
+      },
+      "signals": {
+        "must_hits": [
+          "python",
+          "machine learning",
+          "sql"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "2e0acfe0d537ada40a7d1267b700cf404e306f0d",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Ready to be pushed beyond what you think you’re capable of? At Coinbase, our mission is to increase economic freedom in the world. It’s a massive, ambitious opportunity that demands the best of us, every day, as we build the emerging onchain platform — and with it, the future global financial system. To achieve our mission, we’re seeking a very specific candidate. We want someone who is passionate about our mission and who believes in the power of crypto and blockchain technology to update the financial system. We want someone who is eager to leave their mark on the world, who relishes the pre"
+    },
+    {
+      "job_uid": "31781f9d666f1306",
+      "source": "greenhouse",
+      "job_id": "31781f9d666f1306",
+      "company": "coinbase",
+      "title": "Internal Audit Intern",
+      "location": "Hybrid - London, U.K.",
+      "url": "https://www.coinbase.com/careers/positions/7322939?gh_jid=7322939",
+      "departments": [
+        "Internships & Emerging Talent Positions"
+      ],
+      "created_at": null,
+      "updated_at": "2026-02-20T15:03:20-05:00",
+      "scores": {
+        "hard_raw": 9.0,
+        "hard_norm": 0.6923076923076923,
+        "semantic_raw": 0.31691129904425036,
+        "semantic_norm": 0.27405452241078365,
+        "final": 0.46226844886439256
+      },
+      "signals": {
+        "must_hits": [
+          "python",
+          "machine learning",
+          "sql"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "174333f1d7f21716c95e45d4cc43b7884b5a7b39",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Ready to be pushed beyond what you think you’re capable of? At Coinbase, our mission is to increase economic freedom in the world. It’s a massive, ambitious opportunity that demands the best of us, every day, as we build the emerging onchain platform — and with it, the future global financial system. To achieve our mission, we’re seeking a very specific candidate. We want someone who is passionate about our mission and who believes in the power of crypto and blockchain technology to update the financial system. We want someone who is eager to leave their mark on the world, who relishes the pre"
+    },
+    {
+      "job_uid": "e7c78b9db66d7e52",
+      "source": "greenhouse",
+      "job_id": "e7c78b9db66d7e52",
+      "company": "scaleai",
+      "title": "Technical Advisor Intern - GenAI (Winter/Spring 2026)",
+      "location": "San Francisco, CA",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4611533005",
+      "departments": [
+        "University"
+      ],
+      "created_at": null,
+      "updated_at": "2026-02-12T18:47:24-05:00",
+      "scores": {
+        "hard_raw": 2.0,
+        "hard_norm": 0.15384615384615385,
+        "semantic_raw": 0.5330088138574992,
+        "semantic_norm": 0.7082224029034215,
+        "final": 0.45875309082765114
+      },
+      "signals": {
+        "must_hits": [],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "0a76d15cc71163014f54a01580d4568eec4bd7d5",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "About the Program The Scale AI Technical Advisor Internship is a summer semester opportunity designed for university students, ideally with experience in competitive coding, mathematics, and STEM disciplines. Interns immerse themselves in real-world projects that push the boundaries of generative AI, gaining firsthand exposure to cutting-edge research and technology. Throughout the program, you’ll have the freedom to work flexibly around your academic schedule, the chance to connect directly with AI experts, and the support of a team that values your contributions and professional growth. What"
+    },
+    {
+      "job_uid": "40436a0e8ed94e54",
+      "source": "greenhouse",
+      "job_id": "40436a0e8ed94e54",
+      "company": "stripe",
+      "title": "PhD Data Scientist, Intern",
+      "location": "Toronto, Ontario, Canada",
+      "url": "https://stripe.com/jobs/search?gh_jid=7285974",
+      "departments": [
+        "5112 General University"
+      ],
+      "created_at": null,
+      "updated_at": "2026-02-23T17:58:19-05:00",
+      "scores": {
+        "hard_raw": 10.0,
+        "hard_norm": 0.7692307692307693,
+        "semantic_raw": 0.2789721953253457,
+        "semantic_norm": 0.1978299519261937,
+        "final": 0.45496031971325274
+      },
+      "signals": {
+        "must_hits": [
+          "python",
+          "data pipeline",
+          "machine learning",
+          "sql"
+        ],
+        "nice_hits": [],
+        "neg_hits": []
+      },
+      "text_hash": "84e6015f50a7fddcf8a2a8097788a3ede0c2320e",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=4, nice_hits=0",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. About the team Our Data Science team partners deeply with teams across Stripe to"
+    },
+    {
+      "job_uid": "459f04adfbd53983",
+      "source": "greenhouse",
+      "job_id": "459f04adfbd53983",
+      "company": "databricks",
+      "title": "MBA Intern - Corporate Operations (Corp Ops)",
+      "location": "San Francisco, California",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8402603002",
+      "departments": [
+        "Corporate Operations"
+      ],
+      "created_at": null,
+      "updated_at": "2026-02-25T14:24:49-05:00",
+      "scores": {
+        "hard_raw": 5.0,
+        "hard_norm": 0.38461538461538464,
+        "semantic_raw": 0.43260559439615853,
+        "semantic_norm": 0.5064993380831737,
+        "final": 0.4516515590226686
+      },
+      "signals": {
+        "must_hits": [
+          "sql"
+        ],
+        "nice_hits": [
+          "rag",
+          "mlflow"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "37ce97d51c105a2bbf4c2d597195110db5ce961d",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=2",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "At Databricks, we are passionate about helping data teams solve the world's toughest problems - from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. As a Corporate Operations (Corp Ops) MBA Intern, you will sit at the strategic nexus of our organization, connecting the dots across a diverse array of functions including Product, Sales, Finance, People, Legal, M&amp;A, and more.&nb"
+    },
+    {
+      "job_uid": "eb13b93308235f49",
+      "source": "ashby",
+      "job_id": "eb13b93308235f49",
+      "company": "notion",
+      "title": "Software Engineer Intern (Summer 2026)",
+      "location": "San Francisco, California",
+      "url": "https://jobs.ashbyhq.com/notion/23ac2477-0008-4bed-b1c1-81f90a32e9e6/application",
+      "departments": [
+        "University",
+        "University"
+      ],
+      "created_at": "2025-08-08T19:23:58.862+00:00",
+      "updated_at": "2025-08-08T19:23:58.862+00:00",
+      "scores": {
+        "hard_raw": 7.0,
+        "hard_norm": 0.5384615384615384,
+        "semantic_raw": 0.36981070041619507,
+        "semantic_norm": 0.38033626744998417,
+        "final": 0.4514926394051836
+      },
+      "signals": {
+        "must_hits": [
+          "python",
+          "sql"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "36fd9bb8f14d29ac9601b47b27cdbf30e46da792",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "ABOUT US: Notion helps you build beautiful tools for your life’s work. In today's world of endless apps and tabs, Notion provides one place for teams to get everything done, seamlessly connecting docs, notes, projects, calendar, and email—with AI built in to find answers and automate work. Millions of users, from individuals to large organizations like Toyota, Figma, and OpenAI, love Notion for its flexibility and choose it because it helps them save time and money. In-person collaboration is essential to Notion's culture. We require all team members to work from our offices on Mondays, Tuesda"
+    },
+    {
+      "job_uid": "3ef71de346635a8a",
+      "source": "ashby",
+      "job_id": "3ef71de346635a8a",
+      "company": "ramp",
+      "title": "Applied Scientist Intern",
+      "location": "New York, NY (HQ)",
+      "url": "https://jobs.ashbyhq.com/ramp/43ac03c8-65f5-4522-ab3d-6d496ae7d925/application",
+      "departments": [
+        "Data",
+        "Emerging Talent - Data"
+      ],
+      "created_at": "2025-09-10T15:19:31.459+00:00",
+      "updated_at": "2025-09-10T15:19:31.459+00:00",
+      "scores": {
+        "hard_raw": 13.0,
+        "hard_norm": 1.0,
+        "semantic_raw": 0.18050668719432705,
+        "semantic_norm": 0.0,
+        "final": 0.45
+      },
+      "signals": {
+        "must_hits": [
+          "python",
+          "machine learning",
+          "llm",
+          "sql",
+          "git",
+          "cloud"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "925438c36a34bbdce42080b675dfbca1977fdc05",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=6, nice_hits=1",
       "hard_gate": {
         "hit": false,
         "reason": ""
@@ -91,105 +1633,238 @@
       "jd_excerpt": "ABOUT RAMP At Ramp, we’re rethinking how modern finance teams function in the age of AI. We believe AI isn’t just the next big wave. It’s the new foundation for how business gets done. We’re investing in that future — and in the people bold enough to build it. Ramp is a financial operations platform designed to save companies time and money. Our all-in-one solution combines payments, corporate cards, vendor management, procurement, travel booking, and automated bookkeeping with built-in intelligence to maximize the impact of every dollar and hour spent. More than 50,000 businesses, from family"
     },
     {
-      "job_uid": "b230852d1c35c17a",
-      "source": "ashby",
-      "job_id": "b230852d1c35c17a",
-      "company": "ramp",
-      "title": "Software Engineer Internship, Android ",
-      "location": "New York, NY (HQ)",
-      "url": "https://jobs.ashbyhq.com/ramp/67fadb77-43d8-4449-954b-d4cf2c6d3b8b/application",
+      "job_uid": "cfcc379cf57b43dc",
+      "source": "lever",
+      "job_id": "cfcc379cf57b43dc",
+      "company": "zoox",
+      "title": "AI Applications Development Intern",
+      "location": "Foster City, CA",
+      "url": "https://jobs.lever.co/zoox/9935eecc-fca9-4f72-9ea8-85ebea928967",
       "departments": [
-        "Engineering",
-        "Emerging Talent - SWE"
+        "Information Technology"
       ],
-      "created_at": "2025-08-07T20:49:38.961+00:00",
-      "updated_at": "2025-08-07T20:49:38.961+00:00",
+      "created_at": 1771628636349,
+      "updated_at": 1771628636349,
       "scores": {
-        "hard_raw": 8.0,
-        "hard_norm": 1.0,
-        "semantic_raw": 0.16573875640249108,
-        "semantic_norm": 0.0,
-        "final": 0.45
+        "hard_raw": 2.0,
+        "hard_norm": 0.15384615384615385,
+        "semantic_raw": 0.5224412679667017,
+        "semantic_norm": 0.6869908352688687,
+        "final": 0.4470757286286471
       },
       "signals": {
-        "must_hits": [
-          "python",
-          "sql",
-          "cloud"
-        ],
+        "must_hits": [],
         "nice_hits": [
           "rag"
         ],
         "neg_hits": []
       },
-      "text_hash": "249a3adc7ffbe08e9f95394eb7d30669ad8d5f40",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1",
+      "text_hash": "8d34a12d2d3d8f2b09d0aa0de8f3fdad35399e00",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1",
       "hard_gate": {
         "hit": false,
         "reason": ""
       },
-      "jd_excerpt": "ABOUT RAMP At Ramp, we’re rethinking how modern finance teams function in the age of AI. We believe AI isn’t just the next big wave. It’s the new foundation for how business gets done. We’re investing in that future — and in the people bold enough to build it. Ramp is a financial operations platform designed to save companies time and money. Our all-in-one solution combines payments, corporate cards, vendor management, procurement, travel booking, and automated bookkeeping with built-in intelligence to maximize the impact of every dollar and hour spent. More than 50,000 businesses, from family"
+      "jd_excerpt": "The Information Technology and Applications (ITA) department is responsible for managing Zoox's technology infrastructure, business applications, and information systems that enable the company's operations across all functions. ITA oversees critical systems including IT infrastructure, business applications, HRIS platforms, and information security. As Zoox scales its autonomous vehicle operations, ITA plays a vital role in ensuring the technology backbone supports both our R&D innovation and commercial service delivery. We are looking for a forward-thinking AI Application Developer Intern to"
     },
     {
-      "job_uid": "4ff882d7bab5bdb0",
-      "source": "ashby",
-      "job_id": "4ff882d7bab5bdb0",
-      "company": "ramp",
-      "title": "Software Engineer Internship, iOS",
-      "location": "New York, NY (HQ)",
-      "url": "https://jobs.ashbyhq.com/ramp/8c155b55-3e7e-48a8-ac98-f988a2b6f4da/application",
+      "job_uid": "a717bb8ade613d40",
+      "source": "lever",
+      "job_id": "a717bb8ade613d40",
+      "company": "zoox",
+      "title": "HIL & System Validation Intern",
+      "location": "Foster City, CA",
+      "url": "https://jobs.lever.co/zoox/07ac26ee-0594-41d8-928e-7cf1e373e2dd",
       "departments": [
-        "Engineering",
-        "Emerging Talent - SWE"
+        "Software"
       ],
-      "created_at": "2025-08-07T16:04:29.101+00:00",
-      "updated_at": "2025-08-07T16:04:29.101+00:00",
+      "created_at": 1762562880446,
+      "updated_at": 1762562880446,
       "scores": {
-        "hard_raw": 8.0,
-        "hard_norm": 1.0,
-        "semantic_raw": 0.16573875640249108,
-        "semantic_norm": 0.0,
-        "final": 0.45
+        "hard_raw": 3.0,
+        "hard_norm": 0.23076923076923078,
+        "semantic_raw": 0.48848563432644626,
+        "semantic_norm": 0.6187695718216024,
+        "final": 0.4441694183480352
       },
       "signals": {
         "must_hits": [
-          "python",
-          "sql",
-          "cloud"
+          "python"
         ],
-        "nice_hits": [
-          "rag"
-        ],
+        "nice_hits": [],
         "neg_hits": []
       },
-      "text_hash": "6c929bb0d3d7b9f4398dc93c9fa5ae854792ecc8",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1",
+      "text_hash": "4a9877e68c41ee155699e36d5af28eba825c80c8",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0",
       "hard_gate": {
         "hit": false,
         "reason": ""
       },
-      "jd_excerpt": "ABOUT RAMP At Ramp, we’re rethinking how modern finance teams function in the age of AI. We believe AI isn’t just the next big wave. It’s the new foundation for how business gets done. We’re investing in that future — and in the people bold enough to build it. Ramp is a financial operations platform designed to save companies time and money. Our all-in-one solution combines payments, corporate cards, vendor management, procurement, travel booking, and automated bookkeeping with built-in intelligence to maximize the impact of every dollar and hour spent. More than 50,000 businesses, from family"
+      "jd_excerpt": "Zoox’s internship program provides hands-on experiences with state of the art technology, mentorship from some of the industry's brightest minds, and the opportunity to play a part in our success. Internships at Zoox are reserved for those who demonstrate outstanding academic performance, activities outside their course work, aptitude, curiosity, and a passion for Zoox's mission. As a HIL or System & Validation Intern, you may be assigned to one of the following teams: On the HIL Platform Software team, you will work across the entire AI, sensor, and compute stacks, building robust validation "
     },
     {
-      "job_uid": "8c305391a2786222",
-      "source": "ashby",
-      "job_id": "8c305391a2786222",
-      "company": "ramp",
-      "title": "Software Engineer Internship, Frontend",
-      "location": "New York, NY (HQ)",
-      "url": "https://jobs.ashbyhq.com/ramp/31f7e045-9a51-4a75-9ffc-d815d6db6daa/application",
+      "job_uid": "85a318f88b761cdc",
+      "source": "greenhouse",
+      "job_id": "85a318f88b761cdc",
+      "company": "okta",
+      "title": "Talent Management Intern (Summer 2026)",
+      "location": "Chicago, Illinois; San Francisco, California",
+      "url": "https://www.okta.com/company/careers/opportunity/7551355?gh_jid=7551355",
       "departments": [
-        "Engineering",
-        "Emerging Talent - SWE"
+        "Okta U-164"
       ],
-      "created_at": "2025-08-01T19:55:18.933+00:00",
-      "updated_at": "2025-08-01T19:55:18.933+00:00",
+      "created_at": null,
+      "updated_at": "2026-02-23T16:39:45-05:00",
       "scores": {
-        "hard_raw": 8.0,
-        "hard_norm": 1.0,
-        "semantic_raw": 0.16573875640249108,
-        "semantic_norm": 0.0,
-        "final": 0.45
+        "hard_raw": 4.0,
+        "hard_norm": 0.3076923076923077,
+        "semantic_raw": 0.45247599482491063,
+        "semantic_norm": 0.5464215447135777,
+        "final": 0.43899338805400623
+      },
+      "signals": {
+        "must_hits": [
+          "machine learning"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "42b97094ce41b685cec987e9da69ade96c0ed19b",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Get to know Okta Okta is The World’s Identity Company. We free everyone to safely use any technology, anywhere, on any device or app. Our flexible and neutral products, Okta Platform and Auth0 Platform, provide secure access, authentication, and automation, placing identity at the core of business security and growth. At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box - we’re looking for lifelong learners and people who can make us better with their unique experiences.&nbsp; Join our team! We’re building a world where Ide"
+    },
+    {
+      "job_uid": "a55e23904cd4e7de",
+      "source": "lever",
+      "job_id": "a55e23904cd4e7de",
+      "company": "zoox",
+      "title": "Hardware Integration and Test Intern",
+      "location": "Foster City, CA",
+      "url": "https://jobs.lever.co/zoox/98429957-337e-459f-94b6-fa6acfce82b9",
+      "departments": [
+        "Advanced Hardware Engineering"
+      ],
+      "created_at": 1766088772647,
+      "updated_at": 1766088772647,
+      "scores": {
+        "hard_raw": 5.0,
+        "hard_norm": 0.38461538461538464,
+        "semantic_raw": 0.41755032539325915,
+        "semantic_norm": 0.47625135379291395,
+        "final": 0.43501516766302584
+      },
+      "signals": {
+        "must_hits": [
+          "python"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "24c259f5984513c215ef6cace4ccaec244cd99b3",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Zoox is transforming mobility with fully autonomous, electric vehicles designed from the ground up for a driverless future. Our mission is to make transportation safer, more sustainable, and accessible to everyone. At Zoox, innovation, collaboration, and a bold vision for the future drive everything we do. Zoox’s internship program offers hands-on experience with cutting-edge technology, mentorship from some of the industry’s brightest minds, and the opportunity to make meaningful contributions to real projects. We seek interns who demonstrate strong academic performance, engagement beyond the"
+    },
+    {
+      "job_uid": "35ea453989baec7b",
+      "source": "lever",
+      "job_id": "35ea453989baec7b",
+      "company": "zoox",
+      "title": "Signal Processing Intern",
+      "location": "Foster City, CA",
+      "url": "https://jobs.lever.co/zoox/96857e0b-d39c-4505-b0b4-9a14c7d9db58",
+      "departments": [
+        "Advanced Hardware Engineering"
+      ],
+      "created_at": 1765319278432,
+      "updated_at": 1765319278432,
+      "scores": {
+        "hard_raw": 2.0,
+        "hard_norm": 0.15384615384615385,
+        "semantic_raw": 0.511310965496444,
+        "semantic_norm": 0.6646286168188791,
+        "final": 0.4347765084811528
+      },
+      "signals": {
+        "must_hits": [
+          "machine learning"
+        ],
+        "nice_hits": [],
+        "neg_hits": []
+      },
+      "text_hash": "655f8ba43b9dd21ca948cf8061131ce52295a399",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Zoox is transforming mobility with fully autonomous, electric vehicles designed from the ground up for a driverless future. Our mission is to make transportation safer, more sustainable, and accessible to everyone. At Zoox, innovation, collaboration, and a bold vision for the future drive everything we do. Zoox’s internship program offers hands-on experience with cutting-edge technology, mentorship from some of the industry’s brightest minds, and the opportunity to make meaningful contributions to real projects. We seek interns who demonstrate strong academic performance, engagement beyond the"
+    },
+    {
+      "job_uid": "a5861061367b4e31",
+      "source": "greenhouse",
+      "job_id": "a5861061367b4e31",
+      "company": "asana",
+      "title": "Software Engineering Intern - Summer 2026 (Reykjavik)",
+      "location": "Reykjavík",
+      "url": "https://www.asana.com/jobs/apply/7490314?gh_jid=7490314",
+      "departments": [
+        "Internship"
+      ],
+      "created_at": null,
+      "updated_at": "2026-02-25T10:52:48-05:00",
+      "scores": {
+        "hard_raw": 2.0,
+        "hard_norm": 0.15384615384615385,
+        "semantic_raw": 0.5009669065470453,
+        "semantic_norm": 0.6438460633793707,
+        "final": 0.4233461040894231
+      },
+      "signals": {
+        "must_hits": [],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "9634866656e3b846bc4a6c6a66ff070fb0fa625b",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "At Asana we’re looking for students aspiring to be efficient, productive, and impactful software developers to join our Summer 2026 Engineering Internship Program. Jumpstart your career in a supportive environment that enables you to take on challenging work that directly impacts the business.&nbsp; Our 12-week program is designed to expose you to all parts of software development in a growing tech company and prepare you for a full-time engineering career. Our 1:1 mentorship philosophy paired with our small team structure ensures you are being taught the best engineering practices and foundat"
+    },
+    {
+      "job_uid": "a69b027a9f170de6",
+      "source": "greenhouse",
+      "job_id": "a69b027a9f170de6",
+      "company": "cloudflare",
+      "title": "Security Engineer Intern (Summer 2026)",
+      "location": "In-Office",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7582150?gh_jid=7582150",
+      "departments": [
+        "University"
+      ],
+      "created_at": null,
+      "updated_at": "2026-02-06T10:04:45-05:00",
+      "scores": {
+        "hard_raw": 6.0,
+        "hard_norm": 0.46153846153846156,
+        "semantic_raw": 0.37494560330744464,
+        "semantic_norm": 0.39065295205765305,
+        "final": 0.4225514313240169
       },
       "signals": {
         "must_hits": [
@@ -197,18 +1872,496 @@
           "sql",
           "cloud"
         ],
+        "nice_hits": [],
+        "neg_hits": []
+      },
+      "text_hash": "803601e9589cc1c74f00e50dfae2e2c2c64683e3",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=0",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "About Us At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see signifi"
+    },
+    {
+      "job_uid": "b79485bd47657c06",
+      "source": "greenhouse",
+      "job_id": "b79485bd47657c06",
+      "company": "cloudflare",
+      "title": "Product Manager Intern (Summer 2026)",
+      "location": "In-Office",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7362113?gh_jid=7362113",
+      "departments": [
+        "Emerging Technology and Incubation"
+      ],
+      "created_at": null,
+      "updated_at": "2026-02-09T11:49:57-05:00",
+      "scores": {
+        "hard_raw": 5.0,
+        "hard_norm": 0.38461538461538464,
+        "semantic_raw": 0.40316098351205704,
+        "semantic_norm": 0.44734130329259025,
+        "final": 0.41911463988784775
+      },
+      "signals": {
+        "must_hits": [
+          "python",
+          "git",
+          "cloud"
+        ],
+        "nice_hits": [],
+        "neg_hits": []
+      },
+      "text_hash": "e36957bf788bbbee3c9fd4d5f5db67559392bc88",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=0",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "About Us At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see signifi"
+    },
+    {
+      "job_uid": "95a4d1ed07282a38",
+      "source": "greenhouse",
+      "job_id": "95a4d1ed07282a38",
+      "company": "okta",
+      "title": "Events Marketing Intern (Summer 2026)",
+      "location": "San Francisco, California",
+      "url": "https://www.okta.com/company/careers/opportunity/7611453?gh_jid=7611453",
+      "departments": [
+        "Corporate Events-461"
+      ],
+      "created_at": null,
+      "updated_at": "2026-02-23T16:39:45-05:00",
+      "scores": {
+        "hard_raw": 4.0,
+        "hard_norm": 0.3076923076923077,
+        "semantic_raw": 0.42768380045848037,
+        "semantic_norm": 0.4966108169496015,
+        "final": 0.4115974877838193
+      },
+      "signals": {
+        "must_hits": [
+          "machine learning",
+          "llm"
+        ],
+        "nice_hits": [],
+        "neg_hits": []
+      },
+      "text_hash": "dc3cdf1d4d9c079af5a456aa92f0c62531e1fd7a",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Get to know Okta Okta is The World’s Identity Company. We free everyone to safely use any technology, anywhere, on any device or app. Our flexible and neutral products, Okta Platform and Auth0 Platform, provide secure access, authentication, and automation, placing identity at the core of business security and growth. At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box - we’re looking for lifelong learners and people who can make us better with their unique experiences.&nbsp; Join our team! We’re building a world where Ide"
+    },
+    {
+      "job_uid": "70317cf07362416d",
+      "source": "greenhouse",
+      "job_id": "70317cf07362416d",
+      "company": "cloudflare",
+      "title": "GRC Team Intern (Summer 2026) ",
+      "location": "In-Office",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7574862?gh_jid=7574862",
+      "departments": [
+        "Security"
+      ],
+      "created_at": null,
+      "updated_at": "2026-02-06T10:04:45-05:00",
+      "scores": {
+        "hard_raw": 6.0,
+        "hard_norm": 0.46153846153846156,
+        "semantic_raw": 0.36500533610577657,
+        "semantic_norm": 0.37068166850907375,
+        "final": 0.4115672253722983
+      },
+      "signals": {
+        "must_hits": [
+          "python",
+          "cloud"
+        ],
         "nice_hits": [
           "rag"
         ],
         "neg_hits": []
       },
-      "text_hash": "6514aad5d2e05e105e9e51bb5fce4aed76589986",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1",
+      "text_hash": "be61b3c2e804e0e19d24c8ddb69ccb0788ac04b7",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1",
       "hard_gate": {
         "hit": false,
         "reason": ""
       },
-      "jd_excerpt": "ABOUT RAMP At Ramp, we’re rethinking how modern finance teams function in the age of AI. We believe AI isn’t just the next big wave. It’s the new foundation for how business gets done. We’re investing in that future — and in the people bold enough to build it. Ramp is a financial operations platform designed to save companies time and money. Our all-in-one solution combines payments, corporate cards, vendor management, procurement, travel booking, and automated bookkeeping with built-in intelligence to maximize the impact of every dollar and hour spent. More than 50,000 businesses, from family"
+      "jd_excerpt": "About Us At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see signifi"
+    },
+    {
+      "job_uid": "6930a806414652cd",
+      "source": "greenhouse",
+      "job_id": "6930a806414652cd",
+      "company": "databricks",
+      "title": "MBA Intern - Strategy & Execution",
+      "location": "San Francisco, California",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7295056002",
+      "departments": [
+        "University Recruiting"
+      ],
+      "created_at": null,
+      "updated_at": "2026-02-19T14:47:26-05:00",
+      "scores": {
+        "hard_raw": 3.0,
+        "hard_norm": 0.23076923076923078,
+        "semantic_raw": 0.45793756842567424,
+        "semantic_norm": 0.557394553063291,
+        "final": 0.41041315803096395
+      },
+      "signals": {
+        "must_hits": [
+          "sql"
+        ],
+        "nice_hits": [
+          "mlflow"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "d202ff7ef7a148f8c16e4444d2b72b6e5379b51a",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "P-1060 At Databricks, we are passionate about helping data teams solve the world's toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. As a Strategy and Execution Intern, you will join our world-class strategy and operations team to drive insights and impact across Databricks. During your 12 week internship you’ll work on projects spanning Go-To-Market Strate"
+    },
+    {
+      "job_uid": "665bd45f4c418939",
+      "source": "greenhouse",
+      "job_id": "665bd45f4c418939",
+      "company": "cloudflare",
+      "title": "AI Automation Intern (M&A Integration Ops) (Summer 2026)",
+      "location": "In-Office",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7589903?gh_jid=7589903",
+      "departments": [
+        "Strategy"
+      ],
+      "created_at": null,
+      "updated_at": "2026-02-10T20:51:27-05:00",
+      "scores": {
+        "hard_raw": 5.0,
+        "hard_norm": 0.38461538461538464,
+        "semantic_raw": 0.3942450519942306,
+        "semantic_norm": 0.42942804273030416,
+        "final": 0.4092623465785904
+      },
+      "signals": {
+        "must_hits": [
+          "llm",
+          "cloud"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "46eda9a66b523d87a6d5e7d71b9878ce0638c63a",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "About Us At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see signifi"
+    },
+    {
+      "job_uid": "84d7880e266f9c57",
+      "source": "greenhouse",
+      "job_id": "84d7880e266f9c57",
+      "company": "okta",
+      "title": "Paid Media Intern (Summer 2026)",
+      "location": "Chicago, Illinois; San Francisco, California",
+      "url": "https://www.okta.com/company/careers/opportunity/7607650?gh_jid=7607650",
+      "departments": [
+        "Digital Media-415"
+      ],
+      "created_at": null,
+      "updated_at": "2026-02-23T16:39:45-05:00",
+      "scores": {
+        "hard_raw": 3.0,
+        "hard_norm": 0.23076923076923078,
+        "semantic_raw": 0.4558860957617969,
+        "semantic_norm": 0.5532728789240307,
+        "final": 0.40814623725437077
+      },
+      "signals": {
+        "must_hits": [
+          "machine learning",
+          "git"
+        ],
+        "nice_hits": [],
+        "neg_hits": []
+      },
+      "text_hash": "76514bfbbc2236e1505765d321a496271b4efc8a",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Get to know Okta Okta is The World’s Identity Company. We free everyone to safely use any technology, anywhere, on any device or app. Our flexible and neutral products, Okta Platform and Auth0 Platform, provide secure access, authentication, and automation, placing identity at the core of business security and growth. At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box - we’re looking for lifelong learners and people who can make us better with their unique experiences.&nbsp; Join our team! We’re building a world where Ide"
+    },
+    {
+      "job_uid": "c6ca9b140cb6e757",
+      "source": "greenhouse",
+      "job_id": "c6ca9b140cb6e757",
+      "company": "databricks",
+      "title": "MBA Intern - People Analytics",
+      "location": "San Francisco, California",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8402613002",
+      "departments": [
+        "People"
+      ],
+      "created_at": null,
+      "updated_at": "2026-02-25T14:25:08-05:00",
+      "scores": {
+        "hard_raw": 3.0,
+        "hard_norm": 0.23076923076923078,
+        "semantic_raw": 0.4516908497621579,
+        "semantic_norm": 0.5448440866476244,
+        "final": 0.4035104015023473
+      },
+      "signals": {
+        "must_hits": [
+          "sql"
+        ],
+        "nice_hits": [
+          "mlflow"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "dce2229e6a0c1ef86916a181836e53f794bf3238",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "GAQ227R116 At Databricks, we are passionate about helping data teams solve the world's toughest problems - from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. As a People Analytics MBA intern, you’ll drive insights and impact across our People (HR) function and all of Databricks. During your 12 week internship, you'll work on impactful projects that drive decisions about how we "
+    },
+    {
+      "job_uid": "9cde9753e65a0790",
+      "source": "greenhouse",
+      "job_id": "9cde9753e65a0790",
+      "company": "okta",
+      "title": "Business Analyst Intern (Summer 2026)",
+      "location": "Chicago, Illinois",
+      "url": "https://www.okta.com/company/careers/opportunity/7617090?gh_jid=7617090",
+      "departments": [
+        "Product Marketing-530"
+      ],
+      "created_at": null,
+      "updated_at": "2026-02-23T16:39:45-05:00",
+      "scores": {
+        "hard_raw": 4.0,
+        "hard_norm": 0.3076923076923077,
+        "semantic_raw": 0.4201331734653086,
+        "semantic_norm": 0.48144062991228675,
+        "final": 0.4032538849132962
+      },
+      "signals": {
+        "must_hits": [
+          "machine learning"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "569146ede7b685e8de4ae342466963c1d34c8a34",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Get to know Okta Okta is The World’s Identity Company. We free everyone to safely use any technology, anywhere, on any device or app. Our flexible and neutral products, Okta Platform and Auth0 Platform, provide secure access, authentication, and automation, placing identity at the core of business security and growth. At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box - we’re looking for lifelong learners and people who can make us better with their unique experiences.&nbsp; Join our team! We’re building a world where Ide"
+    },
+    {
+      "job_uid": "4812ff9cfbf5dfc5",
+      "source": "lever",
+      "job_id": "4812ff9cfbf5dfc5",
+      "company": "waabi",
+      "title": "2026 Intern, PhD Research Scientist",
+      "location": "Toronto, ON",
+      "url": "https://jobs.lever.co/waabi/62700386-b9db-4c78-aec3-5ef59cbe841e",
+      "departments": [
+        "Research"
+      ],
+      "created_at": 1766095153993,
+      "updated_at": 1766095153993,
+      "scores": {
+        "hard_raw": 7.0,
+        "hard_norm": 0.5384615384615384,
+        "semantic_raw": 0.32604852318731126,
+        "semantic_norm": 0.2924123885028915,
+        "final": 0.40313450598428263
+      },
+      "signals": {
+        "must_hits": [
+          "python",
+          "machine learning"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "d872dc08bdbb80e7156c8c7805db62fdea645a05",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Waabi, founded by AI visionary Raquel Urtasun, is the leader in Physical AI. With a world-class team, we're unlocking the next era of autonomous transportation with technology that's powering commercial autonomous trucks and robotaxis. Waabi is backed by and partners with world leaders in AI, automotive, logistics, and deep tech. With offices in Toronto, San Francisco, Dallas, and Pittsburgh, Waabi is growing quickly and looking for diverse, innovative and collaborative candidates who want to impact the world in a positive way. To learn more visit: www.waabi.ai You will... - Be part of a team "
+    },
+    {
+      "job_uid": "9c43d10d17796a1b",
+      "source": "greenhouse",
+      "job_id": "9c43d10d17796a1b",
+      "company": "okta",
+      "title": "Product Marketing Intern (Summer 2026)",
+      "location": "Chicago, Illinois",
+      "url": "https://www.okta.com/company/careers/opportunity/7594992?gh_jid=7594992",
+      "departments": [
+        "Interns"
+      ],
+      "created_at": null,
+      "updated_at": "2026-02-23T16:39:45-05:00",
+      "scores": {
+        "hard_raw": 4.0,
+        "hard_norm": 0.3076923076923077,
+        "semantic_raw": 0.4193667173381426,
+        "semantic_norm": 0.4799007203371589,
+        "final": 0.4024069346469759
+      },
+      "signals": {
+        "must_hits": [
+          "machine learning"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "186fcd3a286c74789ffff4376740d5d53cf0a49a",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Get to know Okta Okta is The World’s Identity Company. We free everyone to safely use any technology, anywhere, on any device or app. Our flexible and neutral products, Okta Platform and Auth0 Platform, provide secure access, authentication, and automation, placing identity at the core of business security and growth. At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box - we’re looking for lifelong learners and people who can make us better with their unique experiences.&nbsp; Join our team! We’re building a world where Ide"
+    },
+    {
+      "job_uid": "9064d80e3175e513",
+      "source": "greenhouse",
+      "job_id": "9064d80e3175e513",
+      "company": "cloudflare",
+      "title": "Technical Writer Intern",
+      "location": "In-Office",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7412237?gh_jid=7412237",
+      "departments": [
+        "Product Content"
+      ],
+      "created_at": null,
+      "updated_at": "2026-02-06T19:32:26-05:00",
+      "scores": {
+        "hard_raw": 5.0,
+        "hard_norm": 0.38461538461538464,
+        "semantic_raw": 0.3874014317985475,
+        "semantic_norm": 0.41567832386924225,
+        "final": 0.4017000012050064
+      },
+      "signals": {
+        "must_hits": [
+          "python",
+          "git",
+          "cloud"
+        ],
+        "nice_hits": [],
+        "neg_hits": []
+      },
+      "text_hash": "2abc175a14de0912c9a10332566d8757c8ceb9c0",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=0",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "About Us At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see signifi"
+    },
+    {
+      "job_uid": "c932f778d17d33c8",
+      "source": "greenhouse",
+      "job_id": "c932f778d17d33c8",
+      "company": "cloudflare",
+      "title": "Network Strategy Commercial Intern (Summer 2026)",
+      "location": "In-Office",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7589934?gh_jid=7589934",
+      "departments": [
+        "Strategy"
+      ],
+      "created_at": null,
+      "updated_at": "2026-02-10T17:00:46-05:00",
+      "scores": {
+        "hard_raw": 6.0,
+        "hard_norm": 0.46153846153846156,
+        "semantic_raw": 0.3550091385837819,
+        "semantic_norm": 0.35059801370693117,
+        "final": 0.40052121523111983
+      },
+      "signals": {
+        "must_hits": [
+          "python",
+          "sql",
+          "cloud"
+        ],
+        "nice_hits": [],
+        "neg_hits": []
+      },
+      "text_hash": "7be08706ec2d663563c71368e8760499c691bf51",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=0",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "About Us At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see signifi"
+    },
+    {
+      "job_uid": "d781b15095f8fbed",
+      "source": "lever",
+      "job_id": "d781b15095f8fbed",
+      "company": "zoox",
+      "title": "Technical Program Management Intern, AI Tools Development",
+      "location": "Foster City, CA",
+      "url": "https://jobs.lever.co/zoox/4770d734-9d08-4eae-abb5-6002495ca147",
+      "departments": [
+        "Manufacturing Operations"
+      ],
+      "created_at": 1768411138064,
+      "updated_at": 1768411138064,
+      "scores": {
+        "hard_raw": 2.0,
+        "hard_norm": 0.15384615384615385,
+        "semantic_raw": 0.48007166385602623,
+        "semantic_norm": 0.6018648159810417,
+        "final": 0.4002564180203422
+      },
+      "signals": {
+        "must_hits": [
+          "llm"
+        ],
+        "nice_hits": [],
+        "neg_hits": []
+      },
+      "text_hash": "ef930db7f6e821c10bb344662423ae1fa722abbb",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Zoox is transforming mobility with fully autonomous, electric vehicles designed from the ground up for a driverless future. Our mission is to make transportation safer, more sustainable, and accessible to everyone. At Zoox, innovation, collaboration, and a bold vision for the future drive everything we do. Zoox’s internship program offers hands-on experience with cutting-edge technology, mentorship from some of the industry’s brightest minds, and the opportunity to make meaningful contributions to real projects. We seek interns who demonstrate strong academic performance, engagement beyond the"
     }
   ]
 }
