@@ -2,9 +2,9 @@
   "meta": {
     "engine_name": "AutoJob-Agent Feeder",
     "version": 2,
-    "generated_at": "2026-02-26T16:16:02.620923+00:00",
-    "source_jobs_count": 170,
-    "candidates_count": 45,
+    "generated_at": "2026-02-27T15:59:20.343987+00:00",
+    "source_jobs_count": 169,
+    "candidates_count": 46,
     "candidates_topN_total": 150,
     "thresholds": {
       "apply": 0.72,
@@ -29,7 +29,7 @@
       "scores": {
         "hard_raw": 9.0,
         "hard_norm": 0.6923076923076923,
-        "semantic_raw": 0.5920873880380431,
+        "semantic_raw": 0.5920874233292037,
         "semantic_norm": 1.0,
         "final": 0.8615384615384616
       },
@@ -67,9 +67,9 @@
       "scores": {
         "hard_raw": 6.0,
         "hard_norm": 0.46153846153846156,
-        "semantic_raw": 0.5657059550279682,
-        "semantic_norm": 0.9359021621859467,
-        "final": 0.7224384968945784
+        "semantic_raw": 0.5657060483513211,
+        "semantic_norm": 0.9359022954016033,
+        "final": 0.7224385701631896
       },
       "signals": {
         "must_hits": [
@@ -106,9 +106,9 @@
       "scores": {
         "hard_raw": 8.0,
         "hard_norm": 0.6153846153846154,
-        "semantic_raw": 0.49547576904247326,
-        "semantic_norm": 0.7652668873989433,
-        "final": 0.6978198649924958
+        "semantic_raw": 0.4954759773890772,
+        "semantic_norm": 0.7652672793633435,
+        "final": 0.6978200805729159
       },
       "signals": {
         "must_hits": [
@@ -146,9 +146,9 @@
       "scores": {
         "hard_raw": 5.0,
         "hard_norm": 0.38461538461538464,
-        "semantic_raw": 0.5446384277718836,
-        "semantic_norm": 0.8847152935769538,
-        "final": 0.6596703345442477
+        "semantic_raw": 0.5446386390488231,
+        "semantic_norm": 0.8847157071643662,
+        "final": 0.6596705620173245
       },
       "signals": {
         "must_hits": [
@@ -182,9 +182,9 @@
       "scores": {
         "hard_raw": 10.0,
         "hard_norm": 0.7692307692307693,
-        "semantic_raw": 0.3915490508075613,
-        "semantic_norm": 0.5127605914966613,
-        "final": 0.6281721714770099
+        "semantic_raw": 0.39154913375035316,
+        "semantic_norm": 0.512760648113703,
+        "final": 0.628172202616383
       },
       "signals": {
         "must_hits": [
@@ -216,13 +216,13 @@
         "5112 General University"
       ],
       "created_at": null,
-      "updated_at": "2026-02-23T17:58:19-05:00",
+      "updated_at": "2026-02-26T12:14:16-05:00",
       "scores": {
         "hard_raw": 8.0,
         "hard_norm": 0.6153846153846154,
-        "semantic_raw": 0.4216968072467883,
-        "semantic_norm": 0.5860093040272195,
-        "final": 0.5992281941380477
+        "semantic_raw": 0.4216969171216295,
+        "semantic_norm": 0.5860094349736978,
+        "final": 0.5992282661586108
       },
       "signals": {
         "must_hits": [
@@ -259,9 +259,9 @@
       "scores": {
         "hard_raw": 4.0,
         "hard_norm": 0.3076923076923077,
-        "semantic_raw": 0.4998748302380111,
-        "semantic_norm": 0.775955097964988,
-        "final": 0.5652368423422819
+        "semantic_raw": 0.4998749792421801,
+        "semantic_norm": 0.7759553470453493,
+        "final": 0.5652369793364806
       },
       "signals": {
         "must_hits": [
@@ -297,9 +297,9 @@
       "scores": {
         "hard_raw": 1.0,
         "hard_norm": 0.07692307692307693,
-        "semantic_raw": 0.575842985610742,
-        "semantic_norm": 0.9605316712032391,
-        "final": 0.5629078037771662
+        "semantic_raw": 0.5758430199336647,
+        "semantic_norm": 0.9605316640585493,
+        "final": 0.5629077998475868
       },
       "signals": {
         "must_hits": [
@@ -337,9 +337,9 @@
       "scores": {
         "hard_raw": 8.0,
         "hard_norm": 0.6153846153846154,
-        "semantic_raw": 0.3924525082107434,
-        "semantic_norm": 0.5149556832522516,
-        "final": 0.5601487027118153
+        "semantic_raw": 0.3924526508120338,
+        "semantic_norm": 0.5149558850855351,
+        "final": 0.5601488137201213
       },
       "signals": {
         "must_hits": [
@@ -376,9 +376,9 @@
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.15384615384615385,
-        "semantic_raw": 0.5330088138574992,
-        "semantic_norm": 0.8564593187692322,
-        "final": 0.540283394553847
+        "semantic_raw": 0.5330089966064125,
+        "semantic_norm": 0.8564596596125019,
+        "final": 0.5402835820176454
       },
       "signals": {
         "must_hits": [],
@@ -411,9 +411,9 @@
       "scores": {
         "hard_raw": 8.0,
         "hard_norm": 0.6153846153846154,
-        "semantic_raw": 0.35671383142435636,
-        "semantic_norm": 0.4281229510247082,
-        "final": 0.5123906999866665
+        "semantic_raw": 0.35671391229080723,
+        "semantic_norm": 0.4281229923203386,
+        "final": 0.5123907226992632
       },
       "signals": {
         "must_hits": [
@@ -450,9 +450,9 @@
       "scores": {
         "hard_raw": 5.0,
         "hard_norm": 0.38461538461538464,
-        "semantic_raw": 0.43260559439615853,
-        "semantic_norm": 0.612513916918465,
-        "final": 0.5099595773820789
+        "semantic_raw": 0.4326056499837871,
+        "semantic_norm": 0.6125139191837744,
+        "final": 0.509959578627999
       },
       "signals": {
         "must_hits": [
@@ -488,9 +488,9 @@
       "scores": {
         "hard_raw": 4.0,
         "hard_norm": 0.3076923076923077,
-        "semantic_raw": 0.45247599482491063,
-        "semantic_norm": 0.6607921777504695,
-        "final": 0.5018972362242967
+        "semantic_raw": 0.4524761410038799,
+        "semantic_norm": 0.660792405983602,
+        "final": 0.5018973617525195
       },
       "signals": {
         "must_hits": [
@@ -526,9 +526,9 @@
       "scores": {
         "hard_raw": 7.0,
         "hard_norm": 0.5384615384615384,
-        "semantic_raw": 0.36981070041619507,
-        "semantic_norm": 0.45994385264859605,
-        "final": 0.49527681126442014
+        "semantic_raw": 0.3698107820632802,
+        "semantic_norm": 0.459943899704561,
+        "final": 0.4952768371452009
       },
       "signals": {
         "must_hits": [
@@ -564,9 +564,9 @@
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.23076923076923078,
-        "semantic_raw": 0.45793756842567424,
-        "semantic_norm": 0.67406192919792,
-        "final": 0.4745802149050099
+        "semantic_raw": 0.4579376553255303,
+        "semantic_norm": 0.6740620150143121,
+        "final": 0.47458026210402554
       },
       "signals": {
         "must_hits": [
@@ -601,9 +601,9 @@
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.23076923076923078,
-        "semantic_raw": 0.4558860957617969,
-        "semantic_norm": 0.6690775539352511,
-        "final": 0.47183880851054205
+        "semantic_raw": 0.455886242144024,
+        "semantic_norm": 0.6690777836682321,
+        "final": 0.47183893486368156
       },
       "signals": {
         "must_hits": [
@@ -637,9 +637,9 @@
       "scores": {
         "hard_raw": 4.0,
         "hard_norm": 0.3076923076923077,
-        "semantic_raw": 0.42768380045848037,
-        "semantic_norm": 0.6005556449985505,
-        "final": 0.46876714321074126
+        "semantic_raw": 0.4276838557527471,
+        "semantic_norm": 0.6005556450991303,
+        "final": 0.46876714326606017
       },
       "signals": {
         "must_hits": [
@@ -673,9 +673,9 @@
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.23076923076923078,
-        "semantic_raw": 0.4516908497621579,
-        "semantic_norm": 0.6588845444208619,
-        "final": 0.4662326532776279
+        "semantic_raw": 0.4516909660920116,
+        "semantic_norm": 0.6588846998992449,
+        "final": 0.4662327387907386
       },
       "signals": {
         "must_hits": [
@@ -710,9 +710,9 @@
       "scores": {
         "hard_raw": 4.0,
         "hard_norm": 0.3076923076923077,
-        "semantic_raw": 0.4201331734653086,
-        "semantic_norm": 0.5822102100019789,
-        "final": 0.4586771539626269
+        "semantic_raw": 0.42013331771649537,
+        "semantic_norm": 0.5822104240099198,
+        "final": 0.4586772716669944
       },
       "signals": {
         "must_hits": [
@@ -747,9 +747,9 @@
       "scores": {
         "hard_raw": 4.0,
         "hard_norm": 0.3076923076923077,
-        "semantic_raw": 0.4193667173381426,
-        "semantic_norm": 0.5803479843786812,
-        "final": 0.45765292986981315
+        "semantic_raw": 0.41936683174132083,
+        "semantic_norm": 0.580348125640076,
+        "final": 0.4576530075635803
       },
       "signals": {
         "must_hits": [
@@ -785,7 +785,7 @@
       "scores": {
         "hard_raw": 13.0,
         "hard_norm": 1.0,
-        "semantic_raw": 0.18050668719432705,
+        "semantic_raw": 0.18050677245918015,
         "semantic_norm": 0.0,
         "final": 0.45
       },
@@ -827,9 +827,9 @@
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.23076923076923078,
-        "semantic_raw": 0.43167903612087927,
-        "semantic_norm": 0.6102626979633977,
-        "final": 0.43949063772602265
+        "semantic_raw": 0.4316791810602617,
+        "semantic_norm": 0.6102629170495223,
+        "final": 0.4394907582233912
       },
       "signals": {
         "must_hits": [
@@ -863,9 +863,9 @@
       "scores": {
         "hard_raw": 6.0,
         "hard_norm": 0.46153846153846156,
-        "semantic_raw": 0.3532538413997932,
-        "semantic_norm": 0.4197163614604493,
-        "final": 0.43853630649555486
+        "semantic_raw": 0.3532539518623367,
+        "semantic_norm": 0.4197164736437277,
+        "final": 0.438536368196358
       },
       "signals": {
         "must_hits": [
@@ -896,13 +896,13 @@
         "Internships & Emerging Talent Positions"
       ],
       "created_at": null,
-      "updated_at": "2026-02-17T11:38:45-05:00",
+      "updated_at": "2026-02-26T20:00:18-05:00",
       "scores": {
         "hard_raw": 7.0,
         "hard_norm": 0.5384615384615384,
-        "semantic_raw": 0.31691129904425036,
-        "semantic_norm": 0.33141644292432065,
-        "final": 0.42458673591606866
+        "semantic_raw": 0.31691119872433426,
+        "semantic_norm": 0.3314160322571393,
+        "final": 0.42458651004911896
       },
       "signals": {
         "must_hits": [
@@ -935,13 +935,13 @@
         "Internships & Emerging Talent Positions"
       ],
       "created_at": null,
-      "updated_at": "2026-02-17T11:38:45-05:00",
+      "updated_at": "2026-02-26T20:00:18-05:00",
       "scores": {
         "hard_raw": 7.0,
         "hard_norm": 0.5384615384615384,
-        "semantic_raw": 0.31691129904425036,
-        "semantic_norm": 0.33141644292432065,
-        "final": 0.42458673591606866
+        "semantic_raw": 0.31691119872433426,
+        "semantic_norm": 0.3314160322571393,
+        "final": 0.42458651004911896
       },
       "signals": {
         "must_hits": [
@@ -975,13 +975,13 @@
         "Internships & Emerging Talent Positions"
       ],
       "created_at": null,
-      "updated_at": "2026-02-17T11:38:45-05:00",
+      "updated_at": "2026-02-26T20:00:18-05:00",
       "scores": {
         "hard_raw": 7.0,
         "hard_norm": 0.5384615384615384,
-        "semantic_raw": 0.31691129904425036,
-        "semantic_norm": 0.33141644292432065,
-        "final": 0.42458673591606866
+        "semantic_raw": 0.31691119872433426,
+        "semantic_norm": 0.3314160322571393,
+        "final": 0.42458651004911896
       },
       "signals": {
         "must_hits": [
@@ -1018,9 +1018,9 @@
       "scores": {
         "hard_raw": 4.0,
         "hard_norm": 0.3076923076923077,
-        "semantic_raw": 0.3933022256669776,
-        "semantic_norm": 0.517020205360534,
-        "final": 0.42282265140983216
+        "semantic_raw": 0.39330230871427174,
+        "semantic_norm": 0.5170202627486782,
+        "final": 0.4228226829733115
       },
       "signals": {
         "must_hits": [
@@ -1057,9 +1057,9 @@
       "scores": {
         "hard_raw": 4.0,
         "hard_norm": 0.3076923076923077,
-        "semantic_raw": 0.3924525082107434,
-        "semantic_norm": 0.5149556832522516,
-        "final": 0.42168716425027686
+        "semantic_raw": 0.3924526508120338,
+        "semantic_norm": 0.5149558850855351,
+        "final": 0.4216872752585828
       },
       "signals": {
         "must_hits": [],
@@ -1093,9 +1093,9 @@
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.15384615384615385,
-        "semantic_raw": 0.4287441457810709,
-        "semantic_norm": 0.6031319206120982,
-        "final": 0.40095332556742325
+        "semantic_raw": 0.42874431610064545,
+        "semantic_norm": 0.6031322004975843,
+        "final": 0.4009534795044406
       },
       "signals": {
         "must_hits": [
@@ -1128,9 +1128,9 @@
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.15384615384615385,
-        "semantic_raw": 0.4271014034743806,
-        "semantic_norm": 0.5991406199915327,
-        "final": 0.3987581102261122
+        "semantic_raw": 0.4271014587339338,
+        "semantic_norm": 0.5991406198359597,
+        "final": 0.3987581101405471
       },
       "signals": {
         "must_hits": [],
@@ -1163,9 +1163,9 @@
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.15384615384615385,
-        "semantic_raw": 0.4204093217845527,
-        "semantic_norm": 0.5828811557452511,
-        "final": 0.38981540489065736
+        "semantic_raw": 0.4204093766452267,
+        "semantic_norm": 0.5828811526463311,
+        "final": 0.3898154031862514
       },
       "signals": {
         "must_hits": [],
@@ -1198,9 +1198,9 @@
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.23076923076923078,
-        "semantic_raw": 0.39172532509081087,
-        "semantic_norm": 0.5131888775724861,
-        "final": 0.38610003651102126
+        "semantic_raw": 0.3917254974510922,
+        "semantic_norm": 0.5131891514954005,
+        "final": 0.38610018716862415
       },
       "signals": {
         "must_hits": [
@@ -1235,9 +1235,9 @@
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.23076923076923078,
-        "semantic_raw": 0.3882523179050377,
-        "semantic_norm": 0.5047506607691868,
-        "final": 0.38145901726920667
+        "semantic_raw": 0.3882524535953041,
+        "semantic_norm": 0.5047508445719661,
+        "final": 0.3814591183607352
       },
       "signals": {
         "must_hits": [
@@ -1272,9 +1272,9 @@
       "scores": {
         "hard_raw": 4.0,
         "hard_norm": 0.3076923076923077,
-        "semantic_raw": 0.35850694775545505,
-        "semantic_norm": 0.4324796089715529,
-        "final": 0.3763253233958926
+        "semantic_raw": 0.3585070371624222,
+        "semantic_norm": 0.4324796715466933,
+        "final": 0.3763253578122198
       },
       "signals": {
         "must_hits": [
@@ -1309,9 +1309,9 @@
       "scores": {
         "hard_raw": 0.0,
         "hard_norm": 0.0,
-        "semantic_raw": 0.4585116778912536,
-        "semantic_norm": 0.67545681837616,
-        "final": 0.37150125010688806
+        "semantic_raw": 0.45851179710055023,
+        "semantic_norm": 0.6754569828627915,
+        "final": 0.3715013405745354
       },
       "signals": {
         "must_hits": [],
@@ -1342,9 +1342,9 @@
       "scores": {
         "hard_raw": 1.0,
         "hard_norm": 0.07692307692307693,
-        "semantic_raw": 0.4256120920177018,
-        "semantic_norm": 0.5955221037354842,
-        "final": 0.36215254166990096
+        "semantic_raw": 0.42561214718848506,
+        "semantic_norm": 0.5955221029248742,
+        "final": 0.3621525412240654
       },
       "signals": {
         "must_hits": [
@@ -1362,44 +1362,6 @@
       "jd_excerpt": "Who We Are; What We Do; Where We’re Going Magnet Forensics is a global leader in the development of digital investigative software that acquires, analyzes, and shares evidence from computers, smartphones, tablets, and IoT-related devices. We are continually innovating so our customers can deploy advanced and effective tools to protect their companies, communities, and countries. Serving thousands of customers globally, our solutions are playing a crucial role in modernizing digital investigations, helping investigators fight crime, protect assets, and guard national security. With employees ba"
     },
     {
-      "job_uid": "c1a7d2357d3e9e7d",
-      "source": "greenhouse",
-      "job_id": "c1a7d2357d3e9e7d",
-      "company": "coinbase",
-      "title": "Strategic Sourcing Intern",
-      "location": "Hybrid - New York, NY",
-      "url": "https://www.coinbase.com/careers/positions/7315887?gh_jid=7315887",
-      "departments": [
-        "Internships & Emerging Talent Positions"
-      ],
-      "created_at": null,
-      "updated_at": "2026-02-19T16:55:59-05:00",
-      "scores": {
-        "hard_raw": 5.0,
-        "hard_norm": 0.38461538461538464,
-        "semantic_raw": 0.31691129904425036,
-        "semantic_norm": 0.33141644292432065,
-        "final": 0.35535596668529945
-      },
-      "signals": {
-        "must_hits": [
-          "machine learning",
-          "git"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": []
-      },
-      "text_hash": "474938fc6556ea01108747f7a3fdda08337920c0",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "Ready to be pushed beyond what you think you’re capable of? At Coinbase, our mission is to increase economic freedom in the world. It’s a massive, ambitious opportunity that demands the best of us, every day, as we build the emerging onchain platform — and with it, the future global financial system. To achieve our mission, we’re seeking a very specific candidate. We want someone who is passionate about our mission and who believes in the power of crypto and blockchain technology to update the financial system. We want someone who is eager to leave their mark on the world, who relishes the pre"
-    },
-    {
       "job_uid": "2d63f4cc8b3a3dd7",
       "source": "greenhouse",
       "job_id": "2d63f4cc8b3a3dd7",
@@ -1411,13 +1373,13 @@
         "Internships & Emerging Talent Positions"
       ],
       "created_at": null,
-      "updated_at": "2026-02-17T11:38:45-05:00",
+      "updated_at": "2026-02-26T20:00:18-05:00",
       "scores": {
         "hard_raw": 5.0,
         "hard_norm": 0.38461538461538464,
-        "semantic_raw": 0.31691129904425036,
-        "semantic_norm": 0.33141644292432065,
-        "final": 0.35535596668529945
+        "semantic_raw": 0.31691119872433426,
+        "semantic_norm": 0.3314160322571393,
+        "final": 0.35535574081834975
       },
       "signals": {
         "must_hits": [
@@ -1438,6 +1400,44 @@
       "jd_excerpt": "Ready to be pushed beyond what you think you’re capable of? At Coinbase, our mission is to increase economic freedom in the world. It’s a massive, ambitious opportunity that demands the best of us, every day, as we build the emerging onchain platform — and with it, the future global financial system. To achieve our mission, we’re seeking a very specific candidate. We want someone who is passionate about our mission and who believes in the power of crypto and blockchain technology to update the financial system. We want someone who is eager to leave their mark on the world, who relishes the pre"
     },
     {
+      "job_uid": "c1a7d2357d3e9e7d",
+      "source": "greenhouse",
+      "job_id": "c1a7d2357d3e9e7d",
+      "company": "coinbase",
+      "title": "Strategic Sourcing Intern",
+      "location": "Hybrid - New York, NY",
+      "url": "https://www.coinbase.com/careers/positions/7315887?gh_jid=7315887",
+      "departments": [
+        "Internships & Emerging Talent Positions"
+      ],
+      "created_at": null,
+      "updated_at": "2026-02-26T20:00:18-05:00",
+      "scores": {
+        "hard_raw": 5.0,
+        "hard_norm": 0.38461538461538464,
+        "semantic_raw": 0.31691119872433426,
+        "semantic_norm": 0.3314160322571393,
+        "final": 0.35535574081834975
+      },
+      "signals": {
+        "must_hits": [
+          "machine learning",
+          "git"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "474938fc6556ea01108747f7a3fdda08337920c0",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Ready to be pushed beyond what you think you’re capable of? At Coinbase, our mission is to increase economic freedom in the world. It’s a massive, ambitious opportunity that demands the best of us, every day, as we build the emerging onchain platform — and with it, the future global financial system. To achieve our mission, we’re seeking a very specific candidate. We want someone who is passionate about our mission and who believes in the power of crypto and blockchain technology to update the financial system. We want someone who is eager to leave their mark on the world, who relishes the pre"
+    },
+    {
       "job_uid": "57fb6fa8c62f591c",
       "source": "greenhouse",
       "job_id": "57fb6fa8c62f591c",
@@ -1449,13 +1449,13 @@
         "Internships & Emerging Talent Positions"
       ],
       "created_at": null,
-      "updated_at": "2026-02-17T11:38:45-05:00",
+      "updated_at": "2026-02-26T20:00:18-05:00",
       "scores": {
         "hard_raw": 5.0,
         "hard_norm": 0.38461538461538464,
-        "semantic_raw": 0.31691129904425036,
-        "semantic_norm": 0.33141644292432065,
-        "final": 0.35535596668529945
+        "semantic_raw": 0.31691119872433426,
+        "semantic_norm": 0.3314160322571393,
+        "final": 0.35535574081834975
       },
       "signals": {
         "must_hits": [
@@ -1491,9 +1491,9 @@
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.23076923076923078,
-        "semantic_raw": 0.3655992964263655,
-        "semantic_norm": 0.44971158475752043,
-        "final": 0.3511875254627901
+        "semantic_raw": 0.36559937782243623,
+        "semantic_norm": 0.449711629961215,
+        "final": 0.35118755032482213
       },
       "signals": {
         "must_hits": [
@@ -1528,9 +1528,9 @@
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.15384615384615385,
-        "semantic_raw": 0.3893846273418347,
-        "semantic_norm": 0.5075017845086524,
-        "final": 0.3483567507105281
+        "semantic_raw": 0.3893847101556169,
+        "semantic_norm": 0.5075018401737257,
+        "final": 0.3483567813263184
       },
       "signals": {
         "must_hits": [],
@@ -1548,6 +1548,41 @@
       "jd_excerpt": "ABOUT US Notion helps you build beautiful tools for your life’s work. In today's world of endless apps and tabs, Notion provides one place for teams to get everything done, seamlessly connecting docs, notes, projects, calendar, and email—with AI built in to find answers and automate work. Millions of users, from individuals to large organizations like Toyota, Figma, and OpenAI, love Notion for its flexibility and choose it because it helps them save time and money. In-person collaboration is essential to Notion's culture. We require all team members to work from our offices on Mondays, Tuesday"
     },
     {
+      "job_uid": "85ab53eaeeabed19",
+      "source": "greenhouse",
+      "job_id": "85ab53eaeeabed19",
+      "company": "togetherai",
+      "title": "Product Marketing Intern (Summer 2026)",
+      "location": "San Francisco",
+      "url": "https://job-boards.greenhouse.io/togetherai/jobs/5014289007",
+      "departments": [
+        "Marketing"
+      ],
+      "created_at": null,
+      "updated_at": "2026-02-26T17:00:40-05:00",
+      "scores": {
+        "hard_raw": 1.0,
+        "hard_norm": 0.07692307692307693,
+        "semantic_raw": 0.4090209251054563,
+        "semantic_norm": 0.5552111163710669,
+        "final": 0.3399814986194714
+      },
+      "signals": {
+        "must_hits": [
+          "cloud"
+        ],
+        "nice_hits": [],
+        "neg_hits": []
+      },
+      "text_hash": "18c051a3a0c287cbda7d6fee602ac411376c0d62",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "About Together AI Together AI is a research-driven AI company. We believe open and transparent AI systems will drive innovation and create the best outcomes for society, and together we are on a mission to lower the cost of modern AI systems by co-designing software, hardware, algorithms, and models. We have contributed to leading open-source research, models, and datasets to advance the frontier of AI. We invite you to join a passionate group of researchers and engineers in our journey in building the next generation AI infrastructure. Role Overview It’s an exciting time to join Together AI’s"
+    },
+    {
       "job_uid": "e21df956cafcf642",
       "source": "greenhouse",
       "job_id": "e21df956cafcf642",
@@ -1559,13 +1594,13 @@
         "Internships & Emerging Talent Positions"
       ],
       "created_at": null,
-      "updated_at": "2026-02-17T11:38:45-05:00",
+      "updated_at": "2026-02-26T20:00:18-05:00",
       "scores": {
         "hard_raw": 4.0,
         "hard_norm": 0.3076923076923077,
-        "semantic_raw": 0.31691129904425036,
-        "semantic_norm": 0.33141644292432065,
-        "final": 0.32074058206991485
+        "semantic_raw": 0.31691119872433426,
+        "semantic_norm": 0.3314160322571393,
+        "final": 0.3207403562029651
       },
       "signals": {
         "must_hits": [
@@ -1596,13 +1631,13 @@
         "Internships & Emerging Talent Positions"
       ],
       "created_at": null,
-      "updated_at": "2026-02-17T11:38:45-05:00",
+      "updated_at": "2026-02-26T20:00:18-05:00",
       "scores": {
         "hard_raw": 4.0,
         "hard_norm": 0.3076923076923077,
-        "semantic_raw": 0.31691129904425036,
-        "semantic_norm": 0.33141644292432065,
-        "final": 0.32074058206991485
+        "semantic_raw": 0.31691119872433426,
+        "semantic_norm": 0.3314160322571393,
+        "final": 0.3207403562029651
       },
       "signals": {
         "must_hits": [
@@ -1633,13 +1668,13 @@
         "5112 General University"
       ],
       "created_at": null,
-      "updated_at": "2026-02-23T17:58:19-05:00",
+      "updated_at": "2026-02-26T12:14:16-05:00",
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.23076923076923078,
-        "semantic_raw": 0.3415982425209444,
-        "semantic_norm": 0.3913972520975576,
-        "final": 0.31911464249981053
+        "semantic_raw": 0.34159835228876,
+        "semantic_norm": 0.39139735915440854,
+        "final": 0.31911470138107856
       },
       "signals": {
         "must_hits": [
@@ -1670,13 +1705,13 @@
         "5112 General University"
       ],
       "created_at": null,
-      "updated_at": "2026-02-23T17:58:19-05:00",
+      "updated_at": "2026-02-26T12:14:16-05:00",
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.23076923076923078,
-        "semantic_raw": 0.3415982425209444,
-        "semantic_norm": 0.3913972520975576,
-        "final": 0.31911464249981053
+        "semantic_raw": 0.34159835228876,
+        "semantic_norm": 0.39139735915440854,
+        "final": 0.31911470138107856
       },
       "signals": {
         "must_hits": [

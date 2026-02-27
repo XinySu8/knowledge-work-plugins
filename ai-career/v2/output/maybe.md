@@ -204,14 +204,14 @@
   - nice_hits: None
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0
 
-- coinbase | Strategic Sourcing Intern | Hybrid - New York, NY | score=0.355
-  - url: https://www.coinbase.com/careers/positions/7315887?gh_jid=7315887
+- coinbase | Associate Product Manager Intern | Hybrid - San Francisco, CA | score=0.355
+  - url: https://www.coinbase.com/careers/positions/7269743?gh_jid=7269743
   - must_hits: machine learning, git
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1
 
-- coinbase | Associate Product Manager Intern | Hybrid - San Francisco, CA | score=0.355
-  - url: https://www.coinbase.com/careers/positions/7269743?gh_jid=7269743
+- coinbase | Strategic Sourcing Intern | Hybrid - New York, NY | score=0.355
+  - url: https://www.coinbase.com/careers/positions/7315887?gh_jid=7315887
   - must_hits: machine learning, git
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1
@@ -233,6 +233,12 @@
   - must_hits: None
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1
+
+- togetherai | Product Marketing Intern (Summer 2026) | San Francisco | score=0.340
+  - url: https://job-boards.greenhouse.io/togetherai/jobs/5014289007
+  - must_hits: cloud
+  - nice_hits: None
+  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0
 
 - coinbase | Machine Learning Engineer Intern | Hybrid - San Francisco, CA | score=0.321
   - url: https://www.coinbase.com/careers/positions/7294075?gh_jid=7294075
