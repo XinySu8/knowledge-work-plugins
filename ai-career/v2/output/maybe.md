@@ -18,6 +18,12 @@
   - nice_hits: None
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=4, nice_hits=0
 
+- okta | Communications AI Strategy & Operations Intern (Summer 2026) | San Francisco, California | score=0.608
+  - url: https://www.okta.com/company/careers/opportunity/7665195?gh_jid=7665195
+  - must_hits: machine learning, llm, git
+  - nice_hits: rag
+  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1
+
 - stripe | PhD Machine Learning Engineer, Intern | San Francisco, New York City, Seattle | score=0.599
   - url: https://stripe.com/jobs/search?gh_jid=7216664
   - must_hits: python, machine learning, git
@@ -59,12 +65,6 @@
   - must_hits: sql
   - nice_hits: rag, mlflow
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=2
-
-- okta | Talent Management Intern (Summer 2026) | Chicago, Illinois; San Francisco, California | score=0.502
-  - url: https://www.okta.com/company/careers/opportunity/7551355?gh_jid=7551355
-  - must_hits: machine learning
-  - nice_hits: rag
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1
 
 - notion | Software Engineer Intern (Summer 2026) | San Francisco, California | score=0.495
   - url: https://jobs.ashbyhq.com/notion/23ac2477-0008-4bed-b1c1-81f90a32e9e6/application
@@ -120,12 +120,6 @@
   - nice_hits: None
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0
 
-- togetherai | Research Intern, Model Shaping (Summer 2026) | San Francisco | score=0.439
-  - url: https://job-boards.greenhouse.io/togetherai/jobs/5015074007
-  - must_hits: python, machine learning, cloud
-  - nice_hits: None
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=0
-
 - coinbase | Business Controller Intern | Hybrid - New York, NY | score=0.425
   - url: https://www.coinbase.com/careers/positions/7434684?gh_jid=7434684
   - must_hits: machine learning, sql, git
@@ -149,12 +143,6 @@
   - must_hits: sql, cloud
   - nice_hits: mlflow
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1
-
-- serval | Emerging Talent Recruiter | San Francisco | score=0.422
-  - url: https://jobs.ashbyhq.com/Serval/9784591b-28ba-415d-838a-0d167d0dd62f/application
-  - must_hits: None
-  - nice_hits: langchain, rag
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=2
 
 - okta | Data Analyst Intern (Summer 2026) | San Francisco, California | score=0.401
   - url: https://www.okta.com/company/careers/opportunity/7561055?gh_jid=7561055

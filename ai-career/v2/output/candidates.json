@@ -2,9 +2,9 @@
   "meta": {
     "engine_name": "AutoJob-Agent Feeder",
     "version": 2,
-    "generated_at": "2026-02-27T15:59:20.343987+00:00",
-    "source_jobs_count": 169,
-    "candidates_count": 46,
+    "generated_at": "2026-02-28T15:44:18.037390+00:00",
+    "source_jobs_count": 166,
+    "candidates_count": 44,
     "candidates_topN_total": 150,
     "thresholds": {
       "apply": 0.72,
@@ -29,7 +29,7 @@
       "scores": {
         "hard_raw": 9.0,
         "hard_norm": 0.6923076923076923,
-        "semantic_raw": 0.5920874233292037,
+        "semantic_raw": 0.5920873880380431,
         "semantic_norm": 1.0,
         "final": 0.8615384615384616
       },
@@ -67,9 +67,9 @@
       "scores": {
         "hard_raw": 6.0,
         "hard_norm": 0.46153846153846156,
-        "semantic_raw": 0.5657060483513211,
-        "semantic_norm": 0.9359022954016033,
-        "final": 0.7224385701631896
+        "semantic_raw": 0.5657059550279682,
+        "semantic_norm": 0.9359021621859467,
+        "final": 0.7224384968945784
       },
       "signals": {
         "must_hits": [
@@ -106,9 +106,9 @@
       "scores": {
         "hard_raw": 8.0,
         "hard_norm": 0.6153846153846154,
-        "semantic_raw": 0.4954759773890772,
-        "semantic_norm": 0.7652672793633435,
-        "final": 0.6978200805729159
+        "semantic_raw": 0.49547576904247326,
+        "semantic_norm": 0.7652668873989433,
+        "final": 0.6978198649924958
       },
       "signals": {
         "must_hits": [
@@ -146,9 +146,9 @@
       "scores": {
         "hard_raw": 5.0,
         "hard_norm": 0.38461538461538464,
-        "semantic_raw": 0.5446386390488231,
-        "semantic_norm": 0.8847157071643662,
-        "final": 0.6596705620173245
+        "semantic_raw": 0.5446384277718836,
+        "semantic_norm": 0.8847152935769538,
+        "final": 0.6596703345442477
       },
       "signals": {
         "must_hits": [
@@ -182,9 +182,9 @@
       "scores": {
         "hard_raw": 10.0,
         "hard_norm": 0.7692307692307693,
-        "semantic_raw": 0.39154913375035316,
-        "semantic_norm": 0.512760648113703,
-        "final": 0.628172202616383
+        "semantic_raw": 0.3915490508075613,
+        "semantic_norm": 0.5127605914966613,
+        "final": 0.6281721714770099
       },
       "signals": {
         "must_hits": [
@@ -205,6 +205,45 @@
       "jd_excerpt": "At Scale , our Machine Learning Research team is focused on building the foundation for the next generation of AI systems—pushing the boundaries of what’s possible with frontier models while ensuring safety, reliability, and alignment at every step. Our work spans across generative AI, advanced post-training methods, scalable oversight, synthetic data pipelines, red teaming, and evaluation science. We are developing a large-scale hybrid human-machine system to power machine learning pipelines for dozens of industry-leading customers. These models and systems form the backbone of Scale’s long-t"
     },
     {
+      "job_uid": "a6d769757f815638",
+      "source": "greenhouse",
+      "job_id": "a6d769757f815638",
+      "company": "okta",
+      "title": "Communications AI Strategy & Operations Intern (Summer 2026)",
+      "location": "San Francisco, California",
+      "url": "https://www.okta.com/company/careers/opportunity/7665195?gh_jid=7665195",
+      "departments": [
+        "Corporate Communication-410"
+      ],
+      "created_at": null,
+      "updated_at": "2026-02-27T18:43:24-05:00",
+      "scores": {
+        "hard_raw": 7.0,
+        "hard_norm": 0.5384615384615384,
+        "semantic_raw": 0.45383104406734887,
+        "semantic_norm": 0.6640844828553017,
+        "final": 0.6075541578781083
+      },
+      "signals": {
+        "must_hits": [
+          "machine learning",
+          "llm",
+          "git"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "806f84fc6651d7172a7e70fe6e5b095d78c85f86",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Get to know Okta Okta is The World’s Identity Company. We free everyone to safely use any technology, anywhere, on any device or app. Our flexible and neutral products, Okta Platform and Auth0 Platform, provide secure access, authentication, and automation, placing identity at the core of business security and growth. At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box - we’re looking for lifelong learners and people who can make us better with their unique experiences.&nbsp; Join our team! We’re building a world where Ide"
+    },
+    {
       "job_uid": "5936ffed28038e5d",
       "source": "greenhouse",
       "job_id": "5936ffed28038e5d",
@@ -220,9 +259,9 @@
       "scores": {
         "hard_raw": 8.0,
         "hard_norm": 0.6153846153846154,
-        "semantic_raw": 0.4216969171216295,
-        "semantic_norm": 0.5860094349736978,
-        "final": 0.5992282661586108
+        "semantic_raw": 0.4216968072467883,
+        "semantic_norm": 0.5860093040272195,
+        "final": 0.5992281941380477
       },
       "signals": {
         "must_hits": [
@@ -259,9 +298,9 @@
       "scores": {
         "hard_raw": 4.0,
         "hard_norm": 0.3076923076923077,
-        "semantic_raw": 0.4998749792421801,
-        "semantic_norm": 0.7759553470453493,
-        "final": 0.5652369793364806
+        "semantic_raw": 0.4998748302380111,
+        "semantic_norm": 0.775955097964988,
+        "final": 0.5652368423422819
       },
       "signals": {
         "must_hits": [
@@ -297,9 +336,9 @@
       "scores": {
         "hard_raw": 1.0,
         "hard_norm": 0.07692307692307693,
-        "semantic_raw": 0.5758430199336647,
-        "semantic_norm": 0.9605316640585493,
-        "final": 0.5629077998475868
+        "semantic_raw": 0.575842985610742,
+        "semantic_norm": 0.9605316712032391,
+        "final": 0.5629078037771662
       },
       "signals": {
         "must_hits": [
@@ -337,9 +376,9 @@
       "scores": {
         "hard_raw": 8.0,
         "hard_norm": 0.6153846153846154,
-        "semantic_raw": 0.3924526508120338,
-        "semantic_norm": 0.5149558850855351,
-        "final": 0.5601488137201213
+        "semantic_raw": 0.3924525082107434,
+        "semantic_norm": 0.5149556832522516,
+        "final": 0.5601487027118153
       },
       "signals": {
         "must_hits": [
@@ -376,9 +415,9 @@
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.15384615384615385,
-        "semantic_raw": 0.5330089966064125,
-        "semantic_norm": 0.8564596596125019,
-        "final": 0.5402835820176454
+        "semantic_raw": 0.5330088138574992,
+        "semantic_norm": 0.8564593187692322,
+        "final": 0.540283394553847
       },
       "signals": {
         "must_hits": [],
@@ -411,9 +450,9 @@
       "scores": {
         "hard_raw": 8.0,
         "hard_norm": 0.6153846153846154,
-        "semantic_raw": 0.35671391229080723,
-        "semantic_norm": 0.4281229923203386,
-        "final": 0.5123907226992632
+        "semantic_raw": 0.35671383142435636,
+        "semantic_norm": 0.4281229510247082,
+        "final": 0.5123906999866665
       },
       "signals": {
         "must_hits": [
@@ -450,9 +489,9 @@
       "scores": {
         "hard_raw": 5.0,
         "hard_norm": 0.38461538461538464,
-        "semantic_raw": 0.4326056499837871,
-        "semantic_norm": 0.6125139191837744,
-        "final": 0.509959578627999
+        "semantic_raw": 0.43260559439615853,
+        "semantic_norm": 0.612513916918465,
+        "final": 0.5099595773820789
       },
       "signals": {
         "must_hits": [
@@ -473,43 +512,6 @@
       "jd_excerpt": "At Databricks, we are passionate about helping data teams solve the world's toughest problems - from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. As a Corporate Operations (Corp Ops) MBA Intern, you will sit at the strategic nexus of our organization, connecting the dots across a diverse array of functions including Product, Sales, Finance, People, Legal, M&amp;A, and more.&nb"
     },
     {
-      "job_uid": "85a318f88b761cdc",
-      "source": "greenhouse",
-      "job_id": "85a318f88b761cdc",
-      "company": "okta",
-      "title": "Talent Management Intern (Summer 2026)",
-      "location": "Chicago, Illinois; San Francisco, California",
-      "url": "https://www.okta.com/company/careers/opportunity/7551355?gh_jid=7551355",
-      "departments": [
-        "Okta U-164"
-      ],
-      "created_at": null,
-      "updated_at": "2026-02-23T16:39:45-05:00",
-      "scores": {
-        "hard_raw": 4.0,
-        "hard_norm": 0.3076923076923077,
-        "semantic_raw": 0.4524761410038799,
-        "semantic_norm": 0.660792405983602,
-        "final": 0.5018973617525195
-      },
-      "signals": {
-        "must_hits": [
-          "machine learning"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": []
-      },
-      "text_hash": "42b97094ce41b685cec987e9da69ade96c0ed19b",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "Get to know Okta Okta is The World’s Identity Company. We free everyone to safely use any technology, anywhere, on any device or app. Our flexible and neutral products, Okta Platform and Auth0 Platform, provide secure access, authentication, and automation, placing identity at the core of business security and growth. At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box - we’re looking for lifelong learners and people who can make us better with their unique experiences.&nbsp; Join our team! We’re building a world where Ide"
-    },
-    {
       "job_uid": "eb13b93308235f49",
       "source": "ashby",
       "job_id": "eb13b93308235f49",
@@ -526,9 +528,9 @@
       "scores": {
         "hard_raw": 7.0,
         "hard_norm": 0.5384615384615384,
-        "semantic_raw": 0.3698107820632802,
-        "semantic_norm": 0.459943899704561,
-        "final": 0.4952768371452009
+        "semantic_raw": 0.36981070041619507,
+        "semantic_norm": 0.45994385264859605,
+        "final": 0.49527681126442014
       },
       "signals": {
         "must_hits": [
@@ -564,9 +566,9 @@
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.23076923076923078,
-        "semantic_raw": 0.4579376553255303,
-        "semantic_norm": 0.6740620150143121,
-        "final": 0.47458026210402554
+        "semantic_raw": 0.45793756842567424,
+        "semantic_norm": 0.67406192919792,
+        "final": 0.4745802149050099
       },
       "signals": {
         "must_hits": [
@@ -601,9 +603,9 @@
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.23076923076923078,
-        "semantic_raw": 0.455886242144024,
-        "semantic_norm": 0.6690777836682321,
-        "final": 0.47183893486368156
+        "semantic_raw": 0.4558860957617969,
+        "semantic_norm": 0.6690775539352511,
+        "final": 0.47183880851054205
       },
       "signals": {
         "must_hits": [
@@ -637,9 +639,9 @@
       "scores": {
         "hard_raw": 4.0,
         "hard_norm": 0.3076923076923077,
-        "semantic_raw": 0.4276838557527471,
-        "semantic_norm": 0.6005556450991303,
-        "final": 0.46876714326606017
+        "semantic_raw": 0.42768380045848037,
+        "semantic_norm": 0.6005556449985505,
+        "final": 0.46876714321074126
       },
       "signals": {
         "must_hits": [
@@ -673,9 +675,9 @@
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.23076923076923078,
-        "semantic_raw": 0.4516909660920116,
-        "semantic_norm": 0.6588846998992449,
-        "final": 0.4662327387907386
+        "semantic_raw": 0.4516908497621579,
+        "semantic_norm": 0.6588845444208619,
+        "final": 0.4662326532776279
       },
       "signals": {
         "must_hits": [
@@ -710,9 +712,9 @@
       "scores": {
         "hard_raw": 4.0,
         "hard_norm": 0.3076923076923077,
-        "semantic_raw": 0.42013331771649537,
-        "semantic_norm": 0.5822104240099198,
-        "final": 0.4586772716669944
+        "semantic_raw": 0.4201331734653086,
+        "semantic_norm": 0.5822102100019789,
+        "final": 0.4586771539626269
       },
       "signals": {
         "must_hits": [
@@ -747,9 +749,9 @@
       "scores": {
         "hard_raw": 4.0,
         "hard_norm": 0.3076923076923077,
-        "semantic_raw": 0.41936683174132083,
-        "semantic_norm": 0.580348125640076,
-        "final": 0.4576530075635803
+        "semantic_raw": 0.4193667173381426,
+        "semantic_norm": 0.5803479843786812,
+        "final": 0.45765292986981315
       },
       "signals": {
         "must_hits": [
@@ -785,7 +787,7 @@
       "scores": {
         "hard_raw": 13.0,
         "hard_norm": 1.0,
-        "semantic_raw": 0.18050677245918015,
+        "semantic_raw": 0.18050668719432705,
         "semantic_norm": 0.0,
         "final": 0.45
       },
@@ -827,9 +829,9 @@
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.23076923076923078,
-        "semantic_raw": 0.4316791810602617,
-        "semantic_norm": 0.6102629170495223,
-        "final": 0.4394907582233912
+        "semantic_raw": 0.43167903612087927,
+        "semantic_norm": 0.6102626979633977,
+        "final": 0.43949063772602265
       },
       "signals": {
         "must_hits": [
@@ -848,43 +850,6 @@
       "jd_excerpt": "Get to know Okta Okta is The World’s Identity Company. We free everyone to safely use any technology, anywhere, on any device or app. Our flexible and neutral products, Okta Platform and Auth0 Platform, provide secure access, authentication, and automation, placing identity at the core of business security and growth. At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box - we’re looking for lifelong learners and people who can make us better with their unique experiences.&nbsp; Join our team! We’re building a world where Ide"
     },
     {
-      "job_uid": "f9b27fef6c304efa",
-      "source": "greenhouse",
-      "job_id": "f9b27fef6c304efa",
-      "company": "togetherai",
-      "title": "Research Intern, Model Shaping (Summer 2026)",
-      "location": "San Francisco",
-      "url": "https://job-boards.greenhouse.io/togetherai/jobs/5015074007",
-      "departments": [
-        "Research"
-      ],
-      "created_at": null,
-      "updated_at": "2026-02-24T16:25:20-05:00",
-      "scores": {
-        "hard_raw": 6.0,
-        "hard_norm": 0.46153846153846156,
-        "semantic_raw": 0.3532539518623367,
-        "semantic_norm": 0.4197164736437277,
-        "final": 0.438536368196358
-      },
-      "signals": {
-        "must_hits": [
-          "python",
-          "machine learning",
-          "cloud"
-        ],
-        "nice_hits": [],
-        "neg_hits": []
-      },
-      "text_hash": "c7b02c2e4953f8dbfb909799d3ec4e29e75f90c2",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=0",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "About Together AI Together AI is a research-driven artificial intelligence company. We believe open and transparent AI systems will drive innovation and create the best outcomes for society, and together we are on a mission to significantly lower the cost of modern AI systems by co-designing software, algorithms, and models. We have contributed to leading open-source research, models, and datasets to advance the frontier of AI, and our team has been behind technological advancements such as FlashAttention, Mamba, FlexGen, SWARM Parallelism, Mixture of Agents, and RedPajama. Role Overview As a "
-    },
-    {
       "job_uid": "e74e57654663fbbb",
       "source": "greenhouse",
       "job_id": "e74e57654663fbbb",
@@ -900,9 +865,9 @@
       "scores": {
         "hard_raw": 7.0,
         "hard_norm": 0.5384615384615384,
-        "semantic_raw": 0.31691119872433426,
-        "semantic_norm": 0.3314160322571393,
-        "final": 0.42458651004911896
+        "semantic_raw": 0.31691129904425036,
+        "semantic_norm": 0.33141644292432065,
+        "final": 0.42458673591606866
       },
       "signals": {
         "must_hits": [
@@ -939,9 +904,9 @@
       "scores": {
         "hard_raw": 7.0,
         "hard_norm": 0.5384615384615384,
-        "semantic_raw": 0.31691119872433426,
-        "semantic_norm": 0.3314160322571393,
-        "final": 0.42458651004911896
+        "semantic_raw": 0.31691129904425036,
+        "semantic_norm": 0.33141644292432065,
+        "final": 0.42458673591606866
       },
       "signals": {
         "must_hits": [
@@ -979,9 +944,9 @@
       "scores": {
         "hard_raw": 7.0,
         "hard_norm": 0.5384615384615384,
-        "semantic_raw": 0.31691119872433426,
-        "semantic_norm": 0.3314160322571393,
-        "final": 0.42458651004911896
+        "semantic_raw": 0.31691129904425036,
+        "semantic_norm": 0.33141644292432065,
+        "final": 0.42458673591606866
       },
       "signals": {
         "must_hits": [
@@ -1018,9 +983,9 @@
       "scores": {
         "hard_raw": 4.0,
         "hard_norm": 0.3076923076923077,
-        "semantic_raw": 0.39330230871427174,
-        "semantic_norm": 0.5170202627486782,
-        "final": 0.4228226829733115
+        "semantic_raw": 0.3933022256669776,
+        "semantic_norm": 0.517020205360534,
+        "final": 0.42282265140983216
       },
       "signals": {
         "must_hits": [
@@ -1041,43 +1006,6 @@
       "jd_excerpt": "RDQ227R1172 &nbsp; At Databricks, we are passionate about helping data teams solve the world's toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. As a Product Pricing &amp; Commercialization Intern, you will join our world-class Commercialization team to help shape the monetization strategies that power Databricks’ hyper-growth. During your 12-week internshi"
     },
     {
-      "job_uid": "005f1153ba75e414",
-      "source": "ashby",
-      "job_id": "005f1153ba75e414",
-      "company": "serval",
-      "title": "Emerging Talent Recruiter",
-      "location": "San Francisco",
-      "url": "https://jobs.ashbyhq.com/Serval/9784591b-28ba-415d-838a-0d167d0dd62f/application",
-      "departments": [
-        "Talent",
-        "Talent"
-      ],
-      "created_at": "2026-02-16T22:02:10.171+00:00",
-      "updated_at": "2026-02-16T22:02:10.171+00:00",
-      "scores": {
-        "hard_raw": 4.0,
-        "hard_norm": 0.3076923076923077,
-        "semantic_raw": 0.3924526508120338,
-        "semantic_norm": 0.5149558850855351,
-        "final": 0.4216872752585828
-      },
-      "signals": {
-        "must_hits": [],
-        "nice_hits": [
-          "langchain",
-          "rag"
-        ],
-        "neg_hits": []
-      },
-      "text_hash": "4d1f4459b404f1a82249cd18c93c6ae02aa07ab3",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=2",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "WHO WE ARE Serval http://serval.com is an AI-native automation platform transforming how enterprises operate. We build intelligent agents that understand real-world workflows and execute them end-to-end — replacing manual processes and rigid legacy systems with adaptive, learning software. Founded in early 2024, Serval is already trusted by companies like General Motors, Notion, Perplexity, Vercel, Mercor, LangChain, and Verkada to automate high-volume, high-friction operational work across their organizations. At the core of Serval is an agentic AI platform that turns natural language into pr"
-    },
-    {
       "job_uid": "f3754782a3cf48aa",
       "source": "greenhouse",
       "job_id": "f3754782a3cf48aa",
@@ -1093,9 +1021,9 @@
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.15384615384615385,
-        "semantic_raw": 0.42874431610064545,
-        "semantic_norm": 0.6031322004975843,
-        "final": 0.4009534795044406
+        "semantic_raw": 0.4287441457810709,
+        "semantic_norm": 0.6031319206120982,
+        "final": 0.40095332556742325
       },
       "signals": {
         "must_hits": [
@@ -1128,9 +1056,9 @@
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.15384615384615385,
-        "semantic_raw": 0.4271014587339338,
-        "semantic_norm": 0.5991406198359597,
-        "final": 0.3987581101405471
+        "semantic_raw": 0.4271014034743806,
+        "semantic_norm": 0.5991406199915327,
+        "final": 0.3987581102261122
       },
       "signals": {
         "must_hits": [],
@@ -1163,9 +1091,9 @@
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.15384615384615385,
-        "semantic_raw": 0.4204093766452267,
-        "semantic_norm": 0.5828811526463311,
-        "final": 0.3898154031862514
+        "semantic_raw": 0.4204093217845527,
+        "semantic_norm": 0.5828811557452511,
+        "final": 0.38981540489065736
       },
       "signals": {
         "must_hits": [],
@@ -1198,9 +1126,9 @@
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.23076923076923078,
-        "semantic_raw": 0.3917254974510922,
-        "semantic_norm": 0.5131891514954005,
-        "final": 0.38610018716862415
+        "semantic_raw": 0.39172532509081087,
+        "semantic_norm": 0.5131888775724861,
+        "final": 0.38610003651102126
       },
       "signals": {
         "must_hits": [
@@ -1235,9 +1163,9 @@
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.23076923076923078,
-        "semantic_raw": 0.3882524535953041,
-        "semantic_norm": 0.5047508445719661,
-        "final": 0.3814591183607352
+        "semantic_raw": 0.3882523179050377,
+        "semantic_norm": 0.5047506607691868,
+        "final": 0.38145901726920667
       },
       "signals": {
         "must_hits": [
@@ -1272,9 +1200,9 @@
       "scores": {
         "hard_raw": 4.0,
         "hard_norm": 0.3076923076923077,
-        "semantic_raw": 0.3585070371624222,
-        "semantic_norm": 0.4324796715466933,
-        "final": 0.3763253578122198
+        "semantic_raw": 0.35850694775545505,
+        "semantic_norm": 0.4324796089715529,
+        "final": 0.3763253233958926
       },
       "signals": {
         "must_hits": [
@@ -1309,9 +1237,9 @@
       "scores": {
         "hard_raw": 0.0,
         "hard_norm": 0.0,
-        "semantic_raw": 0.45851179710055023,
-        "semantic_norm": 0.6754569828627915,
-        "final": 0.3715013405745354
+        "semantic_raw": 0.4585116778912536,
+        "semantic_norm": 0.67545681837616,
+        "final": 0.37150125010688806
       },
       "signals": {
         "must_hits": [],
@@ -1342,9 +1270,9 @@
       "scores": {
         "hard_raw": 1.0,
         "hard_norm": 0.07692307692307693,
-        "semantic_raw": 0.42561214718848506,
-        "semantic_norm": 0.5955221029248742,
-        "final": 0.3621525412240654
+        "semantic_raw": 0.4256120920177018,
+        "semantic_norm": 0.5955221037354842,
+        "final": 0.36215254166990096
       },
       "signals": {
         "must_hits": [
@@ -1377,9 +1305,9 @@
       "scores": {
         "hard_raw": 5.0,
         "hard_norm": 0.38461538461538464,
-        "semantic_raw": 0.31691119872433426,
-        "semantic_norm": 0.3314160322571393,
-        "final": 0.35535574081834975
+        "semantic_raw": 0.31691129904425036,
+        "semantic_norm": 0.33141644292432065,
+        "final": 0.35535596668529945
       },
       "signals": {
         "must_hits": [
@@ -1415,9 +1343,9 @@
       "scores": {
         "hard_raw": 5.0,
         "hard_norm": 0.38461538461538464,
-        "semantic_raw": 0.31691119872433426,
-        "semantic_norm": 0.3314160322571393,
-        "final": 0.35535574081834975
+        "semantic_raw": 0.31691129904425036,
+        "semantic_norm": 0.33141644292432065,
+        "final": 0.35535596668529945
       },
       "signals": {
         "must_hits": [
@@ -1453,9 +1381,9 @@
       "scores": {
         "hard_raw": 5.0,
         "hard_norm": 0.38461538461538464,
-        "semantic_raw": 0.31691119872433426,
-        "semantic_norm": 0.3314160322571393,
-        "final": 0.35535574081834975
+        "semantic_raw": 0.31691129904425036,
+        "semantic_norm": 0.33141644292432065,
+        "final": 0.35535596668529945
       },
       "signals": {
         "must_hits": [
@@ -1491,9 +1419,9 @@
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.23076923076923078,
-        "semantic_raw": 0.36559937782243623,
-        "semantic_norm": 0.449711629961215,
-        "final": 0.35118755032482213
+        "semantic_raw": 0.3655992964263655,
+        "semantic_norm": 0.44971158475752043,
+        "final": 0.3511875254627901
       },
       "signals": {
         "must_hits": [
@@ -1528,9 +1456,9 @@
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.15384615384615385,
-        "semantic_raw": 0.3893847101556169,
-        "semantic_norm": 0.5075018401737257,
-        "final": 0.3483567813263184
+        "semantic_raw": 0.3893846273418347,
+        "semantic_norm": 0.5075017845086524,
+        "final": 0.3483567507105281
       },
       "signals": {
         "must_hits": [],
@@ -1563,9 +1491,9 @@
       "scores": {
         "hard_raw": 1.0,
         "hard_norm": 0.07692307692307693,
-        "semantic_raw": 0.4090209251054563,
-        "semantic_norm": 0.5552111163710669,
-        "final": 0.3399814986194714
+        "semantic_raw": 0.40902075171429736,
+        "semantic_norm": 0.555210834841211,
+        "final": 0.33998134377805067
       },
       "signals": {
         "must_hits": [
@@ -1598,9 +1526,9 @@
       "scores": {
         "hard_raw": 4.0,
         "hard_norm": 0.3076923076923077,
-        "semantic_raw": 0.31691119872433426,
-        "semantic_norm": 0.3314160322571393,
-        "final": 0.3207403562029651
+        "semantic_raw": 0.31691129904425036,
+        "semantic_norm": 0.33141644292432065,
+        "final": 0.32074058206991485
       },
       "signals": {
         "must_hits": [
@@ -1635,9 +1563,9 @@
       "scores": {
         "hard_raw": 4.0,
         "hard_norm": 0.3076923076923077,
-        "semantic_raw": 0.31691119872433426,
-        "semantic_norm": 0.3314160322571393,
-        "final": 0.3207403562029651
+        "semantic_raw": 0.31691129904425036,
+        "semantic_norm": 0.33141644292432065,
+        "final": 0.32074058206991485
       },
       "signals": {
         "must_hits": [
@@ -1672,9 +1600,9 @@
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.23076923076923078,
-        "semantic_raw": 0.34159835228876,
-        "semantic_norm": 0.39139735915440854,
-        "final": 0.31911470138107856
+        "semantic_raw": 0.3415982425209444,
+        "semantic_norm": 0.3913972520975576,
+        "final": 0.31911464249981053
       },
       "signals": {
         "must_hits": [
@@ -1709,9 +1637,9 @@
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.23076923076923078,
-        "semantic_raw": 0.34159835228876,
-        "semantic_norm": 0.39139735915440854,
-        "final": 0.31911470138107856
+        "semantic_raw": 0.3415982425209444,
+        "semantic_norm": 0.3913972520975576,
+        "final": 0.31911464249981053
       },
       "signals": {
         "must_hits": [
