@@ -2,7 +2,7 @@
   "meta": {
     "engine_name": "AutoJob-Agent Feeder",
     "version": 2,
-    "generated_at": "2026-03-01T15:45:26.207978+00:00",
+    "generated_at": "2026-03-02T16:05:33.881671+00:00",
     "source_jobs_count": 166,
     "candidates_count": 44,
     "candidates_topN_total": 150,
@@ -102,7 +102,7 @@
         "Engineering"
       ],
       "created_at": null,
-      "updated_at": "2026-02-25T08:13:40-05:00",
+      "updated_at": "2026-03-02T10:39:52-05:00",
       "scores": {
         "hard_raw": 8.0,
         "hard_norm": 0.6153846153846154,
