@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-03-02T14:04:29.741716+00:00",
+  "generated_at_utc": "2026-03-02T14:40:49.559228+00:00",
   "today_utc": "2026-03-02",
   "fetched_count": 3596,
   "filtered_count": 12,
@@ -9,7 +9,7 @@
   "per_company_fetched": {
     "openai": 596,
     "anthropic": 448,
-    "databricks": 751,
+    "databricks": 752,
     "cohere": 126,
     "perplexity": 84,
     "langchain": 67,
@@ -20,7 +20,7 @@
     "zapier": 31,
     "sierra": 149,
     "mistral": 139,
-    "stripe": 598,
+    "stripe": 597,
     "scaleai": 173,
     "figma": 174
   },
