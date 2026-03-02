@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-03-01T14:21:46.603413+00:00",
-  "source_generated_at_utc": "2026-03-01T14:21:46.498247+00:00",
+  "generated_at_utc": "2026-03-02T14:04:29.850037+00:00",
+  "source_generated_at_utc": "2026-03-02T14:04:29.741716+00:00",
   "count": 12,
   "jobs": [
     {
@@ -265,11 +265,11 @@
       "matched_bonus": []
     },
     {
-      "id": "acdb4e432b539db6",
+      "id": "867837af4b70f7ea",
       "company": "stripe",
       "title": "Software Engineer, Intern",
-      "location": "London",
-      "url": "https://stripe.com/jobs/search?gh_jid=7360840",
+      "location": "Dublin",
+      "url": "https://stripe.com/jobs/search?gh_jid=7206494",
       "source": "greenhouse",
       "score": 17,
       "breakdown": {
@@ -293,11 +293,11 @@
       "matched_bonus": []
     },
     {
-      "id": "867837af4b70f7ea",
+      "id": "acdb4e432b539db6",
       "company": "stripe",
       "title": "Software Engineer, Intern",
-      "location": "Dublin",
-      "url": "https://stripe.com/jobs/search?gh_jid=7206494",
+      "location": "London",
+      "url": "https://stripe.com/jobs/search?gh_jid=7360840",
       "source": "greenhouse",
       "score": 17,
       "breakdown": {
