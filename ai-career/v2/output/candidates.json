@@ -2,9 +2,9 @@
   "meta": {
     "engine_name": "AutoJob-Agent Feeder",
     "version": 2,
-    "generated_at": "2026-03-02T16:05:33.881671+00:00",
-    "source_jobs_count": 166,
-    "candidates_count": 44,
+    "generated_at": "2026-03-03T16:07:44.104437+00:00",
+    "source_jobs_count": 169,
+    "candidates_count": 48,
     "candidates_topN_total": 150,
     "thresholds": {
       "apply": 0.72,
@@ -13,44 +13,6 @@
     "config_digest": "7f9d61b8fda9e66343b1828d5752df0d87053bf5"
   },
   "candidates": [
-    {
-      "job_uid": "1539e4387be08afa",
-      "source": "greenhouse",
-      "job_id": "1539e4387be08afa",
-      "company": "vercel",
-      "title": "Data Platform & Engineering Intern",
-      "location": "Hybrid - San Francisco",
-      "url": "https://job-boards.greenhouse.io/vercel/jobs/5810803004",
-      "departments": [
-        "Data"
-      ],
-      "created_at": null,
-      "updated_at": "2026-02-23T14:43:09-05:00",
-      "scores": {
-        "hard_raw": 9.0,
-        "hard_norm": 0.6923076923076923,
-        "semantic_raw": 0.5920873880380431,
-        "semantic_norm": 1.0,
-        "final": 0.8615384615384616
-      },
-      "signals": {
-        "must_hits": [
-          "python",
-          "data pipeline",
-          "sql",
-          "cloud"
-        ],
-        "nice_hits": [],
-        "neg_hits": []
-      },
-      "text_hash": "d17be0a3944ee85ec0562f656b67913eb772cfa1",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=4, nice_hits=0",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "About Vercel: Vercel gives developers the tools and cloud infrastructure to build, scale, and secure a faster, more personalized web. As the team behind v0, Next.js, and AI SDK, Vercel helps customers like Ramp, Supreme, PayPal, and Under Armour build for the AI-native web. Our mission is to enable the world to ship the best products. That starts with creating a place where everyone can do their best work. Whether you're building on our platform, supporting our customers, or shaping our story: You can just ship things. About the Team The Data Platform &amp; Engineering team builds and operates"
-    },
     {
       "job_uid": "8b8f2da94e9ac418",
       "source": "greenhouse",
@@ -68,8 +30,8 @@
         "hard_raw": 6.0,
         "hard_norm": 0.46153846153846156,
         "semantic_raw": 0.5657059550279682,
-        "semantic_norm": 0.9359021621859467,
-        "final": 0.7224384968945784
+        "semantic_norm": 0.9743584623436315,
+        "final": 0.7435894619813052
       },
       "signals": {
         "must_hits": [
@@ -107,8 +69,8 @@
         "hard_raw": 8.0,
         "hard_norm": 0.6153846153846154,
         "semantic_raw": 0.49547576904247326,
-        "semantic_norm": 0.7652668873989433,
-        "final": 0.6978198649924958
+        "semantic_norm": 0.7967117694727427,
+        "final": 0.7151145501330854
       },
       "signals": {
         "must_hits": [
@@ -147,8 +109,8 @@
         "hard_raw": 5.0,
         "hard_norm": 0.38461538461538464,
         "semantic_raw": 0.5446384277718836,
-        "semantic_norm": 0.8847152935769538,
-        "final": 0.6596703345442477
+        "semantic_norm": 0.9210683209109476,
+        "final": 0.6796644995779444
       },
       "signals": {
         "must_hits": [
@@ -183,8 +145,8 @@
         "hard_raw": 10.0,
         "hard_norm": 0.7692307692307693,
         "semantic_raw": 0.3915490508075613,
-        "semantic_norm": 0.5127605914966613,
-        "final": 0.6281721714770099
+        "semantic_norm": 0.5338299682032726,
+        "final": 0.6397603286656461
       },
       "signals": {
         "must_hits": [
@@ -205,6 +167,44 @@
       "jd_excerpt": "At Scale , our Machine Learning Research team is focused on building the foundation for the next generation of AI systems—pushing the boundaries of what’s possible with frontier models while ensuring safety, reliability, and alignment at every step. Our work spans across generative AI, advanced post-training methods, scalable oversight, synthetic data pipelines, red teaming, and evaluation science. We are developing a large-scale hybrid human-machine system to power machine learning pipelines for dozens of industry-leading customers. These models and systems form the backbone of Scale’s long-t"
     },
     {
+      "job_uid": "30e16c6943fafdda",
+      "source": "greenhouse",
+      "job_id": "30e16c6943fafdda",
+      "company": "okta",
+      "title": "Global Benefits Intern (Summer 2026)",
+      "location": "Bellevue, Washington; San Francisco, California",
+      "url": "https://www.okta.com/company/careers/opportunity/7547730?gh_jid=7547730",
+      "departments": [
+        "People Operations-131"
+      ],
+      "created_at": null,
+      "updated_at": "2026-03-02T14:08:54-05:00",
+      "scores": {
+        "hard_raw": 5.0,
+        "hard_norm": 0.38461538461538464,
+        "semantic_raw": 0.5071952342981988,
+        "semantic_norm": 0.8263560629582379,
+        "final": 0.627572757703954
+      },
+      "signals": {
+        "must_hits": [
+          "machine learning",
+          "git"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "40fbb39f1cef7758596e8d46f5dc82fb04ba72df",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Get to know Okta Okta is The World’s Identity Company. We free everyone to safely use any technology, anywhere, on any device or app. Our flexible and neutral products, Okta Platform and Auth0 Platform, provide secure access, authentication, and automation, placing identity at the core of business security and growth. At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box - we’re looking for lifelong learners and people who can make us better with their unique experiences.&nbsp; Join our team! We’re building a world where Ide"
+    },
+    {
       "job_uid": "a6d769757f815638",
       "source": "greenhouse",
       "job_id": "a6d769757f815638",
@@ -221,8 +221,8 @@
         "hard_raw": 7.0,
         "hard_norm": 0.5384615384615384,
         "semantic_raw": 0.45383104406734887,
-        "semantic_norm": 0.6640844828553017,
-        "final": 0.6075541578781083
+        "semantic_norm": 0.6913717712435408,
+        "final": 0.6225621664916398
       },
       "signals": {
         "must_hits": [
@@ -260,8 +260,8 @@
         "hard_raw": 8.0,
         "hard_norm": 0.6153846153846154,
         "semantic_raw": 0.4216968072467883,
-        "semantic_norm": 0.5860093040272195,
-        "final": 0.5992281941380477
+        "semantic_norm": 0.6100884766174729,
+        "final": 0.612471739062687
       },
       "signals": {
         "must_hits": [
@@ -283,44 +283,6 @@
       "jd_excerpt": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. What you’ll do About the internship Stripe's Applied ML, Data Science, Risk, and"
     },
     {
-      "job_uid": "350a88175f7fa454",
-      "source": "greenhouse",
-      "job_id": "350a88175f7fa454",
-      "company": "databricks",
-      "title": "Legal Intern",
-      "location": "Mountain View, California; San Francisco, California",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8377581002",
-      "departments": [
-        "Legal"
-      ],
-      "created_at": null,
-      "updated_at": "2026-02-25T14:16:20-05:00",
-      "scores": {
-        "hard_raw": 4.0,
-        "hard_norm": 0.3076923076923077,
-        "semantic_raw": 0.4998748302380111,
-        "semantic_norm": 0.775955097964988,
-        "final": 0.5652368423422819
-      },
-      "signals": {
-        "must_hits": [
-          "cloud"
-        ],
-        "nice_hits": [
-          "rag",
-          "mlflow"
-        ],
-        "neg_hits": []
-      },
-      "text_hash": "cceb9c47fac719f161a36511ad7aee76c9dd4b03",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=2",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "GAQ227R1 Work at the nexus of law and innovation with a recognized global leader in Data and AI.&nbsp; As a Databricks Legal Intern, you won’t just observe, you’ll jump straight into novel legal issues working alongside our high-impact global legal team. You will gain first-hand experience on how an in-house legal department drives business strategy and tackles complex challenges on a daily basis, and navigate cutting-edge legal landscape of generative AI, cloud computing, and big data.&nbsp; Databricks will encourage you to get out of your comfort zone and provide the resources, mentoring, an"
-    },
-    {
       "job_uid": "3a22be8e7f95b798",
       "source": "greenhouse",
       "job_id": "3a22be8e7f95b798",
@@ -337,8 +299,8 @@
         "hard_raw": 1.0,
         "hard_norm": 0.07692307692307693,
         "semantic_raw": 0.575842985610742,
-        "semantic_norm": 0.9605316712032391,
-        "final": 0.5629078037771662
+        "semantic_norm": 1.0,
+        "final": 0.5846153846153846
       },
       "signals": {
         "must_hits": [
@@ -360,6 +322,44 @@
       "jd_excerpt": "About Anthropic Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems. About the Role You will design and lead a foundational talent pipeline that develops early-career professionals across Solutions Architecture, Pre-Sales AI Engineering, and Forward Deployed Engineering – as part of our Applied AI associate function. You’ll build"
     },
     {
+      "job_uid": "350a88175f7fa454",
+      "source": "greenhouse",
+      "job_id": "350a88175f7fa454",
+      "company": "databricks",
+      "title": "Legal Intern",
+      "location": "Mountain View, California; San Francisco, California",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8377581002",
+      "departments": [
+        "Legal"
+      ],
+      "created_at": null,
+      "updated_at": "2026-02-25T14:16:20-05:00",
+      "scores": {
+        "hard_raw": 4.0,
+        "hard_norm": 0.3076923076923077,
+        "semantic_raw": 0.4998748302380111,
+        "semantic_norm": 0.8078391595281437,
+        "final": 0.5827730762020176
+      },
+      "signals": {
+        "must_hits": [
+          "cloud"
+        ],
+        "nice_hits": [
+          "rag",
+          "mlflow"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "cceb9c47fac719f161a36511ad7aee76c9dd4b03",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=2",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "GAQ227R1 Work at the nexus of law and innovation with a recognized global leader in Data and AI.&nbsp; As a Databricks Legal Intern, you won’t just observe, you’ll jump straight into novel legal issues working alongside our high-impact global legal team. You will gain first-hand experience on how an in-house legal department drives business strategy and tackles complex challenges on a daily basis, and navigate cutting-edge legal landscape of generative AI, cloud computing, and big data.&nbsp; Databricks will encourage you to get out of your comfort zone and provide the resources, mentoring, an"
+    },
+    {
       "job_uid": "613a9e51b62aa884",
       "source": "ashby",
       "job_id": "613a9e51b62aa884",
@@ -377,8 +377,8 @@
         "hard_raw": 8.0,
         "hard_norm": 0.6153846153846154,
         "semantic_raw": 0.3924525082107434,
-        "semantic_norm": 0.5149556832522516,
-        "final": 0.5601487027118153
+        "semantic_norm": 0.5361152564674695,
+        "final": 0.5717864679801852
       },
       "signals": {
         "must_hits": [
@@ -416,8 +416,8 @@
         "hard_raw": 2.0,
         "hard_norm": 0.15384615384615385,
         "semantic_raw": 0.5330088138574992,
-        "semantic_norm": 0.8564593187692322,
-        "final": 0.540283394553847
+        "semantic_norm": 0.8916513056736197,
+        "final": 0.5596389873512602
       },
       "signals": {
         "must_hits": [],
@@ -433,6 +433,44 @@
         "reason": ""
       },
       "jd_excerpt": "About the Program The Scale AI Technical Advisor Internship is a summer semester opportunity designed for university students, ideally with experience in competitive coding, mathematics, and STEM disciplines. Interns immerse themselves in real-world projects that push the boundaries of generative AI, gaining firsthand exposure to cutting-edge research and technology. Throughout the program, you’ll have the freedom to work flexibly around your academic schedule, the chance to connect directly with AI experts, and the support of a team that values your contributions and professional growth. What"
+    },
+    {
+      "job_uid": "459f04adfbd53983",
+      "source": "greenhouse",
+      "job_id": "459f04adfbd53983",
+      "company": "databricks",
+      "title": "MBA Intern - Corporate Operations (Corp Ops)",
+      "location": "San Francisco, California",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8402603002",
+      "departments": [
+        "Corporate Operations"
+      ],
+      "created_at": null,
+      "updated_at": "2026-02-25T14:24:49-05:00",
+      "scores": {
+        "hard_raw": 5.0,
+        "hard_norm": 0.38461538461538464,
+        "semantic_raw": 0.43260559439615853,
+        "semantic_norm": 0.6376821663268853,
+        "final": 0.5238021145567101
+      },
+      "signals": {
+        "must_hits": [
+          "sql"
+        ],
+        "nice_hits": [
+          "rag",
+          "mlflow"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "37ce97d51c105a2bbf4c2d597195110db5ce961d",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=2",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "At Databricks, we are passionate about helping data teams solve the world's toughest problems - from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. As a Corporate Operations (Corp Ops) MBA Intern, you will sit at the strategic nexus of our organization, connecting the dots across a diverse array of functions including Product, Sales, Finance, People, Legal, M&amp;A, and more.&nb"
     },
     {
       "job_uid": "9de287370f90d99a",
@@ -451,8 +489,8 @@
         "hard_raw": 8.0,
         "hard_norm": 0.6153846153846154,
         "semantic_raw": 0.35671383142435636,
-        "semantic_norm": 0.4281229510247082,
-        "final": 0.5123906999866665
+        "semantic_norm": 0.4457145598212363,
+        "final": 0.5220660848247569
       },
       "signals": {
         "must_hits": [
@@ -474,44 +512,6 @@
       "jd_excerpt": "RDQ227R1171 At Databricks, we are passionate about helping data teams solve the world's toughest problems - from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. As a TPM Intern, you will be the primary driver behind the successful delivery of complex technical initiatives. You will navigate the lifecycle of a program - from initial scoping and requirement gathering to final launc"
     },
     {
-      "job_uid": "459f04adfbd53983",
-      "source": "greenhouse",
-      "job_id": "459f04adfbd53983",
-      "company": "databricks",
-      "title": "MBA Intern - Corporate Operations (Corp Ops)",
-      "location": "San Francisco, California",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8402603002",
-      "departments": [
-        "Corporate Operations"
-      ],
-      "created_at": null,
-      "updated_at": "2026-02-25T14:24:49-05:00",
-      "scores": {
-        "hard_raw": 5.0,
-        "hard_norm": 0.38461538461538464,
-        "semantic_raw": 0.43260559439615853,
-        "semantic_norm": 0.612513916918465,
-        "final": 0.5099595773820789
-      },
-      "signals": {
-        "must_hits": [
-          "sql"
-        ],
-        "nice_hits": [
-          "rag",
-          "mlflow"
-        ],
-        "neg_hits": []
-      },
-      "text_hash": "37ce97d51c105a2bbf4c2d597195110db5ce961d",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=2",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "At Databricks, we are passionate about helping data teams solve the world's toughest problems - from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. As a Corporate Operations (Corp Ops) MBA Intern, you will sit at the strategic nexus of our organization, connecting the dots across a diverse array of functions including Product, Sales, Finance, People, Legal, M&amp;A, and more.&nb"
-    },
-    {
       "job_uid": "eb13b93308235f49",
       "source": "ashby",
       "job_id": "eb13b93308235f49",
@@ -529,8 +529,8 @@
         "hard_raw": 7.0,
         "hard_norm": 0.5384615384615384,
         "semantic_raw": 0.36981070041619507,
-        "semantic_norm": 0.45994385264859605,
-        "final": 0.49527681126442014
+        "semantic_norm": 0.4788429850235271,
+        "final": 0.5056713340706323
       },
       "signals": {
         "must_hits": [
@@ -567,8 +567,8 @@
         "hard_raw": 3.0,
         "hard_norm": 0.23076923076923078,
         "semantic_raw": 0.45793756842567424,
-        "semantic_norm": 0.67406192919792,
-        "final": 0.4745802149050099
+        "semantic_norm": 0.7017591917125813,
+        "final": 0.4898137092880736
       },
       "signals": {
         "must_hits": [
@@ -604,8 +604,8 @@
         "hard_raw": 3.0,
         "hard_norm": 0.23076923076923078,
         "semantic_raw": 0.4558860957617969,
-        "semantic_norm": 0.6690775539352511,
-        "final": 0.47183880851054205
+        "semantic_norm": 0.6965700080426405,
+        "final": 0.48695965826960613
       },
       "signals": {
         "must_hits": [
@@ -640,8 +640,8 @@
         "hard_raw": 4.0,
         "hard_norm": 0.3076923076923077,
         "semantic_raw": 0.42768380045848037,
-        "semantic_norm": 0.6005556449985505,
-        "final": 0.46876714321074126
+        "semantic_norm": 0.6252325279875949,
+        "final": 0.4823394288547157
       },
       "signals": {
         "must_hits": [
@@ -676,8 +676,8 @@
         "hard_raw": 3.0,
         "hard_norm": 0.23076923076923078,
         "semantic_raw": 0.4516908497621579,
-        "semantic_norm": 0.6588845444208619,
-        "final": 0.4662326532776279
+        "semantic_norm": 0.6859581668926025,
+        "final": 0.48112314563708525
       },
       "signals": {
         "must_hits": [
@@ -713,8 +713,8 @@
         "hard_raw": 4.0,
         "hard_norm": 0.3076923076923077,
         "semantic_raw": 0.4201331734653086,
-        "semantic_norm": 0.5822102100019789,
-        "final": 0.4586771539626269
+        "semantic_norm": 0.6061332774927198,
+        "final": 0.47183484108253443
       },
       "signals": {
         "must_hits": [
@@ -750,8 +750,8 @@
         "hard_raw": 4.0,
         "hard_norm": 0.3076923076923077,
         "semantic_raw": 0.4193667173381426,
-        "semantic_norm": 0.5803479843786812,
-        "final": 0.45765292986981315
+        "semantic_norm": 0.604194532858756,
+        "final": 0.4707685315338543
       },
       "signals": {
         "must_hits": [
@@ -764,6 +764,42 @@
       },
       "text_hash": "186fcd3a286c74789ffff4376740d5d53cf0a49a",
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Get to know Okta Okta is The World’s Identity Company. We free everyone to safely use any technology, anywhere, on any device or app. Our flexible and neutral products, Okta Platform and Auth0 Platform, provide secure access, authentication, and automation, placing identity at the core of business security and growth. At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box - we’re looking for lifelong learners and people who can make us better with their unique experiences.&nbsp; Join our team! We’re building a world where Ide"
+    },
+    {
+      "job_uid": "ed2e35a4886b9aa3",
+      "source": "greenhouse",
+      "job_id": "ed2e35a4886b9aa3",
+      "company": "okta",
+      "title": "Global Partner Marketing Intern (Summer 2026)",
+      "location": "San Francisco, California",
+      "url": "https://www.okta.com/company/careers/opportunity/7560998?gh_jid=7560998",
+      "departments": [
+        "Partner Marketing-122"
+      ],
+      "created_at": null,
+      "updated_at": "2026-02-23T16:39:45-05:00",
+      "scores": {
+        "hard_raw": 3.0,
+        "hard_norm": 0.23076923076923078,
+        "semantic_raw": 0.43167903612087927,
+        "semantic_norm": 0.6353384445917682,
+        "final": 0.4532822983716264
+      },
+      "signals": {
+        "must_hits": [
+          "machine learning",
+          "cloud"
+        ],
+        "nice_hits": [],
+        "neg_hits": []
+      },
+      "text_hash": "fd5b128381089c6770ddf1d0e71cee9e2cb8d715",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0",
       "hard_gate": {
         "hit": false,
         "reason": ""
@@ -814,40 +850,81 @@
       "jd_excerpt": "ABOUT RAMP At Ramp, we’re rethinking how modern finance teams function in the age of AI. We believe AI isn’t just the next big wave. It’s the new foundation for how business gets done. We’re investing in that future — and in the people bold enough to build it. Ramp is a financial operations platform designed to save companies time and money. Our all-in-one solution combines payments, corporate cards, vendor management, procurement, travel booking, and automated bookkeeping with built-in intelligence to maximize the impact of every dollar and hour spent. More than 50,000 businesses, from family"
     },
     {
-      "job_uid": "ed2e35a4886b9aa3",
+      "job_uid": "1e24bd723ca2390a",
       "source": "greenhouse",
-      "job_id": "ed2e35a4886b9aa3",
-      "company": "okta",
-      "title": "Global Partner Marketing Intern (Summer 2026)",
-      "location": "San Francisco, California",
-      "url": "https://www.okta.com/company/careers/opportunity/7560998?gh_jid=7560998",
+      "job_id": "1e24bd723ca2390a",
+      "company": "anthropic",
+      "title": "Program Manager, Student Outreach",
+      "location": "San Francisco, CA | New York City, NY",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5102171008",
       "departments": [
-        "Partner Marketing-122"
+        "Marketing & Brand"
       ],
       "created_at": null,
-      "updated_at": "2026-02-23T16:39:45-05:00",
+      "updated_at": "2026-03-02T12:49:35-05:00",
       "scores": {
-        "hard_raw": 3.0,
-        "hard_norm": 0.23076923076923078,
-        "semantic_raw": 0.43167903612087927,
-        "semantic_norm": 0.6102626979633977,
-        "final": 0.43949063772602265
+        "hard_raw": 1.0,
+        "hard_norm": 0.07692307692307693,
+        "semantic_raw": 0.46958953142119175,
+        "semantic_norm": 0.7312327387716078,
+        "final": 0.43679339093976893
       },
       "signals": {
         "must_hits": [
-          "machine learning",
-          "cloud"
+          "git"
         ],
-        "nice_hits": [],
-        "neg_hits": []
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": [
+          "5+ years"
+        ]
       },
-      "text_hash": "fd5b128381089c6770ddf1d0e71cee9e2cb8d715",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0",
+      "text_hash": "8c9ae5b8b220a972a4a2c4e8586cf530277b7b4f",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1",
       "hard_gate": {
         "hit": false,
         "reason": ""
       },
-      "jd_excerpt": "Get to know Okta Okta is The World’s Identity Company. We free everyone to safely use any technology, anywhere, on any device or app. Our flexible and neutral products, Okta Platform and Auth0 Platform, provide secure access, authentication, and automation, placing identity at the core of business security and growth. At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box - we’re looking for lifelong learners and people who can make us better with their unique experiences.&nbsp; Join our team! We’re building a world where Ide"
+      "jd_excerpt": "About Anthropic Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems. About the role Anthropic is seeking a Program Manager to own and drive our student outreach strategy, establishing Claude as the AI platform of choice for the next generation of builders, researchers, and creators at universities worldwide.&nbsp; You'll lead fla"
+    },
+    {
+      "job_uid": "b9687758003a7afe",
+      "source": "greenhouse",
+      "job_id": "b9687758003a7afe",
+      "company": "databricks",
+      "title": "MBA Intern - Product Pricing & Commercialization",
+      "location": "San Francisco, California",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8402615002",
+      "departments": [
+        "Business Strategy and Ops"
+      ],
+      "created_at": null,
+      "updated_at": "2026-02-25T14:25:17-05:00",
+      "scores": {
+        "hard_raw": 4.0,
+        "hard_norm": 0.3076923076923077,
+        "semantic_raw": 0.3933022256669776,
+        "semantic_norm": 0.538264609966346,
+        "final": 0.4345070739430288
+      },
+      "signals": {
+        "must_hits": [
+          "sql",
+          "cloud"
+        ],
+        "nice_hits": [
+          "mlflow"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "5af9236c90e407f4febaf64290d186a425bf9280",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "RDQ227R1172 &nbsp; At Databricks, we are passionate about helping data teams solve the world's toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. As a Product Pricing &amp; Commercialization Intern, you will join our world-class Commercialization team to help shape the monetization strategies that power Databricks’ hyper-growth. During your 12-week internshi"
     },
     {
       "job_uid": "e74e57654663fbbb",
@@ -861,13 +938,13 @@
         "Internships & Emerging Talent Positions"
       ],
       "created_at": null,
-      "updated_at": "2026-02-26T20:00:18-05:00",
+      "updated_at": "2026-03-03T01:58:53-05:00",
       "scores": {
         "hard_raw": 7.0,
         "hard_norm": 0.5384615384615384,
         "semantic_raw": 0.31691129904425036,
-        "semantic_norm": 0.33141644292432065,
-        "final": 0.42458673591606866
+        "semantic_norm": 0.3450343730042361,
+        "final": 0.4320765974600222
       },
       "signals": {
         "must_hits": [
@@ -889,6 +966,45 @@
       "jd_excerpt": "Ready to be pushed beyond what you think you’re capable of? At Coinbase, our mission is to increase economic freedom in the world. It’s a massive, ambitious opportunity that demands the best of us, every day, as we build the emerging onchain platform — and with it, the future global financial system. To achieve our mission, we’re seeking a very specific candidate. We want someone who is passionate about our mission and who believes in the power of crypto and blockchain technology to update the financial system. We want someone who is eager to leave their mark on the world, who relishes the pre"
     },
     {
+      "job_uid": "1a26aafbcac1af2d",
+      "source": "greenhouse",
+      "job_id": "1a26aafbcac1af2d",
+      "company": "coinbase",
+      "title": "Tax Information Reporting Intern",
+      "location": "Hybrid - New York, NY",
+      "url": "https://www.coinbase.com/careers/positions/7317551?gh_jid=7317551",
+      "departments": [
+        "Internships & Emerging Talent Positions"
+      ],
+      "created_at": null,
+      "updated_at": "2026-03-03T01:58:45-05:00",
+      "scores": {
+        "hard_raw": 7.0,
+        "hard_norm": 0.5384615384615384,
+        "semantic_raw": 0.31691129904425036,
+        "semantic_norm": 0.3450343730042361,
+        "final": 0.4320765974600222
+      },
+      "signals": {
+        "must_hits": [
+          "machine learning",
+          "sql",
+          "git"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "068302da8982e3c36c51b4763ab17c55e02e14ed",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Ready to be pushed beyond what you think you’re capable of? At Coinbase, our mission is to increase economic freedom in the world. It’s a massive, ambitious opportunity that demands the best of us, every day, as we build the emerging onchain platform — and with it, the future global financial system. To achieve our mission, we’re seeking a very specific candidate. We want someone who is passionate about our mission and who believes in the power of crypto and blockchain technology to update the financial system. We want someone who is eager to leave their mark on the world, who relishes the pre"
+    },
+    {
       "job_uid": "8d6b5d6dce617436",
       "source": "greenhouse",
       "job_id": "8d6b5d6dce617436",
@@ -900,13 +1016,13 @@
         "Internships & Emerging Talent Positions"
       ],
       "created_at": null,
-      "updated_at": "2026-02-26T20:00:18-05:00",
+      "updated_at": "2026-03-03T01:58:42-05:00",
       "scores": {
         "hard_raw": 7.0,
         "hard_norm": 0.5384615384615384,
         "semantic_raw": 0.31691129904425036,
-        "semantic_norm": 0.33141644292432065,
-        "final": 0.42458673591606866
+        "semantic_norm": 0.3450343730042361,
+        "final": 0.4320765974600222
       },
       "signals": {
         "must_hits": [
@@ -929,81 +1045,37 @@
       "jd_excerpt": "Ready to be pushed beyond what you think you’re capable of? At Coinbase, our mission is to increase economic freedom in the world. It’s a massive, ambitious opportunity that demands the best of us, every day, as we build the emerging onchain platform — and with it, the future global financial system. To achieve our mission, we’re seeking a very specific candidate. We want someone who is passionate about our mission and who believes in the power of crypto and blockchain technology to update the financial system. We want someone who is eager to leave their mark on the world, who relishes the pre"
     },
     {
-      "job_uid": "1a26aafbcac1af2d",
-      "source": "greenhouse",
-      "job_id": "1a26aafbcac1af2d",
-      "company": "coinbase",
-      "title": "Tax Information Reporting Intern",
-      "location": "Hybrid - New York, NY",
-      "url": "https://www.coinbase.com/careers/positions/7317551?gh_jid=7317551",
+      "job_uid": "fa1e7c7a851db551",
+      "source": "lever",
+      "job_id": "fa1e7c7a851db551",
+      "company": "shieldai",
+      "title": "Marketing Video Editor Intern - 2026 Summer Intern (R4110)",
+      "location": "San Diego, California",
+      "url": "https://jobs.lever.co/shieldai/a5208a9f-4392-473c-b034-1670c3d0c565",
       "departments": [
-        "Internships & Emerging Talent Positions"
+        "Business Development Marketing"
       ],
-      "created_at": null,
-      "updated_at": "2026-02-26T20:00:18-05:00",
+      "created_at": 1764830857226,
+      "updated_at": 1764830857226,
       "scores": {
-        "hard_raw": 7.0,
-        "hard_norm": 0.5384615384615384,
-        "semantic_raw": 0.31691129904425036,
-        "semantic_norm": 0.33141644292432065,
-        "final": 0.42458673591606866
+        "hard_raw": 0.0,
+        "hard_norm": 0.0,
+        "semantic_raw": 0.4882112436415585,
+        "semantic_norm": 0.7783362106636629,
+        "final": 0.4280849158650146
       },
       "signals": {
-        "must_hits": [
-          "machine learning",
-          "sql",
-          "git"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
+        "must_hits": [],
+        "nice_hits": [],
         "neg_hits": []
       },
-      "text_hash": "068302da8982e3c36c51b4763ab17c55e02e14ed",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1",
+      "text_hash": "b7b72cd269a84281da7cb2bab8020dc2e9a7d9cf",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=0",
       "hard_gate": {
         "hit": false,
         "reason": ""
       },
-      "jd_excerpt": "Ready to be pushed beyond what you think you’re capable of? At Coinbase, our mission is to increase economic freedom in the world. It’s a massive, ambitious opportunity that demands the best of us, every day, as we build the emerging onchain platform — and with it, the future global financial system. To achieve our mission, we’re seeking a very specific candidate. We want someone who is passionate about our mission and who believes in the power of crypto and blockchain technology to update the financial system. We want someone who is eager to leave their mark on the world, who relishes the pre"
-    },
-    {
-      "job_uid": "b9687758003a7afe",
-      "source": "greenhouse",
-      "job_id": "b9687758003a7afe",
-      "company": "databricks",
-      "title": "MBA Intern - Product Pricing & Commercialization",
-      "location": "San Francisco, California",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8402615002",
-      "departments": [
-        "Business Strategy and Ops"
-      ],
-      "created_at": null,
-      "updated_at": "2026-02-25T14:25:17-05:00",
-      "scores": {
-        "hard_raw": 4.0,
-        "hard_norm": 0.3076923076923077,
-        "semantic_raw": 0.3933022256669776,
-        "semantic_norm": 0.517020205360534,
-        "final": 0.42282265140983216
-      },
-      "signals": {
-        "must_hits": [
-          "sql",
-          "cloud"
-        ],
-        "nice_hits": [
-          "mlflow"
-        ],
-        "neg_hits": []
-      },
-      "text_hash": "5af9236c90e407f4febaf64290d186a425bf9280",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "RDQ227R1172 &nbsp; At Databricks, we are passionate about helping data teams solve the world's toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. As a Product Pricing &amp; Commercialization Intern, you will join our world-class Commercialization team to help shape the monetization strategies that power Databricks’ hyper-growth. During your 12-week internshi"
+      "jd_excerpt": "Founded in 2015, Shield AI is a venture-backed deep-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include the V-BAT and X-BAT aircraft, Hivemind Enterprise, and the Hivemind Vision product lines. With offices and facilities across the U.S., Europe, the Middle East, and the Asia-Pacific, Shield AI’s technology actively supports operations worldwide. For more information, visit www.shield.ai. Follow Shield AI on LinkedIn, X, Instagram, and YouTube. Job Description: Our 2026 Summer Internship program is a wonderful opportunity for"
     },
     {
       "job_uid": "f3754782a3cf48aa",
@@ -1022,8 +1094,8 @@
         "hard_raw": 2.0,
         "hard_norm": 0.15384615384615385,
         "semantic_raw": 0.4287441457810709,
-        "semantic_norm": 0.6031319206120982,
-        "final": 0.40095332556742325
+        "semantic_norm": 0.6279146629871837,
+        "final": 0.41458383387372033
       },
       "signals": {
         "must_hits": [
@@ -1052,13 +1124,13 @@
         "Internship"
       ],
       "created_at": null,
-      "updated_at": "2026-02-25T10:52:48-05:00",
+      "updated_at": "2026-03-02T13:50:54-05:00",
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.15384615384615385,
         "semantic_raw": 0.4271014034743806,
-        "semantic_norm": 0.5991406199915327,
-        "final": 0.3987581102261122
+        "semantic_norm": 0.6237593594816098,
+        "final": 0.4122984169456546
       },
       "signals": {
         "must_hits": [],
@@ -1087,13 +1159,13 @@
         "Internship"
       ],
       "created_at": null,
-      "updated_at": "2026-02-25T10:52:48-05:00",
+      "updated_at": "2026-03-02T13:50:55-05:00",
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.15384615384615385,
         "semantic_raw": 0.4204093217845527,
-        "semantic_norm": 0.5828811557452511,
-        "final": 0.38981540489065736
+        "semantic_norm": 0.6068317924541597,
+        "final": 0.40298825508055713
       },
       "signals": {
         "must_hits": [],
@@ -1127,8 +1199,8 @@
         "hard_raw": 3.0,
         "hard_norm": 0.23076923076923078,
         "semantic_raw": 0.39172532509081087,
-        "semantic_norm": 0.5131888775724861,
-        "final": 0.38610003651102126
+        "semantic_norm": 0.5342758525907059,
+        "final": 0.3976978727710421
       },
       "signals": {
         "must_hits": [
@@ -1164,8 +1236,8 @@
         "hard_raw": 3.0,
         "hard_norm": 0.23076923076923078,
         "semantic_raw": 0.3882523179050377,
-        "semantic_norm": 0.5047506607691868,
-        "final": 0.38145901726920667
+        "semantic_norm": 0.5254909087348423,
+        "final": 0.39286615365031713
       },
       "signals": {
         "must_hits": [
@@ -1185,6 +1257,39 @@
       "jd_excerpt": "At Databricks, we are passionate about helping data teams solve the world's toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. As a Strategic Finance MBA Intern, you will join our world-class finance team to drive insights and impact across Databricks. During your 12 week internship, you'll work on impactful strategic finance projects,. Your work will provid"
     },
     {
+      "job_uid": "7c8fbf61763cad7a",
+      "source": "lever",
+      "job_id": "7c8fbf61763cad7a",
+      "company": "waabi",
+      "title": "Product Management Internship/Co-op, Summer 2026",
+      "location": "San Francisco, CA",
+      "url": "https://jobs.lever.co/waabi/fbac4b25-492e-4076-a2f6-7346ed3ca48c",
+      "departments": [
+        "Product"
+      ],
+      "created_at": 1769810228016,
+      "updated_at": 1769810228016,
+      "scores": {
+        "hard_raw": 0.0,
+        "hard_norm": 0.0,
+        "semantic_raw": 0.4585116778912536,
+        "semantic_norm": 0.7032113970068562,
+        "final": 0.3867662683537709
+      },
+      "signals": {
+        "must_hits": [],
+        "nice_hits": [],
+        "neg_hits": []
+      },
+      "text_hash": "abf624f8d65cf1cc7c90265336d88a7b857a081b",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=0",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Waabi, founded by AI visionary Raquel Urtasun, is the leader in Physical AI. With a world-class team, we're unlocking the next era of autonomous transportation with technology that's powering commercial autonomous trucks and robotaxis. Waabi is backed by and partners with world leaders in AI, automotive, logistics, and deep tech. With offices in Toronto, San Francisco, Dallas, and Pittsburgh, Waabi is growing quickly and looking for diverse, innovative and collaborative candidates who want to impact the world in a positive way. To learn more visit: www.waabi.ai We are seeking a motivated Produ"
+    },
+    {
       "job_uid": "80edd7620280a1ef",
       "source": "greenhouse",
       "job_id": "80edd7620280a1ef",
@@ -1201,8 +1306,8 @@
         "hard_raw": 4.0,
         "hard_norm": 0.3076923076923077,
         "semantic_raw": 0.35850694775545505,
-        "semantic_norm": 0.4324796089715529,
-        "final": 0.3763253233958926
+        "semantic_norm": 0.45025023321697893,
+        "final": 0.3860991667308769
       },
       "signals": {
         "must_hits": [
@@ -1222,39 +1327,6 @@
       "jd_excerpt": "Get to know Okta Okta is The World’s Identity Company. We free everyone to safely use any technology, anywhere, on any device or app. Our flexible and neutral products, Okta Platform and Auth0 Platform, provide secure access, authentication, and automation, placing identity at the core of business security and growth. At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box - we’re looking for lifelong learners and people who can make us better with their unique experiences.&nbsp; Join our team! We’re building a world where Ide"
     },
     {
-      "job_uid": "7c8fbf61763cad7a",
-      "source": "lever",
-      "job_id": "7c8fbf61763cad7a",
-      "company": "waabi",
-      "title": "Product Management Internship/Co-op, Summer 2026",
-      "location": "San Francisco, CA",
-      "url": "https://jobs.lever.co/waabi/fbac4b25-492e-4076-a2f6-7346ed3ca48c",
-      "departments": [
-        "Product"
-      ],
-      "created_at": 1769810228016,
-      "updated_at": 1769810228016,
-      "scores": {
-        "hard_raw": 0.0,
-        "hard_norm": 0.0,
-        "semantic_raw": 0.4585116778912536,
-        "semantic_norm": 0.67545681837616,
-        "final": 0.37150125010688806
-      },
-      "signals": {
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": []
-      },
-      "text_hash": "abf624f8d65cf1cc7c90265336d88a7b857a081b",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=0",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "Waabi, founded by AI visionary Raquel Urtasun, is the leader in Physical AI. With a world-class team, we're unlocking the next era of autonomous transportation with technology that's powering commercial autonomous trucks and robotaxis. Waabi is backed by and partners with world leaders in AI, automotive, logistics, and deep tech. With offices in Toronto, San Francisco, Dallas, and Pittsburgh, Waabi is growing quickly and looking for diverse, innovative and collaborative candidates who want to impact the world in a positive way. To learn more visit: www.waabi.ai We are seeking a motivated Produ"
-    },
-    {
       "job_uid": "e8f07d2bdf1c8afe",
       "source": "lever",
       "job_id": "e8f07d2bdf1c8afe",
@@ -1271,8 +1343,8 @@
         "hard_raw": 1.0,
         "hard_norm": 0.07692307692307693,
         "semantic_raw": 0.4256120920177018,
-        "semantic_norm": 0.5955221037354842,
-        "final": 0.36215254166990096
+        "semantic_norm": 0.6199921580820811,
+        "final": 0.3756110715605292
       },
       "signals": {
         "must_hits": [
@@ -1290,42 +1362,39 @@
       "jd_excerpt": "Who We Are; What We Do; Where We’re Going Magnet Forensics is a global leader in the development of digital investigative software that acquires, analyzes, and shares evidence from computers, smartphones, tablets, and IoT-related devices. We are continually innovating so our customers can deploy advanced and effective tools to protect their companies, communities, and countries. Serving thousands of customers globally, our solutions are playing a crucial role in modernizing digital investigations, helping investigators fight crime, protect assets, and guard national security. With employees ba"
     },
     {
-      "job_uid": "2d63f4cc8b3a3dd7",
+      "job_uid": "05413f176349337a",
       "source": "greenhouse",
-      "job_id": "2d63f4cc8b3a3dd7",
-      "company": "coinbase",
-      "title": "Associate Product Manager Intern",
-      "location": "Hybrid - San Francisco, CA",
-      "url": "https://www.coinbase.com/careers/positions/7269743?gh_jid=7269743",
+      "job_id": "05413f176349337a",
+      "company": "togetherai",
+      "title": "Revenue Systems Intern (Summer 2026)",
+      "location": "San Francisco",
+      "url": "https://job-boards.greenhouse.io/togetherai/jobs/5014290007",
       "departments": [
-        "Internships & Emerging Talent Positions"
+        "Revenue Operations"
       ],
       "created_at": null,
-      "updated_at": "2026-02-26T20:00:18-05:00",
+      "updated_at": "2026-03-02T17:35:00-05:00",
       "scores": {
-        "hard_raw": 5.0,
-        "hard_norm": 0.38461538461538464,
-        "semantic_raw": 0.31691129904425036,
-        "semantic_norm": 0.33141644292432065,
-        "final": 0.35535596668529945
+        "hard_raw": 1.0,
+        "hard_norm": 0.07692307692307693,
+        "semantic_raw": 0.4241256713862946,
+        "semantic_norm": 0.6162322690019201,
+        "final": 0.37354313256644067
       },
       "signals": {
         "must_hits": [
-          "machine learning",
-          "git"
+          "cloud"
         ],
-        "nice_hits": [
-          "rag"
-        ],
+        "nice_hits": [],
         "neg_hits": []
       },
-      "text_hash": "384f524e31ff589b14eb58fd59c6cf8485e68f1b",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1",
+      "text_hash": "fb7cae296f65cbeb3ef634a8b000c3a9aca98686",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0",
       "hard_gate": {
         "hit": false,
         "reason": ""
       },
-      "jd_excerpt": "Ready to be pushed beyond what you think you’re capable of? At Coinbase, our mission is to increase economic freedom in the world. It’s a massive, ambitious opportunity that demands the best of us, every day, as we build the emerging onchain platform — and with it, the future global financial system. To achieve our mission, we’re seeking a very specific candidate. We want someone who is passionate about our mission and who believes in the power of crypto and blockchain technology to update the financial system. We want someone who is eager to leave their mark on the world, who relishes the pre"
+      "jd_excerpt": "About Together AI Together AI is a research-driven artificial intelligence company. We believe open and transparent AI systems will drive innovation and create the best outcomes for society, and together we are on a mission to significantly lower the cost of modern AI systems by co-designing software, algorithms, and models. We have contributed to leading open-source research, models, and datasets to advance the frontier of AI, and our team has been behind technological advancements such as FlashAttention, Mamba, FlexGen, SWARM Parallelism, Mixture of Agents, and RedPajama. Role Overview As a "
     },
     {
       "job_uid": "c1a7d2357d3e9e7d",
@@ -1339,13 +1408,13 @@
         "Internships & Emerging Talent Positions"
       ],
       "created_at": null,
-      "updated_at": "2026-02-26T20:00:18-05:00",
+      "updated_at": "2026-03-03T01:58:44-05:00",
       "scores": {
         "hard_raw": 5.0,
         "hard_norm": 0.38461538461538464,
         "semantic_raw": 0.31691129904425036,
-        "semantic_norm": 0.33141644292432065,
-        "final": 0.35535596668529945
+        "semantic_norm": 0.3450343730042361,
+        "final": 0.362845828229253
       },
       "signals": {
         "must_hits": [
@@ -1366,6 +1435,44 @@
       "jd_excerpt": "Ready to be pushed beyond what you think you’re capable of? At Coinbase, our mission is to increase economic freedom in the world. It’s a massive, ambitious opportunity that demands the best of us, every day, as we build the emerging onchain platform — and with it, the future global financial system. To achieve our mission, we’re seeking a very specific candidate. We want someone who is passionate about our mission and who believes in the power of crypto and blockchain technology to update the financial system. We want someone who is eager to leave their mark on the world, who relishes the pre"
     },
     {
+      "job_uid": "2d63f4cc8b3a3dd7",
+      "source": "greenhouse",
+      "job_id": "2d63f4cc8b3a3dd7",
+      "company": "coinbase",
+      "title": "Associate Product Manager Intern",
+      "location": "Hybrid - San Francisco, CA",
+      "url": "https://www.coinbase.com/careers/positions/7269743?gh_jid=7269743",
+      "departments": [
+        "Internships & Emerging Talent Positions"
+      ],
+      "created_at": null,
+      "updated_at": "2026-03-03T01:58:42-05:00",
+      "scores": {
+        "hard_raw": 5.0,
+        "hard_norm": 0.38461538461538464,
+        "semantic_raw": 0.31691129904425036,
+        "semantic_norm": 0.3450343730042361,
+        "final": 0.362845828229253
+      },
+      "signals": {
+        "must_hits": [
+          "machine learning",
+          "git"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "384f524e31ff589b14eb58fd59c6cf8485e68f1b",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Ready to be pushed beyond what you think you’re capable of? At Coinbase, our mission is to increase economic freedom in the world. It’s a massive, ambitious opportunity that demands the best of us, every day, as we build the emerging onchain platform — and with it, the future global financial system. To achieve our mission, we’re seeking a very specific candidate. We want someone who is passionate about our mission and who believes in the power of crypto and blockchain technology to update the financial system. We want someone who is eager to leave their mark on the world, who relishes the pre"
+    },
+    {
       "job_uid": "57fb6fa8c62f591c",
       "source": "greenhouse",
       "job_id": "57fb6fa8c62f591c",
@@ -1377,13 +1484,13 @@
         "Internships & Emerging Talent Positions"
       ],
       "created_at": null,
-      "updated_at": "2026-02-26T20:00:18-05:00",
+      "updated_at": "2026-03-03T01:58:42-05:00",
       "scores": {
         "hard_raw": 5.0,
         "hard_norm": 0.38461538461538464,
         "semantic_raw": 0.31691129904425036,
-        "semantic_norm": 0.33141644292432065,
-        "final": 0.35535596668529945
+        "semantic_norm": 0.3450343730042361,
+        "final": 0.362845828229253
       },
       "signals": {
         "must_hits": [
@@ -1420,8 +1527,8 @@
         "hard_raw": 3.0,
         "hard_norm": 0.23076923076923078,
         "semantic_raw": 0.3655992964263655,
-        "semantic_norm": 0.44971158475752043,
-        "final": 0.3511875254627901
+        "semantic_norm": 0.4681902723667358,
+        "final": 0.3613508036478586
       },
       "signals": {
         "must_hits": [
@@ -1457,8 +1564,8 @@
         "hard_raw": 2.0,
         "hard_norm": 0.15384615384615385,
         "semantic_raw": 0.3893846273418347,
-        "semantic_norm": 0.5075017845086524,
-        "final": 0.3483567507105281
+        "semantic_norm": 0.5283550763848472,
+        "final": 0.3598260612424352
       },
       "signals": {
         "must_hits": [],
@@ -1492,8 +1599,8 @@
         "hard_raw": 1.0,
         "hard_norm": 0.07692307692307693,
         "semantic_raw": 0.40902075171429736,
-        "semantic_norm": 0.555210834841211,
-        "final": 0.33998134377805067
+        "semantic_norm": 0.578024495689673,
+        "final": 0.35252885724470473
       },
       "signals": {
         "must_hits": [
@@ -1522,13 +1629,13 @@
         "Internships & Emerging Talent Positions"
       ],
       "created_at": null,
-      "updated_at": "2026-02-26T20:00:18-05:00",
+      "updated_at": "2026-03-03T01:58:43-05:00",
       "scores": {
         "hard_raw": 4.0,
         "hard_norm": 0.3076923076923077,
         "semantic_raw": 0.31691129904425036,
-        "semantic_norm": 0.33141644292432065,
-        "final": 0.32074058206991485
+        "semantic_norm": 0.3450343730042361,
+        "final": 0.32823044361386833
       },
       "signals": {
         "must_hits": [
@@ -1559,13 +1666,13 @@
         "Internships & Emerging Talent Positions"
       ],
       "created_at": null,
-      "updated_at": "2026-02-26T20:00:18-05:00",
+      "updated_at": "2026-03-03T01:58:43-05:00",
       "scores": {
         "hard_raw": 4.0,
         "hard_norm": 0.3076923076923077,
         "semantic_raw": 0.31691129904425036,
-        "semantic_norm": 0.33141644292432065,
-        "final": 0.32074058206991485
+        "semantic_norm": 0.3450343730042361,
+        "final": 0.32823044361386833
       },
       "signals": {
         "must_hits": [
@@ -1601,8 +1708,8 @@
         "hard_raw": 3.0,
         "hard_norm": 0.23076923076923078,
         "semantic_raw": 0.3415982425209444,
-        "semantic_norm": 0.3913972520975576,
-        "final": 0.31911464249981053
+        "semantic_norm": 0.40747979877359164,
+        "final": 0.32796004317162925
       },
       "signals": {
         "must_hits": [
@@ -1638,8 +1745,8 @@
         "hard_raw": 3.0,
         "hard_norm": 0.23076923076923078,
         "semantic_raw": 0.3415982425209444,
-        "semantic_norm": 0.3913972520975576,
-        "final": 0.31911464249981053
+        "semantic_norm": 0.40747979877359164,
+        "final": 0.32796004317162925
       },
       "signals": {
         "must_hits": [
@@ -1657,6 +1764,44 @@
         "reason": ""
       },
       "jd_excerpt": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. About the team Our internship program will provide an opportunity to work on mea"
+    },
+    {
+      "job_uid": "ce0bbfe1c5e510d0",
+      "source": "greenhouse",
+      "job_id": "ce0bbfe1c5e510d0",
+      "company": "databricks",
+      "title": "MBA Intern - Product Operations",
+      "location": "San Francisco, California",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8399535002",
+      "departments": [
+        "University Recruiting"
+      ],
+      "created_at": null,
+      "updated_at": "2026-02-25T14:23:19-05:00",
+      "scores": {
+        "hard_raw": 5.0,
+        "hard_norm": 0.38461538461538464,
+        "semantic_raw": 0.27387025952311783,
+        "semantic_norm": 0.23616240831609453,
+        "final": 0.30296624765077507
+      },
+      "signals": {
+        "must_hits": [
+          "sql"
+        ],
+        "nice_hits": [
+          "rag",
+          "mlflow"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "47e1b25152112859588c5a4b5bef56054b938100",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=2",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "RDQ227R1170 At Databricks, we are passionate about helping data teams solve the world's toughest problems - from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. Join our Product Operations team to ensure our innovations successfully reach our customers and deliver maximum value. As a Product Operations intern, you will sit at the intersection of Product Management, Engineering, a"
     }
   ]
 }
