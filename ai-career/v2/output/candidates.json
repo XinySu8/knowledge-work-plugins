@@ -2,9 +2,9 @@
   "meta": {
     "engine_name": "AutoJob-Agent Feeder",
     "version": 2,
-    "generated_at": "2026-03-03T16:07:44.104437+00:00",
-    "source_jobs_count": 169,
-    "candidates_count": 48,
+    "generated_at": "2026-03-04T16:04:49.136768+00:00",
+    "source_jobs_count": 170,
+    "candidates_count": 51,
     "candidates_topN_total": 150,
     "thresholds": {
       "apply": 0.72,
@@ -13,6 +13,45 @@
     "config_digest": "7f9d61b8fda9e66343b1828d5752df0d87053bf5"
   },
   "candidates": [
+    {
+      "job_uid": "2dcfe758a895b00e",
+      "source": "ashby",
+      "job_id": "2dcfe758a895b00e",
+      "company": "openai",
+      "title": "Software Engineer Systems Research Internship, Applied Emerging Talent (Summer 2026)",
+      "location": "San Francisco",
+      "url": "https://jobs.ashbyhq.com/openai/13a9e4e4-505b-4545-8b2b-b0bcc09c2b4f/application",
+      "departments": [
+        "Applied AI",
+        "Emerging Talent"
+      ],
+      "created_at": "2026-03-03T05:10:47.987+00:00",
+      "updated_at": "2026-03-03T05:10:47.987+00:00",
+      "scores": {
+        "hard_raw": 8.0,
+        "hard_norm": 0.6153846153846154,
+        "semantic_raw": 0.5335440357646396,
+        "semantic_norm": 0.8930051452003324,
+        "final": 0.7680759067832598
+      },
+      "signals": {
+        "must_hits": [
+          "python",
+          "data pipeline"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "b7f368eb2f500f3d2f8646c4319bd3fa224ff0c0",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "About the Team The Applied team works across research, engineering, product, and design to bring OpenAI’s technology to the world. We seek to learn from deployment and broadly distribute the benefits of AI, while ensuring that this powerful tool is used responsibly and safely. We aim to make our innovative tools globally accessible, transcending geographic, economic, or platform barriers. Our commitment is to facilitate the use of AI to enhance lives, fostered by rigorous insights into how people use our products. About the Role A systems research internship is for people who love the real-wor"
+    },
     {
       "job_uid": "8b8f2da94e9ac418",
       "source": "greenhouse",
@@ -435,6 +474,43 @@
       "jd_excerpt": "About the Program The Scale AI Technical Advisor Internship is a summer semester opportunity designed for university students, ideally with experience in competitive coding, mathematics, and STEM disciplines. Interns immerse themselves in real-world projects that push the boundaries of generative AI, gaining firsthand exposure to cutting-edge research and technology. Throughout the program, you’ll have the freedom to work flexibly around your academic schedule, the chance to connect directly with AI experts, and the support of a team that values your contributions and professional growth. What"
     },
     {
+      "job_uid": "209289687115853a",
+      "source": "greenhouse",
+      "job_id": "209289687115853a",
+      "company": "databricks",
+      "title": "MBA Intern - Commercial Transformation",
+      "location": "San Francisco, California",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8402617002",
+      "departments": [
+        "Business Strategy and Ops"
+      ],
+      "created_at": null,
+      "updated_at": "2026-03-03T13:01:30-05:00",
+      "scores": {
+        "hard_raw": 3.0,
+        "hard_norm": 0.23076923076923078,
+        "semantic_raw": 0.48726206941925854,
+        "semantic_norm": 0.7759352820717222,
+        "final": 0.530610558985601
+      },
+      "signals": {
+        "must_hits": [
+          "sql"
+        ],
+        "nice_hits": [
+          "mlflow"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "df5f9191fa7d6cade11b0a1a29a3549507fd088f",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "RDQ227R1173 At Databricks, we are passionate about helping data teams solve the world's toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. As a Commercial Transformation intern, you will join our world-class Commercialization team (COO org) to work on systems and process improvements that make it easier to launch, sell, and scale Databricks products and part"
+    },
+    {
       "job_uid": "459f04adfbd53983",
       "source": "greenhouse",
       "job_id": "459f04adfbd53983",
@@ -471,6 +547,43 @@
         "reason": ""
       },
       "jd_excerpt": "At Databricks, we are passionate about helping data teams solve the world's toughest problems - from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. As a Corporate Operations (Corp Ops) MBA Intern, you will sit at the strategic nexus of our organization, connecting the dots across a diverse array of functions including Product, Sales, Finance, People, Legal, M&amp;A, and more.&nb"
+    },
+    {
+      "job_uid": "c6ca9b140cb6e757",
+      "source": "greenhouse",
+      "job_id": "c6ca9b140cb6e757",
+      "company": "databricks",
+      "title": "MBA Intern - Workforce Intelligence",
+      "location": "San Francisco, California",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8402613002",
+      "departments": [
+        "People"
+      ],
+      "created_at": null,
+      "updated_at": "2026-03-03T13:08:17-05:00",
+      "scores": {
+        "hard_raw": 3.0,
+        "hard_norm": 0.23076923076923078,
+        "semantic_raw": 0.4821783900256103,
+        "semantic_norm": 0.7630761557683402,
+        "final": 0.523538039518741
+      },
+      "signals": {
+        "must_hits": [
+          "sql"
+        ],
+        "nice_hits": [
+          "mlflow"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "520f4e6b5757e37b1691013b719d573ae027fac7",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "GAQ227R116 At Databricks, we are passionate about helping data teams solve the world's toughest problems - from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. As a Workforce Intelligence MBA intern, you’ll drive insights and impact across our People (HR) function and all of Databricks. During your 12 week internship, you'll work on impactful projects that drive decisions about h"
     },
     {
       "job_uid": "9de287370f90d99a",
@@ -660,43 +773,6 @@
       "jd_excerpt": "Get to know Okta Okta is The World’s Identity Company. We free everyone to safely use any technology, anywhere, on any device or app. Our flexible and neutral products, Okta Platform and Auth0 Platform, provide secure access, authentication, and automation, placing identity at the core of business security and growth. At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box - we’re looking for lifelong learners and people who can make us better with their unique experiences.&nbsp; Join our team! We’re building a world where Ide"
     },
     {
-      "job_uid": "c6ca9b140cb6e757",
-      "source": "greenhouse",
-      "job_id": "c6ca9b140cb6e757",
-      "company": "databricks",
-      "title": "MBA Intern - People Analytics",
-      "location": "San Francisco, California",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8402613002",
-      "departments": [
-        "People"
-      ],
-      "created_at": null,
-      "updated_at": "2026-02-25T14:25:08-05:00",
-      "scores": {
-        "hard_raw": 3.0,
-        "hard_norm": 0.23076923076923078,
-        "semantic_raw": 0.4516908497621579,
-        "semantic_norm": 0.6859581668926025,
-        "final": 0.48112314563708525
-      },
-      "signals": {
-        "must_hits": [
-          "sql"
-        ],
-        "nice_hits": [
-          "mlflow"
-        ],
-        "neg_hits": []
-      },
-      "text_hash": "dce2229e6a0c1ef86916a181836e53f794bf3238",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "GAQ227R116 At Databricks, we are passionate about helping data teams solve the world's toughest problems - from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. As a People Analytics MBA intern, you’ll drive insights and impact across our People (HR) function and all of Databricks. During your 12 week internship, you'll work on impactful projects that drive decisions about how we "
-    },
-    {
       "job_uid": "9cde9753e65a0790",
       "source": "greenhouse",
       "job_id": "9cde9753e65a0790",
@@ -848,6 +924,41 @@
         "reason": ""
       },
       "jd_excerpt": "ABOUT RAMP At Ramp, we’re rethinking how modern finance teams function in the age of AI. We believe AI isn’t just the next big wave. It’s the new foundation for how business gets done. We’re investing in that future — and in the people bold enough to build it. Ramp is a financial operations platform designed to save companies time and money. Our all-in-one solution combines payments, corporate cards, vendor management, procurement, travel booking, and automated bookkeeping with built-in intelligence to maximize the impact of every dollar and hour spent. More than 50,000 businesses, from family"
+    },
+    {
+      "job_uid": "c6ab64ae97aba68c",
+      "source": "greenhouse",
+      "job_id": "c6ab64ae97aba68c",
+      "company": "okta",
+      "title": "Recruiting Programs Intern (Summer 2026)",
+      "location": "San Francisco, California",
+      "url": "https://www.okta.com/company/careers/opportunity/7544487?gh_jid=7544487",
+      "departments": [
+        "Recruiting-180"
+      ],
+      "created_at": null,
+      "updated_at": "2026-03-03T11:50:55-05:00",
+      "scores": {
+        "hard_raw": 2.0,
+        "hard_norm": 0.15384615384615385,
+        "semantic_raw": 0.4483478665347384,
+        "semantic_norm": 0.6775021175978365,
+        "final": 0.44185693390957936
+      },
+      "signals": {
+        "must_hits": [
+          "machine learning"
+        ],
+        "nice_hits": [],
+        "neg_hits": []
+      },
+      "text_hash": "4c4062eb63d1ed870c47bb7d27759a2277f44911",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Get to know Okta Okta is The World’s Identity Company. We free everyone to safely use any technology, anywhere, on any device or app. Our flexible and neutral products, Okta Platform and Auth0 Platform, provide secure access, authentication, and automation, placing identity at the core of business security and growth. At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box - we’re looking for lifelong learners and people who can make us better with their unique experiences.&nbsp; Join our team! We’re building a world where Ide"
     },
     {
       "job_uid": "1e24bd723ca2390a",
@@ -1124,7 +1235,7 @@
         "Internship"
       ],
       "created_at": null,
-      "updated_at": "2026-03-02T13:50:54-05:00",
+      "updated_at": "2026-03-03T13:19:20-05:00",
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.15384615384615385,
@@ -1159,7 +1270,7 @@
         "Internship"
       ],
       "created_at": null,
-      "updated_at": "2026-03-02T13:50:55-05:00",
+      "updated_at": "2026-03-03T13:19:20-05:00",
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.15384615384615385,

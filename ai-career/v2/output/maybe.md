@@ -60,11 +60,23 @@
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1
 
+- databricks | MBA Intern - Commercial Transformation | San Francisco, California | score=0.531
+  - url: https://databricks.com/company/careers/open-positions/job?gh_jid=8402617002
+  - must_hits: sql
+  - nice_hits: mlflow
+  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1
+
 - databricks | MBA Intern - Corporate Operations (Corp Ops) | San Francisco, California | score=0.524
   - url: https://databricks.com/company/careers/open-positions/job?gh_jid=8402603002
   - must_hits: sql
   - nice_hits: rag, mlflow
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=2
+
+- databricks | MBA Intern - Workforce Intelligence | San Francisco, California | score=0.524
+  - url: https://databricks.com/company/careers/open-positions/job?gh_jid=8402613002
+  - must_hits: sql
+  - nice_hits: mlflow
+  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1
 
 - databricks | MBA Intern - Technical Program Management (TPM) | Mountain View, California; San Francisco, California | score=0.522
   - url: https://databricks.com/company/careers/open-positions/job?gh_jid=8399537002
@@ -96,12 +108,6 @@
   - nice_hits: None
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0
 
-- databricks | MBA Intern - People Analytics | San Francisco, California | score=0.481
-  - url: https://databricks.com/company/careers/open-positions/job?gh_jid=8402613002
-  - must_hits: sql
-  - nice_hits: mlflow
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1
-
 - okta | Business Analyst Intern (Summer 2026) | Chicago, Illinois | score=0.472
   - url: https://www.okta.com/company/careers/opportunity/7617090?gh_jid=7617090
   - must_hits: machine learning
@@ -125,6 +131,12 @@
   - must_hits: python, machine learning, llm, sql, git, cloud
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=6, nice_hits=1
+
+- okta | Recruiting Programs Intern (Summer 2026) | San Francisco, California | score=0.442
+  - url: https://www.okta.com/company/careers/opportunity/7544487?gh_jid=7544487
+  - must_hits: machine learning
+  - nice_hits: None
+  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0
 
 - anthropic | Program Manager, Student Outreach | San Francisco, CA | New York City, NY | score=0.437
   - url: https://job-boards.greenhouse.io/anthropic/jobs/5102171008
