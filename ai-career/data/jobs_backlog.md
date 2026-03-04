@@ -1,7 +1,7 @@
 # Job feed (backlog)
-Generated at (UTC): 2026-03-03T14:41:41.047330+00:00
-Today (UTC): 2026-03-03
-Total jobs: 12
+Generated at (UTC): 2026-03-04T14:01:35.085538+00:00
+Today (UTC): 2026-03-04
+Total jobs: 11
 
 ## Jobs
 - [stripe] Software Engineer, Intern (London) — greenhouse — https://stripe.com/jobs/search?gh_jid=7360840
@@ -10,7 +10,6 @@ Total jobs: 12
 - [stripe] Software Engineer, Intern (Summer) (San Francisco, Seattle, New York City) — greenhouse — https://stripe.com/jobs/search?gh_jid=7210115
 - [scaleai] Software Engineering Intern (Summer 2026)  (San Francisco, CA) — greenhouse — https://job-boards.greenhouse.io/scaleai/jobs/4606014005
 - [openai] Software Engineer Internship / Co-op, Applied Emerging Talent (Fall 2026) (San Francisco) — ashby — https://jobs.ashbyhq.com/openai/1f3353ed-78eb-4a01-b783-c44b1c086711/application
-- [ramp] Software Engineer Internship, Backend (New York, NY (HQ)) — ashby — https://jobs.ashbyhq.com/ramp/c50962b5-c641-4d44-bbe5-7f1d6e7ce51f/application
 - [sierra] Intern, Agent Development (Summer 2026) (San Francisco, CA) — ashby — https://jobs.ashbyhq.com/Sierra/8bb2509d-9215-4cb5-8cf1-2bf0dbade6d8/application
 - [replit] Software Engineering Intern (Summer 2026) (Foster City, CA (Hybrid) In office M,W,F) — ashby — https://jobs.ashbyhq.com/replit/12737078-74c7-4e63-98a7-5e8da1e9deb1/application
 - [ramp] Software Engineer Internship, Android  (New York, NY (HQ)) — ashby — https://jobs.ashbyhq.com/ramp/67fadb77-43d8-4449-954b-d4cf2c6d3b8b/application

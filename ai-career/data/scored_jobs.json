@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-03-03T14:41:41.157480+00:00",
-  "source_generated_at_utc": "2026-03-03T14:41:41.047330+00:00",
-  "count": 12,
+  "generated_at_utc": "2026-03-04T14:01:35.189576+00:00",
+  "source_generated_at_utc": "2026-03-04T14:01:35.085538+00:00",
+  "count": 11,
   "jobs": [
     {
       "id": "b35597b79d3ae32f",
@@ -146,35 +146,6 @@
       "matched_skills_have": [
         "python",
         "react"
-      ],
-      "matched_skills_want": [],
-      "matched_bonus": []
-    },
-    {
-      "id": "ebbec7374ccd8600",
-      "company": "ramp",
-      "title": "Software Engineer Internship, Backend",
-      "location": "New York, NY (HQ)",
-      "url": "https://jobs.ashbyhq.com/ramp/c50962b5-c641-4d44-bbe5-7f1d6e7ce51f/application",
-      "source": "ashby",
-      "score": 27,
-      "breakdown": {
-        "title": 15,
-        "location": 8,
-        "have": 4,
-        "want+bonus": 0,
-        "penalty": 0,
-        "detected_mode": "none",
-        "city_tier": "tier2"
-      },
-      "hard_flags": [],
-      "soft_flags": [],
-      "matched_titles": [
-        "software engineer"
-      ],
-      "matched_skills_have": [
-        "python",
-        "aws"
       ],
       "matched_skills_want": [],
       "matched_bonus": []
