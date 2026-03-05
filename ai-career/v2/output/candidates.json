@@ -2,8 +2,8 @@
   "meta": {
     "engine_name": "AutoJob-Agent Feeder",
     "version": 2,
-    "generated_at": "2026-03-04T16:04:49.136768+00:00",
-    "source_jobs_count": 170,
+    "generated_at": "2026-03-05T16:11:00.963419+00:00",
+    "source_jobs_count": 171,
     "candidates_count": 51,
     "candidates_topN_total": 150,
     "thresholds": {
@@ -64,7 +64,7 @@
         "Business Operations-150"
       ],
       "created_at": null,
-      "updated_at": "2026-02-23T16:39:45-05:00",
+      "updated_at": "2026-03-05T01:29:15-05:00",
       "scores": {
         "hard_raw": 6.0,
         "hard_norm": 0.46153846153846156,
@@ -217,7 +217,7 @@
         "People Operations-131"
       ],
       "created_at": null,
-      "updated_at": "2026-03-02T14:08:54-05:00",
+      "updated_at": "2026-03-05T01:29:15-05:00",
       "scores": {
         "hard_raw": 5.0,
         "hard_norm": 0.38461538461538464,
@@ -255,7 +255,7 @@
         "Corporate Communication-410"
       ],
       "created_at": null,
-      "updated_at": "2026-02-27T18:43:24-05:00",
+      "updated_at": "2026-03-05T01:29:15-05:00",
       "scores": {
         "hard_raw": 7.0,
         "hard_norm": 0.5384615384615384,
@@ -712,7 +712,7 @@
         "Digital Media-415"
       ],
       "created_at": null,
-      "updated_at": "2026-02-23T16:39:45-05:00",
+      "updated_at": "2026-03-05T01:29:15-05:00",
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.23076923076923078,
@@ -748,7 +748,7 @@
         "Corporate Events-461"
       ],
       "created_at": null,
-      "updated_at": "2026-02-23T16:39:45-05:00",
+      "updated_at": "2026-03-05T01:29:15-05:00",
       "scores": {
         "hard_raw": 4.0,
         "hard_norm": 0.3076923076923077,
@@ -784,7 +784,7 @@
         "Product Marketing-530"
       ],
       "created_at": null,
-      "updated_at": "2026-02-23T16:39:45-05:00",
+      "updated_at": "2026-03-05T01:29:15-05:00",
       "scores": {
         "hard_raw": 4.0,
         "hard_norm": 0.3076923076923077,
@@ -821,7 +821,7 @@
         "Interns"
       ],
       "created_at": null,
-      "updated_at": "2026-02-23T16:39:45-05:00",
+      "updated_at": "2026-03-05T01:29:15-05:00",
       "scores": {
         "hard_raw": 4.0,
         "hard_norm": 0.3076923076923077,
@@ -858,7 +858,7 @@
         "Partner Marketing-122"
       ],
       "created_at": null,
-      "updated_at": "2026-02-23T16:39:45-05:00",
+      "updated_at": "2026-03-05T01:29:15-05:00",
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.23076923076923078,
@@ -937,7 +937,7 @@
         "Recruiting-180"
       ],
       "created_at": null,
-      "updated_at": "2026-03-03T11:50:55-05:00",
+      "updated_at": "2026-03-05T01:29:15-05:00",
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.15384615384615385,
@@ -1200,7 +1200,7 @@
         "Business Operations-150"
       ],
       "created_at": null,
-      "updated_at": "2026-02-23T16:39:45-05:00",
+      "updated_at": "2026-03-05T01:29:15-05:00",
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.15384615384615385,
@@ -1235,7 +1235,7 @@
         "Internship"
       ],
       "created_at": null,
-      "updated_at": "2026-03-03T13:19:20-05:00",
+      "updated_at": "2026-03-04T19:48:28-05:00",
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.15384615384615385,
@@ -1270,7 +1270,7 @@
         "Internship"
       ],
       "created_at": null,
-      "updated_at": "2026-03-03T13:19:20-05:00",
+      "updated_at": "2026-03-04T19:48:28-05:00",
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.15384615384615385,
@@ -1412,7 +1412,7 @@
         "Interns - Customer First"
       ],
       "created_at": null,
-      "updated_at": "2026-02-23T16:39:45-05:00",
+      "updated_at": "2026-03-05T01:29:15-05:00",
       "scores": {
         "hard_raw": 4.0,
         "hard_norm": 0.3076923076923077,
@@ -1633,7 +1633,7 @@
         "Interns - Customer First"
       ],
       "created_at": null,
-      "updated_at": "2026-02-23T16:39:45-05:00",
+      "updated_at": "2026-03-05T01:29:15-05:00",
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.23076923076923078,
