@@ -2,9 +2,9 @@
   "meta": {
     "engine_name": "AutoJob-Agent Feeder",
     "version": 2,
-    "generated_at": "2026-03-05T16:11:00.963419+00:00",
-    "source_jobs_count": 171,
-    "candidates_count": 51,
+    "generated_at": "2026-03-06T16:00:54.736174+00:00",
+    "source_jobs_count": 165,
+    "candidates_count": 49,
     "candidates_topN_total": 150,
     "thresholds": {
       "apply": 0.72,
@@ -51,84 +51,6 @@
         "reason": ""
       },
       "jd_excerpt": "About the Team The Applied team works across research, engineering, product, and design to bring OpenAI’s technology to the world. We seek to learn from deployment and broadly distribute the benefits of AI, while ensuring that this powerful tool is used responsibly and safely. We aim to make our innovative tools globally accessible, transcending geographic, economic, or platform barriers. Our commitment is to facilitate the use of AI to enhance lives, fostered by rigorous insights into how people use our products. About the Role A systems research internship is for people who love the real-wor"
-    },
-    {
-      "job_uid": "8b8f2da94e9ac418",
-      "source": "greenhouse",
-      "job_id": "8b8f2da94e9ac418",
-      "company": "okta",
-      "title": "Marketing Technology Intern (Summer 2026)",
-      "location": "San Francisco, California",
-      "url": "https://www.okta.com/company/careers/opportunity/7561018?gh_jid=7561018",
-      "departments": [
-        "Business Operations-150"
-      ],
-      "created_at": null,
-      "updated_at": "2026-03-05T01:29:15-05:00",
-      "scores": {
-        "hard_raw": 6.0,
-        "hard_norm": 0.46153846153846156,
-        "semantic_raw": 0.5657059550279682,
-        "semantic_norm": 0.9743584623436315,
-        "final": 0.7435894619813052
-      },
-      "signals": {
-        "must_hits": [
-          "machine learning",
-          "git",
-          "cloud"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": []
-      },
-      "text_hash": "34ce74f43771a46df4cd749e94e26d6c8d9653d1",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "Get to know Okta Okta is The World’s Identity Company. We free everyone to safely use any technology, anywhere, on any device or app. Our flexible and neutral products, Okta Platform and Auth0 Platform, provide secure access, authentication, and automation, placing identity at the core of business security and growth. At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box - we’re looking for lifelong learners and people who can make us better with their unique experiences.&nbsp; Join our team! We’re building a world where Ide"
-    },
-    {
-      "job_uid": "64e8cd9ce5039875",
-      "source": "greenhouse",
-      "job_id": "64e8cd9ce5039875",
-      "company": "brex",
-      "title": "Software Engineer, Intern",
-      "location": "United States",
-      "url": "https://www.brex.com/careers/8434389002?gh_jid=8434389002",
-      "departments": [
-        "Engineering"
-      ],
-      "created_at": null,
-      "updated_at": "2026-03-02T10:39:52-05:00",
-      "scores": {
-        "hard_raw": 8.0,
-        "hard_norm": 0.6153846153846154,
-        "semantic_raw": 0.49547576904247326,
-        "semantic_norm": 0.7967117694727427,
-        "final": 0.7151145501330854
-      },
-      "signals": {
-        "must_hits": [
-          "python",
-          "sql",
-          "cloud"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": []
-      },
-      "text_hash": "37b5ee7f17d6e71af97e7e1526bb79a6f30c0e8f",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "Why join us Brex is the AI-powered spend platform. We help companies spend with confidence with integrated corporate cards, banking, and global payments, plus intuitive software for travel and expenses. Tens of thousands of companies from startups to enterprises — including DoorDash, Flexport, and Compass — use Brex to proactively control spend, reduce costs, and increase efficiency on a global scale. Working at Brex allows you to push your limits, challenge the status quo, and collaborate with some of the brightest minds in the industry. We’re committed to building a diverse team and inclusiv"
     },
     {
       "job_uid": "cdefeb135c230613",
@@ -217,7 +139,7 @@
         "People Operations-131"
       ],
       "created_at": null,
-      "updated_at": "2026-03-05T01:29:15-05:00",
+      "updated_at": "2026-03-05T13:07:56-05:00",
       "scores": {
         "hard_raw": 5.0,
         "hard_norm": 0.38461538461538464,
@@ -255,7 +177,7 @@
         "Corporate Communication-410"
       ],
       "created_at": null,
-      "updated_at": "2026-03-05T01:29:15-05:00",
+      "updated_at": "2026-03-05T13:07:56-05:00",
       "scores": {
         "hard_raw": 7.0,
         "hard_norm": 0.5384615384615384,
@@ -294,7 +216,7 @@
         "5112 General University"
       ],
       "created_at": null,
-      "updated_at": "2026-02-26T12:14:16-05:00",
+      "updated_at": "2026-03-05T19:03:48-05:00",
       "scores": {
         "hard_raw": 8.0,
         "hard_norm": 0.6153846153846154,
@@ -333,7 +255,7 @@
         "Sales"
       ],
       "created_at": null,
-      "updated_at": "2026-02-20T18:33:18-05:00",
+      "updated_at": "2026-03-06T09:54:14-05:00",
       "scores": {
         "hard_raw": 1.0,
         "hard_norm": 0.07692307692307693,
@@ -712,7 +634,7 @@
         "Digital Media-415"
       ],
       "created_at": null,
-      "updated_at": "2026-03-05T01:29:15-05:00",
+      "updated_at": "2026-03-05T13:07:56-05:00",
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.23076923076923078,
@@ -748,7 +670,7 @@
         "Corporate Events-461"
       ],
       "created_at": null,
-      "updated_at": "2026-03-05T01:29:15-05:00",
+      "updated_at": "2026-03-05T13:07:56-05:00",
       "scores": {
         "hard_raw": 4.0,
         "hard_norm": 0.3076923076923077,
@@ -784,7 +706,7 @@
         "Product Marketing-530"
       ],
       "created_at": null,
-      "updated_at": "2026-03-05T01:29:15-05:00",
+      "updated_at": "2026-03-05T13:07:56-05:00",
       "scores": {
         "hard_raw": 4.0,
         "hard_norm": 0.3076923076923077,
@@ -821,7 +743,7 @@
         "Interns"
       ],
       "created_at": null,
-      "updated_at": "2026-03-05T01:29:15-05:00",
+      "updated_at": "2026-03-05T13:07:56-05:00",
       "scores": {
         "hard_raw": 4.0,
         "hard_norm": 0.3076923076923077,
@@ -858,7 +780,7 @@
         "Partner Marketing-122"
       ],
       "created_at": null,
-      "updated_at": "2026-03-05T01:29:15-05:00",
+      "updated_at": "2026-03-05T13:07:56-05:00",
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.23076923076923078,
@@ -937,7 +859,7 @@
         "Recruiting-180"
       ],
       "created_at": null,
-      "updated_at": "2026-03-05T01:29:15-05:00",
+      "updated_at": "2026-03-05T13:07:56-05:00",
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.15384615384615385,
@@ -972,7 +894,7 @@
         "Marketing & Brand"
       ],
       "created_at": null,
-      "updated_at": "2026-03-02T12:49:35-05:00",
+      "updated_at": "2026-03-06T09:54:14-05:00",
       "scores": {
         "hard_raw": 1.0,
         "hard_norm": 0.07692307692307693,
@@ -1049,7 +971,7 @@
         "Internships & Emerging Talent Positions"
       ],
       "created_at": null,
-      "updated_at": "2026-03-03T01:58:53-05:00",
+      "updated_at": "2026-03-06T00:54:40-05:00",
       "scores": {
         "hard_raw": 7.0,
         "hard_norm": 0.5384615384615384,
@@ -1088,7 +1010,7 @@
         "Internships & Emerging Talent Positions"
       ],
       "created_at": null,
-      "updated_at": "2026-03-03T01:58:45-05:00",
+      "updated_at": "2026-03-06T00:54:34-05:00",
       "scores": {
         "hard_raw": 7.0,
         "hard_norm": 0.5384615384615384,
@@ -1127,7 +1049,7 @@
         "Internships & Emerging Talent Positions"
       ],
       "created_at": null,
-      "updated_at": "2026-03-03T01:58:42-05:00",
+      "updated_at": "2026-03-06T00:54:31-05:00",
       "scores": {
         "hard_raw": 7.0,
         "hard_norm": 0.5384615384615384,
@@ -1200,7 +1122,7 @@
         "Business Operations-150"
       ],
       "created_at": null,
-      "updated_at": "2026-03-05T01:29:15-05:00",
+      "updated_at": "2026-03-05T13:07:56-05:00",
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.15384615384615385,
@@ -1235,7 +1157,7 @@
         "Internship"
       ],
       "created_at": null,
-      "updated_at": "2026-03-04T19:48:28-05:00",
+      "updated_at": "2026-03-05T18:41:36-05:00",
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.15384615384615385,
@@ -1270,7 +1192,7 @@
         "Internship"
       ],
       "created_at": null,
-      "updated_at": "2026-03-04T19:48:28-05:00",
+      "updated_at": "2026-03-05T18:41:37-05:00",
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.15384615384615385,
@@ -1412,7 +1334,7 @@
         "Interns - Customer First"
       ],
       "created_at": null,
-      "updated_at": "2026-03-05T01:29:15-05:00",
+      "updated_at": "2026-03-05T13:07:56-05:00",
       "scores": {
         "hard_raw": 4.0,
         "hard_norm": 0.3076923076923077,
@@ -1519,7 +1441,7 @@
         "Internships & Emerging Talent Positions"
       ],
       "created_at": null,
-      "updated_at": "2026-03-03T01:58:44-05:00",
+      "updated_at": "2026-03-06T00:54:34-05:00",
       "scores": {
         "hard_raw": 5.0,
         "hard_norm": 0.38461538461538464,
@@ -1557,7 +1479,7 @@
         "Internships & Emerging Talent Positions"
       ],
       "created_at": null,
-      "updated_at": "2026-03-03T01:58:42-05:00",
+      "updated_at": "2026-03-06T00:54:31-05:00",
       "scores": {
         "hard_raw": 5.0,
         "hard_norm": 0.38461538461538464,
@@ -1595,7 +1517,7 @@
         "Internships & Emerging Talent Positions"
       ],
       "created_at": null,
-      "updated_at": "2026-03-03T01:58:42-05:00",
+      "updated_at": "2026-03-06T00:54:31-05:00",
       "scores": {
         "hard_raw": 5.0,
         "hard_norm": 0.38461538461538464,
@@ -1633,7 +1555,7 @@
         "Interns - Customer First"
       ],
       "created_at": null,
-      "updated_at": "2026-03-05T01:29:15-05:00",
+      "updated_at": "2026-03-05T13:07:56-05:00",
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.23076923076923078,
@@ -1740,7 +1662,7 @@
         "Internships & Emerging Talent Positions"
       ],
       "created_at": null,
-      "updated_at": "2026-03-03T01:58:43-05:00",
+      "updated_at": "2026-03-06T00:54:32-05:00",
       "scores": {
         "hard_raw": 4.0,
         "hard_norm": 0.3076923076923077,
@@ -1777,7 +1699,7 @@
         "Internships & Emerging Talent Positions"
       ],
       "created_at": null,
-      "updated_at": "2026-03-03T01:58:43-05:00",
+      "updated_at": "2026-03-06T00:54:32-05:00",
       "scores": {
         "hard_raw": 4.0,
         "hard_norm": 0.3076923076923077,
@@ -1814,7 +1736,7 @@
         "5112 General University"
       ],
       "created_at": null,
-      "updated_at": "2026-02-26T12:14:16-05:00",
+      "updated_at": "2026-03-05T19:03:48-05:00",
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.23076923076923078,
@@ -1851,7 +1773,7 @@
         "5112 General University"
       ],
       "created_at": null,
-      "updated_at": "2026-02-26T12:14:16-05:00",
+      "updated_at": "2026-03-05T19:03:48-05:00",
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.23076923076923078,

@@ -2,22 +2,396 @@
   "meta": {
     "version": 2,
     "model_name": "sentence-transformers/all-MiniLM-L6-v2",
-    "jobs_total": 171,
-    "jobs_scored": 171,
-    "non_gated_count": 65
+    "jobs_total": 165,
+    "jobs_scored": 165,
+    "non_gated_count": 63
   },
   "scored_jobs": [
     {
-      "job_uid": "9512fc6c152f2bec",
+      "job_uid": "1e24bd723ca2390a",
       "source": "greenhouse",
-      "company": "cloudflare",
-      "title": "Threat Detection and Incident Response Intern (Summer 2026)",
-      "location": "In-Office",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/7578761?gh_jid=7578761",
-      "updated_at": "2026-03-05T09:20:56-05:00",
+      "company": "anthropic",
+      "title": "Program Manager, Student Outreach",
+      "location": "San Francisco, CA | New York City, NY",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5102171008",
+      "updated_at": "2026-03-06T09:54:14-05:00",
       "created_at": null,
       "departments": [
-        "Security"
+        "Marketing & Brand"
+      ],
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "hard": {
+        "raw": 1.0,
+        "must_hits": [
+          "git"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": [
+          "5+ years"
+        ],
+        "norm": 0.07692307692307693
+      },
+      "semantic": {
+        "raw": 0.46958953142119175,
+        "cache_reused": true,
+        "norm": 0.7312327387716078
+      },
+      "text_hash": "8c9ae5b8b220a972a4a2c4e8586cf530277b7b4f",
+      "final_score": 0.43679339093976893,
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
+    },
+    {
+      "job_uid": "3a22be8e7f95b798",
+      "source": "greenhouse",
+      "company": "anthropic",
+      "title": "Regional Head of Early Career Associates, Applied AI",
+      "location": "San Francisco, CA",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4947472008",
+      "updated_at": "2026-03-06T09:54:14-05:00",
+      "created_at": null,
+      "departments": [
+        "Sales"
+      ],
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "hard": {
+        "raw": 1.0,
+        "must_hits": [
+          "git"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": [
+          "5+ years"
+        ],
+        "norm": 0.07692307692307693
+      },
+      "semantic": {
+        "raw": 0.575842985610742,
+        "cache_reused": true,
+        "norm": 1.0
+      },
+      "text_hash": "778c734fec934fbcff84f61beeae203acfe3abbe",
+      "final_score": 0.5846153846153846,
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
+    },
+    {
+      "job_uid": "e74e57654663fbbb",
+      "source": "greenhouse",
+      "company": "coinbase",
+      "title": "Business Controller Intern",
+      "location": "Hybrid - New York, NY",
+      "url": "https://www.coinbase.com/careers/positions/7434684?gh_jid=7434684",
+      "updated_at": "2026-03-06T00:54:40-05:00",
+      "created_at": null,
+      "departments": [
+        "Internships & Emerging Talent Positions"
+      ],
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "hard": {
+        "raw": 7.0,
+        "must_hits": [
+          "machine learning",
+          "sql",
+          "git"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": [],
+        "norm": 0.5384615384615384
+      },
+      "semantic": {
+        "raw": 0.31691129904425036,
+        "cache_reused": true,
+        "norm": 0.3450343730042361
+      },
+      "text_hash": "7e312fa50e73f73c63afe486f05a3b098651c06a",
+      "final_score": 0.4320765974600222,
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1"
+    },
+    {
+      "job_uid": "c1a7d2357d3e9e7d",
+      "source": "greenhouse",
+      "company": "coinbase",
+      "title": "Strategic Sourcing Intern",
+      "location": "Hybrid - New York, NY",
+      "url": "https://www.coinbase.com/careers/positions/7315887?gh_jid=7315887",
+      "updated_at": "2026-03-06T00:54:34-05:00",
+      "created_at": null,
+      "departments": [
+        "Internships & Emerging Talent Positions"
+      ],
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "hard": {
+        "raw": 5.0,
+        "must_hits": [
+          "machine learning",
+          "git"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": [],
+        "norm": 0.38461538461538464
+      },
+      "semantic": {
+        "raw": 0.31691129904425036,
+        "cache_reused": true,
+        "norm": 0.3450343730042361
+      },
+      "text_hash": "474938fc6556ea01108747f7a3fdda08337920c0",
+      "final_score": 0.362845828229253,
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1"
+    },
+    {
+      "job_uid": "1a26aafbcac1af2d",
+      "source": "greenhouse",
+      "company": "coinbase",
+      "title": "Tax Information Reporting Intern",
+      "location": "Hybrid - New York, NY",
+      "url": "https://www.coinbase.com/careers/positions/7317551?gh_jid=7317551",
+      "updated_at": "2026-03-06T00:54:34-05:00",
+      "created_at": null,
+      "departments": [
+        "Internships & Emerging Talent Positions"
+      ],
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "hard": {
+        "raw": 7.0,
+        "must_hits": [
+          "machine learning",
+          "sql",
+          "git"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": [],
+        "norm": 0.5384615384615384
+      },
+      "semantic": {
+        "raw": 0.31691129904425036,
+        "cache_reused": true,
+        "norm": 0.3450343730042361
+      },
+      "text_hash": "068302da8982e3c36c51b4763ab17c55e02e14ed",
+      "final_score": 0.4320765974600222,
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1"
+    },
+    {
+      "job_uid": "e21df956cafcf642",
+      "source": "greenhouse",
+      "company": "coinbase",
+      "title": "Machine Learning Engineer Intern",
+      "location": "Hybrid - San Francisco, CA",
+      "url": "https://www.coinbase.com/careers/positions/7294075?gh_jid=7294075",
+      "updated_at": "2026-03-06T00:54:32-05:00",
+      "created_at": null,
+      "departments": [
+        "Internships & Emerging Talent Positions"
+      ],
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "hard": {
+        "raw": 4.0,
+        "must_hits": [
+          "machine learning"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": [],
+        "norm": 0.3076923076923077
+      },
+      "semantic": {
+        "raw": 0.31691129904425036,
+        "cache_reused": true,
+        "norm": 0.3450343730042361
+      },
+      "text_hash": "fefdec8fb4f916129bd71559795c469d8bea30bb",
+      "final_score": 0.32823044361386833,
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
+    },
+    {
+      "job_uid": "d8785ee97b4ba483",
+      "source": "greenhouse",
+      "company": "coinbase",
+      "title": "Product Design Intern",
+      "location": "Hybrid - San Francisco, CA",
+      "url": "https://www.coinbase.com/careers/positions/7325051?gh_jid=7325051",
+      "updated_at": "2026-03-06T00:54:32-05:00",
+      "created_at": null,
+      "departments": [
+        "Internships & Emerging Talent Positions"
+      ],
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "hard": {
+        "raw": 4.0,
+        "must_hits": [
+          "machine learning"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": [],
+        "norm": 0.3076923076923077
+      },
+      "semantic": {
+        "raw": 0.31691129904425036,
+        "cache_reused": true,
+        "norm": 0.3450343730042361
+      },
+      "text_hash": "4994a877e831e3f8380644da2909e44611fc87ed",
+      "final_score": 0.32823044361386833,
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
+    },
+    {
+      "job_uid": "2d63f4cc8b3a3dd7",
+      "source": "greenhouse",
+      "company": "coinbase",
+      "title": "Associate Product Manager Intern",
+      "location": "Hybrid - San Francisco, CA",
+      "url": "https://www.coinbase.com/careers/positions/7269743?gh_jid=7269743",
+      "updated_at": "2026-03-06T00:54:31-05:00",
+      "created_at": null,
+      "departments": [
+        "Internships & Emerging Talent Positions"
+      ],
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "hard": {
+        "raw": 5.0,
+        "must_hits": [
+          "machine learning",
+          "git"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": [],
+        "norm": 0.38461538461538464
+      },
+      "semantic": {
+        "raw": 0.31691129904425036,
+        "cache_reused": true,
+        "norm": 0.3450343730042361
+      },
+      "text_hash": "384f524e31ff589b14eb58fd59c6cf8485e68f1b",
+      "final_score": 0.362845828229253,
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1"
+    },
+    {
+      "job_uid": "8d6b5d6dce617436",
+      "source": "greenhouse",
+      "company": "coinbase",
+      "title": "Software Engineer Intern",
+      "location": "Hybrid - San Francisco, CA",
+      "url": "https://www.coinbase.com/careers/positions/7268895?gh_jid=7268895",
+      "updated_at": "2026-03-06T00:54:31-05:00",
+      "created_at": null,
+      "departments": [
+        "Internships & Emerging Talent Positions"
+      ],
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "hard": {
+        "raw": 7.0,
+        "must_hits": [
+          "machine learning",
+          "git",
+          "docker",
+          "cloud"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": [],
+        "norm": 0.5384615384615384
+      },
+      "semantic": {
+        "raw": 0.31691129904425036,
+        "cache_reused": true,
+        "norm": 0.3450343730042361
+      },
+      "text_hash": "57adac3e23fa089f61359e174ddfc78ee5a5baad",
+      "final_score": 0.4320765974600222,
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=4, nice_hits=1"
+    },
+    {
+      "job_uid": "57fb6fa8c62f591c",
+      "source": "greenhouse",
+      "company": "coinbase",
+      "title": "User Researcher Intern",
+      "location": "Hybrid - San Francisco, CA",
+      "url": "https://www.coinbase.com/careers/positions/7269775?gh_jid=7269775",
+      "updated_at": "2026-03-06T00:54:31-05:00",
+      "created_at": null,
+      "departments": [
+        "Internships & Emerging Talent Positions"
+      ],
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "hard": {
+        "raw": 5.0,
+        "must_hits": [
+          "machine learning",
+          "cloud"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": [],
+        "norm": 0.38461538461538464
+      },
+      "semantic": {
+        "raw": 0.31691129904425036,
+        "cache_reused": true,
+        "norm": 0.3450343730042361
+      },
+      "text_hash": "17cc3526a2760819aab2929a93a7fe5c31acf3da",
+      "final_score": 0.362845828229253,
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1"
+    },
+    {
+      "job_uid": "0df98beef0fc10f8",
+      "source": "greenhouse",
+      "company": "stripe",
+      "title": "Data Analyst, Intern (Master's degree)",
+      "location": "Toronto, Ontario, Canada",
+      "url": "https://stripe.com/jobs/search?gh_jid=7285986",
+      "updated_at": "2026-03-05T19:03:48-05:00",
+      "created_at": null,
+      "departments": [
+        "5112 General University"
       ],
       "hard_gate": {
         "hit": true,
@@ -35,7 +409,505 @@
         "cache_reused": false,
         "norm": 0.0
       },
-      "text_hash": "5e89dc0c1f33b3f755661545fe40b49eec5da715",
+      "text_hash": "a7ca264d946a84d653e696e840ff1c6150b7698d",
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
+    },
+    {
+      "job_uid": "40436a0e8ed94e54",
+      "source": "greenhouse",
+      "company": "stripe",
+      "title": "PhD Data Scientist, Intern",
+      "location": "Toronto, Ontario, Canada",
+      "url": "https://stripe.com/jobs/search?gh_jid=7285974",
+      "updated_at": "2026-03-05T19:03:48-05:00",
+      "created_at": null,
+      "departments": [
+        "5112 General University"
+      ],
+      "hard_gate": {
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
+      },
+      "hard": {
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
+      },
+      "text_hash": "84e6015f50a7fddcf8a2a8097788a3ede0c2320e",
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
+    },
+    {
+      "job_uid": "5936ffed28038e5d",
+      "source": "greenhouse",
+      "company": "stripe",
+      "title": "PhD Machine Learning Engineer, Intern",
+      "location": "San Francisco, New York City, Seattle",
+      "url": "https://stripe.com/jobs/search?gh_jid=7216664",
+      "updated_at": "2026-03-05T19:03:48-05:00",
+      "created_at": null,
+      "departments": [
+        "5112 General University"
+      ],
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "hard": {
+        "raw": 8.0,
+        "must_hits": [
+          "python",
+          "machine learning",
+          "git"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": [],
+        "norm": 0.6153846153846154
+      },
+      "semantic": {
+        "raw": 0.4216968072467883,
+        "cache_reused": true,
+        "norm": 0.6100884766174729
+      },
+      "text_hash": "a03354be29cb2c91a80e9131f92d4251e6d276b3",
+      "final_score": 0.612471739062687,
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1"
+    },
+    {
+      "job_uid": "1254231df3fa18cd",
+      "source": "greenhouse",
+      "company": "stripe",
+      "title": "Software Engineer, Intern",
+      "location": "Singapore",
+      "url": "https://stripe.com/jobs/search?gh_jid=7206401",
+      "updated_at": "2026-03-05T19:03:48-05:00",
+      "created_at": null,
+      "departments": [
+        "5112 General University"
+      ],
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "hard": {
+        "raw": 3.0,
+        "must_hits": [
+          "git"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": [],
+        "norm": 0.23076923076923078
+      },
+      "semantic": {
+        "raw": 0.3415982425209444,
+        "cache_reused": true,
+        "norm": 0.40747979877359164
+      },
+      "text_hash": "2b1d064990c9520a7e0f962a687e84161edd81d2",
+      "final_score": 0.32796004317162925,
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
+    },
+    {
+      "job_uid": "867837af4b70f7ea",
+      "source": "greenhouse",
+      "company": "stripe",
+      "title": "Software Engineer, Intern",
+      "location": "Dublin",
+      "url": "https://stripe.com/jobs/search?gh_jid=7206494",
+      "updated_at": "2026-03-05T19:03:48-05:00",
+      "created_at": null,
+      "departments": [
+        "5112 General University"
+      ],
+      "hard_gate": {
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
+      },
+      "hard": {
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
+      },
+      "text_hash": "58f557f2e44b0d957b3009d34907e155a227c552",
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
+    },
+    {
+      "job_uid": "acdb4e432b539db6",
+      "source": "greenhouse",
+      "company": "stripe",
+      "title": "Software Engineer, Intern",
+      "location": "London",
+      "url": "https://stripe.com/jobs/search?gh_jid=7360840",
+      "updated_at": "2026-03-05T19:03:48-05:00",
+      "created_at": null,
+      "departments": [
+        "5112 General University"
+      ],
+      "hard_gate": {
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
+      },
+      "hard": {
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
+      },
+      "text_hash": "0504ebea54da571d1dcdb616371e118fe6fb2ee6",
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
+    },
+    {
+      "job_uid": "b35597b79d3ae32f",
+      "source": "greenhouse",
+      "company": "stripe",
+      "title": "Software Engineer, Intern (Summer)",
+      "location": "San Francisco, Seattle, New York City",
+      "url": "https://stripe.com/jobs/search?gh_jid=7210115",
+      "updated_at": "2026-03-05T19:03:48-05:00",
+      "created_at": null,
+      "departments": [
+        "5112 General University"
+      ],
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "hard": {
+        "raw": 3.0,
+        "must_hits": [
+          "git"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": [],
+        "norm": 0.23076923076923078
+      },
+      "semantic": {
+        "raw": 0.3415982425209444,
+        "cache_reused": true,
+        "norm": 0.40747979877359164
+      },
+      "text_hash": "23045855f57a04cda6dd2a02b162d64170aae71b",
+      "final_score": 0.32796004317162925,
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
+    },
+    {
+      "job_uid": "2a437f95c93de61c",
+      "source": "greenhouse",
+      "company": "stripe",
+      "title": "University Recruiter",
+      "location": "Mexico City, MX",
+      "url": "https://stripe.com/jobs/search?gh_jid=7476012",
+      "updated_at": "2026-03-05T19:03:48-05:00",
+      "created_at": null,
+      "departments": [
+        "6526 University Recruiting"
+      ],
+      "hard_gate": {
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
+      },
+      "hard": {
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
+      },
+      "text_hash": "ea6d8bbb626d6ef4a9de08937e447f24c958c626",
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
+    },
+    {
+      "job_uid": "db53ab408d50d1f5",
+      "source": "greenhouse",
+      "company": "stripe",
+      "title": "University Recruiter (Fixed Term Contract)",
+      "location": "Bangalore",
+      "url": "https://stripe.com/jobs/search?gh_jid=7419549",
+      "updated_at": "2026-03-05T19:03:48-05:00",
+      "created_at": null,
+      "departments": [
+        "6526 University Recruiting"
+      ],
+      "hard_gate": {
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
+      },
+      "hard": {
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
+      },
+      "text_hash": "5874c0f042a5f30e5c85d288bd5a5b032b23ea49",
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
+    },
+    {
+      "job_uid": "20154ebf9b416ee5",
+      "source": "greenhouse",
+      "company": "asana",
+      "title": "Product Design Intern - Summer 2026 (New York)",
+      "location": "New York City",
+      "url": "https://www.asana.com/jobs/apply/7490328?gh_jid=7490328",
+      "updated_at": "2026-03-05T18:41:37-05:00",
+      "created_at": null,
+      "departments": [
+        "Internship"
+      ],
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "hard": {
+        "raw": 2.0,
+        "must_hits": [],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": [],
+        "norm": 0.15384615384615385
+      },
+      "semantic": {
+        "raw": 0.4204093217845527,
+        "cache_reused": true,
+        "norm": 0.6068317924541597
+      },
+      "text_hash": "41cb3695a432dcb07eab1d31dc5a9813ff77fba6",
+      "final_score": 0.40298825508055713,
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1"
+    },
+    {
+      "job_uid": "bc183bb0685ead5e",
+      "source": "greenhouse",
+      "company": "asana",
+      "title": "Product Design Intern - Summer 2026 (Warsaw)",
+      "location": "Warsaw",
+      "url": "https://www.asana.com/jobs/apply/7490332?gh_jid=7490332",
+      "updated_at": "2026-03-05T18:41:37-05:00",
+      "created_at": null,
+      "departments": [
+        "Internship"
+      ],
+      "hard_gate": {
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
+      },
+      "hard": {
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
+      },
+      "text_hash": "ab6ebfeaeb7f7caf1500097f6d59c6641b8b5484",
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
+    },
+    {
+      "job_uid": "1f97d174e9d7ccca",
+      "source": "greenhouse",
+      "company": "asana",
+      "title": "Product Design Intern - Summer 2026 (San Francisco)",
+      "location": "San Francisco",
+      "url": "https://www.asana.com/jobs/apply/7490322?gh_jid=7490322",
+      "updated_at": "2026-03-05T18:41:36-05:00",
+      "created_at": null,
+      "departments": [
+        "Internship"
+      ],
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "hard": {
+        "raw": 2.0,
+        "must_hits": [],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": [],
+        "norm": 0.15384615384615385
+      },
+      "semantic": {
+        "raw": 0.4271014034743806,
+        "cache_reused": true,
+        "norm": 0.6237593594816098
+      },
+      "text_hash": "4085c4b7198e58d55fa17e8fec5d2a53c89a58c1",
+      "final_score": 0.4122984169456546,
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1"
+    },
+    {
+      "job_uid": "a5861061367b4e31",
+      "source": "greenhouse",
+      "company": "asana",
+      "title": "Software Engineering Intern - Summer 2026 (Reykjavik)",
+      "location": "Reykjavík",
+      "url": "https://www.asana.com/jobs/apply/7490314?gh_jid=7490314",
+      "updated_at": "2026-03-05T18:41:36-05:00",
+      "created_at": null,
+      "departments": [
+        "Internship"
+      ],
+      "hard_gate": {
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
+      },
+      "hard": {
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
+      },
+      "text_hash": "9634866656e3b846bc4a6c6a66ff070fb0fa625b",
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
+    },
+    {
+      "job_uid": "4d39332fe9456ee6",
+      "source": "greenhouse",
+      "company": "asana",
+      "title": "Software Engineering Intern - Summer 2026 (Warsaw)",
+      "location": "Warsaw",
+      "url": "https://www.asana.com/jobs/apply/7490274?gh_jid=7490274",
+      "updated_at": "2026-03-05T18:41:36-05:00",
+      "created_at": null,
+      "departments": [
+        "Internship"
+      ],
+      "hard_gate": {
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
+      },
+      "hard": {
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
+      },
+      "text_hash": "51ea3fd9860bc4b9749190f6625d344b3efd3bfc",
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
+    },
+    {
+      "job_uid": "6b91127006efba1a",
+      "source": "greenhouse",
+      "company": "asana",
+      "title": "Product Design Intern - Summer 2026 (Vancouver, BC)",
+      "location": "Vancouver, BC",
+      "url": "https://www.asana.com/jobs/apply/7078126?gh_jid=7078126",
+      "updated_at": "2026-03-05T18:41:31-05:00",
+      "created_at": null,
+      "departments": [
+        "Internship"
+      ],
+      "hard_gate": {
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
+      },
+      "hard": {
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
+      },
+      "text_hash": "aa35cbf0bbdb8ff43fd68e9e67fcea4fdc36620c",
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
+    },
+    {
+      "job_uid": "2c8072092b46ebf3",
+      "source": "greenhouse",
+      "company": "cloudflare",
+      "title": "Data Analytics Intern (Summer 2026)",
+      "location": "In-Office",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7668989?gh_jid=7668989",
+      "updated_at": "2026-03-05T13:19:53-05:00",
+      "created_at": null,
+      "departments": [
+        "Product"
+      ],
+      "hard_gate": {
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
+      },
+      "hard": {
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
+      },
+      "text_hash": "45e1dc6828d9e30f81b29cd9c59d9b9a1e011815",
       "final_score": 0.0,
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
@@ -46,7 +918,7 @@
       "title": "Business Analyst Intern (Summer 2026)",
       "location": "Chicago, Illinois",
       "url": "https://www.okta.com/company/careers/opportunity/7617090?gh_jid=7617090",
-      "updated_at": "2026-03-05T01:29:15-05:00",
+      "updated_at": "2026-03-05T13:07:56-05:00",
       "created_at": null,
       "departments": [
         "Product Marketing-530"
@@ -82,7 +954,7 @@
       "title": "Business Development Representative Intern (Summer 2026)",
       "location": "Dublin, Ireland",
       "url": "https://www.okta.com/company/careers/opportunity/7654807?gh_jid=7654807",
-      "updated_at": "2026-03-05T01:29:15-05:00",
+      "updated_at": "2026-03-05T13:07:56-05:00",
       "created_at": null,
       "departments": [
         "Interns - Sales"
@@ -114,7 +986,7 @@
       "title": "Communications AI Strategy & Operations Intern (Summer 2026)",
       "location": "San Francisco, California",
       "url": "https://www.okta.com/company/careers/opportunity/7665195?gh_jid=7665195",
-      "updated_at": "2026-03-05T01:29:15-05:00",
+      "updated_at": "2026-03-05T13:07:56-05:00",
       "created_at": null,
       "departments": [
         "Corporate Communication-410"
@@ -152,7 +1024,7 @@
       "title": "Company Planning & Operations Intern (Summer 2026)",
       "location": "Bellevue, Washington",
       "url": "https://www.okta.com/company/careers/opportunity/7630315?gh_jid=7630315",
-      "updated_at": "2026-03-05T01:29:15-05:00",
+      "updated_at": "2026-03-05T13:07:56-05:00",
       "created_at": null,
       "departments": [
         "Company Operations-200"
@@ -184,7 +1056,7 @@
       "title": "Customer First Strategy and Operations Intern (Summer 2026)",
       "location": "San Francisco, California",
       "url": "https://www.okta.com/company/careers/opportunity/7561036?gh_jid=7561036",
-      "updated_at": "2026-03-05T01:29:15-05:00",
+      "updated_at": "2026-03-05T13:07:56-05:00",
       "created_at": null,
       "departments": [
         "Business Operations-150"
@@ -212,45 +1084,13 @@
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0"
     },
     {
-      "job_uid": "f8679b42e5e29ec0",
-      "source": "greenhouse",
-      "company": "okta",
-      "title": "Customer Success Intern (Summer 2026)",
-      "location": "Dublin, Ireland",
-      "url": "https://www.okta.com/company/careers/opportunity/7646155?gh_jid=7646155",
-      "updated_at": "2026-03-05T01:29:15-05:00",
-      "created_at": null,
-      "departments": [
-        "Customer Success Management-750"
-      ],
-      "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
-      },
-      "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.0
-      },
-      "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
-      },
-      "text_hash": "ad9862156610bccea5c9886aed73ad54c7bf8f9d",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
-    },
-    {
       "job_uid": "80edd7620280a1ef",
       "source": "greenhouse",
       "company": "okta",
       "title": "Customer Success Intern (Summer 2026)",
       "location": "Chicago, Illinois",
       "url": "https://www.okta.com/company/careers/opportunity/7565237?gh_jid=7565237",
-      "updated_at": "2026-03-05T01:29:15-05:00",
+      "updated_at": "2026-03-05T13:07:56-05:00",
       "created_at": null,
       "departments": [
         "Interns - Customer First"
@@ -280,13 +1120,45 @@
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=0"
     },
     {
+      "job_uid": "f8679b42e5e29ec0",
+      "source": "greenhouse",
+      "company": "okta",
+      "title": "Customer Success Intern (Summer 2026)",
+      "location": "Dublin, Ireland",
+      "url": "https://www.okta.com/company/careers/opportunity/7646155?gh_jid=7646155",
+      "updated_at": "2026-03-05T13:07:56-05:00",
+      "created_at": null,
+      "departments": [
+        "Customer Success Management-750"
+      ],
+      "hard_gate": {
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
+      },
+      "hard": {
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
+      },
+      "text_hash": "ad9862156610bccea5c9886aed73ad54c7bf8f9d",
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
+    },
+    {
       "job_uid": "f3754782a3cf48aa",
       "source": "greenhouse",
       "company": "okta",
       "title": "Data Analyst Intern (Summer 2026)",
       "location": "San Francisco, California",
       "url": "https://www.okta.com/company/careers/opportunity/7561055?gh_jid=7561055",
-      "updated_at": "2026-03-05T01:29:15-05:00",
+      "updated_at": "2026-03-05T13:07:56-05:00",
       "created_at": null,
       "departments": [
         "Business Operations-150"
@@ -320,7 +1192,7 @@
       "title": "Events Marketing Intern (Summer 2026)",
       "location": "San Francisco, California",
       "url": "https://www.okta.com/company/careers/opportunity/7611453?gh_jid=7611453",
-      "updated_at": "2026-03-05T01:29:15-05:00",
+      "updated_at": "2026-03-05T13:07:56-05:00",
       "created_at": null,
       "departments": [
         "Corporate Events-461"
@@ -355,7 +1227,7 @@
       "title": "Global Benefits Intern (Summer 2026)",
       "location": "Bellevue, Washington; San Francisco, California",
       "url": "https://www.okta.com/company/careers/opportunity/7547730?gh_jid=7547730",
-      "updated_at": "2026-03-05T01:29:15-05:00",
+      "updated_at": "2026-03-05T13:07:56-05:00",
       "created_at": null,
       "departments": [
         "People Operations-131"
@@ -392,7 +1264,7 @@
       "title": "Global Partner Marketing Intern (Summer 2026)",
       "location": "San Francisco, California",
       "url": "https://www.okta.com/company/careers/opportunity/7560998?gh_jid=7560998",
-      "updated_at": "2026-03-05T01:29:15-05:00",
+      "updated_at": "2026-03-05T13:07:56-05:00",
       "created_at": null,
       "departments": [
         "Partner Marketing-122"
@@ -421,51 +1293,13 @@
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0"
     },
     {
-      "job_uid": "8b8f2da94e9ac418",
-      "source": "greenhouse",
-      "company": "okta",
-      "title": "Marketing Technology Intern (Summer 2026)",
-      "location": "San Francisco, California",
-      "url": "https://www.okta.com/company/careers/opportunity/7561018?gh_jid=7561018",
-      "updated_at": "2026-03-05T01:29:15-05:00",
-      "created_at": null,
-      "departments": [
-        "Business Operations-150"
-      ],
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "hard": {
-        "raw": 6.0,
-        "must_hits": [
-          "machine learning",
-          "git",
-          "cloud"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": [],
-        "norm": 0.46153846153846156
-      },
-      "semantic": {
-        "raw": 0.5657059550279682,
-        "cache_reused": true,
-        "norm": 0.9743584623436315
-      },
-      "text_hash": "34ce74f43771a46df4cd749e94e26d6c8d9653d1",
-      "final_score": 0.7435894619813052,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1"
-    },
-    {
       "job_uid": "84d7880e266f9c57",
       "source": "greenhouse",
       "company": "okta",
       "title": "Paid Media Intern (Summer 2026)",
       "location": "Chicago, Illinois; San Francisco, California",
       "url": "https://www.okta.com/company/careers/opportunity/7607650?gh_jid=7607650",
-      "updated_at": "2026-03-05T01:29:15-05:00",
+      "updated_at": "2026-03-05T13:07:56-05:00",
       "created_at": null,
       "departments": [
         "Digital Media-415"
@@ -500,7 +1334,7 @@
       "title": "Product Marketing Intern (Summer 2026)",
       "location": "Chicago, Illinois",
       "url": "https://www.okta.com/company/careers/opportunity/7594992?gh_jid=7594992",
-      "updated_at": "2026-03-05T01:29:15-05:00",
+      "updated_at": "2026-03-05T13:07:56-05:00",
       "created_at": null,
       "departments": [
         "Interns"
@@ -536,7 +1370,7 @@
       "title": "Recruiting Programs Intern (Summer 2026)",
       "location": "San Francisco, California",
       "url": "https://www.okta.com/company/careers/opportunity/7544487?gh_jid=7544487",
-      "updated_at": "2026-03-05T01:29:15-05:00",
+      "updated_at": "2026-03-05T13:07:56-05:00",
       "created_at": null,
       "departments": [
         "Recruiting-180"
@@ -570,7 +1404,7 @@
       "title": "Technical Account Management Intern (Summer 2026)",
       "location": "Chicago, Illinois",
       "url": "https://www.okta.com/company/careers/opportunity/7549331?gh_jid=7549331",
-      "updated_at": "2026-03-05T01:29:15-05:00",
+      "updated_at": "2026-03-05T13:07:56-05:00",
       "created_at": null,
       "departments": [
         "Interns - Customer First"
@@ -597,6 +1431,38 @@
       "text_hash": "3de2578726ff91500df36e5bb3ab6c6f83e0acd6",
       "final_score": 0.3613508036478586,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0"
+    },
+    {
+      "job_uid": "9512fc6c152f2bec",
+      "source": "greenhouse",
+      "company": "cloudflare",
+      "title": "Threat Detection and Incident Response Intern (Summer 2026)",
+      "location": "In-Office",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7578761?gh_jid=7578761",
+      "updated_at": "2026-03-05T09:20:56-05:00",
+      "created_at": null,
+      "departments": [
+        "Security"
+      ],
+      "hard_gate": {
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
+      },
+      "hard": {
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
+      },
+      "text_hash": "5e89dc0c1f33b3f755661545fe40b49eec5da715",
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "cb7f114660800f8e",
@@ -627,202 +1493,6 @@
         "norm": 0.0
       },
       "text_hash": "b102b317f091fcc96644f32614fbcb89d9f8744d",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
-    },
-    {
-      "job_uid": "20154ebf9b416ee5",
-      "source": "greenhouse",
-      "company": "asana",
-      "title": "Product Design Intern - Summer 2026 (New York)",
-      "location": "New York City",
-      "url": "https://www.asana.com/jobs/apply/7490328?gh_jid=7490328",
-      "updated_at": "2026-03-04T19:48:28-05:00",
-      "created_at": null,
-      "departments": [
-        "Internship"
-      ],
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "hard": {
-        "raw": 2.0,
-        "must_hits": [],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": [],
-        "norm": 0.15384615384615385
-      },
-      "semantic": {
-        "raw": 0.4204093217845527,
-        "cache_reused": true,
-        "norm": 0.6068317924541597
-      },
-      "text_hash": "41cb3695a432dcb07eab1d31dc5a9813ff77fba6",
-      "final_score": 0.40298825508055713,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1"
-    },
-    {
-      "job_uid": "1f97d174e9d7ccca",
-      "source": "greenhouse",
-      "company": "asana",
-      "title": "Product Design Intern - Summer 2026 (San Francisco)",
-      "location": "San Francisco",
-      "url": "https://www.asana.com/jobs/apply/7490322?gh_jid=7490322",
-      "updated_at": "2026-03-04T19:48:28-05:00",
-      "created_at": null,
-      "departments": [
-        "Internship"
-      ],
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "hard": {
-        "raw": 2.0,
-        "must_hits": [],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": [],
-        "norm": 0.15384615384615385
-      },
-      "semantic": {
-        "raw": 0.4271014034743806,
-        "cache_reused": true,
-        "norm": 0.6237593594816098
-      },
-      "text_hash": "4085c4b7198e58d55fa17e8fec5d2a53c89a58c1",
-      "final_score": 0.4122984169456546,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1"
-    },
-    {
-      "job_uid": "bc183bb0685ead5e",
-      "source": "greenhouse",
-      "company": "asana",
-      "title": "Product Design Intern - Summer 2026 (Warsaw)",
-      "location": "Warsaw",
-      "url": "https://www.asana.com/jobs/apply/7490332?gh_jid=7490332",
-      "updated_at": "2026-03-04T19:48:28-05:00",
-      "created_at": null,
-      "departments": [
-        "Internship"
-      ],
-      "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
-      },
-      "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.0
-      },
-      "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
-      },
-      "text_hash": "ab6ebfeaeb7f7caf1500097f6d59c6641b8b5484",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
-    },
-    {
-      "job_uid": "a5861061367b4e31",
-      "source": "greenhouse",
-      "company": "asana",
-      "title": "Software Engineering Intern - Summer 2026 (Reykjavik)",
-      "location": "Reykjavík",
-      "url": "https://www.asana.com/jobs/apply/7490314?gh_jid=7490314",
-      "updated_at": "2026-03-04T19:48:28-05:00",
-      "created_at": null,
-      "departments": [
-        "Internship"
-      ],
-      "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
-      },
-      "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.0
-      },
-      "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
-      },
-      "text_hash": "9634866656e3b846bc4a6c6a66ff070fb0fa625b",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
-    },
-    {
-      "job_uid": "4d39332fe9456ee6",
-      "source": "greenhouse",
-      "company": "asana",
-      "title": "Software Engineering Intern - Summer 2026 (Warsaw)",
-      "location": "Warsaw",
-      "url": "https://www.asana.com/jobs/apply/7490274?gh_jid=7490274",
-      "updated_at": "2026-03-04T19:48:28-05:00",
-      "created_at": null,
-      "departments": [
-        "Internship"
-      ],
-      "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
-      },
-      "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.0
-      },
-      "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
-      },
-      "text_hash": "51ea3fd9860bc4b9749190f6625d344b3efd3bfc",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
-    },
-    {
-      "job_uid": "6b91127006efba1a",
-      "source": "greenhouse",
-      "company": "asana",
-      "title": "Product Design Intern - Summer 2026 (Vancouver, BC)",
-      "location": "Vancouver, BC",
-      "url": "https://www.asana.com/jobs/apply/7078126?gh_jid=7078126",
-      "updated_at": "2026-03-04T19:48:21-05:00",
-      "created_at": null,
-      "departments": [
-        "Internship"
-      ],
-      "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
-      },
-      "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.0
-      },
-      "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
-      },
-      "text_hash": "aa35cbf0bbdb8ff43fd68e9e67fcea4fdc36620c",
       "final_score": 0.0,
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
@@ -1033,304 +1703,6 @@
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1"
     },
     {
-      "job_uid": "e74e57654663fbbb",
-      "source": "greenhouse",
-      "company": "coinbase",
-      "title": "Business Controller Intern",
-      "location": "Hybrid - New York, NY",
-      "url": "https://www.coinbase.com/careers/positions/7434684?gh_jid=7434684",
-      "updated_at": "2026-03-03T01:58:53-05:00",
-      "created_at": null,
-      "departments": [
-        "Internships & Emerging Talent Positions"
-      ],
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "hard": {
-        "raw": 7.0,
-        "must_hits": [
-          "machine learning",
-          "sql",
-          "git"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": [],
-        "norm": 0.5384615384615384
-      },
-      "semantic": {
-        "raw": 0.31691129904425036,
-        "cache_reused": true,
-        "norm": 0.3450343730042361
-      },
-      "text_hash": "7e312fa50e73f73c63afe486f05a3b098651c06a",
-      "final_score": 0.4320765974600222,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1"
-    },
-    {
-      "job_uid": "1a26aafbcac1af2d",
-      "source": "greenhouse",
-      "company": "coinbase",
-      "title": "Tax Information Reporting Intern",
-      "location": "Hybrid - New York, NY",
-      "url": "https://www.coinbase.com/careers/positions/7317551?gh_jid=7317551",
-      "updated_at": "2026-03-03T01:58:45-05:00",
-      "created_at": null,
-      "departments": [
-        "Internships & Emerging Talent Positions"
-      ],
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "hard": {
-        "raw": 7.0,
-        "must_hits": [
-          "machine learning",
-          "sql",
-          "git"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": [],
-        "norm": 0.5384615384615384
-      },
-      "semantic": {
-        "raw": 0.31691129904425036,
-        "cache_reused": true,
-        "norm": 0.3450343730042361
-      },
-      "text_hash": "068302da8982e3c36c51b4763ab17c55e02e14ed",
-      "final_score": 0.4320765974600222,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1"
-    },
-    {
-      "job_uid": "c1a7d2357d3e9e7d",
-      "source": "greenhouse",
-      "company": "coinbase",
-      "title": "Strategic Sourcing Intern",
-      "location": "Hybrid - New York, NY",
-      "url": "https://www.coinbase.com/careers/positions/7315887?gh_jid=7315887",
-      "updated_at": "2026-03-03T01:58:44-05:00",
-      "created_at": null,
-      "departments": [
-        "Internships & Emerging Talent Positions"
-      ],
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "hard": {
-        "raw": 5.0,
-        "must_hits": [
-          "machine learning",
-          "git"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": [],
-        "norm": 0.38461538461538464
-      },
-      "semantic": {
-        "raw": 0.31691129904425036,
-        "cache_reused": true,
-        "norm": 0.3450343730042361
-      },
-      "text_hash": "474938fc6556ea01108747f7a3fdda08337920c0",
-      "final_score": 0.362845828229253,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1"
-    },
-    {
-      "job_uid": "e21df956cafcf642",
-      "source": "greenhouse",
-      "company": "coinbase",
-      "title": "Machine Learning Engineer Intern",
-      "location": "Hybrid - San Francisco, CA",
-      "url": "https://www.coinbase.com/careers/positions/7294075?gh_jid=7294075",
-      "updated_at": "2026-03-03T01:58:43-05:00",
-      "created_at": null,
-      "departments": [
-        "Internships & Emerging Talent Positions"
-      ],
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "hard": {
-        "raw": 4.0,
-        "must_hits": [
-          "machine learning"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": [],
-        "norm": 0.3076923076923077
-      },
-      "semantic": {
-        "raw": 0.31691129904425036,
-        "cache_reused": true,
-        "norm": 0.3450343730042361
-      },
-      "text_hash": "fefdec8fb4f916129bd71559795c469d8bea30bb",
-      "final_score": 0.32823044361386833,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
-    },
-    {
-      "job_uid": "d8785ee97b4ba483",
-      "source": "greenhouse",
-      "company": "coinbase",
-      "title": "Product Design Intern",
-      "location": "Hybrid - San Francisco, CA",
-      "url": "https://www.coinbase.com/careers/positions/7325051?gh_jid=7325051",
-      "updated_at": "2026-03-03T01:58:43-05:00",
-      "created_at": null,
-      "departments": [
-        "Internships & Emerging Talent Positions"
-      ],
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "hard": {
-        "raw": 4.0,
-        "must_hits": [
-          "machine learning"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": [],
-        "norm": 0.3076923076923077
-      },
-      "semantic": {
-        "raw": 0.31691129904425036,
-        "cache_reused": true,
-        "norm": 0.3450343730042361
-      },
-      "text_hash": "4994a877e831e3f8380644da2909e44611fc87ed",
-      "final_score": 0.32823044361386833,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
-    },
-    {
-      "job_uid": "2d63f4cc8b3a3dd7",
-      "source": "greenhouse",
-      "company": "coinbase",
-      "title": "Associate Product Manager Intern",
-      "location": "Hybrid - San Francisco, CA",
-      "url": "https://www.coinbase.com/careers/positions/7269743?gh_jid=7269743",
-      "updated_at": "2026-03-03T01:58:42-05:00",
-      "created_at": null,
-      "departments": [
-        "Internships & Emerging Talent Positions"
-      ],
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "hard": {
-        "raw": 5.0,
-        "must_hits": [
-          "machine learning",
-          "git"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": [],
-        "norm": 0.38461538461538464
-      },
-      "semantic": {
-        "raw": 0.31691129904425036,
-        "cache_reused": true,
-        "norm": 0.3450343730042361
-      },
-      "text_hash": "384f524e31ff589b14eb58fd59c6cf8485e68f1b",
-      "final_score": 0.362845828229253,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1"
-    },
-    {
-      "job_uid": "8d6b5d6dce617436",
-      "source": "greenhouse",
-      "company": "coinbase",
-      "title": "Software Engineer Intern",
-      "location": "Hybrid - San Francisco, CA",
-      "url": "https://www.coinbase.com/careers/positions/7268895?gh_jid=7268895",
-      "updated_at": "2026-03-03T01:58:42-05:00",
-      "created_at": null,
-      "departments": [
-        "Internships & Emerging Talent Positions"
-      ],
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "hard": {
-        "raw": 7.0,
-        "must_hits": [
-          "machine learning",
-          "git",
-          "docker",
-          "cloud"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": [],
-        "norm": 0.5384615384615384
-      },
-      "semantic": {
-        "raw": 0.31691129904425036,
-        "cache_reused": true,
-        "norm": 0.3450343730042361
-      },
-      "text_hash": "57adac3e23fa089f61359e174ddfc78ee5a5baad",
-      "final_score": 0.4320765974600222,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=4, nice_hits=1"
-    },
-    {
-      "job_uid": "57fb6fa8c62f591c",
-      "source": "greenhouse",
-      "company": "coinbase",
-      "title": "User Researcher Intern",
-      "location": "Hybrid - San Francisco, CA",
-      "url": "https://www.coinbase.com/careers/positions/7269775?gh_jid=7269775",
-      "updated_at": "2026-03-03T01:58:42-05:00",
-      "created_at": null,
-      "departments": [
-        "Internships & Emerging Talent Positions"
-      ],
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "hard": {
-        "raw": 5.0,
-        "must_hits": [
-          "machine learning",
-          "cloud"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": [],
-        "norm": 0.38461538461538464
-      },
-      "semantic": {
-        "raw": 0.31691129904425036,
-        "cache_reused": true,
-        "norm": 0.3450343730042361
-      },
-      "text_hash": "17cc3526a2760819aab2929a93a7fe5c31acf3da",
-      "final_score": 0.362845828229253,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1"
-    },
-    {
       "job_uid": "05413f176349337a",
       "source": "greenhouse",
       "company": "togetherai",
@@ -1363,146 +1735,6 @@
       "text_hash": "fb7cae296f65cbeb3ef634a8b000c3a9aca98686",
       "final_score": 0.37354313256644067,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0"
-    },
-    {
-      "job_uid": "1e24bd723ca2390a",
-      "source": "greenhouse",
-      "company": "anthropic",
-      "title": "Program Manager, Student Outreach",
-      "location": "San Francisco, CA | New York City, NY",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5102171008",
-      "updated_at": "2026-03-02T12:49:35-05:00",
-      "created_at": null,
-      "departments": [
-        "Marketing & Brand"
-      ],
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "hard": {
-        "raw": 1.0,
-        "must_hits": [
-          "git"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": [
-          "5+ years"
-        ],
-        "norm": 0.07692307692307693
-      },
-      "semantic": {
-        "raw": 0.46958953142119175,
-        "cache_reused": true,
-        "norm": 0.7312327387716078
-      },
-      "text_hash": "8c9ae5b8b220a972a4a2c4e8586cf530277b7b4f",
-      "final_score": 0.43679339093976893,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
-    },
-    {
-      "job_uid": "acdb4e432b539db6",
-      "source": "greenhouse",
-      "company": "stripe",
-      "title": "Software Engineer, Intern",
-      "location": "London",
-      "url": "https://stripe.com/jobs/search?gh_jid=7360840",
-      "updated_at": "2026-03-02T11:09:40-05:00",
-      "created_at": null,
-      "departments": [
-        "5112 General University"
-      ],
-      "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
-      },
-      "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.0
-      },
-      "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
-      },
-      "text_hash": "0504ebea54da571d1dcdb616371e118fe6fb2ee6",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
-    },
-    {
-      "job_uid": "867837af4b70f7ea",
-      "source": "greenhouse",
-      "company": "stripe",
-      "title": "Software Engineer, Intern",
-      "location": "Dublin",
-      "url": "https://stripe.com/jobs/search?gh_jid=7206494",
-      "updated_at": "2026-03-02T11:09:39-05:00",
-      "created_at": null,
-      "departments": [
-        "5112 General University"
-      ],
-      "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
-      },
-      "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.0
-      },
-      "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
-      },
-      "text_hash": "58f557f2e44b0d957b3009d34907e155a227c552",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
-    },
-    {
-      "job_uid": "64e8cd9ce5039875",
-      "source": "greenhouse",
-      "company": "brex",
-      "title": "Software Engineer, Intern",
-      "location": "United States",
-      "url": "https://www.brex.com/careers/8434389002?gh_jid=8434389002",
-      "updated_at": "2026-03-02T10:39:52-05:00",
-      "created_at": null,
-      "departments": [
-        "Engineering"
-      ],
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "hard": {
-        "raw": 8.0,
-        "must_hits": [
-          "python",
-          "sql",
-          "cloud"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": [],
-        "norm": 0.6153846153846154
-      },
-      "semantic": {
-        "raw": 0.49547576904247326,
-        "cache_reused": true,
-        "norm": 0.7967117694727427
-      },
-      "text_hash": "37b5ee7f17d6e71af97e7e1526bb79a6f30c0e8f",
-      "final_score": 0.7151145501330854,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1"
     },
     {
       "job_uid": "b79485bd47657c06",
@@ -1569,244 +1801,6 @@
       "text_hash": "18c051a3a0c287cbda7d6fee602ac411376c0d62",
       "final_score": 0.35252885724470473,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0"
-    },
-    {
-      "job_uid": "0df98beef0fc10f8",
-      "source": "greenhouse",
-      "company": "stripe",
-      "title": "Data Analyst, Intern (Master's degree)",
-      "location": "Toronto, Ontario, Canada",
-      "url": "https://stripe.com/jobs/search?gh_jid=7285986",
-      "updated_at": "2026-02-26T12:14:16-05:00",
-      "created_at": null,
-      "departments": [
-        "5112 General University"
-      ],
-      "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
-      },
-      "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.0
-      },
-      "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
-      },
-      "text_hash": "a7ca264d946a84d653e696e840ff1c6150b7698d",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
-    },
-    {
-      "job_uid": "40436a0e8ed94e54",
-      "source": "greenhouse",
-      "company": "stripe",
-      "title": "PhD Data Scientist, Intern",
-      "location": "Toronto, Ontario, Canada",
-      "url": "https://stripe.com/jobs/search?gh_jid=7285974",
-      "updated_at": "2026-02-26T12:14:16-05:00",
-      "created_at": null,
-      "departments": [
-        "5112 General University"
-      ],
-      "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
-      },
-      "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.0
-      },
-      "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
-      },
-      "text_hash": "84e6015f50a7fddcf8a2a8097788a3ede0c2320e",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
-    },
-    {
-      "job_uid": "5936ffed28038e5d",
-      "source": "greenhouse",
-      "company": "stripe",
-      "title": "PhD Machine Learning Engineer, Intern",
-      "location": "San Francisco, New York City, Seattle",
-      "url": "https://stripe.com/jobs/search?gh_jid=7216664",
-      "updated_at": "2026-02-26T12:14:16-05:00",
-      "created_at": null,
-      "departments": [
-        "5112 General University"
-      ],
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "hard": {
-        "raw": 8.0,
-        "must_hits": [
-          "python",
-          "machine learning",
-          "git"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": [],
-        "norm": 0.6153846153846154
-      },
-      "semantic": {
-        "raw": 0.4216968072467883,
-        "cache_reused": true,
-        "norm": 0.6100884766174729
-      },
-      "text_hash": "a03354be29cb2c91a80e9131f92d4251e6d276b3",
-      "final_score": 0.612471739062687,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1"
-    },
-    {
-      "job_uid": "1254231df3fa18cd",
-      "source": "greenhouse",
-      "company": "stripe",
-      "title": "Software Engineer, Intern",
-      "location": "Singapore",
-      "url": "https://stripe.com/jobs/search?gh_jid=7206401",
-      "updated_at": "2026-02-26T12:14:16-05:00",
-      "created_at": null,
-      "departments": [
-        "5112 General University"
-      ],
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "hard": {
-        "raw": 3.0,
-        "must_hits": [
-          "git"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": [],
-        "norm": 0.23076923076923078
-      },
-      "semantic": {
-        "raw": 0.3415982425209444,
-        "cache_reused": true,
-        "norm": 0.40747979877359164
-      },
-      "text_hash": "2b1d064990c9520a7e0f962a687e84161edd81d2",
-      "final_score": 0.32796004317162925,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
-    },
-    {
-      "job_uid": "b35597b79d3ae32f",
-      "source": "greenhouse",
-      "company": "stripe",
-      "title": "Software Engineer, Intern (Summer)",
-      "location": "San Francisco, Seattle, New York City",
-      "url": "https://stripe.com/jobs/search?gh_jid=7210115",
-      "updated_at": "2026-02-26T12:14:16-05:00",
-      "created_at": null,
-      "departments": [
-        "5112 General University"
-      ],
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "hard": {
-        "raw": 3.0,
-        "must_hits": [
-          "git"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": [],
-        "norm": 0.23076923076923078
-      },
-      "semantic": {
-        "raw": 0.3415982425209444,
-        "cache_reused": true,
-        "norm": 0.40747979877359164
-      },
-      "text_hash": "23045855f57a04cda6dd2a02b162d64170aae71b",
-      "final_score": 0.32796004317162925,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
-    },
-    {
-      "job_uid": "2a437f95c93de61c",
-      "source": "greenhouse",
-      "company": "stripe",
-      "title": "University Recruiter",
-      "location": "Mexico City, MX",
-      "url": "https://stripe.com/jobs/search?gh_jid=7476012",
-      "updated_at": "2026-02-26T12:14:16-05:00",
-      "created_at": null,
-      "departments": [
-        "6526 University Recruiting"
-      ],
-      "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
-      },
-      "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.0
-      },
-      "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
-      },
-      "text_hash": "ea6d8bbb626d6ef4a9de08937e447f24c958c626",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
-    },
-    {
-      "job_uid": "db53ab408d50d1f5",
-      "source": "greenhouse",
-      "company": "stripe",
-      "title": "University Recruiter (Fixed Term Contract)",
-      "location": "Bangalore",
-      "url": "https://stripe.com/jobs/search?gh_jid=7419549",
-      "updated_at": "2026-02-26T12:14:16-05:00",
-      "created_at": null,
-      "departments": [
-        "6526 University Recruiting"
-      ],
-      "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
-      },
-      "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.0
-      },
-      "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
-      },
-      "text_hash": "5874c0f042a5f30e5c85d288bd5a5b032b23ea49",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "b9687758003a7afe",
@@ -2159,44 +2153,6 @@
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
-      "job_uid": "3a22be8e7f95b798",
-      "source": "greenhouse",
-      "company": "anthropic",
-      "title": "Regional Head of Early Career Associates, Applied AI",
-      "location": "San Francisco, CA",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4947472008",
-      "updated_at": "2026-02-20T18:33:18-05:00",
-      "created_at": null,
-      "departments": [
-        "Sales"
-      ],
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "hard": {
-        "raw": 1.0,
-        "must_hits": [
-          "git"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": [
-          "5+ years"
-        ],
-        "norm": 0.07692307692307693
-      },
-      "semantic": {
-        "raw": 0.575842985610742,
-        "cache_reused": true,
-        "norm": 1.0
-      },
-      "text_hash": "778c734fec934fbcff84f61beeae203acfe3abbe",
-      "final_score": 0.5846153846153846,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
-    },
-    {
       "job_uid": "313fae8afb03c369",
       "source": "greenhouse",
       "company": "cloudflare",
@@ -2331,70 +2287,6 @@
       "text_hash": "9c743cdd01fff062a6c9a9a55dbbaf3be92d8890",
       "final_score": 0.3976978727710421,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
-    },
-    {
-      "job_uid": "3435c13d39b1ac53",
-      "source": "greenhouse",
-      "company": "databricks",
-      "title": "Product Management Intern (2026) - Amsterdam",
-      "location": "Amsterdam, Netherlands",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8133715002",
-      "updated_at": "2026-02-19T14:47:26-05:00",
-      "created_at": null,
-      "departments": [
-        "Product"
-      ],
-      "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
-      },
-      "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.0
-      },
-      "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
-      },
-      "text_hash": "6bd36b96e742cbefb9682c8c19e70dae4c362728",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
-    },
-    {
-      "job_uid": "38b3a29b6dbc55e0",
-      "source": "greenhouse",
-      "company": "databricks",
-      "title": "Product Management Intern (2026) - Berlin",
-      "location": "Berlin, Germany",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8145776002",
-      "updated_at": "2026-02-19T14:47:26-05:00",
-      "created_at": null,
-      "departments": [
-        "Product"
-      ],
-      "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
-      },
-      "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.0
-      },
-      "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
-      },
-      "text_hash": "6bd36b96e742cbefb9682c8c19e70dae4c362728",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "c2fd6a054509e91a",
@@ -2836,12 +2728,12 @@
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
-      "job_uid": "2ce1bcb235f342ff",
+      "job_uid": "e8b0d073b1a44f2d",
       "source": "greenhouse",
       "company": "cloudflare",
       "title": "GRC Team Intern (Summer 2026) ",
       "location": "In-Office",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/7577564?gh_jid=7577564",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7578549?gh_jid=7578549",
       "updated_at": "2026-02-06T10:04:45-05:00",
       "created_at": null,
       "departments": [
@@ -2863,7 +2755,7 @@
         "cache_reused": false,
         "norm": 0.0
       },
-      "text_hash": "3e5b8199904e902d1cc4d58ba80264d279c1dcae",
+      "text_hash": "214872f04c7ee8012d98598cbece936f28f74f1a",
       "final_score": 0.0,
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
@@ -2900,12 +2792,12 @@
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
-      "job_uid": "e8b0d073b1a44f2d",
+      "job_uid": "2ce1bcb235f342ff",
       "source": "greenhouse",
       "company": "cloudflare",
       "title": "GRC Team Intern (Summer 2026) ",
       "location": "In-Office",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/7578549?gh_jid=7578549",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7577564?gh_jid=7577564",
       "updated_at": "2026-02-06T10:04:45-05:00",
       "created_at": null,
       "departments": [
@@ -2927,7 +2819,7 @@
         "cache_reused": false,
         "norm": 0.0
       },
-      "text_hash": "214872f04c7ee8012d98598cbece936f28f74f1a",
+      "text_hash": "3e5b8199904e902d1cc4d58ba80264d279c1dcae",
       "final_score": 0.0,
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
@@ -2960,6 +2852,38 @@
         "norm": 0.0
       },
       "text_hash": "81f455cadafe7a086fae5bfd23e4bd3b7ecea5e6",
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
+    },
+    {
+      "job_uid": "89c8482e1295c12a",
+      "source": "greenhouse",
+      "company": "cloudflare",
+      "title": "Product Design Intern (Summer 2026)",
+      "location": "In-Office",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7488659?gh_jid=7488659",
+      "updated_at": "2026-02-06T10:04:45-05:00",
+      "created_at": null,
+      "departments": [
+        "Product Experience"
+      ],
+      "hard_gate": {
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
+      },
+      "hard": {
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
+      },
+      "text_hash": "561b8fe136f251c3ca0d0296398bc05fa075f705",
       "final_score": 0.0,
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
@@ -3028,38 +2952,6 @@
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
-      "job_uid": "89c8482e1295c12a",
-      "source": "greenhouse",
-      "company": "cloudflare",
-      "title": "Product Design Intern (Summer 2026)",
-      "location": "In-Office",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/7488659?gh_jid=7488659",
-      "updated_at": "2026-02-06T10:04:45-05:00",
-      "created_at": null,
-      "departments": [
-        "Product Experience"
-      ],
-      "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
-      },
-      "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.0
-      },
-      "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
-      },
-      "text_hash": "561b8fe136f251c3ca0d0296398bc05fa075f705",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
-    },
-    {
       "job_uid": "85ef8672aa48270e",
       "source": "greenhouse",
       "company": "cloudflare",
@@ -3120,38 +3012,6 @@
         "norm": 0.0
       },
       "text_hash": "4869f1fd59c64fb0310610b1a2a4eec51b4b98e1",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
-    },
-    {
-      "job_uid": "f8130720f1e526c2",
-      "source": "greenhouse",
-      "company": "cloudflare",
-      "title": "Research Engineer Intern (Summer 2026)",
-      "location": "In-Office",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/7358525?gh_jid=7358525",
-      "updated_at": "2026-02-06T10:04:45-05:00",
-      "created_at": null,
-      "departments": [
-        "Technology Research"
-      ],
-      "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
-      },
-      "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.0
-      },
-      "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
-      },
-      "text_hash": "52470f2772959cc435ec575546a0c7d91a387e32",
       "final_score": 0.0,
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
@@ -3220,12 +3080,44 @@
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
-      "job_uid": "a69b027a9f170de6",
+      "job_uid": "f8130720f1e526c2",
+      "source": "greenhouse",
+      "company": "cloudflare",
+      "title": "Research Engineer Intern (Summer 2026)",
+      "location": "In-Office",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7358525?gh_jid=7358525",
+      "updated_at": "2026-02-06T10:04:45-05:00",
+      "created_at": null,
+      "departments": [
+        "Technology Research"
+      ],
+      "hard_gate": {
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
+      },
+      "hard": {
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
+      },
+      "text_hash": "52470f2772959cc435ec575546a0c7d91a387e32",
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
+    },
+    {
+      "job_uid": "27fa7db8097260ad",
       "source": "greenhouse",
       "company": "cloudflare",
       "title": "Security Engineer Intern (Summer 2026)",
       "location": "In-Office",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/7582150?gh_jid=7582150",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7582169?gh_jid=7582169",
       "updated_at": "2026-02-06T10:04:45-05:00",
       "created_at": null,
       "departments": [
@@ -3247,7 +3139,7 @@
         "cache_reused": false,
         "norm": 0.0
       },
-      "text_hash": "803601e9589cc1c74f00e50dfae2e2c2c64683e3",
+      "text_hash": "6a9548f5a98e5460b4f4d63a8181da7613ff706a",
       "final_score": 0.0,
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
@@ -3284,12 +3176,12 @@
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
-      "job_uid": "27fa7db8097260ad",
+      "job_uid": "a69b027a9f170de6",
       "source": "greenhouse",
       "company": "cloudflare",
       "title": "Security Engineer Intern (Summer 2026)",
       "location": "In-Office",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/7582169?gh_jid=7582169",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7582150?gh_jid=7582150",
       "updated_at": "2026-02-06T10:04:45-05:00",
       "created_at": null,
       "departments": [
@@ -3311,7 +3203,7 @@
         "cache_reused": false,
         "norm": 0.0
       },
-      "text_hash": "6a9548f5a98e5460b4f4d63a8181da7613ff706a",
+      "text_hash": "803601e9589cc1c74f00e50dfae2e2c2c64683e3",
       "final_score": 0.0,
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
@@ -4429,6 +4321,38 @@
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
+      "job_uid": "1d9d46c3d6913152",
+      "source": "lever",
+      "company": "cfsenergy",
+      "title": "Intern - Manufacturing Engineer - Fall Co-op 2026",
+      "location": "Devens, MA",
+      "url": "https://jobs.lever.co/cfsenergy/983efa7e-a6fa-4102-af52-687c9c6ef6fd",
+      "updated_at": 1772215789291,
+      "created_at": 1772215789291,
+      "departments": [
+        "Internships"
+      ],
+      "hard_gate": {
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
+      },
+      "hard": {
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
+      },
+      "text_hash": "a81037f353a9c8b519d681f5a74eb3d3bf993c68",
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
+    },
+    {
       "job_uid": "73453dc3cdace5c5",
       "source": "lever",
       "company": "zoox",
@@ -4815,38 +4739,6 @@
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
-      "job_uid": "1f5dad0524ffe0ee",
-      "source": "lever",
-      "company": "zoox",
-      "title": "Creative Technologist Intern",
-      "location": "Foster City, CA",
-      "url": "https://jobs.lever.co/zoox/2d2ef1ce-6583-4b4b-bcfa-fb8549fd718f",
-      "updated_at": 1769022632954,
-      "created_at": 1769022632954,
-      "departments": [
-        "Product"
-      ],
-      "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
-      },
-      "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.0
-      },
-      "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
-      },
-      "text_hash": "9c0b72d90c3697ee9bda7a70b3b6e09e768e11a6",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
-    },
-    {
       "job_uid": "5e8c47ef59e71207",
       "source": "lever",
       "company": "waabi",
@@ -5010,7 +4902,7 @@
       "job_uid": "b64bf644ffbdbe89",
       "source": "lever",
       "company": "zoox",
-      "title": "Embedded Software Development Intern",
+      "title": "Software Engineer Intern – Test Infrastructures",
       "location": "Foster City, CA",
       "url": "https://jobs.lever.co/zoox/1fcd743b-6bba-4e6e-b926-a164fff73654",
       "updated_at": 1766457330625,
@@ -5034,7 +4926,7 @@
         "cache_reused": false,
         "norm": 0.0
       },
-      "text_hash": "04000b3b0dd1e12be11cae31747dd1620e0f0428",
+      "text_hash": "6ff366621352cd96d273135014a5d97898f2b399",
       "final_score": 0.0,
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
@@ -5067,38 +4959,6 @@
         "norm": 0.0
       },
       "text_hash": "496f8677ae28890f20e67759d6b63f5f01a2eb87",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
-    },
-    {
-      "job_uid": "889dc769515698a3",
-      "source": "lever",
-      "company": "zoox",
-      "title": "System Engineering Intern",
-      "location": "Foster City, CA",
-      "url": "https://jobs.lever.co/zoox/eb2f10b7-300a-46f1-bd35-41167c9f7c63",
-      "updated_at": 1766104214309,
-      "created_at": 1766104214309,
-      "departments": [
-        "Vehicle Development"
-      ],
-      "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
-      },
-      "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.0
-      },
-      "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
-      },
-      "text_hash": "d35c66d40e807842c2cff4050f0d8262727b952d",
       "final_score": 0.0,
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
@@ -5519,38 +5379,6 @@
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
-      "job_uid": "a6dda5ba4f8f3123",
-      "source": "lever",
-      "company": "zoox",
-      "title": "Data Engineer Intern",
-      "location": "Foster City, CA",
-      "url": "https://jobs.lever.co/zoox/b9fb6f1d-31db-4a79-b70b-9396bf01b117",
-      "updated_at": 1762563242097,
-      "created_at": 1762563242097,
-      "departments": [
-        "Software"
-      ],
-      "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
-      },
-      "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.0
-      },
-      "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
-      },
-      "text_hash": "a8121c073c2ac69113734122abca51e7451728c3",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
-    },
-    {
       "job_uid": "a717bb8ade613d40",
       "source": "lever",
       "company": "zoox",
@@ -5579,38 +5407,6 @@
         "norm": 0.0
       },
       "text_hash": "4a9877e68c41ee155699e36d5af28eba825c80c8",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
-    },
-    {
-      "job_uid": "d571aad0cd6a2d79",
-      "source": "lever",
-      "company": "zoox",
-      "title": "Data Scientist Intern",
-      "location": "Foster City, CA",
-      "url": "https://jobs.lever.co/zoox/ab805ec5-1d08-420c-9606-f91825e6a1f9",
-      "updated_at": 1762562449701,
-      "created_at": 1762562449701,
-      "departments": [
-        "Data Science"
-      ],
-      "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
-      },
-      "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.0
-      },
-      "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
-      },
-      "text_hash": "0b5a0c027dfb780c98dd88adc4337647d508806c",
       "final_score": 0.0,
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },

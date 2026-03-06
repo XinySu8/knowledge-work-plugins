@@ -1,11 +1,5 @@
 # MAYBE
 
-- brex | Software Engineer, Intern | United States | score=0.715
-  - url: https://www.brex.com/careers/8434389002?gh_jid=8434389002
-  - must_hits: python, sql, cloud
-  - nice_hits: rag
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1
-
 - openai | Software Engineer Internship / Co-op, Applied Emerging Talent (Fall 2026) | San Francisco | score=0.680
   - url: https://jobs.ashbyhq.com/openai/1f3353ed-78eb-4a01-b783-c44b1c086711/application
   - must_hits: python, sql
