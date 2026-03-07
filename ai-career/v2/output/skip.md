@@ -1,54 +1,18 @@
 # SKIP (with reasons)
 
-- okta | Customer First Strategy and Operations Intern (Summer 2026) | San Francisco, California | score=0.299
-  - url: https://www.okta.com/company/careers/opportunity/7561036?gh_jid=7561036
-  - must_hits: machine learning
-  - nice_hits: None
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0
-
-- sierra | Intern, Agent Development (Summer 2026) | San Francisco, CA | score=0.287
-  - url: https://jobs.ashbyhq.com/sierra/8bb2509d-9215-4cb5-8cf1-2bf0dbade6d8/application
-  - must_hits: llm
-  - nice_hits: rag
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1
-
-- ramp | Software Engineer Internship, Android  | New York, NY (HQ) | score=0.277
-  - url: https://jobs.ashbyhq.com/ramp/67fadb77-43d8-4449-954b-d4cf2c6d3b8b/application
-  - must_hits: python, sql, cloud
-  - nice_hits: rag
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1
-
-- ramp | Software Engineer Internship, iOS | New York, NY (HQ) | score=0.277
-  - url: https://jobs.ashbyhq.com/ramp/8c155b55-3e7e-48a8-ac98-f988a2b6f4da/application
-  - must_hits: python, sql, cloud
-  - nice_hits: rag
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1
-
-- ramp | University Grad | Software Engineer | Frontend | New York, NY (HQ) | score=0.277
-  - url: https://jobs.ashbyhq.com/ramp/a1229aec-1105-4c47-8533-b912e732ed89/application
-  - must_hits: python, sql, cloud
-  - nice_hits: rag
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1
-
-- ramp | Software Engineer Internship, Frontend | New York, NY (HQ) | score=0.277
-  - url: https://jobs.ashbyhq.com/ramp/31f7e045-9a51-4a75-9ffc-d815d6db6daa/application
-  - must_hits: python, sql, cloud
-  - nice_hits: rag
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1
-
-- scaleai | Software Engineering Intern (Summer 2026)  | San Francisco, CA | score=0.257
+- scaleai | Software Engineering Intern (Summer 2026)  | San Francisco, CA | score=0.288
   - url: https://job-boards.greenhouse.io/scaleai/jobs/4606014005
   - must_hits: python
   - nice_hits: None
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0
 
-- figma | Inside Sales Representative - Early Career (2026) | New York, NY | score=0.235
+- figma | Inside Sales Representative - Early Career (2026) | San Francisco, CA • New York, NY | score=0.269
   - url: https://boards.greenhouse.io/figma/jobs/5726175004?gh_jid=5726175004
   - must_hits: None
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1
 
-- notion | Early Career People Projects | San Francisco, California | score=0.219
+- notion | Early Career People Projects | San Francisco, California | score=0.240
   - url: https://jobs.ashbyhq.com/notion/83c8907b-e05e-401a-a5de-9ebe0b1a800f/application
   - must_hits: None
   - nice_hits: rag
@@ -66,19 +30,19 @@
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1
 
-- ramp | University Grad | Customer Experience Agent | New York, NY (HQ) | score=0.104
+- ramp | University Grad | Customer Experience Agent | New York, NY (HQ) | score=0.135
   - url: https://jobs.ashbyhq.com/ramp/fc971889-db1d-4a20-a25e-f282f9296936/application
   - must_hits: cloud
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1
 
-- ramp | University Grad | Sales Development Representative | New York, NY (HQ) | score=0.104
+- ramp | University Grad | Sales Development Representative | New York, NY (HQ) | score=0.135
   - url: https://jobs.ashbyhq.com/ramp/59d37975-3e84-4d55-adb7-11dccf97ad88/application
   - must_hits: cloud
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1
 
-- ramp | Technical Recruiter | Engineering | Industry or University | New York, NY (HQ) | score=0.104
+- ramp | Technical Recruiter | Engineering | Industry or University | New York, NY (HQ) | score=0.135
   - url: https://jobs.ashbyhq.com/ramp/21aabcbe-948c-47ab-bcf8-3ac3f13174a9/application
   - must_hits: cloud
   - nice_hits: rag
@@ -289,6 +253,12 @@
   - reason: Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)
 
 - cloudflare | GRC Team Intern (Summer 2026)  | In-Office | score=0.000 [HARD-GATE: location_not_allowed (allowlist: US/China/Singapore)]
+  - url: https://boards.greenhouse.io/cloudflare/jobs/7577564?gh_jid=7577564
+  - must_hits: None
+  - nice_hits: None
+  - reason: Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)
+
+- cloudflare | GRC Team Intern (Summer 2026)  | In-Office | score=0.000 [HARD-GATE: location_not_allowed (allowlist: US/China/Singapore)]
   - url: https://boards.greenhouse.io/cloudflare/jobs/7578549?gh_jid=7578549
   - must_hits: None
   - nice_hits: None
@@ -300,12 +270,6 @@
   - nice_hits: None
   - reason: Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)
 
-- cloudflare | GRC Team Intern (Summer 2026)  | In-Office | score=0.000 [HARD-GATE: location_not_allowed (allowlist: US/China/Singapore)]
-  - url: https://boards.greenhouse.io/cloudflare/jobs/7577564?gh_jid=7577564
-  - must_hits: None
-  - nice_hits: None
-  - reason: Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)
-
 - cloudflare | Physical Security Intern (Summer 2026) | In-Office | score=0.000 [HARD-GATE: location_not_allowed (allowlist: US/China/Singapore)]
   - url: https://boards.greenhouse.io/cloudflare/jobs/7577080?gh_jid=7577080
   - must_hits: None
@@ -313,7 +277,7 @@
   - reason: Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)
 
 - cloudflare | Product Design Intern (Summer 2026) | In-Office | score=0.000 [HARD-GATE: location_not_allowed (allowlist: US/China/Singapore)]
-  - url: https://boards.greenhouse.io/cloudflare/jobs/7488659?gh_jid=7488659
+  - url: https://boards.greenhouse.io/cloudflare/jobs/7492740?gh_jid=7492740
   - must_hits: None
   - nice_hits: None
   - reason: Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)
@@ -325,19 +289,19 @@
   - reason: Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)
 
 - cloudflare | Product Design Intern (Summer 2026) | In-Office | score=0.000 [HARD-GATE: location_not_allowed (allowlist: US/China/Singapore)]
-  - url: https://boards.greenhouse.io/cloudflare/jobs/7492740?gh_jid=7492740
-  - must_hits: None
-  - nice_hits: None
-  - reason: Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)
-
-- cloudflare | Product Manager Intern (Summer 2026) | In-Office | score=0.000 [HARD-GATE: location_not_allowed (allowlist: US/China/Singapore)]
-  - url: https://boards.greenhouse.io/cloudflare/jobs/7362080?gh_jid=7362080
+  - url: https://boards.greenhouse.io/cloudflare/jobs/7488659?gh_jid=7488659
   - must_hits: None
   - nice_hits: None
   - reason: Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)
 
 - cloudflare | Product Manager Intern (Summer 2026) | In-Office | score=0.000 [HARD-GATE: location_not_allowed (allowlist: US/China/Singapore)]
   - url: https://boards.greenhouse.io/cloudflare/jobs/7362103?gh_jid=7362103
+  - must_hits: None
+  - nice_hits: None
+  - reason: Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)
+
+- cloudflare | Product Manager Intern (Summer 2026) | In-Office | score=0.000 [HARD-GATE: location_not_allowed (allowlist: US/China/Singapore)]
+  - url: https://boards.greenhouse.io/cloudflare/jobs/7362080?gh_jid=7362080
   - must_hits: None
   - nice_hits: None
   - reason: Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)
@@ -349,19 +313,19 @@
   - reason: Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)
 
 - cloudflare | Research Engineer Intern (Summer 2026) | In-Office | score=0.000 [HARD-GATE: location_not_allowed (allowlist: US/China/Singapore)]
-  - url: https://boards.greenhouse.io/cloudflare/jobs/7359147?gh_jid=7359147
-  - must_hits: None
-  - nice_hits: None
-  - reason: Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)
-
-- cloudflare | Research Engineer Intern (Summer 2026) | In-Office | score=0.000 [HARD-GATE: location_not_allowed (allowlist: US/China/Singapore)]
   - url: https://boards.greenhouse.io/cloudflare/jobs/7358525?gh_jid=7358525
   - must_hits: None
   - nice_hits: None
   - reason: Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)
 
+- cloudflare | Research Engineer Intern (Summer 2026) | In-Office | score=0.000 [HARD-GATE: location_not_allowed (allowlist: US/China/Singapore)]
+  - url: https://boards.greenhouse.io/cloudflare/jobs/7359147?gh_jid=7359147
+  - must_hits: None
+  - nice_hits: None
+  - reason: Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)
+
 - cloudflare | Security Engineer Intern (Summer 2026) | In-Office | score=0.000 [HARD-GATE: location_not_allowed (allowlist: US/China/Singapore)]
-  - url: https://boards.greenhouse.io/cloudflare/jobs/7582169?gh_jid=7582169
+  - url: https://boards.greenhouse.io/cloudflare/jobs/7582150?gh_jid=7582150
   - must_hits: None
   - nice_hits: None
   - reason: Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)
@@ -373,7 +337,7 @@
   - reason: Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)
 
 - cloudflare | Security Engineer Intern (Summer 2026) | In-Office | score=0.000 [HARD-GATE: location_not_allowed (allowlist: US/China/Singapore)]
-  - url: https://boards.greenhouse.io/cloudflare/jobs/7582150?gh_jid=7582150
+  - url: https://boards.greenhouse.io/cloudflare/jobs/7582169?gh_jid=7582169
   - must_hits: None
   - nice_hits: None
   - reason: Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)
@@ -518,12 +482,6 @@
 
 - sublimesystems | Process R&D Co-op | Somerville, MA | score=0.000 [HARD-GATE: location_not_allowed (allowlist: US/China/Singapore)]
   - url: https://jobs.lever.co/SublimeSystems/de4563eb-9e0f-41c1-bb1f-ecb6eb3549ce
-  - must_hits: None
-  - nice_hits: None
-  - reason: Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)
-
-- cfsenergy | Intern - Materials Test Engineer - Fall Co-op 2026 | Devens, MA | score=0.000 [HARD-GATE: location_not_allowed (allowlist: US/China/Singapore)]
-  - url: https://jobs.lever.co/cfsenergy/c734aa9b-4bc8-45a9-9ca2-27c7049648be
   - must_hits: None
   - nice_hits: None
   - reason: Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)

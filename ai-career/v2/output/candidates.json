@@ -2,9 +2,9 @@
   "meta": {
     "engine_name": "AutoJob-Agent Feeder",
     "version": 2,
-    "generated_at": "2026-03-06T16:00:54.736174+00:00",
-    "source_jobs_count": 165,
-    "candidates_count": 49,
+    "generated_at": "2026-03-07T15:45:09.688258+00:00",
+    "source_jobs_count": 163,
+    "candidates_count": 54,
     "candidates_topN_total": 150,
     "thresholds": {
       "apply": 0.72,
@@ -29,10 +29,10 @@
       "updated_at": "2026-03-03T05:10:47.987+00:00",
       "scores": {
         "hard_raw": 8.0,
-        "hard_norm": 0.6153846153846154,
+        "hard_norm": 0.8,
         "semantic_raw": 0.5335440357646396,
         "semantic_norm": 0.8930051452003324,
-        "final": 0.7680759067832598
+        "final": 0.8511528298601829
       },
       "signals": {
         "must_hits": [
@@ -53,43 +53,6 @@
       "jd_excerpt": "About the Team The Applied team works across research, engineering, product, and design to bring OpenAI’s technology to the world. We seek to learn from deployment and broadly distribute the benefits of AI, while ensuring that this powerful tool is used responsibly and safely. We aim to make our innovative tools globally accessible, transcending geographic, economic, or platform barriers. Our commitment is to facilitate the use of AI to enhance lives, fostered by rigorous insights into how people use our products. About the Role A systems research internship is for people who love the real-wor"
     },
     {
-      "job_uid": "cdefeb135c230613",
-      "source": "ashby",
-      "job_id": "cdefeb135c230613",
-      "company": "openai",
-      "title": "Software Engineer Internship / Co-op, Applied Emerging Talent (Fall 2026)",
-      "location": "San Francisco",
-      "url": "https://jobs.ashbyhq.com/openai/1f3353ed-78eb-4a01-b783-c44b1c086711/application",
-      "departments": [
-        "Applied AI",
-        "Emerging Talent"
-      ],
-      "created_at": "2026-01-15T18:24:30.724+00:00",
-      "updated_at": "2026-01-15T18:24:30.724+00:00",
-      "scores": {
-        "hard_raw": 5.0,
-        "hard_norm": 0.38461538461538464,
-        "semantic_raw": 0.5446384277718836,
-        "semantic_norm": 0.9210683209109476,
-        "final": 0.6796644995779444
-      },
-      "signals": {
-        "must_hits": [
-          "python",
-          "sql"
-        ],
-        "nice_hits": [],
-        "neg_hits": []
-      },
-      "text_hash": "bab2bcb046c3e0e46ce5a776b89057c70fa9ab3b",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "About the Team The Applied team works across research, engineering, product, and design to bring OpenAI’s technology to the world. We seek to learn from deployment and broadly distribute the benefits of AI, while ensuring that this powerful tool is used responsibly and safely. We aim to make our innovative tools globally accessible, transcending geographic, economic, or platform barriers. Our commitment is to facilitate the use of AI to enhance lives, fostered by rigorous insights into how people use our products. About the Role We are seeking Software Engineering Interns (Emerging Talent) to "
-    },
-    {
       "job_uid": "7ae9985ca2b8ff24",
       "source": "greenhouse",
       "job_id": "7ae9985ca2b8ff24",
@@ -104,10 +67,10 @@
       "updated_at": "2026-02-12T18:47:24-05:00",
       "scores": {
         "hard_raw": 10.0,
-        "hard_norm": 0.7692307692307693,
+        "hard_norm": 1.0,
         "semantic_raw": 0.3915490508075613,
         "semantic_norm": 0.5338299682032726,
-        "final": 0.6397603286656461
+        "final": 0.7436064825118
       },
       "signals": {
         "must_hits": [
@@ -128,81 +91,79 @@
       "jd_excerpt": "At Scale , our Machine Learning Research team is focused on building the foundation for the next generation of AI systems—pushing the boundaries of what’s possible with frontier models while ensuring safety, reliability, and alignment at every step. Our work spans across generative AI, advanced post-training methods, scalable oversight, synthetic data pipelines, red teaming, and evaluation science. We are developing a large-scale hybrid human-machine system to power machine learning pipelines for dozens of industry-leading customers. These models and systems form the backbone of Scale’s long-t"
     },
     {
-      "job_uid": "30e16c6943fafdda",
-      "source": "greenhouse",
-      "job_id": "30e16c6943fafdda",
-      "company": "okta",
-      "title": "Global Benefits Intern (Summer 2026)",
-      "location": "Bellevue, Washington; San Francisco, California",
-      "url": "https://www.okta.com/company/careers/opportunity/7547730?gh_jid=7547730",
+      "job_uid": "cdefeb135c230613",
+      "source": "ashby",
+      "job_id": "cdefeb135c230613",
+      "company": "openai",
+      "title": "Software Engineer Internship / Co-op, Applied Emerging Talent (Fall 2026)",
+      "location": "San Francisco",
+      "url": "https://jobs.ashbyhq.com/openai/1f3353ed-78eb-4a01-b783-c44b1c086711/application",
       "departments": [
-        "People Operations-131"
+        "Applied AI",
+        "Emerging Talent"
       ],
-      "created_at": null,
-      "updated_at": "2026-03-05T13:07:56-05:00",
+      "created_at": "2026-01-15T18:24:30.724+00:00",
+      "updated_at": "2026-01-15T18:24:30.724+00:00",
       "scores": {
         "hard_raw": 5.0,
-        "hard_norm": 0.38461538461538464,
-        "semantic_raw": 0.5071952342981988,
-        "semantic_norm": 0.8263560629582379,
-        "final": 0.627572757703954
+        "hard_norm": 0.5,
+        "semantic_raw": 0.5446384277718836,
+        "semantic_norm": 0.9210683209109476,
+        "final": 0.7315875765010212
       },
       "signals": {
         "must_hits": [
-          "machine learning",
-          "git"
+          "python",
+          "sql"
+        ],
+        "nice_hits": [],
+        "neg_hits": []
+      },
+      "text_hash": "bab2bcb046c3e0e46ce5a776b89057c70fa9ab3b",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "About the Team The Applied team works across research, engineering, product, and design to bring OpenAI’s technology to the world. We seek to learn from deployment and broadly distribute the benefits of AI, while ensuring that this powerful tool is used responsibly and safely. We aim to make our innovative tools globally accessible, transcending geographic, economic, or platform barriers. Our commitment is to facilitate the use of AI to enhance lives, fostered by rigorous insights into how people use our products. About the Role We are seeking Software Engineering Interns (Emerging Talent) to "
+    },
+    {
+      "job_uid": "a6a52afeab312964",
+      "source": "greenhouse",
+      "job_id": "a6a52afeab312964",
+      "company": "togetherai",
+      "title": "Software Development in Test Intern",
+      "location": "San Francisco",
+      "url": "https://job-boards.greenhouse.io/togetherai/jobs/5067841007",
+      "departments": [
+        "Engineering"
+      ],
+      "created_at": null,
+      "updated_at": "2026-03-06T18:00:48-05:00",
+      "scores": {
+        "hard_raw": 6.0,
+        "hard_norm": 0.6,
+        "semantic_raw": 0.4870743170883175,
+        "semantic_norm": 0.7754603640545983,
+        "final": 0.6965032002300291
+      },
+      "signals": {
+        "must_hits": [
+          "python",
+          "cloud"
         ],
         "nice_hits": [
           "rag"
         ],
         "neg_hits": []
       },
-      "text_hash": "40fbb39f1cef7758596e8d46f5dc82fb04ba72df",
+      "text_hash": "394dc6f7e9bd964e6e5997884a6abac943cee104",
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1",
       "hard_gate": {
         "hit": false,
         "reason": ""
       },
-      "jd_excerpt": "Get to know Okta Okta is The World’s Identity Company. We free everyone to safely use any technology, anywhere, on any device or app. Our flexible and neutral products, Okta Platform and Auth0 Platform, provide secure access, authentication, and automation, placing identity at the core of business security and growth. At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box - we’re looking for lifelong learners and people who can make us better with their unique experiences.&nbsp; Join our team! We’re building a world where Ide"
-    },
-    {
-      "job_uid": "a6d769757f815638",
-      "source": "greenhouse",
-      "job_id": "a6d769757f815638",
-      "company": "okta",
-      "title": "Communications AI Strategy & Operations Intern (Summer 2026)",
-      "location": "San Francisco, California",
-      "url": "https://www.okta.com/company/careers/opportunity/7665195?gh_jid=7665195",
-      "departments": [
-        "Corporate Communication-410"
-      ],
-      "created_at": null,
-      "updated_at": "2026-03-05T13:07:56-05:00",
-      "scores": {
-        "hard_raw": 7.0,
-        "hard_norm": 0.5384615384615384,
-        "semantic_raw": 0.45383104406734887,
-        "semantic_norm": 0.6913717712435408,
-        "final": 0.6225621664916398
-      },
-      "signals": {
-        "must_hits": [
-          "machine learning",
-          "llm",
-          "git"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": []
-      },
-      "text_hash": "806f84fc6651d7172a7e70fe6e5b095d78c85f86",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "Get to know Okta Okta is The World’s Identity Company. We free everyone to safely use any technology, anywhere, on any device or app. Our flexible and neutral products, Okta Platform and Auth0 Platform, provide secure access, authentication, and automation, placing identity at the core of business security and growth. At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box - we’re looking for lifelong learners and people who can make us better with their unique experiences.&nbsp; Join our team! We’re building a world where Ide"
+      "jd_excerpt": "About Together AI Together AI is a research-driven AI company. We believe open and transparent AI systems will drive innovation and create the best outcomes for society, and together we are on a mission to lower the cost of modern AI systems by co-designing software, hardware, algorithms, and models. We have contributed to leading open-source research, models, and datasets to advance the frontier of AI. We invite you to join a passionate group of researchers and engineers in our journey in building the next generation AI infrastructure. About the Role As a Software Engineer in Test (SDET) Inte"
     },
     {
       "job_uid": "5936ffed28038e5d",
@@ -216,13 +177,13 @@
         "5112 General University"
       ],
       "created_at": null,
-      "updated_at": "2026-03-05T19:03:48-05:00",
+      "updated_at": "2026-03-06T18:52:06-05:00",
       "scores": {
         "hard_raw": 8.0,
-        "hard_norm": 0.6153846153846154,
+        "hard_norm": 0.8,
         "semantic_raw": 0.4216968072467883,
         "semantic_norm": 0.6100884766174729,
-        "final": 0.612471739062687
+        "final": 0.6955486621396101
       },
       "signals": {
         "must_hits": [
@@ -244,81 +205,81 @@
       "jd_excerpt": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. What you’ll do About the internship Stripe's Applied ML, Data Science, Risk, and"
     },
     {
-      "job_uid": "3a22be8e7f95b798",
+      "job_uid": "a6d769757f815638",
       "source": "greenhouse",
-      "job_id": "3a22be8e7f95b798",
-      "company": "anthropic",
-      "title": "Regional Head of Early Career Associates, Applied AI",
-      "location": "San Francisco, CA",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4947472008",
+      "job_id": "a6d769757f815638",
+      "company": "okta",
+      "title": "Communications AI Strategy & Operations Intern (Summer 2026)",
+      "location": "San Francisco, California",
+      "url": "https://www.okta.com/company/careers/opportunity/7665195?gh_jid=7665195",
       "departments": [
-        "Sales"
+        "Corporate Communication-410"
       ],
       "created_at": null,
-      "updated_at": "2026-03-06T09:54:14-05:00",
+      "updated_at": "2026-03-05T13:07:56-05:00",
       "scores": {
-        "hard_raw": 1.0,
-        "hard_norm": 0.07692307692307693,
-        "semantic_raw": 0.575842985610742,
-        "semantic_norm": 1.0,
-        "final": 0.5846153846153846
+        "hard_raw": 7.0,
+        "hard_norm": 0.7,
+        "semantic_raw": 0.45383104406734887,
+        "semantic_norm": 0.6913717712435408,
+        "final": 0.6952544741839475
       },
       "signals": {
         "must_hits": [
+          "machine learning",
+          "llm",
           "git"
         ],
         "nice_hits": [
           "rag"
         ],
-        "neg_hits": [
-          "5+ years"
-        ]
+        "neg_hits": []
       },
-      "text_hash": "778c734fec934fbcff84f61beeae203acfe3abbe",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1",
+      "text_hash": "806f84fc6651d7172a7e70fe6e5b095d78c85f86",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1",
       "hard_gate": {
         "hit": false,
         "reason": ""
       },
-      "jd_excerpt": "About Anthropic Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems. About the Role You will design and lead a foundational talent pipeline that develops early-career professionals across Solutions Architecture, Pre-Sales AI Engineering, and Forward Deployed Engineering – as part of our Applied AI associate function. You’ll build"
+      "jd_excerpt": "Get to know Okta Okta is The World’s Identity Company. We free everyone to safely use any technology, anywhere, on any device or app. Our flexible and neutral products, Okta Platform and Auth0 Platform, provide secure access, authentication, and automation, placing identity at the core of business security and growth. At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box - we’re looking for lifelong learners and people who can make us better with their unique experiences.&nbsp; Join our team! We’re building a world where Ide"
     },
     {
-      "job_uid": "350a88175f7fa454",
+      "job_uid": "30e16c6943fafdda",
       "source": "greenhouse",
-      "job_id": "350a88175f7fa454",
-      "company": "databricks",
-      "title": "Legal Intern",
-      "location": "Mountain View, California; San Francisco, California",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8377581002",
+      "job_id": "30e16c6943fafdda",
+      "company": "okta",
+      "title": "Global Benefits Intern (Summer 2026)",
+      "location": "Bellevue, Washington; San Francisco, California",
+      "url": "https://www.okta.com/company/careers/opportunity/7547730?gh_jid=7547730",
       "departments": [
-        "Legal"
+        "People Operations-131"
       ],
       "created_at": null,
-      "updated_at": "2026-02-25T14:16:20-05:00",
+      "updated_at": "2026-03-05T13:07:56-05:00",
       "scores": {
-        "hard_raw": 4.0,
-        "hard_norm": 0.3076923076923077,
-        "semantic_raw": 0.4998748302380111,
-        "semantic_norm": 0.8078391595281437,
-        "final": 0.5827730762020176
+        "hard_raw": 5.0,
+        "hard_norm": 0.5,
+        "semantic_raw": 0.5071952342981988,
+        "semantic_norm": 0.8263560629582379,
+        "final": 0.6794958346270309
       },
       "signals": {
         "must_hits": [
-          "cloud"
+          "machine learning",
+          "git"
         ],
         "nice_hits": [
-          "rag",
-          "mlflow"
+          "rag"
         ],
         "neg_hits": []
       },
-      "text_hash": "cceb9c47fac719f161a36511ad7aee76c9dd4b03",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=2",
+      "text_hash": "40fbb39f1cef7758596e8d46f5dc82fb04ba72df",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1",
       "hard_gate": {
         "hit": false,
         "reason": ""
       },
-      "jd_excerpt": "GAQ227R1 Work at the nexus of law and innovation with a recognized global leader in Data and AI.&nbsp; As a Databricks Legal Intern, you won’t just observe, you’ll jump straight into novel legal issues working alongside our high-impact global legal team. You will gain first-hand experience on how an in-house legal department drives business strategy and tackles complex challenges on a daily basis, and navigate cutting-edge legal landscape of generative AI, cloud computing, and big data.&nbsp; Databricks will encourage you to get out of your comfort zone and provide the resources, mentoring, an"
+      "jd_excerpt": "Get to know Okta Okta is The World’s Identity Company. We free everyone to safely use any technology, anywhere, on any device or app. Our flexible and neutral products, Okta Platform and Auth0 Platform, provide secure access, authentication, and automation, placing identity at the core of business security and growth. At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box - we’re looking for lifelong learners and people who can make us better with their unique experiences.&nbsp; Join our team! We’re building a world where Ide"
     },
     {
       "job_uid": "613a9e51b62aa884",
@@ -336,10 +297,10 @@
       "updated_at": "2026-02-16T22:21:29.641+00:00",
       "scores": {
         "hard_raw": 8.0,
-        "hard_norm": 0.6153846153846154,
+        "hard_norm": 0.8,
         "semantic_raw": 0.3924525082107434,
         "semantic_norm": 0.5361152564674695,
-        "final": 0.5717864679801852
+        "final": 0.6548633910571082
       },
       "signals": {
         "must_hits": [
@@ -361,100 +322,28 @@
       "jd_excerpt": "WHO WE ARE Serval http://serval.com is an AI-native automation platform transforming how enterprises operate. We build intelligent agents that understand real-world workflows and execute them end-to-end — replacing manual processes and rigid legacy systems with adaptive, learning software. Founded in early 2024, Serval is already trusted by companies like General Motors, Notion, Perplexity, Vercel, Mercor, LangChain, and Verkada to automate high-volume, high-friction operational work across their organizations. At the core of Serval is an agentic AI platform that turns natural language into pr"
     },
     {
-      "job_uid": "e7c78b9db66d7e52",
+      "job_uid": "350a88175f7fa454",
       "source": "greenhouse",
-      "job_id": "e7c78b9db66d7e52",
-      "company": "scaleai",
-      "title": "Technical Advisor Intern - GenAI (Winter/Spring 2026)",
-      "location": "San Francisco, CA",
-      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4611533005",
-      "departments": [
-        "University"
-      ],
-      "created_at": null,
-      "updated_at": "2026-02-12T18:47:24-05:00",
-      "scores": {
-        "hard_raw": 2.0,
-        "hard_norm": 0.15384615384615385,
-        "semantic_raw": 0.5330088138574992,
-        "semantic_norm": 0.8916513056736197,
-        "final": 0.5596389873512602
-      },
-      "signals": {
-        "must_hits": [],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": []
-      },
-      "text_hash": "0a76d15cc71163014f54a01580d4568eec4bd7d5",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "About the Program The Scale AI Technical Advisor Internship is a summer semester opportunity designed for university students, ideally with experience in competitive coding, mathematics, and STEM disciplines. Interns immerse themselves in real-world projects that push the boundaries of generative AI, gaining firsthand exposure to cutting-edge research and technology. Throughout the program, you’ll have the freedom to work flexibly around your academic schedule, the chance to connect directly with AI experts, and the support of a team that values your contributions and professional growth. What"
-    },
-    {
-      "job_uid": "209289687115853a",
-      "source": "greenhouse",
-      "job_id": "209289687115853a",
+      "job_id": "350a88175f7fa454",
       "company": "databricks",
-      "title": "MBA Intern - Commercial Transformation",
-      "location": "San Francisco, California",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8402617002",
+      "title": "Legal Intern",
+      "location": "Mountain View, California; San Francisco, California",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8377581002",
       "departments": [
-        "Business Strategy and Ops"
+        "Legal"
       ],
       "created_at": null,
-      "updated_at": "2026-03-03T13:01:30-05:00",
+      "updated_at": "2026-02-25T14:16:20-05:00",
       "scores": {
-        "hard_raw": 3.0,
-        "hard_norm": 0.23076923076923078,
-        "semantic_raw": 0.48726206941925854,
-        "semantic_norm": 0.7759352820717222,
-        "final": 0.530610558985601
+        "hard_raw": 4.0,
+        "hard_norm": 0.4,
+        "semantic_raw": 0.4998748302380111,
+        "semantic_norm": 0.8078391595281437,
+        "final": 0.6243115377404791
       },
       "signals": {
         "must_hits": [
-          "sql"
-        ],
-        "nice_hits": [
-          "mlflow"
-        ],
-        "neg_hits": []
-      },
-      "text_hash": "df5f9191fa7d6cade11b0a1a29a3549507fd088f",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "RDQ227R1173 At Databricks, we are passionate about helping data teams solve the world's toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. As a Commercial Transformation intern, you will join our world-class Commercialization team (COO org) to work on systems and process improvements that make it easier to launch, sell, and scale Databricks products and part"
-    },
-    {
-      "job_uid": "459f04adfbd53983",
-      "source": "greenhouse",
-      "job_id": "459f04adfbd53983",
-      "company": "databricks",
-      "title": "MBA Intern - Corporate Operations (Corp Ops)",
-      "location": "San Francisco, California",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8402603002",
-      "departments": [
-        "Corporate Operations"
-      ],
-      "created_at": null,
-      "updated_at": "2026-02-25T14:24:49-05:00",
-      "scores": {
-        "hard_raw": 5.0,
-        "hard_norm": 0.38461538461538464,
-        "semantic_raw": 0.43260559439615853,
-        "semantic_norm": 0.6376821663268853,
-        "final": 0.5238021145567101
-      },
-      "signals": {
-        "must_hits": [
-          "sql"
+          "cloud"
         ],
         "nice_hits": [
           "rag",
@@ -462,50 +351,13 @@
         ],
         "neg_hits": []
       },
-      "text_hash": "37ce97d51c105a2bbf4c2d597195110db5ce961d",
+      "text_hash": "cceb9c47fac719f161a36511ad7aee76c9dd4b03",
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=2",
       "hard_gate": {
         "hit": false,
         "reason": ""
       },
-      "jd_excerpt": "At Databricks, we are passionate about helping data teams solve the world's toughest problems - from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. As a Corporate Operations (Corp Ops) MBA Intern, you will sit at the strategic nexus of our organization, connecting the dots across a diverse array of functions including Product, Sales, Finance, People, Legal, M&amp;A, and more.&nb"
-    },
-    {
-      "job_uid": "c6ca9b140cb6e757",
-      "source": "greenhouse",
-      "job_id": "c6ca9b140cb6e757",
-      "company": "databricks",
-      "title": "MBA Intern - Workforce Intelligence",
-      "location": "San Francisco, California",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8402613002",
-      "departments": [
-        "People"
-      ],
-      "created_at": null,
-      "updated_at": "2026-03-03T13:08:17-05:00",
-      "scores": {
-        "hard_raw": 3.0,
-        "hard_norm": 0.23076923076923078,
-        "semantic_raw": 0.4821783900256103,
-        "semantic_norm": 0.7630761557683402,
-        "final": 0.523538039518741
-      },
-      "signals": {
-        "must_hits": [
-          "sql"
-        ],
-        "nice_hits": [
-          "mlflow"
-        ],
-        "neg_hits": []
-      },
-      "text_hash": "520f4e6b5757e37b1691013b719d573ae027fac7",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "GAQ227R116 At Databricks, we are passionate about helping data teams solve the world's toughest problems - from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. As a Workforce Intelligence MBA intern, you’ll drive insights and impact across our People (HR) function and all of Databricks. During your 12 week internship, you'll work on impactful projects that drive decisions about h"
+      "jd_excerpt": "GAQ227R1 Work at the nexus of law and innovation with a recognized global leader in Data and AI.&nbsp; As a Databricks Legal Intern, you won’t just observe, you’ll jump straight into novel legal issues working alongside our high-impact global legal team. You will gain first-hand experience on how an in-house legal department drives business strategy and tackles complex challenges on a daily basis, and navigate cutting-edge legal landscape of generative AI, cloud computing, and big data.&nbsp; Databricks will encourage you to get out of your comfort zone and provide the resources, mentoring, an"
     },
     {
       "job_uid": "9de287370f90d99a",
@@ -522,10 +374,10 @@
       "updated_at": "2026-02-25T14:23:25-05:00",
       "scores": {
         "hard_raw": 8.0,
-        "hard_norm": 0.6153846153846154,
+        "hard_norm": 0.8,
         "semantic_raw": 0.35671383142435636,
         "semantic_norm": 0.4457145598212363,
-        "final": 0.5220660848247569
+        "final": 0.6051430079016801
       },
       "signals": {
         "must_hits": [
@@ -547,6 +399,80 @@
       "jd_excerpt": "RDQ227R1171 At Databricks, we are passionate about helping data teams solve the world's toughest problems - from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. As a TPM Intern, you will be the primary driver behind the successful delivery of complex technical initiatives. You will navigate the lifecycle of a program - from initial scoping and requirement gathering to final launc"
     },
     {
+      "job_uid": "3a22be8e7f95b798",
+      "source": "greenhouse",
+      "job_id": "3a22be8e7f95b798",
+      "company": "anthropic",
+      "title": "Regional Head of Early Career Associates, Applied AI",
+      "location": "San Francisco, CA",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4947472008",
+      "departments": [
+        "Sales"
+      ],
+      "created_at": null,
+      "updated_at": "2026-03-06T09:54:14-05:00",
+      "scores": {
+        "hard_raw": 1.0,
+        "hard_norm": 0.1,
+        "semantic_raw": 0.575842985610742,
+        "semantic_norm": 1.0,
+        "final": 0.5950000000000001
+      },
+      "signals": {
+        "must_hits": [
+          "git"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": [
+          "5+ years"
+        ]
+      },
+      "text_hash": "778c734fec934fbcff84f61beeae203acfe3abbe",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "About Anthropic Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems. About the Role You will design and lead a foundational talent pipeline that develops early-career professionals across Solutions Architecture, Pre-Sales AI Engineering, and Forward Deployed Engineering – as part of our Applied AI associate function. You’ll build"
+    },
+    {
+      "job_uid": "e7c78b9db66d7e52",
+      "source": "greenhouse",
+      "job_id": "e7c78b9db66d7e52",
+      "company": "scaleai",
+      "title": "Technical Advisor Intern - GenAI (Winter/Spring 2026)",
+      "location": "San Francisco, CA",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4611533005",
+      "departments": [
+        "University"
+      ],
+      "created_at": null,
+      "updated_at": "2026-02-12T18:47:24-05:00",
+      "scores": {
+        "hard_raw": 2.0,
+        "hard_norm": 0.2,
+        "semantic_raw": 0.5330088138574992,
+        "semantic_norm": 0.8916513056736197,
+        "final": 0.5804082181204909
+      },
+      "signals": {
+        "must_hits": [],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "0a76d15cc71163014f54a01580d4568eec4bd7d5",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "About the Program The Scale AI Technical Advisor Internship is a summer semester opportunity designed for university students, ideally with experience in competitive coding, mathematics, and STEM disciplines. Interns immerse themselves in real-world projects that push the boundaries of generative AI, gaining firsthand exposure to cutting-edge research and technology. Throughout the program, you’ll have the freedom to work flexibly around your academic schedule, the chance to connect directly with AI experts, and the support of a team that values your contributions and professional growth. What"
+    },
+    {
       "job_uid": "eb13b93308235f49",
       "source": "ashby",
       "job_id": "eb13b93308235f49",
@@ -562,10 +488,10 @@
       "updated_at": "2025-08-08T19:23:58.862+00:00",
       "scores": {
         "hard_raw": 7.0,
-        "hard_norm": 0.5384615384615384,
+        "hard_norm": 0.7,
         "semantic_raw": 0.36981070041619507,
         "semantic_norm": 0.4788429850235271,
-        "final": 0.5056713340706323
+        "final": 0.5783636417629399
       },
       "signals": {
         "must_hits": [
@@ -586,6 +512,154 @@
       "jd_excerpt": "ABOUT US: Notion helps you build beautiful tools for your life’s work. In today's world of endless apps and tabs, Notion provides one place for teams to get everything done, seamlessly connecting docs, notes, projects, calendar, and email—with AI built in to find answers and automate work. Millions of users, from individuals to large organizations like Toyota, Figma, and OpenAI, love Notion for its flexibility and choose it because it helps them save time and money. In-person collaboration is essential to Notion's culture. We require all team members to work from our offices on Mondays, Tuesda"
     },
     {
+      "job_uid": "459f04adfbd53983",
+      "source": "greenhouse",
+      "job_id": "459f04adfbd53983",
+      "company": "databricks",
+      "title": "MBA Intern - Corporate Operations (Corp Ops)",
+      "location": "San Francisco, California",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8402603002",
+      "departments": [
+        "Corporate Operations"
+      ],
+      "created_at": null,
+      "updated_at": "2026-02-25T14:24:49-05:00",
+      "scores": {
+        "hard_raw": 5.0,
+        "hard_norm": 0.5,
+        "semantic_raw": 0.43260559439615853,
+        "semantic_norm": 0.6376821663268853,
+        "final": 0.575725191479787
+      },
+      "signals": {
+        "must_hits": [
+          "sql"
+        ],
+        "nice_hits": [
+          "rag",
+          "mlflow"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "37ce97d51c105a2bbf4c2d597195110db5ce961d",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=2",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "At Databricks, we are passionate about helping data teams solve the world's toughest problems - from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. As a Corporate Operations (Corp Ops) MBA Intern, you will sit at the strategic nexus of our organization, connecting the dots across a diverse array of functions including Product, Sales, Finance, People, Legal, M&amp;A, and more.&nb"
+    },
+    {
+      "job_uid": "209289687115853a",
+      "source": "greenhouse",
+      "job_id": "209289687115853a",
+      "company": "databricks",
+      "title": "MBA Intern - Commercial Transformation",
+      "location": "San Francisco, California",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8402617002",
+      "departments": [
+        "Business Strategy and Ops"
+      ],
+      "created_at": null,
+      "updated_at": "2026-03-03T13:01:30-05:00",
+      "scores": {
+        "hard_raw": 3.0,
+        "hard_norm": 0.3,
+        "semantic_raw": 0.48726206941925854,
+        "semantic_norm": 0.7759352820717222,
+        "final": 0.5617644051394473
+      },
+      "signals": {
+        "must_hits": [
+          "sql"
+        ],
+        "nice_hits": [
+          "mlflow"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "df5f9191fa7d6cade11b0a1a29a3549507fd088f",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "RDQ227R1173 At Databricks, we are passionate about helping data teams solve the world's toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. As a Commercial Transformation intern, you will join our world-class Commercialization team (COO org) to work on systems and process improvements that make it easier to launch, sell, and scale Databricks products and part"
+    },
+    {
+      "job_uid": "c6ca9b140cb6e757",
+      "source": "greenhouse",
+      "job_id": "c6ca9b140cb6e757",
+      "company": "databricks",
+      "title": "MBA Intern - Workforce Intelligence",
+      "location": "San Francisco, California",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8402613002",
+      "departments": [
+        "People"
+      ],
+      "created_at": null,
+      "updated_at": "2026-03-03T13:08:17-05:00",
+      "scores": {
+        "hard_raw": 3.0,
+        "hard_norm": 0.3,
+        "semantic_raw": 0.4821783900256103,
+        "semantic_norm": 0.7630761557683402,
+        "final": 0.5546918856725871
+      },
+      "signals": {
+        "must_hits": [
+          "sql"
+        ],
+        "nice_hits": [
+          "mlflow"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "520f4e6b5757e37b1691013b719d573ae027fac7",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "GAQ227R116 At Databricks, we are passionate about helping data teams solve the world's toughest problems - from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. As a Workforce Intelligence MBA intern, you’ll drive insights and impact across our People (HR) function and all of Databricks. During your 12 week internship, you'll work on impactful projects that drive decisions about h"
+    },
+    {
+      "job_uid": "95a4d1ed07282a38",
+      "source": "greenhouse",
+      "job_id": "95a4d1ed07282a38",
+      "company": "okta",
+      "title": "Events Marketing Intern (Summer 2026)",
+      "location": "San Francisco, California",
+      "url": "https://www.okta.com/company/careers/opportunity/7611453?gh_jid=7611453",
+      "departments": [
+        "Corporate Events-461"
+      ],
+      "created_at": null,
+      "updated_at": "2026-03-05T13:07:56-05:00",
+      "scores": {
+        "hard_raw": 4.0,
+        "hard_norm": 0.4,
+        "semantic_raw": 0.42768380045848037,
+        "semantic_norm": 0.6252325279875949,
+        "final": 0.5238778903931772
+      },
+      "signals": {
+        "must_hits": [
+          "machine learning",
+          "llm"
+        ],
+        "nice_hits": [],
+        "neg_hits": []
+      },
+      "text_hash": "dc3cdf1d4d9c079af5a456aa92f0c62531e1fd7a",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Get to know Okta Okta is The World’s Identity Company. We free everyone to safely use any technology, anywhere, on any device or app. Our flexible and neutral products, Okta Platform and Auth0 Platform, provide secure access, authentication, and automation, placing identity at the core of business security and growth. At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box - we’re looking for lifelong learners and people who can make us better with their unique experiences.&nbsp; Join our team! We’re building a world where Ide"
+    },
+    {
       "job_uid": "6930a806414652cd",
       "source": "greenhouse",
       "job_id": "6930a806414652cd",
@@ -600,10 +674,10 @@
       "updated_at": "2026-02-19T14:47:26-05:00",
       "scores": {
         "hard_raw": 3.0,
-        "hard_norm": 0.23076923076923078,
+        "hard_norm": 0.3,
         "semantic_raw": 0.45793756842567424,
         "semantic_norm": 0.7017591917125813,
-        "final": 0.4898137092880736
+        "final": 0.5209675554419197
       },
       "signals": {
         "must_hits": [
@@ -637,10 +711,10 @@
       "updated_at": "2026-03-05T13:07:56-05:00",
       "scores": {
         "hard_raw": 3.0,
-        "hard_norm": 0.23076923076923078,
+        "hard_norm": 0.3,
         "semantic_raw": 0.4558860957617969,
         "semantic_norm": 0.6965700080426405,
-        "final": 0.48695965826960613
+        "final": 0.5181135044234523
       },
       "signals": {
         "must_hits": [
@@ -651,42 +725,6 @@
         "neg_hits": []
       },
       "text_hash": "76514bfbbc2236e1505765d321a496271b4efc8a",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "Get to know Okta Okta is The World’s Identity Company. We free everyone to safely use any technology, anywhere, on any device or app. Our flexible and neutral products, Okta Platform and Auth0 Platform, provide secure access, authentication, and automation, placing identity at the core of business security and growth. At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box - we’re looking for lifelong learners and people who can make us better with their unique experiences.&nbsp; Join our team! We’re building a world where Ide"
-    },
-    {
-      "job_uid": "95a4d1ed07282a38",
-      "source": "greenhouse",
-      "job_id": "95a4d1ed07282a38",
-      "company": "okta",
-      "title": "Events Marketing Intern (Summer 2026)",
-      "location": "San Francisco, California",
-      "url": "https://www.okta.com/company/careers/opportunity/7611453?gh_jid=7611453",
-      "departments": [
-        "Corporate Events-461"
-      ],
-      "created_at": null,
-      "updated_at": "2026-03-05T13:07:56-05:00",
-      "scores": {
-        "hard_raw": 4.0,
-        "hard_norm": 0.3076923076923077,
-        "semantic_raw": 0.42768380045848037,
-        "semantic_norm": 0.6252325279875949,
-        "final": 0.4823394288547157
-      },
-      "signals": {
-        "must_hits": [
-          "machine learning",
-          "llm"
-        ],
-        "nice_hits": [],
-        "neg_hits": []
-      },
-      "text_hash": "dc3cdf1d4d9c079af5a456aa92f0c62531e1fd7a",
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0",
       "hard_gate": {
         "hit": false,
@@ -709,10 +747,10 @@
       "updated_at": "2026-03-05T13:07:56-05:00",
       "scores": {
         "hard_raw": 4.0,
-        "hard_norm": 0.3076923076923077,
+        "hard_norm": 0.4,
         "semantic_raw": 0.4201331734653086,
         "semantic_norm": 0.6061332774927198,
-        "final": 0.47183484108253443
+        "final": 0.513373302620996
       },
       "signals": {
         "must_hits": [
@@ -746,10 +784,10 @@
       "updated_at": "2026-03-05T13:07:56-05:00",
       "scores": {
         "hard_raw": 4.0,
-        "hard_norm": 0.3076923076923077,
+        "hard_norm": 0.4,
         "semantic_raw": 0.4193667173381426,
         "semantic_norm": 0.604194532858756,
-        "final": 0.4707685315338543
+        "final": 0.5123069930723159
       },
       "signals": {
         "must_hits": [
@@ -769,197 +807,6 @@
       "jd_excerpt": "Get to know Okta Okta is The World’s Identity Company. We free everyone to safely use any technology, anywhere, on any device or app. Our flexible and neutral products, Okta Platform and Auth0 Platform, provide secure access, authentication, and automation, placing identity at the core of business security and growth. At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box - we’re looking for lifelong learners and people who can make us better with their unique experiences.&nbsp; Join our team! We’re building a world where Ide"
     },
     {
-      "job_uid": "ed2e35a4886b9aa3",
-      "source": "greenhouse",
-      "job_id": "ed2e35a4886b9aa3",
-      "company": "okta",
-      "title": "Global Partner Marketing Intern (Summer 2026)",
-      "location": "San Francisco, California",
-      "url": "https://www.okta.com/company/careers/opportunity/7560998?gh_jid=7560998",
-      "departments": [
-        "Partner Marketing-122"
-      ],
-      "created_at": null,
-      "updated_at": "2026-03-05T13:07:56-05:00",
-      "scores": {
-        "hard_raw": 3.0,
-        "hard_norm": 0.23076923076923078,
-        "semantic_raw": 0.43167903612087927,
-        "semantic_norm": 0.6353384445917682,
-        "final": 0.4532822983716264
-      },
-      "signals": {
-        "must_hits": [
-          "machine learning",
-          "cloud"
-        ],
-        "nice_hits": [],
-        "neg_hits": []
-      },
-      "text_hash": "fd5b128381089c6770ddf1d0e71cee9e2cb8d715",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "Get to know Okta Okta is The World’s Identity Company. We free everyone to safely use any technology, anywhere, on any device or app. Our flexible and neutral products, Okta Platform and Auth0 Platform, provide secure access, authentication, and automation, placing identity at the core of business security and growth. At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box - we’re looking for lifelong learners and people who can make us better with their unique experiences.&nbsp; Join our team! We’re building a world where Ide"
-    },
-    {
-      "job_uid": "3ef71de346635a8a",
-      "source": "ashby",
-      "job_id": "3ef71de346635a8a",
-      "company": "ramp",
-      "title": "Applied Scientist Intern",
-      "location": "New York, NY (HQ)",
-      "url": "https://jobs.ashbyhq.com/ramp/43ac03c8-65f5-4522-ab3d-6d496ae7d925/application",
-      "departments": [
-        "Data",
-        "Emerging Talent - Data"
-      ],
-      "created_at": "2025-09-10T15:19:31.459+00:00",
-      "updated_at": "2025-09-10T15:19:31.459+00:00",
-      "scores": {
-        "hard_raw": 13.0,
-        "hard_norm": 1.0,
-        "semantic_raw": 0.18050668719432705,
-        "semantic_norm": 0.0,
-        "final": 0.45
-      },
-      "signals": {
-        "must_hits": [
-          "python",
-          "machine learning",
-          "llm",
-          "sql",
-          "git",
-          "cloud"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": []
-      },
-      "text_hash": "925438c36a34bbdce42080b675dfbca1977fdc05",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=6, nice_hits=1",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "ABOUT RAMP At Ramp, we’re rethinking how modern finance teams function in the age of AI. We believe AI isn’t just the next big wave. It’s the new foundation for how business gets done. We’re investing in that future — and in the people bold enough to build it. Ramp is a financial operations platform designed to save companies time and money. Our all-in-one solution combines payments, corporate cards, vendor management, procurement, travel booking, and automated bookkeeping with built-in intelligence to maximize the impact of every dollar and hour spent. More than 50,000 businesses, from family"
-    },
-    {
-      "job_uid": "c6ab64ae97aba68c",
-      "source": "greenhouse",
-      "job_id": "c6ab64ae97aba68c",
-      "company": "okta",
-      "title": "Recruiting Programs Intern (Summer 2026)",
-      "location": "San Francisco, California",
-      "url": "https://www.okta.com/company/careers/opportunity/7544487?gh_jid=7544487",
-      "departments": [
-        "Recruiting-180"
-      ],
-      "created_at": null,
-      "updated_at": "2026-03-05T13:07:56-05:00",
-      "scores": {
-        "hard_raw": 2.0,
-        "hard_norm": 0.15384615384615385,
-        "semantic_raw": 0.4483478665347384,
-        "semantic_norm": 0.6775021175978365,
-        "final": 0.44185693390957936
-      },
-      "signals": {
-        "must_hits": [
-          "machine learning"
-        ],
-        "nice_hits": [],
-        "neg_hits": []
-      },
-      "text_hash": "4c4062eb63d1ed870c47bb7d27759a2277f44911",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "Get to know Okta Okta is The World’s Identity Company. We free everyone to safely use any technology, anywhere, on any device or app. Our flexible and neutral products, Okta Platform and Auth0 Platform, provide secure access, authentication, and automation, placing identity at the core of business security and growth. At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box - we’re looking for lifelong learners and people who can make us better with their unique experiences.&nbsp; Join our team! We’re building a world where Ide"
-    },
-    {
-      "job_uid": "1e24bd723ca2390a",
-      "source": "greenhouse",
-      "job_id": "1e24bd723ca2390a",
-      "company": "anthropic",
-      "title": "Program Manager, Student Outreach",
-      "location": "San Francisco, CA | New York City, NY",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5102171008",
-      "departments": [
-        "Marketing & Brand"
-      ],
-      "created_at": null,
-      "updated_at": "2026-03-06T09:54:14-05:00",
-      "scores": {
-        "hard_raw": 1.0,
-        "hard_norm": 0.07692307692307693,
-        "semantic_raw": 0.46958953142119175,
-        "semantic_norm": 0.7312327387716078,
-        "final": 0.43679339093976893
-      },
-      "signals": {
-        "must_hits": [
-          "git"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": [
-          "5+ years"
-        ]
-      },
-      "text_hash": "8c9ae5b8b220a972a4a2c4e8586cf530277b7b4f",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "About Anthropic Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems. About the role Anthropic is seeking a Program Manager to own and drive our student outreach strategy, establishing Claude as the AI platform of choice for the next generation of builders, researchers, and creators at universities worldwide.&nbsp; You'll lead fla"
-    },
-    {
-      "job_uid": "b9687758003a7afe",
-      "source": "greenhouse",
-      "job_id": "b9687758003a7afe",
-      "company": "databricks",
-      "title": "MBA Intern - Product Pricing & Commercialization",
-      "location": "San Francisco, California",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8402615002",
-      "departments": [
-        "Business Strategy and Ops"
-      ],
-      "created_at": null,
-      "updated_at": "2026-02-25T14:25:17-05:00",
-      "scores": {
-        "hard_raw": 4.0,
-        "hard_norm": 0.3076923076923077,
-        "semantic_raw": 0.3933022256669776,
-        "semantic_norm": 0.538264609966346,
-        "final": 0.4345070739430288
-      },
-      "signals": {
-        "must_hits": [
-          "sql",
-          "cloud"
-        ],
-        "nice_hits": [
-          "mlflow"
-        ],
-        "neg_hits": []
-      },
-      "text_hash": "5af9236c90e407f4febaf64290d186a425bf9280",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "RDQ227R1172 &nbsp; At Databricks, we are passionate about helping data teams solve the world's toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. As a Product Pricing &amp; Commercialization Intern, you will join our world-class Commercialization team to help shape the monetization strategies that power Databricks’ hyper-growth. During your 12-week internshi"
-    },
-    {
       "job_uid": "e74e57654663fbbb",
       "source": "greenhouse",
       "job_id": "e74e57654663fbbb",
@@ -974,10 +821,10 @@
       "updated_at": "2026-03-06T00:54:40-05:00",
       "scores": {
         "hard_raw": 7.0,
-        "hard_norm": 0.5384615384615384,
+        "hard_norm": 0.7,
         "semantic_raw": 0.31691129904425036,
         "semantic_norm": 0.3450343730042361,
-        "final": 0.4320765974600222
+        "final": 0.5047689051523299
       },
       "signals": {
         "must_hits": [
@@ -1013,10 +860,10 @@
       "updated_at": "2026-03-06T00:54:34-05:00",
       "scores": {
         "hard_raw": 7.0,
-        "hard_norm": 0.5384615384615384,
+        "hard_norm": 0.7,
         "semantic_raw": 0.31691129904425036,
         "semantic_norm": 0.3450343730042361,
-        "final": 0.4320765974600222
+        "final": 0.5047689051523299
       },
       "signals": {
         "must_hits": [
@@ -1052,10 +899,10 @@
       "updated_at": "2026-03-06T00:54:31-05:00",
       "scores": {
         "hard_raw": 7.0,
-        "hard_norm": 0.5384615384615384,
+        "hard_norm": 0.7,
         "semantic_raw": 0.31691129904425036,
         "semantic_norm": 0.3450343730042361,
-        "final": 0.4320765974600222
+        "final": 0.5047689051523299
       },
       "signals": {
         "must_hits": [
@@ -1078,37 +925,113 @@
       "jd_excerpt": "Ready to be pushed beyond what you think you’re capable of? At Coinbase, our mission is to increase economic freedom in the world. It’s a massive, ambitious opportunity that demands the best of us, every day, as we build the emerging onchain platform — and with it, the future global financial system. To achieve our mission, we’re seeking a very specific candidate. We want someone who is passionate about our mission and who believes in the power of crypto and blockchain technology to update the financial system. We want someone who is eager to leave their mark on the world, who relishes the pre"
     },
     {
-      "job_uid": "fa1e7c7a851db551",
-      "source": "lever",
-      "job_id": "fa1e7c7a851db551",
-      "company": "shieldai",
-      "title": "Marketing Video Editor Intern - 2026 Summer Intern (R4110)",
-      "location": "San Diego, California",
-      "url": "https://jobs.lever.co/shieldai/a5208a9f-4392-473c-b034-1670c3d0c565",
+      "job_uid": "ed2e35a4886b9aa3",
+      "source": "greenhouse",
+      "job_id": "ed2e35a4886b9aa3",
+      "company": "okta",
+      "title": "Global Partner Marketing Intern (Summer 2026)",
+      "location": "San Francisco, California",
+      "url": "https://www.okta.com/company/careers/opportunity/7560998?gh_jid=7560998",
       "departments": [
-        "Business Development Marketing"
+        "Partner Marketing-122"
       ],
-      "created_at": 1764830857226,
-      "updated_at": 1764830857226,
+      "created_at": null,
+      "updated_at": "2026-03-05T13:07:56-05:00",
       "scores": {
-        "hard_raw": 0.0,
-        "hard_norm": 0.0,
-        "semantic_raw": 0.4882112436415585,
-        "semantic_norm": 0.7783362106636629,
-        "final": 0.4280849158650146
+        "hard_raw": 3.0,
+        "hard_norm": 0.3,
+        "semantic_raw": 0.43167903612087927,
+        "semantic_norm": 0.6353384445917682,
+        "final": 0.48443614452547257
       },
       "signals": {
-        "must_hits": [],
+        "must_hits": [
+          "machine learning",
+          "cloud"
+        ],
         "nice_hits": [],
         "neg_hits": []
       },
-      "text_hash": "b7b72cd269a84281da7cb2bab8020dc2e9a7d9cf",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=0",
+      "text_hash": "fd5b128381089c6770ddf1d0e71cee9e2cb8d715",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0",
       "hard_gate": {
         "hit": false,
         "reason": ""
       },
-      "jd_excerpt": "Founded in 2015, Shield AI is a venture-backed deep-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include the V-BAT and X-BAT aircraft, Hivemind Enterprise, and the Hivemind Vision product lines. With offices and facilities across the U.S., Europe, the Middle East, and the Asia-Pacific, Shield AI’s technology actively supports operations worldwide. For more information, visit www.shield.ai. Follow Shield AI on LinkedIn, X, Instagram, and YouTube. Job Description: Our 2026 Summer Internship program is a wonderful opportunity for"
+      "jd_excerpt": "Get to know Okta Okta is The World’s Identity Company. We free everyone to safely use any technology, anywhere, on any device or app. Our flexible and neutral products, Okta Platform and Auth0 Platform, provide secure access, authentication, and automation, placing identity at the core of business security and growth. At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box - we’re looking for lifelong learners and people who can make us better with their unique experiences.&nbsp; Join our team! We’re building a world where Ide"
+    },
+    {
+      "job_uid": "b9687758003a7afe",
+      "source": "greenhouse",
+      "job_id": "b9687758003a7afe",
+      "company": "databricks",
+      "title": "MBA Intern - Product Pricing & Commercialization",
+      "location": "San Francisco, California",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8402615002",
+      "departments": [
+        "Business Strategy and Ops"
+      ],
+      "created_at": null,
+      "updated_at": "2026-02-25T14:25:17-05:00",
+      "scores": {
+        "hard_raw": 4.0,
+        "hard_norm": 0.4,
+        "semantic_raw": 0.3933022256669776,
+        "semantic_norm": 0.538264609966346,
+        "final": 0.4760455354814903
+      },
+      "signals": {
+        "must_hits": [
+          "sql",
+          "cloud"
+        ],
+        "nice_hits": [
+          "mlflow"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "5af9236c90e407f4febaf64290d186a425bf9280",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "RDQ227R1172 &nbsp; At Databricks, we are passionate about helping data teams solve the world's toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. As a Product Pricing &amp; Commercialization Intern, you will join our world-class Commercialization team to help shape the monetization strategies that power Databricks’ hyper-growth. During your 12-week internshi"
+    },
+    {
+      "job_uid": "c6ab64ae97aba68c",
+      "source": "greenhouse",
+      "job_id": "c6ab64ae97aba68c",
+      "company": "okta",
+      "title": "Recruiting Programs Intern (Summer 2026)",
+      "location": "San Francisco, California",
+      "url": "https://www.okta.com/company/careers/opportunity/7544487?gh_jid=7544487",
+      "departments": [
+        "Recruiting-180"
+      ],
+      "created_at": null,
+      "updated_at": "2026-03-05T13:07:56-05:00",
+      "scores": {
+        "hard_raw": 2.0,
+        "hard_norm": 0.2,
+        "semantic_raw": 0.4483478665347384,
+        "semantic_norm": 0.6775021175978365,
+        "final": 0.4626261646788101
+      },
+      "signals": {
+        "must_hits": [
+          "machine learning"
+        ],
+        "nice_hits": [],
+        "neg_hits": []
+      },
+      "text_hash": "4c4062eb63d1ed870c47bb7d27759a2277f44911",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Get to know Okta Okta is The World’s Identity Company. We free everyone to safely use any technology, anywhere, on any device or app. Our flexible and neutral products, Okta Platform and Auth0 Platform, provide secure access, authentication, and automation, placing identity at the core of business security and growth. At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box - we’re looking for lifelong learners and people who can make us better with their unique experiences.&nbsp; Join our team! We’re building a world where Ide"
     },
     {
       "job_uid": "f3754782a3cf48aa",
@@ -1125,10 +1048,10 @@
       "updated_at": "2026-03-05T13:07:56-05:00",
       "scores": {
         "hard_raw": 2.0,
-        "hard_norm": 0.15384615384615385,
+        "hard_norm": 0.2,
         "semantic_raw": 0.4287441457810709,
         "semantic_norm": 0.6279146629871837,
-        "final": 0.41458383387372033
+        "final": 0.4353530646429511
       },
       "signals": {
         "must_hits": [
@@ -1160,10 +1083,10 @@
       "updated_at": "2026-03-05T18:41:36-05:00",
       "scores": {
         "hard_raw": 2.0,
-        "hard_norm": 0.15384615384615385,
+        "hard_norm": 0.2,
         "semantic_raw": 0.4271014034743806,
         "semantic_norm": 0.6237593594816098,
-        "final": 0.4122984169456546
+        "final": 0.43306764771488543
       },
       "signals": {
         "must_hits": [],
@@ -1173,41 +1096,6 @@
         "neg_hits": []
       },
       "text_hash": "4085c4b7198e58d55fa17e8fec5d2a53c89a58c1",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "At Asana we’re looking for curious, collaborative, and creative students to join our 12-week summer Product Design internship program. This program focuses on bringing students currently studying at a college or university into our Design team to develop and work on complex and challenging problems. During this internship, you’ll work directly with dedicated Design mentors who are trained and motivated to ensure your success. You’ll also have the opportunity to work with Engineering, User Research, Product Management, Data Science, and the rest of our amazing Design crew to ship experiences th"
-    },
-    {
-      "job_uid": "20154ebf9b416ee5",
-      "source": "greenhouse",
-      "job_id": "20154ebf9b416ee5",
-      "company": "asana",
-      "title": "Product Design Intern - Summer 2026 (New York)",
-      "location": "New York City",
-      "url": "https://www.asana.com/jobs/apply/7490328?gh_jid=7490328",
-      "departments": [
-        "Internship"
-      ],
-      "created_at": null,
-      "updated_at": "2026-03-05T18:41:37-05:00",
-      "scores": {
-        "hard_raw": 2.0,
-        "hard_norm": 0.15384615384615385,
-        "semantic_raw": 0.4204093217845527,
-        "semantic_norm": 0.6068317924541597,
-        "final": 0.40298825508055713
-      },
-      "signals": {
-        "must_hits": [],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": []
-      },
-      "text_hash": "41cb3695a432dcb07eab1d31dc5a9813ff77fba6",
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1",
       "hard_gate": {
         "hit": false,
@@ -1230,10 +1118,10 @@
       "updated_at": "2026-02-19T14:47:26-05:00",
       "scores": {
         "hard_raw": 3.0,
-        "hard_norm": 0.23076923076923078,
+        "hard_norm": 0.3,
         "semantic_raw": 0.39172532509081087,
         "semantic_norm": 0.5342758525907059,
-        "final": 0.3976978727710421
+        "final": 0.42885171892488827
       },
       "signals": {
         "must_hits": [
@@ -1253,6 +1141,43 @@
       "jd_excerpt": "Company Description: At Databricks, we are obsessed with enabling data teams to solve the world’s toughest problems, from security threat detection to cancer drug development. We do this by building and running the world’s best data and AI platform, so our customers can focus on the high value challenges that are central to their own missions. The Mosaic AI organization enables companies to develop AI models and systems using their own data, with technologies ranging from fine-tuning LLMs for enterprise domains, to a platform for building compound AI systems that use retrieval and agents. Mosa"
     },
     {
+      "job_uid": "80edd7620280a1ef",
+      "source": "greenhouse",
+      "job_id": "80edd7620280a1ef",
+      "company": "okta",
+      "title": "Customer Success Intern (Summer 2026)",
+      "location": "Chicago, Illinois",
+      "url": "https://www.okta.com/company/careers/opportunity/7565237?gh_jid=7565237",
+      "departments": [
+        "Interns - Customer First"
+      ],
+      "created_at": null,
+      "updated_at": "2026-03-05T13:07:56-05:00",
+      "scores": {
+        "hard_raw": 4.0,
+        "hard_norm": 0.4,
+        "semantic_raw": 0.35850694775545505,
+        "semantic_norm": 0.45025023321697893,
+        "final": 0.4276376282693385
+      },
+      "signals": {
+        "must_hits": [
+          "machine learning",
+          "git",
+          "cloud"
+        ],
+        "nice_hits": [],
+        "neg_hits": []
+      },
+      "text_hash": "4ffd130e8b8753a9ccb9562019c9b28cd2bd3733",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=0",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Get to know Okta Okta is The World’s Identity Company. We free everyone to safely use any technology, anywhere, on any device or app. Our flexible and neutral products, Okta Platform and Auth0 Platform, provide secure access, authentication, and automation, placing identity at the core of business security and growth. At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box - we’re looking for lifelong learners and people who can make us better with their unique experiences.&nbsp; Join our team! We’re building a world where Ide"
+    },
+    {
       "job_uid": "e67c1d48efe6ea8e",
       "source": "greenhouse",
       "job_id": "e67c1d48efe6ea8e",
@@ -1267,10 +1192,10 @@
       "updated_at": "2026-02-25T14:25:01-05:00",
       "scores": {
         "hard_raw": 3.0,
-        "hard_norm": 0.23076923076923078,
+        "hard_norm": 0.3,
         "semantic_raw": 0.3882523179050377,
         "semantic_norm": 0.5254909087348423,
-        "final": 0.39286615365031713
+        "final": 0.4240199998041633
       },
       "signals": {
         "must_hits": [
@@ -1288,6 +1213,227 @@
         "reason": ""
       },
       "jd_excerpt": "At Databricks, we are passionate about helping data teams solve the world's toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. As a Strategic Finance MBA Intern, you will join our world-class finance team to drive insights and impact across Databricks. During your 12 week internship, you'll work on impactful strategic finance projects,. Your work will provid"
+    },
+    {
+      "job_uid": "20154ebf9b416ee5",
+      "source": "greenhouse",
+      "job_id": "20154ebf9b416ee5",
+      "company": "asana",
+      "title": "Product Design Intern - Summer 2026 (New York)",
+      "location": "New York City",
+      "url": "https://www.asana.com/jobs/apply/7490328?gh_jid=7490328",
+      "departments": [
+        "Internship"
+      ],
+      "created_at": null,
+      "updated_at": "2026-03-05T18:41:37-05:00",
+      "scores": {
+        "hard_raw": 2.0,
+        "hard_norm": 0.2,
+        "semantic_raw": 0.4204093217845527,
+        "semantic_norm": 0.6068317924541597,
+        "final": 0.4237574858497879
+      },
+      "signals": {
+        "must_hits": [],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "41cb3695a432dcb07eab1d31dc5a9813ff77fba6",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "At Asana we’re looking for curious, collaborative, and creative students to join our 12-week summer Product Design internship program. This program focuses on bringing students currently studying at a college or university into our Design team to develop and work on complex and challenging problems. During this internship, you’ll work directly with dedicated Design mentors who are trained and motivated to ensure your success. You’ll also have the opportunity to work with Engineering, User Research, Product Management, Data Science, and the rest of our amazing Design crew to ship experiences th"
+    },
+    {
+      "job_uid": "c1a7d2357d3e9e7d",
+      "source": "greenhouse",
+      "job_id": "c1a7d2357d3e9e7d",
+      "company": "coinbase",
+      "title": "Strategic Sourcing Intern",
+      "location": "Hybrid - New York, NY",
+      "url": "https://www.coinbase.com/careers/positions/7315887?gh_jid=7315887",
+      "departments": [
+        "Internships & Emerging Talent Positions"
+      ],
+      "created_at": null,
+      "updated_at": "2026-03-06T00:54:34-05:00",
+      "scores": {
+        "hard_raw": 5.0,
+        "hard_norm": 0.5,
+        "semantic_raw": 0.31691129904425036,
+        "semantic_norm": 0.3450343730042361,
+        "final": 0.4147689051523299
+      },
+      "signals": {
+        "must_hits": [
+          "machine learning",
+          "git"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "474938fc6556ea01108747f7a3fdda08337920c0",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Ready to be pushed beyond what you think you’re capable of? At Coinbase, our mission is to increase economic freedom in the world. It’s a massive, ambitious opportunity that demands the best of us, every day, as we build the emerging onchain platform — and with it, the future global financial system. To achieve our mission, we’re seeking a very specific candidate. We want someone who is passionate about our mission and who believes in the power of crypto and blockchain technology to update the financial system. We want someone who is eager to leave their mark on the world, who relishes the pre"
+    },
+    {
+      "job_uid": "2d63f4cc8b3a3dd7",
+      "source": "greenhouse",
+      "job_id": "2d63f4cc8b3a3dd7",
+      "company": "coinbase",
+      "title": "Associate Product Manager Intern",
+      "location": "Hybrid - San Francisco, CA",
+      "url": "https://www.coinbase.com/careers/positions/7269743?gh_jid=7269743",
+      "departments": [
+        "Internships & Emerging Talent Positions"
+      ],
+      "created_at": null,
+      "updated_at": "2026-03-06T00:54:31-05:00",
+      "scores": {
+        "hard_raw": 5.0,
+        "hard_norm": 0.5,
+        "semantic_raw": 0.31691129904425036,
+        "semantic_norm": 0.3450343730042361,
+        "final": 0.4147689051523299
+      },
+      "signals": {
+        "must_hits": [
+          "machine learning",
+          "git"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "384f524e31ff589b14eb58fd59c6cf8485e68f1b",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Ready to be pushed beyond what you think you’re capable of? At Coinbase, our mission is to increase economic freedom in the world. It’s a massive, ambitious opportunity that demands the best of us, every day, as we build the emerging onchain platform — and with it, the future global financial system. To achieve our mission, we’re seeking a very specific candidate. We want someone who is passionate about our mission and who believes in the power of crypto and blockchain technology to update the financial system. We want someone who is eager to leave their mark on the world, who relishes the pre"
+    },
+    {
+      "job_uid": "57fb6fa8c62f591c",
+      "source": "greenhouse",
+      "job_id": "57fb6fa8c62f591c",
+      "company": "coinbase",
+      "title": "User Researcher Intern",
+      "location": "Hybrid - San Francisco, CA",
+      "url": "https://www.coinbase.com/careers/positions/7269775?gh_jid=7269775",
+      "departments": [
+        "Internships & Emerging Talent Positions"
+      ],
+      "created_at": null,
+      "updated_at": "2026-03-06T00:54:31-05:00",
+      "scores": {
+        "hard_raw": 5.0,
+        "hard_norm": 0.5,
+        "semantic_raw": 0.31691129904425036,
+        "semantic_norm": 0.3450343730042361,
+        "final": 0.4147689051523299
+      },
+      "signals": {
+        "must_hits": [
+          "machine learning",
+          "cloud"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "17cc3526a2760819aab2929a93a7fe5c31acf3da",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Ready to be pushed beyond what you think you’re capable of? At Coinbase, our mission is to increase economic freedom in the world. It’s a massive, ambitious opportunity that demands the best of us, every day, as we build the emerging onchain platform — and with it, the future global financial system. To achieve our mission, we’re seeking a very specific candidate. We want someone who is passionate about our mission and who believes in the power of crypto and blockchain technology to update the financial system. We want someone who is eager to leave their mark on the world, who relishes the pre"
+    },
+    {
+      "job_uid": "50fc2ceb0d3d7dce",
+      "source": "greenhouse",
+      "job_id": "50fc2ceb0d3d7dce",
+      "company": "okta",
+      "title": "IT Support Intern (Summer 2026)",
+      "location": "San Francisco, California",
+      "url": "https://www.okta.com/company/careers/opportunity/7558024?gh_jid=7558024",
+      "departments": [
+        "BT Operations-165"
+      ],
+      "created_at": null,
+      "updated_at": "2026-03-06T15:54:34-05:00",
+      "scores": {
+        "hard_raw": 3.0,
+        "hard_norm": 0.3,
+        "semantic_raw": 0.3742569088932109,
+        "semantic_norm": 0.49008963374975295,
+        "final": 0.40454929856236416
+      },
+      "signals": {
+        "must_hits": [
+          "machine learning",
+          "git"
+        ],
+        "nice_hits": [],
+        "neg_hits": []
+      },
+      "text_hash": "77e86e9fa0f569f1826460a1aec20ac90ed9e875",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Get to know Okta Okta is The World’s Identity Company. We free everyone to safely use any technology, anywhere, on any device or app. Our flexible and neutral products, Okta Platform and Auth0 Platform, provide secure access, authentication, and automation, placing identity at the core of business security and growth. At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box - we’re looking for lifelong learners and people who can make us better with their unique experiences.&nbsp; Join our team! We’re building a world where Ide"
+    },
+    {
+      "job_uid": "5c98c9a4fc5ce4d5",
+      "source": "greenhouse",
+      "job_id": "5c98c9a4fc5ce4d5",
+      "company": "okta",
+      "title": "Technical Account Management Intern (Summer 2026)",
+      "location": "Chicago, Illinois",
+      "url": "https://www.okta.com/company/careers/opportunity/7549331?gh_jid=7549331",
+      "departments": [
+        "Interns - Customer First"
+      ],
+      "created_at": null,
+      "updated_at": "2026-03-05T13:07:56-05:00",
+      "scores": {
+        "hard_raw": 3.0,
+        "hard_norm": 0.3,
+        "semantic_raw": 0.3655992964263655,
+        "semantic_norm": 0.4681902723667358,
+        "final": 0.39250464980170474
+      },
+      "signals": {
+        "must_hits": [
+          "machine learning",
+          "cloud"
+        ],
+        "nice_hits": [],
+        "neg_hits": []
+      },
+      "text_hash": "3de2578726ff91500df36e5bb3ab6c6f83e0acd6",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Get to know Okta Okta is The World’s Identity Company. We free everyone to safely use any technology, anywhere, on any device or app. Our flexible and neutral products, Okta Platform and Auth0 Platform, provide secure access, authentication, and automation, placing identity at the core of business security and growth. At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box - we’re looking for lifelong learners and people who can make us better with their unique experiences.&nbsp; Join our team! We’re building a world where Ide"
     },
     {
       "job_uid": "7c8fbf61763cad7a",
@@ -1323,43 +1469,6 @@
       "jd_excerpt": "Waabi, founded by AI visionary Raquel Urtasun, is the leader in Physical AI. With a world-class team, we're unlocking the next era of autonomous transportation with technology that's powering commercial autonomous trucks and robotaxis. Waabi is backed by and partners with world leaders in AI, automotive, logistics, and deep tech. With offices in Toronto, San Francisco, Dallas, and Pittsburgh, Waabi is growing quickly and looking for diverse, innovative and collaborative candidates who want to impact the world in a positive way. To learn more visit: www.waabi.ai We are seeking a motivated Produ"
     },
     {
-      "job_uid": "80edd7620280a1ef",
-      "source": "greenhouse",
-      "job_id": "80edd7620280a1ef",
-      "company": "okta",
-      "title": "Customer Success Intern (Summer 2026)",
-      "location": "Chicago, Illinois",
-      "url": "https://www.okta.com/company/careers/opportunity/7565237?gh_jid=7565237",
-      "departments": [
-        "Interns - Customer First"
-      ],
-      "created_at": null,
-      "updated_at": "2026-03-05T13:07:56-05:00",
-      "scores": {
-        "hard_raw": 4.0,
-        "hard_norm": 0.3076923076923077,
-        "semantic_raw": 0.35850694775545505,
-        "semantic_norm": 0.45025023321697893,
-        "final": 0.3860991667308769
-      },
-      "signals": {
-        "must_hits": [
-          "machine learning",
-          "git",
-          "cloud"
-        ],
-        "nice_hits": [],
-        "neg_hits": []
-      },
-      "text_hash": "4ffd130e8b8753a9ccb9562019c9b28cd2bd3733",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=0",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "Get to know Okta Okta is The World’s Identity Company. We free everyone to safely use any technology, anywhere, on any device or app. Our flexible and neutral products, Okta Platform and Auth0 Platform, provide secure access, authentication, and automation, placing identity at the core of business security and growth. At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box - we’re looking for lifelong learners and people who can make us better with their unique experiences.&nbsp; Join our team! We’re building a world where Ide"
-    },
-    {
       "job_uid": "e8f07d2bdf1c8afe",
       "source": "lever",
       "job_id": "e8f07d2bdf1c8afe",
@@ -1374,10 +1483,10 @@
       "updated_at": 1770227045849,
       "scores": {
         "hard_raw": 1.0,
-        "hard_norm": 0.07692307692307693,
+        "hard_norm": 0.1,
         "semantic_raw": 0.4256120920177018,
         "semantic_norm": 0.6199921580820811,
-        "final": 0.3756110715605292
+        "final": 0.3859956869451446
       },
       "signals": {
         "must_hits": [
@@ -1409,10 +1518,10 @@
       "updated_at": "2026-03-02T17:35:00-05:00",
       "scores": {
         "hard_raw": 1.0,
-        "hard_norm": 0.07692307692307693,
+        "hard_norm": 0.1,
         "semantic_raw": 0.4241256713862946,
         "semantic_norm": 0.6162322690019201,
-        "final": 0.37354313256644067
+        "final": 0.38392774795105605
       },
       "signals": {
         "must_hits": [
@@ -1430,156 +1539,6 @@
       "jd_excerpt": "About Together AI Together AI is a research-driven artificial intelligence company. We believe open and transparent AI systems will drive innovation and create the best outcomes for society, and together we are on a mission to significantly lower the cost of modern AI systems by co-designing software, algorithms, and models. We have contributed to leading open-source research, models, and datasets to advance the frontier of AI, and our team has been behind technological advancements such as FlashAttention, Mamba, FlexGen, SWARM Parallelism, Mixture of Agents, and RedPajama. Role Overview As a "
     },
     {
-      "job_uid": "c1a7d2357d3e9e7d",
-      "source": "greenhouse",
-      "job_id": "c1a7d2357d3e9e7d",
-      "company": "coinbase",
-      "title": "Strategic Sourcing Intern",
-      "location": "Hybrid - New York, NY",
-      "url": "https://www.coinbase.com/careers/positions/7315887?gh_jid=7315887",
-      "departments": [
-        "Internships & Emerging Talent Positions"
-      ],
-      "created_at": null,
-      "updated_at": "2026-03-06T00:54:34-05:00",
-      "scores": {
-        "hard_raw": 5.0,
-        "hard_norm": 0.38461538461538464,
-        "semantic_raw": 0.31691129904425036,
-        "semantic_norm": 0.3450343730042361,
-        "final": 0.362845828229253
-      },
-      "signals": {
-        "must_hits": [
-          "machine learning",
-          "git"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": []
-      },
-      "text_hash": "474938fc6556ea01108747f7a3fdda08337920c0",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "Ready to be pushed beyond what you think you’re capable of? At Coinbase, our mission is to increase economic freedom in the world. It’s a massive, ambitious opportunity that demands the best of us, every day, as we build the emerging onchain platform — and with it, the future global financial system. To achieve our mission, we’re seeking a very specific candidate. We want someone who is passionate about our mission and who believes in the power of crypto and blockchain technology to update the financial system. We want someone who is eager to leave their mark on the world, who relishes the pre"
-    },
-    {
-      "job_uid": "2d63f4cc8b3a3dd7",
-      "source": "greenhouse",
-      "job_id": "2d63f4cc8b3a3dd7",
-      "company": "coinbase",
-      "title": "Associate Product Manager Intern",
-      "location": "Hybrid - San Francisco, CA",
-      "url": "https://www.coinbase.com/careers/positions/7269743?gh_jid=7269743",
-      "departments": [
-        "Internships & Emerging Talent Positions"
-      ],
-      "created_at": null,
-      "updated_at": "2026-03-06T00:54:31-05:00",
-      "scores": {
-        "hard_raw": 5.0,
-        "hard_norm": 0.38461538461538464,
-        "semantic_raw": 0.31691129904425036,
-        "semantic_norm": 0.3450343730042361,
-        "final": 0.362845828229253
-      },
-      "signals": {
-        "must_hits": [
-          "machine learning",
-          "git"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": []
-      },
-      "text_hash": "384f524e31ff589b14eb58fd59c6cf8485e68f1b",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "Ready to be pushed beyond what you think you’re capable of? At Coinbase, our mission is to increase economic freedom in the world. It’s a massive, ambitious opportunity that demands the best of us, every day, as we build the emerging onchain platform — and with it, the future global financial system. To achieve our mission, we’re seeking a very specific candidate. We want someone who is passionate about our mission and who believes in the power of crypto and blockchain technology to update the financial system. We want someone who is eager to leave their mark on the world, who relishes the pre"
-    },
-    {
-      "job_uid": "57fb6fa8c62f591c",
-      "source": "greenhouse",
-      "job_id": "57fb6fa8c62f591c",
-      "company": "coinbase",
-      "title": "User Researcher Intern",
-      "location": "Hybrid - San Francisco, CA",
-      "url": "https://www.coinbase.com/careers/positions/7269775?gh_jid=7269775",
-      "departments": [
-        "Internships & Emerging Talent Positions"
-      ],
-      "created_at": null,
-      "updated_at": "2026-03-06T00:54:31-05:00",
-      "scores": {
-        "hard_raw": 5.0,
-        "hard_norm": 0.38461538461538464,
-        "semantic_raw": 0.31691129904425036,
-        "semantic_norm": 0.3450343730042361,
-        "final": 0.362845828229253
-      },
-      "signals": {
-        "must_hits": [
-          "machine learning",
-          "cloud"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": []
-      },
-      "text_hash": "17cc3526a2760819aab2929a93a7fe5c31acf3da",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "Ready to be pushed beyond what you think you’re capable of? At Coinbase, our mission is to increase economic freedom in the world. It’s a massive, ambitious opportunity that demands the best of us, every day, as we build the emerging onchain platform — and with it, the future global financial system. To achieve our mission, we’re seeking a very specific candidate. We want someone who is passionate about our mission and who believes in the power of crypto and blockchain technology to update the financial system. We want someone who is eager to leave their mark on the world, who relishes the pre"
-    },
-    {
-      "job_uid": "5c98c9a4fc5ce4d5",
-      "source": "greenhouse",
-      "job_id": "5c98c9a4fc5ce4d5",
-      "company": "okta",
-      "title": "Technical Account Management Intern (Summer 2026)",
-      "location": "Chicago, Illinois",
-      "url": "https://www.okta.com/company/careers/opportunity/7549331?gh_jid=7549331",
-      "departments": [
-        "Interns - Customer First"
-      ],
-      "created_at": null,
-      "updated_at": "2026-03-05T13:07:56-05:00",
-      "scores": {
-        "hard_raw": 3.0,
-        "hard_norm": 0.23076923076923078,
-        "semantic_raw": 0.3655992964263655,
-        "semantic_norm": 0.4681902723667358,
-        "final": 0.3613508036478586
-      },
-      "signals": {
-        "must_hits": [
-          "machine learning",
-          "cloud"
-        ],
-        "nice_hits": [],
-        "neg_hits": []
-      },
-      "text_hash": "3de2578726ff91500df36e5bb3ab6c6f83e0acd6",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "Get to know Okta Okta is The World’s Identity Company. We free everyone to safely use any technology, anywhere, on any device or app. Our flexible and neutral products, Okta Platform and Auth0 Platform, provide secure access, authentication, and automation, placing identity at the core of business security and growth. At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box - we’re looking for lifelong learners and people who can make us better with their unique experiences.&nbsp; Join our team! We’re building a world where Ide"
-    },
-    {
       "job_uid": "609c9f7aff473916",
       "source": "ashby",
       "job_id": "609c9f7aff473916",
@@ -1595,10 +1554,10 @@
       "updated_at": "2025-09-05T18:33:15.441+00:00",
       "scores": {
         "hard_raw": 2.0,
-        "hard_norm": 0.15384615384615385,
+        "hard_norm": 0.2,
         "semantic_raw": 0.3893846273418347,
         "semantic_norm": 0.5283550763848472,
-        "final": 0.3598260612424352
+        "final": 0.38059529201166603
       },
       "signals": {
         "must_hits": [],
@@ -1616,41 +1575,6 @@
       "jd_excerpt": "ABOUT US Notion helps you build beautiful tools for your life’s work. In today's world of endless apps and tabs, Notion provides one place for teams to get everything done, seamlessly connecting docs, notes, projects, calendar, and email—with AI built in to find answers and automate work. Millions of users, from individuals to large organizations like Toyota, Figma, and OpenAI, love Notion for its flexibility and choose it because it helps them save time and money. In-person collaboration is essential to Notion's culture. We require all team members to work from our offices on Mondays, Tuesday"
     },
     {
-      "job_uid": "85ab53eaeeabed19",
-      "source": "greenhouse",
-      "job_id": "85ab53eaeeabed19",
-      "company": "togetherai",
-      "title": "Product Marketing Intern (Summer 2026)",
-      "location": "San Francisco",
-      "url": "https://job-boards.greenhouse.io/togetherai/jobs/5014289007",
-      "departments": [
-        "Marketing"
-      ],
-      "created_at": null,
-      "updated_at": "2026-02-26T17:00:40-05:00",
-      "scores": {
-        "hard_raw": 1.0,
-        "hard_norm": 0.07692307692307693,
-        "semantic_raw": 0.40902075171429736,
-        "semantic_norm": 0.578024495689673,
-        "final": 0.35252885724470473
-      },
-      "signals": {
-        "must_hits": [
-          "cloud"
-        ],
-        "nice_hits": [],
-        "neg_hits": []
-      },
-      "text_hash": "18c051a3a0c287cbda7d6fee602ac411376c0d62",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "About Together AI Together AI is a research-driven AI company. We believe open and transparent AI systems will drive innovation and create the best outcomes for society, and together we are on a mission to lower the cost of modern AI systems by co-designing software, hardware, algorithms, and models. We have contributed to leading open-source research, models, and datasets to advance the frontier of AI. We invite you to join a passionate group of researchers and engineers in our journey in building the next generation AI infrastructure. Role Overview It’s an exciting time to join Together AI’s"
-    },
-    {
       "job_uid": "e21df956cafcf642",
       "source": "greenhouse",
       "job_id": "e21df956cafcf642",
@@ -1665,10 +1589,10 @@
       "updated_at": "2026-03-06T00:54:32-05:00",
       "scores": {
         "hard_raw": 4.0,
-        "hard_norm": 0.3076923076923077,
+        "hard_norm": 0.4,
         "semantic_raw": 0.31691129904425036,
         "semantic_norm": 0.3450343730042361,
-        "final": 0.32823044361386833
+        "final": 0.3697689051523299
       },
       "signals": {
         "must_hits": [
@@ -1702,10 +1626,10 @@
       "updated_at": "2026-03-06T00:54:32-05:00",
       "scores": {
         "hard_raw": 4.0,
-        "hard_norm": 0.3076923076923077,
+        "hard_norm": 0.4,
         "semantic_raw": 0.31691129904425036,
         "semantic_norm": 0.3450343730042361,
-        "final": 0.32823044361386833
+        "final": 0.3697689051523299
       },
       "signals": {
         "must_hits": [
@@ -1725,6 +1649,201 @@
       "jd_excerpt": "Ready to be pushed beyond what you think you’re capable of? At Coinbase, our mission is to increase economic freedom in the world. It’s a massive, ambitious opportunity that demands the best of us, every day, as we build the emerging onchain platform — and with it, the future global financial system. To achieve our mission, we’re seeking a very specific candidate. We want someone who is passionate about our mission and who believes in the power of crypto and blockchain technology to update the financial system. We want someone who is eager to leave their mark on the world, who relishes the pre"
     },
     {
+      "job_uid": "85ab53eaeeabed19",
+      "source": "greenhouse",
+      "job_id": "85ab53eaeeabed19",
+      "company": "togetherai",
+      "title": "Product Marketing Intern (Summer 2026)",
+      "location": "San Francisco",
+      "url": "https://job-boards.greenhouse.io/togetherai/jobs/5014289007",
+      "departments": [
+        "Marketing"
+      ],
+      "created_at": null,
+      "updated_at": "2026-02-26T17:00:40-05:00",
+      "scores": {
+        "hard_raw": 1.0,
+        "hard_norm": 0.1,
+        "semantic_raw": 0.40902075171429736,
+        "semantic_norm": 0.578024495689673,
+        "final": 0.3629134726293201
+      },
+      "signals": {
+        "must_hits": [
+          "cloud"
+        ],
+        "nice_hits": [],
+        "neg_hits": []
+      },
+      "text_hash": "18c051a3a0c287cbda7d6fee602ac411376c0d62",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "About Together AI Together AI is a research-driven AI company. We believe open and transparent AI systems will drive innovation and create the best outcomes for society, and together we are on a mission to lower the cost of modern AI systems by co-designing software, hardware, algorithms, and models. We have contributed to leading open-source research, models, and datasets to advance the frontier of AI. We invite you to join a passionate group of researchers and engineers in our journey in building the next generation AI infrastructure. Role Overview It’s an exciting time to join Together AI’s"
+    },
+    {
+      "job_uid": "b230852d1c35c17a",
+      "source": "ashby",
+      "job_id": "b230852d1c35c17a",
+      "company": "ramp",
+      "title": "Software Engineer Internship, Android ",
+      "location": "New York, NY (HQ)",
+      "url": "https://jobs.ashbyhq.com/ramp/67fadb77-43d8-4449-954b-d4cf2c6d3b8b/application",
+      "departments": [
+        "Engineering",
+        "Emerging Talent - SWE"
+      ],
+      "created_at": "2025-08-07T20:49:38.961+00:00",
+      "updated_at": "2025-08-07T20:49:38.961+00:00",
+      "scores": {
+        "hard_raw": 8.0,
+        "hard_norm": 0.8,
+        "semantic_raw": 0.18050668719432705,
+        "semantic_norm": 0.0,
+        "final": 0.36000000000000004
+      },
+      "signals": {
+        "must_hits": [
+          "python",
+          "sql",
+          "cloud"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "25b6eff5a2410a67183ea94b4c1681cc680b4c98",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "ABOUT RAMP At Ramp, we’re rethinking how modern finance teams function in the age of AI. We believe AI isn’t just the next big wave. It’s the new foundation for how business gets done. We’re investing in that future — and in the people bold enough to build it. Ramp is a financial operations platform designed to save companies time and money. Our all-in-one solution combines payments, corporate cards, vendor management, procurement, travel booking, and automated bookkeeping with built-in intelligence to maximize the impact of every dollar and hour spent. More than 50,000 businesses, from family"
+    },
+    {
+      "job_uid": "4ff882d7bab5bdb0",
+      "source": "ashby",
+      "job_id": "4ff882d7bab5bdb0",
+      "company": "ramp",
+      "title": "Software Engineer Internship, iOS",
+      "location": "New York, NY (HQ)",
+      "url": "https://jobs.ashbyhq.com/ramp/8c155b55-3e7e-48a8-ac98-f988a2b6f4da/application",
+      "departments": [
+        "Engineering",
+        "Emerging Talent - SWE"
+      ],
+      "created_at": "2025-08-07T16:04:29.101+00:00",
+      "updated_at": "2025-08-07T16:04:29.101+00:00",
+      "scores": {
+        "hard_raw": 8.0,
+        "hard_norm": 0.8,
+        "semantic_raw": 0.18050668719432705,
+        "semantic_norm": 0.0,
+        "final": 0.36000000000000004
+      },
+      "signals": {
+        "must_hits": [
+          "python",
+          "sql",
+          "cloud"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "8a198775642ad897557aa0c5291522de5cbefe88",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "ABOUT RAMP At Ramp, we’re rethinking how modern finance teams function in the age of AI. We believe AI isn’t just the next big wave. It’s the new foundation for how business gets done. We’re investing in that future — and in the people bold enough to build it. Ramp is a financial operations platform designed to save companies time and money. Our all-in-one solution combines payments, corporate cards, vendor management, procurement, travel booking, and automated bookkeeping with built-in intelligence to maximize the impact of every dollar and hour spent. More than 50,000 businesses, from family"
+    },
+    {
+      "job_uid": "2d97101576e1b003",
+      "source": "ashby",
+      "job_id": "2d97101576e1b003",
+      "company": "ramp",
+      "title": "University Grad | Software Engineer | Frontend",
+      "location": "New York, NY (HQ)",
+      "url": "https://jobs.ashbyhq.com/ramp/a1229aec-1105-4c47-8533-b912e732ed89/application",
+      "departments": [
+        "Engineering",
+        "Emerging Talent - SWE"
+      ],
+      "created_at": "2025-08-01T21:08:04.061+00:00",
+      "updated_at": "2025-08-01T21:08:04.061+00:00",
+      "scores": {
+        "hard_raw": 8.0,
+        "hard_norm": 0.8,
+        "semantic_raw": 0.18050668719432705,
+        "semantic_norm": 0.0,
+        "final": 0.36000000000000004
+      },
+      "signals": {
+        "must_hits": [
+          "python",
+          "sql",
+          "cloud"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "5dee09dcfeeea095aefde07cdcf73fbe77ab2c6a",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "ABOUT RAMP At Ramp, we’re rethinking how modern finance teams function in the age of AI. We believe AI isn’t just the next big wave. It’s the new foundation for how business gets done. We’re investing in that future — and in the people bold enough to build it. Ramp is a financial operations platform designed to save companies time and money. Our all-in-one solution combines payments, corporate cards, vendor management, procurement, travel booking, and automated bookkeeping with built-in intelligence to maximize the impact of every dollar and hour spent. More than 50,000 businesses, from family"
+    },
+    {
+      "job_uid": "8c305391a2786222",
+      "source": "ashby",
+      "job_id": "8c305391a2786222",
+      "company": "ramp",
+      "title": "Software Engineer Internship, Frontend",
+      "location": "New York, NY (HQ)",
+      "url": "https://jobs.ashbyhq.com/ramp/31f7e045-9a51-4a75-9ffc-d815d6db6daa/application",
+      "departments": [
+        "Engineering",
+        "Emerging Talent - SWE"
+      ],
+      "created_at": "2025-08-01T19:55:18.933+00:00",
+      "updated_at": "2025-08-01T19:55:18.933+00:00",
+      "scores": {
+        "hard_raw": 8.0,
+        "hard_norm": 0.8,
+        "semantic_raw": 0.18050668719432705,
+        "semantic_norm": 0.0,
+        "final": 0.36000000000000004
+      },
+      "signals": {
+        "must_hits": [
+          "python",
+          "sql",
+          "cloud"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "b6d33e0345e7274c69f275320bb5b85b8d883a72",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "ABOUT RAMP At Ramp, we’re rethinking how modern finance teams function in the age of AI. We believe AI isn’t just the next big wave. It’s the new foundation for how business gets done. We’re investing in that future — and in the people bold enough to build it. Ramp is a financial operations platform designed to save companies time and money. Our all-in-one solution combines payments, corporate cards, vendor management, procurement, travel booking, and automated bookkeeping with built-in intelligence to maximize the impact of every dollar and hour spent. More than 50,000 businesses, from family"
+    },
+    {
       "job_uid": "1254231df3fa18cd",
       "source": "greenhouse",
       "job_id": "1254231df3fa18cd",
@@ -1736,13 +1855,13 @@
         "5112 General University"
       ],
       "created_at": null,
-      "updated_at": "2026-03-05T19:03:48-05:00",
+      "updated_at": "2026-03-06T18:52:06-05:00",
       "scores": {
         "hard_raw": 3.0,
-        "hard_norm": 0.23076923076923078,
+        "hard_norm": 0.3,
         "semantic_raw": 0.3415982425209444,
         "semantic_norm": 0.40747979877359164,
-        "final": 0.32796004317162925
+        "final": 0.3591138893254754
       },
       "signals": {
         "must_hits": [
@@ -1773,13 +1892,13 @@
         "5112 General University"
       ],
       "created_at": null,
-      "updated_at": "2026-03-05T19:03:48-05:00",
+      "updated_at": "2026-03-06T18:52:06-05:00",
       "scores": {
         "hard_raw": 3.0,
-        "hard_norm": 0.23076923076923078,
+        "hard_norm": 0.3,
         "semantic_raw": 0.3415982425209444,
         "semantic_norm": 0.40747979877359164,
-        "final": 0.32796004317162925
+        "final": 0.3591138893254754
       },
       "signals": {
         "must_hits": [
@@ -1813,10 +1932,10 @@
       "updated_at": "2026-02-25T14:23:19-05:00",
       "scores": {
         "hard_raw": 5.0,
-        "hard_norm": 0.38461538461538464,
+        "hard_norm": 0.5,
         "semantic_raw": 0.27387025952311783,
         "semantic_norm": 0.23616240831609453,
-        "final": 0.30296624765077507
+        "final": 0.354889324573852
       },
       "signals": {
         "must_hits": [
@@ -1835,6 +1954,79 @@
         "reason": ""
       },
       "jd_excerpt": "RDQ227R1170 At Databricks, we are passionate about helping data teams solve the world's toughest problems - from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. Join our Product Operations team to ensure our innovations successfully reach our customers and deliver maximum value. As a Product Operations intern, you will sit at the intersection of Product Management, Engineering, a"
+    },
+    {
+      "job_uid": "99ded1db1070bd16",
+      "source": "ashby",
+      "job_id": "99ded1db1070bd16",
+      "company": "sierra",
+      "title": "Intern, Agent Development (Summer 2026)",
+      "location": "San Francisco, CA",
+      "url": "https://jobs.ashbyhq.com/sierra/8bb2509d-9215-4cb5-8cf1-2bf0dbade6d8/application",
+      "departments": [
+        "Early Career",
+        "Agent Engineering"
+      ],
+      "created_at": "2025-12-17T16:45:31.262+00:00",
+      "updated_at": "2025-12-17T16:45:31.262+00:00",
+      "scores": {
+        "hard_raw": 4.0,
+        "hard_norm": 0.4,
+        "semantic_raw": 0.28741970658273563,
+        "semantic_norm": 0.2704356261154526,
+        "final": 0.328739594363499
+      },
+      "signals": {
+        "must_hits": [
+          "llm"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "848f2481831ff9af5d376c4cba61fe4f0ec3214f",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "ABOUT US - At Sierra, we’re creating a platform to help businesses build better, more human customer experiences with AI. We are primarily an in-person company based in San Francisco, with growing offices in Atlanta, New York, London, Paris, Singapore, and Japan. - We are guided by a set of values that are at the core of our actions and define our culture: Trust, Customer Obsession, Craftsmanship, Intensity, and Family. These values are the foundation of our work, and we are committed to upholding them in everything we do. - Our co-founders are Bret Taylor https://www.linkedin.com/in/brettaylo"
+    },
+    {
+      "job_uid": "44cb289470d1febd",
+      "source": "greenhouse",
+      "job_id": "44cb289470d1febd",
+      "company": "okta",
+      "title": "Customer First Strategy and Operations Intern (Summer 2026)",
+      "location": "San Francisco, California",
+      "url": "https://www.okta.com/company/careers/opportunity/7561036?gh_jid=7561036",
+      "departments": [
+        "Business Operations-150"
+      ],
+      "created_at": null,
+      "updated_at": "2026-03-05T13:07:56-05:00",
+      "scores": {
+        "hard_raw": 2.0,
+        "hard_norm": 0.2,
+        "semantic_raw": 0.34577941894496667,
+        "semantic_norm": 0.4180560510448115,
+        "final": 0.31993082807464635
+      },
+      "signals": {
+        "must_hits": [
+          "machine learning"
+        ],
+        "nice_hits": [],
+        "neg_hits": []
+      },
+      "text_hash": "fe29f58b960003b8bad45ac881d50142a4603239",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Get to know Okta Okta is The World’s Identity Company. We free everyone to safely use any technology, anywhere, on any device or app. Our flexible and neutral products, Okta Platform and Auth0 Platform, provide secure access, authentication, and automation, placing identity at the core of business security and growth. At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box - we’re looking for lifelong learners and people who can make us better with their unique experiences.&nbsp; Join our team! We’re building a world where Ide"
     }
   ]
 }
