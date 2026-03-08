@@ -1,11 +1,11 @@
 # Job feed (current)
-Generated at (UTC): 2026-03-07T14:21:36.338764+00:00
-Today (UTC): 2026-03-07
+Generated at (UTC): 2026-03-08T13:44:18.911720+00:00
+Today (UTC): 2026-03-08
 Total jobs: 11
 
 ## Jobs
-- [stripe] Software Engineer, Intern (Dublin) — greenhouse — https://stripe.com/jobs/search?gh_jid=7206494
 - [stripe] Software Engineer, Intern (Singapore) — greenhouse — https://stripe.com/jobs/search?gh_jid=7206401
+- [stripe] Software Engineer, Intern (Dublin) — greenhouse — https://stripe.com/jobs/search?gh_jid=7206494
 - [stripe] Software Engineer, Intern (London) — greenhouse — https://stripe.com/jobs/search?gh_jid=7360840
 - [stripe] Software Engineer, Intern (Summer) (San Francisco, Seattle, New York City) — greenhouse — https://stripe.com/jobs/search?gh_jid=7210115
 - [scaleai] Software Engineering Intern (Summer 2026)  (San Francisco, CA) — greenhouse — https://job-boards.greenhouse.io/scaleai/jobs/4606014005
