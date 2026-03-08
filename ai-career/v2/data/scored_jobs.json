@@ -34,7 +34,7 @@
       },
       "semantic": {
         "raw": 0.30933967232673226,
-        "cache_reused": false,
+        "cache_reused": true,
         "norm": 0.3258820038748455
       },
       "text_hash": "50ca310d0dc25f47feee47e403a71aa73c2880bc",
@@ -144,38 +144,6 @@
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1"
     },
     {
-      "job_uid": "867837af4b70f7ea",
-      "source": "greenhouse",
-      "company": "stripe",
-      "title": "Software Engineer, Intern",
-      "location": "Dublin",
-      "url": "https://stripe.com/jobs/search?gh_jid=7206494",
-      "updated_at": "2026-03-06T18:52:06-05:00",
-      "created_at": null,
-      "departments": [
-        "5112 General University"
-      ],
-      "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
-      },
-      "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.0
-      },
-      "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
-      },
-      "text_hash": "58f557f2e44b0d957b3009d34907e155a227c552",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
-    },
-    {
       "job_uid": "1254231df3fa18cd",
       "source": "greenhouse",
       "company": "stripe",
@@ -210,6 +178,38 @@
       "text_hash": "2b1d064990c9520a7e0f962a687e84161edd81d2",
       "final_score": 0.3591138893254754,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
+    },
+    {
+      "job_uid": "867837af4b70f7ea",
+      "source": "greenhouse",
+      "company": "stripe",
+      "title": "Software Engineer, Intern",
+      "location": "Dublin",
+      "url": "https://stripe.com/jobs/search?gh_jid=7206494",
+      "updated_at": "2026-03-06T18:52:06-05:00",
+      "created_at": null,
+      "departments": [
+        "5112 General University"
+      ],
+      "hard_gate": {
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
+      },
+      "hard": {
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
+      },
+      "text_hash": "58f557f2e44b0d957b3009d34907e155a227c552",
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "acdb4e432b539db6",
@@ -373,7 +373,7 @@
       },
       "semantic": {
         "raw": 0.4870743170883175,
-        "cache_reused": false,
+        "cache_reused": true,
         "norm": 0.7754603640545983
       },
       "text_hash": "394dc6f7e9bd964e6e5997884a6abac943cee104",
@@ -408,7 +408,7 @@
       },
       "semantic": {
         "raw": 0.3742569088932109,
-        "cache_reused": false,
+        "cache_reused": true,
         "norm": 0.49008963374975295
       },
       "text_hash": "77e86e9fa0f569f1826460a1aec20ac90ed9e875",
