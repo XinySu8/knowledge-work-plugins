@@ -2,8 +2,8 @@
   "meta": {
     "engine_name": "AutoJob-Agent Feeder",
     "version": 2,
-    "generated_at": "2026-03-08T15:46:02.059796+00:00",
-    "source_jobs_count": 163,
+    "generated_at": "2026-03-09T16:33:50.014369+00:00",
+    "source_jobs_count": 165,
     "candidates_count": 54,
     "candidates_topN_total": 150,
     "thresholds": {
@@ -1034,6 +1034,41 @@
       "jd_excerpt": "Get to know Okta Okta is The World’s Identity Company. We free everyone to safely use any technology, anywhere, on any device or app. Our flexible and neutral products, Okta Platform and Auth0 Platform, provide secure access, authentication, and automation, placing identity at the core of business security and growth. At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box - we’re looking for lifelong learners and people who can make us better with their unique experiences.&nbsp; Join our team! We’re building a world where Ide"
     },
     {
+      "job_uid": "05413f176349337a",
+      "source": "greenhouse",
+      "job_id": "05413f176349337a",
+      "company": "togetherai",
+      "title": "GTM Engineer Intern (Summer 2026)",
+      "location": "San Francisco",
+      "url": "https://job-boards.greenhouse.io/togetherai/jobs/5014290007",
+      "departments": [
+        "Revenue Operations"
+      ],
+      "created_at": null,
+      "updated_at": "2026-03-08T21:03:24-04:00",
+      "scores": {
+        "hard_raw": 1.0,
+        "hard_norm": 0.1,
+        "semantic_raw": 0.47822296619367455,
+        "semantic_norm": 0.7530709428704103,
+        "final": 0.4591890185787257
+      },
+      "signals": {
+        "must_hits": [
+          "cloud"
+        ],
+        "nice_hits": [],
+        "neg_hits": []
+      },
+      "text_hash": "70997be223f52afd8a7fe7ec265fd4425bb5ca72",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "About Together AI Together AI is a research-driven artificial intelligence company. We believe open and transparent AI systems will drive innovation and create the best outcomes for society, and together we are on a mission to significantly lower the cost of modern AI systems by co-designing software, algorithms, and models. We have contributed to leading open-source research, models, and datasets to advance the frontier of AI, and our team has been behind technological advancements such as FlashAttention, Mamba, FlexGen, SWARM Parallelism, Mixture of Agents, and RedPajama. Role Overview As a "
+    },
+    {
       "job_uid": "f3754782a3cf48aa",
       "source": "greenhouse",
       "job_id": "f3754782a3cf48aa",
@@ -1502,41 +1537,6 @@
         "reason": ""
       },
       "jd_excerpt": "Who We Are; What We Do; Where We’re Going Magnet Forensics is a global leader in the development of digital investigative software that acquires, analyzes, and shares evidence from computers, smartphones, tablets, and IoT-related devices. We are continually innovating so our customers can deploy advanced and effective tools to protect their companies, communities, and countries. Serving thousands of customers globally, our solutions are playing a crucial role in modernizing digital investigations, helping investigators fight crime, protect assets, and guard national security. With employees ba"
-    },
-    {
-      "job_uid": "05413f176349337a",
-      "source": "greenhouse",
-      "job_id": "05413f176349337a",
-      "company": "togetherai",
-      "title": "Revenue Systems Intern (Summer 2026)",
-      "location": "San Francisco",
-      "url": "https://job-boards.greenhouse.io/togetherai/jobs/5014290007",
-      "departments": [
-        "Revenue Operations"
-      ],
-      "created_at": null,
-      "updated_at": "2026-03-02T17:35:00-05:00",
-      "scores": {
-        "hard_raw": 1.0,
-        "hard_norm": 0.1,
-        "semantic_raw": 0.4241256713862946,
-        "semantic_norm": 0.6162322690019201,
-        "final": 0.38392774795105605
-      },
-      "signals": {
-        "must_hits": [
-          "cloud"
-        ],
-        "nice_hits": [],
-        "neg_hits": []
-      },
-      "text_hash": "fb7cae296f65cbeb3ef634a8b000c3a9aca98686",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "About Together AI Together AI is a research-driven artificial intelligence company. We believe open and transparent AI systems will drive innovation and create the best outcomes for society, and together we are on a mission to significantly lower the cost of modern AI systems by co-designing software, algorithms, and models. We have contributed to leading open-source research, models, and datasets to advance the frontier of AI, and our team has been behind technological advancements such as FlashAttention, Mamba, FlexGen, SWARM Parallelism, Mixture of Agents, and RedPajama. Role Overview As a "
     },
     {
       "job_uid": "609c9f7aff473916",

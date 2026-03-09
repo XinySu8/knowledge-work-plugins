@@ -2,11 +2,141 @@
   "meta": {
     "version": 2,
     "model_name": "sentence-transformers/all-MiniLM-L6-v2",
-    "jobs_total": 163,
-    "jobs_scored": 163,
+    "jobs_total": 165,
+    "jobs_scored": 165,
     "non_gated_count": 62
   },
   "scored_jobs": [
+    {
+      "job_uid": "5b7b9520d7955970",
+      "source": "greenhouse",
+      "company": "okta",
+      "title": "Intern - Business Development Representative Intern (Summer 2026) - English, French",
+      "location": "Dublin, Ireland",
+      "url": "https://www.okta.com/company/careers/opportunity/7695540?gh_jid=7695540",
+      "updated_at": "2026-03-09T12:12:08-04:00",
+      "created_at": null,
+      "departments": [
+        "Interns - Sales"
+      ],
+      "hard_gate": {
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
+      },
+      "hard": {
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
+      },
+      "text_hash": "e86ba4c225e1ca1d0131c7f45bdff9e5fd0df1ca",
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
+    },
+    {
+      "job_uid": "23dd035f8147a187",
+      "source": "greenhouse",
+      "company": "okta",
+      "title": "Intern - Business Development Representative Intern (Summer 2026) - English, German",
+      "location": "Dublin, Ireland",
+      "url": "https://www.okta.com/company/careers/opportunity/7695513?gh_jid=7695513",
+      "updated_at": "2026-03-09T12:07:38-04:00",
+      "created_at": null,
+      "departments": [
+        "Interns - Sales"
+      ],
+      "hard_gate": {
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
+      },
+      "hard": {
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
+      },
+      "text_hash": "e3d9f9fd5897f515d8c324cd71862f5b25a1ec1c",
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
+    },
+    {
+      "job_uid": "c932f778d17d33c8",
+      "source": "greenhouse",
+      "company": "cloudflare",
+      "title": "Network Strategy Commercial Intern (Summer 2026)",
+      "location": "In-Office",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7589934?gh_jid=7589934",
+      "updated_at": "2026-03-09T04:37:14-04:00",
+      "created_at": null,
+      "departments": [
+        "Strategy"
+      ],
+      "hard_gate": {
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
+      },
+      "hard": {
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
+      },
+      "text_hash": "7be08706ec2d663563c71368e8760499c691bf51",
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
+    },
+    {
+      "job_uid": "05413f176349337a",
+      "source": "greenhouse",
+      "company": "togetherai",
+      "title": "GTM Engineer Intern (Summer 2026)",
+      "location": "San Francisco",
+      "url": "https://job-boards.greenhouse.io/togetherai/jobs/5014290007",
+      "updated_at": "2026-03-08T21:03:24-04:00",
+      "created_at": null,
+      "departments": [
+        "Revenue Operations"
+      ],
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "hard": {
+        "raw": 1.0,
+        "must_hits": [
+          "cloud"
+        ],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.1
+      },
+      "semantic": {
+        "raw": 0.47822296619367455,
+        "cache_reused": false,
+        "norm": 0.7530709428704103
+      },
+      "text_hash": "70997be223f52afd8a7fe7ec265fd4425bb5ca72",
+      "final_score": 0.4591890185787257,
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0"
+    },
     {
       "job_uid": "028083040b21b9f7",
       "source": "greenhouse",
@@ -144,42 +274,6 @@
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1"
     },
     {
-      "job_uid": "1254231df3fa18cd",
-      "source": "greenhouse",
-      "company": "stripe",
-      "title": "Software Engineer, Intern",
-      "location": "Singapore",
-      "url": "https://stripe.com/jobs/search?gh_jid=7206401",
-      "updated_at": "2026-03-06T18:52:06-05:00",
-      "created_at": null,
-      "departments": [
-        "5112 General University"
-      ],
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "hard": {
-        "raw": 3.0,
-        "must_hits": [
-          "git"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": [],
-        "norm": 0.3
-      },
-      "semantic": {
-        "raw": 0.3415982425209444,
-        "cache_reused": true,
-        "norm": 0.40747979877359164
-      },
-      "text_hash": "2b1d064990c9520a7e0f962a687e84161edd81d2",
-      "final_score": 0.3591138893254754,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
-    },
-    {
       "job_uid": "867837af4b70f7ea",
       "source": "greenhouse",
       "company": "stripe",
@@ -242,6 +336,42 @@
       "text_hash": "0504ebea54da571d1dcdb616371e118fe6fb2ee6",
       "final_score": 0.0,
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
+    },
+    {
+      "job_uid": "1254231df3fa18cd",
+      "source": "greenhouse",
+      "company": "stripe",
+      "title": "Software Engineer, Intern",
+      "location": "Singapore",
+      "url": "https://stripe.com/jobs/search?gh_jid=7206401",
+      "updated_at": "2026-03-06T18:52:06-05:00",
+      "created_at": null,
+      "departments": [
+        "5112 General University"
+      ],
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "hard": {
+        "raw": 3.0,
+        "must_hits": [
+          "git"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": [],
+        "norm": 0.3
+      },
+      "semantic": {
+        "raw": 0.3415982425209444,
+        "cache_reused": true,
+        "norm": 0.40747979877359164
+      },
+      "text_hash": "2b1d064990c9520a7e0f962a687e84161edd81d2",
+      "final_score": 0.3591138893254754,
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
     },
     {
       "job_uid": "b35597b79d3ae32f",
@@ -1771,40 +1901,6 @@
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1"
     },
     {
-      "job_uid": "05413f176349337a",
-      "source": "greenhouse",
-      "company": "togetherai",
-      "title": "Revenue Systems Intern (Summer 2026)",
-      "location": "San Francisco",
-      "url": "https://job-boards.greenhouse.io/togetherai/jobs/5014290007",
-      "updated_at": "2026-03-02T17:35:00-05:00",
-      "created_at": null,
-      "departments": [
-        "Revenue Operations"
-      ],
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "hard": {
-        "raw": 1.0,
-        "must_hits": [
-          "cloud"
-        ],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.1
-      },
-      "semantic": {
-        "raw": 0.4241256713862946,
-        "cache_reused": true,
-        "norm": 0.6162322690019201
-      },
-      "text_hash": "fb7cae296f65cbeb3ef634a8b000c3a9aca98686",
-      "final_score": 0.38392774795105605,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0"
-    },
-    {
       "job_uid": "b79485bd47657c06",
       "source": "greenhouse",
       "company": "cloudflare",
@@ -2636,38 +2732,6 @@
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
-      "job_uid": "c932f778d17d33c8",
-      "source": "greenhouse",
-      "company": "cloudflare",
-      "title": "Network Strategy Commercial Intern (Summer 2026)",
-      "location": "In-Office",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/7589934?gh_jid=7589934",
-      "updated_at": "2026-02-10T17:00:46-05:00",
-      "created_at": null,
-      "departments": [
-        "Strategy"
-      ],
-      "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
-      },
-      "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.0
-      },
-      "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
-      },
-      "text_hash": "7be08706ec2d663563c71368e8760499c691bf51",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
-    },
-    {
       "job_uid": "9064d80e3175e513",
       "source": "greenhouse",
       "company": "cloudflare",
@@ -2796,6 +2860,38 @@
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
+      "job_uid": "70317cf07362416d",
+      "source": "greenhouse",
+      "company": "cloudflare",
+      "title": "GRC Team Intern (Summer 2026) ",
+      "location": "In-Office",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7574862?gh_jid=7574862",
+      "updated_at": "2026-02-06T10:04:45-05:00",
+      "created_at": null,
+      "departments": [
+        "Security"
+      ],
+      "hard_gate": {
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
+      },
+      "hard": {
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
+      },
+      "text_hash": "be61b3c2e804e0e19d24c8ddb69ccb0788ac04b7",
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
+    },
+    {
       "job_uid": "2ce1bcb235f342ff",
       "source": "greenhouse",
       "company": "cloudflare",
@@ -2860,38 +2956,6 @@
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
-      "job_uid": "70317cf07362416d",
-      "source": "greenhouse",
-      "company": "cloudflare",
-      "title": "GRC Team Intern (Summer 2026) ",
-      "location": "In-Office",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/7574862?gh_jid=7574862",
-      "updated_at": "2026-02-06T10:04:45-05:00",
-      "created_at": null,
-      "departments": [
-        "Security"
-      ],
-      "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
-      },
-      "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.0
-      },
-      "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
-      },
-      "text_hash": "be61b3c2e804e0e19d24c8ddb69ccb0788ac04b7",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
-    },
-    {
       "job_uid": "bd3233683f49cc92",
       "source": "greenhouse",
       "company": "cloudflare",
@@ -2924,12 +2988,12 @@
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
-      "job_uid": "52944bd6c5b93c5f",
+      "job_uid": "89c8482e1295c12a",
       "source": "greenhouse",
       "company": "cloudflare",
       "title": "Product Design Intern (Summer 2026)",
       "location": "In-Office",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/7492740?gh_jid=7492740",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7488659?gh_jid=7488659",
       "updated_at": "2026-02-06T10:04:45-05:00",
       "created_at": null,
       "departments": [
@@ -2951,7 +3015,7 @@
         "cache_reused": false,
         "norm": 0.0
       },
-      "text_hash": "3d91e8130c58e8fa80bc7137dda972ce1e84a716",
+      "text_hash": "561b8fe136f251c3ca0d0296398bc05fa075f705",
       "final_score": 0.0,
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
@@ -2988,12 +3052,12 @@
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
-      "job_uid": "89c8482e1295c12a",
+      "job_uid": "52944bd6c5b93c5f",
       "source": "greenhouse",
       "company": "cloudflare",
       "title": "Product Design Intern (Summer 2026)",
       "location": "In-Office",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/7488659?gh_jid=7488659",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7492740?gh_jid=7492740",
       "updated_at": "2026-02-06T10:04:45-05:00",
       "created_at": null,
       "departments": [
@@ -3015,7 +3079,7 @@
         "cache_reused": false,
         "norm": 0.0
       },
-      "text_hash": "561b8fe136f251c3ca0d0296398bc05fa075f705",
+      "text_hash": "3d91e8130c58e8fa80bc7137dda972ce1e84a716",
       "final_score": 0.0,
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },

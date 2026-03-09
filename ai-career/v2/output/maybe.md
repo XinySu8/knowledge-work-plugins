@@ -144,6 +144,12 @@
   - nice_hits: None
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0
 
+- togetherai | GTM Engineer Intern (Summer 2026) | San Francisco | score=0.459
+  - url: https://job-boards.greenhouse.io/togetherai/jobs/5014290007
+  - must_hits: cloud
+  - nice_hits: None
+  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0
+
 - okta | Data Analyst Intern (Summer 2026) | San Francisco, California | score=0.435
   - url: https://www.okta.com/company/careers/opportunity/7561055?gh_jid=7561055
   - must_hits: machine learning
@@ -219,12 +225,6 @@
 - magnetforensics | Vulnerability Research Internship | United States | score=0.386
   - url: https://jobs.lever.co/magnetforensics/a8d3d3a6-fbaf-4ab7-809e-e8c8f2476626
   - must_hits: git
-  - nice_hits: None
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0
-
-- togetherai | Revenue Systems Intern (Summer 2026) | San Francisco | score=0.384
-  - url: https://job-boards.greenhouse.io/togetherai/jobs/5014290007
-  - must_hits: cloud
   - nice_hits: None
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0
 
