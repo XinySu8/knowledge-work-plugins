@@ -2,9 +2,9 @@
   "meta": {
     "engine_name": "AutoJob-Agent Feeder",
     "version": 2,
-    "generated_at": "2026-03-09T16:33:50.014369+00:00",
-    "source_jobs_count": 165,
-    "candidates_count": 54,
+    "generated_at": "2026-03-10T16:34:34.300718+00:00",
+    "source_jobs_count": 160,
+    "candidates_count": 50,
     "candidates_topN_total": 150,
     "thresholds": {
       "apply": 0.72,
@@ -235,7 +235,7 @@
         ],
         "neg_hits": []
       },
-      "text_hash": "806f84fc6651d7172a7e70fe6e5b095d78c85f86",
+      "text_hash": "b283e35a75dba4b1c447335dd78dba5b31b358d0",
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1",
       "hard_gate": {
         "hit": false,
@@ -273,7 +273,7 @@
         ],
         "neg_hits": []
       },
-      "text_hash": "40fbb39f1cef7758596e8d46f5dc82fb04ba72df",
+      "text_hash": "a56295ffe431701e2ee44af5d491aeceab5884e0",
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1",
       "hard_gate": {
         "hit": false,
@@ -624,42 +624,6 @@
       "jd_excerpt": "GAQ227R116 At Databricks, we are passionate about helping data teams solve the world's toughest problems - from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. As a Workforce Intelligence MBA intern, you’ll drive insights and impact across our People (HR) function and all of Databricks. During your 12 week internship, you'll work on impactful projects that drive decisions about h"
     },
     {
-      "job_uid": "95a4d1ed07282a38",
-      "source": "greenhouse",
-      "job_id": "95a4d1ed07282a38",
-      "company": "okta",
-      "title": "Events Marketing Intern (Summer 2026)",
-      "location": "San Francisco, California",
-      "url": "https://www.okta.com/company/careers/opportunity/7611453?gh_jid=7611453",
-      "departments": [
-        "Corporate Events-461"
-      ],
-      "created_at": null,
-      "updated_at": "2026-03-05T13:07:56-05:00",
-      "scores": {
-        "hard_raw": 4.0,
-        "hard_norm": 0.4,
-        "semantic_raw": 0.42768380045848037,
-        "semantic_norm": 0.6252325279875949,
-        "final": 0.5238778903931772
-      },
-      "signals": {
-        "must_hits": [
-          "machine learning",
-          "llm"
-        ],
-        "nice_hits": [],
-        "neg_hits": []
-      },
-      "text_hash": "dc3cdf1d4d9c079af5a456aa92f0c62531e1fd7a",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "Get to know Okta Okta is The World’s Identity Company. We free everyone to safely use any technology, anywhere, on any device or app. Our flexible and neutral products, Okta Platform and Auth0 Platform, provide secure access, authentication, and automation, placing identity at the core of business security and growth. At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box - we’re looking for lifelong learners and people who can make us better with their unique experiences.&nbsp; Join our team! We’re building a world where Ide"
-    },
-    {
       "job_uid": "6930a806414652cd",
       "source": "greenhouse",
       "job_id": "6930a806414652cd",
@@ -697,42 +661,6 @@
       "jd_excerpt": "P-1060 At Databricks, we are passionate about helping data teams solve the world's toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. As a Strategy and Execution Intern, you will join our world-class strategy and operations team to drive insights and impact across Databricks. During your 12 week internship you’ll work on projects spanning Go-To-Market Strate"
     },
     {
-      "job_uid": "84d7880e266f9c57",
-      "source": "greenhouse",
-      "job_id": "84d7880e266f9c57",
-      "company": "okta",
-      "title": "Paid Media Intern (Summer 2026)",
-      "location": "Chicago, Illinois; San Francisco, California",
-      "url": "https://www.okta.com/company/careers/opportunity/7607650?gh_jid=7607650",
-      "departments": [
-        "Digital Media-415"
-      ],
-      "created_at": null,
-      "updated_at": "2026-03-05T13:07:56-05:00",
-      "scores": {
-        "hard_raw": 3.0,
-        "hard_norm": 0.3,
-        "semantic_raw": 0.4558860957617969,
-        "semantic_norm": 0.6965700080426405,
-        "final": 0.5181135044234523
-      },
-      "signals": {
-        "must_hits": [
-          "machine learning",
-          "git"
-        ],
-        "nice_hits": [],
-        "neg_hits": []
-      },
-      "text_hash": "76514bfbbc2236e1505765d321a496271b4efc8a",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "Get to know Okta Okta is The World’s Identity Company. We free everyone to safely use any technology, anywhere, on any device or app. Our flexible and neutral products, Okta Platform and Auth0 Platform, provide secure access, authentication, and automation, placing identity at the core of business security and growth. At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box - we’re looking for lifelong learners and people who can make us better with their unique experiences.&nbsp; Join our team! We’re building a world where Ide"
-    },
-    {
       "job_uid": "9cde9753e65a0790",
       "source": "greenhouse",
       "job_id": "9cde9753e65a0790",
@@ -761,44 +689,7 @@
         ],
         "neg_hits": []
       },
-      "text_hash": "569146ede7b685e8de4ae342466963c1d34c8a34",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "Get to know Okta Okta is The World’s Identity Company. We free everyone to safely use any technology, anywhere, on any device or app. Our flexible and neutral products, Okta Platform and Auth0 Platform, provide secure access, authentication, and automation, placing identity at the core of business security and growth. At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box - we’re looking for lifelong learners and people who can make us better with their unique experiences.&nbsp; Join our team! We’re building a world where Ide"
-    },
-    {
-      "job_uid": "9c43d10d17796a1b",
-      "source": "greenhouse",
-      "job_id": "9c43d10d17796a1b",
-      "company": "okta",
-      "title": "Product Marketing Intern (Summer 2026)",
-      "location": "Chicago, Illinois",
-      "url": "https://www.okta.com/company/careers/opportunity/7594992?gh_jid=7594992",
-      "departments": [
-        "Interns"
-      ],
-      "created_at": null,
-      "updated_at": "2026-03-05T13:07:56-05:00",
-      "scores": {
-        "hard_raw": 4.0,
-        "hard_norm": 0.4,
-        "semantic_raw": 0.4193667173381426,
-        "semantic_norm": 0.604194532858756,
-        "final": 0.5123069930723159
-      },
-      "signals": {
-        "must_hits": [
-          "machine learning"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": []
-      },
-      "text_hash": "186fcd3a286c74789ffff4376740d5d53cf0a49a",
+      "text_hash": "a659b7f912c1a2f8171c6e5afa87738803a2f76a",
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1",
       "hard_gate": {
         "hit": false,
@@ -925,42 +816,6 @@
       "jd_excerpt": "Ready to be pushed beyond what you think you’re capable of? At Coinbase, our mission is to increase economic freedom in the world. It’s a massive, ambitious opportunity that demands the best of us, every day, as we build the emerging onchain platform — and with it, the future global financial system. To achieve our mission, we’re seeking a very specific candidate. We want someone who is passionate about our mission and who believes in the power of crypto and blockchain technology to update the financial system. We want someone who is eager to leave their mark on the world, who relishes the pre"
     },
     {
-      "job_uid": "ed2e35a4886b9aa3",
-      "source": "greenhouse",
-      "job_id": "ed2e35a4886b9aa3",
-      "company": "okta",
-      "title": "Global Partner Marketing Intern (Summer 2026)",
-      "location": "San Francisco, California",
-      "url": "https://www.okta.com/company/careers/opportunity/7560998?gh_jid=7560998",
-      "departments": [
-        "Partner Marketing-122"
-      ],
-      "created_at": null,
-      "updated_at": "2026-03-05T13:07:56-05:00",
-      "scores": {
-        "hard_raw": 3.0,
-        "hard_norm": 0.3,
-        "semantic_raw": 0.43167903612087927,
-        "semantic_norm": 0.6353384445917682,
-        "final": 0.48443614452547257
-      },
-      "signals": {
-        "must_hits": [
-          "machine learning",
-          "cloud"
-        ],
-        "nice_hits": [],
-        "neg_hits": []
-      },
-      "text_hash": "fd5b128381089c6770ddf1d0e71cee9e2cb8d715",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "Get to know Okta Okta is The World’s Identity Company. We free everyone to safely use any technology, anywhere, on any device or app. Our flexible and neutral products, Okta Platform and Auth0 Platform, provide secure access, authentication, and automation, placing identity at the core of business security and growth. At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box - we’re looking for lifelong learners and people who can make us better with their unique experiences.&nbsp; Join our team! We’re building a world where Ide"
-    },
-    {
       "job_uid": "b9687758003a7afe",
       "source": "greenhouse",
       "job_id": "b9687758003a7afe",
@@ -1025,48 +880,13 @@
         "nice_hits": [],
         "neg_hits": []
       },
-      "text_hash": "4c4062eb63d1ed870c47bb7d27759a2277f44911",
+      "text_hash": "0147f593437df589de88cbed8f52b68324c7b185",
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0",
       "hard_gate": {
         "hit": false,
         "reason": ""
       },
       "jd_excerpt": "Get to know Okta Okta is The World’s Identity Company. We free everyone to safely use any technology, anywhere, on any device or app. Our flexible and neutral products, Okta Platform and Auth0 Platform, provide secure access, authentication, and automation, placing identity at the core of business security and growth. At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box - we’re looking for lifelong learners and people who can make us better with their unique experiences.&nbsp; Join our team! We’re building a world where Ide"
-    },
-    {
-      "job_uid": "05413f176349337a",
-      "source": "greenhouse",
-      "job_id": "05413f176349337a",
-      "company": "togetherai",
-      "title": "GTM Engineer Intern (Summer 2026)",
-      "location": "San Francisco",
-      "url": "https://job-boards.greenhouse.io/togetherai/jobs/5014290007",
-      "departments": [
-        "Revenue Operations"
-      ],
-      "created_at": null,
-      "updated_at": "2026-03-08T21:03:24-04:00",
-      "scores": {
-        "hard_raw": 1.0,
-        "hard_norm": 0.1,
-        "semantic_raw": 0.47822296619367455,
-        "semantic_norm": 0.7530709428704103,
-        "final": 0.4591890185787257
-      },
-      "signals": {
-        "must_hits": [
-          "cloud"
-        ],
-        "nice_hits": [],
-        "neg_hits": []
-      },
-      "text_hash": "70997be223f52afd8a7fe7ec265fd4425bb5ca72",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "About Together AI Together AI is a research-driven artificial intelligence company. We believe open and transparent AI systems will drive innovation and create the best outcomes for society, and together we are on a mission to significantly lower the cost of modern AI systems by co-designing software, algorithms, and models. We have contributed to leading open-source research, models, and datasets to advance the frontier of AI, and our team has been behind technological advancements such as FlashAttention, Mamba, FlexGen, SWARM Parallelism, Mixture of Agents, and RedPajama. Role Overview As a "
     },
     {
       "job_uid": "f3754782a3cf48aa",
@@ -1095,7 +915,7 @@
         "nice_hits": [],
         "neg_hits": []
       },
-      "text_hash": "5c055aecefd2cdc390657c2b109a7da4bd8854a6",
+      "text_hash": "1680f83283ab1390ed61b9614efc115a25e3e06b",
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0",
       "hard_gate": {
         "hit": false,
@@ -1115,7 +935,7 @@
         "Internship"
       ],
       "created_at": null,
-      "updated_at": "2026-03-05T18:41:36-05:00",
+      "updated_at": "2026-03-09T20:43:51-04:00",
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.2,
@@ -1176,6 +996,39 @@
       "jd_excerpt": "Company Description: At Databricks, we are obsessed with enabling data teams to solve the world’s toughest problems, from security threat detection to cancer drug development. We do this by building and running the world’s best data and AI platform, so our customers can focus on the high value challenges that are central to their own missions. The Mosaic AI organization enables companies to develop AI models and systems using their own data, with technologies ranging from fine-tuning LLMs for enterprise domains, to a platform for building compound AI systems that use retrieval and agents. Mosa"
     },
     {
+      "job_uid": "fa1e7c7a851db551",
+      "source": "lever",
+      "job_id": "fa1e7c7a851db551",
+      "company": "shieldai",
+      "title": "Marketing Video Editor Intern - 2026 Summer Intern (R4110)",
+      "location": "San Diego, California",
+      "url": "https://jobs.lever.co/shieldai/a5208a9f-4392-473c-b034-1670c3d0c565",
+      "departments": [
+        "Business Development Marketing"
+      ],
+      "created_at": 1764830857226,
+      "updated_at": 1764830857226,
+      "scores": {
+        "hard_raw": 0.0,
+        "hard_norm": 0.0,
+        "semantic_raw": 0.4882112436415585,
+        "semantic_norm": 0.7783362106636629,
+        "final": 0.4280849158650146
+      },
+      "signals": {
+        "must_hits": [],
+        "nice_hits": [],
+        "neg_hits": []
+      },
+      "text_hash": "b7b72cd269a84281da7cb2bab8020dc2e9a7d9cf",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=0",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Founded in 2015, Shield AI is a venture-backed deep-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include the V-BAT and X-BAT aircraft, Hivemind Enterprise, and the Hivemind Vision product lines. With offices and facilities across the U.S., Europe, the Middle East, and the Asia-Pacific, Shield AI’s technology actively supports operations worldwide. For more information, visit www.shield.ai. Follow Shield AI on LinkedIn, X, Instagram, and YouTube. Job Description: Our 2026 Summer Internship program is a wonderful opportunity for"
+    },
+    {
       "job_uid": "80edd7620280a1ef",
       "source": "greenhouse",
       "job_id": "80edd7620280a1ef",
@@ -1204,7 +1057,7 @@
         "nice_hits": [],
         "neg_hits": []
       },
-      "text_hash": "4ffd130e8b8753a9ccb9562019c9b28cd2bd3733",
+      "text_hash": "60d5e61660a58e15e47f1882c7e411c2dc09d3f8",
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=0",
       "hard_gate": {
         "hit": false,
@@ -1261,7 +1114,7 @@
         "Internship"
       ],
       "created_at": null,
-      "updated_at": "2026-03-05T18:41:37-05:00",
+      "updated_at": "2026-03-09T20:43:51-04:00",
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.2,
@@ -1426,7 +1279,7 @@
         "nice_hits": [],
         "neg_hits": []
       },
-      "text_hash": "77e86e9fa0f569f1826460a1aec20ac90ed9e875",
+      "text_hash": "4fc8403d1e2b0f27a94b42392a217d424a1ad48b",
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0",
       "hard_gate": {
         "hit": false,
@@ -1462,7 +1315,7 @@
         "nice_hits": [],
         "neg_hits": []
       },
-      "text_hash": "3de2578726ff91500df36e5bb3ab6c6f83e0acd6",
+      "text_hash": "ff1e49238706436ab8b694b979dcf7cd31815c73",
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0",
       "hard_gate": {
         "hit": false,
@@ -1537,6 +1390,41 @@
         "reason": ""
       },
       "jd_excerpt": "Who We Are; What We Do; Where We’re Going Magnet Forensics is a global leader in the development of digital investigative software that acquires, analyzes, and shares evidence from computers, smartphones, tablets, and IoT-related devices. We are continually innovating so our customers can deploy advanced and effective tools to protect their companies, communities, and countries. Serving thousands of customers globally, our solutions are playing a crucial role in modernizing digital investigations, helping investigators fight crime, protect assets, and guard national security. With employees ba"
+    },
+    {
+      "job_uid": "05413f176349337a",
+      "source": "greenhouse",
+      "job_id": "05413f176349337a",
+      "company": "togetherai",
+      "title": "Revenue Systems Intern (Summer 2026)",
+      "location": "San Francisco",
+      "url": "https://job-boards.greenhouse.io/togetherai/jobs/5014290007",
+      "departments": [
+        "Revenue Operations"
+      ],
+      "created_at": null,
+      "updated_at": "2026-03-10T11:26:37-04:00",
+      "scores": {
+        "hard_raw": 1.0,
+        "hard_norm": 0.1,
+        "semantic_raw": 0.4241256713862946,
+        "semantic_norm": 0.6162322690019201,
+        "final": 0.38392774795105605
+      },
+      "signals": {
+        "must_hits": [
+          "cloud"
+        ],
+        "nice_hits": [],
+        "neg_hits": []
+      },
+      "text_hash": "fb7cae296f65cbeb3ef634a8b000c3a9aca98686",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "About Together AI Together AI is a research-driven artificial intelligence company. We believe open and transparent AI systems will drive innovation and create the best outcomes for society, and together we are on a mission to significantly lower the cost of modern AI systems by co-designing software, algorithms, and models. We have contributed to leading open-source research, models, and datasets to advance the frontier of AI, and our team has been behind technological advancements such as FlashAttention, Mamba, FlexGen, SWARM Parallelism, Mixture of Agents, and RedPajama. Role Overview As a "
     },
     {
       "job_uid": "609c9f7aff473916",
@@ -1647,41 +1535,6 @@
         "reason": ""
       },
       "jd_excerpt": "Ready to be pushed beyond what you think you’re capable of? At Coinbase, our mission is to increase economic freedom in the world. It’s a massive, ambitious opportunity that demands the best of us, every day, as we build the emerging onchain platform — and with it, the future global financial system. To achieve our mission, we’re seeking a very specific candidate. We want someone who is passionate about our mission and who believes in the power of crypto and blockchain technology to update the financial system. We want someone who is eager to leave their mark on the world, who relishes the pre"
-    },
-    {
-      "job_uid": "85ab53eaeeabed19",
-      "source": "greenhouse",
-      "job_id": "85ab53eaeeabed19",
-      "company": "togetherai",
-      "title": "Product Marketing Intern (Summer 2026)",
-      "location": "San Francisco",
-      "url": "https://job-boards.greenhouse.io/togetherai/jobs/5014289007",
-      "departments": [
-        "Marketing"
-      ],
-      "created_at": null,
-      "updated_at": "2026-02-26T17:00:40-05:00",
-      "scores": {
-        "hard_raw": 1.0,
-        "hard_norm": 0.1,
-        "semantic_raw": 0.40902075171429736,
-        "semantic_norm": 0.578024495689673,
-        "final": 0.3629134726293201
-      },
-      "signals": {
-        "must_hits": [
-          "cloud"
-        ],
-        "nice_hits": [],
-        "neg_hits": []
-      },
-      "text_hash": "18c051a3a0c287cbda7d6fee602ac411376c0d62",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "About Together AI Together AI is a research-driven AI company. We believe open and transparent AI systems will drive innovation and create the best outcomes for society, and together we are on a mission to lower the cost of modern AI systems by co-designing software, hardware, algorithms, and models. We have contributed to leading open-source research, models, and datasets to advance the frontier of AI. We invite you to join a passionate group of researchers and engineers in our journey in building the next generation AI infrastructure. Role Overview It’s an exciting time to join Together AI’s"
     },
     {
       "job_uid": "b230852d1c35c17a",
@@ -2020,7 +1873,7 @@
         "nice_hits": [],
         "neg_hits": []
       },
-      "text_hash": "fe29f58b960003b8bad45ac881d50142a4603239",
+      "text_hash": "2b0a78b16944c8b7887b4efc8b2827ab25ddb6ca",
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0",
       "hard_gate": {
         "hit": false,

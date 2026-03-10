@@ -78,32 +78,14 @@
   - nice_hits: mlflow
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1
 
-- okta | Events Marketing Intern (Summer 2026) | San Francisco, California | score=0.524
-  - url: https://www.okta.com/company/careers/opportunity/7611453?gh_jid=7611453
-  - must_hits: machine learning, llm
-  - nice_hits: None
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0
-
 - databricks | MBA Intern - Strategy & Execution | San Francisco, California | score=0.521
   - url: https://databricks.com/company/careers/open-positions/job?gh_jid=7295056002
   - must_hits: sql
   - nice_hits: mlflow
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1
 
-- okta | Paid Media Intern (Summer 2026) | Chicago, Illinois; San Francisco, California | score=0.518
-  - url: https://www.okta.com/company/careers/opportunity/7607650?gh_jid=7607650
-  - must_hits: machine learning, git
-  - nice_hits: None
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0
-
 - okta | Business Analyst Intern (Summer 2026) | Chicago, Illinois | score=0.513
   - url: https://www.okta.com/company/careers/opportunity/7617090?gh_jid=7617090
-  - must_hits: machine learning
-  - nice_hits: rag
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1
-
-- okta | Product Marketing Intern (Summer 2026) | Chicago, Illinois | score=0.512
-  - url: https://www.okta.com/company/careers/opportunity/7594992?gh_jid=7594992
   - must_hits: machine learning
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1
@@ -126,12 +108,6 @@
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=4, nice_hits=1
 
-- okta | Global Partner Marketing Intern (Summer 2026) | San Francisco, California | score=0.484
-  - url: https://www.okta.com/company/careers/opportunity/7560998?gh_jid=7560998
-  - must_hits: machine learning, cloud
-  - nice_hits: None
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0
-
 - databricks | MBA Intern - Product Pricing & Commercialization | San Francisco, California | score=0.476
   - url: https://databricks.com/company/careers/open-positions/job?gh_jid=8402615002
   - must_hits: sql, cloud
@@ -141,12 +117,6 @@
 - okta | Recruiting Programs Intern (Summer 2026) | San Francisco, California | score=0.463
   - url: https://www.okta.com/company/careers/opportunity/7544487?gh_jid=7544487
   - must_hits: machine learning
-  - nice_hits: None
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0
-
-- togetherai | GTM Engineer Intern (Summer 2026) | San Francisco | score=0.459
-  - url: https://job-boards.greenhouse.io/togetherai/jobs/5014290007
-  - must_hits: cloud
   - nice_hits: None
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0
 
@@ -167,6 +137,12 @@
   - must_hits: llm
   - nice_hits: mlflow
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1
+
+- shieldai | Marketing Video Editor Intern - 2026 Summer Intern (R4110) | San Diego, California | score=0.428
+  - url: https://jobs.lever.co/shieldai/a5208a9f-4392-473c-b034-1670c3d0c565
+  - must_hits: None
+  - nice_hits: None
+  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=0
 
 - okta | Customer Success Intern (Summer 2026) | Chicago, Illinois | score=0.428
   - url: https://www.okta.com/company/careers/opportunity/7565237?gh_jid=7565237
@@ -228,6 +204,12 @@
   - nice_hits: None
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0
 
+- togetherai | Revenue Systems Intern (Summer 2026) | San Francisco | score=0.384
+  - url: https://job-boards.greenhouse.io/togetherai/jobs/5014290007
+  - must_hits: cloud
+  - nice_hits: None
+  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0
+
 - notion | Software Engineer, Fullstack, Early Career | San Francisco, California | score=0.381
   - url: https://jobs.ashbyhq.com/notion/f7399542-9122-481a-bf64-43bf8093748b/application
   - must_hits: None
@@ -245,12 +227,6 @@
   - must_hits: machine learning
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1
-
-- togetherai | Product Marketing Intern (Summer 2026) | San Francisco | score=0.363
-  - url: https://job-boards.greenhouse.io/togetherai/jobs/5014289007
-  - must_hits: cloud
-  - nice_hits: None
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0
 
 - ramp | Software Engineer Internship, Android  | New York, NY (HQ) | score=0.360
   - url: https://jobs.ashbyhq.com/ramp/67fadb77-43d8-4449-954b-d4cf2c6d3b8b/application
