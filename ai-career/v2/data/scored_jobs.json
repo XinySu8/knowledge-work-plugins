@@ -4,9 +4,458 @@
     "model_name": "sentence-transformers/all-MiniLM-L6-v2",
     "jobs_total": 160,
     "jobs_scored": 160,
-    "non_gated_count": 58
+    "non_gated_count": 60
   },
   "scored_jobs": [
+    {
+      "job_uid": "350a88175f7fa454",
+      "source": "greenhouse",
+      "company": "databricks",
+      "title": "Legal Intern",
+      "location": "Mountain View, California; San Francisco, California",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8377581002",
+      "updated_at": "2026-03-10T23:56:47-04:00",
+      "created_at": null,
+      "departments": [
+        "Legal"
+      ],
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "hard": {
+        "raw": 4.0,
+        "must_hits": [
+          "cloud"
+        ],
+        "nice_hits": [
+          "rag",
+          "mlflow"
+        ],
+        "neg_hits": [],
+        "norm": 0.4
+      },
+      "semantic": {
+        "raw": 0.4998748302380111,
+        "cache_reused": true,
+        "norm": 0.8078391595281437
+      },
+      "text_hash": "cceb9c47fac719f161a36511ad7aee76c9dd4b03",
+      "final_score": 0.6243115377404791,
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=2"
+    },
+    {
+      "job_uid": "6cf1094c2066f75b",
+      "source": "greenhouse",
+      "company": "cloudflare",
+      "title": "Technical Program Manager Intern (Summer 2026)",
+      "location": "In-Office",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7702175?gh_jid=7702175",
+      "updated_at": "2026-03-10T20:16:01-04:00",
+      "created_at": null,
+      "departments": [
+        "Engineering"
+      ],
+      "hard_gate": {
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
+      },
+      "hard": {
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
+      },
+      "text_hash": "8265f62747f54e233af5b0fecad2e60da419af05",
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
+    },
+    {
+      "job_uid": "3a22be8e7f95b798",
+      "source": "greenhouse",
+      "company": "anthropic",
+      "title": "Regional Head of Early Career Associates, Applied AI",
+      "location": "San Francisco, CA",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4947472008",
+      "updated_at": "2026-03-10T20:02:20-04:00",
+      "created_at": null,
+      "departments": [
+        "Sales"
+      ],
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "hard": {
+        "raw": 1.0,
+        "must_hits": [
+          "git"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": [
+          "5+ years"
+        ],
+        "norm": 0.1
+      },
+      "semantic": {
+        "raw": 0.575842985610742,
+        "cache_reused": true,
+        "norm": 1.0
+      },
+      "text_hash": "778c734fec934fbcff84f61beeae203acfe3abbe",
+      "final_score": 0.5950000000000001,
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
+    },
+    {
+      "job_uid": "89c8482e1295c12a",
+      "source": "greenhouse",
+      "company": "cloudflare",
+      "title": "Product Design Intern (Summer 2026)",
+      "location": "In-Office",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7488659?gh_jid=7488659",
+      "updated_at": "2026-03-10T17:51:48-04:00",
+      "created_at": null,
+      "departments": [
+        "Product Experience"
+      ],
+      "hard_gate": {
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
+      },
+      "hard": {
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
+      },
+      "text_hash": "561b8fe136f251c3ca0d0296398bc05fa075f705",
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
+    },
+    {
+      "job_uid": "20154ebf9b416ee5",
+      "source": "greenhouse",
+      "company": "asana",
+      "title": "Product Design Intern - Summer 2026 (New York)",
+      "location": "New York City",
+      "url": "https://www.asana.com/jobs/apply/7490328?gh_jid=7490328",
+      "updated_at": "2026-03-10T17:43:52-04:00",
+      "created_at": null,
+      "departments": [
+        "Internship"
+      ],
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "hard": {
+        "raw": 2.0,
+        "must_hits": [],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": [],
+        "norm": 0.2
+      },
+      "semantic": {
+        "raw": 0.4066547155376182,
+        "cache_reused": false,
+        "norm": 0.5720396261339132
+      },
+      "text_hash": "95a9e26a46c379eda417ac6214b58d6b84b02fe4",
+      "final_score": 0.4046217943736523,
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1"
+    },
+    {
+      "job_uid": "1f97d174e9d7ccca",
+      "source": "greenhouse",
+      "company": "asana",
+      "title": "Product Design Intern - Summer 2026 (San Francisco)",
+      "location": "San Francisco",
+      "url": "https://www.asana.com/jobs/apply/7490322?gh_jid=7490322",
+      "updated_at": "2026-03-10T17:09:23-04:00",
+      "created_at": null,
+      "departments": [
+        "Internship"
+      ],
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "hard": {
+        "raw": 2.0,
+        "must_hits": [],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": [],
+        "norm": 0.2
+      },
+      "semantic": {
+        "raw": 0.4271014034743806,
+        "cache_reused": true,
+        "norm": 0.6237593594816098
+      },
+      "text_hash": "4085c4b7198e58d55fa17e8fec5d2a53c89a58c1",
+      "final_score": 0.43306764771488543,
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1"
+    },
+    {
+      "job_uid": "bc183bb0685ead5e",
+      "source": "greenhouse",
+      "company": "asana",
+      "title": "Product Design Intern - Summer 2026 (Warsaw)",
+      "location": "Warsaw",
+      "url": "https://www.asana.com/jobs/apply/7490332?gh_jid=7490332",
+      "updated_at": "2026-03-10T17:09:23-04:00",
+      "created_at": null,
+      "departments": [
+        "Internship"
+      ],
+      "hard_gate": {
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
+      },
+      "hard": {
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
+      },
+      "text_hash": "ab6ebfeaeb7f7caf1500097f6d59c6641b8b5484",
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
+    },
+    {
+      "job_uid": "a5861061367b4e31",
+      "source": "greenhouse",
+      "company": "asana",
+      "title": "Software Engineering Intern - Summer 2026 (Reykjavik)",
+      "location": "Reykjavík",
+      "url": "https://www.asana.com/jobs/apply/7490314?gh_jid=7490314",
+      "updated_at": "2026-03-10T17:09:23-04:00",
+      "created_at": null,
+      "departments": [
+        "Internship"
+      ],
+      "hard_gate": {
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
+      },
+      "hard": {
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
+      },
+      "text_hash": "9634866656e3b846bc4a6c6a66ff070fb0fa625b",
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
+    },
+    {
+      "job_uid": "4d39332fe9456ee6",
+      "source": "greenhouse",
+      "company": "asana",
+      "title": "Software Engineering Intern - Summer 2026 (Warsaw)",
+      "location": "Warsaw",
+      "url": "https://www.asana.com/jobs/apply/7490274?gh_jid=7490274",
+      "updated_at": "2026-03-10T17:09:23-04:00",
+      "created_at": null,
+      "departments": [
+        "Internship"
+      ],
+      "hard_gate": {
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
+      },
+      "hard": {
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
+      },
+      "text_hash": "51ea3fd9860bc4b9749190f6625d344b3efd3bfc",
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
+    },
+    {
+      "job_uid": "6b91127006efba1a",
+      "source": "greenhouse",
+      "company": "asana",
+      "title": "Product Design Intern - Summer 2026 (Vancouver, BC)",
+      "location": "Vancouver, BC",
+      "url": "https://www.asana.com/jobs/apply/7078126?gh_jid=7078126",
+      "updated_at": "2026-03-10T17:09:17-04:00",
+      "created_at": null,
+      "departments": [
+        "Internship"
+      ],
+      "hard_gate": {
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
+      },
+      "hard": {
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
+      },
+      "text_hash": "aa35cbf0bbdb8ff43fd68e9e67fcea4fdc36620c",
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
+    },
+    {
+      "job_uid": "2abc79358eaa7bcf",
+      "source": "greenhouse",
+      "company": "okta",
+      "title": "IT Systems Engineer Intern (Summer 2026)",
+      "location": "San Francisco, California",
+      "url": "https://www.okta.com/company/careers/opportunity/7545063?gh_jid=7545063",
+      "updated_at": "2026-03-10T13:22:19-04:00",
+      "created_at": null,
+      "departments": [
+        "BT Operations-165"
+      ],
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "hard": {
+        "raw": 7.0,
+        "must_hits": [
+          "python",
+          "machine learning"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": [],
+        "norm": 0.7
+      },
+      "semantic": {
+        "raw": 0.49515873193691323,
+        "cache_reused": false,
+        "norm": 0.7959098266538567
+      },
+      "text_hash": "51083de3e83a02804a18f38b7f6c259b2a6045dc",
+      "final_score": 0.7527504046596212,
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1"
+    },
+    {
+      "job_uid": "3fcd39dbfc402fc7",
+      "source": "greenhouse",
+      "company": "togetherai",
+      "title": "Software Engineer - Storage & Observability (Early Career)",
+      "location": "San Francisco",
+      "url": "https://job-boards.greenhouse.io/togetherai/jobs/5073769007",
+      "updated_at": "2026-03-10T13:20:35-04:00",
+      "created_at": null,
+      "departments": [
+        "Engineering"
+      ],
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "hard": {
+        "raw": 8.0,
+        "must_hits": [
+          "python",
+          "git",
+          "docker",
+          "cloud"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": [],
+        "norm": 0.8
+      },
+      "semantic": {
+        "raw": 0.5012938976282828,
+        "cache_reused": false,
+        "norm": 0.8114286791243862
+      },
+      "text_hash": "df1a1a167e4e23a7c8478a6a6513ca0a61547cad",
+      "final_score": 0.8062857735184126,
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=4, nice_hits=1"
+    },
+    {
+      "job_uid": "8adc1b9d7b21b1a3",
+      "source": "greenhouse",
+      "company": "okta",
+      "title": "Executive IT Support Engineer Intern (Summer 2026)",
+      "location": "San Francisco, California",
+      "url": "https://www.okta.com/company/careers/opportunity/7544477?gh_jid=7544477",
+      "updated_at": "2026-03-10T12:35:16-04:00",
+      "created_at": null,
+      "departments": [
+        "BT Operations-165"
+      ],
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "hard": {
+        "raw": 7.0,
+        "must_hits": [
+          "python",
+          "docker",
+          "cloud"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": [],
+        "norm": 0.7
+      },
+      "semantic": {
+        "raw": 0.4538413286204568,
+        "cache_reused": false,
+        "norm": 0.6913977859382429
+      },
+      "text_hash": "158abda9076cb78afaf4e72a5ad91e325fae3969",
+      "final_score": 0.6952687822660336,
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1"
+    },
     {
       "job_uid": "05413f176349337a",
       "source": "greenhouse",
@@ -34,7 +483,7 @@
       },
       "semantic": {
         "raw": 0.4241256713862946,
-        "cache_reused": false,
+        "cache_reused": true,
         "norm": 0.6162322690019201
       },
       "text_hash": "fb7cae296f65cbeb3ef634a8b000c3a9aca98686",
@@ -74,202 +523,6 @@
       "text_hash": "50ca310d0dc25f47feee47e403a71aa73c2880bc",
       "final_score": 0.269235102131165,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1"
-    },
-    {
-      "job_uid": "20154ebf9b416ee5",
-      "source": "greenhouse",
-      "company": "asana",
-      "title": "Product Design Intern - Summer 2026 (New York)",
-      "location": "New York City",
-      "url": "https://www.asana.com/jobs/apply/7490328?gh_jid=7490328",
-      "updated_at": "2026-03-09T20:43:51-04:00",
-      "created_at": null,
-      "departments": [
-        "Internship"
-      ],
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "hard": {
-        "raw": 2.0,
-        "must_hits": [],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": [],
-        "norm": 0.2
-      },
-      "semantic": {
-        "raw": 0.4204093217845527,
-        "cache_reused": true,
-        "norm": 0.6068317924541597
-      },
-      "text_hash": "41cb3695a432dcb07eab1d31dc5a9813ff77fba6",
-      "final_score": 0.4237574858497879,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1"
-    },
-    {
-      "job_uid": "1f97d174e9d7ccca",
-      "source": "greenhouse",
-      "company": "asana",
-      "title": "Product Design Intern - Summer 2026 (San Francisco)",
-      "location": "San Francisco",
-      "url": "https://www.asana.com/jobs/apply/7490322?gh_jid=7490322",
-      "updated_at": "2026-03-09T20:43:51-04:00",
-      "created_at": null,
-      "departments": [
-        "Internship"
-      ],
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "hard": {
-        "raw": 2.0,
-        "must_hits": [],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": [],
-        "norm": 0.2
-      },
-      "semantic": {
-        "raw": 0.4271014034743806,
-        "cache_reused": true,
-        "norm": 0.6237593594816098
-      },
-      "text_hash": "4085c4b7198e58d55fa17e8fec5d2a53c89a58c1",
-      "final_score": 0.43306764771488543,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1"
-    },
-    {
-      "job_uid": "bc183bb0685ead5e",
-      "source": "greenhouse",
-      "company": "asana",
-      "title": "Product Design Intern - Summer 2026 (Warsaw)",
-      "location": "Warsaw",
-      "url": "https://www.asana.com/jobs/apply/7490332?gh_jid=7490332",
-      "updated_at": "2026-03-09T20:43:51-04:00",
-      "created_at": null,
-      "departments": [
-        "Internship"
-      ],
-      "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
-      },
-      "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.0
-      },
-      "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
-      },
-      "text_hash": "ab6ebfeaeb7f7caf1500097f6d59c6641b8b5484",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
-    },
-    {
-      "job_uid": "a5861061367b4e31",
-      "source": "greenhouse",
-      "company": "asana",
-      "title": "Software Engineering Intern - Summer 2026 (Reykjavik)",
-      "location": "Reykjavík",
-      "url": "https://www.asana.com/jobs/apply/7490314?gh_jid=7490314",
-      "updated_at": "2026-03-09T20:43:51-04:00",
-      "created_at": null,
-      "departments": [
-        "Internship"
-      ],
-      "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
-      },
-      "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.0
-      },
-      "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
-      },
-      "text_hash": "9634866656e3b846bc4a6c6a66ff070fb0fa625b",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
-    },
-    {
-      "job_uid": "4d39332fe9456ee6",
-      "source": "greenhouse",
-      "company": "asana",
-      "title": "Software Engineering Intern - Summer 2026 (Warsaw)",
-      "location": "Warsaw",
-      "url": "https://www.asana.com/jobs/apply/7490274?gh_jid=7490274",
-      "updated_at": "2026-03-09T20:43:51-04:00",
-      "created_at": null,
-      "departments": [
-        "Internship"
-      ],
-      "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
-      },
-      "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.0
-      },
-      "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
-      },
-      "text_hash": "51ea3fd9860bc4b9749190f6625d344b3efd3bfc",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
-    },
-    {
-      "job_uid": "6b91127006efba1a",
-      "source": "greenhouse",
-      "company": "asana",
-      "title": "Product Design Intern - Summer 2026 (Vancouver, BC)",
-      "location": "Vancouver, BC",
-      "url": "https://www.asana.com/jobs/apply/7078126?gh_jid=7078126",
-      "updated_at": "2026-03-09T20:43:49-04:00",
-      "created_at": null,
-      "departments": [
-        "Internship"
-      ],
-      "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
-      },
-      "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.0
-      },
-      "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
-      },
-      "text_hash": "aa35cbf0bbdb8ff43fd68e9e67fcea4fdc36620c",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "9bca1745ea2a7cc3",
@@ -503,40 +756,36 @@
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1"
     },
     {
-      "job_uid": "1254231df3fa18cd",
+      "job_uid": "acdb4e432b539db6",
       "source": "greenhouse",
       "company": "stripe",
       "title": "Software Engineer, Intern",
-      "location": "Singapore",
-      "url": "https://stripe.com/jobs/search?gh_jid=7206401",
+      "location": "London",
+      "url": "https://stripe.com/jobs/search?gh_jid=7360840",
       "updated_at": "2026-03-06T18:52:06-05:00",
       "created_at": null,
       "departments": [
         "5112 General University"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 3.0,
-        "must_hits": [
-          "git"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.3
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.3415982425209444,
-        "cache_reused": true,
-        "norm": 0.40747979877359164
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
       },
-      "text_hash": "2b1d064990c9520a7e0f962a687e84161edd81d2",
-      "final_score": 0.3591138893254754,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
+      "text_hash": "0504ebea54da571d1dcdb616371e118fe6fb2ee6",
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "867837af4b70f7ea",
@@ -571,36 +820,40 @@
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
-      "job_uid": "acdb4e432b539db6",
+      "job_uid": "1254231df3fa18cd",
       "source": "greenhouse",
       "company": "stripe",
       "title": "Software Engineer, Intern",
-      "location": "London",
-      "url": "https://stripe.com/jobs/search?gh_jid=7360840",
+      "location": "Singapore",
+      "url": "https://stripe.com/jobs/search?gh_jid=7206401",
       "updated_at": "2026-03-06T18:52:06-05:00",
       "created_at": null,
       "departments": [
         "5112 General University"
       ],
       "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
+        "hit": false,
+        "reason": ""
       },
       "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
+        "raw": 3.0,
+        "must_hits": [
+          "git"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
         "neg_hits": [],
-        "norm": 0.0
+        "norm": 0.3
       },
       "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
+        "raw": 0.3415982425209444,
+        "cache_reused": true,
+        "norm": 0.40747979877359164
       },
-      "text_hash": "0504ebea54da571d1dcdb616371e118fe6fb2ee6",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
+      "text_hash": "2b1d064990c9520a7e0f962a687e84161edd81d2",
+      "final_score": 0.3591138893254754,
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
     },
     {
       "job_uid": "b35597b79d3ae32f",
@@ -671,38 +924,6 @@
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
-      "job_uid": "db53ab408d50d1f5",
-      "source": "greenhouse",
-      "company": "stripe",
-      "title": "University Recruiter (Fixed Term Contract)",
-      "location": "Bangalore",
-      "url": "https://stripe.com/jobs/search?gh_jid=7419549",
-      "updated_at": "2026-03-06T18:52:06-05:00",
-      "created_at": null,
-      "departments": [
-        "6526 University Recruiting"
-      ],
-      "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
-      },
-      "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.0
-      },
-      "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
-      },
-      "text_hash": "5874c0f042a5f30e5c85d288bd5a5b032b23ea49",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
-    },
-    {
       "job_uid": "a6a52afeab312964",
       "source": "greenhouse",
       "company": "togetherai",
@@ -767,50 +988,12 @@
       },
       "semantic": {
         "raw": 0.3742569088932109,
-        "cache_reused": false,
+        "cache_reused": true,
         "norm": 0.49008963374975295
       },
       "text_hash": "4fc8403d1e2b0f27a94b42392a217d424a1ad48b",
       "final_score": 0.40454929856236416,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0"
-    },
-    {
-      "job_uid": "3a22be8e7f95b798",
-      "source": "greenhouse",
-      "company": "anthropic",
-      "title": "Regional Head of Early Career Associates, Applied AI",
-      "location": "San Francisco, CA",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4947472008",
-      "updated_at": "2026-03-06T09:54:14-05:00",
-      "created_at": null,
-      "departments": [
-        "Sales"
-      ],
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "hard": {
-        "raw": 1.0,
-        "must_hits": [
-          "git"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": [
-          "5+ years"
-        ],
-        "norm": 0.1
-      },
-      "semantic": {
-        "raw": 0.575842985610742,
-        "cache_reused": true,
-        "norm": 1.0
-      },
-      "text_hash": "778c734fec934fbcff84f61beeae203acfe3abbe",
-      "final_score": 0.5950000000000001,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
     },
     {
       "job_uid": "e74e57654663fbbb",
@@ -1171,7 +1354,7 @@
       },
       "semantic": {
         "raw": 0.4201331734653086,
-        "cache_reused": false,
+        "cache_reused": true,
         "norm": 0.6061332774927198
       },
       "text_hash": "a659b7f912c1a2f8171c6e5afa87738803a2f76a",
@@ -1241,7 +1424,7 @@
       },
       "semantic": {
         "raw": 0.45383104406734887,
-        "cache_reused": false,
+        "cache_reused": true,
         "norm": 0.6913717712435408
       },
       "text_hash": "b283e35a75dba4b1c447335dd78dba5b31b358d0",
@@ -1307,7 +1490,7 @@
       },
       "semantic": {
         "raw": 0.34577941894496667,
-        "cache_reused": false,
+        "cache_reused": true,
         "norm": 0.4180560510448115
       },
       "text_hash": "2b0a78b16944c8b7887b4efc8b2827ab25ddb6ca",
@@ -1343,7 +1526,7 @@
       },
       "semantic": {
         "raw": 0.35850694775545505,
-        "cache_reused": false,
+        "cache_reused": true,
         "norm": 0.45025023321697893
       },
       "text_hash": "60d5e61660a58e15e47f1882c7e411c2dc09d3f8",
@@ -1409,7 +1592,7 @@
       },
       "semantic": {
         "raw": 0.4287441457810709,
-        "cache_reused": false,
+        "cache_reused": true,
         "norm": 0.6279146629871837
       },
       "text_hash": "1680f83283ab1390ed61b9614efc115a25e3e06b",
@@ -1446,7 +1629,7 @@
       },
       "semantic": {
         "raw": 0.5071952342981988,
-        "cache_reused": false,
+        "cache_reused": true,
         "norm": 0.8263560629582379
       },
       "text_hash": "a56295ffe431701e2ee44af5d491aeceab5884e0",
@@ -1480,7 +1663,7 @@
       },
       "semantic": {
         "raw": 0.4483478665347384,
-        "cache_reused": false,
+        "cache_reused": true,
         "norm": 0.6775021175978365
       },
       "text_hash": "0147f593437df589de88cbed8f52b68324c7b185",
@@ -1515,7 +1698,7 @@
       },
       "semantic": {
         "raw": 0.3655992964263655,
-        "cache_reused": false,
+        "cache_reused": true,
         "norm": 0.4681902723667358
       },
       "text_hash": "ff1e49238706436ab8b694b979dcf7cd31815c73",
@@ -2010,43 +2193,6 @@
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=2"
     },
     {
-      "job_uid": "350a88175f7fa454",
-      "source": "greenhouse",
-      "company": "databricks",
-      "title": "Legal Intern",
-      "location": "Mountain View, California; San Francisco, California",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8377581002",
-      "updated_at": "2026-02-25T14:16:20-05:00",
-      "created_at": null,
-      "departments": [
-        "Legal"
-      ],
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "hard": {
-        "raw": 4.0,
-        "must_hits": [
-          "cloud"
-        ],
-        "nice_hits": [
-          "rag",
-          "mlflow"
-        ],
-        "neg_hits": [],
-        "norm": 0.4
-      },
-      "semantic": {
-        "raw": 0.4998748302380111,
-        "cache_reused": true,
-        "norm": 0.8078391595281437
-      },
-      "text_hash": "cceb9c47fac719f161a36511ad7aee76c9dd4b03",
-      "final_score": 0.6243115377404791,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=2"
-    },
-    {
       "job_uid": "c00d91b28cf9c131",
       "source": "greenhouse",
       "company": "cloudflare",
@@ -2492,40 +2638,6 @@
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0"
     },
     {
-      "job_uid": "e7c78b9db66d7e52",
-      "source": "greenhouse",
-      "company": "scaleai",
-      "title": "Technical Advisor Intern - GenAI (Winter/Spring 2026)",
-      "location": "San Francisco, CA",
-      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4611533005",
-      "updated_at": "2026-02-12T18:47:24-05:00",
-      "created_at": null,
-      "departments": [
-        "University"
-      ],
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "hard": {
-        "raw": 2.0,
-        "must_hits": [],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": [],
-        "norm": 0.2
-      },
-      "semantic": {
-        "raw": 0.5330088138574992,
-        "cache_reused": true,
-        "norm": 0.8916513056736197
-      },
-      "text_hash": "0a76d15cc71163014f54a01580d4568eec4bd7d5",
-      "final_score": 0.5804082181204909,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1"
-    },
-    {
       "job_uid": "665bd45f4c418939",
       "source": "greenhouse",
       "company": "cloudflare",
@@ -2686,38 +2798,6 @@
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
-      "job_uid": "70317cf07362416d",
-      "source": "greenhouse",
-      "company": "cloudflare",
-      "title": "GRC Team Intern (Summer 2026) ",
-      "location": "In-Office",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/7574862?gh_jid=7574862",
-      "updated_at": "2026-02-06T10:04:45-05:00",
-      "created_at": null,
-      "departments": [
-        "Security"
-      ],
-      "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
-      },
-      "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.0
-      },
-      "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
-      },
-      "text_hash": "be61b3c2e804e0e19d24c8ddb69ccb0788ac04b7",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
-    },
-    {
       "job_uid": "e8b0d073b1a44f2d",
       "source": "greenhouse",
       "company": "cloudflare",
@@ -2750,6 +2830,38 @@
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
+      "job_uid": "70317cf07362416d",
+      "source": "greenhouse",
+      "company": "cloudflare",
+      "title": "GRC Team Intern (Summer 2026) ",
+      "location": "In-Office",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7574862?gh_jid=7574862",
+      "updated_at": "2026-02-06T10:04:45-05:00",
+      "created_at": null,
+      "departments": [
+        "Security"
+      ],
+      "hard_gate": {
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
+      },
+      "hard": {
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
+      },
+      "text_hash": "be61b3c2e804e0e19d24c8ddb69ccb0788ac04b7",
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
+    },
+    {
       "job_uid": "bd3233683f49cc92",
       "source": "greenhouse",
       "company": "cloudflare",
@@ -2778,38 +2890,6 @@
         "norm": 0.0
       },
       "text_hash": "81f455cadafe7a086fae5bfd23e4bd3b7ecea5e6",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
-    },
-    {
-      "job_uid": "89c8482e1295c12a",
-      "source": "greenhouse",
-      "company": "cloudflare",
-      "title": "Product Design Intern (Summer 2026)",
-      "location": "In-Office",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/7488659?gh_jid=7488659",
-      "updated_at": "2026-02-06T10:04:45-05:00",
-      "created_at": null,
-      "departments": [
-        "Product Experience"
-      ],
-      "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
-      },
-      "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.0
-      },
-      "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
-      },
-      "text_hash": "561b8fe136f251c3ca0d0296398bc05fa075f705",
       "final_score": 0.0,
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
@@ -2974,38 +3054,6 @@
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
-      "job_uid": "84bc1484e1b4497d",
-      "source": "greenhouse",
-      "company": "cloudflare",
-      "title": "Research Engineer Intern (Summer 2026)",
-      "location": "In-Office",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/7359147?gh_jid=7359147",
-      "updated_at": "2026-02-06T10:04:45-05:00",
-      "created_at": null,
-      "departments": [
-        "Technology Research"
-      ],
-      "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
-      },
-      "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.0
-      },
-      "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
-      },
-      "text_hash": "39c0ea94ebd055a6b201cbefde606594e0853f2a",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
-    },
-    {
       "job_uid": "204693732bd8fb17",
       "source": "greenhouse",
       "company": "cloudflare",
@@ -3038,16 +3086,16 @@
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
-      "job_uid": "27fa7db8097260ad",
+      "job_uid": "84bc1484e1b4497d",
       "source": "greenhouse",
       "company": "cloudflare",
-      "title": "Security Engineer Intern (Summer 2026)",
+      "title": "Research Engineer Intern (Summer 2026)",
       "location": "In-Office",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/7582169?gh_jid=7582169",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7359147?gh_jid=7359147",
       "updated_at": "2026-02-06T10:04:45-05:00",
       "created_at": null,
       "departments": [
-        "University"
+        "Technology Research"
       ],
       "hard_gate": {
         "hit": true,
@@ -3065,7 +3113,7 @@
         "cache_reused": false,
         "norm": 0.0
       },
-      "text_hash": "6a9548f5a98e5460b4f4d63a8181da7613ff706a",
+      "text_hash": "39c0ea94ebd055a6b201cbefde606594e0853f2a",
       "final_score": 0.0,
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
@@ -3098,6 +3146,38 @@
         "norm": 0.0
       },
       "text_hash": "803601e9589cc1c74f00e50dfae2e2c2c64683e3",
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
+    },
+    {
+      "job_uid": "27fa7db8097260ad",
+      "source": "greenhouse",
+      "company": "cloudflare",
+      "title": "Security Engineer Intern (Summer 2026)",
+      "location": "In-Office",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7582169?gh_jid=7582169",
+      "updated_at": "2026-02-06T10:04:45-05:00",
+      "created_at": null,
+      "departments": [
+        "University"
+      ],
+      "hard_gate": {
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
+      },
+      "hard": {
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
+      },
+      "text_hash": "6a9548f5a98e5460b4f4d63a8181da7613ff706a",
       "final_score": 0.0,
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
@@ -4429,38 +4509,6 @@
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0"
     },
     {
-      "job_uid": "7d08b59526a26bc8",
-      "source": "lever",
-      "company": "cfsenergy",
-      "title": "Intern - Cryogenics Engineer - Fall Co-op 2026",
-      "location": "Devens, MA",
-      "url": "https://jobs.lever.co/cfsenergy/76c6af39-5990-454b-b4e8-913e18c69e03",
-      "updated_at": 1770057872778,
-      "created_at": 1770057872778,
-      "departments": [
-        "Internships"
-      ],
-      "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
-      },
-      "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.0
-      },
-      "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
-      },
-      "text_hash": "b7cea9aca433d1ab265ba251972b1fcd9607559d",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
-    },
-    {
       "job_uid": "7c8fbf61763cad7a",
       "source": "lever",
       "company": "waabi",
@@ -5129,38 +5177,6 @@
         "norm": 0.0
       },
       "text_hash": "d9633f1381b1897070da4cced0ef84c8b3983edd",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
-    },
-    {
-      "job_uid": "588f50cf58695ca9",
-      "source": "lever",
-      "company": "zoox",
-      "title": "System Safety Intern",
-      "location": "Foster City, CA",
-      "url": "https://jobs.lever.co/zoox/06bbad7f-7e48-4cf6-bf87-2c9a9899fd04",
-      "updated_at": 1762999325955,
-      "created_at": 1762999325955,
-      "departments": [
-        "Safety"
-      ],
-      "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
-      },
-      "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.0
-      },
-      "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
-      },
-      "text_hash": "9d8d9892cfa230964cb5f5bceb7a15d7d8027255",
       "final_score": 0.0,
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },

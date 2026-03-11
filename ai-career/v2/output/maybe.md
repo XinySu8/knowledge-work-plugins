@@ -12,6 +12,12 @@
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1
 
+- okta | Executive IT Support Engineer Intern (Summer 2026) | San Francisco, California | score=0.695
+  - url: https://www.okta.com/company/careers/opportunity/7544477?gh_jid=7544477
+  - must_hits: python, docker, cloud
+  - nice_hits: rag
+  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1
+
 - okta | Communications AI Strategy & Operations Intern (Summer 2026) | San Francisco, California | score=0.695
   - url: https://www.okta.com/company/careers/opportunity/7665195?gh_jid=7665195
   - must_hits: machine learning, llm, git
@@ -47,12 +53,6 @@
   - must_hits: git
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1
-
-- scaleai | Technical Advisor Intern - GenAI (Winter/Spring 2026) | San Francisco, CA | score=0.580
-  - url: https://job-boards.greenhouse.io/scaleai/jobs/4611533005
-  - must_hits: None
-  - nice_hits: rag
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1
 
 - notion | Software Engineer Intern (Summer 2026) | San Francisco, California | score=0.578
   - url: https://jobs.ashbyhq.com/notion/23ac2477-0008-4bed-b1c1-81f90a32e9e6/application
@@ -156,12 +156,6 @@
   - nice_hits: mlflow
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1
 
-- asana | Product Design Intern - Summer 2026 (New York) | New York City | score=0.424
-  - url: https://www.asana.com/jobs/apply/7490328?gh_jid=7490328
-  - must_hits: None
-  - nice_hits: rag
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1
-
 - coinbase | Strategic Sourcing Intern | Hybrid - New York, NY | score=0.415
   - url: https://www.coinbase.com/careers/positions/7315887?gh_jid=7315887
   - must_hits: machine learning, git
@@ -179,6 +173,12 @@
   - must_hits: machine learning, cloud
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1
+
+- asana | Product Design Intern - Summer 2026 (New York) | New York City | score=0.405
+  - url: https://www.asana.com/jobs/apply/7490328?gh_jid=7490328
+  - must_hits: None
+  - nice_hits: rag
+  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1
 
 - okta | IT Support Intern (Summer 2026) | San Francisco, California | score=0.405
   - url: https://www.okta.com/company/careers/opportunity/7558024?gh_jid=7558024

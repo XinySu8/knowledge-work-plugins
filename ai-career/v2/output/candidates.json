@@ -2,9 +2,9 @@
   "meta": {
     "engine_name": "AutoJob-Agent Feeder",
     "version": 2,
-    "generated_at": "2026-03-10T16:34:34.300718+00:00",
+    "generated_at": "2026-03-11T16:11:15.966310+00:00",
     "source_jobs_count": 160,
-    "candidates_count": 50,
+    "candidates_count": 52,
     "candidates_topN_total": 150,
     "thresholds": {
       "apply": 0.72,
@@ -51,6 +51,84 @@
         "reason": ""
       },
       "jd_excerpt": "About the Team The Applied team works across research, engineering, product, and design to bring OpenAI’s technology to the world. We seek to learn from deployment and broadly distribute the benefits of AI, while ensuring that this powerful tool is used responsibly and safely. We aim to make our innovative tools globally accessible, transcending geographic, economic, or platform barriers. Our commitment is to facilitate the use of AI to enhance lives, fostered by rigorous insights into how people use our products. About the Role A systems research internship is for people who love the real-wor"
+    },
+    {
+      "job_uid": "3fcd39dbfc402fc7",
+      "source": "greenhouse",
+      "job_id": "3fcd39dbfc402fc7",
+      "company": "togetherai",
+      "title": "Software Engineer - Storage & Observability (Early Career)",
+      "location": "San Francisco",
+      "url": "https://job-boards.greenhouse.io/togetherai/jobs/5073769007",
+      "departments": [
+        "Engineering"
+      ],
+      "created_at": null,
+      "updated_at": "2026-03-10T13:20:35-04:00",
+      "scores": {
+        "hard_raw": 8.0,
+        "hard_norm": 0.8,
+        "semantic_raw": 0.5012938976282828,
+        "semantic_norm": 0.8114286791243862,
+        "final": 0.8062857735184126
+      },
+      "signals": {
+        "must_hits": [
+          "python",
+          "git",
+          "docker",
+          "cloud"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "df1a1a167e4e23a7c8478a6a6513ca0a61547cad",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=4, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "About the Role Together AI is building the AI Acceleration Cloud , an end-to-end platform for the full generative AI lifecycle. Our AI Infrastructure team is at the forefront of scaling the foundational systems that power this platform. We are looking for an Early Career Software Engineer to join our Storage and Observability team , where you will help design and maintain robust distributed storage solutions and develop comprehensive observability platforms. In this role, you will work on the systems that provide critical insights into GPU utilization and system performance, ensuring seamless "
+    },
+    {
+      "job_uid": "2abc79358eaa7bcf",
+      "source": "greenhouse",
+      "job_id": "2abc79358eaa7bcf",
+      "company": "okta",
+      "title": "IT Systems Engineer Intern (Summer 2026)",
+      "location": "San Francisco, California",
+      "url": "https://www.okta.com/company/careers/opportunity/7545063?gh_jid=7545063",
+      "departments": [
+        "BT Operations-165"
+      ],
+      "created_at": null,
+      "updated_at": "2026-03-10T13:22:19-04:00",
+      "scores": {
+        "hard_raw": 7.0,
+        "hard_norm": 0.7,
+        "semantic_raw": 0.49515873193691323,
+        "semantic_norm": 0.7959098266538567,
+        "final": 0.7527504046596212
+      },
+      "signals": {
+        "must_hits": [
+          "python",
+          "machine learning"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "51083de3e83a02804a18f38b7f6c259b2a6045dc",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Get to know Okta Okta is The World’s Identity Company. We free everyone to safely use any technology, anywhere, on any device or app. Our flexible and neutral products, Okta Platform and Auth0 Platform, provide secure access, authentication, and automation, placing identity at the core of business security and growth. At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box - we’re looking for lifelong learners and people who can make us better with their unique experiences.&nbsp; Join our team! We’re building a world where Ide"
     },
     {
       "job_uid": "7ae9985ca2b8ff24",
@@ -205,6 +283,45 @@
       "jd_excerpt": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. What you’ll do About the internship Stripe's Applied ML, Data Science, Risk, and"
     },
     {
+      "job_uid": "8adc1b9d7b21b1a3",
+      "source": "greenhouse",
+      "job_id": "8adc1b9d7b21b1a3",
+      "company": "okta",
+      "title": "Executive IT Support Engineer Intern (Summer 2026)",
+      "location": "San Francisco, California",
+      "url": "https://www.okta.com/company/careers/opportunity/7544477?gh_jid=7544477",
+      "departments": [
+        "BT Operations-165"
+      ],
+      "created_at": null,
+      "updated_at": "2026-03-10T12:35:16-04:00",
+      "scores": {
+        "hard_raw": 7.0,
+        "hard_norm": 0.7,
+        "semantic_raw": 0.4538413286204568,
+        "semantic_norm": 0.6913977859382429,
+        "final": 0.6952687822660336
+      },
+      "signals": {
+        "must_hits": [
+          "python",
+          "docker",
+          "cloud"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "158abda9076cb78afaf4e72a5ad91e325fae3969",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Get to know Okta Okta is The World’s Identity Company. We free everyone to safely use any technology, anywhere, on any device or app. Our flexible and neutral products, Okta Platform and Auth0 Platform, provide secure access, authentication, and automation, placing identity at the core of business security and growth. At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box - we’re looking for lifelong learners and people who can make us better with their unique experiences.&nbsp; Join our team! We’re building a world where Ide"
+    },
+    {
       "job_uid": "a6d769757f815638",
       "source": "greenhouse",
       "job_id": "a6d769757f815638",
@@ -333,7 +450,7 @@
         "Legal"
       ],
       "created_at": null,
-      "updated_at": "2026-02-25T14:16:20-05:00",
+      "updated_at": "2026-03-10T23:56:47-04:00",
       "scores": {
         "hard_raw": 4.0,
         "hard_norm": 0.4,
@@ -410,7 +527,7 @@
         "Sales"
       ],
       "created_at": null,
-      "updated_at": "2026-03-06T09:54:14-05:00",
+      "updated_at": "2026-03-10T20:02:20-04:00",
       "scores": {
         "hard_raw": 1.0,
         "hard_norm": 0.1,
@@ -436,41 +553,6 @@
         "reason": ""
       },
       "jd_excerpt": "About Anthropic Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems. About the Role You will design and lead a foundational talent pipeline that develops early-career professionals across Solutions Architecture, Pre-Sales AI Engineering, and Forward Deployed Engineering – as part of our Applied AI associate function. You’ll build"
-    },
-    {
-      "job_uid": "e7c78b9db66d7e52",
-      "source": "greenhouse",
-      "job_id": "e7c78b9db66d7e52",
-      "company": "scaleai",
-      "title": "Technical Advisor Intern - GenAI (Winter/Spring 2026)",
-      "location": "San Francisco, CA",
-      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4611533005",
-      "departments": [
-        "University"
-      ],
-      "created_at": null,
-      "updated_at": "2026-02-12T18:47:24-05:00",
-      "scores": {
-        "hard_raw": 2.0,
-        "hard_norm": 0.2,
-        "semantic_raw": 0.5330088138574992,
-        "semantic_norm": 0.8916513056736197,
-        "final": 0.5804082181204909
-      },
-      "signals": {
-        "must_hits": [],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": []
-      },
-      "text_hash": "0a76d15cc71163014f54a01580d4568eec4bd7d5",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "About the Program The Scale AI Technical Advisor Internship is a summer semester opportunity designed for university students, ideally with experience in competitive coding, mathematics, and STEM disciplines. Interns immerse themselves in real-world projects that push the boundaries of generative AI, gaining firsthand exposure to cutting-edge research and technology. Throughout the program, you’ll have the freedom to work flexibly around your academic schedule, the chance to connect directly with AI experts, and the support of a team that values your contributions and professional growth. What"
     },
     {
       "job_uid": "eb13b93308235f49",
@@ -935,7 +1017,7 @@
         "Internship"
       ],
       "created_at": null,
-      "updated_at": "2026-03-09T20:43:51-04:00",
+      "updated_at": "2026-03-10T17:09:23-04:00",
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.2,
@@ -1103,41 +1185,6 @@
       "jd_excerpt": "At Databricks, we are passionate about helping data teams solve the world's toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. As a Strategic Finance MBA Intern, you will join our world-class finance team to drive insights and impact across Databricks. During your 12 week internship, you'll work on impactful strategic finance projects,. Your work will provid"
     },
     {
-      "job_uid": "20154ebf9b416ee5",
-      "source": "greenhouse",
-      "job_id": "20154ebf9b416ee5",
-      "company": "asana",
-      "title": "Product Design Intern - Summer 2026 (New York)",
-      "location": "New York City",
-      "url": "https://www.asana.com/jobs/apply/7490328?gh_jid=7490328",
-      "departments": [
-        "Internship"
-      ],
-      "created_at": null,
-      "updated_at": "2026-03-09T20:43:51-04:00",
-      "scores": {
-        "hard_raw": 2.0,
-        "hard_norm": 0.2,
-        "semantic_raw": 0.4204093217845527,
-        "semantic_norm": 0.6068317924541597,
-        "final": 0.4237574858497879
-      },
-      "signals": {
-        "must_hits": [],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": []
-      },
-      "text_hash": "41cb3695a432dcb07eab1d31dc5a9813ff77fba6",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "At Asana we’re looking for curious, collaborative, and creative students to join our 12-week summer Product Design internship program. This program focuses on bringing students currently studying at a college or university into our Design team to develop and work on complex and challenging problems. During this internship, you’ll work directly with dedicated Design mentors who are trained and motivated to ensure your success. You’ll also have the opportunity to work with Engineering, User Research, Product Management, Data Science, and the rest of our amazing Design crew to ship experiences th"
-    },
-    {
       "job_uid": "c1a7d2357d3e9e7d",
       "source": "greenhouse",
       "job_id": "c1a7d2357d3e9e7d",
@@ -1250,6 +1297,41 @@
         "reason": ""
       },
       "jd_excerpt": "Ready to be pushed beyond what you think you’re capable of? At Coinbase, our mission is to increase economic freedom in the world. It’s a massive, ambitious opportunity that demands the best of us, every day, as we build the emerging onchain platform — and with it, the future global financial system. To achieve our mission, we’re seeking a very specific candidate. We want someone who is passionate about our mission and who believes in the power of crypto and blockchain technology to update the financial system. We want someone who is eager to leave their mark on the world, who relishes the pre"
+    },
+    {
+      "job_uid": "20154ebf9b416ee5",
+      "source": "greenhouse",
+      "job_id": "20154ebf9b416ee5",
+      "company": "asana",
+      "title": "Product Design Intern - Summer 2026 (New York)",
+      "location": "New York City",
+      "url": "https://www.asana.com/jobs/apply/7490328?gh_jid=7490328",
+      "departments": [
+        "Internship"
+      ],
+      "created_at": null,
+      "updated_at": "2026-03-10T17:43:52-04:00",
+      "scores": {
+        "hard_raw": 2.0,
+        "hard_norm": 0.2,
+        "semantic_raw": 0.4066547155376182,
+        "semantic_norm": 0.5720396261339132,
+        "final": 0.4046217943736523
+      },
+      "signals": {
+        "must_hits": [],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "95a9e26a46c379eda417ac6214b58d6b84b02fe4",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "At Asana we’re looking for curious, collaborative, and creative students to join our 12-week summer Product Design internship program. This program focuses on bringing students currently studying at a college or university into our Design team to develop and work on complex and challenging problems. During this internship, you’ll work directly with dedicated Design mentors who are trained and motivated to ensure your success. You’ll also have the opportunity to work with Engineering, User Research, Product Management, Data Science, and the rest of our amazing Design crew to ship experiences th"
     },
     {
       "job_uid": "50fc2ceb0d3d7dce",

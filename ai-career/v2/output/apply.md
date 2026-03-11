@@ -6,6 +6,18 @@
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1
 
+- togetherai | Software Engineer - Storage & Observability (Early Career) | San Francisco | score=0.806
+  - url: https://job-boards.greenhouse.io/togetherai/jobs/5073769007
+  - must_hits: python, git, docker, cloud
+  - nice_hits: rag
+  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=4, nice_hits=1
+
+- okta | IT Systems Engineer Intern (Summer 2026) | San Francisco, California | score=0.753
+  - url: https://www.okta.com/company/careers/opportunity/7545063?gh_jid=7545063
+  - must_hits: python, machine learning
+  - nice_hits: rag
+  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1
+
 - scaleai | Machine Learning Research Intern (Summer 2026) | San Francisco, CA | score=0.744
   - url: https://job-boards.greenhouse.io/scaleai/jobs/4606060005
   - must_hits: python, data pipeline, machine learning, llm
