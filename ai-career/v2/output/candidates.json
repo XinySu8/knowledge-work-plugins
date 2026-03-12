@@ -2,9 +2,9 @@
   "meta": {
     "engine_name": "AutoJob-Agent Feeder",
     "version": 2,
-    "generated_at": "2026-03-11T16:11:15.966310+00:00",
-    "source_jobs_count": 160,
-    "candidates_count": 52,
+    "generated_at": "2026-03-12T16:35:53.924767+00:00",
+    "source_jobs_count": 161,
+    "candidates_count": 49,
     "candidates_topN_total": 150,
     "thresholds": {
       "apply": 0.72,
@@ -397,84 +397,6 @@
         "reason": ""
       },
       "jd_excerpt": "Get to know Okta Okta is The World’s Identity Company. We free everyone to safely use any technology, anywhere, on any device or app. Our flexible and neutral products, Okta Platform and Auth0 Platform, provide secure access, authentication, and automation, placing identity at the core of business security and growth. At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box - we’re looking for lifelong learners and people who can make us better with their unique experiences.&nbsp; Join our team! We’re building a world where Ide"
-    },
-    {
-      "job_uid": "613a9e51b62aa884",
-      "source": "ashby",
-      "job_id": "613a9e51b62aa884",
-      "company": "serval",
-      "title": "Software Engineer Intern",
-      "location": "San Francisco",
-      "url": "https://jobs.ashbyhq.com/Serval/d7fb089c-db8a-4877-a5f3-73a09e67f54b/application",
-      "departments": [
-        "Engineering",
-        "Engineering"
-      ],
-      "created_at": "2026-02-16T22:21:29.641+00:00",
-      "updated_at": "2026-02-16T22:21:29.641+00:00",
-      "scores": {
-        "hard_raw": 8.0,
-        "hard_norm": 0.8,
-        "semantic_raw": 0.3924525082107434,
-        "semantic_norm": 0.5361152564674695,
-        "final": 0.6548633910571082
-      },
-      "signals": {
-        "must_hits": [
-          "python",
-          "cloud"
-        ],
-        "nice_hits": [
-          "langchain",
-          "rag"
-        ],
-        "neg_hits": []
-      },
-      "text_hash": "6ff013da1c7ae516fa08f120d568c72c83305ee2",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=2",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "WHO WE ARE Serval http://serval.com is an AI-native automation platform transforming how enterprises operate. We build intelligent agents that understand real-world workflows and execute them end-to-end — replacing manual processes and rigid legacy systems with adaptive, learning software. Founded in early 2024, Serval is already trusted by companies like General Motors, Notion, Perplexity, Vercel, Mercor, LangChain, and Verkada to automate high-volume, high-friction operational work across their organizations. At the core of Serval is an agentic AI platform that turns natural language into pr"
-    },
-    {
-      "job_uid": "350a88175f7fa454",
-      "source": "greenhouse",
-      "job_id": "350a88175f7fa454",
-      "company": "databricks",
-      "title": "Legal Intern",
-      "location": "Mountain View, California; San Francisco, California",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8377581002",
-      "departments": [
-        "Legal"
-      ],
-      "created_at": null,
-      "updated_at": "2026-03-10T23:56:47-04:00",
-      "scores": {
-        "hard_raw": 4.0,
-        "hard_norm": 0.4,
-        "semantic_raw": 0.4998748302380111,
-        "semantic_norm": 0.8078391595281437,
-        "final": 0.6243115377404791
-      },
-      "signals": {
-        "must_hits": [
-          "cloud"
-        ],
-        "nice_hits": [
-          "rag",
-          "mlflow"
-        ],
-        "neg_hits": []
-      },
-      "text_hash": "cceb9c47fac719f161a36511ad7aee76c9dd4b03",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=2",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "GAQ227R1 Work at the nexus of law and innovation with a recognized global leader in Data and AI.&nbsp; As a Databricks Legal Intern, you won’t just observe, you’ll jump straight into novel legal issues working alongside our high-impact global legal team. You will gain first-hand experience on how an in-house legal department drives business strategy and tackles complex challenges on a daily basis, and navigate cutting-edge legal landscape of generative AI, cloud computing, and big data.&nbsp; Databricks will encourage you to get out of your comfort zone and provide the resources, mentoring, an"
     },
     {
       "job_uid": "9de287370f90d99a",
@@ -1017,7 +939,7 @@
         "Internship"
       ],
       "created_at": null,
-      "updated_at": "2026-03-10T17:09:23-04:00",
+      "updated_at": "2026-03-11T19:00:45-04:00",
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.2,
@@ -1185,44 +1107,6 @@
       "jd_excerpt": "At Databricks, we are passionate about helping data teams solve the world's toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. As a Strategic Finance MBA Intern, you will join our world-class finance team to drive insights and impact across Databricks. During your 12 week internship, you'll work on impactful strategic finance projects,. Your work will provid"
     },
     {
-      "job_uid": "c1a7d2357d3e9e7d",
-      "source": "greenhouse",
-      "job_id": "c1a7d2357d3e9e7d",
-      "company": "coinbase",
-      "title": "Strategic Sourcing Intern",
-      "location": "Hybrid - New York, NY",
-      "url": "https://www.coinbase.com/careers/positions/7315887?gh_jid=7315887",
-      "departments": [
-        "Internships & Emerging Talent Positions"
-      ],
-      "created_at": null,
-      "updated_at": "2026-03-06T00:54:34-05:00",
-      "scores": {
-        "hard_raw": 5.0,
-        "hard_norm": 0.5,
-        "semantic_raw": 0.31691129904425036,
-        "semantic_norm": 0.3450343730042361,
-        "final": 0.4147689051523299
-      },
-      "signals": {
-        "must_hits": [
-          "machine learning",
-          "git"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": []
-      },
-      "text_hash": "474938fc6556ea01108747f7a3fdda08337920c0",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "Ready to be pushed beyond what you think you’re capable of? At Coinbase, our mission is to increase economic freedom in the world. It’s a massive, ambitious opportunity that demands the best of us, every day, as we build the emerging onchain platform — and with it, the future global financial system. To achieve our mission, we’re seeking a very specific candidate. We want someone who is passionate about our mission and who believes in the power of crypto and blockchain technology to update the financial system. We want someone who is eager to leave their mark on the world, who relishes the pre"
-    },
-    {
       "job_uid": "2d63f4cc8b3a3dd7",
       "source": "greenhouse",
       "job_id": "2d63f4cc8b3a3dd7",
@@ -1310,7 +1194,7 @@
         "Internship"
       ],
       "created_at": null,
-      "updated_at": "2026-03-10T17:43:52-04:00",
+      "updated_at": "2026-03-11T19:00:45-04:00",
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.2,

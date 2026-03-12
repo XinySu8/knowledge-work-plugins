@@ -30,18 +30,6 @@
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1
 
-- serval | Software Engineer Intern | San Francisco | score=0.655
-  - url: https://jobs.ashbyhq.com/Serval/d7fb089c-db8a-4877-a5f3-73a09e67f54b/application
-  - must_hits: python, cloud
-  - nice_hits: langchain, rag
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=2
-
-- databricks | Legal Intern | Mountain View, California; San Francisco, California | score=0.624
-  - url: https://databricks.com/company/careers/open-positions/job?gh_jid=8377581002
-  - must_hits: cloud
-  - nice_hits: rag, mlflow
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=2
-
 - databricks | MBA Intern - Technical Program Management (TPM) | Mountain View, California; San Francisco, California | score=0.605
   - url: https://databricks.com/company/careers/open-positions/job?gh_jid=8399537002
   - must_hits: python, sql
@@ -155,12 +143,6 @@
   - must_hits: sql
   - nice_hits: mlflow
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1
-
-- coinbase | Strategic Sourcing Intern | Hybrid - New York, NY | score=0.415
-  - url: https://www.coinbase.com/careers/positions/7315887?gh_jid=7315887
-  - must_hits: machine learning, git
-  - nice_hits: rag
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1
 
 - coinbase | Associate Product Manager Intern | Hybrid - San Francisco, CA | score=0.415
   - url: https://www.coinbase.com/careers/positions/7269743?gh_jid=7269743
