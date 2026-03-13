@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-03-13T14:03:44.558624+00:00",
+  "generated_at_utc": "2026-03-13T14:40:38.827841+00:00",
   "today_utc": "2026-03-13",
-  "fetched_count": 3578,
+  "fetched_count": 3577,
   "filtered_count": 11,
   "count": 11,
   "today_count": 0,
@@ -19,7 +19,7 @@
     "ramp": 132,
     "zapier": 29,
     "sierra": 146,
-    "mistral": 143,
+    "mistral": 142,
     "stripe": 526,
     "scaleai": 167,
     "figma": 167
@@ -27,7 +27,7 @@
   "per_source_fetched": {
     "ashby": 1348,
     "greenhouse": 2087,
-    "lever": 143
+    "lever": 142
   },
   "errors": [],
   "dropped_sample": [
