@@ -2,7 +2,7 @@
   "meta": {
     "engine_name": "AutoJob-Agent Feeder",
     "version": 2,
-    "generated_at": "2026-03-13T16:03:34.907928+00:00",
+    "generated_at": "2026-03-14T15:50:56.278561+00:00",
     "source_jobs_count": 155,
     "candidates_count": 46,
     "candidates_topN_total": 150,
@@ -256,7 +256,7 @@
         "5112 General University"
       ],
       "created_at": null,
-      "updated_at": "2026-03-06T18:52:06-05:00",
+      "updated_at": "2026-03-13T19:00:45-04:00",
       "scores": {
         "hard_raw": 8.0,
         "hard_norm": 0.8,
@@ -827,7 +827,7 @@
         "Internship"
       ],
       "created_at": null,
-      "updated_at": "2026-03-11T19:00:45-04:00",
+      "updated_at": "2026-03-13T19:05:40-04:00",
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.2,
@@ -1117,7 +1117,7 @@
         "Internship"
       ],
       "created_at": null,
-      "updated_at": "2026-03-11T19:00:45-04:00",
+      "updated_at": "2026-03-13T19:05:40-04:00",
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.2,
@@ -1519,7 +1519,7 @@
         "5112 General University"
       ],
       "created_at": null,
-      "updated_at": "2026-03-06T18:52:06-05:00",
+      "updated_at": "2026-03-13T19:00:45-04:00",
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.3,
@@ -1556,7 +1556,7 @@
         "5112 General University"
       ],
       "created_at": null,
-      "updated_at": "2026-03-06T18:52:06-05:00",
+      "updated_at": "2026-03-13T19:00:45-04:00",
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.3,
