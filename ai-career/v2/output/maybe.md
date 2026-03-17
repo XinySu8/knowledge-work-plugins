@@ -1,11 +1,5 @@
 # MAYBE
 
-- togetherai | Software Development in Test Intern | San Francisco | score=0.693
-  - url: https://job-boards.greenhouse.io/togetherai/jobs/5067841007
-  - must_hits: python, cloud
-  - nice_hits: rag
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1
-
 - okta | Communications AI Strategy & Operations Intern (Summer 2026) | San Francisco, California | score=0.690
   - url: https://www.okta.com/company/careers/opportunity/7665195?gh_jid=7665195
   - must_hits: machine learning, llm, git

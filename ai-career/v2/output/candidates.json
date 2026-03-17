@@ -2,9 +2,9 @@
   "meta": {
     "engine_name": "AutoJob-Agent Feeder",
     "version": 2,
-    "generated_at": "2026-03-16T16:37:34.472499+00:00",
-    "source_jobs_count": 155,
-    "candidates_count": 46,
+    "generated_at": "2026-03-17T16:39:58.140924+00:00",
+    "source_jobs_count": 148,
+    "candidates_count": 45,
     "candidates_topN_total": 150,
     "thresholds": {
       "apply": 0.72,
@@ -64,7 +64,7 @@
         "Engineering"
       ],
       "created_at": null,
-      "updated_at": "2026-03-10T13:20:35-04:00",
+      "updated_at": "2026-03-17T12:08:22-04:00",
       "scores": {
         "hard_raw": 8.0,
         "hard_norm": 0.8,
@@ -168,44 +168,6 @@
       "jd_excerpt": "About the Team The Applied team works across research, engineering, product, and design to bring OpenAI’s technology to the world. We seek to learn from deployment and broadly distribute the benefits of AI, while ensuring that this powerful tool is used responsibly and safely. We aim to make our innovative tools globally accessible, transcending geographic, economic, or platform barriers. Our commitment is to facilitate the use of AI to enhance lives, fostered by rigorous insights into how people use our products. About the Role We are seeking Software Engineering Interns (Emerging Talent) to "
     },
     {
-      "job_uid": "a6a52afeab312964",
-      "source": "greenhouse",
-      "job_id": "a6a52afeab312964",
-      "company": "togetherai",
-      "title": "Software Development in Test Intern",
-      "location": "San Francisco",
-      "url": "https://job-boards.greenhouse.io/togetherai/jobs/5067841007",
-      "departments": [
-        "Engineering"
-      ],
-      "created_at": null,
-      "updated_at": "2026-03-06T18:00:48-05:00",
-      "scores": {
-        "hard_raw": 6.0,
-        "hard_norm": 0.6,
-        "semantic_raw": 0.4870743170883175,
-        "semantic_norm": 0.7683521021364651,
-        "final": 0.6925936561750559
-      },
-      "signals": {
-        "must_hits": [
-          "python",
-          "cloud"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": []
-      },
-      "text_hash": "394dc6f7e9bd964e6e5997884a6abac943cee104",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "About Together AI Together AI is a research-driven AI company. We believe open and transparent AI systems will drive innovation and create the best outcomes for society, and together we are on a mission to lower the cost of modern AI systems by co-designing software, hardware, algorithms, and models. We have contributed to leading open-source research, models, and datasets to advance the frontier of AI. We invite you to join a passionate group of researchers and engineers in our journey in building the next generation AI infrastructure. About the Role As a Software Engineer in Test (SDET) Inte"
-    },
-    {
       "job_uid": "a6d769757f815638",
       "source": "greenhouse",
       "job_id": "a6d769757f815638",
@@ -256,7 +218,7 @@
         "5112 General University"
       ],
       "created_at": null,
-      "updated_at": "2026-03-13T19:00:45-04:00",
+      "updated_at": "2026-03-16T15:49:36-04:00",
       "scores": {
         "hard_raw": 8.0,
         "hard_norm": 0.8,
@@ -1519,7 +1481,7 @@
         "5112 General University"
       ],
       "created_at": null,
-      "updated_at": "2026-03-13T19:00:45-04:00",
+      "updated_at": "2026-03-16T15:49:36-04:00",
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.3,
@@ -1556,7 +1518,7 @@
         "5112 General University"
       ],
       "created_at": null,
-      "updated_at": "2026-03-13T19:00:45-04:00",
+      "updated_at": "2026-03-16T15:49:36-04:00",
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.3,
