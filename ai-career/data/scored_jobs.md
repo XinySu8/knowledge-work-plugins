@@ -1,5 +1,5 @@
 # Scored job feed (auto)
-Generated at (UTC): 2026-03-18T14:24:41.276163+00:00
+Generated at (UTC): 2026-03-18T15:00:30.529900+00:00
 Total jobs scored: 11
 
 ## Top internships
@@ -43,12 +43,12 @@ breakdown: title 15, location 0, have 2, want+bonus 0, penalty 0
 matched_titles: software engineer
 matched_skills_have: Java
 
-[17/100] [stripe] Software Engineer, Intern (Dublin) — https://stripe.com/jobs/search?gh_jid=7206494
+[17/100] [stripe] Software Engineer, Intern (Singapore) — https://stripe.com/jobs/search?gh_jid=7206401
 breakdown: title 15, location 0, have 2, want+bonus 0, penalty 0
 matched_titles: software engineer
 matched_skills_have: Java
 
-[17/100] [stripe] Software Engineer, Intern (Singapore) — https://stripe.com/jobs/search?gh_jid=7206401
+[17/100] [stripe] Software Engineer, Intern (Dublin) — https://stripe.com/jobs/search?gh_jid=7206494
 breakdown: title 15, location 0, have 2, want+bonus 0, penalty 0
 matched_titles: software engineer
 matched_skills_have: Java
