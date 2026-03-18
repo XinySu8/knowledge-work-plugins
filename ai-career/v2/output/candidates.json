@@ -2,9 +2,9 @@
   "meta": {
     "engine_name": "AutoJob-Agent Feeder",
     "version": 2,
-    "generated_at": "2026-03-17T16:39:58.140924+00:00",
-    "source_jobs_count": 148,
-    "candidates_count": 45,
+    "generated_at": "2026-03-18T16:38:54.059991+00:00",
+    "source_jobs_count": 149,
+    "candidates_count": 46,
     "candidates_topN_total": 150,
     "thresholds": {
       "apply": 0.72,
@@ -218,7 +218,7 @@
         "5112 General University"
       ],
       "created_at": null,
-      "updated_at": "2026-03-16T15:49:36-04:00",
+      "updated_at": "2026-03-17T17:31:05-04:00",
       "scores": {
         "hard_raw": 8.0,
         "hard_norm": 0.8,
@@ -282,6 +282,41 @@
         "reason": ""
       },
       "jd_excerpt": "Get to know Okta Okta is The World’s Identity Company. We free everyone to safely use any technology, anywhere, on any device or app. Our flexible and neutral products, Okta Platform and Auth0 Platform, provide secure access, authentication, and automation, placing identity at the core of business security and growth. At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box - we’re looking for lifelong learners and people who can make us better with their unique experiences.&nbsp; Join our team! We’re building a world where Ide"
+    },
+    {
+      "job_uid": "e7c78b9db66d7e52",
+      "source": "greenhouse",
+      "job_id": "e7c78b9db66d7e52",
+      "company": "scaleai",
+      "title": "Technical Advisor Specialist (Part-Time Internship) ",
+      "location": "San Francisco, CA",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4611533005",
+      "departments": [
+        "University"
+      ],
+      "created_at": null,
+      "updated_at": "2026-03-17T18:48:51-04:00",
+      "scores": {
+        "hard_raw": 2.0,
+        "hard_norm": 0.2,
+        "semantic_raw": 0.5716911895085334,
+        "semantic_norm": 0.9891656047629949,
+        "final": 0.6340410826196472
+      },
+      "signals": {
+        "must_hits": [],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "5cdf5317123082a4f371afbb237b9cf0c6e78ef9",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "About the Program The Scale AI Technical Advisor Specialist (Part-Time Internship) role is a summer semester opportunity designed for university students, ideally with experience in competitive coding, mathematics, and STEM disciplines. These Specialists will immerse themselves in real-world projects that push the boundaries of generative AI, gaining firsthand exposure to cutting-edge research and technology. Throughout the program, you’ll have the freedom to work flexibly around your academic schedule, the chance to connect directly with AI experts, and the support of a team that values your "
     },
     {
       "job_uid": "9de287370f90d99a",
@@ -789,7 +824,7 @@
         "Internship"
       ],
       "created_at": null,
-      "updated_at": "2026-03-13T19:05:40-04:00",
+      "updated_at": "2026-03-17T21:38:23-04:00",
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.2,
@@ -1079,7 +1114,7 @@
         "Internship"
       ],
       "created_at": null,
-      "updated_at": "2026-03-13T19:05:40-04:00",
+      "updated_at": "2026-03-17T21:38:23-04:00",
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.2,
@@ -1481,7 +1516,7 @@
         "5112 General University"
       ],
       "created_at": null,
-      "updated_at": "2026-03-16T15:49:36-04:00",
+      "updated_at": "2026-03-17T17:31:04-04:00",
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.3,
@@ -1518,7 +1553,7 @@
         "5112 General University"
       ],
       "created_at": null,
-      "updated_at": "2026-03-16T15:49:36-04:00",
+      "updated_at": "2026-03-17T17:31:04-04:00",
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.3,
