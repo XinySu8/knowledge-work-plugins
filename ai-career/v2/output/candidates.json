@@ -2,9 +2,9 @@
   "meta": {
     "engine_name": "AutoJob-Agent Feeder",
     "version": 2,
-    "generated_at": "2026-03-18T16:38:54.059991+00:00",
-    "source_jobs_count": 149,
-    "candidates_count": 46,
+    "generated_at": "2026-03-19T16:15:49.208724+00:00",
+    "source_jobs_count": 146,
+    "candidates_count": 47,
     "candidates_topN_total": 150,
     "thresholds": {
       "apply": 0.72,
@@ -31,8 +31,8 @@
         "hard_raw": 8.0,
         "hard_norm": 0.8,
         "semantic_raw": 0.5335440357646396,
-        "semantic_norm": 0.8896180040009336,
-        "final": 0.8492899022005136
+        "semantic_norm": 0.8993620478889245,
+        "final": 0.8546491263389085
       },
       "signals": {
         "must_hits": [
@@ -69,8 +69,8 @@
         "hard_raw": 8.0,
         "hard_norm": 0.8,
         "semantic_raw": 0.5012938976282828,
-        "semantic_norm": 0.8054590678644921,
-        "final": 0.8030024873254706
+        "semantic_norm": 0.8142813134485007,
+        "final": 0.8078547223966754
       },
       "signals": {
         "must_hits": [
@@ -109,8 +109,8 @@
         "hard_raw": 10.0,
         "hard_norm": 1.0,
         "semantic_raw": 0.3915490508075613,
-        "semantic_norm": 0.5190724013690527,
-        "final": 0.735489820752979
+        "semantic_norm": 0.5247578351588793,
+        "final": 0.7386168093373837
       },
       "signals": {
         "must_hits": [
@@ -148,8 +148,8 @@
         "hard_raw": 5.0,
         "hard_norm": 0.5,
         "semantic_raw": 0.5446384277718836,
-        "semantic_norm": 0.9185695769976927,
-        "final": 0.730213267348731
+        "semantic_norm": 0.9286307293486847,
+        "final": 0.7357469011417767
       },
       "signals": {
         "must_hits": [
@@ -184,8 +184,8 @@
         "hard_raw": 7.0,
         "hard_norm": 0.7,
         "semantic_raw": 0.45383104406734887,
-        "semantic_norm": 0.681601512749562,
-        "final": 0.6898808320122591
+        "semantic_norm": 0.6890671384726064,
+        "final": 0.6939869261599335
       },
       "signals": {
         "must_hits": [
@@ -223,8 +223,8 @@
         "hard_raw": 8.0,
         "hard_norm": 0.8,
         "semantic_raw": 0.4216968072467883,
-        "semantic_norm": 0.5977450290055099,
-        "final": 0.6887597659530305
+        "semantic_norm": 0.6042921692053074,
+        "final": 0.6923606930629191
       },
       "signals": {
         "must_hits": [
@@ -262,8 +262,8 @@
         "hard_raw": 5.0,
         "hard_norm": 0.5,
         "semantic_raw": 0.5071952342981988,
-        "semantic_norm": 0.8208590085972484,
-        "final": 0.6764724547284866
+        "semantic_norm": 0.8298499307342243,
+        "final": 0.6814174619038235
       },
       "signals": {
         "must_hits": [
@@ -300,8 +300,8 @@
         "hard_raw": 2.0,
         "hard_norm": 0.2,
         "semantic_raw": 0.5716911895085334,
-        "semantic_norm": 0.9891656047629949,
-        "final": 0.6340410826196472
+        "semantic_norm": 1.0,
+        "final": 0.64
       },
       "signals": {
         "must_hits": [],
@@ -335,8 +335,8 @@
         "hard_raw": 8.0,
         "hard_norm": 0.8,
         "semantic_raw": 0.35671383142435636,
-        "semantic_norm": 0.4281675193194139,
-        "final": 0.5954921356256777
+        "semantic_norm": 0.4328572660206915,
+        "final": 0.5980714963113805
       },
       "signals": {
         "must_hits": [
@@ -358,45 +358,6 @@
       "jd_excerpt": "RDQ227R1171 At Databricks, we are passionate about helping data teams solve the world's toughest problems - from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. As a TPM Intern, you will be the primary driver behind the successful delivery of complex technical initiatives. You will navigate the lifecycle of a program - from initial scoping and requirement gathering to final launc"
     },
     {
-      "job_uid": "3a22be8e7f95b798",
-      "source": "greenhouse",
-      "job_id": "3a22be8e7f95b798",
-      "company": "anthropic",
-      "title": "Regional Head of Early Career Associates, Applied AI",
-      "location": "San Francisco, CA",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4947472008",
-      "departments": [
-        "Sales"
-      ],
-      "created_at": null,
-      "updated_at": "2026-03-12T18:44:15-04:00",
-      "scores": {
-        "hard_raw": 1.0,
-        "hard_norm": 0.1,
-        "semantic_raw": 0.575842985610742,
-        "semantic_norm": 1.0,
-        "final": 0.5950000000000001
-      },
-      "signals": {
-        "must_hits": [
-          "git"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": [
-          "5+ years"
-        ]
-      },
-      "text_hash": "778c734fec934fbcff84f61beeae203acfe3abbe",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "About Anthropic Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems. About the Role You will design and lead a foundational talent pipeline that develops early-career professionals across Solutions Architecture, Pre-Sales AI Engineering, and Forward Deployed Engineering – as part of our Applied AI associate function. You’ll build"
-    },
-    {
       "job_uid": "459f04adfbd53983",
       "source": "greenhouse",
       "job_id": "459f04adfbd53983",
@@ -413,8 +374,8 @@
         "hard_raw": 5.0,
         "hard_norm": 0.5,
         "semantic_raw": 0.43260559439615853,
-        "semantic_norm": 0.626212253460431,
-        "final": 0.5694167394032371
+        "semantic_norm": 0.6330711970221328,
+        "final": 0.5731891583621731
       },
       "signals": {
         "must_hits": [
@@ -452,8 +413,8 @@
         "hard_raw": 7.0,
         "hard_norm": 0.7,
         "semantic_raw": 0.36981070041619507,
-        "semantic_norm": 0.46234469265154676,
-        "final": 0.5692895809583507
+        "semantic_norm": 0.4674087841563447,
+        "final": 0.5720748312859896
       },
       "signals": {
         "must_hits": [
@@ -490,8 +451,8 @@
         "hard_raw": 3.0,
         "hard_norm": 0.3,
         "semantic_raw": 0.48726206941925854,
-        "semantic_norm": 0.7688420546558101,
-        "final": 0.5578631300606955
+        "semantic_norm": 0.7772632317113629,
+        "final": 0.5624947774412496
       },
       "signals": {
         "must_hits": [
@@ -527,8 +488,8 @@
         "hard_raw": 3.0,
         "hard_norm": 0.3,
         "semantic_raw": 0.4821783900256103,
-        "semantic_norm": 0.7555758463803838,
-        "final": 0.5505667155092111
+        "semantic_norm": 0.763851717793423,
+        "final": 0.5551184447863826
       },
       "signals": {
         "must_hits": [
@@ -564,8 +525,8 @@
         "hard_raw": 3.0,
         "hard_norm": 0.3,
         "semantic_raw": 0.45793756842567424,
-        "semantic_norm": 0.6923177682816721,
-        "final": 0.5157747725549198
+        "semantic_norm": 0.6999007698488993,
+        "final": 0.5199454234168946
       },
       "signals": {
         "must_hits": [
@@ -601,8 +562,8 @@
         "hard_raw": 4.0,
         "hard_norm": 0.4,
         "semantic_raw": 0.4201331734653086,
-        "semantic_norm": 0.5936646199542387,
-        "final": 0.5065155409748313
+        "semantic_norm": 0.6001670671681729,
+        "final": 0.5100918869424952
       },
       "signals": {
         "must_hits": [
@@ -638,8 +599,8 @@
         "hard_raw": 7.0,
         "hard_norm": 0.7,
         "semantic_raw": 0.31691129904425036,
-        "semantic_norm": 0.32430009504721513,
-        "final": 0.49336505227596833
+        "semantic_norm": 0.3278521750914679,
+        "final": 0.49531869630030734
       },
       "signals": {
         "must_hits": [
@@ -677,8 +638,8 @@
         "hard_raw": 7.0,
         "hard_norm": 0.7,
         "semantic_raw": 0.31691129904425036,
-        "semantic_norm": 0.32430009504721513,
-        "final": 0.49336505227596833
+        "semantic_norm": 0.3278521750914679,
+        "final": 0.49531869630030734
       },
       "signals": {
         "must_hits": [
@@ -716,8 +677,8 @@
         "hard_raw": 7.0,
         "hard_norm": 0.7,
         "semantic_raw": 0.31691129904425036,
-        "semantic_norm": 0.32430009504721513,
-        "final": 0.49336505227596833
+        "semantic_norm": 0.3278521750914679,
+        "final": 0.49531869630030734
       },
       "signals": {
         "must_hits": [
@@ -756,8 +717,8 @@
         "hard_raw": 4.0,
         "hard_norm": 0.4,
         "semantic_raw": 0.3933022256669776,
-        "semantic_norm": 0.5236474307970135,
-        "final": 0.46800608693835744
+        "semantic_norm": 0.5293829751818756,
+        "final": 0.4711606363500316
       },
       "signals": {
         "must_hits": [
@@ -794,8 +755,8 @@
         "hard_raw": 2.0,
         "hard_norm": 0.2,
         "semantic_raw": 0.4287441457810709,
-        "semantic_norm": 0.6161355398036621,
-        "final": 0.4288745468920142
+        "semantic_norm": 0.6228841124649586,
+        "final": 0.43258626185572724
       },
       "signals": {
         "must_hits": [
@@ -824,13 +785,13 @@
         "Internship"
       ],
       "created_at": null,
-      "updated_at": "2026-03-17T21:38:23-04:00",
+      "updated_at": "2026-03-19T10:22:21-04:00",
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.2,
         "semantic_raw": 0.4271014034743806,
-        "semantic_norm": 0.611848691657684,
-        "final": 0.42651678041172625
+        "semantic_norm": 0.6185503101922792,
+        "final": 0.4302026706057536
       },
       "signals": {
         "must_hits": [],
@@ -864,8 +825,8 @@
         "hard_raw": 0.0,
         "hard_norm": 0.0,
         "semantic_raw": 0.4882112436415585,
-        "semantic_norm": 0.7713189895582021,
-        "final": 0.4242254442570112
+        "semantic_norm": 0.7797672966429225,
+        "final": 0.42887201315360746
       },
       "signals": {
         "must_hits": [],
@@ -897,8 +858,8 @@
         "hard_raw": 3.0,
         "hard_norm": 0.3,
         "semantic_raw": 0.39172532509081087,
-        "semantic_norm": 0.5195324011397134,
-        "final": 0.42074282062684243
+        "semantic_norm": 0.5252228733369615,
+        "final": 0.4238725803353289
       },
       "signals": {
         "must_hits": [
@@ -934,8 +895,8 @@
         "hard_raw": 4.0,
         "hard_norm": 0.4,
         "semantic_raw": 0.35850694775545505,
-        "semantic_norm": 0.432846778743237,
-        "final": 0.4180657283087804
+        "semantic_norm": 0.43758777767747753,
+        "final": 0.42067327772261265
       },
       "signals": {
         "must_hits": [
@@ -971,8 +932,8 @@
         "hard_raw": 3.0,
         "hard_norm": 0.3,
         "semantic_raw": 0.3882523179050377,
-        "semantic_norm": 0.5104693518990225,
-        "final": 0.41575814354446244
+        "semantic_norm": 0.516060555928177,
+        "final": 0.4188333057604974
       },
       "signals": {
         "must_hits": [
@@ -1003,13 +964,13 @@
         "Revenue Operations"
       ],
       "created_at": null,
-      "updated_at": "2026-03-12T16:30:34-04:00",
+      "updated_at": "2026-03-18T18:52:18-04:00",
       "scores": {
         "hard_raw": 1.0,
         "hard_norm": 0.1,
         "semantic_raw": 0.4483823478217409,
-        "semantic_norm": 0.6673827680911,
-        "final": 0.412060522450105
+        "semantic_norm": 0.6746926549786428,
+        "final": 0.4160809602382536
       },
       "signals": {
         "must_hits": [
@@ -1043,8 +1004,8 @@
         "hard_raw": 5.0,
         "hard_norm": 0.5,
         "semantic_raw": 0.31691129904425036,
-        "semantic_norm": 0.32430009504721513,
-        "final": 0.4033650522759683
+        "semantic_norm": 0.3278521750914679,
+        "final": 0.40531869630030737
       },
       "signals": {
         "must_hits": [
@@ -1081,8 +1042,8 @@
         "hard_raw": 5.0,
         "hard_norm": 0.5,
         "semantic_raw": 0.31691129904425036,
-        "semantic_norm": 0.32430009504721513,
-        "final": 0.4033650522759683
+        "semantic_norm": 0.3278521750914679,
+        "final": 0.40531869630030737
       },
       "signals": {
         "must_hits": [
@@ -1114,13 +1075,13 @@
         "Internship"
       ],
       "created_at": null,
-      "updated_at": "2026-03-17T21:38:23-04:00",
+      "updated_at": "2026-03-19T10:22:21-04:00",
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.2,
         "semantic_raw": 0.4066547155376182,
-        "semantic_norm": 0.5584916642553163,
-        "final": 0.397170415340424
+        "semantic_norm": 0.5646088597966682,
+        "final": 0.4005348728881676
       },
       "signals": {
         "must_hits": [],
@@ -1154,8 +1115,8 @@
         "hard_raw": 3.0,
         "hard_norm": 0.3,
         "semantic_raw": 0.3742569088932109,
-        "semantic_norm": 0.4739473770705832,
-        "final": 0.3956710573888208
+        "semantic_norm": 0.479138553532845,
+        "final": 0.3985262044430648
       },
       "signals": {
         "must_hits": [
@@ -1191,8 +1152,8 @@
         "hard_raw": 7.0,
         "hard_norm": 0.7,
         "semantic_raw": 0.24440197646593448,
-        "semantic_norm": 0.13508206992236257,
-        "final": 0.3892951384572994
+        "semantic_norm": 0.1365616326244263,
+        "final": 0.3901088979434345
       },
       "signals": {
         "must_hits": [
@@ -1229,8 +1190,8 @@
         "hard_raw": 3.0,
         "hard_norm": 0.3,
         "semantic_raw": 0.3655992964263655,
-        "semantic_norm": 0.4513547465643001,
-        "final": 0.38324511061036504
+        "semantic_norm": 0.4562984644744549,
+        "final": 0.3859641554609502
       },
       "signals": {
         "must_hits": [
@@ -1265,8 +1226,8 @@
         "hard_raw": 0.0,
         "hard_norm": 0.0,
         "semantic_raw": 0.4585116778912536,
-        "semantic_norm": 0.6938159461079105,
-        "final": 0.3815987703593508
+        "semantic_norm": 0.7014153573143596,
+        "final": 0.3857784465228978
       },
       "signals": {
         "must_hits": [],
@@ -1298,8 +1259,8 @@
         "hard_raw": 1.0,
         "hard_norm": 0.1,
         "semantic_raw": 0.4256120920177018,
-        "semantic_norm": 0.6079622317845523,
-        "final": 0.37937922748150377
+        "semantic_norm": 0.6146212816712533,
+        "final": 0.3830417049191893
       },
       "signals": {
         "must_hits": [
@@ -1334,8 +1295,8 @@
         "hard_raw": 2.0,
         "hard_norm": 0.2,
         "semantic_raw": 0.3893846273418347,
-        "semantic_norm": 0.5134241906403382,
-        "final": 0.37238330485218607
+        "semantic_norm": 0.5190477592105066,
+        "final": 0.3754762675657787
       },
       "signals": {
         "must_hits": [],
@@ -1369,8 +1330,8 @@
         "hard_raw": 4.0,
         "hard_norm": 0.4,
         "semantic_raw": 0.31691129904425036,
-        "semantic_norm": 0.32430009504721513,
-        "final": 0.3583650522759684
+        "semantic_norm": 0.3278521750914679,
+        "final": 0.3603186963003074
       },
       "signals": {
         "must_hits": [
@@ -1406,8 +1367,8 @@
         "hard_raw": 4.0,
         "hard_norm": 0.4,
         "semantic_raw": 0.31691129904425036,
-        "semantic_norm": 0.32430009504721513,
-        "final": 0.3583650522759684
+        "semantic_norm": 0.3278521750914679,
+        "final": 0.3603186963003074
       },
       "signals": {
         "must_hits": [
@@ -1427,6 +1388,41 @@
       "jd_excerpt": "Ready to be pushed beyond what you think you’re capable of? At Coinbase, our mission is to increase economic freedom in the world. It’s a massive, ambitious opportunity that demands the best of us, every day, as we build the emerging onchain platform — and with it, the future global financial system. To achieve our mission, we’re seeking a very specific candidate. We want someone who is passionate about our mission and who believes in the power of crypto and blockchain technology to update the financial system. We want someone who is eager to leave their mark on the world, who relishes the pre"
     },
     {
+      "job_uid": "85ab53eaeeabed19",
+      "source": "greenhouse",
+      "job_id": "85ab53eaeeabed19",
+      "company": "togetherai",
+      "title": "Product Marketing Intern (Summer 2026)",
+      "location": "San Francisco",
+      "url": "https://job-boards.greenhouse.io/togetherai/jobs/5014289007",
+      "departments": [
+        "Marketing"
+      ],
+      "created_at": null,
+      "updated_at": "2026-03-19T12:08:13-04:00",
+      "scores": {
+        "hard_raw": 1.0,
+        "hard_norm": 0.1,
+        "semantic_raw": 0.40902075171429736,
+        "semantic_norm": 0.570850820521715,
+        "final": 0.35896795128694325
+      },
+      "signals": {
+        "must_hits": [
+          "cloud"
+        ],
+        "nice_hits": [],
+        "neg_hits": []
+      },
+      "text_hash": "18c051a3a0c287cbda7d6fee602ac411376c0d62",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "About Together AI Together AI is a research-driven AI company. We believe open and transparent AI systems will drive innovation and create the best outcomes for society, and together we are on a mission to lower the cost of modern AI systems by co-designing software, hardware, algorithms, and models. We have contributed to leading open-source research, models, and datasets to advance the frontier of AI. We invite you to join a passionate group of researchers and engineers in our journey in building the next generation AI infrastructure. Role Overview It’s an exciting time to join Together AI’s"
+    },
+    {
       "job_uid": "b230852d1c35c17a",
       "source": "ashby",
       "job_id": "b230852d1c35c17a",
@@ -1444,8 +1440,8 @@
         "hard_raw": 7.0,
         "hard_norm": 0.7,
         "semantic_raw": 0.21998427629355108,
-        "semantic_norm": 0.07136241511909369,
-        "final": 0.35424932831550154
+        "semantic_norm": 0.07214405229566408,
+        "final": 0.35467922876261526
       },
       "signals": {
         "must_hits": [
@@ -1483,8 +1479,8 @@
         "hard_raw": 7.0,
         "hard_norm": 0.7,
         "semantic_raw": 0.21998427629355108,
-        "semantic_norm": 0.07136241511909369,
-        "final": 0.35424932831550154
+        "semantic_norm": 0.07214405229566408,
+        "final": 0.35467922876261526
       },
       "signals": {
         "must_hits": [
@@ -1521,8 +1517,8 @@
         "hard_raw": 3.0,
         "hard_norm": 0.3,
         "semantic_raw": 0.3415982425209444,
-        "semantic_norm": 0.38872235862557947,
-        "final": 0.3487972972440687
+        "semantic_norm": 0.3929800599149601,
+        "final": 0.35113903295322807
       },
       "signals": {
         "must_hits": [
@@ -1558,8 +1554,8 @@
         "hard_raw": 3.0,
         "hard_norm": 0.3,
         "semantic_raw": 0.3415982425209444,
-        "semantic_norm": 0.38872235862557947,
-        "final": 0.3487972972440687
+        "semantic_norm": 0.3929800599149601,
+        "final": 0.35113903295322807
       },
       "signals": {
         "must_hits": [
@@ -1595,8 +1591,8 @@
         "hard_raw": 5.0,
         "hard_norm": 0.5,
         "semantic_raw": 0.27387025952311783,
-        "semantic_norm": 0.21198156540279456,
-        "final": 0.34158986097153704
+        "semantic_norm": 0.2143034132829412,
+        "final": 0.34286687730561766
       },
       "signals": {
         "must_hits": [
@@ -1634,8 +1630,8 @@
         "hard_raw": 7.0,
         "hard_norm": 0.7,
         "semantic_raw": 0.20615543163728553,
-        "semantic_norm": 0.035275101342430996,
-        "final": 0.33440130573833704
+        "semantic_norm": 0.035661471822893545,
+        "final": 0.33461380950259145
       },
       "signals": {
         "must_hits": [
@@ -1665,7 +1661,7 @@
       "url": "https://jobs.ashbyhq.com/sierra/8bb2509d-9215-4cb5-8cf1-2bf0dbade6d8/application",
       "departments": [
         "Early Career",
-        "Agent Engineering"
+        "Agent Engineering New Grad"
       ],
       "created_at": "2025-12-17T16:45:31.262+00:00",
       "updated_at": "2025-12-17T16:45:31.262+00:00",
@@ -1673,8 +1669,8 @@
         "hard_raw": 4.0,
         "hard_norm": 0.4,
         "semantic_raw": 0.28741970658273563,
-        "semantic_norm": 0.24733977208560437,
-        "final": 0.3160368746470824
+        "semantic_norm": 0.25004890070441466,
+        "final": 0.31752689538742807
       },
       "signals": {
         "must_hits": [
@@ -1710,8 +1706,8 @@
         "hard_raw": 2.0,
         "hard_norm": 0.2,
         "semantic_raw": 0.34577941894496667,
-        "semantic_norm": 0.3996334238171978,
-        "final": 0.30979838309945884
+        "semantic_norm": 0.40401063471363863,
+        "final": 0.31220584909250126
       },
       "signals": {
         "must_hits": [
@@ -1727,6 +1723,43 @@
         "reason": ""
       },
       "jd_excerpt": "Get to know Okta Okta is The World’s Identity Company. We free everyone to safely use any technology, anywhere, on any device or app. Our flexible and neutral products, Okta Platform and Auth0 Platform, provide secure access, authentication, and automation, placing identity at the core of business security and growth. At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box - we’re looking for lifelong learners and people who can make us better with their unique experiences.&nbsp; Join our team! We’re building a world where Ide"
+    },
+    {
+      "job_uid": "9df691459bcd1052",
+      "source": "greenhouse",
+      "job_id": "9df691459bcd1052",
+      "company": "figma",
+      "title": "Early Career Recruiter",
+      "location": "San Francisco, CA • New York, NY",
+      "url": "https://boards.greenhouse.io/figma/jobs/5828494004?gh_jid=5828494004",
+      "departments": [
+        "Talent"
+      ],
+      "created_at": null,
+      "updated_at": "2026-03-18T14:48:54-04:00",
+      "scores": {
+        "hard_raw": 0.0,
+        "hard_norm": 0.0,
+        "semantic_raw": 0.4073622226711014,
+        "semantic_norm": 0.5664753704542063,
+        "final": 0.3115614537498135
+      },
+      "signals": {
+        "must_hits": [],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": [
+          "5+ years"
+        ]
+      },
+      "text_hash": "5bf9b9e56ba247ba221a6cdf32aec80436f7b990",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Figma is growing our team of passionate creatives and builders on a mission to make design accessible to all. Figma’s platform helps teams bring ideas to life—whether you're brainstorming, creating a prototype, translating designs into code, or iterating with AI. From idea to product, Figma empowers teams to streamline workflows, move faster, and work together in real time from anywhere in the world. If you're excited to shape the future of design and collaboration, join us! The Early Career team at Figma is shaping the future by finding and nurturing the next generation of talent - Figma’s fu"
     }
   ]
 }
