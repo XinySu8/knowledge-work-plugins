@@ -1,6 +1,6 @@
 # Scored job feed (auto)
-Generated at (UTC): 2026-03-19T14:43:47.945647+00:00
-Total jobs scored: 11
+Generated at (UTC): 2026-03-20T14:04:11.568366+00:00
+Total jobs scored: 12
 
 ## Top internships
 [32/100] [stripe] Software Engineer, Intern (Summer) (San Francisco, Seattle, New York City) — https://stripe.com/jobs/search?gh_jid=7210115
@@ -52,6 +52,12 @@ matched_skills_have: Java
 breakdown: title 15, location 0, have 2, want+bonus 0, penalty 0
 matched_titles: software engineer
 matched_skills_have: Java
+
+[6/100] [sierra] Intern, Agent Development (Fall 2026) (San Francisco, CA) — https://jobs.ashbyhq.com/Sierra/c74d600c-235c-4d42-8546-b178b7adefc2/application
+breakdown: title 0, location 8, have 2, want+bonus 1, penalty 5
+soft_flags: citizen_mentioned
+matched_skills_have: react
+matched_bonus: rag
 
 [6/100] [sierra] Intern, Agent Development (Summer 2026) (San Francisco, CA) — https://jobs.ashbyhq.com/Sierra/8bb2509d-9215-4cb5-8cf1-2bf0dbade6d8/application
 breakdown: title 0, location 8, have 2, want+bonus 1, penalty 5
