@@ -2,8 +2,8 @@
   "meta": {
     "engine_name": "AutoJob-Agent Feeder",
     "version": 2,
-    "generated_at": "2026-03-19T16:15:49.208724+00:00",
-    "source_jobs_count": 146,
+    "generated_at": "2026-03-20T16:04:47.328547+00:00",
+    "source_jobs_count": 149,
     "candidates_count": 47,
     "candidates_topN_total": 150,
     "thresholds": {
@@ -91,6 +91,45 @@
         "reason": ""
       },
       "jd_excerpt": "About the Role Together AI is building the AI Acceleration Cloud , an end-to-end platform for the full generative AI lifecycle. Our AI Infrastructure team is at the forefront of scaling the foundational systems that power this platform. We are looking for an Early Career Software Engineer to join our Storage and Observability team , where you will help design and maintain robust distributed storage solutions and develop comprehensive observability platforms. In this role, you will work on the systems that provide critical insights into GPU utilization and system performance, ensuring seamless "
+    },
+    {
+      "job_uid": "64e8cd9ce5039875",
+      "source": "greenhouse",
+      "job_id": "64e8cd9ce5039875",
+      "company": "brex",
+      "title": "Software Engineer, Intern",
+      "location": "United States",
+      "url": "https://www.brex.com/careers/8434389002?gh_jid=8434389002",
+      "departments": [
+        "Engineering"
+      ],
+      "created_at": null,
+      "updated_at": "2026-03-19T13:23:46-04:00",
+      "scores": {
+        "hard_raw": 8.0,
+        "hard_norm": 0.8,
+        "semantic_raw": 0.49547576904247326,
+        "semantic_norm": 0.7989322116537566,
+        "final": 0.7994127164095662
+      },
+      "signals": {
+        "must_hits": [
+          "python",
+          "sql",
+          "cloud"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "37b5ee7f17d6e71af97e7e1526bb79a6f30c0e8f",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Why join us Brex is the AI-powered spend platform. We help companies spend with confidence with integrated corporate cards, banking, and global payments, plus intuitive software for travel and expenses. Tens of thousands of companies from startups to enterprises — including DoorDash, Flexport, and Compass — use Brex to proactively control spend, reduce costs, and increase efficiency on a global scale. Working at Brex allows you to push your limits, challenge the status quo, and collaborate with some of the brightest minds in the industry. We’re committed to building a diverse team and inclusiv"
     },
     {
       "job_uid": "7ae9985ca2b8ff24",
@@ -282,6 +321,44 @@
         "reason": ""
       },
       "jd_excerpt": "Get to know Okta Okta is The World’s Identity Company. We free everyone to safely use any technology, anywhere, on any device or app. Our flexible and neutral products, Okta Platform and Auth0 Platform, provide secure access, authentication, and automation, placing identity at the core of business security and growth. At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box - we’re looking for lifelong learners and people who can make us better with their unique experiences.&nbsp; Join our team! We’re building a world where Ide"
+    },
+    {
+      "job_uid": "6932e9d57bf5ef44",
+      "source": "ashby",
+      "job_id": "6932e9d57bf5ef44",
+      "company": "openai",
+      "title": "Research Scientist / Research Engineer — Early Career Cohort",
+      "location": "San Francisco",
+      "url": "https://jobs.ashbyhq.com/openai/4476b271-4987-4bd4-aa1e-0e68ea683b10/application",
+      "departments": [
+        "Research",
+        "Research"
+      ],
+      "created_at": "2026-03-19T20:59:28.241+00:00",
+      "updated_at": "2026-03-19T20:59:28.241+00:00",
+      "scores": {
+        "hard_raw": 4.0,
+        "hard_norm": 0.4,
+        "semantic_raw": 0.5372523985650173,
+        "semantic_norm": 0.9091452689496738,
+        "final": 0.6800298979223207
+      },
+      "signals": {
+        "must_hits": [
+          "machine learning"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "a80687ce75017d3f41536dba8d6f4e368a7d8c8a",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "About the Program OpenAI is hiring a small cohort of exceptional early-career researchers and engineers to join OpenAI Research. This opportunity is designed primarily for current undergraduate students and recent graduates who have demonstrated technical ability through elite competitions and challenges. Participants join OpenAI directly as full-time Research Scientists / Research Engineers and begin with an intensive one-month research bootcamp designed to immerse them in the core problems behind modern AI systems. Many of the strongest researchers at OpenAI first distinguished themselves th"
     },
     {
       "job_uid": "e7c78b9db66d7e52",
@@ -809,39 +886,6 @@
       "jd_excerpt": "At Asana we’re looking for curious, collaborative, and creative students to join our 12-week summer Product Design internship program. This program focuses on bringing students currently studying at a college or university into our Design team to develop and work on complex and challenging problems. During this internship, you’ll work directly with dedicated Design mentors who are trained and motivated to ensure your success. You’ll also have the opportunity to work with Engineering, User Research, Product Management, Data Science, and the rest of our amazing Design crew to ship experiences th"
     },
     {
-      "job_uid": "fa1e7c7a851db551",
-      "source": "lever",
-      "job_id": "fa1e7c7a851db551",
-      "company": "shieldai",
-      "title": "Marketing Video Editor Intern - 2026 Summer Intern (R4110)",
-      "location": "San Diego, California",
-      "url": "https://jobs.lever.co/shieldai/a5208a9f-4392-473c-b034-1670c3d0c565",
-      "departments": [
-        "Business Development Marketing"
-      ],
-      "created_at": 1764830857226,
-      "updated_at": 1764830857226,
-      "scores": {
-        "hard_raw": 0.0,
-        "hard_norm": 0.0,
-        "semantic_raw": 0.4882112436415585,
-        "semantic_norm": 0.7797672966429225,
-        "final": 0.42887201315360746
-      },
-      "signals": {
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": []
-      },
-      "text_hash": "b7b72cd269a84281da7cb2bab8020dc2e9a7d9cf",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=0",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "Founded in 2015, Shield AI is a venture-backed deep-tech company with the mission of protecting service members and civilians with intelligent systems. Its products include the V-BAT and X-BAT aircraft, Hivemind Enterprise, and the Hivemind Vision product lines. With offices and facilities across the U.S., Europe, the Middle East, and the Asia-Pacific, Shield AI’s technology actively supports operations worldwide. For more information, visit www.shield.ai. Follow Shield AI on LinkedIn, X, Instagram, and YouTube. Job Description: Our 2026 Summer Internship program is a wonderful opportunity for"
-    },
-    {
       "job_uid": "119fc6123c9f2f04",
       "source": "greenhouse",
       "job_id": "119fc6123c9f2f04",
@@ -1208,74 +1252,6 @@
         "reason": ""
       },
       "jd_excerpt": "Get to know Okta Okta is The World’s Identity Company. We free everyone to safely use any technology, anywhere, on any device or app. Our flexible and neutral products, Okta Platform and Auth0 Platform, provide secure access, authentication, and automation, placing identity at the core of business security and growth. At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box - we’re looking for lifelong learners and people who can make us better with their unique experiences.&nbsp; Join our team! We’re building a world where Ide"
-    },
-    {
-      "job_uid": "7c8fbf61763cad7a",
-      "source": "lever",
-      "job_id": "7c8fbf61763cad7a",
-      "company": "waabi",
-      "title": "Product Management Internship/Co-op, Summer 2026",
-      "location": "San Francisco, CA",
-      "url": "https://jobs.lever.co/waabi/fbac4b25-492e-4076-a2f6-7346ed3ca48c",
-      "departments": [
-        "Product"
-      ],
-      "created_at": 1769810228016,
-      "updated_at": 1769810228016,
-      "scores": {
-        "hard_raw": 0.0,
-        "hard_norm": 0.0,
-        "semantic_raw": 0.4585116778912536,
-        "semantic_norm": 0.7014153573143596,
-        "final": 0.3857784465228978
-      },
-      "signals": {
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": []
-      },
-      "text_hash": "abf624f8d65cf1cc7c90265336d88a7b857a081b",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=0",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "Waabi, founded by AI visionary Raquel Urtasun, is the leader in Physical AI. With a world-class team, we're unlocking the next era of autonomous transportation with technology that's powering commercial autonomous trucks and robotaxis. Waabi is backed by and partners with world leaders in AI, automotive, logistics, and deep tech. With offices in Toronto, San Francisco, Dallas, and Pittsburgh, Waabi is growing quickly and looking for diverse, innovative and collaborative candidates who want to impact the world in a positive way. To learn more visit: www.waabi.ai We are seeking a motivated Produ"
-    },
-    {
-      "job_uid": "e8f07d2bdf1c8afe",
-      "source": "lever",
-      "job_id": "e8f07d2bdf1c8afe",
-      "company": "magnetforensics",
-      "title": "Vulnerability Research Internship",
-      "location": "United States",
-      "url": "https://jobs.lever.co/magnetforensics/a8d3d3a6-fbaf-4ab7-809e-e8c8f2476626",
-      "departments": [
-        "Vulnerability Research"
-      ],
-      "created_at": 1770227045849,
-      "updated_at": 1770227045849,
-      "scores": {
-        "hard_raw": 1.0,
-        "hard_norm": 0.1,
-        "semantic_raw": 0.4256120920177018,
-        "semantic_norm": 0.6146212816712533,
-        "final": 0.3830417049191893
-      },
-      "signals": {
-        "must_hits": [
-          "git"
-        ],
-        "nice_hits": [],
-        "neg_hits": []
-      },
-      "text_hash": "8919fac1b0e832c524f54a1c94eeb4eba50e1660",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "Who We Are; What We Do; Where We’re Going Magnet Forensics is a global leader in the development of digital investigative software that acquires, analyzes, and shares evidence from computers, smartphones, tablets, and IoT-related devices. We are continually innovating so our customers can deploy advanced and effective tools to protect their companies, communities, and countries. Serving thousands of customers globally, our solutions are playing a crucial role in modernizing digital investigations, helping investigators fight crime, protect assets, and guard national security. With employees ba"
     },
     {
       "job_uid": "609c9f7aff473916",
@@ -1650,6 +1626,44 @@
         "reason": ""
       },
       "jd_excerpt": "ABOUT RAMP Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $100B in annualized spend flows in and out of 50,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books. The problems are high-stakes, data-dense, and unforgiving. We hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential "
+    },
+    {
+      "job_uid": "0ba6fd970f1c6dd2",
+      "source": "ashby",
+      "job_id": "0ba6fd970f1c6dd2",
+      "company": "sierra",
+      "title": "Intern, Agent Development (Fall 2026)",
+      "location": "San Francisco, CA",
+      "url": "https://jobs.ashbyhq.com/sierra/c74d600c-235c-4d42-8546-b178b7adefc2/application",
+      "departments": [
+        "Early Career",
+        "Agent Engineering New Grad"
+      ],
+      "created_at": "2026-03-19T19:02:43.041+00:00",
+      "updated_at": "2026-03-19T19:02:43.041+00:00",
+      "scores": {
+        "hard_raw": 4.0,
+        "hard_norm": 0.4,
+        "semantic_raw": 0.28741970658273563,
+        "semantic_norm": 0.25004890070441466,
+        "final": 0.31752689538742807
+      },
+      "signals": {
+        "must_hits": [
+          "llm"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "848f2481831ff9af5d376c4cba61fe4f0ec3214f",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "ABOUT US - At Sierra, we’re creating a platform to help businesses build better, more human customer experiences with AI. We are primarily an in-person company based in San Francisco, with growing offices in Atlanta, New York, London, Paris, Singapore, and Japan. - We are guided by a set of values that are at the core of our actions and define our culture: Trust, Customer Obsession, Craftsmanship, Intensity, and Family. These values are the foundation of our work, and we are committed to upholding them in everything we do. - Our co-founders are Bret Taylor https://www.linkedin.com/in/brettaylo"
     },
     {
       "job_uid": "99ded1db1070bd16",

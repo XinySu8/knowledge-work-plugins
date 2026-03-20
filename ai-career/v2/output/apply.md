@@ -12,6 +12,12 @@
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=4, nice_hits=1
 
+- brex | Software Engineer, Intern | United States | score=0.799
+  - url: https://www.brex.com/careers/8434389002?gh_jid=8434389002
+  - must_hits: python, sql, cloud
+  - nice_hits: rag
+  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1
+
 - scaleai | Machine Learning Research Intern (Summer 2026) | San Francisco, CA | score=0.739
   - url: https://job-boards.greenhouse.io/scaleai/jobs/4606060005
   - must_hits: python, data pipeline, machine learning, llm

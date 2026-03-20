@@ -18,6 +18,12 @@
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1
 
+- openai | Research Scientist / Research Engineer — Early Career Cohort | San Francisco | score=0.680
+  - url: https://jobs.ashbyhq.com/openai/4476b271-4987-4bd4-aa1e-0e68ea683b10/application
+  - must_hits: machine learning
+  - nice_hits: rag
+  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1
+
 - scaleai | Technical Advisor Specialist (Part-Time Internship)  | San Francisco, CA | score=0.640
   - url: https://job-boards.greenhouse.io/scaleai/jobs/4611533005
   - must_hits: None
@@ -102,12 +108,6 @@
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1
 
-- shieldai | Marketing Video Editor Intern - 2026 Summer Intern (R4110) | San Diego, California | score=0.429
-  - url: https://jobs.lever.co/shieldai/a5208a9f-4392-473c-b034-1670c3d0c565
-  - must_hits: None
-  - nice_hits: None
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=0
-
 - databricks | PhD GenAI Research Scientist Intern | San Francisco, California | score=0.424
   - url: https://databricks.com/company/careers/open-positions/job?gh_jid=7011263002
   - must_hits: llm
@@ -168,18 +168,6 @@
   - nice_hits: None
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0
 
-- waabi | Product Management Internship/Co-op, Summer 2026 | San Francisco, CA | score=0.386
-  - url: https://jobs.lever.co/waabi/fbac4b25-492e-4076-a2f6-7346ed3ca48c
-  - must_hits: None
-  - nice_hits: None
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=0
-
-- magnetforensics | Vulnerability Research Internship | United States | score=0.383
-  - url: https://jobs.lever.co/magnetforensics/a8d3d3a6-fbaf-4ab7-809e-e8c8f2476626
-  - must_hits: git
-  - nice_hits: None
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0
-
 - notion | Software Engineer, Fullstack, Early Career | San Francisco, California | score=0.375
   - url: https://jobs.ashbyhq.com/notion/f7399542-9122-481a-bf64-43bf8093748b/application
   - must_hits: None
@@ -239,6 +227,12 @@
   - must_hits: python, sql
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1
+
+- sierra | Intern, Agent Development (Fall 2026) | San Francisco, CA | score=0.318
+  - url: https://jobs.ashbyhq.com/sierra/c74d600c-235c-4d42-8546-b178b7adefc2/application
+  - must_hits: llm
+  - nice_hits: rag
+  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1
 
 - sierra | Intern, Agent Development (Summer 2026) | San Francisco, CA | score=0.318
   - url: https://jobs.ashbyhq.com/sierra/8bb2509d-9215-4cb5-8cf1-2bf0dbade6d8/application
