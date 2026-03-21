@@ -126,6 +126,12 @@
   - nice_hits: mlflow
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1
 
+- waabi | Commercial Product MBA Intern, Summer 2026 | San Francisco, CA | score=0.418
+  - url: https://jobs.lever.co/waabi/6a45cf5e-b199-4ade-b02c-2d69eb6104a7
+  - must_hits: None
+  - nice_hits: None
+  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=0
+
 - togetherai | GTM Systems Analyst Intern (Summer 2026) | San Francisco | score=0.416
   - url: https://job-boards.greenhouse.io/togetherai/jobs/5014290007
   - must_hits: cloud

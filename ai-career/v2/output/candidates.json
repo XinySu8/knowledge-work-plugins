@@ -2,9 +2,9 @@
   "meta": {
     "engine_name": "AutoJob-Agent Feeder",
     "version": 2,
-    "generated_at": "2026-03-20T16:04:47.328547+00:00",
-    "source_jobs_count": 149,
-    "candidates_count": 47,
+    "generated_at": "2026-03-21T15:48:46.928681+00:00",
+    "source_jobs_count": 154,
+    "candidates_count": 48,
     "candidates_topN_total": 150,
     "thresholds": {
       "apply": 0.72,
@@ -862,7 +862,7 @@
         "Internship"
       ],
       "created_at": null,
-      "updated_at": "2026-03-19T10:22:21-04:00",
+      "updated_at": "2026-03-20T19:48:05-04:00",
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.2,
@@ -997,6 +997,39 @@
       "jd_excerpt": "At Databricks, we are passionate about helping data teams solve the world's toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. As a Strategic Finance MBA Intern, you will join our world-class finance team to drive insights and impact across Databricks. During your 12 week internship, you'll work on impactful strategic finance projects,. Your work will provid"
     },
     {
+      "job_uid": "ce8ed2e66ba5a9f6",
+      "source": "lever",
+      "job_id": "ce8ed2e66ba5a9f6",
+      "company": "waabi",
+      "title": "Commercial Product MBA Intern, Summer 2026",
+      "location": "San Francisco, CA",
+      "url": "https://jobs.lever.co/waabi/6a45cf5e-b199-4ade-b02c-2d69eb6104a7",
+      "departments": [
+        "Product"
+      ],
+      "created_at": 1773886089306,
+      "updated_at": 1773886089306,
+      "scores": {
+        "hard_raw": 0.0,
+        "hard_norm": 0.0,
+        "semantic_raw": 0.48041114211034414,
+        "semantic_norm": 0.7591894509239472,
+        "final": 0.417554198008171
+      },
+      "signals": {
+        "must_hits": [],
+        "nice_hits": [],
+        "neg_hits": []
+      },
+      "text_hash": "704207744e0ba5b03196e6b6dfc3308bcb5ae261",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=0",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Waabi, founded by AI visionary Raquel Urtasun, is the leader in Physical AI. With a world-class team, we're unlocking the next era of autonomous transportation with technology that's powering commercial autonomous trucks and robotaxis. Waabi is backed by and partners with world leaders in AI, automotive, logistics, and deep tech. With offices in Toronto, San Francisco, Dallas, and Pittsburgh, Waabi is growing quickly and looking for diverse, innovative and collaborative candidates who want to impact the world in a positive way. To learn more visit: www.waabi.ai Application Instructions: The Su"
+    },
+    {
       "job_uid": "05413f176349337a",
       "source": "greenhouse",
       "job_id": "05413f176349337a",
@@ -1119,7 +1152,7 @@
         "Internship"
       ],
       "created_at": null,
-      "updated_at": "2026-03-19T10:22:21-04:00",
+      "updated_at": "2026-03-20T19:48:05-04:00",
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.2,
