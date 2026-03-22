@@ -4405,7 +4405,7 @@
       },
       "semantic": {
         "raw": 0.48041114211034414,
-        "cache_reused": false,
+        "cache_reused": true,
         "norm": 0.7591894509239472
       },
       "text_hash": "704207744e0ba5b03196e6b6dfc3308bcb5ae261",
