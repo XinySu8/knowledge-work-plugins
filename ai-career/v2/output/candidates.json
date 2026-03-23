@@ -2,9 +2,9 @@
   "meta": {
     "engine_name": "AutoJob-Agent Feeder",
     "version": 2,
-    "generated_at": "2026-03-22T15:48:48.133411+00:00",
-    "source_jobs_count": 154,
-    "candidates_count": 48,
+    "generated_at": "2026-03-23T16:17:14.964220+00:00",
+    "source_jobs_count": 151,
+    "candidates_count": 46,
     "candidates_topN_total": 150,
     "thresholds": {
       "apply": 0.72,
@@ -91,45 +91,6 @@
         "reason": ""
       },
       "jd_excerpt": "About the Role Together AI is building the AI Acceleration Cloud , an end-to-end platform for the full generative AI lifecycle. Our AI Infrastructure team is at the forefront of scaling the foundational systems that power this platform. We are looking for an Early Career Software Engineer to join our Storage and Observability team , where you will help design and maintain robust distributed storage solutions and develop comprehensive observability platforms. In this role, you will work on the systems that provide critical insights into GPU utilization and system performance, ensuring seamless "
-    },
-    {
-      "job_uid": "64e8cd9ce5039875",
-      "source": "greenhouse",
-      "job_id": "64e8cd9ce5039875",
-      "company": "brex",
-      "title": "Software Engineer, Intern",
-      "location": "United States",
-      "url": "https://www.brex.com/careers/8434389002?gh_jid=8434389002",
-      "departments": [
-        "Engineering"
-      ],
-      "created_at": null,
-      "updated_at": "2026-03-19T13:23:46-04:00",
-      "scores": {
-        "hard_raw": 8.0,
-        "hard_norm": 0.8,
-        "semantic_raw": 0.49547576904247326,
-        "semantic_norm": 0.7989322116537566,
-        "final": 0.7994127164095662
-      },
-      "signals": {
-        "must_hits": [
-          "python",
-          "sql",
-          "cloud"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": []
-      },
-      "text_hash": "37b5ee7f17d6e71af97e7e1526bb79a6f30c0e8f",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "Why join us Brex is the AI-powered spend platform. We help companies spend with confidence with integrated corporate cards, banking, and global payments, plus intuitive software for travel and expenses. Tens of thousands of companies from startups to enterprises — including DoorDash, Flexport, and Compass — use Brex to proactively control spend, reduce costs, and increase efficiency on a global scale. Working at Brex allows you to push your limits, challenge the status quo, and collaborate with some of the brightest minds in the industry. We’re committed to building a diverse team and inclusiv"
     },
     {
       "job_uid": "7ae9985ca2b8ff24",
@@ -283,44 +244,6 @@
         "reason": ""
       },
       "jd_excerpt": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. What you’ll do About the internship Stripe's Applied ML, Data Science, Risk, and"
-    },
-    {
-      "job_uid": "30e16c6943fafdda",
-      "source": "greenhouse",
-      "job_id": "30e16c6943fafdda",
-      "company": "okta",
-      "title": "Global Benefits Intern (Summer 2026)",
-      "location": "Bellevue, Washington; San Francisco, California",
-      "url": "https://www.okta.com/company/careers/opportunity/7547730?gh_jid=7547730",
-      "departments": [
-        "People Operations-131"
-      ],
-      "created_at": null,
-      "updated_at": "2026-03-05T13:07:56-05:00",
-      "scores": {
-        "hard_raw": 5.0,
-        "hard_norm": 0.5,
-        "semantic_raw": 0.5071952342981988,
-        "semantic_norm": 0.8298499307342243,
-        "final": 0.6814174619038235
-      },
-      "signals": {
-        "must_hits": [
-          "machine learning",
-          "git"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": []
-      },
-      "text_hash": "a56295ffe431701e2ee44af5d491aeceab5884e0",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "Get to know Okta Okta is The World’s Identity Company. We free everyone to safely use any technology, anywhere, on any device or app. Our flexible and neutral products, Okta Platform and Auth0 Platform, provide secure access, authentication, and automation, placing identity at the core of business security and growth. At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box - we’re looking for lifelong learners and people who can make us better with their unique experiences.&nbsp; Join our team! We’re building a world where Ide"
     },
     {
       "job_uid": "6932e9d57bf5ef44",
