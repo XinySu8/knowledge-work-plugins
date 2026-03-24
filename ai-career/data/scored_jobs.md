@@ -1,6 +1,6 @@
 # Scored job feed (auto)
-Generated at (UTC): 2026-03-23T14:52:08.929423+00:00
-Total jobs scored: 12
+Generated at (UTC): 2026-03-24T14:21:59.203401+00:00
+Total jobs scored: 13
 
 ## Top internships
 [32/100] [stripe] Software Engineer, Intern (Summer) (San Francisco, Seattle, New York City) — https://stripe.com/jobs/search?gh_jid=7210115
@@ -38,17 +38,22 @@ matched_skills_have: python, react
 breakdown: title 15, location 7, have 0, want+bonus 0, penalty 0
 matched_titles: software engineer
 
+[17/100] [stripe] Software Engineer, Intern (Sydney, Australia) — https://stripe.com/jobs/search?gh_jid=7532256
+breakdown: title 15, location 0, have 2, want+bonus 0, penalty 0
+matched_titles: software engineer
+matched_skills_have: Java
+
 [17/100] [stripe] Software Engineer, Intern (London) — https://stripe.com/jobs/search?gh_jid=7360840
 breakdown: title 15, location 0, have 2, want+bonus 0, penalty 0
 matched_titles: software engineer
 matched_skills_have: Java
 
-[17/100] [stripe] Software Engineer, Intern (Dublin) — https://stripe.com/jobs/search?gh_jid=7206494
+[17/100] [stripe] Software Engineer, Intern (Singapore) — https://stripe.com/jobs/search?gh_jid=7206401
 breakdown: title 15, location 0, have 2, want+bonus 0, penalty 0
 matched_titles: software engineer
 matched_skills_have: Java
 
-[17/100] [stripe] Software Engineer, Intern (Singapore) — https://stripe.com/jobs/search?gh_jid=7206401
+[17/100] [stripe] Software Engineer, Intern (Dublin) — https://stripe.com/jobs/search?gh_jid=7206494
 breakdown: title 15, location 0, have 2, want+bonus 0, penalty 0
 matched_titles: software engineer
 matched_skills_have: Java
