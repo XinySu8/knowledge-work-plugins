@@ -2,8 +2,8 @@
   "meta": {
     "engine_name": "AutoJob-Agent Feeder",
     "version": 2,
-    "generated_at": "2026-03-24T16:36:55.169669+00:00",
-    "source_jobs_count": 140,
+    "generated_at": "2026-03-25T16:42:52.925205+00:00",
+    "source_jobs_count": 139,
     "candidates_count": 37,
     "candidates_topN_total": 150,
     "thresholds": {
@@ -369,7 +369,7 @@
         "BT Operations-165"
       ],
       "created_at": null,
-      "updated_at": "2026-03-23T15:50:52-04:00",
+      "updated_at": "2026-03-24T13:55:24-04:00",
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.375,
@@ -385,7 +385,7 @@
         "nice_hits": [],
         "neg_hits": []
       },
-      "text_hash": "5b82631f1209fe366d26a37be19ade882f4145e0",
+      "text_hash": "b487a94e10d77b8be9525078d83a08d2152d4119",
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0",
       "hard_gate": {
         "hit": false,
