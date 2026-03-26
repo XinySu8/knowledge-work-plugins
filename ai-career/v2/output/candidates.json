@@ -2,9 +2,9 @@
   "meta": {
     "engine_name": "AutoJob-Agent Feeder",
     "version": 2,
-    "generated_at": "2026-03-25T16:42:52.925205+00:00",
-    "source_jobs_count": 139,
-    "candidates_count": 37,
+    "generated_at": "2026-03-26T16:41:40.017982+00:00",
+    "source_jobs_count": 135,
+    "candidates_count": 36,
     "candidates_topN_total": 150,
     "thresholds": {
       "apply": 0.72,
@@ -52,45 +52,6 @@
         "reason": ""
       },
       "jd_excerpt": "About the Role Together AI is building the AI Acceleration Cloud , an end-to-end platform for the full generative AI lifecycle. Our AI Infrastructure team is at the forefront of scaling the foundational systems that power this platform. We are looking for an Early Career Software Engineer to join our Storage and Observability team , where you will help design and maintain robust distributed storage solutions and develop comprehensive observability platforms. In this role, you will work on the systems that provide critical insights into GPU utilization and system performance, ensuring seamless "
-    },
-    {
-      "job_uid": "a6d769757f815638",
-      "source": "greenhouse",
-      "job_id": "a6d769757f815638",
-      "company": "okta",
-      "title": "Communications AI Strategy & Operations Intern (Summer 2026)",
-      "location": "San Francisco, California",
-      "url": "https://www.okta.com/company/careers/opportunity/7665195?gh_jid=7665195",
-      "departments": [
-        "Corporate Communication-410"
-      ],
-      "created_at": null,
-      "updated_at": "2026-03-23T15:50:52-04:00",
-      "scores": {
-        "hard_raw": 7.0,
-        "hard_norm": 0.875,
-        "semantic_raw": 0.4731365442271269,
-        "semantic_norm": 0.7399979631837711,
-        "final": 0.8007488797510741
-      },
-      "signals": {
-        "must_hits": [
-          "machine learning",
-          "llm",
-          "git"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": []
-      },
-      "text_hash": "8cdf7dc6367626e04a2bc222a3fa3cfec69c204b",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. Location:&nbsp; We’re seeking a dynamic and motivated individual to join our team"
     },
     {
       "job_uid": "cdefeb135c230613",
@@ -141,7 +102,7 @@
         "5112 General University"
       ],
       "created_at": null,
-      "updated_at": "2026-03-17T17:31:05-04:00",
+      "updated_at": "2026-03-26T11:36:33-04:00",
       "scores": {
         "hard_raw": 8.0,
         "hard_norm": 1.0,
@@ -331,7 +292,7 @@
         "Corporate Operations"
       ],
       "created_at": null,
-      "updated_at": "2026-02-25T14:24:49-05:00",
+      "updated_at": "2026-03-25T21:10:35-04:00",
       "scores": {
         "hard_raw": 5.0,
         "hard_norm": 0.625,
@@ -356,42 +317,6 @@
         "reason": ""
       },
       "jd_excerpt": "At Databricks, we are passionate about helping data teams solve the world's toughest problems - from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. As a Corporate Operations (Corp Ops) MBA Intern, you will sit at the strategic nexus of our organization, connecting the dots across a diverse array of functions including Product, Sales, Finance, People, Legal, M&amp;A, and more.&nb"
-    },
-    {
-      "job_uid": "50fc2ceb0d3d7dce",
-      "source": "greenhouse",
-      "job_id": "50fc2ceb0d3d7dce",
-      "company": "okta",
-      "title": "IT Support Intern (Summer 2026)",
-      "location": "San Francisco, California",
-      "url": "https://www.okta.com/company/careers/opportunity/7558024?gh_jid=7558024",
-      "departments": [
-        "BT Operations-165"
-      ],
-      "created_at": null,
-      "updated_at": "2026-03-24T13:55:24-04:00",
-      "scores": {
-        "hard_raw": 3.0,
-        "hard_norm": 0.375,
-        "semantic_raw": 0.5067278742785154,
-        "semantic_norm": 0.8286169644270839,
-        "final": 0.6244893304348962
-      },
-      "signals": {
-        "must_hits": [
-          "machine learning",
-          "git"
-        ],
-        "nice_hits": [],
-        "neg_hits": []
-      },
-      "text_hash": "b487a94e10d77b8be9525078d83a08d2152d4119",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. Location We’re seeking a dynamic and motivated contributor to join our team in on"
     },
     {
       "job_uid": "80edd7620280a1ef",
@@ -686,6 +611,41 @@
         "reason": ""
       },
       "jd_excerpt": "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. About the Internship: Okta’s Technical Account Management Team empowers Okta cust"
+    },
+    {
+      "job_uid": "be7eb8d7168d78fa",
+      "source": "greenhouse",
+      "job_id": "be7eb8d7168d78fa",
+      "company": "scaleai",
+      "title": "AI Deployment Strategist Intern",
+      "location": "New York, NY",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4677519005",
+      "departments": [
+        "Enterprise Operations"
+      ],
+      "created_at": null,
+      "updated_at": "2026-03-25T18:21:05-04:00",
+      "scores": {
+        "hard_raw": 2.0,
+        "hard_norm": 0.25,
+        "semantic_raw": 0.4462467133994408,
+        "semantic_norm": 0.6690585288742121,
+        "final": 0.4804821908808167
+      },
+      "signals": {
+        "must_hits": [
+          "machine learning"
+        ],
+        "nice_hits": [],
+        "neg_hits": []
+      },
+      "text_hash": "8b4f28da415af4941b87116a7c827c11e65b09ec",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Scale’s Enterprise Applications business is growing faster than ever in the quest to develop reliable AI systems for the world’s most important decisions. As an AI Deployment Strategist Intern , you will work alongside our DSG team, helping our largest customers build, launch, and scale groundbreaking GenAI solutions that redefine their industries. You will support deployment success and contribute foundational industry knowledge to our team, helping turn bold ideas into real impact and ensuring engagements run smoothly. In this role, you will work directly with data, engineering, business, an"
     },
     {
       "job_uid": "2d97101576e1b003",
@@ -1141,7 +1101,7 @@
         "5112 General University"
       ],
       "created_at": null,
-      "updated_at": "2026-03-17T17:31:04-04:00",
+      "updated_at": "2026-03-26T11:36:33-04:00",
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.375,
@@ -1178,7 +1138,7 @@
         "5112 General University"
       ],
       "created_at": null,
-      "updated_at": "2026-03-17T17:31:04-04:00",
+      "updated_at": "2026-03-26T11:36:33-04:00",
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.375,
@@ -1363,13 +1323,13 @@
         "University"
       ],
       "created_at": null,
-      "updated_at": "2026-03-23T16:53:32-04:00",
+      "updated_at": "2026-03-25T18:20:03-04:00",
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.375,
-        "semantic_raw": 0.2908277809616995,
-        "semantic_norm": 0.2590399155634472,
-        "final": 0.311221953559896
+        "semantic_raw": 0.2908278579010355,
+        "semantic_norm": 0.25904011854103404,
+        "final": 0.31122206519756873
       },
       "signals": {
         "must_hits": [
@@ -1378,7 +1338,7 @@
         "nice_hits": [],
         "neg_hits": []
       },
-      "text_hash": "c941bcda98b78e85218933c65c67d5a15f44d95f",
+      "text_hash": "4e1493c84050d2d474e04b2f016a87ca602fb891",
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0",
       "hard_gate": {
         "hit": false,

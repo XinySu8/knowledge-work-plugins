@@ -24,12 +24,6 @@
   - nice_hits: rag, mlflow
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=2
 
-- okta | IT Support Intern (Summer 2026) | San Francisco, California | score=0.624
-  - url: https://www.okta.com/company/careers/opportunity/7558024?gh_jid=7558024
-  - must_hits: machine learning, git
-  - nice_hits: None
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0
-
 - okta | Customer Success Intern (Summer 2026) | Chicago, Illinois | score=0.615
   - url: https://www.okta.com/company/careers/opportunity/7565237?gh_jid=7565237
   - must_hits: machine learning, git, cloud
@@ -77,6 +71,12 @@
   - must_hits: machine learning, cloud
   - nice_hits: None
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0
+
+- scaleai | AI Deployment Strategist Intern | New York, NY | score=0.480
+  - url: https://job-boards.greenhouse.io/scaleai/jobs/4677519005
+  - must_hits: machine learning
+  - nice_hits: None
+  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0
 
 - ramp | University Grad | Software Engineer | Frontend | New York, NY (HQ) | score=0.469
   - url: https://jobs.ashbyhq.com/ramp/a1229aec-1105-4c47-8533-b912e732ed89/application
