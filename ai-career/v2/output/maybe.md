@@ -60,12 +60,6 @@
   - nice_hits: mlflow
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1
 
-- okta | Data Analyst Intern (Summer 2026) | San Francisco, California | score=0.493
-  - url: https://www.okta.com/company/careers/opportunity/7561055?gh_jid=7561055
-  - must_hits: machine learning
-  - nice_hits: None
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0
-
 - okta | Technical Account Management Intern (Summer 2026) | Chicago, Illinois | score=0.492
   - url: https://www.okta.com/company/careers/opportunity/7549331?gh_jid=7549331
   - must_hits: machine learning, cloud
