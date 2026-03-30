@@ -42,12 +42,6 @@
   - nice_hits: mlflow
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1
 
-- okta | Business Analyst Intern (Summer 2026) | Chicago, Illinois | score=0.574
-  - url: https://www.okta.com/company/careers/opportunity/7617090?gh_jid=7617090
-  - must_hits: machine learning
-  - nice_hits: rag
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1
-
 - databricks | MBA Intern - Strategy & Execution | San Francisco, California | score=0.554
   - url: https://databricks.com/company/careers/open-positions/job?gh_jid=7295056002
   - must_hits: sql
@@ -98,12 +92,6 @@
 
 - ramp | Software Engineer Internship, Android  | New York, NY (HQ) | score=0.433
   - url: https://jobs.ashbyhq.com/ramp/67fadb77-43d8-4449-954b-d4cf2c6d3b8b/application
-  - must_hits: python, sql
-  - nice_hits: rag
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1
-
-- ramp | Software Engineer Internship, iOS | New York, NY (HQ) | score=0.433
-  - url: https://jobs.ashbyhq.com/ramp/8c155b55-3e7e-48a8-ac98-f988a2b6f4da/application
   - must_hits: python, sql
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1

@@ -2,9 +2,9 @@
   "meta": {
     "engine_name": "AutoJob-Agent Feeder",
     "version": 2,
-    "generated_at": "2026-03-29T15:54:29.053364+00:00",
-    "source_jobs_count": 139,
-    "candidates_count": 35,
+    "generated_at": "2026-03-30T16:34:14.620362+00:00",
+    "source_jobs_count": 137,
+    "candidates_count": 34,
     "candidates_topN_total": 150,
     "thresholds": {
       "apply": 0.72,
@@ -52,6 +52,45 @@
         "reason": ""
       },
       "jd_excerpt": "About the Role Together AI is building the AI Acceleration Cloud , an end-to-end platform for the full generative AI lifecycle. Our AI Infrastructure team is at the forefront of scaling the foundational systems that power this platform. We are looking for an Early Career Software Engineer to join our Storage and Observability team , where you will help design and maintain robust distributed storage solutions and develop comprehensive observability platforms. In this role, you will work on the systems that provide critical insights into GPU utilization and system performance, ensuring seamless "
+    },
+    {
+      "job_uid": "64e8cd9ce5039875",
+      "source": "greenhouse",
+      "job_id": "64e8cd9ce5039875",
+      "company": "brex",
+      "title": "Software Engineer, Intern",
+      "location": "United States",
+      "url": "https://www.brex.com/careers/8434389002?gh_jid=8434389002",
+      "departments": [
+        "Engineering"
+      ],
+      "created_at": null,
+      "updated_at": "2026-03-30T10:28:01-04:00",
+      "scores": {
+        "hard_raw": 8.0,
+        "hard_norm": 1.0,
+        "semantic_raw": 0.49547576904247326,
+        "semantic_norm": 0.7989322116537566,
+        "final": 0.8894127164095662
+      },
+      "signals": {
+        "must_hits": [
+          "python",
+          "sql",
+          "cloud"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "37b5ee7f17d6e71af97e7e1526bb79a6f30c0e8f",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Why join us Brex is the AI-powered spend platform. We help companies spend with confidence with integrated corporate cards, banking, and global payments, plus intuitive software for travel and expenses. Tens of thousands of companies from startups to enterprises — including DoorDash, Flexport, and Compass — use Brex to proactively control spend, reduce costs, and increase efficiency on a global scale. Working at Brex allows you to push your limits, challenge the status quo, and collaborate with some of the brightest minds in the industry. We’re committed to building a diverse team and inclusiv"
     },
     {
       "job_uid": "cdefeb135c230613",
@@ -430,43 +469,6 @@
       "jd_excerpt": "GAQ227R116 At Databricks, we are passionate about helping data teams solve the world's toughest problems - from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. As a Workforce Intelligence MBA intern, you’ll drive insights and impact across our People (HR) function and all of Databricks. During your 12 week internship, you'll work on impactful projects that drive decisions about h"
     },
     {
-      "job_uid": "9cde9753e65a0790",
-      "source": "greenhouse",
-      "job_id": "9cde9753e65a0790",
-      "company": "okta",
-      "title": "Business Analyst Intern (Summer 2026)",
-      "location": "Chicago, Illinois",
-      "url": "https://www.okta.com/company/careers/opportunity/7617090?gh_jid=7617090",
-      "departments": [
-        "Product Marketing-530"
-      ],
-      "created_at": null,
-      "updated_at": "2026-03-23T15:50:52-04:00",
-      "scores": {
-        "hard_raw": 4.0,
-        "hard_norm": 0.5,
-        "semantic_raw": 0.43329038818377963,
-        "semantic_norm": 0.6348777864433843,
-        "final": 0.5741827825438615
-      },
-      "signals": {
-        "must_hits": [
-          "machine learning"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": []
-      },
-      "text_hash": "8e24d0f174b49a7a79ee53225a5d73d0c353fb40",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. About the Internship: We are looking for a strategic and detail-oriented Business"
-    },
-    {
       "job_uid": "6930a806414652cd",
       "source": "greenhouse",
       "job_id": "6930a806414652cd",
@@ -792,45 +794,6 @@
         "neg_hits": []
       },
       "text_hash": "10c207d29a2237a365c6c4ca588b2fda7c375906",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "ABOUT RAMP Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $100B in annualized spend flows in and out of 50,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books. The problems are high-stakes, data-dense, and unforgiving. We hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential "
-    },
-    {
-      "job_uid": "4ff882d7bab5bdb0",
-      "source": "ashby",
-      "job_id": "4ff882d7bab5bdb0",
-      "company": "ramp",
-      "title": "Software Engineer Internship, iOS",
-      "location": "New York, NY (HQ)",
-      "url": "https://jobs.ashbyhq.com/ramp/8c155b55-3e7e-48a8-ac98-f988a2b6f4da/application",
-      "departments": [
-        "Engineering",
-        "Emerging Talent - SWE"
-      ],
-      "created_at": "2025-08-07T16:04:29.101+00:00",
-      "updated_at": "2025-08-07T16:04:29.101+00:00",
-      "scores": {
-        "hard_raw": 7.0,
-        "hard_norm": 0.875,
-        "semantic_raw": 0.21998427629355108,
-        "semantic_norm": 0.07214405229566408,
-        "final": 0.43342922876261525
-      },
-      "signals": {
-        "must_hits": [
-          "python",
-          "sql"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": []
-      },
-      "text_hash": "aad836940e4a0573a224527bd9b359dd3a3b59e3",
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1",
       "hard_gate": {
         "hit": false,
