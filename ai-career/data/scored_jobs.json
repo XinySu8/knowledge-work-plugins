@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-03-29T14:31:34.202079+00:00",
-  "source_generated_at_utc": "2026-03-29T14:31:34.104951+00:00",
-  "count": 13,
+  "generated_at_utc": "2026-03-30T14:43:05.186184+00:00",
+  "source_generated_at_utc": "2026-03-30T14:43:05.092826+00:00",
+  "count": 12,
   "jobs": [
     {
       "id": "b35597b79d3ae32f",
@@ -37,36 +37,6 @@
       "title": "Software Engineer Internship, Android ",
       "location": "New York, NY (HQ)",
       "url": "https://jobs.ashbyhq.com/ramp/67fadb77-43d8-4449-954b-d4cf2c6d3b8b/application",
-      "source": "ashby",
-      "score": 29,
-      "breakdown": {
-        "title": 15,
-        "location": 8,
-        "have": 6,
-        "want+bonus": 0,
-        "penalty": 0,
-        "detected_mode": "none",
-        "city_tier": "tier2"
-      },
-      "hard_flags": [],
-      "soft_flags": [],
-      "matched_titles": [
-        "software engineer"
-      ],
-      "matched_skills_have": [
-        "python",
-        "sql",
-        "react"
-      ],
-      "matched_skills_want": [],
-      "matched_bonus": []
-    },
-    {
-      "id": "4ff882d7bab5bdb0",
-      "company": "ramp",
-      "title": "Software Engineer Internship, iOS",
-      "location": "New York, NY (HQ)",
-      "url": "https://jobs.ashbyhq.com/ramp/8c155b55-3e7e-48a8-ac98-f988a2b6f4da/application",
       "source": "ashby",
       "score": 29,
       "breakdown": {
@@ -236,6 +206,34 @@
       "matched_bonus": []
     },
     {
+      "id": "acdb4e432b539db6",
+      "company": "stripe",
+      "title": "Software Engineer, Intern",
+      "location": "London",
+      "url": "https://stripe.com/jobs/search?gh_jid=7360840",
+      "source": "greenhouse",
+      "score": 17,
+      "breakdown": {
+        "title": 15,
+        "location": 0,
+        "have": 2,
+        "want+bonus": 0,
+        "penalty": 0,
+        "detected_mode": "none",
+        "city_tier": "none"
+      },
+      "hard_flags": [],
+      "soft_flags": [],
+      "matched_titles": [
+        "software engineer"
+      ],
+      "matched_skills_have": [
+        "Java"
+      ],
+      "matched_skills_want": [],
+      "matched_bonus": []
+    },
+    {
       "id": "1254231df3fa18cd",
       "company": "stripe",
       "title": "Software Engineer, Intern",
@@ -269,34 +267,6 @@
       "title": "Software Engineer, Intern",
       "location": "Dublin",
       "url": "https://stripe.com/jobs/search?gh_jid=7206494",
-      "source": "greenhouse",
-      "score": 17,
-      "breakdown": {
-        "title": 15,
-        "location": 0,
-        "have": 2,
-        "want+bonus": 0,
-        "penalty": 0,
-        "detected_mode": "none",
-        "city_tier": "none"
-      },
-      "hard_flags": [],
-      "soft_flags": [],
-      "matched_titles": [
-        "software engineer"
-      ],
-      "matched_skills_have": [
-        "Java"
-      ],
-      "matched_skills_want": [],
-      "matched_bonus": []
-    },
-    {
-      "id": "acdb4e432b539db6",
-      "company": "stripe",
-      "title": "Software Engineer, Intern",
-      "location": "London",
-      "url": "https://stripe.com/jobs/search?gh_jid=7360840",
       "source": "greenhouse",
       "score": 17,
       "breakdown": {

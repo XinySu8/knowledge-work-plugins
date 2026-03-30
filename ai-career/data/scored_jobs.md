@@ -1,6 +1,6 @@
 # Scored job feed (auto)
-Generated at (UTC): 2026-03-29T14:31:34.202079+00:00
-Total jobs scored: 13
+Generated at (UTC): 2026-03-30T14:43:05.186184+00:00
+Total jobs scored: 12
 
 ## Top internships
 [32/100] [stripe] Software Engineer, Intern (Summer) (San Francisco, Seattle, New York City) — https://stripe.com/jobs/search?gh_jid=7210115
@@ -9,11 +9,6 @@ matched_titles: software engineer
 matched_skills_have: Java
 
 [29/100] [ramp] Software Engineer Internship, Android  (New York, NY (HQ)) — https://jobs.ashbyhq.com/ramp/67fadb77-43d8-4449-954b-d4cf2c6d3b8b/application
-breakdown: title 15, location 8, have 6, want+bonus 0, penalty 0
-matched_titles: software engineer
-matched_skills_have: python, sql, react
-
-[29/100] [ramp] Software Engineer Internship, iOS (New York, NY (HQ)) — https://jobs.ashbyhq.com/ramp/8c155b55-3e7e-48a8-ac98-f988a2b6f4da/application
 breakdown: title 15, location 8, have 6, want+bonus 0, penalty 0
 matched_titles: software engineer
 matched_skills_have: python, sql, react
@@ -43,17 +38,17 @@ breakdown: title 15, location 0, have 2, want+bonus 0, penalty 0
 matched_titles: software engineer
 matched_skills_have: Java
 
+[17/100] [stripe] Software Engineer, Intern (London) — https://stripe.com/jobs/search?gh_jid=7360840
+breakdown: title 15, location 0, have 2, want+bonus 0, penalty 0
+matched_titles: software engineer
+matched_skills_have: Java
+
 [17/100] [stripe] Software Engineer, Intern (Singapore) — https://stripe.com/jobs/search?gh_jid=7206401
 breakdown: title 15, location 0, have 2, want+bonus 0, penalty 0
 matched_titles: software engineer
 matched_skills_have: Java
 
 [17/100] [stripe] Software Engineer, Intern (Dublin) — https://stripe.com/jobs/search?gh_jid=7206494
-breakdown: title 15, location 0, have 2, want+bonus 0, penalty 0
-matched_titles: software engineer
-matched_skills_have: Java
-
-[17/100] [stripe] Software Engineer, Intern (London) — https://stripe.com/jobs/search?gh_jid=7360840
 breakdown: title 15, location 0, have 2, want+bonus 0, penalty 0
 matched_titles: software engineer
 matched_skills_have: Java
