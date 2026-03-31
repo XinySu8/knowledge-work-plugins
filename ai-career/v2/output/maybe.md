@@ -12,12 +12,6 @@
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1
 
-- notion | Software Engineer Intern (Summer 2026) | San Francisco, California | score=0.651
-  - url: https://jobs.ashbyhq.com/notion/23ac2477-0008-4bed-b1c1-81f90a32e9e6/application
-  - must_hits: python, sql
-  - nice_hits: rag
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1
-
 - databricks | MBA Intern - Corporate Operations (Corp Ops) | San Francisco, California | score=0.629
   - url: https://databricks.com/company/careers/open-positions/job?gh_jid=8402603002
   - must_hits: sql
@@ -96,12 +90,6 @@
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1
 
-- togetherai | GTM Systems Analyst Intern (Summer 2026) | San Francisco | score=0.427
-  - url: https://job-boards.greenhouse.io/togetherai/jobs/5014290007
-  - must_hits: cloud
-  - nice_hits: None
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0
-
 - asana | Product Design Intern - Summer 2026 (New York) | New York City | score=0.423
   - url: https://www.asana.com/jobs/apply/7490328?gh_jid=7490328
   - must_hits: None
@@ -132,12 +120,6 @@
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1
 
-- stripe | Software Engineer, Intern | Singapore | score=0.385
-  - url: https://stripe.com/jobs/search?gh_jid=7206401
-  - must_hits: git
-  - nice_hits: rag
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1
-
 - stripe | Software Engineer, Intern (Summer) | San Francisco, Seattle, New York City | score=0.385
   - url: https://stripe.com/jobs/search?gh_jid=7210115
   - must_hits: git
@@ -162,15 +144,9 @@
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1
 
-- figma | Early Career Recruiter | San Francisco, CA • New York, NY | score=0.312
+- figma | Early Career Recruiter | San Francisco, CA • New York, NY • United States | score=0.312
   - url: https://boards.greenhouse.io/figma/jobs/5828494004?gh_jid=5828494004
   - must_hits: None
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1
-
-- scaleai | Software Engineering Intern (Summer 2026)  | San Francisco, CA | score=0.311
-  - url: https://job-boards.greenhouse.io/scaleai/jobs/4606014005
-  - must_hits: python
-  - nice_hits: None
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0
 

@@ -2,9 +2,9 @@
   "meta": {
     "engine_name": "AutoJob-Agent Feeder",
     "version": 2,
-    "generated_at": "2026-03-30T16:34:14.620362+00:00",
-    "source_jobs_count": 137,
-    "candidates_count": 34,
+    "generated_at": "2026-03-31T16:36:11.290213+00:00",
+    "source_jobs_count": 134,
+    "candidates_count": 30,
     "candidates_topN_total": 150,
     "thresholds": {
       "apply": 0.72,
@@ -279,45 +279,6 @@
         "reason": ""
       },
       "jd_excerpt": "About the Program The Scale AI Technical Advisor Specialist (Part-Time Internship) role is a summer semester opportunity designed for university students, ideally with experience in competitive coding, mathematics, and STEM disciplines. These Specialists will immerse themselves in real-world projects that push the boundaries of generative AI, gaining firsthand exposure to cutting-edge research and technology. Throughout the program, you’ll have the freedom to work flexibly around your academic schedule, the chance to connect directly with AI experts, and the support of a team that values your "
-    },
-    {
-      "job_uid": "eb13b93308235f49",
-      "source": "ashby",
-      "job_id": "eb13b93308235f49",
-      "company": "notion",
-      "title": "Software Engineer Intern (Summer 2026)",
-      "location": "San Francisco, California",
-      "url": "https://jobs.ashbyhq.com/notion/23ac2477-0008-4bed-b1c1-81f90a32e9e6/application",
-      "departments": [
-        "University",
-        "University"
-      ],
-      "created_at": "2025-08-08T19:23:58.862+00:00",
-      "updated_at": "2025-08-08T19:23:58.862+00:00",
-      "scores": {
-        "hard_raw": 7.0,
-        "hard_norm": 0.875,
-        "semantic_raw": 0.36981070041619507,
-        "semantic_norm": 0.4674087841563447,
-        "final": 0.6508248312859896
-      },
-      "signals": {
-        "must_hits": [
-          "python",
-          "sql"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": []
-      },
-      "text_hash": "36fd9bb8f14d29ac9601b47b27cdbf30e46da792",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "ABOUT US: Notion helps you build beautiful tools for your life’s work. In today's world of endless apps and tabs, Notion provides one place for teams to get everything done, seamlessly connecting docs, notes, projects, calendar, and email—with AI built in to find answers and automate work. Millions of users, from individuals to large organizations like Toyota, Figma, and OpenAI, love Notion for its flexibility and choose it because it helps them save time and money. In-person collaboration is essential to Notion's culture. We require all team members to work from our offices on Mondays, Tuesda"
     },
     {
       "job_uid": "459f04adfbd53983",
@@ -702,7 +663,7 @@
         "Internship"
       ],
       "created_at": null,
-      "updated_at": "2026-03-20T19:48:05-04:00",
+      "updated_at": "2026-03-30T23:44:06-04:00",
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.25,
@@ -802,41 +763,6 @@
       "jd_excerpt": "ABOUT RAMP Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $100B in annualized spend flows in and out of 50,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books. The problems are high-stakes, data-dense, and unforgiving. We hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential "
     },
     {
-      "job_uid": "05413f176349337a",
-      "source": "greenhouse",
-      "job_id": "05413f176349337a",
-      "company": "togetherai",
-      "title": "GTM Systems Analyst Intern (Summer 2026)",
-      "location": "San Francisco",
-      "url": "https://job-boards.greenhouse.io/togetherai/jobs/5014290007",
-      "departments": [
-        "Revenue Operations"
-      ],
-      "created_at": null,
-      "updated_at": "2026-03-18T18:52:18-04:00",
-      "scores": {
-        "hard_raw": 1.0,
-        "hard_norm": 0.125,
-        "semantic_raw": 0.4483823478217409,
-        "semantic_norm": 0.6746926549786428,
-        "final": 0.4273309602382536
-      },
-      "signals": {
-        "must_hits": [
-          "cloud"
-        ],
-        "nice_hits": [],
-        "neg_hits": []
-      },
-      "text_hash": "2410298f74a27b8f9991f92ff6ca379afbd29400",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "About Together AI Together AI is a research-driven artificial intelligence company. We believe open and transparent AI systems will drive innovation and create the best outcomes for society, and together we are on a mission to significantly lower the cost of modern AI systems by co-designing software, algorithms, and models. We have contributed to leading open-source research, models, and datasets to advance the frontier of AI, and our team has been behind technological advancements such as FlashAttention, Mamba, FlexGen, SWARM Parallelism, Mixture of Agents, and RedPajama. Role Overview As a&"
-    },
-    {
       "job_uid": "20154ebf9b416ee5",
       "source": "greenhouse",
       "job_id": "20154ebf9b416ee5",
@@ -848,7 +774,7 @@
         "Internship"
       ],
       "created_at": null,
-      "updated_at": "2026-03-20T19:48:05-04:00",
+      "updated_at": "2026-03-30T23:44:06-04:00",
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.25,
@@ -1018,43 +944,6 @@
       "jd_excerpt": "ABOUT US Notion helps you build beautiful tools for your life’s work. In today's world of endless apps and tabs, Notion provides one place for teams to get everything done, seamlessly connecting docs, notes, projects, calendar, and email—with AI built in to find answers and automate work. Millions of users, from individuals to large organizations like Toyota, Figma, and OpenAI, love Notion for its flexibility and choose it because it helps them save time and money. In-person collaboration is essential to Notion's culture. We require all team members to work from our offices on Mondays, Tuesday"
     },
     {
-      "job_uid": "1254231df3fa18cd",
-      "source": "greenhouse",
-      "job_id": "1254231df3fa18cd",
-      "company": "stripe",
-      "title": "Software Engineer, Intern",
-      "location": "Singapore",
-      "url": "https://stripe.com/jobs/search?gh_jid=7206401",
-      "departments": [
-        "5112 General University"
-      ],
-      "created_at": null,
-      "updated_at": "2026-03-27T12:10:10-04:00",
-      "scores": {
-        "hard_raw": 3.0,
-        "hard_norm": 0.375,
-        "semantic_raw": 0.3415982425209444,
-        "semantic_norm": 0.3929800599149601,
-        "final": 0.38488903295322807
-      },
-      "signals": {
-        "must_hits": [
-          "git"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": []
-      },
-      "text_hash": "2b1d064990c9520a7e0f962a687e84161edd81d2",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. About the team Our internship program will provide an opportunity to work on mea"
-    },
-    {
       "job_uid": "b35597b79d3ae32f",
       "source": "greenhouse",
       "job_id": "b35597b79d3ae32f",
@@ -1208,13 +1097,13 @@
       "job_id": "9df691459bcd1052",
       "company": "figma",
       "title": "Early Career Recruiter",
-      "location": "San Francisco, CA • New York, NY",
+      "location": "San Francisco, CA • New York, NY • United States",
       "url": "https://boards.greenhouse.io/figma/jobs/5828494004?gh_jid=5828494004",
       "departments": [
         "Talent"
       ],
       "created_at": null,
-      "updated_at": "2026-03-18T14:48:54-04:00",
+      "updated_at": "2026-03-30T13:50:33-04:00",
       "scores": {
         "hard_raw": 0.0,
         "hard_norm": 0.0,
@@ -1238,41 +1127,6 @@
         "reason": ""
       },
       "jd_excerpt": "Figma is growing our team of passionate creatives and builders on a mission to make design accessible to all. Figma’s platform helps teams bring ideas to life—whether you're brainstorming, creating a prototype, translating designs into code, or iterating with AI. From idea to product, Figma empowers teams to streamline workflows, move faster, and work together in real time from anywhere in the world. If you're excited to shape the future of design and collaboration, join us! The Early Career team at Figma is shaping the future by finding and nurturing the next generation of talent - Figma’s fu"
-    },
-    {
-      "job_uid": "f0c5eae2a7de8573",
-      "source": "greenhouse",
-      "job_id": "f0c5eae2a7de8573",
-      "company": "scaleai",
-      "title": "Software Engineering Intern (Summer 2026) ",
-      "location": "San Francisco, CA",
-      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4606014005",
-      "departments": [
-        "University"
-      ],
-      "created_at": null,
-      "updated_at": "2026-03-26T19:42:41-04:00",
-      "scores": {
-        "hard_raw": 3.0,
-        "hard_norm": 0.375,
-        "semantic_raw": 0.2908278579010355,
-        "semantic_norm": 0.25904011854103404,
-        "final": 0.31122206519756873
-      },
-      "signals": {
-        "must_hits": [
-          "python"
-        ],
-        "nice_hits": [],
-        "neg_hits": []
-      },
-      "text_hash": "4e1493c84050d2d474e04b2f016a87ca602fb891",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "At Scale, our mission is to accelerate the development of AI applications. For 9 years, Scale has been the leading AI data foundry, helping fuel the most exciting advancements in AI, including: generative AI, defense applications, and autonomous vehicles. With our recent Series F round, we’re accelerating the abundance of frontier data to pave the road to Artificial General Intelligence (AGI), and building upon our prior model evaluation work with enterprise customers and governments, to deepen our capabilities and offerings for both public and private evaluations. &nbsp; Example Projects: Shi"
     }
   ]
 }
