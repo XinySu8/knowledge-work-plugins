@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-03-30T15:01:07.440346+00:00",
-  "source_generated_at_utc": "2026-03-30T15:01:07.347564+00:00",
-  "count": 12,
+  "generated_at_utc": "2026-03-31T14:41:25.905198+00:00",
+  "source_generated_at_utc": "2026-03-31T14:41:25.803456+00:00",
+  "count": 10,
   "jobs": [
     {
       "id": "b35597b79d3ae32f",
@@ -121,37 +121,6 @@
       "matched_bonus": []
     },
     {
-      "id": "f0c5eae2a7de8573",
-      "company": "scaleai",
-      "title": "Software Engineering Intern (Summer 2026) ",
-      "location": "San Francisco, CA",
-      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4606014005",
-      "source": "greenhouse",
-      "score": 22,
-      "breakdown": {
-        "title": 15,
-        "location": 8,
-        "have": 4,
-        "want+bonus": 0,
-        "penalty": 5,
-        "detected_mode": "none",
-        "city_tier": "tier2"
-      },
-      "hard_flags": [],
-      "soft_flags": [
-        "citizen_mentioned"
-      ],
-      "matched_titles": [
-        "software engineer"
-      ],
-      "matched_skills_have": [
-        "python",
-        "react"
-      ],
-      "matched_skills_want": [],
-      "matched_bonus": []
-    },
-    {
       "id": "ea6377e034514778",
       "company": "replit",
       "title": "Software Engineering Intern (Summer 2026)",
@@ -211,34 +180,6 @@
       "title": "Software Engineer, Intern",
       "location": "London",
       "url": "https://stripe.com/jobs/search?gh_jid=7360840",
-      "source": "greenhouse",
-      "score": 17,
-      "breakdown": {
-        "title": 15,
-        "location": 0,
-        "have": 2,
-        "want+bonus": 0,
-        "penalty": 0,
-        "detected_mode": "none",
-        "city_tier": "none"
-      },
-      "hard_flags": [],
-      "soft_flags": [],
-      "matched_titles": [
-        "software engineer"
-      ],
-      "matched_skills_have": [
-        "Java"
-      ],
-      "matched_skills_want": [],
-      "matched_bonus": []
-    },
-    {
-      "id": "1254231df3fa18cd",
-      "company": "stripe",
-      "title": "Software Engineer, Intern",
-      "location": "Singapore",
-      "url": "https://stripe.com/jobs/search?gh_jid=7206401",
       "source": "greenhouse",
       "score": 17,
       "breakdown": {
