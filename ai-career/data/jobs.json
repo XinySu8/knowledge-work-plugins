@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-04-01T14:43:48.573439+00:00",
+  "generated_at_utc": "2026-04-01T15:02:02.987991+00:00",
   "today_utc": "2026-04-01",
-  "fetched_count": 3631,
+  "fetched_count": 3629,
   "filtered_count": 9,
   "count": 9,
   "today_count": 0,
@@ -11,7 +11,7 @@
     "anthropic": 437,
     "databricks": 841,
     "cohere": 124,
-    "perplexity": 78,
+    "perplexity": 76,
     "langchain": 97,
     "cognition": 55,
     "vellum": 3,
@@ -25,7 +25,7 @@
     "figma": 155
   },
   "per_source_fetched": {
-    "ashby": 1384,
+    "ashby": 1382,
     "greenhouse": 2102,
     "lever": 145
   },
