@@ -126,12 +126,6 @@
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1
 
-- togetherai | Product Marketing Intern (Summer 2026) | San Francisco | score=0.370
-  - url: https://job-boards.greenhouse.io/togetherai/jobs/5014289007
-  - must_hits: cloud
-  - nice_hits: None
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0
-
 - sierra | Intern, Agent Development (Fall 2026) | San Francisco, CA | score=0.369
   - url: https://jobs.ashbyhq.com/sierra/c74d600c-235c-4d42-8546-b178b7adefc2/application
   - must_hits: llm
@@ -143,6 +137,12 @@
   - must_hits: llm
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1
+
+- elevenlabs | Impact Program Intern | United States | score=0.335
+  - url: https://jobs.ashbyhq.com/elevenlabs/4f07f198-5a51-462d-bd86-bf4574c7532d/application
+  - must_hits: python
+  - nice_hits: None
+  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0
 
 - figma | Early Career Recruiter | San Francisco, CA • New York, NY • United States | score=0.312
   - url: https://boards.greenhouse.io/figma/jobs/5828494004?gh_jid=5828494004

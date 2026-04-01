@@ -2,8 +2,8 @@
   "meta": {
     "engine_name": "AutoJob-Agent Feeder",
     "version": 2,
-    "generated_at": "2026-03-31T16:36:11.290213+00:00",
-    "source_jobs_count": 134,
+    "generated_at": "2026-04-01T16:33:37.292928+00:00",
+    "source_jobs_count": 139,
     "candidates_count": 30,
     "candidates_topN_total": 150,
     "thresholds": {
@@ -141,7 +141,7 @@
         "5112 General University"
       ],
       "created_at": null,
-      "updated_at": "2026-03-27T12:10:10-04:00",
+      "updated_at": "2026-04-01T11:46:05-04:00",
       "scores": {
         "hard_raw": 8.0,
         "hard_norm": 1.0,
@@ -955,7 +955,7 @@
         "5112 General University"
       ],
       "created_at": null,
-      "updated_at": "2026-03-27T12:10:10-04:00",
+      "updated_at": "2026-04-01T11:46:05-04:00",
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.375,
@@ -979,41 +979,6 @@
         "reason": ""
       },
       "jd_excerpt": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. About the team Our internship program will provide an opportunity to work on mea"
-    },
-    {
-      "job_uid": "85ab53eaeeabed19",
-      "source": "greenhouse",
-      "job_id": "85ab53eaeeabed19",
-      "company": "togetherai",
-      "title": "Product Marketing Intern (Summer 2026)",
-      "location": "San Francisco",
-      "url": "https://job-boards.greenhouse.io/togetherai/jobs/5014289007",
-      "departments": [
-        "Marketing"
-      ],
-      "created_at": null,
-      "updated_at": "2026-03-19T12:08:13-04:00",
-      "scores": {
-        "hard_raw": 1.0,
-        "hard_norm": 0.125,
-        "semantic_raw": 0.40902075171429736,
-        "semantic_norm": 0.570850820521715,
-        "final": 0.3702179512869433
-      },
-      "signals": {
-        "must_hits": [
-          "cloud"
-        ],
-        "nice_hits": [],
-        "neg_hits": []
-      },
-      "text_hash": "18c051a3a0c287cbda7d6fee602ac411376c0d62",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "About Together AI Together AI is a research-driven AI company. We believe open and transparent AI systems will drive innovation and create the best outcomes for society, and together we are on a mission to lower the cost of modern AI systems by co-designing software, hardware, algorithms, and models. We have contributed to leading open-source research, models, and datasets to advance the frontier of AI. We invite you to join a passionate group of researchers and engineers in our journey in building the next generation AI infrastructure. Role Overview It’s an exciting time to join Together AI’s"
     },
     {
       "job_uid": "0ba6fd970f1c6dd2",
@@ -1090,6 +1055,42 @@
         "reason": ""
       },
       "jd_excerpt": "ABOUT US - At Sierra, we’re creating a platform to help businesses build better, more human customer experiences with AI. We are primarily an in-person company based in San Francisco, with growing offices in Atlanta, New York, London, Paris, Madrid, Munich, Singapore, Japan, and Sydney. - We are guided by a set of values that are at the core of our actions and define our culture: Trust, Customer Obsession, Craftsmanship, Intensity, and Family. These values are the foundation of our work, and we are committed to upholding them in everything we do. - Our co-founders are Bret Taylor https://www.l"
+    },
+    {
+      "job_uid": "5aa12d3c8a119b9a",
+      "source": "ashby",
+      "job_id": "5aa12d3c8a119b9a",
+      "company": "elevenlabs",
+      "title": "Impact Program Intern",
+      "location": "United States",
+      "url": "https://jobs.ashbyhq.com/elevenlabs/4f07f198-5a51-462d-bd86-bf4574c7532d/application",
+      "departments": [
+        "Growth",
+        "Partnerships"
+      ],
+      "created_at": "2026-03-31T16:50:31.567+00:00",
+      "updated_at": "2026-03-31T16:50:31.567+00:00",
+      "scores": {
+        "hard_raw": 3.0,
+        "hard_norm": 0.375,
+        "semantic_raw": 0.306918352842024,
+        "semantic_norm": 0.30148927399274084,
+        "final": 0.3345691006960075
+      },
+      "signals": {
+        "must_hits": [
+          "python"
+        ],
+        "nice_hits": [],
+        "neg_hits": []
+      },
+      "text_hash": "5a471a47ab8eaa3a088adb1858977525655f5790",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "ABOUT ELEVENLABS ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most prominent, including Andreessen Horowitz, ICONIQ Growth and Sequoia. We've raised $781M in funding and our last valuation was $11B - multiples of 11, always. We have expanded from voice into three main platforms: - ElevenAgents ena"
     },
     {
       "job_uid": "9df691459bcd1052",
