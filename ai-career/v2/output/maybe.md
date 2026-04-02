@@ -18,12 +18,6 @@
   - nice_hits: rag, mlflow
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=2
 
-- okta | Customer Success Intern (Summer 2026) | Chicago, Illinois | score=0.615
-  - url: https://www.okta.com/company/careers/opportunity/7565237?gh_jid=7565237
-  - must_hits: machine learning, git, cloud
-  - nice_hits: None
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=0
-
 - databricks | MBA Intern - Commercial Transformation | San Francisco, California | score=0.596
   - url: https://databricks.com/company/careers/open-positions/job?gh_jid=8402617002
   - must_hits: sql

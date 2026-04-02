@@ -2,9 +2,9 @@
   "meta": {
     "engine_name": "AutoJob-Agent Feeder",
     "version": 2,
-    "generated_at": "2026-04-01T16:33:37.292928+00:00",
-    "source_jobs_count": 139,
-    "candidates_count": 30,
+    "generated_at": "2026-04-02T16:32:12.418448+00:00",
+    "source_jobs_count": 142,
+    "candidates_count": 29,
     "candidates_topN_total": 150,
     "thresholds": {
       "apply": 0.72,
@@ -317,43 +317,6 @@
         "reason": ""
       },
       "jd_excerpt": "At Databricks, we are passionate about helping data teams solve the world's toughest problems - from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. As a Corporate Operations (Corp Ops) MBA Intern, you will sit at the strategic nexus of our organization, connecting the dots across a diverse array of functions including Product, Sales, Finance, People, Legal, M&amp;A, and more.&nb"
-    },
-    {
-      "job_uid": "80edd7620280a1ef",
-      "source": "greenhouse",
-      "job_id": "80edd7620280a1ef",
-      "company": "okta",
-      "title": "Customer Success Intern (Summer 2026)",
-      "location": "Chicago, Illinois",
-      "url": "https://www.okta.com/company/careers/opportunity/7565237?gh_jid=7565237",
-      "departments": [
-        "Interns - Customer First"
-      ],
-      "created_at": null,
-      "updated_at": "2026-03-23T15:50:52-04:00",
-      "scores": {
-        "hard_raw": 4.0,
-        "hard_norm": 0.5,
-        "semantic_raw": 0.4616618706772325,
-        "semantic_norm": 0.7097260415888514,
-        "final": 0.6153493228738683
-      },
-      "signals": {
-        "must_hits": [
-          "machine learning",
-          "git",
-          "cloud"
-        ],
-        "nice_hits": [],
-        "neg_hits": []
-      },
-      "text_hash": "ce403ace5d5fca622155926677486a388c2f8cd9",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=0",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. Location: We’re seeking dynamic and motivated individuals to join our team in one"
     },
     {
       "job_uid": "209289687115853a",
