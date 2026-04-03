@@ -132,6 +132,12 @@
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1
 
+- openai | Go to Market Strategy Internship / Co-op, Emerging Talent (Summer 2026) | San Francisco | score=0.342
+  - url: https://jobs.ashbyhq.com/openai/d6d4fbf8-1976-4745-bf48-1a3cca5503b9/application
+  - must_hits: None
+  - nice_hits: rag
+  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1
+
 - elevenlabs | Impact Program Intern | United States | score=0.335
   - url: https://jobs.ashbyhq.com/elevenlabs/4f07f198-5a51-462d-bd86-bf4574c7532d/application
   - must_hits: python

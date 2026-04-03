@@ -2,9 +2,9 @@
   "meta": {
     "engine_name": "AutoJob-Agent Feeder",
     "version": 2,
-    "generated_at": "2026-04-02T16:32:12.418448+00:00",
-    "source_jobs_count": 142,
-    "candidates_count": 29,
+    "generated_at": "2026-04-03T16:00:47.721740+00:00",
+    "source_jobs_count": 147,
+    "candidates_count": 30,
     "candidates_topN_total": 150,
     "thresholds": {
       "apply": 0.72,
@@ -626,7 +626,7 @@
         "Internship"
       ],
       "created_at": null,
-      "updated_at": "2026-03-30T23:44:06-04:00",
+      "updated_at": "2026-04-02T13:52:45-04:00",
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.25,
@@ -737,7 +737,7 @@
         "Internship"
       ],
       "created_at": null,
-      "updated_at": "2026-03-30T23:44:06-04:00",
+      "updated_at": "2026-04-02T13:52:45-04:00",
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.25,
@@ -1018,6 +1018,42 @@
         "reason": ""
       },
       "jd_excerpt": "ABOUT US - At Sierra, we’re creating a platform to help businesses build better, more human customer experiences with AI. We are primarily an in-person company based in San Francisco, with growing offices in Atlanta, New York, London, Paris, Madrid, Munich, Singapore, Japan, and Sydney. - We are guided by a set of values that are at the core of our actions and define our culture: Trust, Customer Obsession, Craftsmanship, Intensity, and Family. These values are the foundation of our work, and we are committed to upholding them in everything we do. - Our co-founders are Bret Taylor https://www.l"
+    },
+    {
+      "job_uid": "6a37b4fca05c2c26",
+      "source": "ashby",
+      "job_id": "6a37b4fca05c2c26",
+      "company": "openai",
+      "title": "Go to Market Strategy Internship / Co-op, Emerging Talent (Summer 2026)",
+      "location": "San Francisco",
+      "url": "https://jobs.ashbyhq.com/openai/d6d4fbf8-1976-4745-bf48-1a3cca5503b9/application",
+      "departments": [
+        "Go To Market",
+        "Go To Market"
+      ],
+      "created_at": "2026-04-03T02:39:34.652+00:00",
+      "updated_at": "2026-04-03T02:39:34.652+00:00",
+      "scores": {
+        "hard_raw": 2.0,
+        "hard_norm": 0.25,
+        "semantic_raw": 0.35068267583811974,
+        "semantic_norm": 0.4169461668299876,
+        "final": 0.3418203917564932
+      },
+      "signals": {
+        "must_hits": [],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "cecf913cefe63191c041e18c9a647755f62de425",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "ABOUT THE TEAM: OpenAI’s mission is to build safe artificial general intelligence (AGI) which benefits all of humanity. This long-term undertaking brings the world’s best scientists, engineers, and business professionals into one lab together to accomplish this. In pursuit of this mission, our Go To Market (GTM) team is responsible for helping customers learn how to leverage and deploy our highly capable AI products across their business. The team is made of Sales, Solutions, Support, Marketing, and Partnership professionals that work together to create valuable solutions that will help bring "
     },
     {
       "job_uid": "5aa12d3c8a119b9a",
