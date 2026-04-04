@@ -2,9 +2,9 @@
   "meta": {
     "engine_name": "AutoJob-Agent Feeder",
     "version": 2,
-    "generated_at": "2026-04-03T16:00:47.721740+00:00",
-    "source_jobs_count": 147,
-    "candidates_count": 30,
+    "generated_at": "2026-04-04T15:54:53.637665+00:00",
+    "source_jobs_count": 144,
+    "candidates_count": 29,
     "candidates_topN_total": 150,
     "thresholds": {
       "apply": 0.72,
@@ -281,42 +281,40 @@
       "jd_excerpt": "About the Program The Scale AI Technical Advisor Specialist (Part-Time Internship) role is a summer semester opportunity designed for university students, ideally with experience in competitive coding, mathematics, and STEM disciplines. These Specialists will immerse themselves in real-world projects that push the boundaries of generative AI, gaining firsthand exposure to cutting-edge research and technology. Throughout the program, you’ll have the freedom to work flexibly around your academic schedule, the chance to connect directly with AI experts, and the support of a team that values your "
     },
     {
-      "job_uid": "459f04adfbd53983",
+      "job_uid": "50fc2ceb0d3d7dce",
       "source": "greenhouse",
-      "job_id": "459f04adfbd53983",
-      "company": "databricks",
-      "title": "MBA Intern - Corporate Operations (Corp Ops)",
+      "job_id": "50fc2ceb0d3d7dce",
+      "company": "okta",
+      "title": "IT Support Intern (Summer 2026)",
       "location": "San Francisco, California",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8402603002",
+      "url": "https://www.okta.com/company/careers/opportunity/7558024?gh_jid=7558024",
       "departments": [
-        "Corporate Operations"
+        "BT Operations-165"
       ],
       "created_at": null,
-      "updated_at": "2026-03-25T21:10:35-04:00",
+      "updated_at": "2026-04-03T17:29:41-04:00",
       "scores": {
-        "hard_raw": 5.0,
-        "hard_norm": 0.625,
-        "semantic_raw": 0.43260559439615853,
-        "semantic_norm": 0.6330711970221328,
-        "final": 0.629439158362173
+        "hard_raw": 3.0,
+        "hard_norm": 0.375,
+        "semantic_raw": 0.5067278742785154,
+        "semantic_norm": 0.8286169644270839,
+        "final": 0.6244893304348962
       },
       "signals": {
         "must_hits": [
-          "sql"
+          "machine learning",
+          "git"
         ],
-        "nice_hits": [
-          "rag",
-          "mlflow"
-        ],
+        "nice_hits": [],
         "neg_hits": []
       },
-      "text_hash": "37ce97d51c105a2bbf4c2d597195110db5ce961d",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=2",
+      "text_hash": "b487a94e10d77b8be9525078d83a08d2152d4119",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0",
       "hard_gate": {
         "hit": false,
         "reason": ""
       },
-      "jd_excerpt": "At Databricks, we are passionate about helping data teams solve the world's toughest problems - from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. As a Corporate Operations (Corp Ops) MBA Intern, you will sit at the strategic nexus of our organization, connecting the dots across a diverse array of functions including Product, Sales, Finance, People, Legal, M&amp;A, and more.&nb"
+      "jd_excerpt": "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. Location We’re seeking a dynamic and motivated contributor to join our team in on"
     },
     {
       "job_uid": "209289687115853a",
@@ -1054,42 +1052,6 @@
         "reason": ""
       },
       "jd_excerpt": "ABOUT THE TEAM: OpenAI’s mission is to build safe artificial general intelligence (AGI) which benefits all of humanity. This long-term undertaking brings the world’s best scientists, engineers, and business professionals into one lab together to accomplish this. In pursuit of this mission, our Go To Market (GTM) team is responsible for helping customers learn how to leverage and deploy our highly capable AI products across their business. The team is made of Sales, Solutions, Support, Marketing, and Partnership professionals that work together to create valuable solutions that will help bring "
-    },
-    {
-      "job_uid": "5aa12d3c8a119b9a",
-      "source": "ashby",
-      "job_id": "5aa12d3c8a119b9a",
-      "company": "elevenlabs",
-      "title": "Impact Program Intern",
-      "location": "United States",
-      "url": "https://jobs.ashbyhq.com/elevenlabs/4f07f198-5a51-462d-bd86-bf4574c7532d/application",
-      "departments": [
-        "Growth",
-        "Partnerships"
-      ],
-      "created_at": "2026-03-31T16:50:31.567+00:00",
-      "updated_at": "2026-03-31T16:50:31.567+00:00",
-      "scores": {
-        "hard_raw": 3.0,
-        "hard_norm": 0.375,
-        "semantic_raw": 0.306918352842024,
-        "semantic_norm": 0.30148927399274084,
-        "final": 0.3345691006960075
-      },
-      "signals": {
-        "must_hits": [
-          "python"
-        ],
-        "nice_hits": [],
-        "neg_hits": []
-      },
-      "text_hash": "5a471a47ab8eaa3a088adb1858977525655f5790",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "ABOUT ELEVENLABS ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most prominent, including Andreessen Horowitz, ICONIQ Growth and Sequoia. We've raised $781M in funding and our last valuation was $11B - multiples of 11, always. We have expanded from voice into three main platforms: - ElevenAgents ena"
     },
     {
       "job_uid": "9df691459bcd1052",

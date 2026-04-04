@@ -12,11 +12,11 @@
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1
 
-- databricks | MBA Intern - Corporate Operations (Corp Ops) | San Francisco, California | score=0.629
-  - url: https://databricks.com/company/careers/open-positions/job?gh_jid=8402603002
-  - must_hits: sql
-  - nice_hits: rag, mlflow
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=2
+- okta | IT Support Intern (Summer 2026) | San Francisco, California | score=0.624
+  - url: https://www.okta.com/company/careers/opportunity/7558024?gh_jid=7558024
+  - must_hits: machine learning, git
+  - nice_hits: None
+  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0
 
 - databricks | MBA Intern - Commercial Transformation | San Francisco, California | score=0.596
   - url: https://databricks.com/company/careers/open-positions/job?gh_jid=8402617002
@@ -137,12 +137,6 @@
   - must_hits: None
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1
-
-- elevenlabs | Impact Program Intern | United States | score=0.335
-  - url: https://jobs.ashbyhq.com/elevenlabs/4f07f198-5a51-462d-bd86-bf4574c7532d/application
-  - must_hits: python
-  - nice_hits: None
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0
 
 - figma | Early Career Recruiter | San Francisco, CA • New York, NY • United States | score=0.312
   - url: https://boards.greenhouse.io/figma/jobs/5828494004?gh_jid=5828494004
