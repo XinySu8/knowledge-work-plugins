@@ -1,6 +1,6 @@
 # Scored job feed (auto)
-Generated at (UTC): 2026-04-06T14:43:49.173346+00:00
-Total jobs scored: 9
+Generated at (UTC): 2026-04-07T14:47:33.984230+00:00
+Total jobs scored: 8
 
 ## Top internships
 [32/100] [stripe] Software Engineer, Intern (Summer) (San Francisco, Seattle, New York City) — https://stripe.com/jobs/search?gh_jid=7210115
@@ -17,11 +17,6 @@ matched_skills_have: python, sql, react
 breakdown: title 15, location 8, have 6, want+bonus 0, penalty 0
 matched_titles: software engineer
 matched_skills_have: python, aws, react
-
-[27/100] [openai] Software Engineer Internship / Co-op, Applied Emerging Talent (Fall 2026) (San Francisco) — https://jobs.ashbyhq.com/openai/1f3353ed-78eb-4a01-b783-c44b1c086711/application
-breakdown: title 15, location 8, have 4, want+bonus 0, penalty 0
-matched_titles: software engineer
-matched_skills_have: python, react
 
 [22/100] [replit] Software Engineering Intern (Summer 2026) (Foster City, CA (Hybrid) In office M,W,F) — https://jobs.ashbyhq.com/replit/12737078-74c7-4e63-98a7-5e8da1e9deb1/application
 breakdown: title 15, location 7, have 0, want+bonus 0, penalty 0
