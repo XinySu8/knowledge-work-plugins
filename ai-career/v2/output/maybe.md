@@ -18,6 +18,12 @@
   - nice_hits: None
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0
 
+- notion | Software Engineer Intern (Fall 2026) | San Francisco, California | score=0.604
+  - url: https://jobs.ashbyhq.com/notion/5b15697c-fa91-4511-9482-c98a6ff29f90/application
+  - must_hits: python, llm
+  - nice_hits: rag
+  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1
+
 - databricks | MBA Intern - Commercial Transformation | San Francisco, California | score=0.596
   - url: https://databricks.com/company/careers/open-positions/job?gh_jid=8402617002
   - must_hits: sql
@@ -89,12 +95,6 @@
   - must_hits: None
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1
-
-- waabi | Commercial Product MBA Intern, Summer 2026 | San Francisco, CA | score=0.418
-  - url: https://jobs.lever.co/waabi/6a45cf5e-b199-4ade-b02c-2d69eb6104a7
-  - must_hits: None
-  - nice_hits: None
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=0
 
 - ramp | Software Engineer Internship, Frontend | New York, NY (HQ) | score=0.413
   - url: https://jobs.ashbyhq.com/ramp/31f7e045-9a51-4a75-9ffc-d815d6db6daa/application

@@ -2,9 +2,9 @@
   "meta": {
     "engine_name": "AutoJob-Agent Feeder",
     "version": 2,
-    "generated_at": "2026-04-06T16:09:16.174400+00:00",
-    "source_jobs_count": 140,
-    "candidates_count": 29,
+    "generated_at": "2026-04-07T16:36:43.016668+00:00",
+    "source_jobs_count": 139,
+    "candidates_count": 28,
     "candidates_topN_total": 150,
     "thresholds": {
       "apply": 0.72,
@@ -29,9 +29,9 @@
       "scores": {
         "hard_raw": 8.0,
         "hard_norm": 1.0,
-        "semantic_raw": 0.5012938976282828,
-        "semantic_norm": 0.8142813134485007,
-        "final": 0.8978547223966755
+        "semantic_raw": 0.501294046717026,
+        "semantic_norm": 0.8142810865670574,
+        "final": 0.8978545976118817
       },
       "signals": {
         "must_hits": [
@@ -69,9 +69,9 @@
       "scores": {
         "hard_raw": 8.0,
         "hard_norm": 1.0,
-        "semantic_raw": 0.49547576904247326,
-        "semantic_norm": 0.7989322116537566,
-        "final": 0.8894127164095662
+        "semantic_raw": 0.4954759773890772,
+        "semantic_norm": 0.7989321492590469,
+        "final": 0.8894126820924758
       },
       "signals": {
         "must_hits": [
@@ -93,43 +93,6 @@
       "jd_excerpt": "Why join us Brex is the AI-powered spend platform. We help companies spend with confidence with integrated corporate cards, banking, and global payments, plus intuitive software for travel and expenses. Tens of thousands of companies from startups to enterprises — including DoorDash, Flexport, and Compass — use Brex to proactively control spend, reduce costs, and increase efficiency on a global scale. Working at Brex allows you to push your limits, challenge the status quo, and collaborate with some of the brightest minds in the industry. We’re committed to building a diverse team and inclusiv"
     },
     {
-      "job_uid": "cdefeb135c230613",
-      "source": "ashby",
-      "job_id": "cdefeb135c230613",
-      "company": "openai",
-      "title": "Software Engineer Internship / Co-op, Applied Emerging Talent (Fall 2026)",
-      "location": "San Francisco",
-      "url": "https://jobs.ashbyhq.com/openai/1f3353ed-78eb-4a01-b783-c44b1c086711/application",
-      "departments": [
-        "Applied AI",
-        "Emerging Talent"
-      ],
-      "created_at": "2026-01-15T18:24:30.724+00:00",
-      "updated_at": "2026-01-15T18:24:30.724+00:00",
-      "scores": {
-        "hard_raw": 5.0,
-        "hard_norm": 0.625,
-        "semantic_raw": 0.5446384277718836,
-        "semantic_norm": 0.9286307293486847,
-        "final": 0.7919969011417767
-      },
-      "signals": {
-        "must_hits": [
-          "python",
-          "sql"
-        ],
-        "nice_hits": [],
-        "neg_hits": []
-      },
-      "text_hash": "bab2bcb046c3e0e46ce5a776b89057c70fa9ab3b",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "About the Team The Applied team works across research, engineering, product, and design to bring OpenAI’s technology to the world. We seek to learn from deployment and broadly distribute the benefits of AI, while ensuring that this powerful tool is used responsibly and safely. We aim to make our innovative tools globally accessible, transcending geographic, economic, or platform barriers. Our commitment is to facilitate the use of AI to enhance lives, fostered by rigorous insights into how people use our products. About the Role We are seeking Software Engineering Interns (Emerging Talent) to "
-    },
-    {
       "job_uid": "5936ffed28038e5d",
       "source": "greenhouse",
       "job_id": "5936ffed28038e5d",
@@ -145,9 +108,9 @@
       "scores": {
         "hard_raw": 8.0,
         "hard_norm": 1.0,
-        "semantic_raw": 0.4216968072467883,
-        "semantic_norm": 0.6042921692053074,
-        "final": 0.7823606930629191
+        "semantic_raw": 0.4216969171216295,
+        "semantic_norm": 0.6042919504479011,
+        "final": 0.7823605727463456
       },
       "signals": {
         "must_hits": [
@@ -185,9 +148,9 @@
       "scores": {
         "hard_raw": 4.0,
         "hard_norm": 0.5,
-        "semantic_raw": 0.5372523985650173,
-        "semantic_norm": 0.9091452689496738,
-        "final": 0.7250298979223206
+        "semantic_raw": 0.5372525497970633,
+        "semantic_norm": 0.9091449973173232,
+        "final": 0.7250297485245278
       },
       "signals": {
         "must_hits": [
@@ -218,13 +181,13 @@
         "University Recruiting"
       ],
       "created_at": null,
-      "updated_at": "2026-02-25T14:23:25-05:00",
+      "updated_at": "2026-04-06T17:32:38-04:00",
       "scores": {
         "hard_raw": 8.0,
         "hard_norm": 1.0,
-        "semantic_raw": 0.35671383142435636,
-        "semantic_norm": 0.4328572660206915,
-        "final": 0.6880714963113803
+        "semantic_raw": 0.35671391229080723,
+        "semantic_norm": 0.43285706182547873,
+        "final": 0.6880713840040134
       },
       "signals": {
         "must_hits": [
@@ -261,7 +224,7 @@
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.25,
-        "semantic_raw": 0.5716911895085334,
+        "semantic_raw": 0.5716914620025952,
         "semantic_norm": 1.0,
         "final": 0.6625000000000001
       },
@@ -296,9 +259,9 @@
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.375,
-        "semantic_raw": 0.5067278742785154,
-        "semantic_norm": 0.8286169644270839,
-        "final": 0.6244893304348962
+        "semantic_raw": 0.5067279640865006,
+        "semantic_norm": 0.8286165735369898,
+        "final": 0.6244891154453445
       },
       "signals": {
         "must_hits": [
@@ -317,6 +280,45 @@
       "jd_excerpt": "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. Location We’re seeking a dynamic and motivated contributor to join our team in on"
     },
     {
+      "job_uid": "d34d7d626a0a1cfe",
+      "source": "ashby",
+      "job_id": "d34d7d626a0a1cfe",
+      "company": "notion",
+      "title": "Software Engineer Intern (Fall 2026)",
+      "location": "San Francisco, California",
+      "url": "https://jobs.ashbyhq.com/notion/5b15697c-fa91-4511-9482-c98a6ff29f90/application",
+      "departments": [
+        "University",
+        "University"
+      ],
+      "created_at": "2026-04-06T22:40:58.312+00:00",
+      "updated_at": "2026-04-06T22:40:58.312+00:00",
+      "scores": {
+        "hard_raw": 7.0,
+        "hard_norm": 0.875,
+        "semantic_raw": 0.3378145896082474,
+        "semantic_norm": 0.3829978211277157,
+        "final": 0.6043988016202436
+      },
+      "signals": {
+        "must_hits": [
+          "python",
+          "llm"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "9822a2c19ffa79334ffdcdccf3fd99ccce7fbed9",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "ABOUT US: Notion helps you build beautiful tools for your life’s work. In today's world of endless apps and tabs, Notion provides one place for teams to get everything done, seamlessly connecting docs, notes, projects, calendar, and email—with AI built in to find answers and automate work. Millions of users, from individuals to large organizations like Toyota, Figma, and OpenAI, love Notion for its flexibility and choose it because it helps them save time and money. In-person collaboration is essential to Notion's culture. We require all team members to work from our offices on Mondays, Tuesda"
+    },
+    {
       "job_uid": "209289687115853a",
       "source": "greenhouse",
       "job_id": "209289687115853a",
@@ -332,9 +334,9 @@
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.375,
-        "semantic_raw": 0.48726206941925854,
-        "semantic_norm": 0.7772632317113629,
-        "final": 0.5962447774412496
+        "semantic_raw": 0.48726212826467047,
+        "semantic_norm": 0.7772627864237943,
+        "final": 0.596244532533087
       },
       "signals": {
         "must_hits": [
@@ -369,9 +371,9 @@
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.375,
-        "semantic_raw": 0.4821783900256103,
-        "semantic_norm": 0.763851717793423,
-        "final": 0.5888684447863827
+        "semantic_raw": 0.48217850817265623,
+        "semantic_norm": 0.7638514360785453,
+        "final": 0.5888682898432
       },
       "signals": {
         "must_hits": [
@@ -406,9 +408,9 @@
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.375,
-        "semantic_raw": 0.45793756842567424,
-        "semantic_norm": 0.6999007698488993,
-        "final": 0.5536954234168947
+        "semantic_raw": 0.4579376553255303,
+        "semantic_norm": 0.699900439679123,
+        "final": 0.5536952418235177
       },
       "signals": {
         "must_hits": [
@@ -443,9 +445,9 @@
       "scores": {
         "hard_raw": 4.0,
         "hard_norm": 0.5,
-        "semantic_raw": 0.3933022256669776,
-        "semantic_norm": 0.5293829751818756,
-        "final": 0.5161606363500316
+        "semantic_raw": 0.39330230871427174,
+        "semantic_norm": 0.5293827254518325,
+        "final": 0.5161604989985079
       },
       "signals": {
         "must_hits": [
@@ -481,9 +483,9 @@
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.375,
-        "semantic_raw": 0.41508122772421024,
-        "semantic_norm": 0.5868392714177025,
-        "final": 0.4915115992797364
+        "semantic_raw": 0.41508134187196016,
+        "semantic_norm": 0.5868390732063369,
+        "final": 0.49151149026348534
       },
       "signals": {
         "must_hits": [
@@ -517,9 +519,9 @@
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.25,
-        "semantic_raw": 0.4462467133994408,
-        "semantic_norm": 0.6690585288742121,
-        "final": 0.4804821908808167
+        "semantic_raw": 0.44624688580550465,
+        "semantic_norm": 0.6690584406704007,
+        "final": 0.4804821423687204
       },
       "signals": {
         "must_hits": [
@@ -553,9 +555,9 @@
       "scores": {
         "hard_raw": 7.0,
         "hard_norm": 0.875,
-        "semantic_raw": 0.24440197646593448,
-        "semantic_norm": 0.1365616326244263,
-        "final": 0.4688588979434345
+        "semantic_raw": 0.24440200593459044,
+        "semantic_norm": 0.13656145026863276,
+        "final": 0.468858797647748
       },
       "signals": {
         "must_hits": [
@@ -591,9 +593,9 @@
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.375,
-        "semantic_raw": 0.39172532509081087,
-        "semantic_norm": 0.5252228733369615,
-        "final": 0.4576225803353289
+        "semantic_raw": 0.3917254974510922,
+        "semantic_norm": 0.5252228614383798,
+        "final": 0.45762257379110893
       },
       "signals": {
         "must_hits": [
@@ -628,9 +630,9 @@
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.25,
-        "semantic_raw": 0.4271014034743806,
-        "semantic_norm": 0.6185503101922792,
-        "final": 0.4527026706057536
+        "semantic_raw": 0.4271014587339338,
+        "semantic_norm": 0.6185499397756149,
+        "final": 0.4527024668765882
       },
       "signals": {
         "must_hits": [],
@@ -663,9 +665,9 @@
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.375,
-        "semantic_raw": 0.3882523179050377,
-        "semantic_norm": 0.516060555928177,
-        "final": 0.4525833057604974
+        "semantic_raw": 0.3882524535953041,
+        "semantic_norm": 0.5160604521569392,
+        "final": 0.4525832486863166
       },
       "signals": {
         "must_hits": [
@@ -701,9 +703,9 @@
       "scores": {
         "hard_raw": 7.0,
         "hard_norm": 0.875,
-        "semantic_raw": 0.21998427629355108,
-        "semantic_norm": 0.07214405229566408,
-        "final": 0.43342922876261525
+        "semantic_raw": 0.2199843192079632,
+        "semantic_norm": 0.0721439396395914,
+        "final": 0.43342916680177523
       },
       "signals": {
         "must_hits": [
@@ -739,9 +741,9 @@
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.25,
-        "semantic_raw": 0.4066547155376182,
-        "semantic_norm": 0.5646088597966682,
-        "final": 0.42303487288816755
+        "semantic_raw": 0.4066547397761296,
+        "semantic_norm": 0.5646084362032449,
+        "final": 0.4230346399117847
       },
       "signals": {
         "must_hits": [],
@@ -757,39 +759,6 @@
         "reason": ""
       },
       "jd_excerpt": "At Asana we’re looking for curious, collaborative, and creative students to join our 12-week summer Product Design internship program. This program focuses on bringing students currently studying at a college or university into our Design team to develop and work on complex and challenging problems. During this internship, you’ll work directly with dedicated Design mentors who are trained and motivated to ensure your success. You’ll also have the opportunity to work with Engineering, User Research, Product Management, Data Science, and the rest of our amazing Design crew to ship experiences th"
-    },
-    {
-      "job_uid": "ce8ed2e66ba5a9f6",
-      "source": "lever",
-      "job_id": "ce8ed2e66ba5a9f6",
-      "company": "waabi",
-      "title": "Commercial Product MBA Intern, Summer 2026",
-      "location": "San Francisco, CA",
-      "url": "https://jobs.lever.co/waabi/6a45cf5e-b199-4ade-b02c-2d69eb6104a7",
-      "departments": [
-        "Product"
-      ],
-      "created_at": 1773886089306,
-      "updated_at": 1773886089306,
-      "scores": {
-        "hard_raw": 0.0,
-        "hard_norm": 0.0,
-        "semantic_raw": 0.48041114211034414,
-        "semantic_norm": 0.7591894509239472,
-        "final": 0.417554198008171
-      },
-      "signals": {
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": []
-      },
-      "text_hash": "704207744e0ba5b03196e6b6dfc3308bcb5ae261",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=0",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "Waabi, founded by AI visionary Raquel Urtasun, is the leader in Physical AI. With a world-class team, we're unlocking the next era of autonomous transportation with technology that's powering commercial autonomous trucks and robotaxis. Waabi is backed by and partners with world leaders in AI, automotive, logistics, and deep tech. With offices in Toronto, San Francisco, Dallas, and Pittsburgh, Waabi is growing quickly and looking for diverse, innovative and collaborative candidates who want to impact the world in a positive way. To learn more visit: www.waabi.ai Application Instructions: The Su"
     },
     {
       "job_uid": "8c305391a2786222",
@@ -808,9 +777,9 @@
       "scores": {
         "hard_raw": 7.0,
         "hard_norm": 0.875,
-        "semantic_raw": 0.20615543163728553,
-        "semantic_norm": 0.035661471822893545,
-        "final": 0.41336380950259144
+        "semantic_raw": 0.2061554737274342,
+        "semantic_norm": 0.03566137637703963,
+        "final": 0.41336375700737177
       },
       "signals": {
         "must_hits": [
@@ -842,13 +811,13 @@
         "University Recruiting"
       ],
       "created_at": null,
-      "updated_at": "2026-02-25T14:23:19-05:00",
+      "updated_at": "2026-04-06T17:32:33-04:00",
       "scores": {
         "hard_raw": 5.0,
         "hard_norm": 0.625,
-        "semantic_raw": 0.27387025952311783,
-        "semantic_norm": 0.2143034132829412,
-        "final": 0.3991168773056177
+        "semantic_raw": 0.27387030564938253,
+        "semantic_norm": 0.21430323356489187,
+        "final": 0.39911677846069055
       },
       "signals": {
         "must_hits": [
@@ -885,9 +854,9 @@
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.25,
-        "semantic_raw": 0.3893846273418347,
-        "semantic_norm": 0.5190477592105066,
-        "final": 0.39797626756577864
+        "semantic_raw": 0.3893847101556169,
+        "semantic_norm": 0.5190475143559645,
+        "final": 0.3979761328957805
       },
       "signals": {
         "must_hits": [],
@@ -920,9 +889,9 @@
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.375,
-        "semantic_raw": 0.3415982425209444,
-        "semantic_norm": 0.3929800599149601,
-        "final": 0.38488903295322807
+        "semantic_raw": 0.34159835228876,
+        "semantic_norm": 0.3929799531543296,
+        "final": 0.38488897423488133
       },
       "signals": {
         "must_hits": [
@@ -958,9 +927,9 @@
       "scores": {
         "hard_raw": 4.0,
         "hard_norm": 0.5,
-        "semantic_raw": 0.2915545105931227,
-        "semantic_norm": 0.26095713807330684,
-        "final": 0.3685264259403188
+        "semantic_raw": 0.2915546769827477,
+        "semantic_norm": 0.2609572508388827,
+        "final": 0.36852648796138554
       },
       "signals": {
         "must_hits": [
@@ -996,9 +965,9 @@
       "scores": {
         "hard_raw": 4.0,
         "hard_norm": 0.5,
-        "semantic_raw": 0.2915545105931227,
-        "semantic_norm": 0.26095713807330684,
-        "final": 0.3685264259403188
+        "semantic_raw": 0.2915546769827477,
+        "semantic_norm": 0.2609572508388827,
+        "final": 0.36852648796138554
       },
       "signals": {
         "must_hits": [
@@ -1034,9 +1003,9 @@
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.25,
-        "semantic_raw": 0.35068267583811974,
-        "semantic_norm": 0.4169461668299876,
-        "final": 0.3418203917564932
+        "semantic_raw": 0.3506827265427615,
+        "semantic_norm": 0.41694589151765477,
+        "final": 0.34182024033471015
       },
       "signals": {
         "must_hits": [],
@@ -1069,9 +1038,9 @@
       "scores": {
         "hard_raw": 0.0,
         "hard_norm": 0.0,
-        "semantic_raw": 0.4073622226711014,
-        "semantic_norm": 0.5664753704542063,
-        "final": 0.3115614537498135
+        "semantic_raw": 0.4073622171494593,
+        "semantic_norm": 0.5664748673572892,
+        "final": 0.3115611770465091
       },
       "signals": {
         "must_hits": [],
