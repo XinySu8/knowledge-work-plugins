@@ -1,11 +1,5 @@
 # APPLY
 
-- togetherai | Software Engineer - Storage & Observability (Early Career) | San Francisco | score=0.898
-  - url: https://job-boards.greenhouse.io/togetherai/jobs/5073769007
-  - must_hits: python, git, docker, cloud
-  - nice_hits: rag
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=4, nice_hits=1
-
 - brex | Software Engineer, Intern | United States | score=0.889
   - url: https://www.brex.com/careers/8434389002?gh_jid=8434389002
   - must_hits: python, sql, cloud
