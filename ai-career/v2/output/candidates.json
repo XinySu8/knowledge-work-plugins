@@ -2,8 +2,8 @@
   "meta": {
     "engine_name": "AutoJob-Agent Feeder",
     "version": 2,
-    "generated_at": "2026-04-08T16:43:01.363495+00:00",
-    "source_jobs_count": 135,
+    "generated_at": "2026-04-09T16:48:32.001485+00:00",
+    "source_jobs_count": 138,
     "candidates_count": 27,
     "candidates_topN_total": 150,
     "thresholds": {
@@ -13,45 +13,6 @@
     "config_digest": "7f9d61b8fda9e66343b1828d5752df0d87053bf5"
   },
   "candidates": [
-    {
-      "job_uid": "64e8cd9ce5039875",
-      "source": "greenhouse",
-      "job_id": "64e8cd9ce5039875",
-      "company": "brex",
-      "title": "Software Engineer, Intern",
-      "location": "United States",
-      "url": "https://www.brex.com/careers/8434389002?gh_jid=8434389002",
-      "departments": [
-        "Engineering"
-      ],
-      "created_at": null,
-      "updated_at": "2026-04-07T16:17:24-04:00",
-      "scores": {
-        "hard_raw": 8.0,
-        "hard_norm": 1.0,
-        "semantic_raw": 0.49547576904247326,
-        "semantic_norm": 0.7989322116537566,
-        "final": 0.8894127164095662
-      },
-      "signals": {
-        "must_hits": [
-          "python",
-          "sql",
-          "cloud"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": []
-      },
-      "text_hash": "37b5ee7f17d6e71af97e7e1526bb79a6f30c0e8f",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "Why join us Brex is the AI-powered spend platform. We help companies spend with confidence with integrated corporate cards, banking, and global payments, plus intuitive software for travel and expenses. Tens of thousands of companies from startups to enterprises — including DoorDash, Flexport, and Compass — use Brex to proactively control spend, reduce costs, and increase efficiency on a global scale. Working at Brex allows you to push your limits, challenge the status quo, and collaborate with some of the brightest minds in the industry. We’re committed to building a diverse team and inclusiv"
-    },
     {
       "job_uid": "5936ffed28038e5d",
       "source": "greenhouse",
@@ -90,6 +51,45 @@
         "reason": ""
       },
       "jd_excerpt": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. What you’ll do About the internship Stripe's Applied ML, Data Science, Risk, and"
+    },
+    {
+      "job_uid": "64e8cd9ce5039875",
+      "source": "greenhouse",
+      "job_id": "64e8cd9ce5039875",
+      "company": "brex",
+      "title": "Software Engineer, Intern",
+      "location": "United States",
+      "url": "https://www.brex.com/careers/8434389002?gh_jid=8434389002",
+      "departments": [
+        "Engineering"
+      ],
+      "created_at": null,
+      "updated_at": "2026-04-07T16:17:24-04:00",
+      "scores": {
+        "hard_raw": 8.0,
+        "hard_norm": 1.0,
+        "semantic_raw": 0.3846196761496796,
+        "semantic_norm": 0.5064770984186914,
+        "final": 0.7285624041302803
+      },
+      "signals": {
+        "must_hits": [
+          "python",
+          "sql",
+          "cloud"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "284dfe3487677b5287d5dae3dfb2af51dbe53b5d",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Why join us Brex is the intelligent finance platform that enables companies to spend smarter and move faster in more than 200 markets. By combining global corporate cards and banking with intuitive spend management, bill pay, and travel software, Brex enables founders and finance teams to accelerate operations, gain real-time visibility, and control spend effortlessly. Brex’s AI-native automation and world-class service eliminate manual expense and accounting tasks for customers so they can focus on what matters most. Tens of thousands of the world's best companies run on Brex, including DoorD"
     },
     {
       "job_uid": "6932e9d57bf5ef44",
