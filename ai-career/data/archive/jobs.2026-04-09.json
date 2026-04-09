@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-04-09T14:58:54.355671+00:00",
+  "generated_at_utc": "2026-04-09T15:20:16.619998+00:00",
   "today_utc": "2026-04-09",
-  "fetched_count": 3604,
+  "fetched_count": 3603,
   "filtered_count": 9,
   "count": 9,
   "today_count": 0,
@@ -10,7 +10,7 @@
     "openai": 646,
     "anthropic": 420,
     "databricks": 854,
-    "cohere": 120,
+    "cohere": 119,
     "perplexity": 78,
     "langchain": 84,
     "cognition": 58,
@@ -25,7 +25,7 @@
     "figma": 157
   },
   "per_source_fetched": {
-    "ashby": 1364,
+    "ashby": 1363,
     "greenhouse": 2093,
     "lever": 147
   },
