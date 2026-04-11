@@ -2,9 +2,9 @@
   "meta": {
     "engine_name": "AutoJob-Agent Feeder",
     "version": 2,
-    "generated_at": "2026-04-10T16:17:36.271312+00:00",
-    "source_jobs_count": 139,
-    "candidates_count": 27,
+    "generated_at": "2026-04-11T15:55:04.519686+00:00",
+    "source_jobs_count": 138,
+    "candidates_count": 26,
     "candidates_topN_total": 150,
     "thresholds": {
       "apply": 0.72,
@@ -29,9 +29,9 @@
       "scores": {
         "hard_raw": 8.0,
         "hard_norm": 1.0,
-        "semantic_raw": 0.4216969171216295,
-        "semantic_norm": 0.6042919504479011,
-        "final": 0.7823605727463456
+        "semantic_raw": 0.4216968072467883,
+        "semantic_norm": 0.6042921692053074,
+        "final": 0.7823606930629191
       },
       "signals": {
         "must_hits": [
@@ -68,9 +68,9 @@
       "scores": {
         "hard_raw": 8.0,
         "hard_norm": 1.0,
-        "semantic_raw": 0.3846198182841053,
-        "semantic_norm": 0.5064770167402092,
-        "final": 0.7285623592071151
+        "semantic_raw": 0.3846196761496796,
+        "semantic_norm": 0.5064770984186914,
+        "final": 0.7285624041302803
       },
       "signals": {
         "must_hits": [
@@ -108,9 +108,9 @@
       "scores": {
         "hard_raw": 4.0,
         "hard_norm": 0.5,
-        "semantic_raw": 0.5372525497970633,
-        "semantic_norm": 0.9091449973173232,
-        "final": 0.7250297485245278
+        "semantic_raw": 0.5372523985650173,
+        "semantic_norm": 0.9091452689496738,
+        "final": 0.7250298979223206
       },
       "signals": {
         "must_hits": [
@@ -130,45 +130,6 @@
       "jd_excerpt": "About the Program OpenAI is hiring a small cohort of exceptional early-career researchers and engineers to join OpenAI Research. This opportunity is designed primarily for current undergraduate students and recent graduates who have demonstrated technical ability through elite competitions and challenges. Participants join OpenAI directly as full-time Research Scientists / Research Engineers and begin with an intensive one-month research bootcamp designed to immerse them in the core problems behind modern AI systems. Many of the strongest researchers at OpenAI first distinguished themselves th"
     },
     {
-      "job_uid": "9de287370f90d99a",
-      "source": "greenhouse",
-      "job_id": "9de287370f90d99a",
-      "company": "databricks",
-      "title": "MBA Intern - Technical Program Management (TPM)",
-      "location": "Mountain View, California; San Francisco, California",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8399537002",
-      "departments": [
-        "University Recruiting"
-      ],
-      "created_at": null,
-      "updated_at": "2026-04-09T16:51:25-04:00",
-      "scores": {
-        "hard_raw": 8.0,
-        "hard_norm": 1.0,
-        "semantic_raw": 0.35671391229080723,
-        "semantic_norm": 0.43285706182547873,
-        "final": 0.6880713840040134
-      },
-      "signals": {
-        "must_hits": [
-          "python",
-          "sql"
-        ],
-        "nice_hits": [
-          "rag",
-          "mlflow"
-        ],
-        "neg_hits": []
-      },
-      "text_hash": "9f644998fa2ce6b582c49feaa719daab5ac96ab7",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=2",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "RDQ227R1171 At Databricks, we are passionate about helping data teams solve the world's toughest problems - from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. As a TPM Intern, you will be the primary driver behind the successful delivery of complex technical initiatives. You will navigate the lifecycle of a program - from initial scoping and requirement gathering to final launc"
-    },
-    {
       "job_uid": "e7c78b9db66d7e52",
       "source": "greenhouse",
       "job_id": "e7c78b9db66d7e52",
@@ -184,7 +145,7 @@
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.25,
-        "semantic_raw": 0.5716914620025952,
+        "semantic_raw": 0.5716911895085334,
         "semantic_norm": 1.0,
         "final": 0.6625000000000001
       },
@@ -219,9 +180,9 @@
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.375,
-        "semantic_raw": 0.5067278750805407,
-        "semantic_norm": 0.828616338725952,
-        "final": 0.6244889862992736
+        "semantic_raw": 0.5067277256679072,
+        "semantic_norm": 0.8286165723698581,
+        "final": 0.624489114803422
       },
       "signals": {
         "must_hits": [
@@ -256,9 +217,9 @@
       "scores": {
         "hard_raw": 7.0,
         "hard_norm": 0.875,
-        "semantic_raw": 0.3378145896082474,
-        "semantic_norm": 0.3829978211277157,
-        "final": 0.6043988016202436
+        "semantic_raw": 0.3378145396706064,
+        "semantic_norm": 0.3829980804254468,
+        "final": 0.6043989442339958
       },
       "signals": {
         "must_hits": [
@@ -294,9 +255,9 @@
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.375,
-        "semantic_raw": 0.48726212826467047,
-        "semantic_norm": 0.7772627864237943,
-        "final": 0.596244532533087
+        "semantic_raw": 0.48726206941925854,
+        "semantic_norm": 0.7772632317113629,
+        "final": 0.5962447774412496
       },
       "signals": {
         "must_hits": [
@@ -331,9 +292,9 @@
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.375,
-        "semantic_raw": 0.48217850817265623,
-        "semantic_norm": 0.7638514360785453,
-        "final": 0.5888682898432
+        "semantic_raw": 0.4821783900256103,
+        "semantic_norm": 0.763851717793423,
+        "final": 0.5888684447863827
       },
       "signals": {
         "must_hits": [
@@ -368,9 +329,9 @@
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.375,
-        "semantic_raw": 0.4579376553255303,
-        "semantic_norm": 0.699900439679123,
-        "final": 0.5536952418235177
+        "semantic_raw": 0.45793756842567424,
+        "semantic_norm": 0.6999007698488993,
+        "final": 0.5536954234168947
       },
       "signals": {
         "must_hits": [
@@ -405,9 +366,9 @@
       "scores": {
         "hard_raw": 4.0,
         "hard_norm": 0.5,
-        "semantic_raw": 0.39330230871427174,
-        "semantic_norm": 0.5293827254518325,
-        "final": 0.5161604989985079
+        "semantic_raw": 0.3933022256669776,
+        "semantic_norm": 0.5293829751818756,
+        "final": 0.5161606363500316
       },
       "signals": {
         "must_hits": [
@@ -443,9 +404,9 @@
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.375,
-        "semantic_raw": 0.41508134187196016,
-        "semantic_norm": 0.5868390732063369,
-        "final": 0.49151149026348534
+        "semantic_raw": 0.41508122772421024,
+        "semantic_norm": 0.5868392714177025,
+        "final": 0.4915115992797364
       },
       "signals": {
         "must_hits": [
@@ -479,9 +440,9 @@
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.25,
-        "semantic_raw": 0.44624688580550465,
-        "semantic_norm": 0.6690584406704007,
-        "final": 0.4804821423687204
+        "semantic_raw": 0.4462467133994408,
+        "semantic_norm": 0.6690585288742121,
+        "final": 0.4804821908808167
       },
       "signals": {
         "must_hits": [
@@ -515,9 +476,9 @@
       "scores": {
         "hard_raw": 7.0,
         "hard_norm": 0.875,
-        "semantic_raw": 0.24440200593459044,
-        "semantic_norm": 0.13656145026863276,
-        "final": 0.468858797647748
+        "semantic_raw": 0.24440197646593448,
+        "semantic_norm": 0.1365616326244263,
+        "final": 0.4688588979434345
       },
       "signals": {
         "must_hits": [
@@ -553,9 +514,9 @@
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.375,
-        "semantic_raw": 0.3917254974510922,
-        "semantic_norm": 0.5252228614383798,
-        "final": 0.45762257379110893
+        "semantic_raw": 0.39172532509081087,
+        "semantic_norm": 0.5252228733369615,
+        "final": 0.4576225803353289
       },
       "signals": {
         "must_hits": [
@@ -590,9 +551,9 @@
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.25,
-        "semantic_raw": 0.4271014587339338,
-        "semantic_norm": 0.6185499397756149,
-        "final": 0.4527024668765882
+        "semantic_raw": 0.4271014034743806,
+        "semantic_norm": 0.6185503101922792,
+        "final": 0.4527026706057536
       },
       "signals": {
         "must_hits": [],
@@ -621,13 +582,13 @@
         "Finance"
       ],
       "created_at": null,
-      "updated_at": "2026-04-09T16:51:25-04:00",
+      "updated_at": "2026-04-10T17:32:00-04:00",
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.375,
-        "semantic_raw": 0.3882524535953041,
-        "semantic_norm": 0.5160604521569392,
-        "final": 0.4525832486863166
+        "semantic_raw": 0.3882523179050377,
+        "semantic_norm": 0.516060555928177,
+        "final": 0.4525833057604974
       },
       "signals": {
         "must_hits": [
@@ -663,9 +624,9 @@
       "scores": {
         "hard_raw": 7.0,
         "hard_norm": 0.875,
-        "semantic_raw": 0.2199843192079632,
-        "semantic_norm": 0.0721439396395914,
-        "final": 0.43342916680177523
+        "semantic_raw": 0.21998427629355108,
+        "semantic_norm": 0.07214405229566408,
+        "final": 0.43342922876261525
       },
       "signals": {
         "must_hits": [
@@ -701,9 +662,9 @@
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.25,
-        "semantic_raw": 0.4066547397761296,
-        "semantic_norm": 0.5646084362032449,
-        "final": 0.4230346399117847
+        "semantic_raw": 0.4066547155376182,
+        "semantic_norm": 0.5646088597966682,
+        "final": 0.42303487288816755
       },
       "signals": {
         "must_hits": [],
@@ -737,9 +698,9 @@
       "scores": {
         "hard_raw": 7.0,
         "hard_norm": 0.875,
-        "semantic_raw": 0.2061554737274342,
-        "semantic_norm": 0.03566137637703963,
-        "final": 0.41336375700737177
+        "semantic_raw": 0.20615543163728553,
+        "semantic_norm": 0.035661471822893545,
+        "final": 0.41336380950259144
       },
       "signals": {
         "must_hits": [
@@ -775,9 +736,9 @@
       "scores": {
         "hard_raw": 5.0,
         "hard_norm": 0.625,
-        "semantic_raw": 0.27387030564938253,
-        "semantic_norm": 0.21430323356489187,
-        "final": 0.39911677846069055
+        "semantic_raw": 0.27387025952311783,
+        "semantic_norm": 0.2143034132829412,
+        "final": 0.3991168773056177
       },
       "signals": {
         "must_hits": [
@@ -814,9 +775,9 @@
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.25,
-        "semantic_raw": 0.3893847101556169,
-        "semantic_norm": 0.5190475143559645,
-        "final": 0.3979761328957805
+        "semantic_raw": 0.3893846273418347,
+        "semantic_norm": 0.5190477592105066,
+        "final": 0.39797626756577864
       },
       "signals": {
         "must_hits": [],
@@ -849,9 +810,9 @@
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.375,
-        "semantic_raw": 0.34159835228876,
-        "semantic_norm": 0.3929799531543296,
-        "final": 0.38488897423488133
+        "semantic_raw": 0.3415982425209444,
+        "semantic_norm": 0.3929800599149601,
+        "final": 0.38488903295322807
       },
       "signals": {
         "must_hits": [
@@ -887,9 +848,9 @@
       "scores": {
         "hard_raw": 4.0,
         "hard_norm": 0.5,
-        "semantic_raw": 0.2915546769827477,
-        "semantic_norm": 0.2609572508388827,
-        "final": 0.36852648796138554
+        "semantic_raw": 0.2915545105931227,
+        "semantic_norm": 0.26095713807330684,
+        "final": 0.3685264259403188
       },
       "signals": {
         "must_hits": [
@@ -925,9 +886,9 @@
       "scores": {
         "hard_raw": 4.0,
         "hard_norm": 0.5,
-        "semantic_raw": 0.2915546769827477,
-        "semantic_norm": 0.2609572508388827,
-        "final": 0.36852648796138554
+        "semantic_raw": 0.2915545105931227,
+        "semantic_norm": 0.26095713807330684,
+        "final": 0.3685264259403188
       },
       "signals": {
         "must_hits": [
@@ -963,9 +924,9 @@
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.25,
-        "semantic_raw": 0.3506827265427615,
-        "semantic_norm": 0.41694589151765477,
-        "final": 0.34182024033471015
+        "semantic_raw": 0.35068267583811974,
+        "semantic_norm": 0.4169461668299876,
+        "final": 0.3418203917564932
       },
       "signals": {
         "must_hits": [],
@@ -998,9 +959,9 @@
       "scores": {
         "hard_raw": 0.0,
         "hard_norm": 0.0,
-        "semantic_raw": 0.4073622171494593,
-        "semantic_norm": 0.5664748673572892,
-        "final": 0.3115611770465091
+        "semantic_raw": 0.4073622226711014,
+        "semantic_norm": 0.5664753704542063,
+        "final": 0.3115614537498135
       },
       "signals": {
         "must_hits": [],

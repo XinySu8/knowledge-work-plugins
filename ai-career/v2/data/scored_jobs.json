@@ -2,11 +2,111 @@
   "meta": {
     "version": 2,
     "model_name": "sentence-transformers/all-MiniLM-L6-v2",
-    "jobs_total": 139,
-    "jobs_scored": 139,
-    "non_gated_count": 32
+    "jobs_total": 138,
+    "jobs_scored": 138,
+    "non_gated_count": 31
   },
   "scored_jobs": [
+    {
+      "job_uid": "bc183bb0685ead5e",
+      "source": "greenhouse",
+      "company": "asana",
+      "title": "Product Design Intern - Summer 2026 (Warsaw)",
+      "location": "Warsaw",
+      "url": "https://www.asana.com/jobs/apply/7490332?gh_jid=7490332",
+      "updated_at": "2026-04-10T18:18:50-04:00",
+      "created_at": null,
+      "departments": [
+        "Internship"
+      ],
+      "hard_gate": {
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
+      },
+      "hard": {
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
+      },
+      "text_hash": "c3ca5abac9da89aa4d042f0030b64de1531f58c6",
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
+    },
+    {
+      "job_uid": "e67c1d48efe6ea8e",
+      "source": "greenhouse",
+      "company": "databricks",
+      "title": "MBA Intern - Strategic Finance",
+      "location": "San Francisco, California",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8402610002",
+      "updated_at": "2026-04-10T17:32:00-04:00",
+      "created_at": null,
+      "departments": [
+        "Finance"
+      ],
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "hard": {
+        "raw": 3.0,
+        "must_hits": [
+          "sql"
+        ],
+        "nice_hits": [
+          "mlflow"
+        ],
+        "neg_hits": [],
+        "norm": 0.375
+      },
+      "semantic": {
+        "raw": 0.3882523179050377,
+        "cache_reused": true,
+        "norm": 0.516060555928177
+      },
+      "text_hash": "0697e7259779553c54de04dcb4a9f6d1bcdbf150",
+      "final_score": 0.4525833057604974,
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
+    },
+    {
+      "job_uid": "925a02e54fc23cc1",
+      "source": "greenhouse",
+      "company": "cloudflare",
+      "title": "Global Trade Compliance Intern (Summer 2026)",
+      "location": "In-Office",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7799138?gh_jid=7799138",
+      "updated_at": "2026-04-10T14:11:16-04:00",
+      "created_at": null,
+      "departments": [
+        "Legal, Policy, Trust & Safety"
+      ],
+      "hard_gate": {
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
+      },
+      "hard": {
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
+      },
+      "text_hash": "97f0996cf762d57fffc6b9b5677076d362a5e114",
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
+    },
     {
       "job_uid": "c851c65c5ec6c2d5",
       "source": "greenhouse",
@@ -227,12 +327,12 @@
         "norm": 0.375
       },
       "semantic": {
-        "raw": 0.48217850817265623,
+        "raw": 0.4821783900256103,
         "cache_reused": true,
-        "norm": 0.7638514360785453
+        "norm": 0.763851717793423
       },
       "text_hash": "520f4e6b5757e37b1691013b719d573ae027fac7",
-      "final_score": 0.5888682898432,
+      "final_score": 0.5888684447863827,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
     },
     {
@@ -327,12 +427,12 @@
         "norm": 0.375
       },
       "semantic": {
-        "raw": 0.48726212826467047,
+        "raw": 0.48726206941925854,
         "cache_reused": true,
-        "norm": 0.7772627864237943
+        "norm": 0.7772632317113629
       },
       "text_hash": "df5f9191fa7d6cade11b0a1a29a3549507fd088f",
-      "final_score": 0.596244532533087,
+      "final_score": 0.5962447774412496,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
     },
     {
@@ -364,12 +464,12 @@
         "norm": 0.625
       },
       "semantic": {
-        "raw": 0.27387030564938253,
+        "raw": 0.27387025952311783,
         "cache_reused": true,
-        "norm": 0.21430323356489187
+        "norm": 0.2143034132829412
       },
       "text_hash": "47e1b25152112859588c5a4b5bef56054b938100",
-      "final_score": 0.39911677846069055,
+      "final_score": 0.3991168773056177,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=2"
     },
     {
@@ -401,87 +501,13 @@
         "norm": 0.5
       },
       "semantic": {
-        "raw": 0.39330230871427174,
+        "raw": 0.3933022256669776,
         "cache_reused": true,
-        "norm": 0.5293827254518325
+        "norm": 0.5293829751818756
       },
       "text_hash": "5af9236c90e407f4febaf64290d186a425bf9280",
-      "final_score": 0.5161604989985079,
+      "final_score": 0.5161606363500316,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1"
-    },
-    {
-      "job_uid": "e67c1d48efe6ea8e",
-      "source": "greenhouse",
-      "company": "databricks",
-      "title": "MBA Intern - Strategic Finance",
-      "location": "San Francisco, California",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8402610002",
-      "updated_at": "2026-04-09T16:51:25-04:00",
-      "created_at": null,
-      "departments": [
-        "Finance"
-      ],
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "hard": {
-        "raw": 3.0,
-        "must_hits": [
-          "sql"
-        ],
-        "nice_hits": [
-          "mlflow"
-        ],
-        "neg_hits": [],
-        "norm": 0.375
-      },
-      "semantic": {
-        "raw": 0.3882524535953041,
-        "cache_reused": true,
-        "norm": 0.5160604521569392
-      },
-      "text_hash": "0697e7259779553c54de04dcb4a9f6d1bcdbf150",
-      "final_score": 0.4525832486863166,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
-    },
-    {
-      "job_uid": "9de287370f90d99a",
-      "source": "greenhouse",
-      "company": "databricks",
-      "title": "MBA Intern - Technical Program Management (TPM)",
-      "location": "Mountain View, California; San Francisco, California",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8399537002",
-      "updated_at": "2026-04-09T16:51:25-04:00",
-      "created_at": null,
-      "departments": [
-        "University Recruiting"
-      ],
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "hard": {
-        "raw": 8.0,
-        "must_hits": [
-          "python",
-          "sql"
-        ],
-        "nice_hits": [
-          "rag",
-          "mlflow"
-        ],
-        "neg_hits": [],
-        "norm": 1.0
-      },
-      "semantic": {
-        "raw": 0.35671391229080723,
-        "cache_reused": true,
-        "norm": 0.43285706182547873
-      },
-      "text_hash": "9f644998fa2ce6b582c49feaa719daab5ac96ab7",
-      "final_score": 0.6880713840040134,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=2"
     },
     {
       "job_uid": "e68d071afa4e441e",
@@ -543,12 +569,12 @@
         "norm": 0.375
       },
       "semantic": {
-        "raw": 0.4579376553255303,
+        "raw": 0.45793756842567424,
         "cache_reused": true,
-        "norm": 0.699900439679123
+        "norm": 0.6999007698488993
       },
       "text_hash": "d202ff7ef7a148f8c16e4444d2b72b6e5379b51a",
-      "final_score": 0.5536952418235177,
+      "final_score": 0.5536954234168947,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
     },
     {
@@ -579,12 +605,12 @@
         "norm": 0.375
       },
       "semantic": {
-        "raw": 0.3917254974510922,
+        "raw": 0.39172532509081087,
         "cache_reused": true,
-        "norm": 0.5252228614383798
+        "norm": 0.5252228733369615
       },
       "text_hash": "9c743cdd01fff062a6c9a9a55dbbaf3be92d8890",
-      "final_score": 0.45762257379110893,
+      "final_score": 0.4576225803353289,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
     },
     {
@@ -613,12 +639,12 @@
         "norm": 0.25
       },
       "semantic": {
-        "raw": 0.4066547397761296,
+        "raw": 0.4066547155376182,
         "cache_reused": true,
-        "norm": 0.5646084362032449
+        "norm": 0.5646088597966682
       },
       "text_hash": "95a9e26a46c379eda417ac6214b58d6b84b02fe4",
-      "final_score": 0.4230346399117847,
+      "final_score": 0.42303487288816755,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1"
     },
     {
@@ -647,45 +673,13 @@
         "norm": 0.25
       },
       "semantic": {
-        "raw": 0.4271014587339338,
+        "raw": 0.4271014034743806,
         "cache_reused": true,
-        "norm": 0.6185499397756149
+        "norm": 0.6185503101922792
       },
       "text_hash": "4085c4b7198e58d55fa17e8fec5d2a53c89a58c1",
-      "final_score": 0.4527024668765882,
+      "final_score": 0.4527026706057536,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1"
-    },
-    {
-      "job_uid": "bc183bb0685ead5e",
-      "source": "greenhouse",
-      "company": "asana",
-      "title": "Product Design Intern - Summer 2026 (Warsaw)",
-      "location": "Warsaw",
-      "url": "https://www.asana.com/jobs/apply/7490332?gh_jid=7490332",
-      "updated_at": "2026-04-09T16:50:14-04:00",
-      "created_at": null,
-      "departments": [
-        "Internship"
-      ],
-      "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
-      },
-      "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.0
-      },
-      "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
-      },
-      "text_hash": "ab6ebfeaeb7f7caf1500097f6d59c6641b8b5484",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "a5861061367b4e31",
@@ -778,12 +772,12 @@
         "norm": 0.375
       },
       "semantic": {
-        "raw": 0.5067278750805407,
-        "cache_reused": false,
-        "norm": 0.828616338725952
+        "raw": 0.5067277256679072,
+        "cache_reused": true,
+        "norm": 0.8286165723698581
       },
       "text_hash": "a78678a45285729c71c418db11cda8fe362f19d2",
-      "final_score": 0.6244889862992736,
+      "final_score": 0.624489114803422,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0"
     },
     {
@@ -1233,12 +1227,12 @@
         "norm": 1.0
       },
       "semantic": {
-        "raw": 0.3846198182841053,
+        "raw": 0.3846196761496796,
         "cache_reused": true,
-        "norm": 0.5064770167402092
+        "norm": 0.5064770984186914
       },
       "text_hash": "284dfe3487677b5287d5dae3dfb2af51dbe53b5d",
-      "final_score": 0.7285623592071151,
+      "final_score": 0.7285624041302803,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1"
     },
     {
@@ -1303,12 +1297,12 @@
         "norm": 0.875
       },
       "semantic": {
-        "raw": 0.3378145896082474,
+        "raw": 0.3378145396706064,
         "cache_reused": true,
-        "norm": 0.3829978211277157
+        "norm": 0.3829980804254468
       },
       "text_hash": "9822a2c19ffa79334ffdcdccf3fd99ccce7fbed9",
-      "final_score": 0.6043988016202436,
+      "final_score": 0.6043989442339958,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1"
     },
     {
@@ -1498,12 +1492,12 @@
         "norm": 0.25
       },
       "semantic": {
-        "raw": 0.3506827265427615,
+        "raw": 0.35068267583811974,
         "cache_reused": true,
-        "norm": 0.41694589151765477
+        "norm": 0.4169461668299876
       },
       "text_hash": "cecf913cefe63191c041e18c9a647755f62de425",
-      "final_score": 0.34182024033471015,
+      "final_score": 0.3418203917564932,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1"
     },
     {
@@ -1760,45 +1754,13 @@
         "norm": 1.0
       },
       "semantic": {
-        "raw": 0.4216969171216295,
+        "raw": 0.4216968072467883,
         "cache_reused": true,
-        "norm": 0.6042919504479011
+        "norm": 0.6042921692053074
       },
       "text_hash": "a03354be29cb2c91a80e9131f92d4251e6d276b3",
-      "final_score": 0.7823605727463456,
+      "final_score": 0.7823606930629191,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1"
-    },
-    {
-      "job_uid": "acdb4e432b539db6",
-      "source": "greenhouse",
-      "company": "stripe",
-      "title": "Software Engineer, Intern",
-      "location": "London",
-      "url": "https://stripe.com/jobs/search?gh_jid=7360840",
-      "updated_at": "2026-04-01T11:46:05-04:00",
-      "created_at": null,
-      "departments": [
-        "5112 General University"
-      ],
-      "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
-      },
-      "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.0
-      },
-      "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
-      },
-      "text_hash": "0504ebea54da571d1dcdb616371e118fe6fb2ee6",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "8b6b0a9b6e604956",
@@ -1833,6 +1795,38 @@
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
+      "job_uid": "acdb4e432b539db6",
+      "source": "greenhouse",
+      "company": "stripe",
+      "title": "Software Engineer, Intern",
+      "location": "London",
+      "url": "https://stripe.com/jobs/search?gh_jid=7360840",
+      "updated_at": "2026-04-01T11:46:05-04:00",
+      "created_at": null,
+      "departments": [
+        "5112 General University"
+      ],
+      "hard_gate": {
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
+      },
+      "hard": {
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
+      },
+      "text_hash": "0504ebea54da571d1dcdb616371e118fe6fb2ee6",
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
+    },
+    {
       "job_uid": "b35597b79d3ae32f",
       "source": "greenhouse",
       "company": "stripe",
@@ -1860,12 +1854,12 @@
         "norm": 0.375
       },
       "semantic": {
-        "raw": 0.34159835228876,
+        "raw": 0.3415982425209444,
         "cache_reused": true,
-        "norm": 0.3929799531543296
+        "norm": 0.3929800599149601
       },
       "text_hash": "23045855f57a04cda6dd2a02b162d64170aae71b",
-      "final_score": 0.38488897423488133,
+      "final_score": 0.38488903295322807,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
     },
     {
@@ -2185,12 +2179,12 @@
         "norm": 0.0
       },
       "semantic": {
-        "raw": 0.4073622171494593,
+        "raw": 0.4073622226711014,
         "cache_reused": true,
-        "norm": 0.5664748673572892
+        "norm": 0.5664753704542063
       },
       "text_hash": "5bf9b9e56ba247ba221a6cdf32aec80436f7b990",
-      "final_score": 0.3115611770465091,
+      "final_score": 0.3115614537498135,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1"
     },
     {
@@ -2315,12 +2309,12 @@
         "norm": 0.25
       },
       "semantic": {
-        "raw": 0.44624688580550465,
+        "raw": 0.4462467133994408,
         "cache_reused": true,
-        "norm": 0.6690584406704007
+        "norm": 0.6690585288742121
       },
       "text_hash": "8b4f28da415af4941b87116a7c827c11e65b09ec",
-      "final_score": 0.4804821423687204,
+      "final_score": 0.4804821908808167,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0"
     },
     {
@@ -2349,7 +2343,7 @@
         "norm": 0.25
       },
       "semantic": {
-        "raw": 0.5716914620025952,
+        "raw": 0.5716911895085334,
         "cache_reused": true,
         "norm": 1.0
       },
@@ -2480,12 +2474,12 @@
         "norm": 0.375
       },
       "semantic": {
-        "raw": 0.41508134187196016,
+        "raw": 0.41508122772421024,
         "cache_reused": true,
-        "norm": 0.5868390732063369
+        "norm": 0.5868392714177025
       },
       "text_hash": "be56d7b636036fa5cb719b529a3bb06c92d03d72",
-      "final_score": 0.49151149026348534,
+      "final_score": 0.4915115992797364,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0"
     },
     {
@@ -2614,12 +2608,12 @@
         "norm": 0.5
       },
       "semantic": {
-        "raw": 0.5372525497970633,
+        "raw": 0.5372523985650173,
         "cache_reused": true,
-        "norm": 0.9091449973173232
+        "norm": 0.9091452689496738
       },
       "text_hash": "a80687ce75017d3f41536dba8d6f4e368a7d8c8a",
-      "final_score": 0.7250297485245278,
+      "final_score": 0.7250298979223206,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
     },
     {
@@ -2651,12 +2645,12 @@
         "norm": 0.5
       },
       "semantic": {
-        "raw": 0.2915546769827477,
+        "raw": 0.2915545105931227,
         "cache_reused": true,
-        "norm": 0.2609572508388827
+        "norm": 0.26095713807330684
       },
       "text_hash": "d152a6550f20c0b35bfb5d841e155d1bffc37e77",
-      "final_score": 0.36852648796138554,
+      "final_score": 0.3685264259403188,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
     },
     {
@@ -3199,12 +3193,12 @@
         "norm": 0.25
       },
       "semantic": {
-        "raw": 0.20057367983879534,
-        "cache_reused": false,
-        "norm": 0.020935769026265906
+        "raw": 0.2005736529825112,
+        "cache_reused": true,
+        "norm": 0.02093589683700827
       },
       "text_hash": "808deae831c7982d7e646ac6d6f1a01876c28cd8",
-      "final_score": 0.12401467296444625,
+      "final_score": 0.12401474326035455,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1"
     },
     {
@@ -3401,12 +3395,12 @@
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
-      "job_uid": "f8130720f1e526c2",
+      "job_uid": "204693732bd8fb17",
       "source": "greenhouse",
       "company": "cloudflare",
       "title": "Research Engineer Intern (Summer 2026)",
       "location": "In-Office",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/7358525?gh_jid=7358525",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7359136?gh_jid=7359136",
       "updated_at": "2026-02-06T10:04:45-05:00",
       "created_at": null,
       "departments": [
@@ -3428,7 +3422,7 @@
         "cache_reused": false,
         "norm": 0.0
       },
-      "text_hash": "a4fdab4a5c97689df052839e8c7481a7c62f7e64",
+      "text_hash": "83f9912aef29fe76cc29fd7b86038a167a9e1b13",
       "final_score": 0.0,
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
@@ -3465,12 +3459,12 @@
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
-      "job_uid": "204693732bd8fb17",
+      "job_uid": "f8130720f1e526c2",
       "source": "greenhouse",
       "company": "cloudflare",
       "title": "Research Engineer Intern (Summer 2026)",
       "location": "In-Office",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/7359136?gh_jid=7359136",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7358525?gh_jid=7358525",
       "updated_at": "2026-02-06T10:04:45-05:00",
       "created_at": null,
       "departments": [
@@ -3492,17 +3486,17 @@
         "cache_reused": false,
         "norm": 0.0
       },
-      "text_hash": "83f9912aef29fe76cc29fd7b86038a167a9e1b13",
+      "text_hash": "a4fdab4a5c97689df052839e8c7481a7c62f7e64",
       "final_score": 0.0,
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
-      "job_uid": "a69b027a9f170de6",
+      "job_uid": "27fa7db8097260ad",
       "source": "greenhouse",
       "company": "cloudflare",
       "title": "Security Engineer Intern (Summer 2026)",
       "location": "In-Office",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/7582150?gh_jid=7582150",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7582169?gh_jid=7582169",
       "updated_at": "2026-02-06T10:04:45-05:00",
       "created_at": null,
       "departments": [
@@ -3524,7 +3518,7 @@
         "cache_reused": false,
         "norm": 0.0
       },
-      "text_hash": "b692e84bf8f2c348585fb30aab9e673005736002",
+      "text_hash": "49b0839169c459ffc686b229d0dea7e7f685db0a",
       "final_score": 0.0,
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
@@ -3561,12 +3555,12 @@
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
-      "job_uid": "27fa7db8097260ad",
+      "job_uid": "a69b027a9f170de6",
       "source": "greenhouse",
       "company": "cloudflare",
       "title": "Security Engineer Intern (Summer 2026)",
       "location": "In-Office",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/7582169?gh_jid=7582169",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7582150?gh_jid=7582150",
       "updated_at": "2026-02-06T10:04:45-05:00",
       "created_at": null,
       "departments": [
@@ -3588,7 +3582,7 @@
         "cache_reused": false,
         "norm": 0.0
       },
-      "text_hash": "49b0839169c459ffc686b229d0dea7e7f685db0a",
+      "text_hash": "b692e84bf8f2c348585fb30aab9e673005736002",
       "final_score": 0.0,
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
@@ -3683,12 +3677,12 @@
         "norm": 0.25
       },
       "semantic": {
-        "raw": 0.26033619169402217,
+        "raw": 0.26033614637445085,
         "cache_reused": true,
-        "norm": 0.1785982161594815
+        "norm": 0.17859837903410297
       },
       "text_hash": "f5d6765f90edc282d1601b9e34a335e44ba10bbc",
-      "final_score": 0.21072901888771484,
+      "final_score": 0.21072910846875664,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1"
     },
     {
@@ -3883,7 +3877,7 @@
         "norm": 0.25
       },
       "semantic": {
-        "raw": 0.19263790205923736,
+        "raw": 0.19263783097247886,
         "cache_reused": true,
         "norm": 0.0
       },
@@ -3920,12 +3914,12 @@
         "norm": 0.5
       },
       "semantic": {
-        "raw": 0.2915546769827477,
+        "raw": 0.2915545105931227,
         "cache_reused": true,
-        "norm": 0.2609572508388827
+        "norm": 0.26095713807330684
       },
       "text_hash": "1c1b1bdc98b6d08ad3dffa345b916dff972d8b67",
-      "final_score": 0.36852648796138554,
+      "final_score": 0.3685264259403188,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
     },
     {
@@ -3957,12 +3951,12 @@
         "norm": 0.0
       },
       "semantic": {
-        "raw": 0.2915546769827477,
+        "raw": 0.2915545105931227,
         "cache_reused": true,
-        "norm": 0.2609572508388827
+        "norm": 0.26095713807330684
       },
       "text_hash": "01fc65534cdbdaa941f6945a0a43c57a8e6ac3d6",
-      "final_score": 0.1435264879613855,
+      "final_score": 0.14352642594031878,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1"
     },
     {
@@ -3994,12 +3988,12 @@
         "norm": 0.0
       },
       "semantic": {
-        "raw": 0.2915546769827477,
+        "raw": 0.2915545105931227,
         "cache_reused": true,
-        "norm": 0.2609572508388827
+        "norm": 0.26095713807330684
       },
       "text_hash": "01fc65534cdbdaa941f6945a0a43c57a8e6ac3d6",
-      "final_score": 0.1435264879613855,
+      "final_score": 0.14352642594031878,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1"
     },
     {
@@ -4062,12 +4056,12 @@
         "norm": 0.25
       },
       "semantic": {
-        "raw": 0.3893847101556169,
+        "raw": 0.3893846273418347,
         "cache_reused": true,
-        "norm": 0.5190475143559645
+        "norm": 0.5190477592105066
       },
       "text_hash": "0b2d894e967e8ac0a7003467f02511714d3ae95a",
-      "final_score": 0.3979761328957805,
+      "final_score": 0.39797626756577864,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1"
     },
     {
@@ -4100,12 +4094,12 @@
         "norm": 0.875
       },
       "semantic": {
-        "raw": 0.2199843192079632,
+        "raw": 0.21998427629355108,
         "cache_reused": true,
-        "norm": 0.0721439396395914
+        "norm": 0.07214405229566408
       },
       "text_hash": "10c207d29a2237a365c6c4ca588b2fda7c375906",
-      "final_score": 0.43342916680177523,
+      "final_score": 0.43342922876261525,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1"
     },
     {
@@ -4138,12 +4132,12 @@
         "norm": 0.875
       },
       "semantic": {
-        "raw": 0.24440200593459044,
+        "raw": 0.24440197646593448,
         "cache_reused": true,
-        "norm": 0.13656145026863276
+        "norm": 0.1365616326244263
       },
       "text_hash": "bbda55331fe2582097cbbea6b29dfc93f0e6491e",
-      "final_score": 0.468858797647748,
+      "final_score": 0.4688588979434345,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1"
     },
     {
@@ -4176,12 +4170,12 @@
         "norm": 0.875
       },
       "semantic": {
-        "raw": 0.2061554737274342,
+        "raw": 0.20615543163728553,
         "cache_reused": true,
-        "norm": 0.03566137637703963
+        "norm": 0.035661471822893545
       },
       "text_hash": "7291e73693be2c925f73e3414bd3fdf4059fbb89",
-      "final_score": 0.41336375700737177,
+      "final_score": 0.41336380950259144,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1"
     },
     {
@@ -4309,38 +4303,6 @@
         "norm": 0.0
       },
       "text_hash": "57004683ce0e6e458b3ff191ec5e71d3bade8732",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
-    },
-    {
-      "job_uid": "73453dc3cdace5c5",
-      "source": "lever",
-      "company": "zoox",
-      "title": "Lidar Engineer Intern",
-      "location": "Foster City, CA",
-      "url": "https://jobs.lever.co/zoox/b28f4bc1-226d-471d-a868-1062bbe85614",
-      "updated_at": 1771966210443,
-      "created_at": 1771966210443,
-      "departments": [
-        "Advanced Hardware Engineering"
-      ],
-      "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
-      },
-      "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.0
-      },
-      "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
-      },
-      "text_hash": "5eeb56463f713882d104e27d0418c78fd7de61df",
       "final_score": 0.0,
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
