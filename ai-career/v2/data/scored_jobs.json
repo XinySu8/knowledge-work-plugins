@@ -8,6 +8,76 @@
   },
   "scored_jobs": [
     {
+      "job_uid": "64e8cd9ce5039875",
+      "source": "greenhouse",
+      "company": "brex",
+      "title": "Software Engineer, Intern",
+      "location": "United States",
+      "url": "https://www.brex.com/careers/8434389002?gh_jid=8434389002",
+      "updated_at": "2026-04-11T15:46:03-04:00",
+      "created_at": null,
+      "departments": [
+        "Engineering"
+      ],
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "hard": {
+        "raw": 8.0,
+        "must_hits": [
+          "python",
+          "sql",
+          "cloud"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": [],
+        "norm": 1.0
+      },
+      "semantic": {
+        "raw": 0.3846196761496796,
+        "cache_reused": true,
+        "norm": 0.5064770984186914
+      },
+      "text_hash": "284dfe3487677b5287d5dae3dfb2af51dbe53b5d",
+      "final_score": 0.7285624041302803,
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1"
+    },
+    {
+      "job_uid": "c742d96a7ece3898",
+      "source": "greenhouse",
+      "company": "brex",
+      "title": "Software Engineer, Internship - 2026",
+      "location": "São Paulo, São Paulo, Brazil",
+      "url": "https://www.brex.com/careers/8434385002?gh_jid=8434385002",
+      "updated_at": "2026-04-11T15:46:03-04:00",
+      "created_at": null,
+      "departments": [
+        "Engineering"
+      ],
+      "hard_gate": {
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
+      },
+      "hard": {
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
+      },
+      "text_hash": "38b0a91c8382e09bc9d674449339f0c975478dc5",
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
+    },
+    {
       "job_uid": "bc183bb0685ead5e",
       "source": "greenhouse",
       "company": "asana",
@@ -1070,38 +1140,6 @@
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
-      "job_uid": "c742d96a7ece3898",
-      "source": "greenhouse",
-      "company": "brex",
-      "title": "Software Engineer, Internship - 2026",
-      "location": "São Paulo, São Paulo, Brazil",
-      "url": "https://www.brex.com/careers/8434385002?gh_jid=8434385002",
-      "updated_at": "2026-04-08T11:03:16-04:00",
-      "created_at": null,
-      "departments": [
-        "Engineering"
-      ],
-      "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
-      },
-      "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.0
-      },
-      "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
-      },
-      "text_hash": "38b0a91c8382e09bc9d674449339f0c975478dc5",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
-    },
-    {
       "job_uid": "b0eeeb1e61a309f1",
       "source": "greenhouse",
       "company": "cloudflare",
@@ -1196,44 +1234,6 @@
       "text_hash": "6e1c0c51df0591e4e3aab1cd67dad658a25a9d09",
       "final_score": 0.0,
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
-    },
-    {
-      "job_uid": "64e8cd9ce5039875",
-      "source": "greenhouse",
-      "company": "brex",
-      "title": "Software Engineer, Intern",
-      "location": "United States",
-      "url": "https://www.brex.com/careers/8434389002?gh_jid=8434389002",
-      "updated_at": "2026-04-07T16:17:24-04:00",
-      "created_at": null,
-      "departments": [
-        "Engineering"
-      ],
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "hard": {
-        "raw": 8.0,
-        "must_hits": [
-          "python",
-          "sql",
-          "cloud"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": [],
-        "norm": 1.0
-      },
-      "semantic": {
-        "raw": 0.3846196761496796,
-        "cache_reused": true,
-        "norm": 0.5064770984186914
-      },
-      "text_hash": "284dfe3487677b5287d5dae3dfb2af51dbe53b5d",
-      "final_score": 0.7285624041302803,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1"
     },
     {
       "job_uid": "baa94a1b6635a7aa",
