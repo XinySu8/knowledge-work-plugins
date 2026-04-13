@@ -1,10 +1,7 @@
 # Job feed (current)
-Generated at (UTC): 2026-04-13T14:55:21.946370+00:00
+Generated at (UTC): 2026-04-13T15:15:06.141246+00:00
 Today (UTC): 2026-04-13
 Total jobs: 9
-
-## Errors
-- mistral (lever) failed: TimeoutError('The read operation timed out')
 
 ## Jobs
 - [stripe] Software Engineer, Intern (Dublin) — greenhouse — https://stripe.com/jobs/search?gh_jid=7206494
