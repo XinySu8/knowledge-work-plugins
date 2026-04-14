@@ -24,12 +24,6 @@
   - nice_hits: mlflow
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1
 
-- databricks | MBA Intern - Workforce Intelligence | San Francisco, California | score=0.589
-  - url: https://databricks.com/company/careers/open-positions/job?gh_jid=8402613002
-  - must_hits: sql
-  - nice_hits: mlflow
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1
-
 - databricks | MBA Intern - Strategy & Execution | San Francisco, California | score=0.554
   - url: https://databricks.com/company/careers/open-positions/job?gh_jid=7295056002
   - must_hits: sql
@@ -59,6 +53,12 @@
   - must_hits: python, sql
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1
+
+- anthropic | Program Manager, Student Outreach | San Francisco, CA | New York City, NY | score=0.458
+  - url: https://job-boards.greenhouse.io/anthropic/jobs/5102171008
+  - must_hits: git
+  - nice_hits: rag
+  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1
 
 - databricks | PhD GenAI Research Scientist Intern | San Francisco, California | score=0.458
   - url: https://databricks.com/company/careers/open-positions/job?gh_jid=7011263002

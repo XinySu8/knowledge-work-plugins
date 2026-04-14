@@ -2,8 +2,8 @@
   "meta": {
     "engine_name": "AutoJob-Agent Feeder",
     "version": 2,
-    "generated_at": "2026-04-12T16:00:25.914794+00:00",
-    "source_jobs_count": 138,
+    "generated_at": "2026-04-14T16:42:15.858956+00:00",
+    "source_jobs_count": 141,
     "candidates_count": 26,
     "candidates_topN_total": 150,
     "thresholds": {
@@ -25,7 +25,7 @@
         "5112 General University"
       ],
       "created_at": null,
-      "updated_at": "2026-04-01T11:46:05-04:00",
+      "updated_at": "2026-04-13T11:24:15-04:00",
       "scores": {
         "hard_raw": 8.0,
         "hard_norm": 1.0,
@@ -277,43 +277,6 @@
       "jd_excerpt": "RDQ227R1173 At Databricks, we are passionate about helping data teams solve the world's toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. As a Commercial Transformation intern, you will join our world-class Commercialization team (COO org) to work on systems and process improvements that make it easier to launch, sell, and scale Databricks products and part"
     },
     {
-      "job_uid": "c6ca9b140cb6e757",
-      "source": "greenhouse",
-      "job_id": "c6ca9b140cb6e757",
-      "company": "databricks",
-      "title": "MBA Intern - Workforce Intelligence",
-      "location": "San Francisco, California",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8402613002",
-      "departments": [
-        "People"
-      ],
-      "created_at": null,
-      "updated_at": "2026-04-09T18:32:19-04:00",
-      "scores": {
-        "hard_raw": 3.0,
-        "hard_norm": 0.375,
-        "semantic_raw": 0.4821783900256103,
-        "semantic_norm": 0.763851717793423,
-        "final": 0.5888684447863827
-      },
-      "signals": {
-        "must_hits": [
-          "sql"
-        ],
-        "nice_hits": [
-          "mlflow"
-        ],
-        "neg_hits": []
-      },
-      "text_hash": "520f4e6b5757e37b1691013b719d573ae027fac7",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "GAQ227R116 At Databricks, we are passionate about helping data teams solve the world's toughest problems - from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. As a Workforce Intelligence MBA intern, you’ll drive insights and impact across our People (HR) function and all of Databricks. During your 12 week internship, you'll work on impactful projects that drive decisions about h"
-    },
-    {
       "job_uid": "6930a806414652cd",
       "source": "greenhouse",
       "job_id": "6930a806414652cd",
@@ -499,6 +462,45 @@
       "jd_excerpt": "ABOUT RAMP Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $100B in annualized spend flows in and out of 50,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books. The problems are high-stakes, data-dense, and unforgiving. We hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential "
     },
     {
+      "job_uid": "1e24bd723ca2390a",
+      "source": "greenhouse",
+      "job_id": "1e24bd723ca2390a",
+      "company": "anthropic",
+      "title": "Program Manager, Student Outreach",
+      "location": "San Francisco, CA | New York City, NY",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5102171008",
+      "departments": [
+        "Marketing & Brand"
+      ],
+      "created_at": null,
+      "updated_at": "2026-04-14T12:13:05-04:00",
+      "scores": {
+        "hard_raw": 1.0,
+        "hard_norm": 0.125,
+        "semantic_raw": 0.46958953142119175,
+        "semantic_norm": 0.7306404077735404,
+        "final": 0.4581022242754473
+      },
+      "signals": {
+        "must_hits": [
+          "git"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": [
+          "5+ years"
+        ]
+      },
+      "text_hash": "9fb1e29a02ef7e95c58a7426fa8f183454f43acc",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "About Anthropic Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems. About the role Anthropic is seeking a Program Manager to own and drive our student outreach strategy, establishing Claude as the AI platform of choice for the next generation of builders, researchers, and creators at universities worldwide.&nbsp; You'll lead fla"
+    },
+    {
       "job_uid": "119fc6123c9f2f04",
       "source": "greenhouse",
       "job_id": "119fc6123c9f2f04",
@@ -547,7 +549,7 @@
         "Internship"
       ],
       "created_at": null,
-      "updated_at": "2026-04-09T16:50:14-04:00",
+      "updated_at": "2026-04-13T17:21:43-04:00",
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.25,
@@ -658,7 +660,7 @@
         "Internship"
       ],
       "created_at": null,
-      "updated_at": "2026-04-09T16:50:14-04:00",
+      "updated_at": "2026-04-13T17:21:43-04:00",
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.25,
@@ -806,7 +808,7 @@
         "5112 General University"
       ],
       "created_at": null,
-      "updated_at": "2026-04-01T11:46:05-04:00",
+      "updated_at": "2026-04-13T11:24:15-04:00",
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.375,
@@ -955,7 +957,7 @@
         "Talent"
       ],
       "created_at": null,
-      "updated_at": "2026-03-30T13:50:33-04:00",
+      "updated_at": "2026-04-13T18:49:59-04:00",
       "scores": {
         "hard_raw": 0.0,
         "hard_norm": 0.0,
