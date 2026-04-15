@@ -1,5 +1,11 @@
 # MAYBE
 
+- okta | Digital Solutions Intern (Summer 2026) | Bellevue, Washington; Chicago, Illinois; San Francisco, California | score=0.701
+  - url: https://www.okta.com/company/careers/opportunity/7551302?gh_jid=7551302
+  - must_hits: machine learning, git
+  - nice_hits: None
+  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0
+
 - scaleai | Technical Advisor Specialist (Part-Time Internship)  | San Francisco, CA | score=0.663
   - url: https://job-boards.greenhouse.io/scaleai/jobs/4611533005
   - must_hits: None
@@ -20,12 +26,6 @@
 
 - databricks | MBA Intern - Commercial Transformation | San Francisco, California | score=0.596
   - url: https://databricks.com/company/careers/open-positions/job?gh_jid=8402617002
-  - must_hits: sql
-  - nice_hits: mlflow
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1
-
-- databricks | MBA Intern - Strategy & Execution | San Francisco, California | score=0.554
-  - url: https://databricks.com/company/careers/open-positions/job?gh_jid=7295056002
   - must_hits: sql
   - nice_hits: mlflow
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1
@@ -53,6 +53,12 @@
   - must_hits: python, sql
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1
+
+- openai | Business Insights Intern | San Francisco | score=0.466
+  - url: https://jobs.ashbyhq.com/openai/821168d6-c97c-457a-9187-88a2cb95ba32/application
+  - must_hits: None
+  - nice_hits: rag
+  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1
 
 - anthropic | Program Manager, Student Outreach | San Francisco, CA | New York City, NY | score=0.458
   - url: https://job-boards.greenhouse.io/anthropic/jobs/5102171008
@@ -96,12 +102,6 @@
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1
 
-- databricks | MBA Intern - Product Operations | San Francisco, California | score=0.399
-  - url: https://databricks.com/company/careers/open-positions/job?gh_jid=8399535002
-  - must_hits: sql
-  - nice_hits: rag, mlflow
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=2
-
 - notion | Software Engineer, Fullstack, Early Career | San Francisco, California | score=0.398
   - url: https://jobs.ashbyhq.com/notion/f7399542-9122-481a-bf64-43bf8093748b/application
   - must_hits: None
@@ -126,14 +126,14 @@
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1
 
-- openai | Go to Market Strategy Internship / Co-op, Emerging Talent (Summer 2026) | San Francisco | score=0.342
-  - url: https://jobs.ashbyhq.com/openai/d6d4fbf8-1976-4745-bf48-1a3cca5503b9/application
+- figma | Early Career Recruiter | San Francisco, CA • New York, NY • United States | score=0.361
+  - url: https://boards.greenhouse.io/figma/jobs/5828494004?gh_jid=5828494004
   - must_hits: None
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1
 
-- figma | Early Career Recruiter | San Francisco, CA • New York, NY • United States | score=0.312
-  - url: https://boards.greenhouse.io/figma/jobs/5828494004?gh_jid=5828494004
+- openai | Go to Market Strategy Internship / Co-op, Emerging Talent (Summer 2026) | San Francisco | score=0.342
+  - url: https://jobs.ashbyhq.com/openai/d6d4fbf8-1976-4745-bf48-1a3cca5503b9/application
   - must_hits: None
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1

@@ -2,7 +2,7 @@
   "meta": {
     "engine_name": "AutoJob-Agent Feeder",
     "version": 2,
-    "generated_at": "2026-04-14T16:42:15.858956+00:00",
+    "generated_at": "2026-04-15T16:39:31.448879+00:00",
     "source_jobs_count": 141,
     "candidates_count": 26,
     "candidates_topN_total": 150,
@@ -29,9 +29,9 @@
       "scores": {
         "hard_raw": 8.0,
         "hard_norm": 1.0,
-        "semantic_raw": 0.4216968072467883,
-        "semantic_norm": 0.6042921692053074,
-        "final": 0.7823606930629191
+        "semantic_raw": 0.42169692178885754,
+        "semantic_norm": 0.6042920912943734,
+        "final": 0.7823606502119054
       },
       "signals": {
         "must_hits": [
@@ -68,9 +68,9 @@
       "scores": {
         "hard_raw": 8.0,
         "hard_norm": 1.0,
-        "semantic_raw": 0.3846196761496796,
-        "semantic_norm": 0.5064770984186914,
-        "final": 0.7285624041302803
+        "semantic_raw": 0.38461973575432795,
+        "semantic_norm": 0.5064769370987369,
+        "final": 0.7285623154043053
       },
       "signals": {
         "must_hits": [
@@ -108,9 +108,9 @@
       "scores": {
         "hard_raw": 4.0,
         "hard_norm": 0.5,
-        "semantic_raw": 0.5372523985650173,
-        "semantic_norm": 0.9091452689496738,
-        "final": 0.7250298979223206
+        "semantic_raw": 0.5372524581696656,
+        "semantic_norm": 0.9091448543579405,
+        "final": 0.7250296698968672
       },
       "signals": {
         "must_hits": [
@@ -130,6 +130,42 @@
       "jd_excerpt": "About the Program OpenAI is hiring a small cohort of exceptional early-career researchers and engineers to join OpenAI Research. This opportunity is designed primarily for current undergraduate students and recent graduates who have demonstrated technical ability through elite competitions and challenges. Participants join OpenAI directly as full-time Research Scientists / Research Engineers and begin with an intensive one-month research bootcamp designed to immerse them in the core problems behind modern AI systems. Many of the strongest researchers at OpenAI first distinguished themselves th"
     },
     {
+      "job_uid": "58195c1d3ea24d7d",
+      "source": "greenhouse",
+      "job_id": "58195c1d3ea24d7d",
+      "company": "okta",
+      "title": "Digital Solutions Intern (Summer 2026)",
+      "location": "Bellevue, Washington; Chicago, Illinois; San Francisco, California",
+      "url": "https://www.okta.com/company/careers/opportunity/7551302?gh_jid=7551302",
+      "departments": [
+        "People Operations-131"
+      ],
+      "created_at": null,
+      "updated_at": "2026-04-14T18:04:47-04:00",
+      "scores": {
+        "hard_raw": 3.0,
+        "hard_norm": 0.375,
+        "semantic_raw": 0.5597417354578142,
+        "semantic_norm": 0.9684749265926577,
+        "final": 0.7014112096259617
+      },
+      "signals": {
+        "must_hits": [
+          "machine learning",
+          "git"
+        ],
+        "nice_hits": [],
+        "neg_hits": []
+      },
+      "text_hash": "9b5c3cd7a832a5843f3341b3c7018328e7f44146",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. Location: We’re seeking a dynamic and motivated individual to join our team in on"
+    },
+    {
       "job_uid": "e7c78b9db66d7e52",
       "source": "greenhouse",
       "job_id": "e7c78b9db66d7e52",
@@ -145,7 +181,7 @@
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.25,
-        "semantic_raw": 0.5716911895085334,
+        "semantic_raw": 0.5716914279271267,
         "semantic_norm": 1.0,
         "final": 0.6625000000000001
       },
@@ -180,9 +216,9 @@
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.375,
-        "semantic_raw": 0.5067277256679072,
-        "semantic_norm": 0.8286165723698581,
-        "final": 0.624489114803422
+        "semantic_raw": 0.5067277852725556,
+        "semantic_norm": 0.8286162084293749,
+        "final": 0.6244889146361563
       },
       "signals": {
         "must_hits": [
@@ -217,9 +253,9 @@
       "scores": {
         "hard_raw": 7.0,
         "hard_norm": 0.875,
-        "semantic_raw": 0.3378145396706064,
-        "semantic_norm": 0.3829980804254468,
-        "final": 0.6043989442339958
+        "semantic_raw": 0.33781456947292876,
+        "semantic_norm": 0.38299791814881445,
+        "final": 0.604398854981848
       },
       "signals": {
         "must_hits": [
@@ -255,9 +291,9 @@
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.375,
-        "semantic_raw": 0.48726206941925854,
-        "semantic_norm": 0.7772632317113629,
-        "final": 0.5962447774412496
+        "semantic_raw": 0.48726212902390686,
+        "semantic_norm": 0.7772629000713019,
+        "final": 0.5962445950392161
       },
       "signals": {
         "must_hits": [
@@ -277,43 +313,6 @@
       "jd_excerpt": "RDQ227R1173 At Databricks, we are passionate about helping data teams solve the world's toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. As a Commercial Transformation intern, you will join our world-class Commercialization team (COO org) to work on systems and process improvements that make it easier to launch, sell, and scale Databricks products and part"
     },
     {
-      "job_uid": "6930a806414652cd",
-      "source": "greenhouse",
-      "job_id": "6930a806414652cd",
-      "company": "databricks",
-      "title": "MBA Intern - Strategy & Execution",
-      "location": "San Francisco, California",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7295056002",
-      "departments": [
-        "University Recruiting"
-      ],
-      "created_at": null,
-      "updated_at": "2026-04-09T16:51:10-04:00",
-      "scores": {
-        "hard_raw": 3.0,
-        "hard_norm": 0.375,
-        "semantic_raw": 0.45793756842567424,
-        "semantic_norm": 0.6999007698488993,
-        "final": 0.5536954234168947
-      },
-      "signals": {
-        "must_hits": [
-          "sql"
-        ],
-        "nice_hits": [
-          "mlflow"
-        ],
-        "neg_hits": []
-      },
-      "text_hash": "d202ff7ef7a148f8c16e4444d2b72b6e5379b51a",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "P-1060 At Databricks, we are passionate about helping data teams solve the world's toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. As a Strategy and Execution Intern, you will join our world-class strategy and operations team to drive insights and impact across Databricks. During your 12 week internship you’ll work on projects spanning Go-To-Market Strate"
-    },
-    {
       "job_uid": "b9687758003a7afe",
       "source": "greenhouse",
       "job_id": "b9687758003a7afe",
@@ -329,9 +328,9 @@
       "scores": {
         "hard_raw": 4.0,
         "hard_norm": 0.5,
-        "semantic_raw": 0.3933022256669776,
-        "semantic_norm": 0.5293829751818756,
-        "final": 0.5161606363500316
+        "semantic_raw": 0.3933022852716259,
+        "semantic_norm": 0.5293827994544944,
+        "final": 0.516160539699972
       },
       "signals": {
         "must_hits": [
@@ -367,9 +366,9 @@
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.375,
-        "semantic_raw": 0.41508122772421024,
-        "semantic_norm": 0.5868392714177025,
-        "final": 0.4915115992797364
+        "semantic_raw": 0.4150812575265344,
+        "semantic_norm": 0.5868389809282564,
+        "final": 0.49151143951054105
       },
       "signals": {
         "must_hits": [
@@ -403,9 +402,9 @@
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.25,
-        "semantic_raw": 0.4462467133994408,
-        "semantic_norm": 0.6690585288742121,
-        "final": 0.4804821908808167
+        "semantic_raw": 0.4462468890094401,
+        "semantic_norm": 0.6690585713326036,
+        "final": 0.480482214232932
       },
       "signals": {
         "must_hits": [
@@ -439,9 +438,9 @@
       "scores": {
         "hard_raw": 7.0,
         "hard_norm": 0.875,
-        "semantic_raw": 0.24440197646593448,
-        "semantic_norm": 0.1365616326244263,
-        "final": 0.4688588979434345
+        "semantic_raw": 0.24440196156477328,
+        "semantic_norm": 0.13656150741787523,
+        "final": 0.46885882907983134
       },
       "signals": {
         "must_hits": [
@@ -462,6 +461,42 @@
       "jd_excerpt": "ABOUT RAMP Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $100B in annualized spend flows in and out of 50,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books. The problems are high-stakes, data-dense, and unforgiving. We hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential "
     },
     {
+      "job_uid": "74dae1e815400054",
+      "source": "ashby",
+      "job_id": "74dae1e815400054",
+      "company": "openai",
+      "title": "Business Insights Intern",
+      "location": "San Francisco",
+      "url": "https://jobs.ashbyhq.com/openai/821168d6-c97c-457a-9187-88a2cb95ba32/application",
+      "departments": [
+        "Marketing",
+        "Marketing"
+      ],
+      "created_at": "2026-04-14T16:46:25.673+00:00",
+      "updated_at": "2026-04-14T16:46:25.673+00:00",
+      "scores": {
+        "hard_raw": 2.0,
+        "hard_norm": 0.25,
+        "semantic_raw": 0.43629077836341396,
+        "semantic_norm": 0.6427928645143214,
+        "final": 0.4660360754828768
+      },
+      "signals": {
+        "must_hits": [],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "10470d09aabc9f62b7b8603a182fdcf64fe5577d",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "About the Team The Business Insights team monitors competitors, generates actionable insights, and supports decision-making across GTM and product. The team also builds and applies OpenAI’s own technologies to develop internal intelligence systems, tools, and workflows that improve how competitive insight is generated, analyzed, and operationalized. These systems help OpenAI understand competitive dynamics, respond quickly to market developments, and surface high-quality intelligence across the organization. About the Role As a Business Insights Intern, you will help improve and extend OpenAI’"
+    },
+    {
       "job_uid": "1e24bd723ca2390a",
       "source": "greenhouse",
       "job_id": "1e24bd723ca2390a",
@@ -477,9 +512,9 @@
       "scores": {
         "hard_raw": 1.0,
         "hard_norm": 0.125,
-        "semantic_raw": 0.46958953142119175,
-        "semantic_norm": 0.7306404077735404,
-        "final": 0.4581022242754473
+        "semantic_raw": 0.469589471816547,
+        "semantic_norm": 0.7306397909665641,
+        "final": 0.4581018850316103
       },
       "signals": {
         "must_hits": [
@@ -516,9 +551,9 @@
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.375,
-        "semantic_raw": 0.39172532509081087,
-        "semantic_norm": 0.5252228733369615,
-        "final": 0.4576225803353289
+        "semantic_raw": 0.39172541449778336,
+        "semantic_norm": 0.5252227788491993,
+        "final": 0.4576225283670597
       },
       "signals": {
         "must_hits": [
@@ -553,9 +588,9 @@
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.25,
-        "semantic_raw": 0.4271014034743806,
-        "semantic_norm": 0.6185503101922792,
-        "final": 0.4527026706057536
+        "semantic_raw": 0.42710143327670297,
+        "semantic_norm": 0.6185499997570969,
+        "final": 0.4527024998664033
       },
       "signals": {
         "must_hits": [],
@@ -588,9 +623,9 @@
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.375,
-        "semantic_raw": 0.3882523179050377,
-        "semantic_norm": 0.516060555928177,
-        "final": 0.4525833057604974
+        "semantic_raw": 0.3882524602559773,
+        "semantic_norm": 0.5160606068774568,
+        "final": 0.4525833337826013
       },
       "signals": {
         "must_hits": [
@@ -627,8 +662,8 @@
         "hard_raw": 7.0,
         "hard_norm": 0.875,
         "semantic_raw": 0.21998427629355108,
-        "semantic_norm": 0.07214405229566408,
-        "final": 0.43342922876261525
+        "semantic_norm": 0.07214400691821983,
+        "final": 0.4334292038050209
       },
       "signals": {
         "must_hits": [
@@ -665,8 +700,8 @@
         "hard_raw": 2.0,
         "hard_norm": 0.25,
         "semantic_raw": 0.4066547155376182,
-        "semantic_norm": 0.5646088597966682,
-        "final": 0.42303487288816755
+        "semantic_norm": 0.56460850466681,
+        "final": 0.4230346775667455
       },
       "signals": {
         "must_hits": [],
@@ -700,9 +735,9 @@
       "scores": {
         "hard_raw": 7.0,
         "hard_norm": 0.875,
-        "semantic_raw": 0.20615543163728553,
-        "semantic_norm": 0.035661471822893545,
-        "final": 0.41336380950259144
+        "semantic_raw": 0.2061554614396097,
+        "semantic_norm": 0.03566152801538555,
+        "final": 0.413363840408462
       },
       "signals": {
         "must_hits": [
@@ -723,44 +758,6 @@
       "jd_excerpt": "ABOUT RAMP Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $100B in annualized spend flows in and out of 50,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books. The problems are high-stakes, data-dense, and unforgiving. We hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential "
     },
     {
-      "job_uid": "ce0bbfe1c5e510d0",
-      "source": "greenhouse",
-      "job_id": "ce0bbfe1c5e510d0",
-      "company": "databricks",
-      "title": "MBA Intern - Product Operations",
-      "location": "San Francisco, California",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8399535002",
-      "departments": [
-        "University Recruiting"
-      ],
-      "created_at": null,
-      "updated_at": "2026-04-09T16:51:25-04:00",
-      "scores": {
-        "hard_raw": 5.0,
-        "hard_norm": 0.625,
-        "semantic_raw": 0.27387025952311783,
-        "semantic_norm": 0.2143034132829412,
-        "final": 0.3991168773056177
-      },
-      "signals": {
-        "must_hits": [
-          "sql"
-        ],
-        "nice_hits": [
-          "rag",
-          "mlflow"
-        ],
-        "neg_hits": []
-      },
-      "text_hash": "47e1b25152112859588c5a4b5bef56054b938100",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=2",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "RDQ227R1170 At Databricks, we are passionate about helping data teams solve the world's toughest problems - from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. Join our Product Operations team to ensure our innovations successfully reach our customers and deliver maximum value. As a Product Operations intern, you will sit at the intersection of Product Management, Engineering, a"
-    },
-    {
       "job_uid": "609c9f7aff473916",
       "source": "ashby",
       "job_id": "609c9f7aff473916",
@@ -778,8 +775,8 @@
         "hard_raw": 2.0,
         "hard_norm": 0.25,
         "semantic_raw": 0.3893846273418347,
-        "semantic_norm": 0.5190477592105066,
-        "final": 0.39797626756577864
+        "semantic_norm": 0.5190474327378453,
+        "final": 0.3979760880058149
       },
       "signals": {
         "must_hits": [],
@@ -812,9 +809,9 @@
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.375,
-        "semantic_raw": 0.3415982425209444,
-        "semantic_norm": 0.3929800599149601,
-        "final": 0.38488903295322807
+        "semantic_raw": 0.34159839153255633,
+        "semantic_norm": 0.3929802058517334,
+        "final": 0.3848891132184534
       },
       "signals": {
         "must_hits": [
@@ -850,9 +847,9 @@
       "scores": {
         "hard_raw": 4.0,
         "hard_norm": 0.5,
-        "semantic_raw": 0.2915545105931227,
-        "semantic_norm": 0.26095713807330684,
-        "final": 0.3685264259403188
+        "semantic_raw": 0.2915545701977675,
+        "semantic_norm": 0.2609571311814345,
+        "final": 0.368526422149789
       },
       "signals": {
         "must_hits": [
@@ -888,9 +885,9 @@
       "scores": {
         "hard_raw": 4.0,
         "hard_norm": 0.5,
-        "semantic_raw": 0.2915545105931227,
-        "semantic_norm": 0.26095713807330684,
-        "final": 0.3685264259403188
+        "semantic_raw": 0.2915545701977675,
+        "semantic_norm": 0.2609571311814345,
+        "final": 0.368526422149789
       },
       "signals": {
         "must_hits": [
@@ -910,6 +907,43 @@
       "jd_excerpt": "ABOUT US - At Sierra, we’re creating a platform to help businesses build better, more human customer experiences with AI. We are primarily an in-person company based in San Francisco, with growing offices in Atlanta, New York, London, Paris, Madrid, Munich, Singapore, Japan, and Sydney. - We are guided by a set of values that are at the core of our actions and define our culture: Trust, Customer Obsession, Craftsmanship, Intensity, and Family. These values are the foundation of our work, and we are committed to upholding them in everything we do. - Our co-founders are Bret Taylor https://www.l"
     },
     {
+      "job_uid": "9df691459bcd1052",
+      "source": "greenhouse",
+      "job_id": "9df691459bcd1052",
+      "company": "figma",
+      "title": "Early Career Recruiter",
+      "location": "San Francisco, CA • New York, NY • United States",
+      "url": "https://boards.greenhouse.io/figma/jobs/5828494004?gh_jid=5828494004",
+      "departments": [
+        "Talent"
+      ],
+      "created_at": null,
+      "updated_at": "2026-04-14T20:34:34-04:00",
+      "scores": {
+        "hard_raw": 0.0,
+        "hard_norm": 0.0,
+        "semantic_raw": 0.4417085314810944,
+        "semantic_norm": 0.6570857063741723,
+        "final": 0.3613971385057948
+      },
+      "signals": {
+        "must_hits": [],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": [
+          "5+ years"
+        ]
+      },
+      "text_hash": "7763b4b13e1153a68c91a165a5aa443f4d99711a",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Figma is growing our team of passionate creatives and builders on a mission to make design accessible to all. Figma’s platform helps teams bring ideas to life—whether you're brainstorming, creating a prototype, translating designs into code, or iterating with AI. From idea to product, Figma empowers teams to streamline workflows, move faster, and work together in real time from anywhere in the world. If you're excited to shape the future of design and collaboration, join us! The Early Career team at Figma is shaping the future by finding and nurturing the next generation of talent - Figma’s fu"
+    },
+    {
       "job_uid": "6a37b4fca05c2c26",
       "source": "ashby",
       "job_id": "6a37b4fca05c2c26",
@@ -927,8 +961,8 @@
         "hard_raw": 2.0,
         "hard_norm": 0.25,
         "semantic_raw": 0.35068267583811974,
-        "semantic_norm": 0.4169461668299876,
-        "final": 0.3418203917564932
+        "semantic_norm": 0.4169459045775796,
+        "final": 0.34182024751766876
       },
       "signals": {
         "must_hits": [],
@@ -944,43 +978,6 @@
         "reason": ""
       },
       "jd_excerpt": "ABOUT THE TEAM: OpenAI’s mission is to build safe artificial general intelligence (AGI) which benefits all of humanity. This long-term undertaking brings the world’s best scientists, engineers, and business professionals into one lab together to accomplish this. In pursuit of this mission, our Go To Market (GTM) team is responsible for helping customers learn how to leverage and deploy our highly capable AI products across their business. The team is made of Sales, Solutions, Support, Marketing, and Partnership professionals that work together to create valuable solutions that will help bring "
-    },
-    {
-      "job_uid": "9df691459bcd1052",
-      "source": "greenhouse",
-      "job_id": "9df691459bcd1052",
-      "company": "figma",
-      "title": "Early Career Recruiter",
-      "location": "San Francisco, CA • New York, NY • United States",
-      "url": "https://boards.greenhouse.io/figma/jobs/5828494004?gh_jid=5828494004",
-      "departments": [
-        "Talent"
-      ],
-      "created_at": null,
-      "updated_at": "2026-04-13T18:49:59-04:00",
-      "scores": {
-        "hard_raw": 0.0,
-        "hard_norm": 0.0,
-        "semantic_raw": 0.4073622226711014,
-        "semantic_norm": 0.5664753704542063,
-        "final": 0.3115614537498135
-      },
-      "signals": {
-        "must_hits": [],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": [
-          "5+ years"
-        ]
-      },
-      "text_hash": "5bf9b9e56ba247ba221a6cdf32aec80436f7b990",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "Figma is growing our team of passionate creatives and builders on a mission to make design accessible to all. Figma’s platform helps teams bring ideas to life—whether you're brainstorming, creating a prototype, translating designs into code, or iterating with AI. From idea to product, Figma empowers teams to streamline workflows, move faster, and work together in real time from anywhere in the world. If you're excited to shape the future of design and collaboration, join us! The Early Career team at Figma is shaping the future by finding and nurturing the next generation of talent - Figma’s fu"
     }
   ]
 }
