@@ -12,12 +12,6 @@
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1
 
-- okta | IT Support Intern (Summer 2026) | San Francisco, California | score=0.624
-  - url: https://www.okta.com/company/careers/opportunity/7558024?gh_jid=7558024
-  - must_hits: machine learning, git
-  - nice_hits: None
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0
-
 - notion | Software Engineer Intern (Fall 2026) | San Francisco, California | score=0.604
   - url: https://jobs.ashbyhq.com/notion/5b15697c-fa91-4511-9482-c98a6ff29f90/application
   - must_hits: python, llm
@@ -28,6 +22,12 @@
   - url: https://databricks.com/company/careers/open-positions/job?gh_jid=8402617002
   - must_hits: sql
   - nice_hits: mlflow
+  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1
+
+- okta | Enablement Communications & Events Coordinator Intern | Chicago, Illinois | score=0.568
+  - url: https://www.okta.com/company/careers/opportunity/7818817?gh_jid=7818817
+  - must_hits: machine learning
+  - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1
 
 - databricks | MBA Intern - Product Pricing & Commercialization | San Francisco, California | score=0.516
@@ -54,12 +54,6 @@
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1
 
-- openai | Business Insights Intern | San Francisco | score=0.466
-  - url: https://jobs.ashbyhq.com/openai/821168d6-c97c-457a-9187-88a2cb95ba32/application
-  - must_hits: None
-  - nice_hits: rag
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1
-
 - anthropic | Program Manager, Student Outreach | San Francisco, CA | New York City, NY | score=0.458
   - url: https://job-boards.greenhouse.io/anthropic/jobs/5102171008
   - must_hits: git
@@ -84,6 +78,12 @@
   - nice_hits: mlflow
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1
 
+- okta | Product Marketing Intern, Orchestration (Summer 2026) | San Francisco, California | score=0.449
+  - url: https://www.okta.com/company/careers/opportunity/7821767?gh_jid=7821767
+  - must_hits: machine learning
+  - nice_hits: None
+  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0
+
 - ramp | Software Engineer Internship, Android  | New York, NY (HQ) | score=0.433
   - url: https://jobs.ashbyhq.com/ramp/67fadb77-43d8-4449-954b-d4cf2c6d3b8b/application
   - must_hits: python, sql
@@ -95,12 +95,6 @@
   - must_hits: None
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1
-
-- ramp | Software Engineer Internship, Frontend | New York, NY (HQ) | score=0.413
-  - url: https://jobs.ashbyhq.com/ramp/31f7e045-9a51-4a75-9ffc-d815d6db6daa/application
-  - must_hits: python, sql
-  - nice_hits: rag
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1
 
 - notion | Software Engineer, Fullstack, Early Career | San Francisco, California | score=0.398
   - url: https://jobs.ashbyhq.com/notion/f7399542-9122-481a-bf64-43bf8093748b/application
@@ -128,12 +122,6 @@
 
 - figma | Early Career Recruiter | San Francisco, CA • New York, NY • United States | score=0.361
   - url: https://boards.greenhouse.io/figma/jobs/5828494004?gh_jid=5828494004
-  - must_hits: None
-  - nice_hits: rag
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1
-
-- openai | Go to Market Strategy Internship / Co-op, Emerging Talent (Summer 2026) | San Francisco | score=0.342
-  - url: https://jobs.ashbyhq.com/openai/d6d4fbf8-1976-4745-bf48-1a3cca5503b9/application
   - must_hits: None
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1

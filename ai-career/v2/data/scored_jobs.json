@@ -2,11 +2,213 @@
   "meta": {
     "version": 2,
     "model_name": "sentence-transformers/all-MiniLM-L6-v2",
-    "jobs_total": 144,
-    "jobs_scored": 144,
-    "non_gated_count": 31
+    "jobs_total": 145,
+    "jobs_scored": 145,
+    "non_gated_count": 29
   },
   "scored_jobs": [
+    {
+      "job_uid": "113e4c3b5f22a3eb",
+      "source": "greenhouse",
+      "company": "cloudflare",
+      "title": "Procurement Strategy & Operations Intern ",
+      "location": "Hybrid",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7822643?gh_jid=7822643",
+      "updated_at": "2026-04-17T12:12:04-04:00",
+      "created_at": null,
+      "departments": [
+        "Accounting and Finance"
+      ],
+      "hard_gate": {
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
+      },
+      "hard": {
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
+      },
+      "text_hash": "c1044e4ac8b2b7549d2d1aa7ccf48561b3e710f4",
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
+    },
+    {
+      "job_uid": "0c16d08f86772c6a",
+      "source": "greenhouse",
+      "company": "okta",
+      "title": "Enablement Communications & Events Coordinator Intern",
+      "location": "Chicago, Illinois",
+      "url": "https://www.okta.com/company/careers/opportunity/7818817?gh_jid=7818817",
+      "updated_at": "2026-04-17T10:30:25-04:00",
+      "created_at": null,
+      "departments": [
+        "Customer Acceleration-731"
+      ],
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "hard": {
+        "raw": 4.0,
+        "must_hits": [
+          "machine learning"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": [],
+        "norm": 0.5
+      },
+      "semantic": {
+        "raw": 0.4293722170212873,
+        "cache_reused": false,
+        "norm": 0.6245410592405843
+      },
+      "text_hash": "c9624f6268258f7b9b1b63bef2e1bd652a7feb8c",
+      "final_score": 0.5684975825823214,
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
+    },
+    {
+      "job_uid": "050a6501fa108492",
+      "source": "greenhouse",
+      "company": "okta",
+      "title": "Product Marketing Intern, Orchestration (Summer 2026)",
+      "location": "San Francisco, California",
+      "url": "https://www.okta.com/company/careers/opportunity/7821767?gh_jid=7821767",
+      "updated_at": "2026-04-17T10:27:56-04:00",
+      "created_at": null,
+      "departments": [
+        "Demand Gen-420"
+      ],
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "hard": {
+        "raw": 2.0,
+        "must_hits": [
+          "machine learning"
+        ],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.25
+      },
+      "semantic": {
+        "raw": 0.42477184534030393,
+        "cache_reused": false,
+        "norm": 0.6124045840521029
+      },
+      "text_hash": "b481ea7c482cfa41d901164d51acb8ff6bc05514",
+      "final_score": 0.44932252122865657,
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0"
+    },
+    {
+      "job_uid": "83a8ce948fb3eac2",
+      "source": "greenhouse",
+      "company": "cloudflare",
+      "title": "Procurement Intern (JD)",
+      "location": "Hybrid",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7822659?gh_jid=7822659",
+      "updated_at": "2026-04-16T20:23:45-04:00",
+      "created_at": null,
+      "departments": [
+        "Accounting and Finance"
+      ],
+      "hard_gate": {
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
+      },
+      "hard": {
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
+      },
+      "text_hash": "eba7815f422ffdbc4d36da2552eb802d73076803",
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
+    },
+    {
+      "job_uid": "5d94adc09752088a",
+      "source": "greenhouse",
+      "company": "cloudflare",
+      "title": "Procurement Analyst Intern",
+      "location": "Hybrid",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7822668?gh_jid=7822668",
+      "updated_at": "2026-04-16T20:22:20-04:00",
+      "created_at": null,
+      "departments": [
+        "Accounting and Finance"
+      ],
+      "hard_gate": {
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
+      },
+      "hard": {
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
+      },
+      "text_hash": "f2b4bf6ec1d2e91fd6120e780d0d75f37f36dd9d",
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
+    },
+    {
+      "job_uid": "83a840a31a86892a",
+      "source": "greenhouse",
+      "company": "okta",
+      "title": "AI Content Operations Intern (Summer 2026)",
+      "location": "Chicago, Illinois",
+      "url": "https://www.okta.com/company/careers/opportunity/7818807?gh_jid=7818807",
+      "updated_at": "2026-04-16T15:13:13-04:00",
+      "created_at": null,
+      "departments": [
+        "Customer Acceleration-731"
+      ],
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "hard": {
+        "raw": 5.0,
+        "must_hits": [
+          "machine learning",
+          "llm",
+          "git"
+        ],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.625
+      },
+      "semantic": {
+        "raw": 0.5319120287889884,
+        "cache_reused": false,
+        "norm": 0.8950565670406497
+      },
+      "text_hash": "0758f7af1a53c11c1a5e80f41abfbb8e5f5085a3",
+      "final_score": 0.7735311118723573,
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=0"
+    },
     {
       "job_uid": "0df98beef0fc10f8",
       "source": "greenhouse",
@@ -609,41 +811,6 @@
       "text_hash": "9b5c3cd7a832a5843f3341b3c7018328e7f44146",
       "final_score": 0.7014113716908152,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0"
-    },
-    {
-      "job_uid": "74dae1e815400054",
-      "source": "ashby",
-      "company": "openai",
-      "title": "Business Insights Intern",
-      "location": "San Francisco",
-      "url": "https://jobs.ashbyhq.com/openai/821168d6-c97c-457a-9187-88a2cb95ba32/application",
-      "updated_at": "2026-04-14T16:46:25.673+00:00",
-      "created_at": "2026-04-14T16:46:25.673+00:00",
-      "departments": [
-        "Marketing",
-        "Marketing"
-      ],
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "hard": {
-        "raw": 2.0,
-        "must_hits": [],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": [],
-        "norm": 0.25
-      },
-      "semantic": {
-        "raw": 0.43629077076868295,
-        "cache_reused": true,
-        "norm": 0.6427932487848633
-      },
-      "text_hash": "10470d09aabc9f62b7b8603a182fdcf64fe5577d",
-      "final_score": 0.46603628683167486,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1"
     },
     {
       "job_uid": "6f22833fbfd47b97",
@@ -1543,41 +1710,6 @@
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
     },
     {
-      "job_uid": "50fc2ceb0d3d7dce",
-      "source": "greenhouse",
-      "company": "okta",
-      "title": "IT Support Intern (Summer 2026)",
-      "location": "San Francisco, California",
-      "url": "https://www.okta.com/company/careers/opportunity/7558024?gh_jid=7558024",
-      "updated_at": "2026-04-09T13:51:41-04:00",
-      "created_at": null,
-      "departments": [
-        "BT Operations-165"
-      ],
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "hard": {
-        "raw": 3.0,
-        "must_hits": [
-          "machine learning",
-          "git"
-        ],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.375
-      },
-      "semantic": {
-        "raw": 0.5067277256679072,
-        "cache_reused": true,
-        "norm": 0.8286165723698581
-      },
-      "text_hash": "a78678a45285729c71c418db11cda8fe362f19d2",
-      "final_score": 0.624489114803422,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0"
-    },
-    {
       "job_uid": "2fbe2ec9c31fc641",
       "source": "greenhouse",
       "company": "cloudflare",
@@ -2063,41 +2195,6 @@
       "text_hash": "948e16b18aec4d52e0795707aaf720d6bfed6f67",
       "final_score": 0.0,
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
-    },
-    {
-      "job_uid": "6a37b4fca05c2c26",
-      "source": "ashby",
-      "company": "openai",
-      "title": "Go to Market Strategy Internship / Co-op, Emerging Talent (Summer 2026)",
-      "location": "San Francisco",
-      "url": "https://jobs.ashbyhq.com/openai/d6d4fbf8-1976-4745-bf48-1a3cca5503b9/application",
-      "updated_at": "2026-04-03T02:39:34.652+00:00",
-      "created_at": "2026-04-03T02:39:34.652+00:00",
-      "departments": [
-        "Go To Market",
-        "Go To Market"
-      ],
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "hard": {
-        "raw": 2.0,
-        "must_hits": [],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": [],
-        "norm": 0.25
-      },
-      "semantic": {
-        "raw": 0.35068267583811974,
-        "cache_reused": true,
-        "norm": 0.4169461668299876
-      },
-      "text_hash": "cecf913cefe63191c041e18c9a647755f62de425",
-      "final_score": 0.3418203917564932,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1"
     },
     {
       "job_uid": "87a5fdd5b3df9fac",
@@ -2842,43 +2939,6 @@
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
-      "job_uid": "6932e9d57bf5ef44",
-      "source": "ashby",
-      "company": "openai",
-      "title": "Research Scientist / Research Engineer — Early Career Cohort",
-      "location": "San Francisco",
-      "url": "https://jobs.ashbyhq.com/openai/4476b271-4987-4bd4-aa1e-0e68ea683b10/application",
-      "updated_at": "2026-03-19T20:59:28.241+00:00",
-      "created_at": "2026-03-19T20:59:28.241+00:00",
-      "departments": [
-        "Research",
-        "Research"
-      ],
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "hard": {
-        "raw": 4.0,
-        "must_hits": [
-          "machine learning"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": [],
-        "norm": 0.5
-      },
-      "semantic": {
-        "raw": 0.5372523985650173,
-        "cache_reused": true,
-        "norm": 0.9091452689496738
-      },
-      "text_hash": "a80687ce75017d3f41536dba8d6f4e368a7d8c8a",
-      "final_score": 0.7250298979223206,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
-    },
-    {
       "job_uid": "0ba6fd970f1c6dd2",
       "source": "ashby",
       "company": "sierra",
@@ -3497,38 +3557,6 @@
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
-      "job_uid": "6adb06b7ff8ad09d",
-      "source": "greenhouse",
-      "company": "cloudflare",
-      "title": " Red Team Security Intern (Summer 2026) ",
-      "location": "In-Office",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/7578802?gh_jid=7578802",
-      "updated_at": "2026-02-06T11:24:20-05:00",
-      "created_at": null,
-      "departments": [
-        "Security"
-      ],
-      "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
-      },
-      "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.0
-      },
-      "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
-      },
-      "text_hash": "13359751d9419b2959ec0b9126f1e3b25ea3e236",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
-    },
-    {
       "job_uid": "5917dcfcdfb6ef21",
       "source": "greenhouse",
       "company": "cloudflare",
@@ -3625,38 +3653,6 @@
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
-      "job_uid": "84bc1484e1b4497d",
-      "source": "greenhouse",
-      "company": "cloudflare",
-      "title": "Research Engineer Intern (Summer 2026)",
-      "location": "In-Office",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/7359147?gh_jid=7359147",
-      "updated_at": "2026-02-06T10:04:45-05:00",
-      "created_at": null,
-      "departments": [
-        "Technology Research"
-      ],
-      "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
-      },
-      "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.0
-      },
-      "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
-      },
-      "text_hash": "bfa42eb1660ad63e4076789ab61f064e01296abe",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
-    },
-    {
       "job_uid": "204693732bd8fb17",
       "source": "greenhouse",
       "company": "cloudflare",
@@ -3717,6 +3713,38 @@
         "norm": 0.0
       },
       "text_hash": "a4fdab4a5c97689df052839e8c7481a7c62f7e64",
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
+    },
+    {
+      "job_uid": "84bc1484e1b4497d",
+      "source": "greenhouse",
+      "company": "cloudflare",
+      "title": "Research Engineer Intern (Summer 2026)",
+      "location": "In-Office",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7359147?gh_jid=7359147",
+      "updated_at": "2026-02-06T10:04:45-05:00",
+      "created_at": null,
+      "departments": [
+        "Technology Research"
+      ],
+      "hard_gate": {
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
+      },
+      "hard": {
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
+      },
+      "text_hash": "bfa42eb1660ad63e4076789ab61f064e01296abe",
       "final_score": 0.0,
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
@@ -4336,42 +4364,68 @@
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1"
     },
     {
-      "job_uid": "8c305391a2786222",
-      "source": "ashby",
-      "company": "ramp",
-      "title": "Software Engineer Internship, Frontend",
-      "location": "New York, NY (HQ)",
-      "url": "https://jobs.ashbyhq.com/ramp/31f7e045-9a51-4a75-9ffc-d815d6db6daa/application",
-      "updated_at": "2025-08-01T19:55:18.933+00:00",
-      "created_at": "2025-08-01T19:55:18.933+00:00",
+      "job_uid": "6a4ef560e21c42c7",
+      "source": "lever",
+      "company": "zoox",
+      "title": "PhD Research Intern, Physical AI in Perception",
+      "location": "Foster City, CA",
+      "url": "https://jobs.lever.co/zoox/aab5dc76-6ee6-419c-90ce-4a852d9fdeec",
+      "updated_at": 1776439425826,
+      "created_at": 1776439425826,
       "departments": [
-        "Engineering",
-        "Emerging Talent - SWE"
+        "Software"
       ],
       "hard_gate": {
-        "hit": false,
-        "reason": ""
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
       },
       "hard": {
-        "raw": 7.0,
-        "must_hits": [
-          "python",
-          "sql"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
         "neg_hits": [],
-        "norm": 0.875
+        "norm": 0.0
       },
       "semantic": {
-        "raw": 0.20615543163728553,
-        "cache_reused": true,
-        "norm": 0.035661471822893545
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
       },
-      "text_hash": "7291e73693be2c925f73e3414bd3fdf4059fbb89",
-      "final_score": 0.41336380950259144,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1"
+      "text_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
+    },
+    {
+      "job_uid": "6788b632a9a12327",
+      "source": "lever",
+      "company": "zoox",
+      "title": "Software Engineer Intern, Perception Data",
+      "location": "Foster City, CA",
+      "url": "https://jobs.lever.co/zoox/15aa4a31-81e0-4f7a-b9d9-5bc64eb2afb8",
+      "updated_at": 1776380519419,
+      "created_at": 1776380519419,
+      "departments": [
+        "Software"
+      ],
+      "hard_gate": {
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
+      },
+      "hard": {
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
+      },
+      "text_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "e24b6431de17f420",
@@ -4402,70 +4456,6 @@
         "norm": 0.0
       },
       "text_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
-    },
-    {
-      "job_uid": "162563ae785b22b3",
-      "source": "lever",
-      "company": "shieldai",
-      "title": "Electrical Engineering Spring Co-op (January 2027) (R4475)",
-      "location": "Dallas, Texas",
-      "url": "https://jobs.lever.co/shieldai/87d982f2-8b2b-4c73-9a19-71e461c7b724",
-      "updated_at": 1776259349091,
-      "created_at": 1776259349091,
-      "departments": [
-        "X-BAT Engineering - Avionics"
-      ],
-      "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
-      },
-      "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.0
-      },
-      "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
-      },
-      "text_hash": "7e60fb77a2cbc93a0de46f8a55e9e9de4f618db5",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
-    },
-    {
-      "job_uid": "f8835600c4bd7ba0",
-      "source": "lever",
-      "company": "shieldai",
-      "title": "Embedded Software Engineering Intern - 2026 Summer Intern (Boston, MA)",
-      "location": "Boston, MA",
-      "url": "https://jobs.lever.co/shieldai/6b9de151-1090-47c0-a245-85b601295966",
-      "updated_at": 1774885466369,
-      "created_at": 1774885466369,
-      "departments": [
-        "X-BAT Engineering - Software"
-      ],
-      "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
-      },
-      "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.0
-      },
-      "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
-      },
-      "text_hash": "4d7a237f439bec5c338902df494e639a1f376f8d",
       "final_score": 0.0,
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
@@ -4665,7 +4655,7 @@
       "job_uid": "fda9b2f87cdc6373",
       "source": "lever",
       "company": "zoox",
-      "title": "Machine Learning Engineer Intern (Ph.D), Perception",
+      "title": "Machine Learning Engineer Intern (PhD), Perception",
       "location": "Foster City, CA",
       "url": "https://jobs.lever.co/zoox/9b3ab3ee-b130-49b6-8413-7d8fd9c33ed3",
       "updated_at": 1763505146194,
@@ -4722,6 +4712,38 @@
         "norm": 0.0
       },
       "text_hash": "d9633f1381b1897070da4cced0ef84c8b3983edd",
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
+    },
+    {
+      "job_uid": "42329157c67213cf",
+      "source": "lever",
+      "company": "zoox",
+      "title": "PhD Research Intern, Mapping Software",
+      "location": "Foster City, CA",
+      "url": "https://jobs.lever.co/zoox/f318f39e-c089-4240-b341-ebb021d86b4f",
+      "updated_at": 1762207928729,
+      "created_at": 1762207928729,
+      "departments": [
+        "Software"
+      ],
+      "hard_gate": {
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
+      },
+      "hard": {
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
+      },
+      "text_hash": "8a15ffa60e35efb889cbc956626eabdf1f5d2af9",
       "final_score": 0.0,
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
