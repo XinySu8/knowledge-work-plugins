@@ -1,7 +1,7 @@
 # Job feed (current)
-Generated at (UTC): 2026-04-16T15:24:15.306489+00:00
-Today (UTC): 2026-04-16
-Total jobs: 8
+Generated at (UTC): 2026-04-17T14:23:39.287920+00:00
+Today (UTC): 2026-04-17
+Total jobs: 7
 
 ## Jobs
 - [stripe] Software Engineer, Intern (Sydney, Australia) — greenhouse — https://stripe.com/jobs/search?gh_jid=7532256
@@ -11,4 +11,3 @@ Total jobs: 8
 - [sierra] Intern, Agent Development (Summer 2026) (San Francisco, CA) — ashby — https://jobs.ashbyhq.com/Sierra/8bb2509d-9215-4cb5-8cf1-2bf0dbade6d8/application
 - [replit] Software Engineering Intern (Summer 2026) (Foster City, CA (Hybrid) In office M,W,F) — ashby — https://jobs.ashbyhq.com/replit/12737078-74c7-4e63-98a7-5e8da1e9deb1/application
 - [ramp] Software Engineer Internship, Android  (New York, NY (HQ)) — ashby — https://jobs.ashbyhq.com/ramp/67fadb77-43d8-4449-954b-d4cf2c6d3b8b/application
-- [ramp] Software Engineer Internship, Frontend (New York, NY (HQ)) — ashby — https://jobs.ashbyhq.com/ramp/31f7e045-9a51-4a75-9ffc-d815d6db6daa/application

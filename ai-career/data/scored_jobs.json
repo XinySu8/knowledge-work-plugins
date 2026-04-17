@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-04-16T15:24:15.396948+00:00",
-  "source_generated_at_utc": "2026-04-16T15:24:15.306489+00:00",
-  "count": 8,
+  "generated_at_utc": "2026-04-17T14:23:39.358483+00:00",
+  "source_generated_at_utc": "2026-04-17T14:23:39.287920+00:00",
+  "count": 7,
   "jobs": [
     {
       "id": "b35597b79d3ae32f",
@@ -56,36 +56,6 @@
       "matched_skills_have": [
         "python",
         "sql",
-        "react"
-      ],
-      "matched_skills_want": [],
-      "matched_bonus": []
-    },
-    {
-      "id": "8c305391a2786222",
-      "company": "ramp",
-      "title": "Software Engineer Internship, Frontend",
-      "location": "New York, NY (HQ)",
-      "url": "https://jobs.ashbyhq.com/ramp/31f7e045-9a51-4a75-9ffc-d815d6db6daa/application",
-      "source": "ashby",
-      "score": 29,
-      "breakdown": {
-        "title": 15,
-        "location": 8,
-        "have": 6,
-        "want+bonus": 0,
-        "penalty": 0,
-        "detected_mode": "none",
-        "city_tier": "tier2"
-      },
-      "hard_flags": [],
-      "soft_flags": [],
-      "matched_titles": [
-        "software engineer"
-      ],
-      "matched_skills_have": [
-        "python",
-        "aws",
         "react"
       ],
       "matched_skills_want": [],
