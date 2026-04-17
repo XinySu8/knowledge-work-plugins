@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-04-17T14:23:39.287920+00:00",
+  "generated_at_utc": "2026-04-17T14:53:30.820789+00:00",
   "today_utc": "2026-04-17",
-  "fetched_count": 3611,
+  "fetched_count": 3612,
   "filtered_count": 7,
   "count": 7,
   "today_count": 0,
   "backlog_count": 7,
   "per_company_fetched": {
     "openai": 644,
-    "anthropic": 430,
+    "anthropic": 431,
     "databricks": 856,
     "cohere": 116,
     "perplexity": 76,
@@ -26,7 +26,7 @@
   },
   "per_source_fetched": {
     "ashby": 1355,
-    "greenhouse": 2109,
+    "greenhouse": 2110,
     "lever": 147
   },
   "errors": [],
