@@ -1,5 +1,5 @@
 # Scored job feed (auto)
-Generated at (UTC): 2026-04-17T14:53:30.911739+00:00
+Generated at (UTC): 2026-04-18T14:03:48.477786+00:00
 Total jobs scored: 7
 
 ## Top internships
@@ -17,12 +17,12 @@ matched_skills_have: python, sql, react
 breakdown: title 15, location 7, have 0, want+bonus 0, penalty 0
 matched_titles: software engineer
 
-[17/100] [stripe] Software Engineer, Intern (Sydney, Australia) — https://stripe.com/jobs/search?gh_jid=7532256
+[17/100] [stripe] Software Engineer, Intern (London) — https://stripe.com/jobs/search?gh_jid=7360840
 breakdown: title 15, location 0, have 2, want+bonus 0, penalty 0
 matched_titles: software engineer
 matched_skills_have: Java
 
-[17/100] [stripe] Software Engineer, Intern (London) — https://stripe.com/jobs/search?gh_jid=7360840
+[17/100] [stripe] Software Engineer, Intern (Sydney, Australia) — https://stripe.com/jobs/search?gh_jid=7532256
 breakdown: title 15, location 0, have 2, want+bonus 0, penalty 0
 matched_titles: software engineer
 matched_skills_have: Java
