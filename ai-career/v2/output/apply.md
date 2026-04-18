@@ -24,3 +24,9 @@
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1
 
+- openai | Research Scientist / Research Engineer — Early Career Cohort | San Francisco | score=0.725
+  - url: https://jobs.ashbyhq.com/openai/4476b271-4987-4bd4-aa1e-0e68ea683b10/application
+  - must_hits: machine learning
+  - nice_hits: rag
+  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1
+
