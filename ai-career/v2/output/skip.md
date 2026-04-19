@@ -642,6 +642,12 @@
   - nice_hits: None
   - reason: Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)
 
+- zoox | PhD Research Intern, Offline Driving Intelligence | Foster City, CA | score=0.000 [HARD-GATE: location_not_allowed (allowlist: US/China/Singapore)]
+  - url: https://jobs.lever.co/zoox/07681120-7f8d-4431-a293-daf2485244fa
+  - must_hits: None
+  - nice_hits: None
+  - reason: Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)
+
 - zoox | PhD Research Intern, Physical AI in Perception | Foster City, CA | score=0.000 [HARD-GATE: location_not_allowed (allowlist: US/China/Singapore)]
   - url: https://jobs.lever.co/zoox/aab5dc76-6ee6-419c-90ce-4a852d9fdeec
   - must_hits: None
