@@ -54,12 +54,6 @@
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1
 
-- openai | Business Insights Intern | San Francisco | score=0.466
-  - url: https://jobs.ashbyhq.com/openai/821168d6-c97c-457a-9187-88a2cb95ba32/application
-  - must_hits: None
-  - nice_hits: rag
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1
-
 - anthropic | Program Manager, Student Outreach | San Francisco, CA | New York City, NY | score=0.458
   - url: https://job-boards.greenhouse.io/anthropic/jobs/5102171008
   - must_hits: git
@@ -134,12 +128,6 @@
 
 - figma | Early Career Recruiter | San Francisco, CA • New York, NY • United States | score=0.361
   - url: https://boards.greenhouse.io/figma/jobs/5828494004?gh_jid=5828494004
-  - must_hits: None
-  - nice_hits: rag
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1
-
-- openai | Go to Market Strategy Internship / Co-op, Emerging Talent (Summer 2026) | San Francisco | score=0.342
-  - url: https://jobs.ashbyhq.com/openai/d6d4fbf8-1976-4745-bf48-1a3cca5503b9/application
   - must_hits: None
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1

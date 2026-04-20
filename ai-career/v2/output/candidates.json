@@ -2,9 +2,9 @@
   "meta": {
     "engine_name": "AutoJob-Agent Feeder",
     "version": 2,
-    "generated_at": "2026-04-19T16:02:48.274344+00:00",
-    "source_jobs_count": 152,
-    "candidates_count": 29,
+    "generated_at": "2026-04-20T16:42:48.873654+00:00",
+    "source_jobs_count": 145,
+    "candidates_count": 26,
     "candidates_topN_total": 150,
     "thresholds": {
       "apply": 0.72,
@@ -13,46 +13,6 @@
     "config_digest": "7f9d61b8fda9e66343b1828d5752df0d87053bf5"
   },
   "candidates": [
-    {
-      "job_uid": "3fcd39dbfc402fc7",
-      "source": "greenhouse",
-      "job_id": "3fcd39dbfc402fc7",
-      "company": "togetherai",
-      "title": "Software Engineer - Storage & Observability (Early Career)",
-      "location": "San Francisco",
-      "url": "https://job-boards.greenhouse.io/togetherai/jobs/5073769007",
-      "departments": [
-        "Engineering"
-      ],
-      "created_at": null,
-      "updated_at": "2026-04-15T19:05:31-04:00",
-      "scores": {
-        "hard_raw": 8.0,
-        "hard_norm": 1.0,
-        "semantic_raw": 0.5012939572329276,
-        "semantic_norm": 0.8142809585246545,
-        "final": 0.8978545271885601
-      },
-      "signals": {
-        "must_hits": [
-          "python",
-          "git",
-          "docker",
-          "cloud"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": []
-      },
-      "text_hash": "df1a1a167e4e23a7c8478a6a6513ca0a61547cad",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=4, nice_hits=1",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "About the Role Together AI is building the AI Acceleration Cloud , an end-to-end platform for the full generative AI lifecycle. Our AI Infrastructure team is at the forefront of scaling the foundational systems that power this platform. We are looking for an Early Career Software Engineer to join our Storage and Observability team , where you will help design and maintain robust distributed storage solutions and develop comprehensive observability platforms. In this role, you will work on the systems that provide critical insights into GPU utilization and system performance, ensuring seamless "
-    },
     {
       "job_uid": "5936ffed28038e5d",
       "source": "greenhouse",
@@ -69,9 +29,9 @@
       "scores": {
         "hard_raw": 8.0,
         "hard_norm": 1.0,
-        "semantic_raw": 0.42169692178885754,
-        "semantic_norm": 0.6042920912943734,
-        "final": 0.7823606502119054
+        "semantic_raw": 0.4216968072467883,
+        "semantic_norm": 0.6042921692053074,
+        "final": 0.7823606930629191
       },
       "signals": {
         "must_hits": [
@@ -108,9 +68,9 @@
       "scores": {
         "hard_raw": 5.0,
         "hard_norm": 0.625,
-        "semantic_raw": 0.5319120883936331,
-        "semantic_norm": 0.8950561613104729,
-        "final": 0.7735308887207601
+        "semantic_raw": 0.5319120287889884,
+        "semantic_norm": 0.8950565670406497,
+        "final": 0.7735311118723573
       },
       "signals": {
         "must_hits": [
@@ -130,6 +90,44 @@
       "jd_excerpt": "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. About the Internship: We are looking for an inquisitive and detail-oriented AI Co"
     },
     {
+      "job_uid": "a8cacd3df10146bd",
+      "source": "greenhouse",
+      "job_id": "a8cacd3df10146bd",
+      "company": "datadog",
+      "title": "IT Support Technician Intern",
+      "location": "Boston, Massachusetts, USA",
+      "url": "https://careers.datadoghq.com/detail/7391788/?gh_jid=7391788",
+      "departments": [
+        "Engineering Interns"
+      ],
+      "created_at": null,
+      "updated_at": "2026-04-20T11:30:54-04:00",
+      "scores": {
+        "hard_raw": 4.0,
+        "hard_norm": 0.5,
+        "semantic_raw": 0.5519044399255955,
+        "semantic_norm": 0.9477995666379095,
+        "final": 0.7462897616508503
+      },
+      "signals": {
+        "must_hits": [
+          "git",
+          "cloud"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "d261e828f3ac29dfcc6a7c9ced64bf3bd859763e",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "We're looking for IT support interns to join Datadog's Enterprise IT organization — the team responsible for managing the internal tools, systems, and services that keep Datadog running smoothly as we scale. As part of this team, you'll work alongside IT professionals to troubleshoot issues, support employee onboarding and offboarding, manage SaaS applications, and help maintain the infrastructure that internal teams rely on every day. This means providing excellent customer service to our employees to support thousands of endpoint devices such as macOS, iOS, Chrome OS and Windows. In addition"
+    },
+    {
       "job_uid": "64e8cd9ce5039875",
       "source": "greenhouse",
       "job_id": "64e8cd9ce5039875",
@@ -145,9 +143,9 @@
       "scores": {
         "hard_raw": 8.0,
         "hard_norm": 1.0,
-        "semantic_raw": 0.38461973575432795,
-        "semantic_norm": 0.5064769370987369,
-        "final": 0.7285623154043053
+        "semantic_raw": 0.3846196761496796,
+        "semantic_norm": 0.5064770984186914,
+        "final": 0.7285624041302803
       },
       "signals": {
         "must_hits": [
@@ -169,44 +167,6 @@
       "jd_excerpt": "Why join us Brex is the intelligent finance platform that enables companies to spend smarter and move faster in more than 200 markets. By combining global corporate cards and banking with intuitive spend management, bill pay, and travel software, Brex enables founders and finance teams to accelerate operations, gain real-time visibility, and control spend effortlessly. Brex’s AI-native automation and world-class service eliminate manual expense and accounting tasks for customers so they can focus on what matters most. Tens of thousands of the world's best companies run on Brex, including DoorD"
     },
     {
-      "job_uid": "6932e9d57bf5ef44",
-      "source": "ashby",
-      "job_id": "6932e9d57bf5ef44",
-      "company": "openai",
-      "title": "Research Scientist / Research Engineer — Early Career Cohort",
-      "location": "San Francisco",
-      "url": "https://jobs.ashbyhq.com/openai/4476b271-4987-4bd4-aa1e-0e68ea683b10/application",
-      "departments": [
-        "Research",
-        "Research"
-      ],
-      "created_at": "2026-03-19T20:59:28.241+00:00",
-      "updated_at": "2026-03-19T20:59:28.241+00:00",
-      "scores": {
-        "hard_raw": 4.0,
-        "hard_norm": 0.5,
-        "semantic_raw": 0.5372524581696656,
-        "semantic_norm": 0.9091448543579405,
-        "final": 0.7250296698968672
-      },
-      "signals": {
-        "must_hits": [
-          "machine learning"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": []
-      },
-      "text_hash": "a80687ce75017d3f41536dba8d6f4e368a7d8c8a",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "About the Program OpenAI is hiring a small cohort of exceptional early-career researchers and engineers to join OpenAI Research. This opportunity is designed primarily for current undergraduate students and recent graduates who have demonstrated technical ability through elite competitions and challenges. Participants join OpenAI directly as full-time Research Scientists / Research Engineers and begin with an intensive one-month research bootcamp designed to immerse them in the core problems behind modern AI systems. Many of the strongest researchers at OpenAI first distinguished themselves th"
-    },
-    {
       "job_uid": "58195c1d3ea24d7d",
       "source": "greenhouse",
       "job_id": "58195c1d3ea24d7d",
@@ -222,9 +182,9 @@
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.375,
-        "semantic_raw": 0.5597417354578142,
-        "semantic_norm": 0.9684749265926577,
-        "final": 0.7014112096259617
+        "semantic_raw": 0.5597416162485247,
+        "semantic_norm": 0.9684752212560278,
+        "final": 0.7014113716908152
       },
       "signals": {
         "must_hits": [
@@ -258,7 +218,7 @@
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.25,
-        "semantic_raw": 0.5716914279271267,
+        "semantic_raw": 0.5716911895085334,
         "semantic_norm": 1.0,
         "final": 0.6625000000000001
       },
@@ -294,9 +254,9 @@
       "scores": {
         "hard_raw": 7.0,
         "hard_norm": 0.875,
-        "semantic_raw": 0.33781456947292876,
-        "semantic_norm": 0.38299791814881445,
-        "final": 0.604398854981848
+        "semantic_raw": 0.3378145396706064,
+        "semantic_norm": 0.3829980804254468,
+        "final": 0.6043989442339958
       },
       "signals": {
         "must_hits": [
@@ -332,9 +292,9 @@
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.375,
-        "semantic_raw": 0.48726207017849826,
-        "semantic_norm": 0.7772627448283257,
-        "final": 0.5962445096555792
+        "semantic_raw": 0.4872620105738535,
+        "semantic_norm": 0.7772630764682984,
+        "final": 0.5962446920575641
       },
       "signals": {
         "must_hits": [
@@ -369,9 +329,9 @@
       "scores": {
         "hard_raw": 4.0,
         "hard_norm": 0.5,
-        "semantic_raw": 0.4293723064282598,
-        "semantic_norm": 0.6245409022832865,
-        "final": 0.5684974962558076
+        "semantic_raw": 0.4293722170212873,
+        "semantic_norm": 0.6245410592405843,
+        "final": 0.5684975825823214
       },
       "signals": {
         "must_hits": [
@@ -406,9 +366,9 @@
       "scores": {
         "hard_raw": 4.0,
         "hard_norm": 0.5,
-        "semantic_raw": 0.39330232143362764,
-        "semantic_norm": 0.5293828948552557,
-        "final": 0.5161605921703907
+        "semantic_raw": 0.3933022022243381,
+        "semantic_norm": 0.5293829133366525,
+        "final": 0.5161606023351589
       },
       "signals": {
         "must_hits": [
@@ -444,9 +404,9 @@
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.375,
-        "semantic_raw": 0.4150812575265344,
-        "semantic_norm": 0.5868389809282564,
-        "final": 0.49151143951054105
+        "semantic_raw": 0.41508122772421024,
+        "semantic_norm": 0.5868392714177025,
+        "final": 0.4915115992797364
       },
       "signals": {
         "must_hits": [
@@ -480,9 +440,9 @@
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.25,
-        "semantic_raw": 0.4462468890094401,
-        "semantic_norm": 0.6690585713326036,
-        "final": 0.480482214232932
+        "semantic_raw": 0.4462467133994408,
+        "semantic_norm": 0.6690585288742121,
+        "final": 0.4804821908808167
       },
       "signals": {
         "must_hits": [
@@ -516,9 +476,9 @@
       "scores": {
         "hard_raw": 7.0,
         "hard_norm": 0.875,
-        "semantic_raw": 0.24440196156477328,
-        "semantic_norm": 0.13656150741787523,
-        "final": 0.46885882907983134
+        "semantic_raw": 0.24440197646593448,
+        "semantic_norm": 0.1365616326244263,
+        "final": 0.4688588979434345
       },
       "signals": {
         "must_hits": [
@@ -539,42 +499,6 @@
       "jd_excerpt": "ABOUT RAMP Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $100B in annualized spend flows in and out of 50,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books. The problems are high-stakes, data-dense, and unforgiving. We hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential "
     },
     {
-      "job_uid": "74dae1e815400054",
-      "source": "ashby",
-      "job_id": "74dae1e815400054",
-      "company": "openai",
-      "title": "Business Insights Intern",
-      "location": "San Francisco",
-      "url": "https://jobs.ashbyhq.com/openai/821168d6-c97c-457a-9187-88a2cb95ba32/application",
-      "departments": [
-        "Marketing",
-        "Marketing"
-      ],
-      "created_at": "2026-04-14T16:46:25.673+00:00",
-      "updated_at": "2026-04-14T16:46:25.673+00:00",
-      "scores": {
-        "hard_raw": 2.0,
-        "hard_norm": 0.25,
-        "semantic_raw": 0.43629077836341396,
-        "semantic_norm": 0.6427928645143214,
-        "final": 0.4660360754828768
-      },
-      "signals": {
-        "must_hits": [],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": []
-      },
-      "text_hash": "10470d09aabc9f62b7b8603a182fdcf64fe5577d",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "About the Team The Business Insights team monitors competitors, generates actionable insights, and supports decision-making across GTM and product. The team also builds and applies OpenAI’s own technologies to develop internal intelligence systems, tools, and workflows that improve how competitive insight is generated, analyzed, and operationalized. These systems help OpenAI understand competitive dynamics, respond quickly to market developments, and surface high-quality intelligence across the organization. About the Role As a Business Insights Intern, you will help improve and extend OpenAI’"
-    },
-    {
       "job_uid": "1e24bd723ca2390a",
       "source": "greenhouse",
       "job_id": "1e24bd723ca2390a",
@@ -590,9 +514,9 @@
       "scores": {
         "hard_raw": 1.0,
         "hard_norm": 0.125,
-        "semantic_raw": 0.469589471816547,
-        "semantic_norm": 0.7306397909665641,
-        "final": 0.4581018850316103
+        "semantic_raw": 0.46958953142119175,
+        "semantic_norm": 0.7306404077735404,
+        "final": 0.4581022242754473
       },
       "signals": {
         "must_hits": [
@@ -629,9 +553,9 @@
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.375,
-        "semantic_raw": 0.3917254209514515,
-        "semantic_norm": 0.5252227958749397,
-        "final": 0.45762253773121686
+        "semantic_raw": 0.39172533154448436,
+        "semantic_norm": 0.5252228903627267,
+        "final": 0.45762258969949976
       },
       "signals": {
         "must_hits": [
@@ -666,9 +590,9 @@
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.25,
-        "semantic_raw": 0.42710143327670297,
-        "semantic_norm": 0.6185499997570969,
-        "final": 0.4527024998664033
+        "semantic_raw": 0.4271014034743806,
+        "semantic_norm": 0.6185503101922792,
+        "final": 0.4527026706057536
       },
       "signals": {
         "must_hits": [],
@@ -701,9 +625,9 @@
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.375,
-        "semantic_raw": 0.3882524073120049,
-        "semantic_norm": 0.5160604672033504,
-        "final": 0.45258325696184276
+        "semantic_raw": 0.3882523179050377,
+        "semantic_norm": 0.516060555928177,
+        "final": 0.4525833057604974
       },
       "signals": {
         "must_hits": [
@@ -739,8 +663,8 @@
         "hard_raw": 2.0,
         "hard_norm": 0.25,
         "semantic_raw": 0.42477184534030393,
-        "semantic_norm": 0.6124041988595058,
-        "final": 0.4493223093727282
+        "semantic_norm": 0.6124045840521029,
+        "final": 0.44932252122865657
       },
       "signals": {
         "must_hits": [
@@ -775,8 +699,8 @@
         "hard_raw": 7.0,
         "hard_norm": 0.875,
         "semantic_raw": 0.21998427629355108,
-        "semantic_norm": 0.07214400691821983,
-        "final": 0.4334292038050209
+        "semantic_norm": 0.07214405229566408,
+        "final": 0.43342922876261525
       },
       "signals": {
         "must_hits": [
@@ -813,8 +737,8 @@
         "hard_raw": 2.0,
         "hard_norm": 0.25,
         "semantic_raw": 0.4066547155376182,
-        "semantic_norm": 0.56460850466681,
-        "final": 0.4230346775667455
+        "semantic_norm": 0.5646088597966682,
+        "final": 0.42303487288816755
       },
       "signals": {
         "must_hits": [],
@@ -847,9 +771,9 @@
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.25,
-        "semantic_raw": 0.4028390049930358,
-        "semantic_norm": 0.5545420903780703,
-        "final": 0.4174981497079387
+        "semantic_raw": 0.40283891558606866,
+        "semantic_norm": 0.5545422033072319,
+        "final": 0.41749821181897756
       },
       "signals": {
         "must_hits": [
@@ -884,8 +808,8 @@
         "hard_raw": 2.0,
         "hard_norm": 0.25,
         "semantic_raw": 0.3893846273418347,
-        "semantic_norm": 0.5190474327378453,
-        "final": 0.3979760880058149
+        "semantic_norm": 0.5190477592105066,
+        "final": 0.39797626756577864
       },
       "signals": {
         "must_hits": [],
@@ -918,9 +842,9 @@
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.375,
-        "semantic_raw": 0.34159839153255633,
-        "semantic_norm": 0.3929802058517334,
-        "final": 0.3848891132184534
+        "semantic_raw": 0.3415982425209444,
+        "semantic_norm": 0.3929800599149601,
+        "final": 0.38488903295322807
       },
       "signals": {
         "must_hits": [
@@ -956,9 +880,9 @@
       "scores": {
         "hard_raw": 4.0,
         "hard_norm": 0.5,
-        "semantic_raw": 0.2915545701977675,
-        "semantic_norm": 0.2609571311814345,
-        "final": 0.368526422149789
+        "semantic_raw": 0.2915545105931227,
+        "semantic_norm": 0.26095713807330684,
+        "final": 0.3685264259403188
       },
       "signals": {
         "must_hits": [
@@ -994,9 +918,9 @@
       "scores": {
         "hard_raw": 4.0,
         "hard_norm": 0.5,
-        "semantic_raw": 0.2915545701977675,
-        "semantic_norm": 0.2609571311814345,
-        "final": 0.368526422149789
+        "semantic_raw": 0.2915545105931227,
+        "semantic_norm": 0.26095713807330684,
+        "final": 0.3685264259403188
       },
       "signals": {
         "must_hits": [
@@ -1032,8 +956,8 @@
         "hard_raw": 0.0,
         "hard_norm": 0.0,
         "semantic_raw": 0.4417085314810944,
-        "semantic_norm": 0.6570857063741723,
-        "final": 0.3613971385057948
+        "semantic_norm": 0.657086119670734,
+        "final": 0.36139736581890375
       },
       "signals": {
         "must_hits": [],
@@ -1051,42 +975,6 @@
         "reason": ""
       },
       "jd_excerpt": "Figma is growing our team of passionate creatives and builders on a mission to make design accessible to all. Figma’s platform helps teams bring ideas to life—whether you're brainstorming, creating a prototype, translating designs into code, or iterating with AI. From idea to product, Figma empowers teams to streamline workflows, move faster, and work together in real time from anywhere in the world. If you're excited to shape the future of design and collaboration, join us! The Early Career team at Figma is shaping the future by finding and nurturing the next generation of talent - Figma’s fu"
-    },
-    {
-      "job_uid": "6a37b4fca05c2c26",
-      "source": "ashby",
-      "job_id": "6a37b4fca05c2c26",
-      "company": "openai",
-      "title": "Go to Market Strategy Internship / Co-op, Emerging Talent (Summer 2026)",
-      "location": "San Francisco",
-      "url": "https://jobs.ashbyhq.com/openai/d6d4fbf8-1976-4745-bf48-1a3cca5503b9/application",
-      "departments": [
-        "Go To Market",
-        "Go To Market"
-      ],
-      "created_at": "2026-04-03T02:39:34.652+00:00",
-      "updated_at": "2026-04-03T02:39:34.652+00:00",
-      "scores": {
-        "hard_raw": 2.0,
-        "hard_norm": 0.25,
-        "semantic_raw": 0.35068267583811974,
-        "semantic_norm": 0.4169459045775796,
-        "final": 0.34182024751766876
-      },
-      "signals": {
-        "must_hits": [],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": []
-      },
-      "text_hash": "cecf913cefe63191c041e18c9a647755f62de425",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "ABOUT THE TEAM: OpenAI’s mission is to build safe artificial general intelligence (AGI) which benefits all of humanity. This long-term undertaking brings the world’s best scientists, engineers, and business professionals into one lab together to accomplish this. In pursuit of this mission, our Go To Market (GTM) team is responsible for helping customers learn how to leverage and deploy our highly capable AI products across their business. The team is made of Sales, Solutions, Support, Marketing, and Partnership professionals that work together to create valuable solutions that will help bring "
     }
   ]
 }
