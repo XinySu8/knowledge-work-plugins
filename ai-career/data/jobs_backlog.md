@@ -1,10 +1,9 @@
 # Job feed (backlog)
-Generated at (UTC): 2026-04-20T15:15:09.663761+00:00
-Today (UTC): 2026-04-20
-Total jobs: 7
+Generated at (UTC): 2026-04-21T14:52:22.786904+00:00
+Today (UTC): 2026-04-21
+Total jobs: 6
 
 ## Jobs
-- [stripe] Software Engineer, Intern (London) — greenhouse — https://stripe.com/jobs/search?gh_jid=7360840
 - [stripe] Software Engineer, Intern (Sydney, Australia) — greenhouse — https://stripe.com/jobs/search?gh_jid=7532256
 - [stripe] Software Engineer, Intern (Summer) (San Francisco, Seattle, New York City) — greenhouse — https://stripe.com/jobs/search?gh_jid=7210115
 - [sierra] Intern, Agent Development (Fall 2026) (San Francisco, CA) — ashby — https://jobs.ashbyhq.com/Sierra/c74d600c-235c-4d42-8546-b178b7adefc2/application
