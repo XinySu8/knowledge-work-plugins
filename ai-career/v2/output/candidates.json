@@ -2,9 +2,9 @@
   "meta": {
     "engine_name": "AutoJob-Agent Feeder",
     "version": 2,
-    "generated_at": "2026-04-20T16:42:48.873654+00:00",
-    "source_jobs_count": 145,
-    "candidates_count": 26,
+    "generated_at": "2026-04-21T16:38:47.162157+00:00",
+    "source_jobs_count": 148,
+    "candidates_count": 25,
     "candidates_topN_total": 150,
     "thresholds": {
       "apply": 0.72,
@@ -25,7 +25,7 @@
         "5112 General University"
       ],
       "created_at": null,
-      "updated_at": "2026-04-16T11:05:52-04:00",
+      "updated_at": "2026-04-21T11:42:55-04:00",
       "scores": {
         "hard_raw": 8.0,
         "hard_norm": 1.0,
@@ -90,44 +90,6 @@
       "jd_excerpt": "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. About the Internship: We are looking for an inquisitive and detail-oriented AI Co"
     },
     {
-      "job_uid": "a8cacd3df10146bd",
-      "source": "greenhouse",
-      "job_id": "a8cacd3df10146bd",
-      "company": "datadog",
-      "title": "IT Support Technician Intern",
-      "location": "Boston, Massachusetts, USA",
-      "url": "https://careers.datadoghq.com/detail/7391788/?gh_jid=7391788",
-      "departments": [
-        "Engineering Interns"
-      ],
-      "created_at": null,
-      "updated_at": "2026-04-20T11:30:54-04:00",
-      "scores": {
-        "hard_raw": 4.0,
-        "hard_norm": 0.5,
-        "semantic_raw": 0.5519044399255955,
-        "semantic_norm": 0.9477995666379095,
-        "final": 0.7462897616508503
-      },
-      "signals": {
-        "must_hits": [
-          "git",
-          "cloud"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": []
-      },
-      "text_hash": "d261e828f3ac29dfcc6a7c9ced64bf3bd859763e",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "We're looking for IT support interns to join Datadog's Enterprise IT organization — the team responsible for managing the internal tools, systems, and services that keep Datadog running smoothly as we scale. As part of this team, you'll work alongside IT professionals to troubleshoot issues, support employee onboarding and offboarding, manage SaaS applications, and help maintain the infrastructure that internal teams rely on every day. This means providing excellent customer service to our employees to support thousands of endpoint devices such as macOS, iOS, Chrome OS and Windows. In addition"
-    },
-    {
       "job_uid": "64e8cd9ce5039875",
       "source": "greenhouse",
       "job_id": "64e8cd9ce5039875",
@@ -167,40 +129,42 @@
       "jd_excerpt": "Why join us Brex is the intelligent finance platform that enables companies to spend smarter and move faster in more than 200 markets. By combining global corporate cards and banking with intuitive spend management, bill pay, and travel software, Brex enables founders and finance teams to accelerate operations, gain real-time visibility, and control spend effortlessly. Brex’s AI-native automation and world-class service eliminate manual expense and accounting tasks for customers so they can focus on what matters most. Tens of thousands of the world's best companies run on Brex, including DoorD"
     },
     {
-      "job_uid": "58195c1d3ea24d7d",
+      "job_uid": "a8cacd3df10146bd",
       "source": "greenhouse",
-      "job_id": "58195c1d3ea24d7d",
-      "company": "okta",
-      "title": "Digital Solutions Intern (Summer 2026)",
-      "location": "Bellevue, Washington; Chicago, Illinois; San Francisco, California",
-      "url": "https://www.okta.com/company/careers/opportunity/7551302?gh_jid=7551302",
+      "job_id": "a8cacd3df10146bd",
+      "company": "datadog",
+      "title": "IT Support Technician Intern",
+      "location": "Boston, Massachusetts, USA",
+      "url": "https://careers.datadoghq.com/detail/7391788/?gh_jid=7391788",
       "departments": [
-        "People Operations-131"
+        "Engineering Interns"
       ],
       "created_at": null,
-      "updated_at": "2026-04-14T18:04:47-04:00",
+      "updated_at": "2026-04-21T09:26:33-04:00",
       "scores": {
-        "hard_raw": 3.0,
-        "hard_norm": 0.375,
-        "semantic_raw": 0.5597416162485247,
-        "semantic_norm": 0.9684752212560278,
-        "final": 0.7014113716908152
+        "hard_raw": 4.0,
+        "hard_norm": 0.5,
+        "semantic_raw": 0.5347860496975856,
+        "semantic_norm": 0.9026386681983786,
+        "final": 0.7214512675091083
       },
       "signals": {
         "must_hits": [
-          "machine learning",
-          "git"
+          "git",
+          "cloud"
         ],
-        "nice_hits": [],
+        "nice_hits": [
+          "rag"
+        ],
         "neg_hits": []
       },
-      "text_hash": "9b5c3cd7a832a5843f3341b3c7018328e7f44146",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0",
+      "text_hash": "d7d3cf98693fabd7fe201384b112de4890b07fd0",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1",
       "hard_gate": {
         "hit": false,
         "reason": ""
       },
-      "jd_excerpt": "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. Location: We’re seeking a dynamic and motivated individual to join our team in on"
+      "jd_excerpt": "We're looking for IT support interns to join Datadog's Enterprise IT organization — the team responsible for managing the internal tools, systems, and services that keep Datadog running smoothly as we scale. As part of this team, you'll work alongside IT professionals to troubleshoot issues, support employee onboarding and offboarding, manage SaaS applications, and help maintain the infrastructure that internal teams rely on every day. This means providing excellent customer service to our employees to support thousands of endpoint devices such as macOS, iOS, Chrome OS and Windows. In addition"
     },
     {
       "job_uid": "e7c78b9db66d7e52",
@@ -586,7 +550,7 @@
         "Internship"
       ],
       "created_at": null,
-      "updated_at": "2026-04-17T16:27:10-04:00",
+      "updated_at": "2026-04-20T12:42:26-04:00",
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.25,
@@ -732,7 +696,7 @@
         "Internship"
       ],
       "created_at": null,
-      "updated_at": "2026-04-17T16:27:10-04:00",
+      "updated_at": "2026-04-20T12:42:27-04:00",
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.25,
@@ -838,7 +802,7 @@
         "5112 General University"
       ],
       "created_at": null,
-      "updated_at": "2026-04-16T11:05:52-04:00",
+      "updated_at": "2026-04-21T11:42:55-04:00",
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.375,

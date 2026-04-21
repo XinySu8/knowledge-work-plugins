@@ -1,11 +1,5 @@
 # MAYBE
 
-- okta | Digital Solutions Intern (Summer 2026) | Bellevue, Washington; Chicago, Illinois; San Francisco, California | score=0.701
-  - url: https://www.okta.com/company/careers/opportunity/7551302?gh_jid=7551302
-  - must_hits: machine learning, git
-  - nice_hits: None
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0
-
 - scaleai | Technical Advisor Specialist (Part-Time Internship)  | San Francisco, CA | score=0.663
   - url: https://job-boards.greenhouse.io/scaleai/jobs/4611533005
   - must_hits: None

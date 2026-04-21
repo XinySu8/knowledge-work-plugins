@@ -12,15 +12,15 @@
   - nice_hits: None
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=0
 
-- datadog | IT Support Technician Intern | Boston, Massachusetts, USA | score=0.746
-  - url: https://careers.datadoghq.com/detail/7391788/?gh_jid=7391788
-  - must_hits: git, cloud
-  - nice_hits: rag
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1
-
 - brex | Software Engineer, Intern | United States | score=0.729
   - url: https://www.brex.com/careers/8434389002?gh_jid=8434389002
   - must_hits: python, sql, cloud
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1
+
+- datadog | IT Support Technician Intern | Boston, Massachusetts, USA | score=0.721
+  - url: https://careers.datadoghq.com/detail/7391788/?gh_jid=7391788
+  - must_hits: git, cloud
+  - nice_hits: rag
+  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1
 
