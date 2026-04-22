@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-04-22T14:52:30.018291+00:00",
+  "generated_at_utc": "2026-04-22T15:11:20.061804+00:00",
   "today_utc": "2026-04-22",
-  "fetched_count": 2968,
+  "fetched_count": 2967,
   "filtered_count": 6,
   "count": 6,
   "today_count": 0,
@@ -20,11 +20,11 @@
     "sierra": 133,
     "mistral": 153,
     "stripe": 490,
-    "scaleai": 175,
+    "scaleai": 174,
     "figma": 154
   },
   "per_source_fetched": {
-    "greenhouse": 2106,
+    "greenhouse": 2105,
     "ashby": 709,
     "lever": 153
   },
