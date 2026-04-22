@@ -18,7 +18,7 @@
   - nice_hits: mlflow
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1
 
-- okta | Enablement Communications & Events Coordinator Intern | Chicago, Illinois | score=0.568
+- okta | Enablement Communications & Events Coordinator Intern | Bellevue, Washington; Chicago, Illinois | score=0.568
   - url: https://www.okta.com/company/careers/opportunity/7818817?gh_jid=7818817
   - must_hits: machine learning
   - nice_hits: rag

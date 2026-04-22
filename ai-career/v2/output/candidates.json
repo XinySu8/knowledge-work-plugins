@@ -2,8 +2,8 @@
   "meta": {
     "engine_name": "AutoJob-Agent Feeder",
     "version": 2,
-    "generated_at": "2026-04-21T16:38:47.162157+00:00",
-    "source_jobs_count": 148,
+    "generated_at": "2026-04-22T16:40:52.031756+00:00",
+    "source_jobs_count": 150,
     "candidates_count": 25,
     "candidates_topN_total": 150,
     "thresholds": {
@@ -25,7 +25,7 @@
         "5112 General University"
       ],
       "created_at": null,
-      "updated_at": "2026-04-21T11:42:55-04:00",
+      "updated_at": "2026-04-22T12:24:13-04:00",
       "scores": {
         "hard_raw": 8.0,
         "hard_norm": 1.0,
@@ -64,7 +64,7 @@
         "Customer Acceleration-731"
       ],
       "created_at": null,
-      "updated_at": "2026-04-17T13:50:10-04:00",
+      "updated_at": "2026-04-21T23:37:19-04:00",
       "scores": {
         "hard_raw": 5.0,
         "hard_norm": 0.625,
@@ -283,13 +283,13 @@
       "job_id": "0c16d08f86772c6a",
       "company": "okta",
       "title": "Enablement Communications & Events Coordinator Intern",
-      "location": "Chicago, Illinois",
+      "location": "Bellevue, Washington; Chicago, Illinois",
       "url": "https://www.okta.com/company/careers/opportunity/7818817?gh_jid=7818817",
       "departments": [
         "Customer Acceleration-731"
       ],
       "created_at": null,
-      "updated_at": "2026-04-17T13:51:07-04:00",
+      "updated_at": "2026-04-21T23:37:19-04:00",
       "scores": {
         "hard_raw": 4.0,
         "hard_norm": 0.5,
@@ -364,7 +364,7 @@
         "Interns - Customer First"
       ],
       "created_at": null,
-      "updated_at": "2026-04-15T12:43:21-04:00",
+      "updated_at": "2026-04-21T23:42:42-04:00",
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.375,
@@ -622,7 +622,7 @@
         "Demand Gen-420"
       ],
       "created_at": null,
-      "updated_at": "2026-04-17T10:27:56-04:00",
+      "updated_at": "2026-04-21T23:41:44-04:00",
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.25,
@@ -731,7 +731,7 @@
         "Customer Acceleration-731"
       ],
       "created_at": null,
-      "updated_at": "2026-04-17T15:14:02-04:00",
+      "updated_at": "2026-04-21T23:41:54-04:00",
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.25,
@@ -802,7 +802,7 @@
         "5112 General University"
       ],
       "created_at": null,
-      "updated_at": "2026-04-21T11:42:55-04:00",
+      "updated_at": "2026-04-22T12:24:13-04:00",
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.375,
