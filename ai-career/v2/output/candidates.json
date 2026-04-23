@@ -2,9 +2,9 @@
   "meta": {
     "engine_name": "AutoJob-Agent Feeder",
     "version": 2,
-    "generated_at": "2026-04-22T16:40:52.031756+00:00",
-    "source_jobs_count": 150,
-    "candidates_count": 25,
+    "generated_at": "2026-04-23T16:59:38.558892+00:00",
+    "source_jobs_count": 148,
+    "candidates_count": 26,
     "candidates_topN_total": 150,
     "thresholds": {
       "apply": 0.72,
@@ -64,7 +64,7 @@
         "Customer Acceleration-731"
       ],
       "created_at": null,
-      "updated_at": "2026-04-21T23:37:19-04:00",
+      "updated_at": "2026-04-22T18:12:02-04:00",
       "scores": {
         "hard_raw": 5.0,
         "hard_norm": 0.625,
@@ -289,7 +289,7 @@
         "Customer Acceleration-731"
       ],
       "created_at": null,
-      "updated_at": "2026-04-21T23:37:19-04:00",
+      "updated_at": "2026-04-22T18:12:02-04:00",
       "scores": {
         "hard_raw": 4.0,
         "hard_norm": 0.5,
@@ -313,6 +313,41 @@
         "reason": ""
       },
       "jd_excerpt": "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. About the Internship: The Enablement Communications Coordinator Intern will be a "
+    },
+    {
+      "job_uid": "812b3343de19d747",
+      "source": "greenhouse",
+      "job_id": "812b3343de19d747",
+      "company": "scaleai",
+      "title": "ICLR 2026 - University Recruiting",
+      "location": "San Francisco, CA",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4678035005",
+      "departments": [
+        "University"
+      ],
+      "created_at": null,
+      "updated_at": "2026-04-23T11:23:35-04:00",
+      "scores": {
+        "hard_raw": 2.0,
+        "hard_norm": 0.25,
+        "semantic_raw": 0.4849216955988689,
+        "semantic_norm": 0.7710889721574351,
+        "final": 0.5365989346865894
+      },
+      "signals": {
+        "must_hits": [
+          "machine learning"
+        ],
+        "nice_hits": [],
+        "neg_hits": []
+      },
+      "text_hash": "5869be1914ef5346c067e4a162f5902822707a6c",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "This posting is for candidates (interested in research intern roles) who attended ICLR '26 and met with a member of our team. It was great meeting you at ICLR 2026! Whether we chatted at our booth, during a poster session, or one of the workshops – we’re thrilled to connect with people who are passionate about pushing the boundaries of machine learning and AI. At Scale AI, our mission is to develop reliable AI systems for the world's most important decisions. For 9 years, Scale has been the leading AI data foundry, helping fuel the most exciting advancements in AI, including: generative AI, de"
     },
     {
       "job_uid": "b9687758003a7afe",
@@ -364,7 +399,7 @@
         "Interns - Customer First"
       ],
       "created_at": null,
-      "updated_at": "2026-04-21T23:42:42-04:00",
+      "updated_at": "2026-04-22T18:12:02-04:00",
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.375,
@@ -622,7 +657,7 @@
         "Demand Gen-420"
       ],
       "created_at": null,
-      "updated_at": "2026-04-21T23:41:44-04:00",
+      "updated_at": "2026-04-22T18:12:02-04:00",
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.25,
@@ -731,7 +766,7 @@
         "Customer Acceleration-731"
       ],
       "created_at": null,
-      "updated_at": "2026-04-21T23:41:54-04:00",
+      "updated_at": "2026-04-22T18:12:02-04:00",
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.25,

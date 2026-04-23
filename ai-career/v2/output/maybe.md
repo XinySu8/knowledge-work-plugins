@@ -24,6 +24,12 @@
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1
 
+- scaleai | ICLR 2026 - University Recruiting | San Francisco, CA | score=0.537
+  - url: https://job-boards.greenhouse.io/scaleai/jobs/4678035005
+  - must_hits: machine learning
+  - nice_hits: None
+  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0
+
 - databricks | MBA Intern - Product Pricing & Commercialization | San Francisco, California | score=0.516
   - url: https://databricks.com/company/careers/open-positions/job?gh_jid=8402615002
   - must_hits: sql, cloud
