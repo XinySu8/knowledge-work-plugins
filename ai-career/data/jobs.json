@@ -1,12 +1,13 @@
 {
-  "generated_at_utc": "2026-04-25T14:05:50.015984+00:00",
+  "generated_at_utc": "2026-04-25T14:39:44.185391+00:00",
   "today_utc": "2026-04-25",
-  "fetched_count": 2980,
+  "fetched_count": 3634,
   "filtered_count": 6,
   "count": 6,
   "today_count": 0,
   "backlog_count": 6,
   "per_company_fetched": {
+    "openai": 654,
     "anthropic": 453,
     "databricks": 839,
     "cohere": 114,
@@ -24,313 +25,311 @@
     "figma": 160
   },
   "per_source_fetched": {
+    "ashby": 1361,
     "greenhouse": 2117,
-    "ashby": 707,
     "lever": 156
   },
-  "errors": [
-    "openai (ashby) failed: TimeoutError('The read operation timed out')"
-  ],
+  "errors": [],
   "dropped_sample": [
     {
-      "id": "99d534477cbd519c",
-      "reason": "excluded_keyword",
-      "title": "Account Executive, Academic Medical Centers",
-      "company": "anthropic"
+      "id": "6932e9d57bf5ef44",
+      "reason": "not_internship",
+      "title": "Research Scientist / Research Engineer — Early Career Cohort",
+      "company": "openai"
     },
     {
-      "id": "3a63ff328fb46b17",
-      "reason": "excluded_keyword",
-      "title": "Account Executive, Beneficial Deployments (French Speaking)",
-      "company": "anthropic"
+      "id": "16c03e0cbbcbb8d3",
+      "reason": "not_internship",
+      "title": "Technical Program Manager, Compute Infrastructure",
+      "company": "openai"
     },
     {
-      "id": "eb26f8357a281165",
-      "reason": "excluded_keyword",
-      "title": "Account Executive, Beneficial Deployments (French Speaking)",
-      "company": "anthropic"
+      "id": "4e13756cde4cb71c",
+      "reason": "not_internship",
+      "title": "Research Engineer",
+      "company": "openai"
     },
     {
-      "id": "ba23acab944bb3e5",
+      "id": "8a2525c14362da81",
       "reason": "excluded_keyword",
-      "title": "Account Executive, Beneficial Deployments (Portuguese Speaking)",
-      "company": "anthropic"
+      "title": "Account Director - Tokyo",
+      "company": "openai"
     },
     {
-      "id": "3e9361287e239b62",
-      "reason": "excluded_keyword",
-      "title": "Account Executive, Beneficial Deployments (Portuguese Speaking)",
-      "company": "anthropic"
+      "id": "f26fb39a8e75642f",
+      "reason": "not_internship",
+      "title": "Research Engineer, Retrieval & Search, Applied Engineering",
+      "company": "openai"
     },
     {
-      "id": "716b83b7773f45e7",
+      "id": "e7fb7da47c9a724d",
       "reason": "excluded_keyword",
-      "title": "Account Executive, Beneficial Deployments (Spanish Speaking)",
-      "company": "anthropic"
+      "title": "Software Engineer, Identity Platform ",
+      "company": "openai"
     },
     {
-      "id": "22cc38f93c1f7c2e",
+      "id": "7df9bd6b18dfe25a",
       "reason": "excluded_keyword",
-      "title": "Account Executive, Beneficial Deployments (Spanish Speaking)",
-      "company": "anthropic"
+      "title": "Researcher, Robustness & Safety Training",
+      "company": "openai"
     },
     {
-      "id": "a31645dc1270c1b5",
-      "reason": "excluded_keyword",
-      "title": "Account Executive, Mid Market - UKI",
-      "company": "anthropic"
+      "id": "2c1af2798dada65f",
+      "reason": "not_internship",
+      "title": "Software Engineer, Data Infrastructure",
+      "company": "openai"
     },
     {
-      "id": "63f5d57623a79c7d",
-      "reason": "excluded_keyword",
-      "title": "Account Executive, Public Sector",
-      "company": "anthropic"
+      "id": "ca596fe9bbe545bb",
+      "reason": "not_internship",
+      "title": "Training: ML Framework Engineer",
+      "company": "openai"
     },
     {
-      "id": "461d927a63f019cf",
-      "reason": "excluded_keyword",
-      "title": "Account Executive, Public Sector - India",
-      "company": "anthropic"
+      "id": "f9ea40dca595ecbe",
+      "reason": "not_internship",
+      "title": "Software Engineer, Developer Productivity",
+      "company": "openai"
     },
     {
-      "id": "822e8983873a28cb",
-      "reason": "excluded_keyword",
-      "title": "Account Executive, Startups",
-      "company": "anthropic"
+      "id": "10419dfae7a5abe5",
+      "reason": "not_internship",
+      "title": "Software Engineer, Data Acquisition ",
+      "company": "openai"
     },
     {
-      "id": "ae8fe3a9ca27737c",
-      "reason": "excluded_keyword",
-      "title": "Analyst, The Anthropic Institute",
-      "company": "anthropic"
+      "id": "03f4f368db4934e7",
+      "reason": "not_internship",
+      "title": "Data Engineer",
+      "company": "openai"
     },
     {
-      "id": "42866cad0de27095",
-      "reason": "excluded_keyword",
-      "title": "Anthropic Fellows Program",
-      "company": "anthropic"
+      "id": "967e2ba24dd132d7",
+      "reason": "not_internship",
+      "title": "Research Engineer, Frontier Evals & Environments",
+      "company": "openai"
     },
     {
-      "id": "1151fade21b45efd",
-      "reason": "excluded_keyword",
-      "title": "Anthropic Fellows Program — AI Safety",
-      "company": "anthropic"
+      "id": "d3c76296c518c282",
+      "reason": "not_internship",
+      "title": "Research Scientist",
+      "company": "openai"
     },
     {
-      "id": "326e75f3c3ef3603",
-      "reason": "excluded_keyword",
-      "title": "Anthropic Fellows Program — AI Security",
-      "company": "anthropic"
+      "id": "8c8a662a6ab57815",
+      "reason": "not_internship",
+      "title": "Software Engineer, Observability",
+      "company": "openai"
     },
     {
-      "id": "a635ceee8ba7de69",
-      "reason": "excluded_keyword",
-      "title": "Anthropic Fellows Program — Economics",
-      "company": "anthropic"
+      "id": "51f62eeb2c04625b",
+      "reason": "not_internship",
+      "title": "Software Engineer, Collective Communication",
+      "company": "openai"
     },
     {
-      "id": "4ee503d06a3234f9",
-      "reason": "excluded_keyword",
-      "title": "Anthropic Fellows Program — ML Systems & Performance",
-      "company": "anthropic"
+      "id": "d9856e54b1507f70",
+      "reason": "not_internship",
+      "title": "Distributed Training Engineer, Sora",
+      "company": "openai"
     },
     {
-      "id": "77be4facf385dfd0",
-      "reason": "excluded_keyword",
-      "title": "Anthropic Fellows Program — Reinforcement Learning",
-      "company": "anthropic"
+      "id": "b890c2dc80b7a84f",
+      "reason": "not_internship",
+      "title": "Software Engineer, Security Observability",
+      "company": "openai"
     },
     {
-      "id": "48d3f2de89b4b980",
-      "reason": "excluded_keyword",
-      "title": "Anthropic STEM Fellow",
-      "company": "anthropic"
+      "id": "05911eabead51253",
+      "reason": "not_internship",
+      "title": "Research Engineer, Applied AI Engineering",
+      "company": "openai"
     },
     {
-      "id": "4fd7bd3149dfed53",
-      "reason": "excluded_keyword",
-      "title": "Application Security Engineer",
-      "company": "anthropic"
+      "id": "97b8f8e23dcbb069",
+      "reason": "not_internship",
+      "title": "Software Engineer, Financial Engineering",
+      "company": "openai"
     },
     {
-      "id": "cdbed4df2872b957",
-      "reason": "excluded_keyword",
-      "title": "Applied AI Architect",
-      "company": "anthropic"
+      "id": "b20b3e033165338f",
+      "reason": "not_internship",
+      "title": "Security Engineer, Application Security",
+      "company": "openai"
     },
     {
-      "id": "cdd4a7696b22b1d2",
-      "reason": "excluded_keyword",
-      "title": "Applied AI Architect",
-      "company": "anthropic"
+      "id": "1dc938cbd57161dd",
+      "reason": "not_internship",
+      "title": "Software Engineer, Real Time",
+      "company": "openai"
     },
     {
-      "id": "927b35ad4d2fc4ea",
-      "reason": "excluded_keyword",
-      "title": "Applied AI Architect, Commercial",
-      "company": "anthropic"
+      "id": "f543eb0d784ba902",
+      "reason": "not_internship",
+      "title": "Software Engineer, Integrity Foundations",
+      "company": "openai"
     },
     {
-      "id": "5ad47c7334c8fb2d",
+      "id": "1c4afe6b2116eafa",
       "reason": "excluded_keyword",
-      "title": "Applied AI Architect, Enterprise Tech",
-      "company": "anthropic"
+      "title": "Software Engineer, Youth Well-Being",
+      "company": "openai"
     },
     {
-      "id": "aa9024728ffd8940",
+      "id": "299e9a3c51aadb61",
       "reason": "excluded_keyword",
-      "title": "Applied AI Architect, Federal Civilian",
-      "company": "anthropic"
+      "title": "AI Deployment Engineer- Media Partnerships",
+      "company": "openai"
     },
     {
-      "id": "5bd65d2320b4e50d",
-      "reason": "excluded_keyword",
-      "title": "Applied AI Architect, Government Technology",
-      "company": "anthropic"
+      "id": "2353a6698cecb48b",
+      "reason": "not_internship",
+      "title": "Software Engineer, Fleet Management",
+      "company": "openai"
     },
     {
-      "id": "7013e2942ad9727b",
-      "reason": "excluded_keyword",
-      "title": "Applied AI Architect, Industries",
-      "company": "anthropic"
+      "id": "127b2087128291c3",
+      "reason": "not_internship",
+      "title": "Software Engineer, Fleet Infrastructure",
+      "company": "openai"
     },
     {
-      "id": "42458aff5d780eaf",
-      "reason": "excluded_keyword",
-      "title": "Applied AI Architect, Industries",
-      "company": "anthropic"
+      "id": "6b5fd575beaa2412",
+      "reason": "not_internship",
+      "title": "Product Designer, ChatGPT",
+      "company": "openai"
     },
     {
-      "id": "762198f57a2b2461",
-      "reason": "excluded_keyword",
-      "title": "Applied AI Architect, Industries",
-      "company": "anthropic"
+      "id": "676e38097d973c34",
+      "reason": "not_internship",
+      "title": "Software Engineer, Full Stack (People Innovation)",
+      "company": "openai"
     },
     {
-      "id": "de02253a60b8c77c",
-      "reason": "excluded_keyword",
-      "title": "Applied AI Architect, Industries",
-      "company": "anthropic"
+      "id": "189a29be12fc5d79",
+      "reason": "not_internship",
+      "title": "Software Engineer, Agent Infrastructure",
+      "company": "openai"
     },
     {
-      "id": "b47e66200aac052e",
-      "reason": "excluded_keyword",
-      "title": "Applied AI Architect, National Security",
-      "company": "anthropic"
+      "id": "277752bab8e8bbd5",
+      "reason": "not_internship",
+      "title": "Researcher, Training",
+      "company": "openai"
     },
     {
-      "id": "fa5a6930f8c23e72",
+      "id": "8666acbb9e1cb7b4",
       "reason": "excluded_keyword",
-      "title": "Applied AI Architect, Partnerships",
-      "company": "anthropic"
+      "title": "Enterprise Security Engineer",
+      "company": "openai"
     },
     {
-      "id": "e7f8c2cb0a142e16",
-      "reason": "excluded_keyword",
-      "title": "Applied AI Architect, Partnerships",
-      "company": "anthropic"
+      "id": "7949ed4f63ab1bda",
+      "reason": "not_internship",
+      "title": "Technical Program Manager, Safety Systems Engineering",
+      "company": "openai"
     },
     {
-      "id": "e895808236e89075",
+      "id": "73f63261ba555978",
       "reason": "excluded_keyword",
-      "title": "Applied AI Architect, Public Sector",
-      "company": "anthropic"
+      "title": "Manager, Forward Deployed Engineering",
+      "company": "openai"
     },
     {
-      "id": "d52c7f7a08fc7678",
-      "reason": "excluded_keyword",
-      "title": "Applied AI Architect, Security",
-      "company": "anthropic"
+      "id": "a59f47a338cf535d",
+      "reason": "not_internship",
+      "title": "Researcher, Alignment",
+      "company": "openai"
     },
     {
-      "id": "dacfe2def12925af",
-      "reason": "excluded_keyword",
-      "title": "Applied AI Architect, Startups",
-      "company": "anthropic"
+      "id": "a98b2b335a7460b1",
+      "reason": "not_internship",
+      "title": "Security Engineer, Detection and Response - EMEA",
+      "company": "openai"
     },
     {
-      "id": "34dcd312e37cfeb7",
-      "reason": "excluded_keyword",
-      "title": "Applied AI Architect, Startups",
-      "company": "anthropic"
+      "id": "f8681ea991cf1262",
+      "reason": "not_internship",
+      "title": "Software Engineer, Internal Applications - Enterprise",
+      "company": "openai"
     },
     {
-      "id": "ed9fdf1c6e2c4477",
-      "reason": "excluded_keyword",
-      "title": "Applied AI Architect, Startups",
-      "company": "anthropic"
+      "id": "1474eb98e49b45e3",
+      "reason": "not_internship",
+      "title": "Full-Stack SWE, Data Acquisition (Foundations)",
+      "company": "openai"
     },
     {
-      "id": "d81446ac153339f2",
-      "reason": "excluded_keyword",
-      "title": "Applied AI Architect, State and Local Government",
-      "company": "anthropic"
+      "id": "6001a9ab62e4e361",
+      "reason": "not_internship",
+      "title": "AI Deployment Engineer- Startups",
+      "company": "openai"
     },
     {
-      "id": "e503d53bc9606941",
-      "reason": "excluded_keyword",
-      "title": "Applied AI Claude Evangelist, Startups",
-      "company": "anthropic"
+      "id": "0456785d5c32f8d9",
+      "reason": "not_internship",
+      "title": "Software Engineer, Frontier Systems - Power Management",
+      "company": "openai"
     },
     {
-      "id": "6eb8b5c6520ba7b4",
-      "reason": "excluded_keyword",
-      "title": "Applied AI Engineer",
-      "company": "anthropic"
+      "id": "79a74b0e5953a36b",
+      "reason": "not_internship",
+      "title": "Software Engineer, Frontier Clusters Infrastructure",
+      "company": "openai"
     },
     {
-      "id": "17913d9f90dc90a7",
+      "id": "d6c7168ea9f0403b",
       "reason": "excluded_keyword",
-      "title": "Applied AI Engineer",
-      "company": "anthropic"
+      "title": "Senior Software Engineer, Data Acquisition ",
+      "company": "openai"
     },
     {
-      "id": "e0b9fa37ad1a52b7",
+      "id": "732f7af59d85fcb4",
       "reason": "excluded_keyword",
-      "title": "Applied AI Engineer ",
-      "company": "anthropic"
+      "title": "Senior Support Engineer - Dublin",
+      "company": "openai"
     },
     {
-      "id": "5263392fefe1630b",
-      "reason": "excluded_keyword",
-      "title": "Applied AI Engineer, Beneficial Deployments",
-      "company": "anthropic"
+      "id": "e882eac7a2c9f697",
+      "reason": "not_internship",
+      "title": "Community Engagement Lead - Stargate",
+      "company": "openai"
     },
     {
-      "id": "74b0d9bb4fbaf363",
-      "reason": "excluded_keyword",
-      "title": "Applied AI Engineer, Beneficial Deployments",
-      "company": "anthropic"
+      "id": "03a3a35c823d59b6",
+      "reason": "not_internship",
+      "title": "Software Engineer, Model Inference",
+      "company": "openai"
     },
     {
-      "id": "e36cb9a7fb520182",
-      "reason": "excluded_keyword",
-      "title": "Applied AI Engineer, Enterprise Tech",
-      "company": "anthropic"
+      "id": "ddaa55dfd997ce7b",
+      "reason": "not_internship",
+      "title": "Research Engineer / Research Scientist, Post-Training",
+      "company": "openai"
     },
     {
-      "id": "04233d3e8eb56188",
-      "reason": "excluded_keyword",
-      "title": "Applied AI Engineer, Life Sciences (Beneficial Deployments)",
-      "company": "anthropic"
+      "id": "6131efb296ce22ab",
+      "reason": "not_internship",
+      "title": "Software Engineer, Compute - Storage",
+      "company": "openai"
     },
     {
-      "id": "7ce9a46bfd86ddf3",
+      "id": "5ccbaca072e3e7d6",
       "reason": "excluded_keyword",
-      "title": "Applied AI Engineer, Startups",
-      "company": "anthropic"
+      "title": "Partner Director, Global BCG Alliance",
+      "company": "openai"
     },
     {
-      "id": "b89750c2becb2417",
+      "id": "6c8becd76a962d73",
       "reason": "excluded_keyword",
-      "title": "Art Director, Enterprise",
-      "company": "anthropic"
+      "title": "Solutions Engineer, Pre-Sales",
+      "company": "openai"
     },
     {
-      "id": "e5c35b78a0978378",
-      "reason": "excluded_keyword",
-      "title": "Biological Safety Research Scientist",
-      "company": "anthropic"
+      "id": "1183eab25313b764",
+      "reason": "not_internship",
+      "title": "Forward Deployed Software Engineer - SF",
+      "company": "openai"
     }
   ],
   "jobs": [
