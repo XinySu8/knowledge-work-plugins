@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-04-27T15:13:01.316890+00:00",
+  "generated_at_utc": "2026-04-27T15:45:32.962041+00:00",
   "today_utc": "2026-04-27",
-  "fetched_count": 2965,
+  "fetched_count": 2964,
   "filtered_count": 6,
   "count": 6,
   "today_count": 0,
   "backlog_count": 6,
   "per_company_fetched": {
-    "anthropic": 452,
-    "databricks": 831,
+    "anthropic": 453,
+    "databricks": 830,
     "cohere": 115,
     "perplexity": 72,
     "langchain": 90,
@@ -21,10 +21,10 @@
     "mistral": 157,
     "stripe": 486,
     "scaleai": 170,
-    "figma": 160
+    "figma": 159
   },
   "per_source_fetched": {
-    "greenhouse": 2099,
+    "greenhouse": 2098,
     "ashby": 709,
     "lever": 157
   },
@@ -51,25 +51,25 @@
       "company": "anthropic"
     },
     {
-      "id": "3e9361287e239b62",
-      "reason": "excluded_keyword",
-      "title": "Account Executive, Beneficial Deployments (Portuguese Speaking)",
-      "company": "anthropic"
-    },
-    {
       "id": "ba23acab944bb3e5",
       "reason": "excluded_keyword",
       "title": "Account Executive, Beneficial Deployments (Portuguese Speaking)",
       "company": "anthropic"
     },
     {
-      "id": "716b83b7773f45e7",
+      "id": "3e9361287e239b62",
+      "reason": "excluded_keyword",
+      "title": "Account Executive, Beneficial Deployments (Portuguese Speaking)",
+      "company": "anthropic"
+    },
+    {
+      "id": "22cc38f93c1f7c2e",
       "reason": "excluded_keyword",
       "title": "Account Executive, Beneficial Deployments (Spanish Speaking)",
       "company": "anthropic"
     },
     {
-      "id": "22cc38f93c1f7c2e",
+      "id": "716b83b7773f45e7",
       "reason": "excluded_keyword",
       "title": "Account Executive, Beneficial Deployments (Spanish Speaking)",
       "company": "anthropic"
@@ -153,13 +153,13 @@
       "company": "anthropic"
     },
     {
-      "id": "cdd4a7696b22b1d2",
+      "id": "cdbed4df2872b957",
       "reason": "excluded_keyword",
       "title": "Applied AI Architect",
       "company": "anthropic"
     },
     {
-      "id": "cdbed4df2872b957",
+      "id": "cdd4a7696b22b1d2",
       "reason": "excluded_keyword",
       "title": "Applied AI Architect",
       "company": "anthropic"
@@ -189,7 +189,7 @@
       "company": "anthropic"
     },
     {
-      "id": "7013e2942ad9727b",
+      "id": "762198f57a2b2461",
       "reason": "excluded_keyword",
       "title": "Applied AI Architect, Industries",
       "company": "anthropic"
@@ -207,7 +207,7 @@
       "company": "anthropic"
     },
     {
-      "id": "762198f57a2b2461",
+      "id": "7013e2942ad9727b",
       "reason": "excluded_keyword",
       "title": "Applied AI Architect, Industries",
       "company": "anthropic"
