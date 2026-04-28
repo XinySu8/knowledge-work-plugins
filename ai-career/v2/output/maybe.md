@@ -72,12 +72,6 @@
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1
 
-- databricks | MBA Intern - Strategic Finance | San Francisco, California | score=0.453
-  - url: https://databricks.com/company/careers/open-positions/job?gh_jid=8402610002
-  - must_hits: sql
-  - nice_hits: mlflow
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1
-
 - okta | Product Marketing Intern, Orchestration (Summer 2026) | San Francisco, California | score=0.449
   - url: https://www.okta.com/company/careers/opportunity/7821767?gh_jid=7821767
   - must_hits: machine learning
@@ -125,10 +119,4 @@
   - must_hits: llm
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1
-
-- figma | Early Career Recruiter | San Francisco, CA • New York, NY • United States | score=0.361
-  - url: https://boards.greenhouse.io/figma/jobs/5828494004?gh_jid=5828494004
-  - must_hits: None
-  - nice_hits: rag
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1
 
