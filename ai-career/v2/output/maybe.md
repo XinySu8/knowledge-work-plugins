@@ -12,12 +12,6 @@
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1
 
-- databricks | MBA Intern - Commercial Transformation | San Francisco, California | score=0.596
-  - url: https://databricks.com/company/careers/open-positions/job?gh_jid=8402617002
-  - must_hits: sql
-  - nice_hits: mlflow
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1
-
 - okta | Enablement Communications & Events Coordinator Intern | Bellevue, Washington; Chicago, Illinois | score=0.568
   - url: https://www.okta.com/company/careers/opportunity/7818817?gh_jid=7818817
   - must_hits: machine learning
@@ -110,12 +104,6 @@
 
 - sierra | Intern, Agent Development (Fall 2026) | San Francisco, CA | score=0.369
   - url: https://jobs.ashbyhq.com/sierra/c74d600c-235c-4d42-8546-b178b7adefc2/application
-  - must_hits: llm
-  - nice_hits: rag
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1
-
-- sierra | Intern, Agent Development (Summer 2026) | San Francisco, CA | score=0.369
-  - url: https://jobs.ashbyhq.com/sierra/8bb2509d-9215-4cb5-8cf1-2bf0dbade6d8/application
   - must_hits: llm
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1

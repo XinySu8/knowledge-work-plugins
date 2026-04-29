@@ -2,11 +2,173 @@
   "meta": {
     "version": 2,
     "model_name": "sentence-transformers/all-MiniLM-L6-v2",
-    "jobs_total": 141,
-    "jobs_scored": 141,
-    "non_gated_count": 29
+    "jobs_total": 137,
+    "jobs_scored": 137,
+    "non_gated_count": 26
   },
   "scored_jobs": [
+    {
+      "job_uid": "050a6501fa108492",
+      "source": "greenhouse",
+      "company": "okta",
+      "title": "Product Marketing Intern, Orchestration (Summer 2026)",
+      "location": "San Francisco, California",
+      "url": "https://www.okta.com/company/careers/opportunity/7821767?gh_jid=7821767",
+      "updated_at": "2026-04-29T12:24:52-04:00",
+      "created_at": null,
+      "departments": [
+        "Product Marketing-530"
+      ],
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "hard": {
+        "raw": 2.0,
+        "must_hits": [
+          "machine learning"
+        ],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.25
+      },
+      "semantic": {
+        "raw": 0.42477184534030393,
+        "cache_reused": true,
+        "norm": 0.6124045840521029
+      },
+      "text_hash": "b481ea7c482cfa41d901164d51acb8ff6bc05514",
+      "final_score": 0.44932252122865657,
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0"
+    },
+    {
+      "job_uid": "87a5fdd5b3df9fac",
+      "source": "greenhouse",
+      "company": "cloudflare",
+      "title": "Sales Project Manager Intern (AI Innovation) (Summer 2026)",
+      "location": "In-Office",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7773799?gh_jid=7773799",
+      "updated_at": "2026-04-29T03:10:30-04:00",
+      "created_at": null,
+      "departments": [
+        "Sales"
+      ],
+      "hard_gate": {
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
+      },
+      "hard": {
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
+      },
+      "text_hash": "9ddcb3d75d19928bbcfa2737fd8323803809bea3",
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
+    },
+    {
+      "job_uid": "e078d5bc0c92a395",
+      "source": "greenhouse",
+      "company": "okta",
+      "title": "Early Career Marketing Associate (12-Month Contract)",
+      "location": "London, United Kingdom",
+      "url": "https://www.okta.com/company/careers/opportunity/7731570?gh_jid=7731570",
+      "updated_at": "2026-04-29T02:49:42-04:00",
+      "created_at": null,
+      "departments": [
+        "Demand Gen-420"
+      ],
+      "hard_gate": {
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
+      },
+      "hard": {
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
+      },
+      "text_hash": "837bed2f07d8ecb44c7133b75e161f8387d81cee",
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
+    },
+    {
+      "job_uid": "73b8d047948627ad",
+      "source": "greenhouse",
+      "company": "cloudflare",
+      "title": "Hardware Asset Management Intern",
+      "location": "In-Office",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7863245?gh_jid=7863245",
+      "updated_at": "2026-04-28T18:04:41-04:00",
+      "created_at": null,
+      "departments": [
+        "University"
+      ],
+      "hard_gate": {
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
+      },
+      "hard": {
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
+      },
+      "text_hash": "0c8e6b4e7ad2402df743e6648b99bc3b3491dd32",
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
+    },
+    {
+      "job_uid": "e132a40fed26dad9",
+      "source": "greenhouse",
+      "company": "cloudflare",
+      "title": "Sales: Solutions Engineer - Intern (Summer & Fall 2026)",
+      "location": "In-Office",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7792962?gh_jid=7792962",
+      "updated_at": "2026-04-28T17:03:19-04:00",
+      "created_at": null,
+      "departments": [
+        "University"
+      ],
+      "hard_gate": {
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
+      },
+      "hard": {
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
+      },
+      "text_hash": "c98ddb12007d014f67d23b16558219677d866a6d",
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
+    },
     {
       "job_uid": "01e1c88292170281",
       "source": "greenhouse",
@@ -65,12 +227,12 @@
         "norm": 0.25
       },
       "semantic": {
-        "raw": 0.4066547397761296,
+        "raw": 0.4066547155376182,
         "cache_reused": true,
-        "norm": 0.5646084362032449
+        "norm": 0.5646088597966682
       },
       "text_hash": "95a9e26a46c379eda417ac6214b58d6b84b02fe4",
-      "final_score": 0.4230346399117847,
+      "final_score": 0.42303487288816755,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1"
     },
     {
@@ -99,12 +261,12 @@
         "norm": 0.25
       },
       "semantic": {
-        "raw": 0.4271014587339338,
+        "raw": 0.4271014034743806,
         "cache_reused": true,
-        "norm": 0.6185499397756149
+        "norm": 0.6185503101922792
       },
       "text_hash": "4085c4b7198e58d55fa17e8fec5d2a53c89a58c1",
-      "final_score": 0.4527024668765882,
+      "final_score": 0.4527026706057536,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1"
     },
     {
@@ -172,76 +334,6 @@
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
-      "job_uid": "64e8cd9ce5039875",
-      "source": "greenhouse",
-      "company": "brex",
-      "title": "Software Engineer, Intern",
-      "location": "United States",
-      "url": "https://www.brex.com/careers/8434389002?gh_jid=8434389002",
-      "updated_at": "2026-04-27T14:35:31-04:00",
-      "created_at": null,
-      "departments": [
-        "Engineering"
-      ],
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "hard": {
-        "raw": 8.0,
-        "must_hits": [
-          "python",
-          "sql",
-          "cloud"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": [],
-        "norm": 1.0
-      },
-      "semantic": {
-        "raw": 0.3846198182841053,
-        "cache_reused": true,
-        "norm": 0.5064770167402092
-      },
-      "text_hash": "284dfe3487677b5287d5dae3dfb2af51dbe53b5d",
-      "final_score": 0.7285623592071151,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1"
-    },
-    {
-      "job_uid": "c742d96a7ece3898",
-      "source": "greenhouse",
-      "company": "brex",
-      "title": "Software Engineer, Internship - 2026",
-      "location": "São Paulo, São Paulo, Brazil",
-      "url": "https://www.brex.com/careers/8434385002?gh_jid=8434385002",
-      "updated_at": "2026-04-27T14:35:31-04:00",
-      "created_at": null,
-      "departments": [
-        "Engineering"
-      ],
-      "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
-      },
-      "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.0
-      },
-      "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
-      },
-      "text_hash": "38b0a91c8382e09bc9d674449339f0c975478dc5",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
-    },
-    {
       "job_uid": "8935d752b74f26ec",
       "source": "ashby",
       "company": "cohere",
@@ -271,38 +363,6 @@
         "norm": 0.0
       },
       "text_hash": "2bd228ea416eeb4474a449d8a11addfdba41000b",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
-    },
-    {
-      "job_uid": "87a5fdd5b3df9fac",
-      "source": "greenhouse",
-      "company": "cloudflare",
-      "title": "Sales Project Manager Intern (AI Innovation) (Summer 2026)",
-      "location": "In-Office",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/7773799?gh_jid=7773799",
-      "updated_at": "2026-04-27T11:13:50-04:00",
-      "created_at": null,
-      "departments": [
-        "University"
-      ],
-      "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
-      },
-      "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.0
-      },
-      "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
-      },
-      "text_hash": "9ddcb3d75d19928bbcfa2737fd8323803809bea3",
       "final_score": 0.0,
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
@@ -367,12 +427,12 @@
         "norm": 0.5
       },
       "semantic": {
-        "raw": 0.39330234487627425,
+        "raw": 0.3933022022243381,
         "cache_reused": true,
-        "norm": 0.5293828208526052
+        "norm": 0.5293829133366525
       },
       "text_hash": "74653d00ae62fa99557cd119549a606c506cf2af",
-      "final_score": 0.5161605514689329,
+      "final_score": 0.5161606023351589,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1"
     },
     {
@@ -403,12 +463,12 @@
         "norm": 0.625
       },
       "semantic": {
-        "raw": 0.5319121200980661,
+        "raw": 0.5319120287889884,
         "cache_reused": true,
-        "norm": 0.8950561448084714
+        "norm": 0.8950565670406497
       },
       "text_hash": "0758f7af1a53c11c1a5e80f41abfbb8e5f5085a3",
-      "final_score": 0.7735308796446594,
+      "final_score": 0.7735311118723573,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=0"
     },
     {
@@ -476,38 +536,6 @@
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
-      "job_uid": "e078d5bc0c92a395",
-      "source": "greenhouse",
-      "company": "okta",
-      "title": "Early Career Marketing Associate (12-Month Contract)",
-      "location": "London, United Kingdom",
-      "url": "https://www.okta.com/company/careers/opportunity/7731570?gh_jid=7731570",
-      "updated_at": "2026-04-26T14:29:38-04:00",
-      "created_at": null,
-      "departments": [
-        "Demand Gen-420"
-      ],
-      "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
-      },
-      "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.0
-      },
-      "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
-      },
-      "text_hash": "837bed2f07d8ecb44c7133b75e161f8387d81cee",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
-    },
-    {
       "job_uid": "0c16d08f86772c6a",
       "source": "greenhouse",
       "company": "okta",
@@ -535,12 +563,12 @@
         "norm": 0.5
       },
       "semantic": {
-        "raw": 0.4293723022185207,
+        "raw": 0.4293722170212873,
         "cache_reused": true,
-        "norm": 0.624540764620859
+        "norm": 0.6245410592405843
       },
       "text_hash": "c9624f6268258f7b9b1b63bef2e1bd652a7feb8c",
-      "final_score": 0.5684974205414725,
+      "final_score": 0.5684975825823214,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
     },
     {
@@ -576,40 +604,6 @@
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
-      "job_uid": "050a6501fa108492",
-      "source": "greenhouse",
-      "company": "okta",
-      "title": "Product Marketing Intern, Orchestration (Summer 2026)",
-      "location": "San Francisco, California",
-      "url": "https://www.okta.com/company/careers/opportunity/7821767?gh_jid=7821767",
-      "updated_at": "2026-04-26T14:29:38-04:00",
-      "created_at": null,
-      "departments": [
-        "Demand Gen-420"
-      ],
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "hard": {
-        "raw": 2.0,
-        "must_hits": [
-          "machine learning"
-        ],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.25
-      },
-      "semantic": {
-        "raw": 0.42477193026332877,
-        "cache_reused": true,
-        "norm": 0.6124042951576006
-      },
-      "text_hash": "b481ea7c482cfa41d901164d51acb8ff6bc05514",
-      "final_score": 0.4493223623366804,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0"
-    },
-    {
       "job_uid": "c275ec712b8e8539",
       "source": "greenhouse",
       "company": "okta",
@@ -635,12 +629,12 @@
         "norm": 0.25
       },
       "semantic": {
-        "raw": 0.4028390588064373,
+        "raw": 0.40283891558606866,
         "cache_reused": true,
-        "norm": 0.5545420989545919
+        "norm": 0.5545422033072319
       },
       "text_hash": "55d62e08b65dee2e9c561454d8e66807f8e3bad1",
-      "final_score": 0.4174981544250256,
+      "final_score": 0.41749821181897756,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0"
     },
     {
@@ -670,45 +664,13 @@
         "norm": 0.375
       },
       "semantic": {
-        "raw": 0.41508134187196016,
+        "raw": 0.41508122772421024,
         "cache_reused": true,
-        "norm": 0.5868390732063369
+        "norm": 0.5868392714177025
       },
       "text_hash": "be56d7b636036fa5cb719b529a3bb06c92d03d72",
-      "final_score": 0.49151149026348534,
+      "final_score": 0.4915115992797364,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0"
-    },
-    {
-      "job_uid": "36c23753093aa256",
-      "source": "greenhouse",
-      "company": "stripe",
-      "title": "University Recruiter (Fixed Term Contract)",
-      "location": "Dublin",
-      "url": "https://stripe.com/jobs/search?gh_jid=7684280",
-      "updated_at": "2026-04-24T17:25:57-04:00",
-      "created_at": null,
-      "departments": [
-        "6526 University Recruiting"
-      ],
-      "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
-      },
-      "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.0
-      },
-      "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
-      },
-      "text_hash": "4a29d8e2cc8c26650e6861a3e8b2b3599901da7c",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "8b6b0a9b6e604956",
@@ -772,12 +734,12 @@
         "norm": 1.0
       },
       "semantic": {
-        "raw": 0.4216969171216295,
+        "raw": 0.4216968072467883,
         "cache_reused": true,
-        "norm": 0.6042919504479011
+        "norm": 0.6042921692053074
       },
       "text_hash": "a03354be29cb2c91a80e9131f92d4251e6d276b3",
-      "final_score": 0.7823605727463456,
+      "final_score": 0.7823606930629191,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1"
     },
     {
@@ -808,12 +770,12 @@
         "norm": 0.375
       },
       "semantic": {
-        "raw": 0.34159835228876,
+        "raw": 0.3415982425209444,
         "cache_reused": true,
-        "norm": 0.3929799531543296
+        "norm": 0.3929800599149601
       },
       "text_hash": "23045855f57a04cda6dd2a02b162d64170aae71b",
-      "final_score": 0.38488897423488133,
+      "final_score": 0.38488903295322807,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
     },
     {
@@ -973,12 +935,12 @@
         "norm": 0.5
       },
       "semantic": {
-        "raw": 0.5347861093022375,
+        "raw": 0.5347860496975856,
         "cache_reused": true,
-        "norm": 0.9026381582964883
+        "norm": 0.9026386681983786
       },
       "text_hash": "d7d3cf98693fabd7fe201384b112de4890b07fd0",
-      "final_score": 0.7214509870630686,
+      "final_score": 0.7214512675091083,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1"
     },
     {
@@ -1071,12 +1033,12 @@
         "norm": 0.25
       },
       "semantic": {
-        "raw": 0.48492190241765165,
+        "raw": 0.4849216955988689,
         "cache_reused": true,
-        "norm": 0.7710889205264038
+        "norm": 0.7710889721574351
       },
       "text_hash": "5869be1914ef5346c067e4a162f5902822707a6c",
-      "final_score": 0.5365989062895221,
+      "final_score": 0.5365989346865894,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0"
     },
     {
@@ -1105,12 +1067,12 @@
         "norm": 0.25
       },
       "semantic": {
-        "raw": 0.3093396609624905,
+        "raw": 0.30933967232673226,
         "cache_reused": true,
-        "norm": 0.3078766993263219
+        "norm": 0.3078770804326037
       },
       "text_hash": "50ca310d0dc25f47feee47e403a71aa73c2880bc",
-      "final_score": 0.28183218462947707,
+      "final_score": 0.28183239423793205,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1"
     },
     {
@@ -1403,38 +1365,6 @@
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
-      "job_uid": "1b305ba196d259ae",
-      "source": "greenhouse",
-      "company": "cloudflare",
-      "title": "Customer Advocacy Intern (Summer 2026)",
-      "location": "In-Office",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/7743202?gh_jid=7743202",
-      "updated_at": "2026-04-21T15:53:17-04:00",
-      "created_at": null,
-      "departments": [
-        "University"
-      ],
-      "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
-      },
-      "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.0
-      },
-      "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
-      },
-      "text_hash": "c0f24af0c1e0b7837dbfe86240fffa85e142e93f",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
-    },
-    {
       "job_uid": "d6a26d45a3bd7422",
       "source": "greenhouse",
       "company": "cloudflare",
@@ -1463,6 +1393,38 @@
         "norm": 0.0
       },
       "text_hash": "a757bd8729e0437a0d802f026b36b9b048781ad5",
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
+    },
+    {
+      "job_uid": "1b305ba196d259ae",
+      "source": "greenhouse",
+      "company": "cloudflare",
+      "title": "Customer Advocacy Intern (Summer 2026)",
+      "location": "In-Office",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7743202?gh_jid=7743202",
+      "updated_at": "2026-04-21T15:53:17-04:00",
+      "created_at": null,
+      "departments": [
+        "University"
+      ],
+      "hard_gate": {
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
+      },
+      "hard": {
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
+      },
+      "text_hash": "c0f24af0c1e0b7837dbfe86240fffa85e142e93f",
       "final_score": 0.0,
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
@@ -1659,38 +1621,6 @@
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
-      "job_uid": "2ce1bcb235f342ff",
-      "source": "greenhouse",
-      "company": "cloudflare",
-      "title": "GRC Team Intern (Summer 2026) ",
-      "location": "In-Office",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/7577564?gh_jid=7577564",
-      "updated_at": "2026-04-21T15:53:17-04:00",
-      "created_at": null,
-      "departments": [
-        "Security"
-      ],
-      "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
-      },
-      "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.0
-      },
-      "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
-      },
-      "text_hash": "42bdf5bf7fa3af3d325f0ecb2e80ecc2ef50ba4a",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
-    },
-    {
       "job_uid": "e8b0d073b1a44f2d",
       "source": "greenhouse",
       "company": "cloudflare",
@@ -1719,6 +1649,38 @@
         "norm": 0.0
       },
       "text_hash": "3b5fa9f1fa8d5e9c5cb63245405f19bd053465ff",
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
+    },
+    {
+      "job_uid": "2ce1bcb235f342ff",
+      "source": "greenhouse",
+      "company": "cloudflare",
+      "title": "GRC Team Intern (Summer 2026) ",
+      "location": "In-Office",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7577564?gh_jid=7577564",
+      "updated_at": "2026-04-21T15:53:17-04:00",
+      "created_at": null,
+      "departments": [
+        "Security"
+      ],
+      "hard_gate": {
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
+      },
+      "hard": {
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
+      },
+      "text_hash": "42bdf5bf7fa3af3d325f0ecb2e80ecc2ef50ba4a",
       "final_score": 0.0,
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
@@ -2331,38 +2293,6 @@
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
-      "job_uid": "84bc1484e1b4497d",
-      "source": "greenhouse",
-      "company": "cloudflare",
-      "title": "Research Engineer Intern (Summer 2026)",
-      "location": "In-Office",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/7359147?gh_jid=7359147",
-      "updated_at": "2026-04-21T15:53:17-04:00",
-      "created_at": null,
-      "departments": [
-        "Technology Research"
-      ],
-      "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
-      },
-      "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.0
-      },
-      "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
-      },
-      "text_hash": "a3f8640a5bb936c202de701901eb89e53e1dc1e1",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
-    },
-    {
       "job_uid": "f8130720f1e526c2",
       "source": "greenhouse",
       "company": "cloudflare",
@@ -2423,6 +2353,38 @@
         "norm": 0.0
       },
       "text_hash": "d1f9eee155adc3e742d466eb82f620d11db5293b",
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
+    },
+    {
+      "job_uid": "84bc1484e1b4497d",
+      "source": "greenhouse",
+      "company": "cloudflare",
+      "title": "Research Engineer Intern (Summer 2026)",
+      "location": "In-Office",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7359147?gh_jid=7359147",
+      "updated_at": "2026-04-21T15:53:17-04:00",
+      "created_at": null,
+      "departments": [
+        "Technology Research"
+      ],
+      "hard_gate": {
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
+      },
+      "hard": {
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
+      },
+      "text_hash": "a3f8640a5bb936c202de701901eb89e53e1dc1e1",
       "final_score": 0.0,
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
@@ -2555,38 +2517,6 @@
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
-      "job_uid": "a69b027a9f170de6",
-      "source": "greenhouse",
-      "company": "cloudflare",
-      "title": "Security Engineer Intern (Summer 2026)",
-      "location": "In-Office",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/7582150?gh_jid=7582150",
-      "updated_at": "2026-04-21T15:53:17-04:00",
-      "created_at": null,
-      "departments": [
-        "University"
-      ],
-      "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
-      },
-      "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.0
-      },
-      "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
-      },
-      "text_hash": "dbc1fa222ad4fc61fd645de78471c0000d556751",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
-    },
-    {
       "job_uid": "119fb7f9439c736c",
       "source": "greenhouse",
       "company": "cloudflare",
@@ -2647,6 +2577,38 @@
         "norm": 0.0
       },
       "text_hash": "5e5d6c78295b889c0de46f5fc9195e25ca182285",
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
+    },
+    {
+      "job_uid": "a69b027a9f170de6",
+      "source": "greenhouse",
+      "company": "cloudflare",
+      "title": "Security Engineer Intern (Summer 2026)",
+      "location": "In-Office",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7582150?gh_jid=7582150",
+      "updated_at": "2026-04-21T15:53:17-04:00",
+      "created_at": null,
+      "departments": [
+        "University"
+      ],
+      "hard_gate": {
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
+      },
+      "hard": {
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
+      },
+      "text_hash": "dbc1fa222ad4fc61fd645de78471c0000d556751",
       "final_score": 0.0,
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
@@ -2747,38 +2709,6 @@
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
-      "job_uid": "317f941bfe07a06d",
-      "source": "greenhouse",
-      "company": "cloudflare",
-      "title": "Solutions Engineer Intern (Summer 2026)",
-      "location": "In-Office",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/7738938?gh_jid=7738938",
-      "updated_at": "2026-04-21T15:53:17-04:00",
-      "created_at": null,
-      "departments": [
-        "Solution Engineering"
-      ],
-      "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
-      },
-      "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.0
-      },
-      "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
-      },
-      "text_hash": "bce0b7f5a1d3ccdc4fc36c9eb901006f0db8ca9d",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
-    },
-    {
       "job_uid": "4a7b3e63b2f32a67",
       "source": "greenhouse",
       "company": "cloudflare",
@@ -2811,16 +2741,16 @@
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
-      "job_uid": "e132a40fed26dad9",
+      "job_uid": "317f941bfe07a06d",
       "source": "greenhouse",
       "company": "cloudflare",
-      "title": "Solutions Engineer - Intern (Summer & Fall 2026)",
+      "title": "Solutions Engineer Intern (Summer 2026)",
       "location": "In-Office",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/7792962?gh_jid=7792962",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7738938?gh_jid=7738938",
       "updated_at": "2026-04-21T15:53:17-04:00",
       "created_at": null,
       "departments": [
-        "University"
+        "Solution Engineering"
       ],
       "hard_gate": {
         "hit": true,
@@ -2838,7 +2768,7 @@
         "cache_reused": false,
         "norm": 0.0
       },
-      "text_hash": "c98ddb12007d014f67d23b16558219677d866a6d",
+      "text_hash": "bce0b7f5a1d3ccdc4fc36c9eb901006f0db8ca9d",
       "final_score": 0.0,
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
@@ -2939,12 +2869,12 @@
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
-      "job_uid": "1003bed5d158833c",
+      "job_uid": "9e611b8e9419b564",
       "source": "greenhouse",
       "company": "cloudflare",
       "title": "Technical Support Engineer Intern (Summer 2026)",
       "location": "In-Office",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/7726977?gh_jid=7726977",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7726055?gh_jid=7726055",
       "updated_at": "2026-04-21T15:53:17-04:00",
       "created_at": null,
       "departments": [
@@ -2966,7 +2896,7 @@
         "cache_reused": false,
         "norm": 0.0
       },
-      "text_hash": "c3dbb60e9b5b5b072435cf2cdd812d95a004c53d",
+      "text_hash": "18eac8a00699afae58fa5a882d5e8f45b853181c",
       "final_score": 0.0,
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
@@ -3003,12 +2933,12 @@
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
-      "job_uid": "9e611b8e9419b564",
+      "job_uid": "1003bed5d158833c",
       "source": "greenhouse",
       "company": "cloudflare",
       "title": "Technical Support Engineer Intern (Summer 2026)",
       "location": "In-Office",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/7726055?gh_jid=7726055",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7726977?gh_jid=7726977",
       "updated_at": "2026-04-21T15:53:17-04:00",
       "created_at": null,
       "departments": [
@@ -3030,7 +2960,7 @@
         "cache_reused": false,
         "norm": 0.0
       },
-      "text_hash": "18eac8a00699afae58fa5a882d5e8f45b853181c",
+      "text_hash": "c3dbb60e9b5b5b072435cf2cdd812d95a004c53d",
       "final_score": 0.0,
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
@@ -3160,48 +3090,12 @@
         "norm": 0.125
       },
       "semantic": {
-        "raw": 0.46958958921323485,
+        "raw": 0.46958953142119175,
         "cache_reused": true,
-        "norm": 0.7306399844797197
+        "norm": 0.7306404077735404
       },
       "text_hash": "9fb1e29a02ef7e95c58a7426fa8f183454f43acc",
-      "final_score": 0.4581019914638459,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
-    },
-    {
-      "job_uid": "209289687115853a",
-      "source": "greenhouse",
-      "company": "databricks",
-      "title": "MBA Intern - Commercial Transformation",
-      "location": "San Francisco, California",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8402617002",
-      "updated_at": "2026-04-09T16:51:26-04:00",
-      "created_at": null,
-      "departments": [
-        "Business Strategy and Ops"
-      ],
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "hard": {
-        "raw": 3.0,
-        "must_hits": [
-          "sql"
-        ],
-        "nice_hits": [
-          "mlflow"
-        ],
-        "neg_hits": [],
-        "norm": 0.375
-      },
-      "semantic": {
-        "raw": 0.4872620992215827,
-        "cache_reused": true,
-        "norm": 0.7772627098037838
-      },
-      "text_hash": "6c62aebc25953efaaf3779bbf08cd38eac112bdd",
-      "final_score": 0.5962444903920812,
+      "final_score": 0.4581022242754473,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
     },
     {
@@ -3264,12 +3158,12 @@
         "norm": 0.375
       },
       "semantic": {
-        "raw": 0.3917254741024317,
+        "raw": 0.39172533154448436,
         "cache_reused": true,
-        "norm": 0.5252227998411202
+        "norm": 0.5252228903627267
       },
       "text_hash": "063c2c3c89b88382484348dd7eebbfa3c6f66dfd",
-      "final_score": 0.45762253991261614,
+      "final_score": 0.45762258969949976,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
     },
     {
@@ -3335,12 +3229,12 @@
         "norm": 0.875
       },
       "semantic": {
-        "raw": 0.3378145896082474,
+        "raw": 0.3378145396706064,
         "cache_reused": true,
-        "norm": 0.3829978211277157
+        "norm": 0.3829980804254468
       },
       "text_hash": "9822a2c19ffa79334ffdcdccf3fd99ccce7fbed9",
-      "final_score": 0.6043988016202436,
+      "final_score": 0.6043989442339958,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1"
     },
     {
@@ -3402,12 +3296,12 @@
         "norm": 0.25
       },
       "semantic": {
-        "raw": 0.44624688580550465,
+        "raw": 0.4462467133994408,
         "cache_reused": true,
-        "norm": 0.6690584406704007
+        "norm": 0.6690585288742121
       },
       "text_hash": "8b4f28da415af4941b87116a7c827c11e65b09ec",
-      "final_score": 0.4804821423687204,
+      "final_score": 0.4804821908808167,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0"
     },
     {
@@ -3436,7 +3330,7 @@
         "norm": 0.25
       },
       "semantic": {
-        "raw": 0.5716914620025952,
+        "raw": 0.5716911895085334,
         "cache_reused": true,
         "norm": 1.0
       },
@@ -3506,12 +3400,12 @@
         "norm": 0.5
       },
       "semantic": {
-        "raw": 0.2915546471804235,
-        "cache_reused": false,
-        "norm": 0.26095717221589293
+        "raw": 0.2915545701977675,
+        "cache_reused": true,
+        "norm": 0.2609572953193605
       },
       "text_hash": "8ede221b50d74385608477cbdfe3ce895918eb2c",
-      "final_score": 0.36852644471874113,
+      "final_score": 0.36852651242564827,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
     },
     {
@@ -3574,12 +3468,12 @@
         "norm": 0.25
       },
       "semantic": {
-        "raw": 0.20057367983879534,
-        "cache_reused": false,
-        "norm": 0.020935769026265906
+        "raw": 0.2005736529825112,
+        "cache_reused": true,
+        "norm": 0.02093589683700827
       },
       "text_hash": "58baae9f75f0f3e9b7095c4fed0acbe9332cc61d",
-      "final_score": 0.12401467296444625,
+      "final_score": 0.12401474326035455,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1"
     },
     {
@@ -3807,50 +3701,13 @@
         "norm": 0.25
       },
       "semantic": {
-        "raw": 0.19263790205923736,
+        "raw": 0.19263783097247886,
         "cache_reused": true,
         "norm": 0.0
       },
       "text_hash": "e65ebcb61ebb39baff5f4ee81a346557d5eafada",
       "final_score": 0.1125,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1"
-    },
-    {
-      "job_uid": "99ded1db1070bd16",
-      "source": "ashby",
-      "company": "sierra",
-      "title": "Intern, Agent Development (Summer 2026)",
-      "location": "San Francisco, CA",
-      "url": "https://jobs.ashbyhq.com/sierra/8bb2509d-9215-4cb5-8cf1-2bf0dbade6d8/application",
-      "updated_at": "2025-12-17T16:45:31.262+00:00",
-      "created_at": "2025-12-17T16:45:31.262+00:00",
-      "departments": [
-        "Early Career",
-        "Agent Engineering New Grad"
-      ],
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "hard": {
-        "raw": 4.0,
-        "must_hits": [
-          "llm"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": [],
-        "norm": 0.5
-      },
-      "semantic": {
-        "raw": 0.2915546471804235,
-        "cache_reused": false,
-        "norm": 0.26095717221589293
-      },
-      "text_hash": "7690f19a3eb75e50005bfec58f5291cc39cd8629",
-      "final_score": 0.36852644471874113,
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
     },
     {
       "job_uid": "1d51513acad81fc9",
@@ -3881,12 +3738,12 @@
         "norm": 0.0
       },
       "semantic": {
-        "raw": 0.2915546471804235,
-        "cache_reused": false,
-        "norm": 0.26095717221589293
+        "raw": 0.2915545701977675,
+        "cache_reused": true,
+        "norm": 0.2609572953193605
       },
       "text_hash": "6c207af14be7604173001472f1fb27618a6cd572",
-      "final_score": 0.14352644471874113,
+      "final_score": 0.1435265124256483,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1"
     },
     {
@@ -3918,12 +3775,12 @@
         "norm": 0.0
       },
       "semantic": {
-        "raw": 0.2915546471804235,
-        "cache_reused": false,
-        "norm": 0.26095717221589293
+        "raw": 0.2915545701977675,
+        "cache_reused": true,
+        "norm": 0.2609572953193605
       },
       "text_hash": "6c207af14be7604173001472f1fb27618a6cd572",
-      "final_score": 0.14352644471874113,
+      "final_score": 0.1435265124256483,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1"
     },
     {
@@ -3986,12 +3843,12 @@
         "norm": 0.25
       },
       "semantic": {
-        "raw": 0.3893847101556169,
+        "raw": 0.3893846273418347,
         "cache_reused": true,
-        "norm": 0.5190475143559645
+        "norm": 0.5190477592105066
       },
       "text_hash": "0b2d894e967e8ac0a7003467f02511714d3ae95a",
-      "final_score": 0.3979761328957805,
+      "final_score": 0.39797626756577864,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1"
     },
     {
@@ -4024,12 +3881,12 @@
         "norm": 0.875
       },
       "semantic": {
-        "raw": 0.2199843192079632,
+        "raw": 0.21998427629355108,
         "cache_reused": true,
-        "norm": 0.0721439396395914
+        "norm": 0.07214405229566408
       },
       "text_hash": "10c207d29a2237a365c6c4ca588b2fda7c375906",
-      "final_score": 0.43342916680177523,
+      "final_score": 0.43342922876261525,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1"
     },
     {
@@ -4062,12 +3919,12 @@
         "norm": 0.875
       },
       "semantic": {
-        "raw": 0.24440200593459044,
+        "raw": 0.24440197646593448,
         "cache_reused": true,
-        "norm": 0.13656145026863276
+        "norm": 0.1365616326244263
       },
       "text_hash": "bbda55331fe2582097cbbea6b29dfc93f0e6491e",
-      "final_score": 0.468858797647748,
+      "final_score": 0.4688588979434345,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1"
     },
     {
