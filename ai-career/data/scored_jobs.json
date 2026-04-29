@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-04-28T16:06:38.536374+00:00",
-  "source_generated_at_utc": "2026-04-28T16:06:38.464636+00:00",
-  "count": 6,
+  "generated_at_utc": "2026-04-29T15:23:09.131151+00:00",
+  "source_generated_at_utc": "2026-04-29T15:23:09.040001+00:00",
+  "count": 5,
   "jobs": [
     {
       "id": "b35597b79d3ae32f",
@@ -121,36 +121,6 @@
       "title": "Intern, Agent Development (Fall 2026)",
       "location": "San Francisco, CA",
       "url": "https://jobs.ashbyhq.com/Sierra/c74d600c-235c-4d42-8546-b178b7adefc2/application",
-      "source": "ashby",
-      "score": 6,
-      "breakdown": {
-        "title": 0,
-        "location": 8,
-        "have": 2,
-        "want+bonus": 1,
-        "penalty": 5,
-        "detected_mode": "none",
-        "city_tier": "tier2"
-      },
-      "hard_flags": [],
-      "soft_flags": [
-        "citizen_mentioned"
-      ],
-      "matched_titles": [],
-      "matched_skills_have": [
-        "react"
-      ],
-      "matched_skills_want": [],
-      "matched_bonus": [
-        "rag"
-      ]
-    },
-    {
-      "id": "f5cb714e4fbfdfe1",
-      "company": "sierra",
-      "title": "Intern, Agent Development (Summer 2026)",
-      "location": "San Francisco, CA",
-      "url": "https://jobs.ashbyhq.com/Sierra/8bb2509d-9215-4cb5-8cf1-2bf0dbade6d8/application",
       "source": "ashby",
       "score": 6,
       "breakdown": {
