@@ -1,7 +1,10 @@
 # Job feed (current)
-Generated at (UTC): 2026-04-30T15:18:12.100724+00:00
+Generated at (UTC): 2026-04-30T15:46:44.513854+00:00
 Today (UTC): 2026-04-30
 Total jobs: 5
+
+## Errors
+- openai (ashby) failed: TimeoutError('The read operation timed out')
 
 ## Jobs
 - [stripe] Software Engineer, Intern (Sydney, Australia) — greenhouse — https://stripe.com/jobs/search?gh_jid=7532256
