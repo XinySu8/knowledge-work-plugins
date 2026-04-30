@@ -6,6 +6,12 @@
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1
 
+- datadog | IT Support Technician Intern | Boston, Massachusetts, USA | score=0.609
+  - url: https://careers.datadoghq.com/detail/7391788/?gh_jid=7391788
+  - must_hits: None
+  - nice_hits: rag
+  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1
+
 - notion | Software Engineer Intern (Fall 2026) | San Francisco, California | score=0.604
   - url: https://jobs.ashbyhq.com/notion/5b15697c-fa91-4511-9482-c98a6ff29f90/application
   - must_hits: python, llm
@@ -23,12 +29,6 @@
   - must_hits: machine learning
   - nice_hits: None
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0
-
-- databricks | MBA Intern - Product Pricing & Commercialization | San Francisco, California | score=0.516
-  - url: https://databricks.com/company/careers/open-positions/job?gh_jid=8402615002
-  - must_hits: sql, cloud
-  - nice_hits: mlflow
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1
 
 - okta | Technical Account Management Intern (Summer 2026) | Chicago, Illinois | score=0.492
   - url: https://www.okta.com/company/careers/opportunity/7549331?gh_jid=7549331
@@ -65,12 +65,6 @@
   - must_hits: None
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1
-
-- okta | Product Marketing Intern, Orchestration (Summer 2026) | San Francisco, California | score=0.449
-  - url: https://www.okta.com/company/careers/opportunity/7821767?gh_jid=7821767
-  - must_hits: machine learning
-  - nice_hits: None
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0
 
 - ramp | Software Engineer Internship, Android  | New York, NY (HQ) | score=0.433
   - url: https://jobs.ashbyhq.com/ramp/67fadb77-43d8-4449-954b-d4cf2c6d3b8b/application
