@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-04-30T15:46:44.608801+00:00",
-  "source_generated_at_utc": "2026-04-30T15:46:44.513854+00:00",
-  "count": 5,
+  "generated_at_utc": "2026-05-01T14:20:21.626980+00:00",
+  "source_generated_at_utc": "2026-05-01T14:20:21.525554+00:00",
+  "count": 6,
   "jobs": [
     {
       "id": "b35597b79d3ae32f",
@@ -112,6 +112,30 @@
       "matched_skills_have": [
         "Java"
       ],
+      "matched_skills_want": [],
+      "matched_bonus": []
+    },
+    {
+      "id": "5e8c66964a1fbf42",
+      "company": "replit",
+      "title": "Education Team Intern",
+      "location": "Foster City, CA (Hybrid) In office M,W,F",
+      "url": "https://jobs.ashbyhq.com/replit/3590c5b2-3983-40f3-a787-ef3b1bc8218c/application",
+      "source": "ashby",
+      "score": 7,
+      "breakdown": {
+        "title": 0,
+        "location": 7,
+        "have": 0,
+        "want+bonus": 0,
+        "penalty": 0,
+        "detected_mode": "hybrid",
+        "city_tier": "none"
+      },
+      "hard_flags": [],
+      "soft_flags": [],
+      "matched_titles": [],
+      "matched_skills_have": [],
       "matched_skills_want": [],
       "matched_bonus": []
     },

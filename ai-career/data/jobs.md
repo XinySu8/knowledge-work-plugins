@@ -1,12 +1,13 @@
 # Job feed (current)
-Generated at (UTC): 2026-04-30T15:46:44.513854+00:00
-Today (UTC): 2026-04-30
-Total jobs: 5
+Generated at (UTC): 2026-05-01T14:20:21.525554+00:00
+Today (UTC): 2026-05-01
+Total jobs: 6
 
 ## Errors
 - openai (ashby) failed: TimeoutError('The read operation timed out')
 
 ## Jobs
+- [replit] Education Team Intern (Foster City, CA (Hybrid) In office M,W,F) — ashby — https://jobs.ashbyhq.com/replit/3590c5b2-3983-40f3-a787-ef3b1bc8218c/application
 - [stripe] Software Engineer, Intern (Sydney, Australia) — greenhouse — https://stripe.com/jobs/search?gh_jid=7532256
 - [stripe] Software Engineer, Intern (Summer) (San Francisco, Seattle, New York City) — greenhouse — https://stripe.com/jobs/search?gh_jid=7210115
 - [sierra] Intern, Agent Development (Fall 2026) (San Francisco, CA) — ashby — https://jobs.ashbyhq.com/Sierra/c74d600c-235c-4d42-8546-b178b7adefc2/application
