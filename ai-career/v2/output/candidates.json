@@ -2,9 +2,9 @@
   "meta": {
     "engine_name": "AutoJob-Agent Feeder",
     "version": 2,
-    "generated_at": "2026-05-01T16:33:03.338335+00:00",
-    "source_jobs_count": 133,
-    "candidates_count": 19,
+    "generated_at": "2026-05-02T16:08:24.357065+00:00",
+    "source_jobs_count": 134,
+    "candidates_count": 20,
     "candidates_topN_total": 150,
     "thresholds": {
       "apply": 0.72,
@@ -13,6 +13,43 @@
     "config_digest": "7f9d61b8fda9e66343b1828d5752df0d87053bf5"
   },
   "candidates": [
+    {
+      "job_uid": "83a840a31a86892a",
+      "source": "greenhouse",
+      "job_id": "83a840a31a86892a",
+      "company": "okta",
+      "title": "AI Content Operations Intern (Summer 2026)",
+      "location": "Chicago, Illinois",
+      "url": "https://www.okta.com/company/careers/opportunity/7818807?gh_jid=7818807",
+      "departments": [
+        "Customer Acceleration-731"
+      ],
+      "created_at": null,
+      "updated_at": "2026-04-26T14:29:38-04:00",
+      "scores": {
+        "hard_raw": 5.0,
+        "hard_norm": 0.5,
+        "semantic_raw": 0.5319120287889884,
+        "semantic_norm": 0.8950565670406497,
+        "final": 0.7172811118723574
+      },
+      "signals": {
+        "must_hits": [
+          "machine learning",
+          "llm",
+          "git"
+        ],
+        "nice_hits": [],
+        "neg_hits": []
+      },
+      "text_hash": "0758f7af1a53c11c1a5e80f41abfbb8e5f5085a3",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=0",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. About the Internship: We are looking for an inquisitive and detail-oriented AI Co"
+    },
     {
       "job_uid": "5936ffed28038e5d",
       "source": "greenhouse",
@@ -25,13 +62,13 @@
         "5112 General University"
       ],
       "created_at": null,
-      "updated_at": "2026-04-24T17:24:31-04:00",
+      "updated_at": "2026-05-01T16:41:18-04:00",
       "scores": {
         "hard_raw": 8.0,
-        "hard_norm": 1.0,
+        "hard_norm": 0.8,
         "semantic_raw": 0.4216968072467883,
         "semantic_norm": 0.6042921692053074,
-        "final": 0.7823606930629191
+        "final": 0.6923606930629191
       },
       "signals": {
         "must_hits": [
@@ -53,43 +90,6 @@
       "jd_excerpt": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. What you’ll do About the internship Stripe's Applied ML, Data Science, Risk, and"
     },
     {
-      "job_uid": "83a840a31a86892a",
-      "source": "greenhouse",
-      "job_id": "83a840a31a86892a",
-      "company": "okta",
-      "title": "AI Content Operations Intern (Summer 2026)",
-      "location": "Chicago, Illinois",
-      "url": "https://www.okta.com/company/careers/opportunity/7818807?gh_jid=7818807",
-      "departments": [
-        "Customer Acceleration-731"
-      ],
-      "created_at": null,
-      "updated_at": "2026-04-26T14:29:38-04:00",
-      "scores": {
-        "hard_raw": 5.0,
-        "hard_norm": 0.625,
-        "semantic_raw": 0.5319120287889884,
-        "semantic_norm": 0.8950565670406497,
-        "final": 0.7735311118723573
-      },
-      "signals": {
-        "must_hits": [
-          "machine learning",
-          "llm",
-          "git"
-        ],
-        "nice_hits": [],
-        "neg_hits": []
-      },
-      "text_hash": "0758f7af1a53c11c1a5e80f41abfbb8e5f5085a3",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=0",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. About the Internship: We are looking for an inquisitive and detail-oriented AI Co"
-    },
-    {
       "job_uid": "e7c78b9db66d7e52",
       "source": "greenhouse",
       "job_id": "e7c78b9db66d7e52",
@@ -104,10 +104,10 @@
       "updated_at": "2026-03-26T19:42:41-04:00",
       "scores": {
         "hard_raw": 2.0,
-        "hard_norm": 0.25,
+        "hard_norm": 0.2,
         "semantic_raw": 0.5716911895085334,
         "semantic_norm": 1.0,
-        "final": 0.6625000000000001
+        "final": 0.64
       },
       "signals": {
         "must_hits": [],
@@ -139,10 +139,10 @@
       "updated_at": "2026-04-23T13:41:00-04:00",
       "scores": {
         "hard_raw": 2.0,
-        "hard_norm": 0.25,
+        "hard_norm": 0.2,
         "semantic_raw": 0.5347860496975856,
         "semantic_norm": 0.9026386681983786,
-        "final": 0.6089512675091082
+        "final": 0.5864512675091083
       },
       "signals": {
         "must_hits": [],
@@ -160,6 +160,44 @@
       "jd_excerpt": "We're looking for IT support interns to join Datadog's Enterprise IT organization — the team responsible for managing the internal tools, systems, and services that keep Datadog running smoothly as we scale. As part of this team, you'll work alongside IT professionals to troubleshoot issues, support employee onboarding and offboarding, manage SaaS applications, and help maintain the infrastructure that internal teams rely on every day. This means providing excellent customer service to our employees to support thousands of endpoint devices such as macOS, iOS, Chrome OS and Windows. In addition"
     },
     {
+      "job_uid": "d7919fb1117c5a15",
+      "source": "greenhouse",
+      "job_id": "d7919fb1117c5a15",
+      "company": "stripe",
+      "title": "PhD Data Scientist, Intern",
+      "location": "San Francisco, New York City, Seattle, Chicago",
+      "url": "https://stripe.com/jobs/search?gh_jid=7874965",
+      "departments": [
+        "5112 General University"
+      ],
+      "created_at": null,
+      "updated_at": "2026-05-01T18:36:10-04:00",
+      "scores": {
+        "hard_raw": 10.0,
+        "hard_norm": 1.0,
+        "semantic_raw": 0.2789721953253457,
+        "semantic_norm": 0.2277630903635825,
+        "final": 0.5752696996999704
+      },
+      "signals": {
+        "must_hits": [
+          "python",
+          "data pipeline",
+          "machine learning",
+          "sql"
+        ],
+        "nice_hits": [],
+        "neg_hits": []
+      },
+      "text_hash": "25d0f87b3f0f22f58ece1b61cca9671860df5bcf",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=4, nice_hits=0",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. About the team Our Data Science team partners deeply with teams across Stripe to"
+    },
+    {
       "job_uid": "d34d7d626a0a1cfe",
       "source": "ashby",
       "job_id": "d34d7d626a0a1cfe",
@@ -175,10 +213,10 @@
       "updated_at": "2026-04-06T22:40:58.312+00:00",
       "scores": {
         "hard_raw": 7.0,
-        "hard_norm": 0.875,
+        "hard_norm": 0.7,
         "semantic_raw": 0.3378145396706064,
         "semantic_norm": 0.3829980804254468,
-        "final": 0.6043989442339958
+        "final": 0.5256489442339958
       },
       "signals": {
         "must_hits": [
@@ -213,10 +251,10 @@
       "updated_at": "2026-04-26T14:29:38-04:00",
       "scores": {
         "hard_raw": 4.0,
-        "hard_norm": 0.5,
+        "hard_norm": 0.4,
         "semantic_raw": 0.4293722170212873,
         "semantic_norm": 0.6245410592405843,
-        "final": 0.5684975825823214
+        "final": 0.5234975825823215
       },
       "signals": {
         "must_hits": [
@@ -250,10 +288,10 @@
       "updated_at": "2026-04-23T11:23:35-04:00",
       "scores": {
         "hard_raw": 2.0,
-        "hard_norm": 0.25,
+        "hard_norm": 0.2,
         "semantic_raw": 0.4849216955988689,
         "semantic_norm": 0.7710889721574351,
-        "final": 0.5365989346865894
+        "final": 0.5140989346865893
       },
       "signals": {
         "must_hits": [
@@ -271,6 +309,41 @@
       "jd_excerpt": "This posting is for candidates (interested in research intern roles) who attended ICLR '26 and met with a member of our team. It was great meeting you at ICLR 2026! Whether we chatted at our booth, during a poster session, or one of the workshops – we’re thrilled to connect with people who are passionate about pushing the boundaries of machine learning and AI. At Scale AI, our mission is to develop reliable AI systems for the world's most important decisions. For 9 years, Scale has been the leading AI data foundry, helping fuel the most exciting advancements in AI, including: generative AI, de"
     },
     {
+      "job_uid": "be7eb8d7168d78fa",
+      "source": "greenhouse",
+      "job_id": "be7eb8d7168d78fa",
+      "company": "scaleai",
+      "title": "AI Deployment Strategist Intern",
+      "location": "New York, NY",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4677519005",
+      "departments": [
+        "Enterprise Operations"
+      ],
+      "created_at": null,
+      "updated_at": "2026-03-26T19:42:41-04:00",
+      "scores": {
+        "hard_raw": 2.0,
+        "hard_norm": 0.2,
+        "semantic_raw": 0.4462467133994408,
+        "semantic_norm": 0.6690585288742121,
+        "final": 0.4579821908808167
+      },
+      "signals": {
+        "must_hits": [
+          "machine learning"
+        ],
+        "nice_hits": [],
+        "neg_hits": []
+      },
+      "text_hash": "8b4f28da415af4941b87116a7c827c11e65b09ec",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Scale’s Enterprise Applications business is growing faster than ever in the quest to develop reliable AI systems for the world’s most important decisions. As an AI Deployment Strategist Intern , you will work alongside our DSG team, helping our largest customers build, launch, and scale groundbreaking GenAI solutions that redefine their industries. You will support deployment success and contribute foundational industry knowledge to our team, helping turn bold ideas into real impact and ensuring engagements run smoothly. In this role, you will work directly with data, engineering, business, an"
+    },
+    {
       "job_uid": "5c98c9a4fc5ce4d5",
       "source": "greenhouse",
       "job_id": "5c98c9a4fc5ce4d5",
@@ -285,10 +358,10 @@
       "updated_at": "2026-04-26T14:29:38-04:00",
       "scores": {
         "hard_raw": 3.0,
-        "hard_norm": 0.375,
+        "hard_norm": 0.3,
         "semantic_raw": 0.41508122772421024,
         "semantic_norm": 0.5868392714177025,
-        "final": 0.4915115992797364
+        "final": 0.4577615992797364
       },
       "signals": {
         "must_hits": [
@@ -307,80 +380,6 @@
       "jd_excerpt": "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. About the Internship: Okta’s Technical Account Management Team empowers Okta cust"
     },
     {
-      "job_uid": "be7eb8d7168d78fa",
-      "source": "greenhouse",
-      "job_id": "be7eb8d7168d78fa",
-      "company": "scaleai",
-      "title": "AI Deployment Strategist Intern",
-      "location": "New York, NY",
-      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4677519005",
-      "departments": [
-        "Enterprise Operations"
-      ],
-      "created_at": null,
-      "updated_at": "2026-03-26T19:42:41-04:00",
-      "scores": {
-        "hard_raw": 2.0,
-        "hard_norm": 0.25,
-        "semantic_raw": 0.4462467133994408,
-        "semantic_norm": 0.6690585288742121,
-        "final": 0.4804821908808167
-      },
-      "signals": {
-        "must_hits": [
-          "machine learning"
-        ],
-        "nice_hits": [],
-        "neg_hits": []
-      },
-      "text_hash": "8b4f28da415af4941b87116a7c827c11e65b09ec",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "Scale’s Enterprise Applications business is growing faster than ever in the quest to develop reliable AI systems for the world’s most important decisions. As an AI Deployment Strategist Intern , you will work alongside our DSG team, helping our largest customers build, launch, and scale groundbreaking GenAI solutions that redefine their industries. You will support deployment success and contribute foundational industry knowledge to our team, helping turn bold ideas into real impact and ensuring engagements run smoothly. In this role, you will work directly with data, engineering, business, an"
-    },
-    {
-      "job_uid": "2d97101576e1b003",
-      "source": "ashby",
-      "job_id": "2d97101576e1b003",
-      "company": "ramp",
-      "title": "University Grad | Software Engineer | Frontend",
-      "location": "New York, NY (HQ)",
-      "url": "https://jobs.ashbyhq.com/ramp/a1229aec-1105-4c47-8533-b912e732ed89/application",
-      "departments": [
-        "Engineering",
-        "Emerging Talent - SWE"
-      ],
-      "created_at": "2025-08-01T21:08:04.061+00:00",
-      "updated_at": "2025-08-01T21:08:04.061+00:00",
-      "scores": {
-        "hard_raw": 7.0,
-        "hard_norm": 0.875,
-        "semantic_raw": 0.24440197646593448,
-        "semantic_norm": 0.1365616326244263,
-        "final": 0.4688588979434345
-      },
-      "signals": {
-        "must_hits": [
-          "python",
-          "sql"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": []
-      },
-      "text_hash": "bbda55331fe2582097cbbea6b29dfc93f0e6491e",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "ABOUT RAMP Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $100B in annualized spend flows in and out of 50,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books. The problems are high-stakes, data-dense, and unforgiving. We hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential "
-    },
-    {
       "job_uid": "1e24bd723ca2390a",
       "source": "greenhouse",
       "job_id": "1e24bd723ca2390a",
@@ -395,10 +394,10 @@
       "updated_at": "2026-04-14T12:13:05-04:00",
       "scores": {
         "hard_raw": 1.0,
-        "hard_norm": 0.125,
+        "hard_norm": 0.1,
         "semantic_raw": 0.46958953142119175,
         "semantic_norm": 0.7306404077735404,
-        "final": 0.4581022242754473
+        "final": 0.44685222427544724
       },
       "signals": {
         "must_hits": [
@@ -420,6 +419,77 @@
       "jd_excerpt": "About Anthropic Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems. About the role Anthropic is seeking a Program Manager to own and drive our student outreach strategy, establishing Claude as the AI platform of choice for the next generation of builders, researchers, and creators at universities worldwide.&nbsp; You'll lead fla"
     },
     {
+      "job_uid": "74dae1e815400054",
+      "source": "ashby",
+      "job_id": "74dae1e815400054",
+      "company": "openai",
+      "title": "Business Insights Intern",
+      "location": "San Francisco",
+      "url": "https://jobs.ashbyhq.com/openai/821168d6-c97c-457a-9187-88a2cb95ba32/application",
+      "departments": [
+        "Marketing",
+        "Marketing"
+      ],
+      "created_at": "2026-05-01T16:42:08.797+00:00",
+      "updated_at": "2026-05-01T16:42:08.797+00:00",
+      "scores": {
+        "hard_raw": 2.0,
+        "hard_norm": 0.2,
+        "semantic_raw": 0.43629077076868295,
+        "semantic_norm": 0.6427932487848633,
+        "final": 0.4435362868316749
+      },
+      "signals": {
+        "must_hits": [],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "10470d09aabc9f62b7b8603a182fdcf64fe5577d",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "About the Team The Business Insights team monitors competitors, generates actionable insights, and supports decision-making across GTM and product. The team also builds and applies OpenAI’s own technologies to develop internal intelligence systems, tools, and workflows that improve how competitive insight is generated, analyzed, and operationalized. These systems help OpenAI understand competitive dynamics, respond quickly to market developments, and surface high-quality intelligence across the organization. About the Role As a Business Insights Intern, you will help improve and extend OpenAI’"
+    },
+    {
+      "job_uid": "1f97d174e9d7ccca",
+      "source": "greenhouse",
+      "job_id": "1f97d174e9d7ccca",
+      "company": "asana",
+      "title": "Product Design Intern - Summer 2026 (San Francisco)",
+      "location": "San Francisco",
+      "url": "https://www.asana.com/jobs/apply/7490322?gh_jid=7490322",
+      "departments": [
+        "Internship"
+      ],
+      "created_at": null,
+      "updated_at": "2026-04-27T16:33:15-04:00",
+      "scores": {
+        "hard_raw": 2.0,
+        "hard_norm": 0.2,
+        "semantic_raw": 0.4271014034743806,
+        "semantic_norm": 0.6185503101922792,
+        "final": 0.4302026706057536
+      },
+      "signals": {
+        "must_hits": [],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "4085c4b7198e58d55fa17e8fec5d2a53c89a58c1",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "At Asana we’re looking for curious, collaborative, and creative students to join our 12-week summer Product Design internship program. This program focuses on bringing students currently studying at a college or university into our Design team to develop and work on complex and challenging problems. During this internship, you’ll work directly with dedicated Design mentors who are trained and motivated to ensure your success. You’ll also have the opportunity to work with Engineering, User Research, Product Management, Data Science, and the rest of our amazing Design crew to ship experiences th"
+    },
+    {
       "job_uid": "119fc6123c9f2f04",
       "source": "greenhouse",
       "job_id": "119fc6123c9f2f04",
@@ -434,10 +504,10 @@
       "updated_at": "2026-04-09T16:51:09-04:00",
       "scores": {
         "hard_raw": 3.0,
-        "hard_norm": 0.375,
+        "hard_norm": 0.3,
         "semantic_raw": 0.39172533154448436,
         "semantic_norm": 0.5252228903627267,
-        "final": 0.45762258969949976
+        "final": 0.42387258969949976
       },
       "signals": {
         "must_hits": [
@@ -457,80 +527,6 @@
       "jd_excerpt": "Company Description: At Databricks, we are obsessed with enabling data teams to solve the world’s toughest problems, from security threat detection to cancer drug development. We do this by building and running the world’s best data and AI platform, so our customers can focus on the high value challenges that are central to their own missions. The Mosaic AI organization enables companies to develop AI models and systems using their own data, with technologies ranging from fine-tuning LLMs for enterprise domains, to a platform for building compound AI systems that use retrieval and agents. Mosa"
     },
     {
-      "job_uid": "1f97d174e9d7ccca",
-      "source": "greenhouse",
-      "job_id": "1f97d174e9d7ccca",
-      "company": "asana",
-      "title": "Product Design Intern - Summer 2026 (San Francisco)",
-      "location": "San Francisco",
-      "url": "https://www.asana.com/jobs/apply/7490322?gh_jid=7490322",
-      "departments": [
-        "Internship"
-      ],
-      "created_at": null,
-      "updated_at": "2026-04-27T16:33:15-04:00",
-      "scores": {
-        "hard_raw": 2.0,
-        "hard_norm": 0.25,
-        "semantic_raw": 0.4271014034743806,
-        "semantic_norm": 0.6185503101922792,
-        "final": 0.4527026706057536
-      },
-      "signals": {
-        "must_hits": [],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": []
-      },
-      "text_hash": "4085c4b7198e58d55fa17e8fec5d2a53c89a58c1",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "At Asana we’re looking for curious, collaborative, and creative students to join our 12-week summer Product Design internship program. This program focuses on bringing students currently studying at a college or university into our Design team to develop and work on complex and challenging problems. During this internship, you’ll work directly with dedicated Design mentors who are trained and motivated to ensure your success. You’ll also have the opportunity to work with Engineering, User Research, Product Management, Data Science, and the rest of our amazing Design crew to ship experiences th"
-    },
-    {
-      "job_uid": "b230852d1c35c17a",
-      "source": "ashby",
-      "job_id": "b230852d1c35c17a",
-      "company": "ramp",
-      "title": "Software Engineer Internship, Android ",
-      "location": "New York, NY (HQ)",
-      "url": "https://jobs.ashbyhq.com/ramp/67fadb77-43d8-4449-954b-d4cf2c6d3b8b/application",
-      "departments": [
-        "Engineering",
-        "Emerging Talent - SWE"
-      ],
-      "created_at": "2025-08-07T20:49:38.961+00:00",
-      "updated_at": "2025-08-07T20:49:38.961+00:00",
-      "scores": {
-        "hard_raw": 7.0,
-        "hard_norm": 0.875,
-        "semantic_raw": 0.21998427629355108,
-        "semantic_norm": 0.07214405229566408,
-        "final": 0.43342922876261525
-      },
-      "signals": {
-        "must_hits": [
-          "python",
-          "sql"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": []
-      },
-      "text_hash": "10c207d29a2237a365c6c4ca588b2fda7c375906",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "ABOUT RAMP Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $100B in annualized spend flows in and out of 50,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books. The problems are high-stakes, data-dense, and unforgiving. We hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential "
-    },
-    {
       "job_uid": "20154ebf9b416ee5",
       "source": "greenhouse",
       "job_id": "20154ebf9b416ee5",
@@ -545,10 +541,10 @@
       "updated_at": "2026-04-27T16:33:15-04:00",
       "scores": {
         "hard_raw": 2.0,
-        "hard_norm": 0.25,
+        "hard_norm": 0.2,
         "semantic_raw": 0.4066547155376182,
         "semantic_norm": 0.5646088597966682,
-        "final": 0.42303487288816755
+        "final": 0.4005348728881676
       },
       "signals": {
         "must_hits": [],
@@ -580,10 +576,10 @@
       "updated_at": "2026-04-26T14:29:38-04:00",
       "scores": {
         "hard_raw": 2.0,
-        "hard_norm": 0.25,
+        "hard_norm": 0.2,
         "semantic_raw": 0.40283891558606866,
         "semantic_norm": 0.5545422033072319,
-        "final": 0.41749821181897756
+        "final": 0.3949982118189776
       },
       "signals": {
         "must_hits": [
@@ -601,40 +597,82 @@
       "jd_excerpt": "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. About the Internship: The Social Media Engagement Intern will be an integral part"
     },
     {
-      "job_uid": "609c9f7aff473916",
+      "job_uid": "2d97101576e1b003",
       "source": "ashby",
-      "job_id": "609c9f7aff473916",
-      "company": "notion",
-      "title": "Software Engineer, Fullstack, Early Career",
-      "location": "San Francisco, California",
-      "url": "https://jobs.ashbyhq.com/notion/f7399542-9122-481a-bf64-43bf8093748b/application",
+      "job_id": "2d97101576e1b003",
+      "company": "ramp",
+      "title": "University Grad | Software Engineer | Frontend",
+      "location": "New York, NY (HQ)",
+      "url": "https://jobs.ashbyhq.com/ramp/a1229aec-1105-4c47-8533-b912e732ed89/application",
       "departments": [
         "Engineering",
-        "Engineering - Early Career"
+        "Emerging Talent - SWE"
       ],
-      "created_at": "2025-09-05T18:33:15.441+00:00",
-      "updated_at": "2025-09-05T18:33:15.441+00:00",
+      "created_at": "2025-08-01T21:08:04.061+00:00",
+      "updated_at": "2025-08-01T21:08:04.061+00:00",
       "scores": {
-        "hard_raw": 2.0,
-        "hard_norm": 0.25,
-        "semantic_raw": 0.3893846273418347,
-        "semantic_norm": 0.5190477592105066,
-        "final": 0.39797626756577864
+        "hard_raw": 7.0,
+        "hard_norm": 0.7,
+        "semantic_raw": 0.24440197646593448,
+        "semantic_norm": 0.1365616326244263,
+        "final": 0.3901088979434345
       },
       "signals": {
-        "must_hits": [],
+        "must_hits": [
+          "python",
+          "sql"
+        ],
         "nice_hits": [
           "rag"
         ],
         "neg_hits": []
       },
-      "text_hash": "0b2d894e967e8ac0a7003467f02511714d3ae95a",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1",
+      "text_hash": "bbda55331fe2582097cbbea6b29dfc93f0e6491e",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1",
       "hard_gate": {
         "hit": false,
         "reason": ""
       },
-      "jd_excerpt": "ABOUT US Notion helps you build beautiful tools for your life’s work. In today's world of endless apps and tabs, Notion provides one place for teams to get everything done, seamlessly connecting docs, notes, projects, calendar, and email—with AI built in to find answers and automate work. Millions of users, from individuals to large organizations like Toyota, Figma, and OpenAI, love Notion for its flexibility and choose it because it helps them save time and money. In-person collaboration is essential to Notion's culture. We require all team members to work from our offices on Mondays, Tuesday"
+      "jd_excerpt": "ABOUT RAMP Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $100B in annualized spend flows in and out of 50,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books. The problems are high-stakes, data-dense, and unforgiving. We hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential "
+    },
+    {
+      "job_uid": "b230852d1c35c17a",
+      "source": "ashby",
+      "job_id": "b230852d1c35c17a",
+      "company": "ramp",
+      "title": "Software Engineer Internship, Android ",
+      "location": "New York, NY (HQ)",
+      "url": "https://jobs.ashbyhq.com/ramp/67fadb77-43d8-4449-954b-d4cf2c6d3b8b/application",
+      "departments": [
+        "Engineering",
+        "Emerging Talent - SWE"
+      ],
+      "created_at": "2025-08-07T20:49:38.961+00:00",
+      "updated_at": "2025-08-07T20:49:38.961+00:00",
+      "scores": {
+        "hard_raw": 7.0,
+        "hard_norm": 0.7,
+        "semantic_raw": 0.21998427629355108,
+        "semantic_norm": 0.07214405229566408,
+        "final": 0.35467922876261526
+      },
+      "signals": {
+        "must_hits": [
+          "python",
+          "sql"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "10c207d29a2237a365c6c4ca588b2fda7c375906",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "ABOUT RAMP Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $100B in annualized spend flows in and out of 50,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books. The problems are high-stakes, data-dense, and unforgiving. We hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential "
     },
     {
       "job_uid": "b35597b79d3ae32f",
@@ -651,10 +689,10 @@
       "updated_at": "2026-04-24T17:24:30-04:00",
       "scores": {
         "hard_raw": 3.0,
-        "hard_norm": 0.375,
+        "hard_norm": 0.3,
         "semantic_raw": 0.3415982425209444,
         "semantic_norm": 0.3929800599149601,
-        "final": 0.38488903295322807
+        "final": 0.35113903295322807
       },
       "signals": {
         "must_hits": [
@@ -689,10 +727,10 @@
       "updated_at": "2026-03-19T19:02:43.041+00:00",
       "scores": {
         "hard_raw": 4.0,
-        "hard_norm": 0.5,
+        "hard_norm": 0.4,
         "semantic_raw": 0.2915545701977675,
         "semantic_norm": 0.2609572953193605,
-        "final": 0.36852651242564827
+        "final": 0.32352651242564834
       },
       "signals": {
         "must_hits": [
