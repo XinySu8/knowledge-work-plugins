@@ -1,12 +1,6 @@
 # MAYBE
 
-- okta | AI Content Operations Intern (Summer 2026) | Chicago, Illinois | score=0.717
-  - url: https://www.okta.com/company/careers/opportunity/7818807?gh_jid=7818807
-  - must_hits: machine learning, llm, git
-  - nice_hits: None
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=0
-
-- stripe | PhD Machine Learning Engineer, Intern | San Francisco, New York City, Seattle | score=0.692
+- stripe | PhD Machine Learning Engineer, Intern | San Francisco, New York City, Seattle | score=0.706
   - url: https://stripe.com/jobs/search?gh_jid=7216664
   - must_hits: python, machine learning, git
   - nice_hits: rag
@@ -18,91 +12,91 @@
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1
 
-- datadog | IT Support Technician Intern | Boston, Massachusetts, USA | score=0.586
-  - url: https://careers.datadoghq.com/detail/7391788/?gh_jid=7391788
-  - must_hits: None
-  - nice_hits: rag
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1
-
-- stripe | PhD Data Scientist, Intern | San Francisco, New York City, Seattle, Chicago | score=0.575
+- stripe | PhD Data Scientist, Intern | San Francisco, New York City, Seattle, Chicago | score=0.603
   - url: https://stripe.com/jobs/search?gh_jid=7874965
   - must_hits: python, data pipeline, machine learning, sql
   - nice_hits: None
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=4, nice_hits=0
 
-- notion | Software Engineer Intern (Fall 2026) | San Francisco, California | score=0.526
+- datadog | IT Support Technician Intern | Boston, Massachusetts, USA | score=0.590
+  - url: https://careers.datadoghq.com/detail/7391788/?gh_jid=7391788
+  - must_hits: None
+  - nice_hits: rag
+  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1
+
+- notion | Software Engineer Intern (Fall 2026) | San Francisco, California | score=0.548
   - url: https://jobs.ashbyhq.com/notion/5b15697c-fa91-4511-9482-c98a6ff29f90/application
   - must_hits: python, llm
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1
 
-- okta | Enablement Communications & Events Coordinator Intern | Bellevue, Washington; Chicago, Illinois | score=0.523
+- okta | Enablement Communications & Events Coordinator Intern | Bellevue, Washington; Chicago, Illinois | score=0.537
   - url: https://www.okta.com/company/careers/opportunity/7818817?gh_jid=7818817
   - must_hits: machine learning
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1
 
-- scaleai | AI Deployment Strategist Intern | New York, NY | score=0.458
-  - url: https://job-boards.greenhouse.io/scaleai/jobs/4677519005
-  - must_hits: machine learning
-  - nice_hits: None
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0
-
-- okta | Technical Account Management Intern (Summer 2026) | Chicago, Illinois | score=0.458
+- okta | Technical Account Management Intern (Summer 2026) | Chicago, Illinois | score=0.472
   - url: https://www.okta.com/company/careers/opportunity/7549331?gh_jid=7549331
   - must_hits: machine learning, cloud
   - nice_hits: None
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0
 
-- anthropic | Program Manager, Student Outreach | San Francisco, CA | New York City, NY | score=0.447
+- scaleai | AI Deployment Strategist Intern | New York, NY | score=0.470
+  - url: https://job-boards.greenhouse.io/scaleai/jobs/4677519005
+  - must_hits: machine learning
+  - nice_hits: None
+  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0
+
+- anthropic | Program Manager, Student Outreach | San Francisco, CA | New York City, NY | score=0.456
   - url: https://job-boards.greenhouse.io/anthropic/jobs/5102171008
   - must_hits: git
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1
 
-- asana | Product Design Intern - Summer 2026 (San Francisco) | San Francisco | score=0.430
+- asana | Product Design Intern - Summer 2026 (San Francisco) | San Francisco | score=0.444
   - url: https://www.asana.com/jobs/apply/7490322?gh_jid=7490322
   - must_hits: None
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1
 
-- databricks | PhD GenAI Research Scientist Intern | San Francisco, California | score=0.424
+- databricks | PhD GenAI Research Scientist Intern | San Francisco, California | score=0.441
   - url: https://databricks.com/company/careers/open-positions/job?gh_jid=7011263002
   - must_hits: llm
   - nice_hits: mlflow
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1
 
-- asana | Product Design Intern - Summer 2026 (New York) | New York City | score=0.401
-  - url: https://www.asana.com/jobs/apply/7490328?gh_jid=7490328
-  - must_hits: None
-  - nice_hits: rag
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1
-
-- okta | Social Media Engagement Intern (Summer 2026) | Chicago, Illinois | score=0.395
-  - url: https://www.okta.com/company/careers/opportunity/7818811?gh_jid=7818811
-  - must_hits: machine learning
-  - nice_hits: None
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0
-
-- ramp | University Grad | Software Engineer | Frontend | New York, NY (HQ) | score=0.390
+- ramp | University Grad | Software Engineer | Frontend | New York, NY (HQ) | score=0.421
   - url: https://jobs.ashbyhq.com/ramp/a1229aec-1105-4c47-8533-b912e732ed89/application
   - must_hits: python, sql
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1
 
-- ramp | Software Engineer Internship, Android  | New York, NY (HQ) | score=0.355
+- asana | Product Design Intern - Summer 2026 (New York) | New York City | score=0.416
+  - url: https://www.asana.com/jobs/apply/7490328?gh_jid=7490328
+  - must_hits: None
+  - nice_hits: rag
+  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1
+
+- okta | Social Media Engagement Intern (Summer 2026) | Chicago, Illinois | score=0.411
+  - url: https://www.okta.com/company/careers/opportunity/7818811?gh_jid=7818811
+  - must_hits: machine learning
+  - nice_hits: None
+  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0
+
+- ramp | Software Engineer Internship, Android  | New York, NY (HQ) | score=0.388
   - url: https://jobs.ashbyhq.com/ramp/67fadb77-43d8-4449-954b-d4cf2c6d3b8b/application
   - must_hits: python, sql
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1
 
-- stripe | Software Engineer, Intern (Summer) | San Francisco, Seattle, New York City | score=0.351
+- stripe | Software Engineer, Intern (Summer) | San Francisco, Seattle, New York City | score=0.373
   - url: https://stripe.com/jobs/search?gh_jid=7210115
   - must_hits: git
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1
 
-- sierra | Intern, Agent Development (Fall 2026) | San Francisco, CA | score=0.324
+- sierra | Intern, Agent Development (Fall 2026) | San Francisco, CA | score=0.350
   - url: https://jobs.ashbyhq.com/sierra/c74d600c-235c-4d42-8546-b178b7adefc2/application
   - must_hits: llm
   - nice_hits: rag

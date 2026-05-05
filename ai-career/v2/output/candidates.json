@@ -2,8 +2,8 @@
   "meta": {
     "engine_name": "AutoJob-Agent Feeder",
     "version": 2,
-    "generated_at": "2026-05-04T17:11:50.153683+00:00",
-    "source_jobs_count": 134,
+    "generated_at": "2026-05-05T17:04:51.315668+00:00",
+    "source_jobs_count": 130,
     "candidates_count": 18,
     "candidates_topN_total": 150,
     "thresholds": {
@@ -30,8 +30,8 @@
         "hard_raw": 5.0,
         "hard_norm": 0.5,
         "semantic_raw": 0.5319120287889884,
-        "semantic_norm": 0.8950565670406497,
-        "final": 0.7172811118723574
+        "semantic_norm": 0.9018309867219193,
+        "final": 0.7210070426970556
       },
       "signals": {
         "must_hits": [
@@ -67,8 +67,8 @@
         "hard_raw": 8.0,
         "hard_norm": 0.8,
         "semantic_raw": 0.4216968072467883,
-        "semantic_norm": 0.6042921692053074,
-        "final": 0.6923606930629191
+        "semantic_norm": 0.6298363203863196,
+        "final": 0.7064099762124758
       },
       "signals": {
         "must_hits": [
@@ -125,41 +125,6 @@
       "jd_excerpt": "About the Program The Scale AI Technical Advisor Specialist (Part-Time Internship) role is a summer semester opportunity designed for university students, ideally with experience in competitive coding, mathematics, and STEM disciplines. These Specialists will immerse themselves in real-world projects that push the boundaries of generative AI, gaining firsthand exposure to cutting-edge research and technology. Throughout the program, you’ll have the freedom to work flexibly around your academic schedule, the chance to connect directly with AI experts, and the support of a team that values your "
     },
     {
-      "job_uid": "a8cacd3df10146bd",
-      "source": "greenhouse",
-      "job_id": "a8cacd3df10146bd",
-      "company": "datadog",
-      "title": "IT Support Technician Intern",
-      "location": "Boston, Massachusetts, USA",
-      "url": "https://careers.datadoghq.com/detail/7391788/?gh_jid=7391788",
-      "departments": [
-        "Engineering Interns"
-      ],
-      "created_at": null,
-      "updated_at": "2026-04-23T13:41:00-04:00",
-      "scores": {
-        "hard_raw": 2.0,
-        "hard_norm": 0.2,
-        "semantic_raw": 0.5347860496975856,
-        "semantic_norm": 0.9026386681983786,
-        "final": 0.5864512675091083
-      },
-      "signals": {
-        "must_hits": [],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": []
-      },
-      "text_hash": "250a71396f83dfa1e4540be9bafad92cd94efb1b",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "We're looking for IT support interns to join Datadog's Enterprise IT organization — the team responsible for managing the internal tools, systems, and services that keep Datadog running smoothly as we scale. As part of this team, you'll work alongside IT professionals to troubleshoot issues, support employee onboarding and offboarding, manage SaaS applications, and help maintain the infrastructure that internal teams rely on every day. This means providing excellent customer service to our employees to support thousands of endpoint devices such as macOS, iOS, Chrome OS and Windows. In addition"
-    },
-    {
       "job_uid": "d7919fb1117c5a15",
       "source": "greenhouse",
       "job_id": "d7919fb1117c5a15",
@@ -176,8 +141,8 @@
         "hard_raw": 10.0,
         "hard_norm": 1.0,
         "semantic_raw": 0.2789721953253457,
-        "semantic_norm": 0.2277630903635825,
-        "final": 0.5752696996999704
+        "semantic_norm": 0.2776133456079498,
+        "final": 0.6026873400843724
       },
       "signals": {
         "must_hits": [
@@ -198,6 +163,41 @@
       "jd_excerpt": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. About the team Our Data Science team partners deeply with teams across Stripe to"
     },
     {
+      "job_uid": "a8cacd3df10146bd",
+      "source": "greenhouse",
+      "job_id": "a8cacd3df10146bd",
+      "company": "datadog",
+      "title": "IT Support Technician Intern",
+      "location": "Boston, Massachusetts, USA",
+      "url": "https://careers.datadoghq.com/detail/7391788/?gh_jid=7391788",
+      "departments": [
+        "Engineering Interns"
+      ],
+      "created_at": null,
+      "updated_at": "2026-04-23T13:41:00-04:00",
+      "scores": {
+        "hard_raw": 2.0,
+        "hard_norm": 0.2,
+        "semantic_raw": 0.5347860496975856,
+        "semantic_norm": 0.9089236400518056,
+        "final": 0.5899080020284931
+      },
+      "signals": {
+        "must_hits": [],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "250a71396f83dfa1e4540be9bafad92cd94efb1b",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "We're looking for IT support interns to join Datadog's Enterprise IT organization — the team responsible for managing the internal tools, systems, and services that keep Datadog running smoothly as we scale. As part of this team, you'll work alongside IT professionals to troubleshoot issues, support employee onboarding and offboarding, manage SaaS applications, and help maintain the infrastructure that internal teams rely on every day. This means providing excellent customer service to our employees to support thousands of endpoint devices such as macOS, iOS, Chrome OS and Windows. In addition"
+    },
+    {
       "job_uid": "d34d7d626a0a1cfe",
       "source": "ashby",
       "job_id": "d34d7d626a0a1cfe",
@@ -215,8 +215,8 @@
         "hard_raw": 7.0,
         "hard_norm": 0.7,
         "semantic_raw": 0.3378145396706064,
-        "semantic_norm": 0.3829980804254468,
-        "final": 0.5256489442339958
+        "semantic_norm": 0.4228274421060965,
+        "final": 0.547555093158353
       },
       "signals": {
         "must_hits": [
@@ -253,8 +253,8 @@
         "hard_raw": 4.0,
         "hard_norm": 0.4,
         "semantic_raw": 0.4293722170212873,
-        "semantic_norm": 0.6245410592405843,
-        "final": 0.5234975825823215
+        "semantic_norm": 0.648778082616544,
+        "final": 0.5368279454390993
       },
       "signals": {
         "must_hits": [
@@ -274,41 +274,6 @@
       "jd_excerpt": "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. About the Internship: The Enablement Communications Coordinator Intern will be a "
     },
     {
-      "job_uid": "be7eb8d7168d78fa",
-      "source": "greenhouse",
-      "job_id": "be7eb8d7168d78fa",
-      "company": "scaleai",
-      "title": "AI Deployment Strategist Intern",
-      "location": "New York, NY",
-      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4677519005",
-      "departments": [
-        "Enterprise Operations"
-      ],
-      "created_at": null,
-      "updated_at": "2026-03-26T19:42:41-04:00",
-      "scores": {
-        "hard_raw": 2.0,
-        "hard_norm": 0.2,
-        "semantic_raw": 0.4462467133994408,
-        "semantic_norm": 0.6690585288742121,
-        "final": 0.4579821908808167
-      },
-      "signals": {
-        "must_hits": [
-          "machine learning"
-        ],
-        "nice_hits": [],
-        "neg_hits": []
-      },
-      "text_hash": "8b4f28da415af4941b87116a7c827c11e65b09ec",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "Scale’s Enterprise Applications business is growing faster than ever in the quest to develop reliable AI systems for the world’s most important decisions. As an AI Deployment Strategist Intern , you will work alongside our DSG team, helping our largest customers build, launch, and scale groundbreaking GenAI solutions that redefine their industries. You will support deployment success and contribute foundational industry knowledge to our team, helping turn bold ideas into real impact and ensuring engagements run smoothly. In this role, you will work directly with data, engineering, business, an"
-    },
-    {
       "job_uid": "5c98c9a4fc5ce4d5",
       "source": "greenhouse",
       "job_id": "5c98c9a4fc5ce4d5",
@@ -325,8 +290,8 @@
         "hard_raw": 3.0,
         "hard_norm": 0.3,
         "semantic_raw": 0.41508122772421024,
-        "semantic_norm": 0.5868392714177025,
-        "final": 0.4577615992797364
+        "semantic_norm": 0.6135100605495939,
+        "final": 0.4724305333022767
       },
       "signals": {
         "must_hits": [
@@ -345,6 +310,41 @@
       "jd_excerpt": "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. About the Internship: Okta’s Technical Account Management Team empowers Okta cust"
     },
     {
+      "job_uid": "be7eb8d7168d78fa",
+      "source": "greenhouse",
+      "job_id": "be7eb8d7168d78fa",
+      "company": "scaleai",
+      "title": "AI Deployment Strategist Intern",
+      "location": "New York, NY",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4677519005",
+      "departments": [
+        "Enterprise Operations"
+      ],
+      "created_at": null,
+      "updated_at": "2026-03-26T19:42:41-04:00",
+      "scores": {
+        "hard_raw": 2.0,
+        "hard_norm": 0.2,
+        "semantic_raw": 0.4462467133994408,
+        "semantic_norm": 0.6904218133801732,
+        "final": 0.4697319973590953
+      },
+      "signals": {
+        "must_hits": [
+          "machine learning"
+        ],
+        "nice_hits": [],
+        "neg_hits": []
+      },
+      "text_hash": "8b4f28da415af4941b87116a7c827c11e65b09ec",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "Scale’s Enterprise Applications business is growing faster than ever in the quest to develop reliable AI systems for the world’s most important decisions. As an AI Deployment Strategist Intern , you will work alongside our DSG team, helping our largest customers build, launch, and scale groundbreaking GenAI solutions that redefine their industries. You will support deployment success and contribute foundational industry knowledge to our team, helping turn bold ideas into real impact and ensuring engagements run smoothly. In this role, you will work directly with data, engineering, business, an"
+    },
+    {
       "job_uid": "1e24bd723ca2390a",
       "source": "greenhouse",
       "job_id": "1e24bd723ca2390a",
@@ -361,8 +361,8 @@
         "hard_raw": 1.0,
         "hard_norm": 0.1,
         "semantic_raw": 0.46958953142119175,
-        "semantic_norm": 0.7306404077735404,
-        "final": 0.44685222427544724
+        "semantic_norm": 0.7480283935813279,
+        "final": 0.45641561646973033
       },
       "signals": {
         "must_hits": [
@@ -400,8 +400,8 @@
         "hard_raw": 2.0,
         "hard_norm": 0.2,
         "semantic_raw": 0.4271014034743806,
-        "semantic_norm": 0.6185503101922792,
-        "final": 0.4302026706057536
+        "semantic_norm": 0.6431740547485352,
+        "final": 0.4437457301116944
       },
       "signals": {
         "must_hits": [],
@@ -435,8 +435,8 @@
         "hard_raw": 3.0,
         "hard_norm": 0.3,
         "semantic_raw": 0.39172533154448436,
-        "semantic_norm": 0.5252228903627267,
-        "final": 0.42387258969949976
+        "semantic_norm": 0.5558712054125011,
+        "final": 0.44072916297687564
       },
       "signals": {
         "must_hits": [
@@ -456,6 +456,45 @@
       "jd_excerpt": "Company Description: At Databricks, we are obsessed with enabling data teams to solve the world’s toughest problems, from security threat detection to cancer drug development. We do this by building and running the world’s best data and AI platform, so our customers can focus on the high value challenges that are central to their own missions. The Mosaic AI organization enables companies to develop AI models and systems using their own data, with technologies ranging from fine-tuning LLMs for enterprise domains, to a platform for building compound AI systems that use retrieval and agents. Mosa"
     },
     {
+      "job_uid": "2d97101576e1b003",
+      "source": "ashby",
+      "job_id": "2d97101576e1b003",
+      "company": "ramp",
+      "title": "University Grad | Software Engineer | Frontend",
+      "location": "New York, NY (HQ)",
+      "url": "https://jobs.ashbyhq.com/ramp/a1229aec-1105-4c47-8533-b912e732ed89/application",
+      "departments": [
+        "Engineering",
+        "Emerging Talent - SWE"
+      ],
+      "created_at": "2025-08-01T21:08:04.061+00:00",
+      "updated_at": "2025-08-01T21:08:04.061+00:00",
+      "scores": {
+        "hard_raw": 7.0,
+        "hard_norm": 0.7,
+        "semantic_raw": 0.24440197646593448,
+        "semantic_norm": 0.19229922100480737,
+        "final": 0.4207645715526441
+      },
+      "signals": {
+        "must_hits": [
+          "python",
+          "sql"
+        ],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "bbda55331fe2582097cbbea6b29dfc93f0e6491e",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "ABOUT RAMP Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $100B in annualized spend flows in and out of 50,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books. The problems are high-stakes, data-dense, and unforgiving. We hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential "
+    },
+    {
       "job_uid": "20154ebf9b416ee5",
       "source": "greenhouse",
       "job_id": "20154ebf9b416ee5",
@@ -472,8 +511,8 @@
         "hard_raw": 2.0,
         "hard_norm": 0.2,
         "semantic_raw": 0.4066547155376182,
-        "semantic_norm": 0.5646088597966682,
-        "final": 0.4005348728881676
+        "semantic_norm": 0.5927146900146139,
+        "final": 0.41599307950803766
       },
       "signals": {
         "must_hits": [],
@@ -507,8 +546,8 @@
         "hard_raw": 2.0,
         "hard_norm": 0.2,
         "semantic_raw": 0.40283891558606866,
-        "semantic_norm": 0.5545422033072319,
-        "final": 0.3949982118189776
+        "semantic_norm": 0.5832978670013993,
+        "final": 0.41081382685076967
       },
       "signals": {
         "must_hits": [
@@ -524,45 +563,6 @@
         "reason": ""
       },
       "jd_excerpt": "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. About the Internship: The Social Media Engagement Intern will be an integral part"
-    },
-    {
-      "job_uid": "2d97101576e1b003",
-      "source": "ashby",
-      "job_id": "2d97101576e1b003",
-      "company": "ramp",
-      "title": "University Grad | Software Engineer | Frontend",
-      "location": "New York, NY (HQ)",
-      "url": "https://jobs.ashbyhq.com/ramp/a1229aec-1105-4c47-8533-b912e732ed89/application",
-      "departments": [
-        "Engineering",
-        "Emerging Talent - SWE"
-      ],
-      "created_at": "2025-08-01T21:08:04.061+00:00",
-      "updated_at": "2025-08-01T21:08:04.061+00:00",
-      "scores": {
-        "hard_raw": 7.0,
-        "hard_norm": 0.7,
-        "semantic_raw": 0.24440197646593448,
-        "semantic_norm": 0.1365616326244263,
-        "final": 0.3901088979434345
-      },
-      "signals": {
-        "must_hits": [
-          "python",
-          "sql"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": []
-      },
-      "text_hash": "bbda55331fe2582097cbbea6b29dfc93f0e6491e",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "ABOUT RAMP Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $100B in annualized spend flows in and out of 50,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books. The problems are high-stakes, data-dense, and unforgiving. We hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential "
     },
     {
       "job_uid": "b230852d1c35c17a",
@@ -582,8 +582,8 @@
         "hard_raw": 7.0,
         "hard_norm": 0.7,
         "semantic_raw": 0.21998427629355108,
-        "semantic_norm": 0.07214405229566408,
-        "final": 0.35467922876261526
+        "semantic_norm": 0.13203999257756877,
+        "final": 0.38762199591766283
       },
       "signals": {
         "must_hits": [
@@ -620,8 +620,8 @@
         "hard_raw": 3.0,
         "hard_norm": 0.3,
         "semantic_raw": 0.3415982425209444,
-        "semantic_norm": 0.3929800599149601,
-        "final": 0.35113903295322807
+        "semantic_norm": 0.43216505427880986,
+        "final": 0.3726907798533454
       },
       "signals": {
         "must_hits": [
@@ -658,8 +658,8 @@
         "hard_raw": 4.0,
         "hard_norm": 0.4,
         "semantic_raw": 0.2915545701977675,
-        "semantic_norm": 0.2609572953193605,
-        "final": 0.32352651242564834
+        "semantic_norm": 0.3086647630732174,
+        "final": 0.3497656196902696
       },
       "signals": {
         "must_hits": [
