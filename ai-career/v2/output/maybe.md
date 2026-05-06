@@ -54,6 +54,12 @@
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1
 
+- openai | Business Insights Intern | San Francisco | score=0.456
+  - url: https://jobs.ashbyhq.com/openai/821168d6-c97c-457a-9187-88a2cb95ba32/application
+  - must_hits: None
+  - nice_hits: rag
+  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1
+
 - asana | Product Design Intern - Summer 2026 (San Francisco) | San Francisco | score=0.444
   - url: https://www.asana.com/jobs/apply/7490322?gh_jid=7490322
   - must_hits: None

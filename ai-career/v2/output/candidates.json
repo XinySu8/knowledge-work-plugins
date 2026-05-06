@@ -2,9 +2,9 @@
   "meta": {
     "engine_name": "AutoJob-Agent Feeder",
     "version": 2,
-    "generated_at": "2026-05-05T17:04:51.315668+00:00",
-    "source_jobs_count": 130,
-    "candidates_count": 18,
+    "generated_at": "2026-05-06T17:00:24.045419+00:00",
+    "source_jobs_count": 123,
+    "candidates_count": 19,
     "candidates_topN_total": 150,
     "thresholds": {
       "apply": 0.72,
@@ -384,6 +384,42 @@
       "jd_excerpt": "About Anthropic Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems. About the role Anthropic is seeking a Program Manager to own and drive our student outreach strategy, establishing Claude as the AI platform of choice for the next generation of builders, researchers, and creators at universities worldwide.&nbsp; You'll lead fla"
     },
     {
+      "job_uid": "74dae1e815400054",
+      "source": "ashby",
+      "job_id": "74dae1e815400054",
+      "company": "openai",
+      "title": "Business Insights Intern",
+      "location": "San Francisco",
+      "url": "https://jobs.ashbyhq.com/openai/821168d6-c97c-457a-9187-88a2cb95ba32/application",
+      "departments": [
+        "Marketing",
+        "Marketing"
+      ],
+      "created_at": "2026-05-01T16:42:08.797+00:00",
+      "updated_at": "2026-05-01T16:42:08.797+00:00",
+      "scores": {
+        "hard_raw": 2.0,
+        "hard_norm": 0.2,
+        "semantic_raw": 0.43629077076868295,
+        "semantic_norm": 0.6658520374815465,
+        "final": 0.45621862061485063
+      },
+      "signals": {
+        "must_hits": [],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "10470d09aabc9f62b7b8603a182fdcf64fe5577d",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "About the Team The Business Insights team monitors competitors, generates actionable insights, and supports decision-making across GTM and product. The team also builds and applies OpenAI’s own technologies to develop internal intelligence systems, tools, and workflows that improve how competitive insight is generated, analyzed, and operationalized. These systems help OpenAI understand competitive dynamics, respond quickly to market developments, and surface high-quality intelligence across the organization. About the Role As a Business Insights Intern, you will help improve and extend OpenAI’"
+    },
+    {
       "job_uid": "1f97d174e9d7ccca",
       "source": "greenhouse",
       "job_id": "1f97d174e9d7ccca",
@@ -395,7 +431,7 @@
         "Internship"
       ],
       "created_at": null,
-      "updated_at": "2026-04-27T16:33:15-04:00",
+      "updated_at": "2026-05-06T12:27:19-04:00",
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.2,
@@ -506,7 +542,7 @@
         "Internship"
       ],
       "created_at": null,
-      "updated_at": "2026-04-27T16:33:15-04:00",
+      "updated_at": "2026-05-06T12:27:19-04:00",
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.2,
