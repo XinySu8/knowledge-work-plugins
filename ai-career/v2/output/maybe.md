@@ -84,12 +84,6 @@
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1
 
-- okta | Social Media Engagement Intern (Summer 2026) | Chicago, Illinois | score=0.411
-  - url: https://www.okta.com/company/careers/opportunity/7818811?gh_jid=7818811
-  - must_hits: machine learning
-  - nice_hits: None
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0
-
 - ramp | Software Engineer Internship, Android  | New York, NY (HQ) | score=0.388
   - url: https://jobs.ashbyhq.com/ramp/67fadb77-43d8-4449-954b-d4cf2c6d3b8b/application
   - must_hits: python, sql

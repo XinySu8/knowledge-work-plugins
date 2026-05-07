@@ -2,9 +2,9 @@
   "meta": {
     "engine_name": "AutoJob-Agent Feeder",
     "version": 2,
-    "generated_at": "2026-05-06T17:00:24.045419+00:00",
-    "source_jobs_count": 123,
-    "candidates_count": 19,
+    "generated_at": "2026-05-07T17:15:58.861615+00:00",
+    "source_jobs_count": 127,
+    "candidates_count": 17,
     "candidates_topN_total": 150,
     "thresholds": {
       "apply": 0.72,
@@ -13,43 +13,6 @@
     "config_digest": "7f9d61b8fda9e66343b1828d5752df0d87053bf5"
   },
   "candidates": [
-    {
-      "job_uid": "83a840a31a86892a",
-      "source": "greenhouse",
-      "job_id": "83a840a31a86892a",
-      "company": "okta",
-      "title": "AI Content Operations Intern (Summer 2026)",
-      "location": "Chicago, Illinois",
-      "url": "https://www.okta.com/company/careers/opportunity/7818807?gh_jid=7818807",
-      "departments": [
-        "Customer Acceleration-731"
-      ],
-      "created_at": null,
-      "updated_at": "2026-04-26T14:29:38-04:00",
-      "scores": {
-        "hard_raw": 5.0,
-        "hard_norm": 0.5,
-        "semantic_raw": 0.5319120287889884,
-        "semantic_norm": 0.9018309867219193,
-        "final": 0.7210070426970556
-      },
-      "signals": {
-        "must_hits": [
-          "machine learning",
-          "llm",
-          "git"
-        ],
-        "nice_hits": [],
-        "neg_hits": []
-      },
-      "text_hash": "0758f7af1a53c11c1a5e80f41abfbb8e5f5085a3",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=0",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. About the Internship: We are looking for an inquisitive and detail-oriented AI Co"
-    },
     {
       "job_uid": "5936ffed28038e5d",
       "source": "greenhouse",
@@ -248,7 +211,7 @@
         "Customer Acceleration-731"
       ],
       "created_at": null,
-      "updated_at": "2026-04-26T14:29:38-04:00",
+      "updated_at": "2026-05-06T16:52:12-04:00",
       "scores": {
         "hard_raw": 4.0,
         "hard_norm": 0.4,
@@ -285,7 +248,7 @@
         "Interns - Customer First"
       ],
       "created_at": null,
-      "updated_at": "2026-04-26T14:29:38-04:00",
+      "updated_at": "2026-05-06T16:52:12-04:00",
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.3,
@@ -522,7 +485,7 @@
         ],
         "neg_hits": []
       },
-      "text_hash": "bbda55331fe2582097cbbea6b29dfc93f0e6491e",
+      "text_hash": "08c70356bb0c8faad2a62aedf00b8620130b5907",
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1",
       "hard_gate": {
         "hit": false,
@@ -566,41 +529,6 @@
       "jd_excerpt": "At Asana we’re looking for curious, collaborative, and creative students to join our 12-week summer Product Design internship program. This program focuses on bringing students currently studying at a college or university into our Design team to develop and work on complex and challenging problems. During this internship, you’ll work directly with dedicated Design mentors who are trained and motivated to ensure your success. You’ll also have the opportunity to work with Engineering, User Research, Product Management, Data Science, and the rest of our amazing Design crew to ship experiences th"
     },
     {
-      "job_uid": "c275ec712b8e8539",
-      "source": "greenhouse",
-      "job_id": "c275ec712b8e8539",
-      "company": "okta",
-      "title": "Social Media Engagement Intern (Summer 2026)",
-      "location": "Chicago, Illinois",
-      "url": "https://www.okta.com/company/careers/opportunity/7818811?gh_jid=7818811",
-      "departments": [
-        "Customer Acceleration-731"
-      ],
-      "created_at": null,
-      "updated_at": "2026-04-26T14:29:38-04:00",
-      "scores": {
-        "hard_raw": 2.0,
-        "hard_norm": 0.2,
-        "semantic_raw": 0.40283891558606866,
-        "semantic_norm": 0.5832978670013993,
-        "final": 0.41081382685076967
-      },
-      "signals": {
-        "must_hits": [
-          "machine learning"
-        ],
-        "nice_hits": [],
-        "neg_hits": []
-      },
-      "text_hash": "55d62e08b65dee2e9c561454d8e66807f8e3bad1",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. About the Internship: The Social Media Engagement Intern will be an integral part"
-    },
-    {
       "job_uid": "b230852d1c35c17a",
       "source": "ashby",
       "job_id": "b230852d1c35c17a",
@@ -631,7 +559,7 @@
         ],
         "neg_hits": []
       },
-      "text_hash": "10c207d29a2237a365c6c4ca588b2fda7c375906",
+      "text_hash": "58a2522ba6ac893f884982be30506f4984558d10",
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1",
       "hard_gate": {
         "hit": false,
