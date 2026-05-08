@@ -1,36 +1,8 @@
 {
-  "generated_at_utc": "2026-05-07T16:05:03.794916+00:00",
-  "source_generated_at_utc": "2026-05-07T16:05:03.705297+00:00",
-  "count": 6,
+  "generated_at_utc": "2026-05-08T14:59:13.426814+00:00",
+  "source_generated_at_utc": "2026-05-08T14:59:13.332301+00:00",
+  "count": 5,
   "jobs": [
-    {
-      "id": "b35597b79d3ae32f",
-      "company": "stripe",
-      "title": "Software Engineer, Intern (Summer)",
-      "location": "San Francisco, Seattle, New York City",
-      "url": "https://stripe.com/jobs/search?gh_jid=7210115",
-      "source": "greenhouse",
-      "score": 32,
-      "breakdown": {
-        "title": 15,
-        "location": 15,
-        "have": 2,
-        "want+bonus": 0,
-        "penalty": 0,
-        "detected_mode": "none",
-        "city_tier": "tier1"
-      },
-      "hard_flags": [],
-      "soft_flags": [],
-      "matched_titles": [
-        "software engineer"
-      ],
-      "matched_skills_have": [
-        "Java"
-      ],
-      "matched_skills_want": [],
-      "matched_bonus": []
-    },
     {
       "id": "b230852d1c35c17a",
       "company": "ramp",

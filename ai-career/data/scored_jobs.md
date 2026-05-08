@@ -1,13 +1,8 @@
 # Scored job feed (auto)
-Generated at (UTC): 2026-05-07T16:05:03.794916+00:00
-Total jobs scored: 6
+Generated at (UTC): 2026-05-08T14:59:13.426814+00:00
+Total jobs scored: 5
 
 ## Top internships
-[32/100] [stripe] Software Engineer, Intern (Summer) (San Francisco, Seattle, New York City) — https://stripe.com/jobs/search?gh_jid=7210115
-breakdown: title 15, location 15, have 2, want+bonus 0, penalty 0
-matched_titles: software engineer
-matched_skills_have: Java
-
 [29/100] [ramp] Software Engineer Internship, Android  (New York, NY (HQ)) — https://jobs.ashbyhq.com/ramp/67fadb77-43d8-4449-954b-d4cf2c6d3b8b/application
 breakdown: title 15, location 8, have 6, want+bonus 0, penalty 0
 matched_titles: software engineer
