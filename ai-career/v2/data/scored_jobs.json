@@ -2,8 +2,8 @@
   "meta": {
     "version": 2,
     "model_name": "sentence-transformers/all-MiniLM-L6-v2",
-    "jobs_total": 102,
-    "jobs_scored": 102,
+    "jobs_total": 100,
+    "jobs_scored": 100,
     "non_gated_count": 20
   },
   "scored_jobs": [
@@ -33,12 +33,12 @@
         "norm": 0.2
       },
       "semantic": {
-        "raw": 0.44624688580550465,
+        "raw": 0.4462467133994408,
         "cache_reused": true,
-        "norm": 0.6904217669803645
+        "norm": 0.6904218133801732
       },
       "text_hash": "8b4f28da415af4941b87116a7c827c11e65b09ec",
-      "final_score": 0.4697319718392005,
+      "final_score": 0.4697319973590953,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0"
     },
     {
@@ -67,7 +67,7 @@
         "norm": 0.2
       },
       "semantic": {
-        "raw": 0.5716914620025952,
+        "raw": 0.5716911895085334,
         "cache_reused": true,
         "norm": 1.0
       },
@@ -105,12 +105,12 @@
         "norm": 0.1
       },
       "semantic": {
-        "raw": 0.46958946819132913,
-        "cache_reused": false,
-        "norm": 0.748027728339469
+        "raw": 0.4695893805969657,
+        "cache_reused": true,
+        "norm": 0.7480280213697182
       },
       "text_hash": "82868d57981cc2941e0b693e0f81574caf9c9628",
-      "final_score": 0.45641525058670795,
+      "final_score": 0.45641541175334505,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
     },
     {
@@ -269,12 +269,12 @@
         "norm": 0.4
       },
       "semantic": {
-        "raw": 0.4293723022185207,
+        "raw": 0.4293722170212873,
         "cache_reused": true,
-        "norm": 0.6487778479830777
+        "norm": 0.648778082616544
       },
       "text_hash": "c9624f6268258f7b9b1b63bef2e1bd652a7feb8c",
-      "final_score": 0.5368278163906928,
+      "final_score": 0.5368279454390993,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
     },
     {
@@ -304,12 +304,12 @@
         "norm": 0.3
       },
       "semantic": {
-        "raw": 0.41508134187196016,
+        "raw": 0.41508122772421024,
         "cache_reused": true,
-        "norm": 0.6135099202147944
+        "norm": 0.6135100605495939
       },
       "text_hash": "be56d7b636036fa5cb719b529a3bb06c92d03d72",
-      "final_score": 0.472430456118137,
+      "final_score": 0.4724305333022767,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0"
     },
     {
@@ -402,12 +402,12 @@
         "norm": 0.2
       },
       "semantic": {
-        "raw": 0.4066547397761296,
+        "raw": 0.4066547155376182,
         "cache_reused": true,
-        "norm": 0.5927143412725198
+        "norm": 0.5927146900146139
       },
       "text_hash": "95a9e26a46c379eda417ac6214b58d6b84b02fe4",
-      "final_score": 0.4159928876998859,
+      "final_score": 0.41599307950803766,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1"
     },
     {
@@ -436,12 +436,12 @@
         "norm": 0.2
       },
       "semantic": {
-        "raw": 0.4271014587339338,
+        "raw": 0.4271014034743806,
         "cache_reused": true,
-        "norm": 0.6431737498647336
+        "norm": 0.6431740547485352
       },
       "text_hash": "4085c4b7198e58d55fa17e8fec5d2a53c89a58c1",
-      "final_score": 0.44374556242560353,
+      "final_score": 0.4437457301116944,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1"
     },
     {
@@ -569,12 +569,12 @@
         "norm": 1.0
       },
       "semantic": {
-        "raw": 0.27897228473231817,
+        "raw": 0.2789721953253457,
         "cache_reused": true,
-        "norm": 0.2776133618729103
+        "norm": 0.2776133456079498
       },
       "text_hash": "25d0f87b3f0f22f58ece1b61cca9671860df5bcf",
-      "final_score": 0.6026873490301007,
+      "final_score": 0.6026873400843724,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=4, nice_hits=0"
     },
     {
@@ -639,12 +639,12 @@
         "norm": 0.8
       },
       "semantic": {
-        "raw": 0.4216969171216295,
+        "raw": 0.4216968072467883,
         "cache_reused": true,
-        "norm": 0.6298361589274456
+        "norm": 0.6298363203863196
       },
       "text_hash": "a03354be29cb2c91a80e9131f92d4251e6d276b3",
-      "final_score": 0.7064098874100951,
+      "final_score": 0.7064099762124758,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=3, nice_hits=1"
     },
     {
@@ -1029,12 +1029,12 @@
         "norm": 0.2
       },
       "semantic": {
-        "raw": 0.5347861093022375,
+        "raw": 0.5347860496975856,
         "cache_reused": true,
-        "norm": 0.9089231736891294
+        "norm": 0.9089236400518056
       },
       "text_hash": "250a71396f83dfa1e4540be9bafad92cd94efb1b",
-      "final_score": 0.5899077455290213,
+      "final_score": 0.5899080020284931,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1"
     },
     {
@@ -1127,12 +1127,12 @@
         "norm": 0.2
       },
       "semantic": {
-        "raw": 0.3093396609624905,
+        "raw": 0.30933967232673226,
         "cache_reused": true,
-        "norm": 0.3525554515174147
+        "norm": 0.3525557325021555
       },
       "text_hash": "50ca310d0dc25f47feee47e403a71aa73c2880bc",
-      "final_score": 0.2839054983345781,
+      "final_score": 0.2839056528761855,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1"
     },
     {
@@ -1777,38 +1777,6 @@
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
-      "job_uid": "a69b027a9f170de6",
-      "source": "greenhouse",
-      "company": "cloudflare",
-      "title": "Security Engineer Intern (Summer 2026)",
-      "location": "In-Office",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/7582150?gh_jid=7582150",
-      "updated_at": "2026-04-21T15:53:17-04:00",
-      "created_at": null,
-      "departments": [
-        "University"
-      ],
-      "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
-      },
-      "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.0
-      },
-      "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
-      },
-      "text_hash": "dbc1fa222ad4fc61fd645de78471c0000d556751",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
-    },
-    {
       "job_uid": "27fa7db8097260ad",
       "source": "greenhouse",
       "company": "cloudflare",
@@ -1837,6 +1805,38 @@
         "norm": 0.0
       },
       "text_hash": "5e5d6c78295b889c0de46f5fc9195e25ca182285",
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
+    },
+    {
+      "job_uid": "a69b027a9f170de6",
+      "source": "greenhouse",
+      "company": "cloudflare",
+      "title": "Security Engineer Intern (Summer 2026)",
+      "location": "In-Office",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7582150?gh_jid=7582150",
+      "updated_at": "2026-04-21T15:53:17-04:00",
+      "created_at": null,
+      "departments": [
+        "University"
+      ],
+      "hard_gate": {
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
+      },
+      "hard": {
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
+      },
+      "text_hash": "dbc1fa222ad4fc61fd645de78471c0000d556751",
       "final_score": 0.0,
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
@@ -1996,12 +1996,12 @@
         "norm": 0.3
       },
       "semantic": {
-        "raw": 0.3917254741024317,
+        "raw": 0.39172533154448436,
         "cache_reused": true,
-        "norm": 0.5558711725389218
+        "norm": 0.5558712054125011
       },
       "text_hash": "063c2c3c89b88382484348dd7eebbfa3c6f66dfd",
-      "final_score": 0.440729144896407,
+      "final_score": 0.44072916297687564,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
     },
     {
@@ -2067,12 +2067,12 @@
         "norm": 0.7
       },
       "semantic": {
-        "raw": 0.3378145896082474,
+        "raw": 0.3378145396706064,
         "cache_reused": true,
-        "norm": 0.4228272668700666
+        "norm": 0.4228274421060965
       },
       "text_hash": "9822a2c19ffa79334ffdcdccf3fd99ccce7fbed9",
-      "final_score": 0.5475549967785367,
+      "final_score": 0.547555093158353,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1"
     },
     {
@@ -2137,12 +2137,12 @@
         "norm": 0.4
       },
       "semantic": {
-        "raw": 0.2915546471804235,
+        "raw": 0.2915545701977675,
         "cache_reused": true,
-        "norm": 0.30866472855597143
+        "norm": 0.3086647630732174
       },
       "text_hash": "8ede221b50d74385608477cbdfe3ce895918eb2c",
-      "final_score": 0.34976560070578433,
+      "final_score": 0.3497656196902696,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1"
     },
     {
@@ -2172,7 +2172,7 @@
         "norm": 0.2
       },
       "semantic": {
-        "raw": 0.16648023324952563,
+        "raw": 0.16648022332652987,
         "cache_reused": true,
         "norm": 0.0
       },
@@ -2339,12 +2339,12 @@
         "norm": 0.2
       },
       "semantic": {
-        "raw": 0.19263790205923736,
+        "raw": 0.19263783097247886,
         "cache_reused": true,
-        "norm": 0.06455316870217305
+        "norm": 0.0645530595887183
       },
       "text_hash": "d5269028a997a2c953510c8759d4ccbfc3ef57dc",
-      "final_score": 0.1255042427861952,
+      "final_score": 0.12550418277379508,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1"
     },
     {
@@ -2376,12 +2376,12 @@
         "norm": 0.0
       },
       "semantic": {
-        "raw": 0.2915546471804235,
+        "raw": 0.2915545701977675,
         "cache_reused": true,
-        "norm": 0.30866472855597143
+        "norm": 0.3086647630732174
       },
       "text_hash": "6c207af14be7604173001472f1fb27618a6cd572",
-      "final_score": 0.1697656007057843,
+      "final_score": 0.16976561969026957,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1"
     },
     {
@@ -2413,12 +2413,12 @@
         "norm": 0.0
       },
       "semantic": {
-        "raw": 0.2915546471804235,
+        "raw": 0.2915545701977675,
         "cache_reused": true,
-        "norm": 0.30866472855597143
+        "norm": 0.3086647630732174
       },
       "text_hash": "6c207af14be7604173001472f1fb27618a6cd572",
-      "final_score": 0.1697656007057843,
+      "final_score": 0.16976561969026957,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1"
     },
     {
@@ -2484,12 +2484,12 @@
         "norm": 0.7
       },
       "semantic": {
-        "raw": 0.2199843192079632,
-        "cache_reused": true,
-        "norm": 0.13203998843537051
+        "raw": 0.21998427629355108,
+        "cache_reused": false,
+        "norm": 0.13203999257756877
       },
-      "text_hash": "58a2522ba6ac893f884982be30506f4984558d10",
-      "final_score": 0.3876219936394538,
+      "text_hash": "f352671d9e49b39414c19bb9674f05fdd89abe5d",
+      "final_score": 0.38762199591766283,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1"
     },
     {
@@ -2522,45 +2522,13 @@
         "norm": 0.7
       },
       "semantic": {
-        "raw": 0.24440200593459044,
+        "raw": 0.24440197646593448,
         "cache_reused": true,
-        "norm": 0.19229914463340136
+        "norm": 0.19229922100480737
       },
       "text_hash": "08c70356bb0c8faad2a62aedf00b8620130b5907",
-      "final_score": 0.42076452954837074,
+      "final_score": 0.4207645715526441,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1"
-    },
-    {
-      "job_uid": "3dad4e8412818c04",
-      "source": "lever",
-      "company": "zoox",
-      "title": "PhD Research Intern, Object Detection and Tracking",
-      "location": "Foster City, CA",
-      "url": "https://jobs.lever.co/zoox/b6da7d77-18ae-4ba7-a4d2-af1891c87d42",
-      "updated_at": 1776817803021,
-      "created_at": 1776817803021,
-      "departments": [
-        "Software"
-      ],
-      "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
-      },
-      "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.0
-      },
-      "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
-      },
-      "text_hash": "420705bd7d7ba38e7bf721667fedc5dc5c2e1896",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "b3fb0b6e4a167e9f",
@@ -2627,14 +2595,14 @@
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
-      "job_uid": "b573b21266a5f211",
+      "job_uid": "6233f3131208be6e",
       "source": "lever",
       "company": "zoox",
-      "title": "PhD Research Intern, Multi-Agent Driving Simulation",
+      "title": "PT Student Worker-AI Driven trouble shooting Robot",
       "location": "Foster City, CA",
-      "url": "https://jobs.lever.co/zoox/07681120-7f8d-4431-a293-daf2485244fa",
-      "updated_at": 1776553544246,
-      "created_at": 1776553544246,
+      "url": "https://jobs.lever.co/zoox/0bb2dd41-e6a9-41a5-bafc-8a438f0a7cca",
+      "updated_at": 1776461154764,
+      "created_at": 1776461154764,
       "departments": [
         "Software"
       ],
@@ -2654,7 +2622,7 @@
         "cache_reused": false,
         "norm": 0.0
       },
-      "text_hash": "80e5647bb997d09b0d163624544368aed24f90cf",
+      "text_hash": "2240adb75d99ceb8cb670c3f7c461e02dbb66817",
       "final_score": 0.0,
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
@@ -3263,38 +3231,6 @@
         "norm": 0.0
       },
       "text_hash": "95554f58ecdd0356f8a0e7ca1e4ffb5589339015",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
-    },
-    {
-      "job_uid": "061f14f965f276c7",
-      "source": "lever",
-      "company": "zoox",
-      "title": "Machine Learning Engineer Intern, Simulation",
-      "location": "Foster City, CA",
-      "url": "https://jobs.lever.co/zoox/f24a2d0c-bda7-48ff-9c83-9a96900128b7",
-      "updated_at": 1763504799414,
-      "created_at": 1763504799414,
-      "departments": [
-        "Software"
-      ],
-      "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
-      },
-      "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.0
-      },
-      "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
-      },
-      "text_hash": "05b2c941c5822904758afd6fa59eb6014036afa5",
       "final_score": 0.0,
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },

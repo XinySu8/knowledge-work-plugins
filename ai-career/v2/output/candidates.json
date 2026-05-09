@@ -2,8 +2,8 @@
   "meta": {
     "engine_name": "AutoJob-Agent Feeder",
     "version": 2,
-    "generated_at": "2026-05-08T16:50:58.293229+00:00",
-    "source_jobs_count": 102,
+    "generated_at": "2026-05-09T16:14:44.274034+00:00",
+    "source_jobs_count": 100,
     "candidates_count": 15,
     "candidates_topN_total": 150,
     "thresholds": {
@@ -29,9 +29,9 @@
       "scores": {
         "hard_raw": 8.0,
         "hard_norm": 0.8,
-        "semantic_raw": 0.4216969171216295,
-        "semantic_norm": 0.6298361589274456,
-        "final": 0.7064098874100951
+        "semantic_raw": 0.4216968072467883,
+        "semantic_norm": 0.6298363203863196,
+        "final": 0.7064099762124758
       },
       "signals": {
         "must_hits": [
@@ -68,7 +68,7 @@
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.2,
-        "semantic_raw": 0.5716914620025952,
+        "semantic_raw": 0.5716911895085334,
         "semantic_norm": 1.0,
         "final": 0.64
       },
@@ -103,9 +103,9 @@
       "scores": {
         "hard_raw": 10.0,
         "hard_norm": 1.0,
-        "semantic_raw": 0.27897228473231817,
-        "semantic_norm": 0.2776133618729103,
-        "final": 0.6026873490301007
+        "semantic_raw": 0.2789721953253457,
+        "semantic_norm": 0.2776133456079498,
+        "final": 0.6026873400843724
       },
       "signals": {
         "must_hits": [
@@ -141,9 +141,9 @@
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.2,
-        "semantic_raw": 0.5347861093022375,
-        "semantic_norm": 0.9089231736891294,
-        "final": 0.5899077455290213
+        "semantic_raw": 0.5347860496975856,
+        "semantic_norm": 0.9089236400518056,
+        "final": 0.5899080020284931
       },
       "signals": {
         "must_hits": [],
@@ -177,9 +177,9 @@
       "scores": {
         "hard_raw": 7.0,
         "hard_norm": 0.7,
-        "semantic_raw": 0.3378145896082474,
-        "semantic_norm": 0.4228272668700666,
-        "final": 0.5475549967785367
+        "semantic_raw": 0.3378145396706064,
+        "semantic_norm": 0.4228274421060965,
+        "final": 0.547555093158353
       },
       "signals": {
         "must_hits": [
@@ -215,9 +215,9 @@
       "scores": {
         "hard_raw": 4.0,
         "hard_norm": 0.4,
-        "semantic_raw": 0.4293723022185207,
-        "semantic_norm": 0.6487778479830777,
-        "final": 0.5368278163906928
+        "semantic_raw": 0.4293722170212873,
+        "semantic_norm": 0.648778082616544,
+        "final": 0.5368279454390993
       },
       "signals": {
         "must_hits": [
@@ -252,9 +252,9 @@
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.3,
-        "semantic_raw": 0.41508134187196016,
-        "semantic_norm": 0.6135099202147944,
-        "final": 0.472430456118137
+        "semantic_raw": 0.41508122772421024,
+        "semantic_norm": 0.6135100605495939,
+        "final": 0.4724305333022767
       },
       "signals": {
         "must_hits": [
@@ -288,9 +288,9 @@
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.2,
-        "semantic_raw": 0.44624688580550465,
-        "semantic_norm": 0.6904217669803645,
-        "final": 0.4697319718392005
+        "semantic_raw": 0.4462467133994408,
+        "semantic_norm": 0.6904218133801732,
+        "final": 0.4697319973590953
       },
       "signals": {
         "must_hits": [
@@ -323,9 +323,9 @@
       "scores": {
         "hard_raw": 1.0,
         "hard_norm": 0.1,
-        "semantic_raw": 0.46958946819132913,
-        "semantic_norm": 0.748027728339469,
-        "final": 0.45641525058670795
+        "semantic_raw": 0.4695893805969657,
+        "semantic_norm": 0.7480280213697182,
+        "final": 0.45641541175334505
       },
       "signals": {
         "must_hits": [
@@ -362,9 +362,9 @@
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.2,
-        "semantic_raw": 0.4271014587339338,
-        "semantic_norm": 0.6431737498647336,
-        "final": 0.44374556242560353
+        "semantic_raw": 0.4271014034743806,
+        "semantic_norm": 0.6431740547485352,
+        "final": 0.4437457301116944
       },
       "signals": {
         "must_hits": [],
@@ -397,9 +397,9 @@
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.3,
-        "semantic_raw": 0.3917254741024317,
-        "semantic_norm": 0.5558711725389218,
-        "final": 0.440729144896407
+        "semantic_raw": 0.39172533154448436,
+        "semantic_norm": 0.5558712054125011,
+        "final": 0.44072916297687564
       },
       "signals": {
         "must_hits": [
@@ -435,9 +435,9 @@
       "scores": {
         "hard_raw": 7.0,
         "hard_norm": 0.7,
-        "semantic_raw": 0.24440200593459044,
-        "semantic_norm": 0.19229914463340136,
-        "final": 0.42076452954837074
+        "semantic_raw": 0.24440197646593448,
+        "semantic_norm": 0.19229922100480737,
+        "final": 0.4207645715526441
       },
       "signals": {
         "must_hits": [
@@ -473,9 +473,9 @@
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.2,
-        "semantic_raw": 0.4066547397761296,
-        "semantic_norm": 0.5927143412725198,
-        "final": 0.4159928876998859
+        "semantic_raw": 0.4066547155376182,
+        "semantic_norm": 0.5927146900146139,
+        "final": 0.41599307950803766
       },
       "signals": {
         "must_hits": [],
@@ -509,9 +509,9 @@
       "scores": {
         "hard_raw": 7.0,
         "hard_norm": 0.7,
-        "semantic_raw": 0.2199843192079632,
-        "semantic_norm": 0.13203998843537051,
-        "final": 0.3876219936394538
+        "semantic_raw": 0.21998427629355108,
+        "semantic_norm": 0.13203999257756877,
+        "final": 0.38762199591766283
       },
       "signals": {
         "must_hits": [
@@ -523,7 +523,7 @@
         ],
         "neg_hits": []
       },
-      "text_hash": "58a2522ba6ac893f884982be30506f4984558d10",
+      "text_hash": "f352671d9e49b39414c19bb9674f05fdd89abe5d",
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1",
       "hard_gate": {
         "hit": false,
@@ -548,9 +548,9 @@
       "scores": {
         "hard_raw": 4.0,
         "hard_norm": 0.4,
-        "semantic_raw": 0.2915546471804235,
-        "semantic_norm": 0.30866472855597143,
-        "final": 0.34976560070578433
+        "semantic_raw": 0.2915545701977675,
+        "semantic_norm": 0.3086647630732174,
+        "final": 0.3497656196902696
       },
       "signals": {
         "must_hits": [
