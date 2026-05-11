@@ -2,9 +2,9 @@
   "meta": {
     "engine_name": "AutoJob-Agent Feeder",
     "version": 2,
-    "generated_at": "2026-05-10T16:16:48.097207+00:00",
-    "source_jobs_count": 100,
-    "candidates_count": 15,
+    "generated_at": "2026-05-11T17:34:54.606544+00:00",
+    "source_jobs_count": 97,
+    "candidates_count": 12,
     "candidates_topN_total": 150,
     "thresholds": {
       "apply": 0.72,
@@ -200,79 +200,6 @@
       "jd_excerpt": "ABOUT US: Notion helps you build beautiful tools for your life’s work. In today's world of endless apps and tabs, Notion provides one place for teams to get everything done, seamlessly connecting docs, notes, projects, calendar, and email—with AI built in to find answers and automate work. Millions of users, from individuals to large organizations like Toyota, Figma, and OpenAI, love Notion for its flexibility and choose it because it helps them save time and money. In-person collaboration is essential to Notion's culture. We require all team members to work from our offices on Mondays, Tuesda"
     },
     {
-      "job_uid": "0c16d08f86772c6a",
-      "source": "greenhouse",
-      "job_id": "0c16d08f86772c6a",
-      "company": "okta",
-      "title": "Enablement Communications & Events Coordinator Intern",
-      "location": "Bellevue, Washington; Chicago, Illinois",
-      "url": "https://www.okta.com/company/careers/opportunity/7818817?gh_jid=7818817",
-      "departments": [
-        "Customer Acceleration-731"
-      ],
-      "created_at": null,
-      "updated_at": "2026-05-06T16:52:12-04:00",
-      "scores": {
-        "hard_raw": 4.0,
-        "hard_norm": 0.4,
-        "semantic_raw": 0.4293722170212873,
-        "semantic_norm": 0.648778082616544,
-        "final": 0.5368279454390993
-      },
-      "signals": {
-        "must_hits": [
-          "machine learning"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": []
-      },
-      "text_hash": "c9624f6268258f7b9b1b63bef2e1bd652a7feb8c",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. About the Internship: The Enablement Communications Coordinator Intern will be a "
-    },
-    {
-      "job_uid": "5c98c9a4fc5ce4d5",
-      "source": "greenhouse",
-      "job_id": "5c98c9a4fc5ce4d5",
-      "company": "okta",
-      "title": "Technical Account Management Intern (Summer 2026)",
-      "location": "Chicago, Illinois",
-      "url": "https://www.okta.com/company/careers/opportunity/7549331?gh_jid=7549331",
-      "departments": [
-        "Interns - Customer First"
-      ],
-      "created_at": null,
-      "updated_at": "2026-05-06T16:52:12-04:00",
-      "scores": {
-        "hard_raw": 3.0,
-        "hard_norm": 0.3,
-        "semantic_raw": 0.41508122772421024,
-        "semantic_norm": 0.6135100605495939,
-        "final": 0.4724305333022767
-      },
-      "signals": {
-        "must_hits": [
-          "machine learning",
-          "cloud"
-        ],
-        "nice_hits": [],
-        "neg_hits": []
-      },
-      "text_hash": "be56d7b636036fa5cb719b529a3bb06c92d03d72",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=0",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. About the Internship: Okta’s Technical Account Management Team empowers Okta cust"
-    },
-    {
       "job_uid": "be7eb8d7168d78fa",
       "source": "greenhouse",
       "job_id": "be7eb8d7168d78fa",
@@ -306,45 +233,6 @@
         "reason": ""
       },
       "jd_excerpt": "Scale’s Enterprise Applications business is growing faster than ever in the quest to develop reliable AI systems for the world’s most important decisions. As an AI Deployment Strategist Intern , you will work alongside our DSG team, helping our largest customers build, launch, and scale groundbreaking GenAI solutions that redefine their industries. You will support deployment success and contribute foundational industry knowledge to our team, helping turn bold ideas into real impact and ensuring engagements run smoothly. In this role, you will work directly with data, engineering, business, an"
-    },
-    {
-      "job_uid": "1e24bd723ca2390a",
-      "source": "greenhouse",
-      "job_id": "1e24bd723ca2390a",
-      "company": "anthropic",
-      "title": "Program Manager, Student Outreach",
-      "location": "San Francisco, CA | New York City, NY",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5102171008",
-      "departments": [
-        "Marketing & Brand"
-      ],
-      "created_at": null,
-      "updated_at": "2026-05-07T13:34:33-04:00",
-      "scores": {
-        "hard_raw": 1.0,
-        "hard_norm": 0.1,
-        "semantic_raw": 0.4695893805969657,
-        "semantic_norm": 0.7480280213697182,
-        "final": 0.45641541175334505
-      },
-      "signals": {
-        "must_hits": [
-          "git"
-        ],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": [
-          "5+ years"
-        ]
-      },
-      "text_hash": "82868d57981cc2941e0b693e0f81574caf9c9628",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "About Anthropic Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems. About the role Anthropic is seeking a Program Manager to own and drive our student outreach strategy, establishing Claude as the AI platform of choice for the next generation of builders, researchers, and creators at universities worldwide.&nbsp; You'll lead fla"
     },
     {
       "job_uid": "1f97d174e9d7ccca",
