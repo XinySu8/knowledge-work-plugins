@@ -30,12 +30,6 @@
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1
 
-- scaleai | AI Deployment Strategist Intern | New York, NY | score=0.470
-  - url: https://job-boards.greenhouse.io/scaleai/jobs/4677519005
-  - must_hits: machine learning
-  - nice_hits: None
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0
-
 - asana | Product Design Intern - Summer 2026 (San Francisco) | San Francisco | score=0.444
   - url: https://www.asana.com/jobs/apply/7490322?gh_jid=7490322
   - must_hits: None

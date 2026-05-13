@@ -2,9 +2,9 @@
   "meta": {
     "engine_name": "AutoJob-Agent Feeder",
     "version": 2,
-    "generated_at": "2026-05-12T17:32:54.908576+00:00",
-    "source_jobs_count": 93,
-    "candidates_count": 12,
+    "generated_at": "2026-05-13T17:34:29.633252+00:00",
+    "source_jobs_count": 89,
+    "candidates_count": 11,
     "candidates_topN_total": 150,
     "thresholds": {
       "apply": 0.72,
@@ -198,41 +198,6 @@
         "reason": ""
       },
       "jd_excerpt": "ABOUT US: Notion helps you build beautiful tools for your life’s work. In today's world of endless apps and tabs, Notion provides one place for teams to get everything done, seamlessly connecting docs, notes, projects, calendar, and email—with AI built in to find answers and automate work. Millions of users, from individuals to large organizations like Toyota, Figma, and OpenAI, love Notion for its flexibility and choose it because it helps them save time and money. In-person collaboration is essential to Notion's culture. We require all team members to work from our offices on Mondays, Tuesda"
-    },
-    {
-      "job_uid": "be7eb8d7168d78fa",
-      "source": "greenhouse",
-      "job_id": "be7eb8d7168d78fa",
-      "company": "scaleai",
-      "title": "AI Deployment Strategist Intern",
-      "location": "New York, NY",
-      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4677519005",
-      "departments": [
-        "Enterprise Operations"
-      ],
-      "created_at": null,
-      "updated_at": "2026-05-08T12:41:20-04:00",
-      "scores": {
-        "hard_raw": 2.0,
-        "hard_norm": 0.2,
-        "semantic_raw": 0.4462467133994408,
-        "semantic_norm": 0.6904218133801732,
-        "final": 0.4697319973590953
-      },
-      "signals": {
-        "must_hits": [
-          "machine learning"
-        ],
-        "nice_hits": [],
-        "neg_hits": []
-      },
-      "text_hash": "8b4f28da415af4941b87116a7c827c11e65b09ec",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=0",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "Scale’s Enterprise Applications business is growing faster than ever in the quest to develop reliable AI systems for the world’s most important decisions. As an AI Deployment Strategist Intern , you will work alongside our DSG team, helping our largest customers build, launch, and scale groundbreaking GenAI solutions that redefine their industries. You will support deployment success and contribute foundational industry knowledge to our team, helping turn bold ideas into real impact and ensuring engagements run smoothly. In this role, you will work directly with data, engineering, business, an"
     },
     {
       "job_uid": "1f97d174e9d7ccca",
