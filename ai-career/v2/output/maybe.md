@@ -18,12 +18,6 @@
   - nice_hits: None
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=4, nice_hits=0
 
-- datadog | IT Support Technician Intern | Boston, Massachusetts, USA | score=0.590
-  - url: https://careers.datadoghq.com/detail/7391788/?gh_jid=7391788
-  - must_hits: None
-  - nice_hits: rag
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1
-
 - notion | Software Engineer Intern (Fall 2026) | San Francisco, California | score=0.548
   - url: https://jobs.ashbyhq.com/notion/5b15697c-fa91-4511-9482-c98a6ff29f90/application
   - must_hits: python, llm

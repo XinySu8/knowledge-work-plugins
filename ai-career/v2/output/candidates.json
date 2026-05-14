@@ -2,9 +2,9 @@
   "meta": {
     "engine_name": "AutoJob-Agent Feeder",
     "version": 2,
-    "generated_at": "2026-05-13T17:34:29.633252+00:00",
-    "source_jobs_count": 89,
-    "candidates_count": 11,
+    "generated_at": "2026-05-14T17:18:45.022043+00:00",
+    "source_jobs_count": 86,
+    "candidates_count": 10,
     "candidates_topN_total": 150,
     "thresholds": {
       "apply": 0.72,
@@ -25,7 +25,7 @@
         "5112 General University"
       ],
       "created_at": null,
-      "updated_at": "2026-05-04T11:52:00-04:00",
+      "updated_at": "2026-05-14T13:08:51-04:00",
       "scores": {
         "hard_raw": 8.0,
         "hard_norm": 0.8,
@@ -99,7 +99,7 @@
         "5112 General University"
       ],
       "created_at": null,
-      "updated_at": "2026-05-11T13:37:07-04:00",
+      "updated_at": "2026-05-14T13:08:51-04:00",
       "scores": {
         "hard_raw": 10.0,
         "hard_norm": 1.0,
@@ -124,41 +124,6 @@
         "reason": ""
       },
       "jd_excerpt": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. About the team Our Data Science team partners deeply with teams across Stripe to"
-    },
-    {
-      "job_uid": "a8cacd3df10146bd",
-      "source": "greenhouse",
-      "job_id": "a8cacd3df10146bd",
-      "company": "datadog",
-      "title": "IT Support Technician Intern",
-      "location": "Boston, Massachusetts, USA",
-      "url": "https://careers.datadoghq.com/detail/7391788/?gh_jid=7391788",
-      "departments": [
-        "Engineering Interns"
-      ],
-      "created_at": null,
-      "updated_at": "2026-04-23T13:41:00-04:00",
-      "scores": {
-        "hard_raw": 2.0,
-        "hard_norm": 0.2,
-        "semantic_raw": 0.5347860496975856,
-        "semantic_norm": 0.9089236400518056,
-        "final": 0.5899080020284931
-      },
-      "signals": {
-        "must_hits": [],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": []
-      },
-      "text_hash": "250a71396f83dfa1e4540be9bafad92cd94efb1b",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "We're looking for IT support interns to join Datadog's Enterprise IT organization — the team responsible for managing the internal tools, systems, and services that keep Datadog running smoothly as we scale. As part of this team, you'll work alongside IT professionals to troubleshoot issues, support employee onboarding and offboarding, manage SaaS applications, and help maintain the infrastructure that internal teams rely on every day. This means providing excellent customer service to our employees to support thousands of endpoint devices such as macOS, iOS, Chrome OS and Windows. In addition"
     },
     {
       "job_uid": "d34d7d626a0a1cfe",
