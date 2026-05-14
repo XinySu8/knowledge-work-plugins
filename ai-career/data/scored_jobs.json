@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-05-13T16:16:35.507373+00:00",
-  "source_generated_at_utc": "2026-05-13T16:16:35.410484+00:00",
+  "generated_at_utc": "2026-05-14T15:24:49.069154+00:00",
+  "source_generated_at_utc": "2026-05-14T15:24:48.967886+00:00",
   "count": 5,
   "jobs": [
     {
@@ -34,32 +34,6 @@
       "matched_bonus": []
     },
     {
-      "id": "ea6377e034514778",
-      "company": "replit",
-      "title": "Software Engineering Intern (Summer 2026)",
-      "location": "Foster City, CA (Hybrid) In office M,W,F",
-      "url": "https://jobs.ashbyhq.com/replit/12737078-74c7-4e63-98a7-5e8da1e9deb1/application",
-      "source": "ashby",
-      "score": 22,
-      "breakdown": {
-        "title": 15,
-        "location": 7,
-        "have": 0,
-        "want+bonus": 0,
-        "penalty": 0,
-        "detected_mode": "hybrid",
-        "city_tier": "none"
-      },
-      "hard_flags": [],
-      "soft_flags": [],
-      "matched_titles": [
-        "software engineer"
-      ],
-      "matched_skills_have": [],
-      "matched_skills_want": [],
-      "matched_bonus": []
-    },
-    {
       "id": "8b6b0a9b6e604956",
       "company": "stripe",
       "title": "Software Engineer, Intern",
@@ -88,25 +62,27 @@
       "matched_bonus": []
     },
     {
-      "id": "5e8c66964a1fbf42",
+      "id": "ea6377e034514778",
       "company": "replit",
-      "title": "Education Team Intern",
-      "location": "Foster City, CA (Hybrid) In office M,W,F",
-      "url": "https://jobs.ashbyhq.com/replit/3590c5b2-3983-40f3-a787-ef3b1bc8218c/application",
+      "title": "Software Engineering Intern (Summer 2026)",
+      "location": "Foster City, CA",
+      "url": "https://jobs.ashbyhq.com/replit/12737078-74c7-4e63-98a7-5e8da1e9deb1/application",
       "source": "ashby",
-      "score": 7,
+      "score": 15,
       "breakdown": {
-        "title": 0,
-        "location": 7,
+        "title": 15,
+        "location": 0,
         "have": 0,
         "want+bonus": 0,
         "penalty": 0,
-        "detected_mode": "hybrid",
+        "detected_mode": "none",
         "city_tier": "none"
       },
       "hard_flags": [],
       "soft_flags": [],
-      "matched_titles": [],
+      "matched_titles": [
+        "software engineer"
+      ],
       "matched_skills_have": [],
       "matched_skills_want": [],
       "matched_bonus": []
@@ -140,6 +116,30 @@
       "matched_bonus": [
         "rag"
       ]
+    },
+    {
+      "id": "5e8c66964a1fbf42",
+      "company": "replit",
+      "title": "Education Team Intern",
+      "location": "Foster City, CA",
+      "url": "https://jobs.ashbyhq.com/replit/3590c5b2-3983-40f3-a787-ef3b1bc8218c/application",
+      "source": "ashby",
+      "score": 0,
+      "breakdown": {
+        "title": 0,
+        "location": 0,
+        "have": 0,
+        "want+bonus": 0,
+        "penalty": 0,
+        "detected_mode": "none",
+        "city_tier": "none"
+      },
+      "hard_flags": [],
+      "soft_flags": [],
+      "matched_titles": [],
+      "matched_skills_have": [],
+      "matched_skills_want": [],
+      "matched_bonus": []
     }
   ]
 }
