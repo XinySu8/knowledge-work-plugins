@@ -2,9 +2,9 @@
   "meta": {
     "engine_name": "AutoJob-Agent Feeder",
     "version": 2,
-    "generated_at": "2026-05-15T17:09:08.675485+00:00",
-    "source_jobs_count": 87,
-    "candidates_count": 10,
+    "generated_at": "2026-05-16T16:16:42.623590+00:00",
+    "source_jobs_count": 86,
+    "candidates_count": 11,
     "candidates_topN_total": 150,
     "thresholds": {
       "apply": 0.72,
@@ -29,9 +29,9 @@
       "scores": {
         "hard_raw": 8.0,
         "hard_norm": 0.8,
-        "semantic_raw": 0.4216969171216295,
-        "semantic_norm": 0.6298361589274456,
-        "final": 0.7064098874100951
+        "semantic_raw": 0.4216968072467883,
+        "semantic_norm": 0.5872881789522939,
+        "final": 0.6830084984237617
       },
       "signals": {
         "must_hits": [
@@ -68,9 +68,9 @@
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.2,
-        "semantic_raw": 0.5716914620025952,
-        "semantic_norm": 1.0,
-        "final": 0.64
+        "semantic_raw": 0.5716911895085334,
+        "semantic_norm": 0.9324457163601994,
+        "final": 0.6028451439981096
       },
       "signals": {
         "must_hits": [],
@@ -88,6 +88,41 @@
       "jd_excerpt": "About the Program The Scale AI Technical Advisor Specialist (Part-Time Internship) role is a summer semester opportunity designed for university students, ideally with experience in competitive coding, mathematics, and STEM disciplines. These Specialists will immerse themselves in real-world projects that push the boundaries of generative AI, gaining firsthand exposure to cutting-edge research and technology. Throughout the program, you’ll have the freedom to work flexibly around your academic schedule, the chance to connect directly with AI experts, and the support of a team that values your "
     },
     {
+      "job_uid": "aa360418fc674c6c",
+      "source": "greenhouse",
+      "job_id": "aa360418fc674c6c",
+      "company": "databricks",
+      "title": "University Recruiter (Contract)",
+      "location": "Remote - California",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7295190002",
+      "departments": [
+        "Recruiting"
+      ],
+      "created_at": null,
+      "updated_at": "2026-05-15T19:18:48-04:00",
+      "scores": {
+        "hard_raw": 1.0,
+        "hard_norm": 0.1,
+        "semantic_raw": 0.6010481119149873,
+        "semantic_norm": 1.0,
+        "final": 0.5950000000000001
+      },
+      "signals": {
+        "must_hits": [],
+        "nice_hits": [
+          "mlflow"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "d1aea54798cc46f849cbcf19f37056fe9f14c803",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "REQ P-1075 This role is remote-friendly, candidates from any remote U.S. location are welcome to apply. As a University Recruiter (Contract), you will be an integral part of the early career hiring process. You will focus on supporting Engineering hiring teams &amp; leaders through the intern program, full cycle recruiting, and recruiting events &amp; programs. The impact you will have: Advise and partner with managers and directors in our Engineering organization Full-cycle recruiting from source to close for technical intern and new grad candidates Partner with UR Team to assist with team ma"
+    },
+    {
       "job_uid": "d7919fb1117c5a15",
       "source": "greenhouse",
       "job_id": "d7919fb1117c5a15",
@@ -103,9 +138,9 @@
       "scores": {
         "hard_raw": 10.0,
         "hard_norm": 1.0,
-        "semantic_raw": 0.27897228473231817,
-        "semantic_norm": 0.2776133618729103,
-        "final": 0.6026873490301007
+        "semantic_raw": 0.2789721953253457,
+        "semantic_norm": 0.2588593749165564,
+        "final": 0.5923726562041061
       },
       "signals": {
         "must_hits": [
@@ -142,9 +177,9 @@
       "scores": {
         "hard_raw": 7.0,
         "hard_norm": 0.7,
-        "semantic_raw": 0.3378145896082474,
-        "semantic_norm": 0.4228272668700666,
-        "final": 0.5475549967785367
+        "semantic_raw": 0.3378145396706064,
+        "semantic_norm": 0.39426363715136986,
+        "final": 0.5318450004332534
       },
       "signals": {
         "must_hits": [
@@ -165,41 +200,6 @@
       "jd_excerpt": "ABOUT US: Notion helps you build beautiful tools for your life’s work. In today's world of endless apps and tabs, Notion provides one place for teams to get everything done, seamlessly connecting docs, notes, projects, calendar, and email—with AI built in to find answers and automate work. Millions of users, from individuals to large organizations like Toyota, Figma, and OpenAI, love Notion for its flexibility and choose it because it helps them save time and money. In-person collaboration is essential to Notion's culture. We require all team members to work from our offices on Mondays, Tuesda"
     },
     {
-      "job_uid": "1f97d174e9d7ccca",
-      "source": "greenhouse",
-      "job_id": "1f97d174e9d7ccca",
-      "company": "asana",
-      "title": "Product Design Intern - Summer 2026 (San Francisco)",
-      "location": "San Francisco",
-      "url": "https://www.asana.com/jobs/apply/7490322?gh_jid=7490322",
-      "departments": [
-        "Internship"
-      ],
-      "created_at": null,
-      "updated_at": "2026-05-06T12:27:19-04:00",
-      "scores": {
-        "hard_raw": 2.0,
-        "hard_norm": 0.2,
-        "semantic_raw": 0.4271014587339338,
-        "semantic_norm": 0.6431737498647336,
-        "final": 0.44374556242560353
-      },
-      "signals": {
-        "must_hits": [],
-        "nice_hits": [
-          "rag"
-        ],
-        "neg_hits": []
-      },
-      "text_hash": "4085c4b7198e58d55fa17e8fec5d2a53c89a58c1",
-      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1",
-      "hard_gate": {
-        "hit": false,
-        "reason": ""
-      },
-      "jd_excerpt": "At Asana we’re looking for curious, collaborative, and creative students to join our 12-week summer Product Design internship program. This program focuses on bringing students currently studying at a college or university into our Design team to develop and work on complex and challenging problems. During this internship, you’ll work directly with dedicated Design mentors who are trained and motivated to ensure your success. You’ll also have the opportunity to work with Engineering, User Research, Product Management, Data Science, and the rest of our amazing Design crew to ship experiences th"
-    },
-    {
       "job_uid": "119fc6123c9f2f04",
       "source": "greenhouse",
       "job_id": "119fc6123c9f2f04",
@@ -215,9 +215,9 @@
       "scores": {
         "hard_raw": 3.0,
         "hard_norm": 0.3,
-        "semantic_raw": 0.3917254741024317,
-        "semantic_norm": 0.5558711725389218,
-        "final": 0.440729144896407
+        "semantic_raw": 0.39172533154448436,
+        "semantic_norm": 0.5183197243348671,
+        "final": 0.42007584838417694
       },
       "signals": {
         "must_hits": [
@@ -237,6 +237,41 @@
       "jd_excerpt": "Company Description: At Databricks, we are obsessed with enabling data teams to solve the world’s toughest problems, from security threat detection to cancer drug development. We do this by building and running the world’s best data and AI platform, so our customers can focus on the high value challenges that are central to their own missions. The Mosaic AI organization enables companies to develop AI models and systems using their own data, with technologies ranging from fine-tuning LLMs for enterprise domains, to a platform for building compound AI systems that use retrieval and agents. Mosa"
     },
     {
+      "job_uid": "1f97d174e9d7ccca",
+      "source": "greenhouse",
+      "job_id": "1f97d174e9d7ccca",
+      "company": "asana",
+      "title": "Product Design Intern - Summer 2026 (San Francisco)",
+      "location": "San Francisco",
+      "url": "https://www.asana.com/jobs/apply/7490322?gh_jid=7490322",
+      "departments": [
+        "Internship"
+      ],
+      "created_at": null,
+      "updated_at": "2026-05-15T13:56:18-04:00",
+      "scores": {
+        "hard_raw": 2.0,
+        "hard_norm": 0.2,
+        "semantic_raw": 0.4271014034743806,
+        "semantic_norm": 0.5997248922242919,
+        "final": 0.4198486907233606
+      },
+      "signals": {
+        "must_hits": [],
+        "nice_hits": [
+          "rag"
+        ],
+        "neg_hits": []
+      },
+      "text_hash": "4085c4b7198e58d55fa17e8fec5d2a53c89a58c1",
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1",
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "jd_excerpt": "At Asana we’re looking for curious, collaborative, and creative students to join our 12-week summer Product Design internship program. This program focuses on bringing students currently studying at a college or university into our Design team to develop and work on complex and challenging problems. During this internship, you’ll work directly with dedicated Design mentors who are trained and motivated to ensure your success. You’ll also have the opportunity to work with Engineering, User Research, Product Management, Data Science, and the rest of our amazing Design crew to ship experiences th"
+    },
+    {
       "job_uid": "2d97101576e1b003",
       "source": "ashby",
       "job_id": "2d97101576e1b003",
@@ -253,9 +288,9 @@
       "scores": {
         "hard_raw": 7.0,
         "hard_norm": 0.7,
-        "semantic_raw": 0.24440200593459044,
-        "semantic_norm": 0.19229914463340136,
-        "final": 0.42076452954837074
+        "semantic_raw": 0.24440197646593448,
+        "semantic_norm": 0.1793085848853359,
+        "final": 0.4136197216869347
       },
       "signals": {
         "must_hits": [
@@ -287,13 +322,13 @@
         "Internship"
       ],
       "created_at": null,
-      "updated_at": "2026-05-06T12:27:19-04:00",
+      "updated_at": "2026-05-15T13:56:18-04:00",
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.2,
-        "semantic_raw": 0.4066547397761296,
-        "semantic_norm": 0.5927143412725198,
-        "final": 0.4159928876998859
+        "semantic_raw": 0.4066547155376182,
+        "semantic_norm": 0.5526742737278901,
+        "final": 0.39397085055033965
       },
       "signals": {
         "must_hits": [],
@@ -327,9 +362,9 @@
       "scores": {
         "hard_raw": 7.0,
         "hard_norm": 0.7,
-        "semantic_raw": 0.2199843192079632,
-        "semantic_norm": 0.13203998843537051,
-        "final": 0.3876219936394538
+        "semantic_raw": 0.21998427629355108,
+        "semantic_norm": 0.12312012546718652,
+        "final": 0.3827160690069526
       },
       "signals": {
         "must_hits": [
@@ -366,9 +401,9 @@
       "scores": {
         "hard_raw": 4.0,
         "hard_norm": 0.4,
-        "semantic_raw": 0.2915546471804235,
-        "semantic_norm": 0.30866472855597143,
-        "final": 0.34976560070578433
+        "semantic_raw": 0.2915545701977675,
+        "semantic_norm": 0.2878131361189574,
+        "final": 0.3382972248654266
       },
       "signals": {
         "must_hits": [
