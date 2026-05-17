@@ -34,7 +34,7 @@
       },
       "semantic": {
         "raw": 0.6010481119149873,
-        "cache_reused": false,
+        "cache_reused": true,
         "norm": 1.0
       },
       "text_hash": "d1aea54798cc46f849cbcf19f37056fe9f14c803",
