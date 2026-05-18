@@ -2,8 +2,8 @@
   "meta": {
     "engine_name": "AutoJob-Agent Feeder",
     "version": 2,
-    "generated_at": "2026-05-17T16:32:03.918908+00:00",
-    "source_jobs_count": 86,
+    "generated_at": "2026-05-18T17:40:02.168703+00:00",
+    "source_jobs_count": 84,
     "candidates_count": 11,
     "candidates_topN_total": 150,
     "thresholds": {
@@ -248,7 +248,7 @@
         "Internship"
       ],
       "created_at": null,
-      "updated_at": "2026-05-15T13:56:18-04:00",
+      "updated_at": "2026-05-18T12:28:17-04:00",
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.2,
@@ -322,7 +322,7 @@
         "Internship"
       ],
       "created_at": null,
-      "updated_at": "2026-05-15T13:56:18-04:00",
+      "updated_at": "2026-05-18T12:28:16-04:00",
       "scores": {
         "hard_raw": 2.0,
         "hard_norm": 0.2,
