@@ -36,29 +36,23 @@
   - nice_hits: mlflow
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=1, nice_hits=1
 
-- asana | Product Design Intern - Summer 2026 (San Francisco) | San Francisco | score=0.420
-  - url: https://www.asana.com/jobs/apply/7490322?gh_jid=7490322
-  - must_hits: None
-  - nice_hits: rag
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1
-
 - ramp | University Grad | Software Engineer | Frontend | New York, NY (HQ) | score=0.414
   - url: https://jobs.ashbyhq.com/ramp/a1229aec-1105-4c47-8533-b912e732ed89/application
   - must_hits: python, sql
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1
 
-- asana | Product Design Intern - Summer 2026 (New York) | New York City | score=0.394
-  - url: https://www.asana.com/jobs/apply/7490328?gh_jid=7490328
-  - must_hits: None
-  - nice_hits: rag
-  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1
-
 - ramp | Software Engineer Internship, Android  | New York, NY (HQ) | score=0.383
   - url: https://jobs.ashbyhq.com/ramp/67fadb77-43d8-4449-954b-d4cf2c6d3b8b/application
   - must_hits: python, sql
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1
+
+- serval | Emerging Talent Recruiter | San Francisco | score=0.360
+  - url: https://jobs.ashbyhq.com/Serval/9784591b-28ba-415d-838a-0d167d0dd62f/application
+  - must_hits: None
+  - nice_hits: rag
+  - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1
 
 - sierra | Intern, Agent Development (Fall 2026) | San Francisco, CA | score=0.338
   - url: https://jobs.ashbyhq.com/sierra/c74d600c-235c-4d42-8546-b178b7adefc2/application
