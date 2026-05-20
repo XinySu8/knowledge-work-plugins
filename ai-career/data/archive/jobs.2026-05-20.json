@@ -1,15 +1,15 @@
 {
-  "generated_at_utc": "2026-05-20T16:30:03.904275+00:00",
+  "generated_at_utc": "2026-05-20T16:50:19.484815+00:00",
   "today_utc": "2026-05-20",
-  "fetched_count": 3521,
+  "fetched_count": 3526,
   "filtered_count": 4,
   "count": 4,
   "today_count": 0,
   "backlog_count": 4,
   "per_company_fetched": {
-    "openai": 671,
+    "openai": 673,
     "anthropic": 385,
-    "databricks": 795,
+    "databricks": 797,
     "cohere": 130,
     "perplexity": 61,
     "langchain": 97,
@@ -20,13 +20,13 @@
     "zapier": 23,
     "sierra": 125,
     "mistral": 162,
-    "stripe": 479,
+    "stripe": 480,
     "scaleai": 179,
     "figma": 163
   },
   "per_source_fetched": {
-    "ashby": 1358,
-    "greenhouse": 2001,
+    "ashby": 1360,
+    "greenhouse": 2004,
     "lever": 162
   },
   "errors": [],
