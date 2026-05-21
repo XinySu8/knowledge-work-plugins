@@ -24,6 +24,24 @@
   - nice_hits: rag
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1
 
+- cloudflare | Technical Marketing Intern (Summer 2026) | In-Office | score=0.000 [HARD-GATE: location_not_allowed (allowlist: US/China/Singapore)]
+  - url: https://boards.greenhouse.io/cloudflare/jobs/7733496?gh_jid=7733496
+  - must_hits: None
+  - nice_hits: None
+  - reason: Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)
+
+- cloudflare | Machine Learning Engineer Intern (Summer 2026) | In-Office | score=0.000 [HARD-GATE: location_not_allowed (allowlist: US/China/Singapore)]
+  - url: https://boards.greenhouse.io/cloudflare/jobs/7914628?gh_jid=7914628
+  - must_hits: None
+  - nice_hits: None
+  - reason: Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)
+
+- cloudflare | Data Science Intern (Summer 2026) | In-Office | score=0.000 [HARD-GATE: location_not_allowed (allowlist: US/China/Singapore)]
+  - url: https://boards.greenhouse.io/cloudflare/jobs/7914511?gh_jid=7914511
+  - must_hits: None
+  - nice_hits: None
+  - reason: Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)
+
 - stripe | PhD Data Scientist, Intern | Toronto, Ontario, Canada | score=0.000 [HARD-GATE: location_not_allowed (allowlist: US/China/Singapore)]
   - url: https://stripe.com/jobs/search?gh_jid=7285974
   - must_hits: None
@@ -84,26 +102,8 @@
   - nice_hits: None
   - reason: Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)
 
-- cloudflare | Technical Marketing Intern (Summer 2026) | In-Office | score=0.000 [HARD-GATE: location_not_allowed (allowlist: US/China/Singapore)]
-  - url: https://boards.greenhouse.io/cloudflare/jobs/7733496?gh_jid=7733496
-  - must_hits: None
-  - nice_hits: None
-  - reason: Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)
-
 - cohere | Machine Learning Intern/Co-op  (Fall, 2026) | Canada | score=0.000 [HARD-GATE: location_not_allowed (allowlist: US/China/Singapore)]
   - url: https://jobs.ashbyhq.com/cohere/36d1f52f-8270-4652-adf5-5303a0ff341b/application
-  - must_hits: None
-  - nice_hits: None
-  - reason: Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)
-
-- cloudflare | Machine Learning Engineer Intern (Summer 2026) | In-Office | score=0.000 [HARD-GATE: location_not_allowed (allowlist: US/China/Singapore)]
-  - url: https://boards.greenhouse.io/cloudflare/jobs/7914628?gh_jid=7914628
-  - must_hits: None
-  - nice_hits: None
-  - reason: Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)
-
-- cloudflare | Data Science Intern (Summer 2026) | In-Office | score=0.000 [HARD-GATE: location_not_allowed (allowlist: US/China/Singapore)]
-  - url: https://boards.greenhouse.io/cloudflare/jobs/7914511?gh_jid=7914511
   - must_hits: None
   - nice_hits: None
   - reason: Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)
@@ -126,12 +126,6 @@
   - nice_hits: None
   - reason: Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)
 
-- cloudflare | Sales Project Manager Summer Intern - 3 months | In-Office | score=0.000 [HARD-GATE: location_not_allowed (allowlist: US/China/Singapore)]
-  - url: https://boards.greenhouse.io/cloudflare/jobs/7899062?gh_jid=7899062
-  - must_hits: None
-  - nice_hits: None
-  - reason: Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)
-
 - cloudflare | Business Analyst Intern, Marketing (July to December 2026) | In-Office | score=0.000 [HARD-GATE: location_not_allowed (allowlist: US/China/Singapore)]
   - url: https://boards.greenhouse.io/cloudflare/jobs/7729700?gh_jid=7729700
   - must_hits: None
@@ -140,12 +134,6 @@
 
 - cloudflare | Marketing Events and Campaigns Intern (Mid-Year 2026) | In-Office | score=0.000 [HARD-GATE: location_not_allowed (allowlist: US/China/Singapore)]
   - url: https://boards.greenhouse.io/cloudflare/jobs/7736919?gh_jid=7736919
-  - must_hits: None
-  - nice_hits: None
-  - reason: Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)
-
-- cloudflare | Marketing Events and Campaigns Intern (Summer/Fall 2026) | In-Office | score=0.000 [HARD-GATE: location_not_allowed (allowlist: US/China/Singapore)]
-  - url: https://boards.greenhouse.io/cloudflare/jobs/7733327?gh_jid=7733327
   - must_hits: None
   - nice_hits: None
   - reason: Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)
@@ -259,13 +247,13 @@
   - reason: Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)
 
 - cloudflare | Security Engineer Intern (Summer 2026) | In-Office | score=0.000 [HARD-GATE: location_not_allowed (allowlist: US/China/Singapore)]
-  - url: https://boards.greenhouse.io/cloudflare/jobs/7582169?gh_jid=7582169
+  - url: https://boards.greenhouse.io/cloudflare/jobs/7582150?gh_jid=7582150
   - must_hits: None
   - nice_hits: None
   - reason: Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)
 
 - cloudflare | Security Engineer Intern (Summer 2026) | In-Office | score=0.000 [HARD-GATE: location_not_allowed (allowlist: US/China/Singapore)]
-  - url: https://boards.greenhouse.io/cloudflare/jobs/7582150?gh_jid=7582150
+  - url: https://boards.greenhouse.io/cloudflare/jobs/7582169?gh_jid=7582169
   - must_hits: None
   - nice_hits: None
   - reason: Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)
@@ -278,12 +266,6 @@
 
 - cloudflare | Threat Detection and Incident Response Intern (Summer 2026) | In-Office | score=0.000 [HARD-GATE: location_not_allowed (allowlist: US/China/Singapore)]
   - url: https://boards.greenhouse.io/cloudflare/jobs/7577205?gh_jid=7577205
-  - must_hits: None
-  - nice_hits: None
-  - reason: Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)
-
-- cloudflare | U.S. Public Policy and AI Innovation Intern (Summer 2026) | In-Office | score=0.000 [HARD-GATE: location_not_allowed (allowlist: US/China/Singapore)]
-  - url: https://boards.greenhouse.io/cloudflare/jobs/7802906?gh_jid=7802906
   - must_hits: None
   - nice_hits: None
   - reason: Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)
