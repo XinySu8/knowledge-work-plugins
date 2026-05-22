@@ -2,11 +2,43 @@
   "meta": {
     "version": 2,
     "model_name": "sentence-transformers/all-MiniLM-L6-v2",
-    "jobs_total": 77,
-    "jobs_scored": 77,
+    "jobs_total": 78,
+    "jobs_scored": 78,
     "non_gated_count": 14
   },
   "scored_jobs": [
+    {
+      "job_uid": "0840c4ade2d56462",
+      "source": "greenhouse",
+      "company": "cloudflare",
+      "title": "Sales Project Manager (Process & AI Innovation)  Summer Intern - 3 months",
+      "location": "In-Office",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7899062?gh_jid=7899062",
+      "updated_at": "2026-05-22T12:04:17-04:00",
+      "created_at": null,
+      "departments": [
+        "University"
+      ],
+      "hard_gate": {
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
+      },
+      "hard": {
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
+      },
+      "text_hash": "c7172b9feb915e5d60c984a8b1c0ff1005759df2",
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
+    },
     {
       "job_uid": "2fbe2ec9c31fc641",
       "source": "greenhouse",
@@ -1341,38 +1373,6 @@
       "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
-      "job_uid": "6a65f46fc7e41183",
-      "source": "greenhouse",
-      "company": "cloudflare",
-      "title": "Revenue Operations Intern - Enablement (AI Innovation) (Summer 2026)",
-      "location": "In-Office",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/7761397?gh_jid=7761397",
-      "updated_at": "2026-04-21T15:53:17-04:00",
-      "created_at": null,
-      "departments": [
-        "University"
-      ],
-      "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
-      },
-      "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.0
-      },
-      "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
-      },
-      "text_hash": "49cc908bc54dcf4cc76d4a251d9990c73b2ba623",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
-    },
-    {
       "job_uid": "a69b027a9f170de6",
       "source": "greenhouse",
       "company": "cloudflare",
@@ -1993,6 +1993,38 @@
       "text_hash": "08c70356bb0c8faad2a62aedf00b8620130b5907",
       "final_score": 0.4136197216869347,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1"
+    },
+    {
+      "job_uid": "be3fda329ccdfb00",
+      "source": "lever",
+      "company": "zoox",
+      "title": "Part-Time Student Worker - Labeling Technician",
+      "location": "Foster City, CA",
+      "url": "https://jobs.lever.co/zoox/02247e1c-beb8-432e-a28c-aa297c5da5bb",
+      "updated_at": 1778284510320,
+      "created_at": 1778284510320,
+      "departments": [
+        "Calibration, Localization & Mapping"
+      ],
+      "hard_gate": {
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
+      },
+      "hard": {
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
+      },
+      "text_hash": "4d251fe1b4951aea9790b80c19752ba2803d71a6",
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "6233f3131208be6e",
