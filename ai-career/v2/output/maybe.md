@@ -24,7 +24,7 @@
   - nice_hits: None
   - reason: Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=4, nice_hits=0
 
-- notion | Software Engineer Intern (Fall 2026) | San Francisco, California | score=0.532
+- notion | Software Engineer Intern (Fall 2026) | San Francisco, California | score=0.585
   - url: https://jobs.ashbyhq.com/notion/5b15697c-fa91-4511-9482-c98a6ff29f90/application
   - must_hits: python, llm
   - nice_hits: rag

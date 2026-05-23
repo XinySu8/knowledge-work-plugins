@@ -2,8 +2,8 @@
   "meta": {
     "engine_name": "AutoJob-Agent Feeder",
     "version": 2,
-    "generated_at": "2026-05-22T17:22:57.597282+00:00",
-    "source_jobs_count": 78,
+    "generated_at": "2026-05-23T16:32:46.386432+00:00",
+    "source_jobs_count": 79,
     "candidates_count": 10,
     "candidates_topN_total": 150,
     "thresholds": {
@@ -177,9 +177,9 @@
       "scores": {
         "hard_raw": 7.0,
         "hard_norm": 0.7,
-        "semantic_raw": 0.3378145396706064,
-        "semantic_norm": 0.39426363715136986,
-        "final": 0.5318450004332534
+        "semantic_raw": 0.37975220438826307,
+        "semantic_norm": 0.4907679252474752,
+        "final": 0.5849223588861114
       },
       "signals": {
         "must_hits": [
@@ -191,13 +191,13 @@
         ],
         "neg_hits": []
       },
-      "text_hash": "9822a2c19ffa79334ffdcdccf3fd99ccce7fbed9",
+      "text_hash": "8a7271f8ebda5626bcd1fc16a7f492f517d8b8cb",
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1",
       "hard_gate": {
         "hit": false,
         "reason": ""
       },
-      "jd_excerpt": "ABOUT US: Notion helps you build beautiful tools for your life’s work. In today's world of endless apps and tabs, Notion provides one place for teams to get everything done, seamlessly connecting docs, notes, projects, calendar, and email—with AI built in to find answers and automate work. Millions of users, from individuals to large organizations like Toyota, Figma, and OpenAI, love Notion for its flexibility and choose it because it helps them save time and money. In-person collaboration is essential to Notion's culture. We require all team members to work from our offices on Mondays, Tuesda"
+      "jd_excerpt": "WHO WE ARE Notion is the collaborative AI workspace where teams and agents think together https://www.youtube.com/watch?v=vkpYpWfEK5s. We're building one place where your knowledge, projects, meetings, and AI tools live side by side, so work feels faster, clearer, and less fragmented. Millions of individuals, small teams, and large companies run their work on Notion. Notinos (our employees) are customer zero in bringing this future of work to life. We care about craft, humanity, and building things that last — not just shipping the next feature, but setting a standard for how modern teams (wit"
     },
     {
       "job_uid": "119fc6123c9f2f04",

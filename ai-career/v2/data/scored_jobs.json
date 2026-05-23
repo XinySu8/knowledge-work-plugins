@@ -2,9 +2,9 @@
   "meta": {
     "version": 2,
     "model_name": "sentence-transformers/all-MiniLM-L6-v2",
-    "jobs_total": 78,
-    "jobs_scored": 78,
-    "non_gated_count": 14
+    "jobs_total": 79,
+    "jobs_scored": 79,
+    "non_gated_count": 15
   },
   "scored_jobs": [
     {
@@ -1085,38 +1085,6 @@
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=1"
     },
     {
-      "job_uid": "72b6ca3369d5ba3c",
-      "source": "greenhouse",
-      "company": "cloudflare",
-      "title": "Business Analyst Intern, Revenue Operations (AI Innovation) (Summer 2026)",
-      "location": "In-Office",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/7761468?gh_jid=7761468",
-      "updated_at": "2026-04-21T15:53:17-04:00",
-      "created_at": null,
-      "departments": [
-        "University"
-      ],
-      "hard_gate": {
-        "hit": true,
-        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
-      },
-      "hard": {
-        "raw": 0.0,
-        "must_hits": [],
-        "nice_hits": [],
-        "neg_hits": [],
-        "norm": 0.0
-      },
-      "semantic": {
-        "raw": 0.0,
-        "cache_reused": false,
-        "norm": 0.0
-      },
-      "text_hash": "2baa8fe1c25f6b946e0c8a343e4554cb8e5379d4",
-      "final_score": 0.0,
-      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
-    },
-    {
       "job_uid": "6d60a0c4fc37416b",
       "source": "greenhouse",
       "company": "cloudflare",
@@ -1634,12 +1602,12 @@
         "norm": 0.7
       },
       "semantic": {
-        "raw": 0.3378145396706064,
-        "cache_reused": true,
-        "norm": 0.39426363715136986
+        "raw": 0.37975220438826307,
+        "cache_reused": false,
+        "norm": 0.4907679252474752
       },
-      "text_hash": "9822a2c19ffa79334ffdcdccf3fd99ccce7fbed9",
-      "final_score": 0.5318450004332534,
+      "text_hash": "8a7271f8ebda5626bcd1fc16a7f492f517d8b8cb",
+      "final_score": 0.5849223588861114,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1"
     },
     {
@@ -1993,6 +1961,70 @@
       "text_hash": "08c70356bb0c8faad2a62aedf00b8620130b5907",
       "final_score": 0.4136197216869347,
       "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=2, nice_hits=1"
+    },
+    {
+      "job_uid": "3fec2fdc6216f769",
+      "source": "lever",
+      "company": "shieldai",
+      "title": "2026 Summer Intern - Strategy & Operations (R5065)",
+      "location": "San Francisco, California",
+      "url": "https://jobs.lever.co/shieldai/1721f9b3-b098-4988-bbb6-2d0382936be5",
+      "updated_at": 1779498384821,
+      "created_at": 1779498384821,
+      "departments": [
+        "Executive Office"
+      ],
+      "hard_gate": {
+        "hit": false,
+        "reason": ""
+      },
+      "hard": {
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.2561369240281404,
+        "cache_reused": false,
+        "norm": 0.2063123002319135
+      },
+      "text_hash": "343638c8a174f4ee92d2d3dc42f20b5c8030f27b",
+      "final_score": 0.11347176512755243,
+      "final_reason": "Fusion: 0.45*hard_norm + 0.55*semantic_norm; must_hits=0, nice_hits=0"
+    },
+    {
+      "job_uid": "ec218265763db74f",
+      "source": "lever",
+      "company": "zoox",
+      "title": "Platform Intelligence Intern",
+      "location": "Foster City, CA",
+      "url": "https://jobs.lever.co/zoox/22bece12-95a5-4ad7-a4e4-6c43178153d2",
+      "updated_at": 1778284785449,
+      "created_at": 1778284785449,
+      "departments": [
+        "Information Technology"
+      ],
+      "hard_gate": {
+        "hit": true,
+        "reason": "location_not_allowed (allowlist: US/China/Singapore)"
+      },
+      "hard": {
+        "raw": 0.0,
+        "must_hits": [],
+        "nice_hits": [],
+        "neg_hits": [],
+        "norm": 0.0
+      },
+      "semantic": {
+        "raw": 0.0,
+        "cache_reused": false,
+        "norm": 0.0
+      },
+      "text_hash": "b2b1c3939c6b5bb6d9179ef163cf41617dbac1b7",
+      "final_score": 0.0,
+      "final_reason": "Hard gate hit: location_not_allowed (allowlist: US/China/Singapore)"
     },
     {
       "job_uid": "be3fda329ccdfb00",
