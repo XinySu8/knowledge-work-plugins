@@ -1,8 +1,6 @@
 name: autojob_agent_feeder_daily
 
 on:
-  schedule:
-    - cron: "30 15 * * *"
   workflow_dispatch: {}
 
 jobs:
